@@ -1,4 +1,4 @@
-# BOJ-profile-problems
+# BOJ-profile-problems <img align="right" src="icons/icon48.png"/>
 
 ## 스크린샷
 
