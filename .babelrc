@@ -1,0 +1,26 @@
+{
+  "presets":  [
+    ["@babel/preset-env",{
+      "targets": "chrome 55"
+    }]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-class-properties",
+    "dynamic-import-node"
+  ],
+  "ignore": ["js/build/*"],
+  "env": {
+    "production": {
+      "comments": false,
+      "presets": [
+        ["minify"]
+      ],
+      "plugins": [
+        ["transform-remove-console", {
+          "exclude": [ "error", "warn"]
+        }]
+      ]
+    }
+  }
+}
