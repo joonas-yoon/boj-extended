@@ -2,7 +2,9 @@
 
 ## 스크린샷
 
-![how to use](docs/images/screenshot.png)
+![User Page](docs/images/screenshot-user.png)
+
+![Status Page](docs/images/screenshot-user.png)
 
 ## 설치 및 사용
 

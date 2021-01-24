@@ -13,6 +13,8 @@
 
     if (loc.pathname.startsWith('/user/')) {
       extendUserPage();
+    } else if (loc.pathname.startsWith('/status')) {
+      extendStatusPage();
     }
   }
 })();
