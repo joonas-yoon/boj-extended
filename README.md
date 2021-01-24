@@ -4,9 +4,17 @@
 
 ## 스크린샷
 
+### 유저 페이지
+
 ![User Page](docs/images/screenshot-user.png)
 
+### 채점 현황
+
 ![Status Page](docs/images/screenshot-status.png)
+
+### 어두운 테마
+
+![Dark Theme](https://user-images.githubusercontent.com/9527681/105636072-be4af700-5ea9-11eb-8515-a306c701a84e.png)
 
 ## 설치 및 사용
 
