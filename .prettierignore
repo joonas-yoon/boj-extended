@@ -1,4 +1,8 @@
-**/*.min.js
 .*
-node_modules/*
+**/*.min.js
+dist/
+docs/
+icons/
 js/build/
+node_modules/*
+util/

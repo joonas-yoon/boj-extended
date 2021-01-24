@@ -1,4 +1,4 @@
-# BOJ-profile-problems <img align="right" src="icons/icon48.png"/>
+# BOJ-extended <img align="right" src="icons/icon48.png"/>
 
 ## 스크린샷
 
@@ -10,4 +10,4 @@
 
 ## License
 
-[BOJ-profile-problems](https://github.com/joonas-yoon/boj-profile-problems/) are released under [MIT license](https://github.com/joonas-yoon/boj-profile-problems/blob/master/LICENSE).
+[BOJ-extended](https://github.com/joonas-yoon/boj-extended/) are released under [MIT license](https://github.com/joonas-yoon/boj-extended/blob/master/LICENSE).

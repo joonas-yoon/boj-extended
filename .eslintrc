@@ -18,8 +18,9 @@
     },
     "globals": {
       "chrome": false,
-      "Language": false,
-      "Config": false
+      "Config": false,
+      "Utils": false,
+      "PROVISIONED_DB": false
     }
   }
   
