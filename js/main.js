@@ -18,5 +18,7 @@
     } else if (loc.pathname.startsWith('/status')) {
       extendStatusPage();
     }
+
+    extendTheme();
   }
 })();
