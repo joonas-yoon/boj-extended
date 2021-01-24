@@ -1,5 +1,7 @@
 # BOJ-extended <img align="right" src="icons/icon48.png"/>
 
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)
+
 ## 스크린샷
 
 ![User Page](docs/images/screenshot-user.png)
