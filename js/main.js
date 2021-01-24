@@ -1,6 +1,4 @@
 (function () {
-  Utils.loadCSS('css/theme-dark.css');
-
   setTimeout(() => {
     if (window.addEventListener) {
       window.addEventListener('load', pageLoaded);
