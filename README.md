@@ -4,7 +4,7 @@
 
 ![User Page](docs/images/screenshot-user.png)
 
-![Status Page](docs/images/screenshot-user.png)
+![Status Page](docs/images/screenshot-status.png)
 
 ## 설치 및 사용
 
