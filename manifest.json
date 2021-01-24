@@ -19,7 +19,7 @@
       ]
     }
   ],
-  "web_accessible_resources": ["css/common.css", "css/user.css"],
+  "web_accessible_resources": ["css/common.css", "css/user.css", "css/theme-dark.css"],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
