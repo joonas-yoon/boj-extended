@@ -2,7 +2,7 @@
 
 class ConfigClass {
   constructor() {
-    this.storage = 'ytcf-config';
+    this.storage = 'config';
     this.a = { enable: false, lang: undefined }; // lang as i18n code like 'ko'
     const self = this;
     chrome.storage.sync.get(this.storage, (items) => {
@@ -18,13 +18,14 @@ class ConfigClass {
     const obj = {};
     obj[this.storage] = this.a;
     chrome.storage.sync.set(obj, () => {
-      callback(value);
+      if (typeof callback === 'function') callback(value);
     });
   }
 
   load(key, callback) {
     const storage = this.storage;
     chrome.storage.sync.get(storage, (items) => {
+      if (typeof callback !== 'function') return;
       if (!items || !items[storage]) {
         callback(null);
       } else {

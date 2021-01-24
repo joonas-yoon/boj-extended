@@ -17,24 +17,40 @@ function extendStatusPage() {
       }
     });
 
-  const form = document.querySelector('form[action="/status"]');
-  const radio1 = createRadioElement(
-    '문제 번호',
-    (evt) => {
-      titles.forEach((e) => {
-        e.innerText = e.getAttribute('data-original-id');
-      });
-    },
-    true
-  );
-  const radio2 = createRadioElement('문제 제목', (evt) => {
+  function display(showPid) {
     titles.forEach((e) => {
-      const text = e.getAttribute('data-original-title');
-      e.innerText = text.length > 20 ? text.substr(0, 17) + '…' : text;
+      if (showPid) {
+        e.innerText = e.getAttribute('data-original-id');
+      } else {
+        const text = e.getAttribute('data-original-title');
+        e.innerText = text.length > 20 ? text.substr(0, 17) + '…' : text;
+      }
     });
+  }
+
+  Config.load('show-status-pid', (showPid) => {
+    console.log(showPid);
+    const form = document.querySelector('form[action="/status"]');
+    const radio1 = createRadioElement(
+      '문제 번호',
+      (evt) => {
+        Config.save('show-status-pid', true, console.log);
+        display(true);
+      },
+      !!showPid
+    );
+    const radio2 = createRadioElement(
+      '문제 제목',
+      (evt) => {
+        Config.save('show-status-pid', false, console.log);
+        display(false);
+      },
+      !showPid
+    );
+    form.insertBefore(radio2, form.firstChild);
+    form.insertBefore(radio1, form.firstChild);
+    setTimeout(() => display(!!showPid), 10);
   });
-  form.insertBefore(radio2, form.firstChild);
-  form.insertBefore(radio1, form.firstChild);
 
   function createRadioElement(labelText, changeEvent, checked) {
     const randID = Math.random().toString(36).substr(2);

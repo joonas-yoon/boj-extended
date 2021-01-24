@@ -1,7 +1,7 @@
 {
   "name": "BOJ Extended",
-  "description": "백준 온라인 저지(BOJ)의 기능을 확장하여 사용합니다.",
-  "version": "1.2.0",
+  "description": "백준 온라인 저지(BOJ)를 확장된 기능과 함께 사용해보세요.",
+  "version": "1.2.1",
   "manifest_version": 2,
   "content_scripts": [
     {
@@ -23,5 +23,5 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["storage", "tabs"]
+  "permissions": ["storage"]
 }
