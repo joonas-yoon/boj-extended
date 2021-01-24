@@ -3,7 +3,8 @@
   margin-right: 10px;
 }
 
-.panel-body a > .pid, .panel-body a > .pname {
+.panel-body a > .pid,
+.panel-body a > .pname {
   display: none;
 }
 
