@@ -5,19 +5,21 @@
   "manifest_version": 2,
   "content_scripts": [
     {
-      "matches": ["https://www.acmicpc.net/*"],
+      "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
+      "css": ["css/theme-dark.css"],
       "js": [
         "js/db.js",
         "js/config.js",
         "js/utils.js",
+        "js/bg-theme.js",
         "js/bg-user.js",
         "js/bg-status.js",
         "js/main.js"
       ]
     }
   ],
-  "web_accessible_resources": ["css/style.css"],
+  "web_accessible_resources": ["css/common.css", "css/user.css", "css/theme-dark.css"],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",

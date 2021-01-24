@@ -1,5 +1,5 @@
 function extendUserPage() {
-  Utils.loadCSS('css/style.css');
+  Utils.loadCSS('css/user.css');
 
   const pnames = PROVISIONED_DB['problems'];
   const panels = document.querySelectorAll('.panel-body');

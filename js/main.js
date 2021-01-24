@@ -5,7 +5,7 @@
     } else {
       window.attachEvent('onload', pageLoaded);
     }
-  }, 100);
+  }, 10);
 
   function pageLoaded() {
     /* eslint-disable no-undef */
@@ -16,5 +16,7 @@
     } else if (loc.pathname.startsWith('/status')) {
       extendStatusPage();
     }
+
+    extendTheme();
   }
 })();

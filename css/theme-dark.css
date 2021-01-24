@@ -1,0 +1,234 @@
+body[theme='dark'] body {
+  color: #dfdfdf;
+}
+body[theme='dark'] div,
+body[theme='dark'] p,
+body[theme='dark'] li {
+  color: #cfcfcf;
+}
+body[theme='dark'] .wrapper {
+  background: black;
+}
+body[theme='dark'] .header {
+  background-color: #0e0e0e;
+  color: white;
+  border-bottom: solid 2px #0a0a0a;
+}
+body[theme='dark'] .header .navbar-default .navbar-nav > .active > a {
+  color: #d2d2d2;
+  border-color: #949494;
+}
+body[theme='dark'] .header .mega-menu .mega-menu-content {
+  background: #0e0e0e;
+}
+body[theme='dark'] .header .dropdown-menu {
+  border-top: solid 2px #949494;
+}
+@media (min-width: 992px) {
+  body[theme='dark'] .header .mega-menu .equal-height-in {
+    border-left-color: #191919;
+  }
+}
+body[theme='dark'] table.table tr td a {
+  color: #bbb;
+}
+body[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
+body[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #111;
+  border-color: #333;
+}
+body[theme='dark'] .table-bordered {
+  border-color: #333;
+}
+body[theme='dark'] .table-bordered > thead > tr > th,
+body[theme='dark'] .table-bordered > tbody > tr > th,
+body[theme='dark'] .table-bordered > tfoot > tr > th,
+body[theme='dark'] .table-bordered > thead > tr > td,
+body[theme='dark'] .table-bordered > tbody > tr > td,
+body[theme='dark'] .table-bordered > tfoot > tr > td {
+  border-color: #333;
+}
+body[theme='dark'] .table-hover > tbody > tr:hover > td,
+body[theme='dark'] .table-hover > tbody > tr:hover > th {
+  background-color: #232323;
+}
+body[theme='dark'] .table > thead > tr > th,
+body[theme='dark'] .table > tbody > tr > th,
+body[theme='dark'] .table > tfoot > tr > th,
+body[theme='dark'] .table > thead > tr > td,
+body[theme='dark'] .table > tbody > tr > td,
+body[theme='dark'] .table > tfoot > tr > td {
+  border-color: #2d2d2d;
+}
+body[theme='dark'] .table > thead > tr > td.success,
+body[theme='dark'] .table > tbody > tr > td.success,
+body[theme='dark'] .table > tfoot > tr > td.success,
+body[theme='dark'] .table > thead > tr > th.success,
+body[theme='dark'] .table > tbody > tr > th.success,
+body[theme='dark'] .table > tfoot > tr > th.success,
+body[theme='dark'] .table > thead > tr.success > td,
+body[theme='dark'] .table > tbody > tr.success > td,
+body[theme='dark'] .table > tfoot > tr.success > td,
+body[theme='dark'] .table > thead > tr.success > th,
+body[theme='dark'] .table > tbody > tr.success > th,
+body[theme='dark'] .table > tfoot > tr.success > th {
+  border-color: #6f9062;
+  background-color: #567b47;
+}
+body[theme='dark'] .table > thead > tr > td.info,
+body[theme='dark'] .table > tbody > tr > td.info,
+body[theme='dark'] .table > tfoot > tr > td.info,
+body[theme='dark'] .table > thead > tr > th.info,
+body[theme='dark'] .table > tbody > tr > th.info,
+body[theme='dark'] .table > tfoot > tr > th.info,
+body[theme='dark'] .table > thead > tr.info > td,
+body[theme='dark'] .table > tbody > tr.info > td,
+body[theme='dark'] .table > tfoot > tr.info > td,
+body[theme='dark'] .table > thead > tr.info > th,
+body[theme='dark'] .table > tbody > tr.info > th,
+body[theme='dark'] .table > tfoot > tr.info > th {
+  background-color: #13587b;
+}
+body[theme='dark'] .footer-v3 .footer {
+  background: #101010;
+  border-top: 5px solid #1f1f1f;
+}
+body[theme='dark'] .form-control {
+  color: #eee;
+  border-color: #333;
+  background-color: #666;
+}
+body[theme='dark'] .form-control input::placeholder {
+  color: #dfdfdf;
+}
+body[theme='dark'] .pagination > li > a,
+body[theme='dark'] .pagination > li > span {
+  background-color: #040404;
+  border-color: #313131;
+}
+body[theme='dark'] .nav > li > a:hover,
+body[theme='dark'] .nav > li > a:focus {
+  background-color: #383838;
+  color: #ccc;
+}
+body[theme='dark'] .reg-page {
+  color: #e2e2e2;
+  padding: 30px;
+  background: #0e0e0e;
+  border: solid 1px #1f1f1f;
+  box-shadow: 0 0 3px #2f2f2f;
+}
+body[theme='dark'] .reg-header h2 {
+  color: #e2e2e2;
+}
+body[theme='dark'] .input-group-addon {
+  color: #dadada;
+  background: #1d1d1d;
+  border-color: #222;
+}
+body[theme='dark'] .breadcrumbs {
+  background: #050505 !important;
+  border-color: black;
+}
+body[theme='dark'] .sky-form {
+  border-color: #222;
+}
+body[theme='dark'] .sky-form fieldset {
+  background: #080808;
+  color: white;
+}
+body[theme='dark'] .sky-form .radio,
+body[theme='dark'] .sky-form .checkbox {
+  color: #9a9a9a;
+}
+body[theme='dark'] .selectize-input {
+  border-color: #222;
+}
+body[theme='dark'] .selectize-control.single .selectize-input.input-active,
+body[theme='dark'] .selectize-input {
+  background: #4a4a4a;
+}
+body[theme='dark'] .selectize-dropdown,
+body[theme='dark'] .selectize-dropdown.form-control {
+  background: #2d2d2d;
+}
+body[theme='dark'] .sky-form .radio i,
+body[theme='dark'] .sky-form .checkbox i {
+  background: #1f1f1f;
+}
+body[theme='dark'] .sky-form .radio input + i:after {
+  background-color: #fff;
+}
+body[theme='dark'] .sky-form footer {
+  background: #080808;
+}
+body[theme='dark'] .dropdown-menu {
+  background-color: #333;
+}
+body[theme='dark'] .dropdown-menu > li > a {
+  color: #ccc;
+}
+body[theme='dark'] .dropdown-menu .divider {
+  background-color: #4a4a4a;
+}
+body[theme='dark'] .dropdown-menu > li > a:hover,
+body[theme='dark'] .dropdown-menu > li > a:focus {
+  color: #dadada;
+  background-color: #5f5f5f;
+}
+body[theme='dark'] .funny-boxes {
+  background: #020202;
+}
+body[theme='dark'] .search-block-v2 {
+  background: #060606;
+}
+body[theme='dark'] .list-group-item {
+  background-color: #101010;
+  border-color: #2d2d2d;
+}
+body[theme='dark'] .sidebar-nav-v1 > li.active > a {
+  color: #000;
+}
+body[theme='dark'] .sidebar-nav-v1 > li.active,
+body[theme='dark'] .sidebar-nav-v1 > li.active:hover {
+  background: #d0d1d2;
+}
+body[theme='dark'] .sidebar-nav-v1 li a:hover,
+body[theme='dark'] .sidebar-nav-v1 li a:active {
+  color: #f1f1f1;
+}
+body[theme='dark'] .form-control[disabled],
+body[theme='dark'] .form-control[readonly],
+body[theme='dark'] fieldset[disabled] .form-control {
+  background-color: #191919;
+  color: #666;
+}
+body[theme='dark'] .progress {
+  background: #0c0c0c;
+}
+body[theme='dark'] .panel-default {
+  border-color: #6b6b6b;
+}
+body[theme='dark'] .panel-default > .panel-heading {
+  color: #fff;
+  background-color: #5a5a5a;
+  border-color: #313131;
+}
+body[theme='dark'] .panel-body {
+  background-color: #111;
+}
+body[theme='dark'] .page-header > h1 {
+  color: white;
+}
+body[theme='dark'] .blog-twitter .blog-twitter-inner {
+  background: #252525;
+}
+body[theme='dark'] .blog-twitter .blog-twitter-inner:after {
+  border-top: 15px solid #6d6d6d;
+}
+body[theme='dark'] .blog-twitter .blog-twitter-inner:before {
+  border-bottom-color: black;
+}
+body[theme='dark'] .blog-twitter .blog-twitter-inner a.article-subject {
+  color: #b1b1b1;
+}
