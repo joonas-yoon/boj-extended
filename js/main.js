@@ -1,11 +1,13 @@
 (function () {
+  Utils.loadCSS('css/theme-dark.css');
+
   setTimeout(() => {
     if (window.addEventListener) {
       window.addEventListener('load', pageLoaded);
     } else {
       window.attachEvent('onload', pageLoaded);
     }
-  }, 100);
+  }, 10);
 
   function pageLoaded() {
     /* eslint-disable no-undef */

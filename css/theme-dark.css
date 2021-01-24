@@ -1,0 +1,190 @@
+body {
+  color: #dfdfdf;
+}
+div, p, li {
+  color: #cfcfcf;
+}
+.wrapper {
+  background: black;
+}
+.header {
+  background-color: #0e0e0e;
+  color: white;
+  border-bottom: solid 2px #0a0a0a;
+}
+.header .navbar-default .navbar-nav > .active > a {
+  color: #d2d2d2;
+  border-color: #949494;
+}
+.header .mega-menu .mega-menu-content {
+  background: #0e0e0e;
+}
+.header .dropdown-menu {
+  border-top: solid 2px #949494;
+}
+@media (min-width: 992px) {
+  .header .mega-menu .equal-height-in {
+    border-left-color: #191919;
+  }
+}
+#logo-header {
+  filter: invert(1);
+}
+table.table tr td a {
+  color: #bbb;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: #111;
+  border-color: #333;
+}
+.table-bordered {
+  border-color: #333;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+  border-color: #333;
+}
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+  background-color: #232323;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+  border-color: #2d2d2d;
+}
+.table>thead>tr>td.success, .table>tbody>tr>td.success, .table>tfoot>tr>td.success, .table>thead>tr>th.success, .table>tbody>tr>th.success, .table>tfoot>tr>th.success, .table>thead>tr.success>td, .table>tbody>tr.success>td, .table>tfoot>tr.success>td, .table>thead>tr.success>th, .table>tbody>tr.success>th, .table>tfoot>tr.success>th {
+  border-color: #6f9062;
+  background-color: #567b47;
+}
+.table>thead>tr>td.info, .table>tbody>tr>td.info, .table>tfoot>tr>td.info, .table>thead>tr>th.info, .table>tbody>tr>th.info, .table>tfoot>tr>th.info, .table>thead>tr.info>td, .table>tbody>tr.info>td, .table>tfoot>tr.info>td, .table>thead>tr.info>th, .table>tbody>tr.info>th, .table>tfoot>tr.info>th {
+  background-color: #13587b;
+}
+.footer-v3 .footer {
+  background: #101010;
+  border-top: 5px solid #1f1f1f;
+}
+.form-control {
+  color: #eeeeee;
+  border-color: #333;
+  background-color: #666;
+}
+.form-control input::placeholder {
+  color: #dfdfdf;
+}
+.pagination>li>a, .pagination>li>span {
+  background-color: #040404;
+  border-color: #313131;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #383838;
+  color: #ccc;
+}
+.reg-page {
+  color: #e2e2e2;
+  padding: 30px;
+  background: #0e0e0e;
+  border: solid 1px #1f1f1f;
+  box-shadow: 0 0 3px #2f2f2f;
+}
+.reg-header h2 {
+  color: #e2e2e2;
+}
+.input-group-addon {
+  color: #dadada;
+  background: #1d1d1d;
+  border-color: #222;
+}
+.breadcrumbs {
+  background: #050505 !important;
+  border-color: black;
+}
+.sky-form {
+  border-color: #222;
+}
+.sky-form fieldset {
+  background: #080808;
+  color: white;
+}
+.sky-form .radio, .sky-form .checkbox {
+  color: #9a9a9a;;
+}
+.selectize-input {
+  border-color: #222;
+}
+.selectize-control.single .selectize-input.input-active, .selectize-input {
+  background: #4a4a4a;
+}
+.selectize-dropdown, .selectize-dropdown.form-control {
+  background: #2d2d2d;
+}
+.sky-form .radio i, .sky-form .checkbox i {
+  background: #1f1f1f;
+}
+.sky-form .radio input + i:after {
+  background-color: #fff;
+}
+.sky-form footer {
+  background: #080808;
+}
+.dropdown-menu {
+  background-color: #333;
+}
+.dropdown-menu>li>a {
+  color: #ccc;
+}
+.dropdown-menu .divider {
+  background-color: #4a4a4a;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  color: #dadada;
+  background-color: #5f5f5f;
+}
+.funny-boxes {
+  background: #020202;
+}
+.search-block-v2 {
+  background: #060606;
+}
+.list-group-item {
+  background-color: #101010;
+  border-color: #2d2d2d;
+}
+.sidebar-nav-v1 > li.active > a {
+  color: #000;
+}
+.sidebar-nav-v1 > li.active, .sidebar-nav-v1 > li.active:hover {
+  background: #d0d1d2;
+}
+.sidebar-nav-v1 li a:hover, .sidebar-nav-v1 li a:active {
+  color: #f1f1f1;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background-color: #191919;
+  color: #666;
+}
+.progress {
+  background: #0c0c0c;
+}
+.panel-default {
+  border-color: #6b6b6b;
+}
+.panel-default>.panel-heading {
+  color: #fff;
+  background-color: #5a5a5a;
+  border-color: #313131;
+}
+.panel-body {
+  background-color: #111;
+}
+.page-header > h1 {
+  color: white;
+}
+.blog-twitter .blog-twitter-inner {
+  background: #252525;
+}
+.blog-twitter .blog-twitter-inner:after {
+  border-top: 15px solid #6d6d6d;
+}
+.blog-twitter .blog-twitter-inner:before {
+  border-bottom-color: black;
+}
+.blog-twitter .blog-twitter-inner a.article-subject {
+  color: #b1b1b1;
+}
