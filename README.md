@@ -14,7 +14,11 @@
 
 ### 어두운 테마
 
-![Dark Theme](https://user-images.githubusercontent.com/9527681/105636072-be4af700-5ea9-11eb-8515-a306c701a84e.png)
+![Dark Theme](docs/images/screenshot-theme-dark.png)
+
+### 넓게 보기
+
+![Wide Screen](docs/images/screenshot-wide.png)
 
 ## 설치 및 사용
 
