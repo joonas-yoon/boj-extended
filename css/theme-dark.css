@@ -131,15 +131,15 @@ body[theme='dark'] .nav > li > a:focus {
   background-color: #383838;
   color: #ccc;
 }
-body[theme='dark'] .nav-pills>li.active>a,
-body[theme='dark'] .nav-pills>li.active>a:hover,
-body[theme='dark'] .nav-pills>li.active>a:focus {
+body[theme='dark'] .nav-pills > li.active > a,
+body[theme='dark'] .nav-pills > li.active > a:hover,
+body[theme='dark'] .nav-pills > li.active > a:focus {
   color: #000;
   background-color: #e2e2e2;
 }
-body[theme='dark'] .nav-pills>li.active>a,
-body[theme='dark'] .nav-pills>li.active>a:hover,
-body[theme='dark'] .nav-pills>li.active>a:focus {
+body[theme='dark'] .nav-pills > li.active > a,
+body[theme='dark'] .nav-pills > li.active > a:hover,
+body[theme='dark'] .nav-pills > li.active > a:focus {
   color: #000;
   background-color: #ffffff;
 }
@@ -337,18 +337,18 @@ body[theme='dark'] .label-info {
 }
 body[theme='dark'] .label-danger {
   background-color: transparent;
-  border: 1px solid  #d9534f;
-  color:  #d9534f !important;
+  border: 1px solid #d9534f;
+  color: #d9534f !important;
 }
 body[theme='dark'] .label-primary {
   background-color: transparent;
   border: 1px solid #428bca;
-  color:  #428bca !important;
+  color: #428bca !important;
 }
 body[theme='dark'] .label-warning {
   background-color: transparent;
   border: 1px solid #f0ad4e;
-  color:  #f0ad4e !important;
+  color: #f0ad4e !important;
 }
 body[theme='dark'] span.label-dark,
 body[theme='dark'] span.badge-dark {
