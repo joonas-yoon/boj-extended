@@ -1,5 +1,5 @@
 function extendStatusPage() {
-  // Utils.loadCSS('css/style.css');
+  Utils.loadCSS('css/status.css');
   Utils.loadScript('js/bg-status-rte.js');
 
   // pre-update to rows
@@ -19,6 +19,22 @@ function extendStatusPage() {
         e.style.width = 'auto';
       }
     });
+
+  // highlight my result
+  const username = document.querySelector('a.username');
+  if (username) {
+    document
+      .getElementById('status-table')
+      .querySelectorAll('a[href]')
+      .forEach((e) => {
+        if (
+          e.getAttribute('href').startsWith('/user/') &&
+          username.innerText == e.innerText
+        ) {
+          e.parentNode.parentNode.setAttribute('class', 'result-mine');
+        }
+      });
+  }
 
   function display(showPid) {
     titles.forEach((e) => {
