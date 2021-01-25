@@ -1,6 +1,8 @@
 function extendStatusPage() {
-  // Utils.loadCSS('css/style.css');
+  Utils.loadCSS('css/status.css');
+  Utils.loadScript('js/status-rte.js');
 
+  // pre-update to rows
   const titles = document.querySelectorAll('a[href].problem_title');
   titles.forEach((e) => {
     if (e.getAttribute('data-original-id') == undefined) {
@@ -8,6 +10,7 @@ function extendStatusPage() {
     }
   });
 
+  // width to fit-content
   document
     .getElementById('status-table')
     .querySelectorAll('th')
@@ -16,6 +19,22 @@ function extendStatusPage() {
         e.style.width = 'auto';
       }
     });
+
+  // highlight my result
+  const username = document.querySelector('a.username');
+  if (username) {
+    document
+      .getElementById('status-table')
+      .querySelectorAll('a[href]')
+      .forEach((e) => {
+        if (
+          e.getAttribute('href').startsWith('/user/') &&
+          username.innerText == e.innerText
+        ) {
+          e.parentNode.parentNode.setAttribute('class', 'result-mine');
+        }
+      });
+  }
 
   function display(showPid) {
     titles.forEach((e) => {
@@ -28,13 +47,13 @@ function extendStatusPage() {
     });
   }
 
+  // load and apply to display pid/pname
   Config.load('show-status-pid', (showPid) => {
-    console.log(showPid);
     const form = document.querySelector('form[action="/status"]');
     const radio1 = createRadioElement(
       '문제 번호',
       (evt) => {
-        Config.save('show-status-pid', true, console.log);
+        Config.save('show-status-pid', true);
         display(true);
       },
       !!showPid
@@ -42,7 +61,7 @@ function extendStatusPage() {
     const radio2 = createRadioElement(
       '문제 제목',
       (evt) => {
-        Config.save('show-status-pid', false, console.log);
+        Config.save('show-status-pid', false);
         display(false);
       },
       !showPid

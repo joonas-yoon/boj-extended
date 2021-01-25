@@ -27,4 +27,11 @@ const Utils = {
     css.setAttribute('href', path);
     document.getElementsByTagName('head')[0].appendChild(css);
   },
+  loadScript: function (url) {
+    const path = chrome.extension.getURL(url);
+    const tag = document.createElement('script');
+    tag.setAttribute('type', 'text/javascript');
+    tag.setAttribute('src', path);
+    document.getElementsByTagName('body')[0].appendChild(tag);
+  },
 };
