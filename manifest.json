@@ -9,7 +9,7 @@
       "all_frames": true,
       "css": ["css/theme-dark.css"],
       "run_at": "document_start",
-      "js": ["js/config.js", "js/utils.js", "js/theme.js"]
+      "js": ["js/config.js", "js/utils.js", "js/theme.js", "js/wide.js"]
     },
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],

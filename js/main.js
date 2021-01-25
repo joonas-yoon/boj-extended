@@ -11,4 +11,5 @@
   }
 
   extendTheme();
+  extendWide();
 })();
