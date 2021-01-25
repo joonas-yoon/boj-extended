@@ -14,7 +14,13 @@
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
-      "js": ["js/db.js", "js/user.js", "js/status.js", "js/main.js"]
+      "js": [
+        "js/db.js",
+        "js/user.js",
+        "js/status.js",
+        "js/group.js",
+        "js/main.js"
+      ]
     }
   ],
   "web_accessible_resources": [

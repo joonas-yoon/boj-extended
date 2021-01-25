@@ -6,6 +6,8 @@
     extendUserPage();
   } else if (loc.pathname.startsWith('/status')) {
     extendStatusPage();
+  } else if (loc.pathname.startsWith('/group/member/')) {
+    extendGroupMemberPage();
   }
 
   extendTheme();
