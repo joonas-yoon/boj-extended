@@ -1,6 +1,8 @@
 (function extendThemePre() {
-  Config.load('theme', (theme) => {
-    applyTheme(null, theme);
+  document.addEventListener('DOMContentLoaded', () => {
+    Config.load('theme', (theme) => {
+      applyTheme(null, theme);
+    });
   });
 })();
 

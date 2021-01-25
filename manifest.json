@@ -8,11 +8,18 @@
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
       "css": ["css/theme-dark.css"],
+      "run_at": "document_start",
       "js": [
-        "js/db.js",
         "js/config.js",
         "js/utils.js",
-        "js/bg-theme.js",
+        "js/bg-theme.js"
+      ]
+    },
+    {
+      "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
+      "all_frames": true,
+      "js": [
+        "js/db.js",
         "js/bg-user.js",
         "js/bg-status.js",
         "js/main.js"
