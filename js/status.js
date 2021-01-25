@@ -1,6 +1,6 @@
 function extendStatusPage() {
   Utils.loadCSS('css/status.css');
-  Utils.loadScript('js/bg-status-rte.js');
+  Utils.loadScript('js/status-rte.js');
 
   // pre-update to rows
   const titles = document.querySelectorAll('a[href].problem_title');
