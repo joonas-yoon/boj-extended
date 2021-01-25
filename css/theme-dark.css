@@ -1,4 +1,4 @@
-html {
+html + body[theme='dark'] {
   background-color: black;
 }
 body[theme='dark'] body {
@@ -130,6 +130,18 @@ body[theme='dark'] .nav > li > a:hover,
 body[theme='dark'] .nav > li > a:focus {
   background-color: #383838;
   color: #ccc;
+}
+body[theme='dark'] .nav-pills>li.active>a,
+body[theme='dark'] .nav-pills>li.active>a:hover,
+body[theme='dark'] .nav-pills>li.active>a:focus {
+  color: #000;
+  background-color: #e2e2e2;
+}
+body[theme='dark'] .nav-pills>li.active>a,
+body[theme='dark'] .nav-pills>li.active>a:hover,
+body[theme='dark'] .nav-pills>li.active>a:focus {
+  color: #000;
+  background-color: #ffffff;
 }
 body[theme='dark'] .reg-page {
   color: #e2e2e2;
@@ -295,4 +307,78 @@ body[theme='dark'] .alert-info {
 }
 body[theme='dark'] #contest_statistics a {
   color: #a0a0a0;
+}
+body[theme='dark'] .label-success {
+  background-color: transparent;
+  border: 1px solid #5cb85c;
+  color: #5cb85c;
+}
+body[theme='dark'] span.label-light-green,
+body[theme='dark'] span.badge-light-green {
+  background-color: transparent;
+  border: 1px solid #79d5b3;
+  color: #79d5b3 !important;
+}
+body[theme='dark'] .label-default {
+  background-color: transparent;
+  border: 1px solid #777;
+  color: #777 !important;
+}
+body[theme='dark'] span.label-purple,
+body[theme='dark'] span.badge-purple {
+  background-color: transparent;
+  border: 1px solid #9b6bcc;
+  color: #9b6bcc !important;
+}
+body[theme='dark'] .label-info {
+  background-color: transparent;
+  border: 1px solid #5bc0de;
+  color: #5bc0de !important;
+}
+body[theme='dark'] .label-danger {
+  background-color: transparent;
+  border: 1px solid  #d9534f;
+  color:  #d9534f !important;
+}
+body[theme='dark'] .label-primary {
+  background-color: transparent;
+  border: 1px solid #428bca;
+  color:  #428bca !important;
+}
+body[theme='dark'] .label-warning {
+  background-color: transparent;
+  border: 1px solid #f0ad4e;
+  color:  #f0ad4e !important;
+}
+body[theme='dark'] span.label-dark,
+body[theme='dark'] span.badge-dark {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #555 !important;
+}
+body[theme='dark'] span.label-aqua,
+body[theme='dark'] span.badge-aqua {
+  background-color: transparent;
+  border: 1px solid #27d7e7;
+  color: #27d7e7 !important;
+}
+body[theme='dark'] span.label-sea,
+body[theme='dark'] span.badge-sea {
+  background-color: transparent;
+  border: 1px solid #1abc9c;
+  color: #1abc9c !important;
+}
+body[theme='dark'] span.label-dark-blue,
+body[theme='dark'] span.badge-dark-blue {
+  background-color: transparent;
+  border: 1px solid #4765a0;
+  color: #4765a0 !important;
+}
+body[theme='dark'] .sampledata {
+  background-color: #0e0e0e;
+  color: #eaeaea;
+  border-color: #2f2f2f;
+}
+body[theme='dark'] .space-highlight {
+  background-color: rgba(123, 103, 24, 0.3);
 }
