@@ -70,7 +70,7 @@ function extendUserPage() {
 
   // sync with configs
   Config.load('show-pid', (checked) => {
-    checked = checked === null ? true : checked;
+    checked = checked === null || checked === undefined ? true : checked;
     checkbox1.checked = checked;
     display(panels, 'show-id', checked);
   });
