@@ -13,25 +13,28 @@ function extendWide() {
   btn.addEventListener('click', (evt) => {
     evt.preventDefault();
     Config.load('wide', (wide) => {
-      Config.save('wide', !wide, apply);
+      applyWide(btn, !wide);
     });
   });
 
   // after page loaded
-  Config.load('wide', apply);
+  Config.load('wide', (wide) => {
+    applyWide(null, wide);
+  });
+}
 
-  function apply(toWide) {
-    const container = document.querySelector('.content');
-    if (toWide) {
+function applyWide(btn, toWide) {
+  Config.save('wide', toWide, (result) => {
+    const container = document.getElementsByClassName('content')[0];
+    if (result) {
       container.classList.remove('container');
       container.classList.add('container-fluid');
       container.style.padding = '40px 3em';
-      btn.innerText = '기본 보기';
     } else {
       container.classList.remove('container-fluid');
       container.classList.add('container');
       container.style.padding = '40px 0';
-      btn.innerText = '넓게 보기';
     }
-  }
+    if (btn) btn.innerText = result ? '기본 보기' : '넓게 보기';
+  });
 }

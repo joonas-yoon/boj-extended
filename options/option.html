@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/style.css?version=20210105">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Open+Sans:400,400i,700,700i|Source+Code+Pro&subset=korean" rel="stylesheet">
+  <link rel="stylesheet" href="https://ddo7jzca0m2vt.cloudfront.net/css/connect.css?version=20210105">
+  <link rel="stylesheet" href="https://ddo7jzca0m2vt.cloudfront.net/css/result.css?version=20210105">
+  <link rel="stylesheet" href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/custom.css?version=20210105">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link rel="stylesheet" href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/theme-colors/blue.css?version=20210105">
+  <link rel="stylesheet" href="https://ddo7jzca0m2vt.cloudfront.net/css/pace.css">
+
+  <link rel="stylesheet" href="/css/common.css">
+  <link rel="stylesheet" href="/css/theme-dark.css">
+
+  <style>
+    td.result-msg-code {
+      padding: 0 !important;
+    }
+    td.result-msg-code > input {
+      border: 0 !important;
+      outline: 0 !important;
+    }
+  </style>
+
+  <title>설정 - BOJ Extended</title>
+</head>
+<body>
+  <div class="header no-print">
+    <div class="topbar">
+      <div class="container">
+        <ul class="loginbar pull-right">
+          <li><a href="#" class="btn-close-window">현재 창 닫기</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="topbar">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/options/option.html">
+            <img id="logo-header" src="/icons/icon-wide.png" alt="Logo" style="width: 180px;">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container content">
+    <div class="row">
+      <div class="col-md-3">
+        <ul class="list-group sidebar-nav-v1">
+          <li class="list-group-item active"><a href="#">BOJ Extended</a></li>
+        </ul>
+        <ul class="list-group sidebar-nav-v1">
+          <li class="list-group-item"><a href="https://github.com/joonas-yoon/boj-extended/issues" target="_blank">기능 요청</a></li>
+          <li class="list-group-item"><a href="https://github.com/joonas-yoon/boj-extended/issues" target="_blank">버그 제보</a></li>
+        </ul>
+        <ul class="list-group sidebar-nav-v1">
+          <li class="list-group-item btn-close-window"><a href="#">현재 창 닫기</a></li>
+        </ul>
+      </div>
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-12">
+            <form class="form-horizontal" id="form" novalidate="novalidate">
+              <legend>확장 프로그램 옵션 설정</legend>
+              <div class="alert alert-info">
+                <p>설정은 자동으로 저장됩니다. 페이지를 <b>새로고침</b>하시면 <b>변경 사항이 적용</b>됩니다.</p>
+              </div>
+              <!-- theme -->
+              <div class="form-group">
+                <label class="col-md-2 control-label" for="theme">테마</label>
+                <div class="col-md-4">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" class="option-theme" name="theme" value="light" checked>
+                      밝은 테마
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" class="option-theme" name="theme" value="dark">
+                      어두운 테마
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- wide -->
+              <div class="form-group">
+                <label class="col-md-2 control-label" for="wide">화면 크기</label>
+                <div class="col-md-4">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" class="option-wide" name="wide" value="0" checked>
+                      기본 보기
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" class="option-wide" name="wide" value="1">
+                      넓게 보기
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- status:pid/pname -->
+              <div class="form-group">
+                <label class="col-md-2 control-label" for="status-pid">채점 현황</label>
+                <div class="col-md-4">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" class="option-status-pid" name="status-pid" value="1" checked>
+                      문제 번호 보기
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" class="option-status-pid" name="status-pid" value="0">
+                      문제 제목 보기
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/config.js"></script>
+  <script src="/js/utils.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/wide.js"></script>
+  <script src="option.js"></script>
+
+</body>
+</html>
