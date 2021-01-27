@@ -23,7 +23,6 @@ function extendTheme() {
     const theme = document.body.getAttribute('theme');
     const newTheme = theme == 'dark' ? 'light' : 'dark';
     applyTheme(btn, newTheme);
-    Config.save('theme', newTheme);
   });
 
   // after page loaded
@@ -33,12 +32,10 @@ function extendTheme() {
 }
 
 function applyTheme(button, theme) {
-  document.body.setAttribute('theme', theme);
-  if (button) {
-    if (theme == 'dark') {
-      button.innerText = '밝은 테마';
-    } else {
-      button.innerText = '어두운 테마';
+  Config.save('theme', theme, (result) => {
+    document.body.setAttribute('theme', theme);
+    if (button) {
+      button.innerText = result == 'dark' ? '밝은 테마' : '어두운 테마';
     }
-  }
+  });
 }
