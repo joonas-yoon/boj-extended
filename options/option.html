@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/style.css?version=20210105"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Open+Sans:400,400i,700,700i|Source+Code+Pro&subset=korean"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/connect.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/result.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/custom.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/theme-colors/blue.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/pace.css"
+    />
+
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/theme-dark.css" />
+
+    <style>
+      td.result-msg-code {
+        padding: 0 !important;
+      }
+      td.result-msg-code > input {
+        border: 0 !important;
+        outline: 0 !important;
+      }
+    </style>
+
+    <title>설정 - BOJ Extended</title>
+  </head>
+  <body>
+    <div class="header no-print">
+      <div class="topbar">
+        <div class="container">
+          <ul class="loginbar pull-right">
+            <li><a href="#" class="btn-close-window">현재 창 닫기</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="topbar">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/options/option.html">
+              <img
+                id="logo-header"
+                src="/icons/icon-wide.png"
+                alt="Logo"
+                style="width: 180px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container content">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item active"><a href="#">BOJ Extended</a></li>
+          </ul>
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended/issues"
+                target="_blank"
+                >기능 요청</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended/issues"
+                target="_blank"
+                >버그 제보</a
+              >
+            </li>
+          </ul>
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item btn-close-window">
+              <a href="#">현재 창 닫기</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <form class="form-horizontal" id="form" novalidate="novalidate">
+                <legend>확장 프로그램 옵션 설정</legend>
+                <div class="alert alert-info">
+                  <p>
+                    설정은 자동으로 저장됩니다. 페이지를 <b>새로고침</b>하시면
+                    <b>변경 사항이 적용</b>됩니다.
+                  </p>
+                </div>
+                <!-- theme -->
+                <div class="form-group">
+                  <label class="col-md-2 control-label" for="theme">테마</label>
+                  <div class="col-md-4">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-theme"
+                          name="theme"
+                          value="light"
+                          checked
+                        />
+                        밝은 테마
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-theme"
+                          name="theme"
+                          value="dark"
+                        />
+                        어두운 테마
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- wide -->
+                <div class="form-group">
+                  <label class="col-md-2 control-label" for="wide"
+                    >화면 크기</label
+                  >
+                  <div class="col-md-4">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-wide"
+                          name="wide"
+                          value="0"
+                          checked
+                        />
+                        기본 보기
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-wide"
+                          name="wide"
+                          value="1"
+                        />
+                        넓게 보기
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- status:pid/pname -->
+                <div class="form-group">
+                  <label class="col-md-2 control-label" for="status-pid"
+                    >채점 현황</label
+                  >
+                  <div class="col-md-4">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-pid"
+                          name="status-pid"
+                          value="1"
+                          checked
+                        />
+                        문제 번호 보기
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-pid"
+                          name="status-pid"
+                          value="0"
+                        />
+                        문제 제목 보기
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- status:resultText -->
+                <div class="form-group">
+                  <label class="col-md-2 control-label">결과 바꾸기</label>
+                  <div class="col-md-10">
+                    <table class="table table-bordered" style="width: 100%">
+                      <thead>
+                        <tr>
+                          <th>실제 결과</th>
+                          <th>바꿀 메시지</th>
+                          <th>미리보기</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><span class="result-ac">맞았습니다!!</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<ac>맞았습니다!!</ac>"
+                              name="result-ac"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-ac"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-ac">
+                            <span class="result-ac">맞았습니다!!</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-pac">0점</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="준비중"
+                              name="result-pac"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-pac"
+                              disabled
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-pac">
+                            <span class="result-pac">0점</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-wa">틀렸습니다</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<wa>틀렸습니다</wa>"
+                              name="result-wa"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-wa"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-wa">
+                            <span class="result-wa">틀렸습니다</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-ce">컴파일 에러</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<ce>컴파일 에러</ce>"
+                              name="result-ce"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-ce"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-ce">
+                            <span class="result-ce">컴파일 에러</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-rte">런타임 에러 (이유)</span>
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="준비중"
+                              name="result-rte"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-rte"
+                              disabled
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-rte">
+                            <span class="result-rte">런타임 에러 (이유)</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-tle">시간 초과</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<tle>시간 초과</tle>"
+                              name="result-tle"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-tle"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-tle">
+                            <span class="result-tle">시간 초과</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-mle">메모리 초과</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<mle>메모리 초과</mle>"
+                              name="result-mle"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-mle"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-mle">
+                            <span class="result-mle">메모리 초과</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-ole">출력 초과</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<ole>출력 초과</ole>"
+                              name="result-ole"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-ole"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-ole">
+                            <span class="result-ole">출력 초과</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-pe"
+                              >출력 형식이 잘못되었습니다</span
+                            >
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<pe>출력 형식이 잘못되었습니다</pe>"
+                              name="result-pe"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-pe"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-pe">
+                            <span class="result-pe"
+                              >출력 형식이 잘못되었습니다</span
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-wait">기다리는 중</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<wait>기다리는 중</wait>"
+                              name="result-wait"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-wait"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-wait">
+                            <span class="result-wait">기다리는 중</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-compile">채점 준비 중</span>
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<compile>채점 준비 중</compile>"
+                              name="result-compile"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-compile"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-compile">
+                            <span class="result-compile">채점 준비 중</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-judging">채점 중 (0%)</span>
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="준비중"
+                              name="result-judging"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-judging"
+                              disabled
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-judging">
+                            <span class="result-judging">채점 중 (0%)</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-del">채점 불가</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<del>채점 불가</del>"
+                              name="result-del"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-del"
+                            />
+                          </td>
+                          <td class="result-msg-preview" id="preview-del">
+                            <span class="result-del">채점 불가</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/config.js"></script>
+    <script src="/js/utils.js"></script>
+    <script src="/js/theme.js"></script>
+    <script src="/js/wide.js"></script>
+    <script src="option.js"></script>
+  </body>
+</html>

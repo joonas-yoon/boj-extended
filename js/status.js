@@ -53,16 +53,14 @@ function extendStatusPage() {
     const radio1 = createRadioElement(
       '문제 번호',
       (evt) => {
-        Config.save('show-status-pid', true);
-        display(true);
+        Config.save('show-status-pid', true, display);
       },
       !!showPid
     );
     const radio2 = createRadioElement(
       '문제 제목',
       (evt) => {
-        Config.save('show-status-pid', false);
-        display(false);
+        Config.save('show-status-pid', false, display);
       },
       !showPid
     );
