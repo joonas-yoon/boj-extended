@@ -5,7 +5,7 @@ function extendSettingPage() {
   li.innerHTML = '<a href="#">BOJ Extended</a>';
   li.addEventListener('click', (evt) => {
     evt.preventDefault();
-    chrome.runtime.sendMessage({"action": "openSettingPage"});
+    chrome.runtime.sendMessage({ action: 'openSettingPage' });
   });
   nav.insertBefore(li, nav.firstChild);
 }

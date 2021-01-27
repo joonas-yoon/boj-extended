@@ -17,15 +17,17 @@
   extendReformatMessage();
 
   function isSettingPage(path) {
-    return path.startsWith('/my/files')
-      || path.startsWith('/modify')
-      || path.startsWith('/password/change')
-      || path.startsWith('/setting/')
-      || path.startsWith('/support');
+    return (
+      path.startsWith('/my/files') ||
+      path.startsWith('/modify') ||
+      path.startsWith('/password/change') ||
+      path.startsWith('/setting/') ||
+      path.startsWith('/support')
+    );
   }
 
   function extendReformatMessage() {
-    document.querySelectorAll("span[class^=result-]").forEach((element) => {
+    document.querySelectorAll('span[class^=result-]').forEach((element) => {
       if (element.classList.contains('result-text')) return;
       const fakeText = document.createElement('span');
       fakeText.setAttribute('class', 'result-fake-text');
@@ -44,7 +46,7 @@
     });
 
     function isWillUpdate(el) {
-      for (let i=0; i<3; ++i) {
+      for (let i = 0; i < 3; ++i) {
         if (el.classList.contains('result-text')) return el;
         el = el.parentNode;
       }
@@ -52,12 +54,17 @@
     }
 
     function addObserver(target, callback) {
-      const observer = new MutationObserver(function(mutations) {
-        mutations.forEach(function(mutation) {
+      const observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
           callback(mutation.target);
         });
       });
-      const config = { attributes: true, childList: true, characterData: true, subtree: true };
+      const config = {
+        attributes: true,
+        childList: true,
+        characterData: true,
+        subtree: true,
+      };
       observer.observe(target, config);
     }
 

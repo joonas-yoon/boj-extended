@@ -33,5 +33,5 @@ const Utils = {
     tag.setAttribute('type', 'text/javascript');
     tag.setAttribute('src', path);
     document.getElementsByTagName('body')[0].appendChild(tag);
-  }
+  },
 };

@@ -1,13 +1,13 @@
-chrome.runtime.onMessage.addListener(function(message) {
+chrome.runtime.onMessage.addListener(function (message) {
   switch (message.action) {
-    case "openSettingPage":
+    case 'openSettingPage':
       openSettingPage();
       break;
     default:
-        break;
+      break;
   }
 });
 
-function openSettingPage(){
+function openSettingPage() {
   chrome.runtime.openOptionsPage();
 }
