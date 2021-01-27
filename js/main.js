@@ -14,6 +14,7 @@
 
   extendTheme();
   extendWide();
+  extendReformatMessage();
 
   function isSettingPage(path) {
     return path.startsWith('/my/files')
@@ -21,5 +22,60 @@
       || path.startsWith('/password/change')
       || path.startsWith('/setting/')
       || path.startsWith('/support');
+  }
+
+  function extendReformatMessage() {
+    document.querySelectorAll("span[class^=result-]").forEach((element) => {
+      if (element.classList.contains('result-text')) return;
+      const fakeText = document.createElement('span');
+      fakeText.setAttribute('class', 'result-fake-text');
+      const box = isWillUpdate(element);
+      if (box !== null) {
+        addFakeResult(box, fakeText);
+        box.style.display = 'none';
+        addObserver(box, (resultText) => {
+          const res = resultText.querySelector('span') || resultText;
+          formatting(res, fakeText);
+        });
+      } else {
+        addFakeResult(element, fakeText);
+      }
+      formatting(element, fakeText);
+    });
+
+    function isWillUpdate(el) {
+      for (let i=0; i<3; ++i) {
+        if (el.classList.contains('result-text')) return el;
+        el = el.parentNode;
+      }
+      return null;
+    }
+
+    function addObserver(target, callback) {
+      const observer = new MutationObserver(function(mutations) {
+        mutations.forEach(function(mutation) {
+          callback(mutation.target);
+        });
+      });
+      const config = { attributes: true, childList: true, characterData: true, subtree: true };
+      observer.observe(target, config);
+    }
+
+    function addFakeResult(appendTo, element) {
+      appendTo.parentNode.appendChild(element);
+    }
+
+    function formatting(input, output) {
+      const type = (input.getAttribute('class') || '').trim();
+      if (!type.startsWith('result-')) return;
+      Config.load(type, (format) => {
+        if (!format) {
+          output.innerHTML = '';
+          output.appendChild(input.cloneNode(true));
+        } else {
+          output.innerHTML = format;
+        }
+      });
+    }
   }
 })();
