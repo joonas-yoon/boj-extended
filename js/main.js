@@ -15,6 +15,7 @@
   extendTheme();
   extendWide();
   extendReformatMessage();
+  extendProblemPage();
 
   function isSettingPage(path) {
     return (

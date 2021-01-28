@@ -11,7 +11,7 @@
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
-      "css": ["css/theme-dark.css"],
+      "css": ["css/common.css", "css/theme-dark.css"],
       "run_at": "document_start",
       "js": ["js/config.js", "js/utils.js", "js/theme.js", "js/wide.js"]
     },
@@ -23,6 +23,7 @@
         "js/user.js",
         "js/status.js",
         "js/group.js",
+        "js/problem.js",
         "js/setting.js",
         "js/main.js"
       ]
@@ -30,7 +31,6 @@
   ],
   "options_page": "options/option.html",
   "web_accessible_resources": [
-    "css/common.css",
     "css/status.css",
     "css/user.css",
     "js/status-rte.js"
