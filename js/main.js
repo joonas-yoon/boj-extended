@@ -34,7 +34,6 @@
       const box = isWillUpdate(element);
       if (box !== null) {
         addFakeResult(box, fakeText);
-        box.style.display = 'none';
         addObserver(box, (resultText) => {
           const res = resultText.querySelector('span') || resultText;
           formatting(res, fakeText);
@@ -77,9 +76,11 @@
       if (!type.startsWith('result-')) return;
       Config.load(type, (format) => {
         if (!format) {
-          output.innerHTML = '';
-          output.appendChild(input.cloneNode(true));
+          input.style.display = '';
+          output.style.display = 'none';
         } else {
+          input.style.display = 'none';
+          output.style.display = '';
           output.innerHTML = format;
         }
       });
