@@ -3,20 +3,20 @@
 class ConfigClass {
   constructor() {
     this.storage = 'config';
-    this.a = { enable: false, lang: undefined }; // lang as i18n code like 'ko'
+    this.buffer = { enable: false, lang: undefined }; // lang as i18n code like 'ko'
     const self = this;
     chrome.storage.sync.get(this.storage, (items) => {
       if (items[self.storage]) {
-        self.a = items[self.storage];
+        self.buffer = items[self.storage];
       }
     });
   }
 
   // can be bufferred
   save(key, value, callback) {
-    this.a[key] = value;
+    this.buffer[key] = value;
     const obj = {};
-    obj[this.storage] = this.a;
+    obj[this.storage] = this.buffer;
     chrome.storage.sync.set(obj, () => {
       if (typeof callback === 'function') callback(value);
     });
@@ -24,14 +24,19 @@ class ConfigClass {
 
   load(key, callback) {
     const storage = this.storage;
-    chrome.storage.sync.get(storage, (items) => {
-      if (typeof callback !== 'function') return;
-      if (!items || !items[storage]) {
-        callback(null);
-      } else {
-        callback(items[storage][key]);
-      }
-    });
+    // find in buffer first (but not synchronized yet)
+    if (this.buffer[key] !== undefined) {
+      callback(this.buffer[key]);
+    } else {
+      chrome.storage.sync.get(storage, (items) => {
+        if (typeof callback !== 'function') return;
+        if (!items || !items[storage]) {
+          callback(null);
+        } else {
+          callback(items[storage][key]);
+        }
+      });
+    }
   }
 }
 
