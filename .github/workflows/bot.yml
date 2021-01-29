@@ -35,9 +35,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '14.x'
-    - run: npm ci
-    - run: echo "const PROVISIONED_DB = " > js/db.js && cat db.json >> js/db.js && echo ";" >> js/db.js
-    - run: npm run lint
+    - run: |
+        python ./util/bot.py
+        npm ci
+        echo "const PROVISIONED_DB = " > js/db.js && cat db.json >> js/db.js && echo ";" >> js/db.js
+        npm run lint
 
     - name: Commit report
       run: |
