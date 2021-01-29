@@ -1,70 +1,34 @@
 function extendProblemPage() {
   const menu = document.getElementsByClassName('problem-menu')[0];
   if (!menu) return;
-  const pid = parseInt(menu.querySelector('a[href^="/problem"]').getAttribute('href').replace('/problem/',''));
+  const pid = parseInt(
+    menu
+      .querySelector('a[href^="/problem"]')
+      .getAttribute('href')
+      .replace('/problem/', '')
+  );
   console.log(pid);
 
-  const container = document.getElementsByClassName('content')[0].getElementsByClassName('row')[0];
-  const progressWrapper = document.createElement('div');
-  progressWrapper.setAttribute('class', 'progress');
-  progressWrapper.style.display = 'none';
-  const bar = document.createElement('div');
-  bar.setAttribute('class', 'progress-bar');
-  bar.style.width = '100%';
-  bar.innerText = 'Loading...';
-  progressWrapper.appendChild(bar);
-  container.insertBefore(progressWrapper, container.firstChild);
+  const storageTimerList = 'problem-timers';
 
-  const dropdown = createTimerDropdown((t) => {
-    if (t < 60) {
-      window.alert('최소 1분 이상을 설정해주세요.');
-      return;
-    }
-    progressWrapper.style.display = 'block';
-    const startTime = new Date().getTime();
-    const endTime = startTime + t * 1000; // (ms)
-    updateProgress(startTime, endTime, () => {
-      // TODO: 옵션에서 메시지 설정
-      window.alert('종료되었습니다.');
-      // TODO: 기록 남기기
-    });
-  });
+  const container = document
+    .getElementsByClassName('content')[0]
+    .getElementsByClassName('row')[0];
+  const progress = progressTimer(); // eslint-disable-line no-undef
+  container.insertBefore(progress.element(), container.firstChild);
+
+  const dropdown = createTimerDropdown();
   menu.appendChild(dropdown);
 
-  function updateProgress(startTime, endTime, finish) {
-    const curTime = endTime - new Date().getTime() + 1;
-    const percentage = 100 * curTime / (endTime - startTime);
-    let bg = '';
-    if (percentage <= 50) {
-      bg = 'background-color:#ffc107;';
-    } else if (percentage <= 10) {
-      bg = 'background-color:#dc3545;';
-    } else if (percentage < 0) {
-      percentage = 0;
-    }
-    bar.setAttribute('style', 'float:right; transition-duration: .2s; width:' + percentage + '%;' + bg);
-    bar.innerText = timeHumanize(curTime) + ' 남음';
-    if (curTime > 0) {
-      window.requestAnimationFrame(updateProgress.bind(null, startTime, endTime, finish));
-    } else {
-      finish();
-    }
+  function stopTimer() {
+    // TODO: 옵션에서 메시지 설정
+    window.alert('종료되었습니다.');
+    // TODO: 기록 남기기
+    progress.stop();
+    // progress.hide();
   }
 
-  function timeHumanize(ms) {
-    let txt = '';
-    ms = parseInt(ms / 1000); // ms -> sec
-    if (ms % 60 > 0) txt = (ms % 60) + '초 ' + txt;
-    ms = parseInt(ms / 60); // sec -> min
-    if (ms % 60 > 0) txt = (ms % 60) + '분 ' + txt;
-    ms = parseInt(ms / 60); // min -> hour
-    if (ms % 24 > 0) txt = (ms % 24) + '시간 ' + txt;
-    ms = parseInt(ms / 24); // hour -> day
-    if (ms > 0) txt = ms + '일 '; // n일부터는 시간 생략
-    return txt ? txt : '1초 미만';
-  }
-
-  function createTimerDropdown(callback) {
+  function createTimerDropdown() {
     const li = document.createElement('li');
     li.setAttribute('id', 'problem-timer');
     li.setAttribute('class', 'dropdown');
@@ -82,14 +46,53 @@ function extendProblemPage() {
     form.setAttribute('class', 'dropdown-menu');
     form.addEventListener('submit', (evt) => {
       evt.preventDefault();
-      const h = parseInt(evt.target.elements.h.value) || 0;
-      const m = parseInt(evt.target.elements.m.value) || 0;
-      const s = parseInt(evt.target.elements.s.value) || 0;
-      const t = h * 3600 + m * 60 + s;
-      callback(t);
+      const button = evt.target.getElementsByClassName('btn')[0];
+      // can be started
+      if (button.classList.contains('btn-primary')) {
+        const inputs = evt.target.elements;
+        const h = parseInt(inputs.h.value) || 0;
+        const m = parseInt(inputs.m.value) || 0;
+        const s = parseInt(inputs.s.value) || 0;
+        const t = h * 3600 + m * 60 + s;
+        if (t < 60) {
+          window.alert('최소 1분 이상을 설정해주세요.');
+        } else {
+          // timer start
+          button.innerText = '종료';
+          button.classList.remove('btn-primary');
+          button.classList.add('btn-danger');
+          // save in storage
+          const startTime = new Date().getTime();
+          const endTime = startTime + t * 1000;
+          Config.load(storageTimerList, (list) => {
+            list = list || {};
+            list[pid] = { startTime: startTime, endTime: endTime };
+            Config.save(storageTimerList, list, (result) => {
+              progress.show();
+              progress.start(startTime, endTime);
+              console.log('list updated', result);
+            });
+          });
+        }
+      } else {
+        // timer stop
+        button.innerText = '시작';
+        button.classList.add('btn-primary');
+        button.classList.remove('btn-danger');
+        // sync setting
+        Config.load(storageTimerList, (list) => {
+          if (!list) return;
+          delete list[pid];
+          Config.save(storageTimerList, list, (result) => {
+            progress.hide();
+            progress.stop();
+          });
+        });
+      }
       return false;
     });
-    form.innerHTML = '<div style="margin-top: 5px;"><label style="width: 30%;">시간</label><label style="width: 33%;">분</label><label style="width: 33%;">초</label></div>';
+    form.innerHTML =
+      '<div style="margin-top: 5px;"><label style="width: 30%;">시간</label><label style="width: 33%;">분</label><label style="width: 33%;">초</label></div>';
     li.appendChild(form);
 
     const seperator = document.createElement('span');
@@ -102,17 +105,17 @@ function extendProblemPage() {
     inputH.setAttribute('value', '0');
     inputH.setAttribute('name', 'h');
     form.appendChild(inputH);
-    
+
     const inputM = inputH.cloneNode(true);
     inputM.setAttribute('name', 'm');
     form.appendChild(seperator.cloneNode(true));
     form.appendChild(inputM);
-    
+
     const inputS = inputH.cloneNode(true);
     inputS.setAttribute('name', 's');
     form.appendChild(seperator.cloneNode(true));
     form.appendChild(inputS);
-    
+
     inputH.addEventListener('change', (evt) => {
       if (evt.target.value < 0) {
         evt.target.value = 0;
@@ -129,8 +132,7 @@ function extendProblemPage() {
           evt.target.value = 0;
         }
         inputS.value = 0;
-      }
-      else if (evt.target.value >= 60) {
+      } else if (evt.target.value >= 60) {
         inputH.value = parseInt(inputH.value) + 1;
         evt.target.value = 0;
       }
@@ -141,14 +143,13 @@ function extendProblemPage() {
           inputM.value = parseInt(inputM.value) - 1;
           evt.target.value = 59;
         } else if (inputH.value > 0) {
-            inputH.value = parseInt(inputH.value) - 1;
-            inputM.value = 59;
-            evt.target.value = 59;
+          inputH.value = parseInt(inputH.value) - 1;
+          inputM.value = 59;
+          evt.target.value = 59;
         } else {
           evt.target.value = 0;
         }
-      }
-      else if (evt.target.value >= 60) {
+      } else if (evt.target.value >= 60) {
         inputM.value = parseInt(inputM.value) + 1;
         if (inputM.value >= 60) {
           inputM.value = 0;
@@ -157,33 +158,29 @@ function extendProblemPage() {
         evt.target.value = 0;
       }
     });
-    
+
     const divider = document.createElement('li');
     divider.setAttribute('class', 'divider');
     form.appendChild(divider);
 
     const button = document.createElement('button');
-    button.setAttribute('class', 'btn btn-primary btn-block');
-    button.innerText = '시작';
+    Config.load(storageTimerList, (list) => {
+      console.log(list);
+      const info = list ? list[pid] : undefined;
+      if (info) {
+        button.setAttribute('class', 'btn btn-danger btn-block');
+        button.innerText = '종료';
+        progress.show();
+        progress.start(info['startTime'], info['endTime'], stopTimer);
+      } else {
+        button.setAttribute('class', 'btn btn-primary btn-block');
+        button.innerText = '시작';
+        progress.hide();
+        progress.stop();
+      }
+    });
     form.appendChild(button);
+
     return li;
   }
 }
-
-/*
-<li class="dropdown">
-<a class="dropdown-toggle" id="drop-timer" role="button" data-toggle="dropdown" href="#">타이머<b class="caret"></b></a>
-<form class="dropdown-menu p-4" style="
-    padding: 5px;
-" id="drop-timer">
-  
-  
-  
-  <div style="
-    margin: 5px auto;
-    text-align: center;
-    width: 200px;
-" class=""><input type="number" class="timer-n" value="0" min="0" max="99">:<input type="number" class="timer-n" value="0" min="0" max="59">:<input type="number" class="timer-n" value="0" min="0" max="59"><input type="hidden" name="problem-timer" <="" div=""></div><li class="divider"></li>
-<button type="button" class="btn btn-primary btn-block">Start</button>
-</form></li>
-*/
