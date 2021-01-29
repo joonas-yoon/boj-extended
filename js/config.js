@@ -2,12 +2,16 @@
 
 class ConfigClass {
   constructor() {
-    this.storage = 'config';
+    this.storage =
+      typeof browser !== 'undefined'
+        ? browser.storage.sync
+        : chrome.storage.sync;
+    this.storageName = 'config';
     this.buffer = { enable: false, lang: undefined }; // lang as i18n code like 'ko'
     const self = this;
-    chrome.storage.sync.get(this.storage, (items) => {
-      if (items[self.storage]) {
-        self.buffer = items[self.storage];
+    this.storage.get(this.storageName, (items) => {
+      if (items[self.storageName]) {
+        self.buffer = items[self.storageName];
       }
     });
   }
@@ -16,26 +20,40 @@ class ConfigClass {
   save(key, value, callback) {
     this.buffer[key] = value;
     const obj = {};
-    obj[this.storage] = this.buffer;
-    chrome.storage.sync.set(obj, () => {
+    obj[this.storageName] = this.buffer;
+    this.storage.set(obj, () => {
       if (typeof callback === 'function') callback(value);
     });
   }
 
   load(key, callback) {
-    const storage = this.storage;
     // find in buffer first (but not synchronized yet)
     if (this.buffer[key] !== undefined) {
       callback(this.buffer[key]);
     } else {
-      chrome.storage.sync.get(storage, (items) => {
+      const storageName = this.storageName;
+      this.storage.get(storageName, (items) => {
         if (typeof callback !== 'function') return;
-        if (!items || !items[storage]) {
+        if (!items || !items[storageName]) {
           callback(null);
         } else {
-          callback(items[storage][key]);
+          callback(items[storageName][key]);
         }
       });
+    }
+  }
+
+  // callback(true/false := deleted as well)
+  remove(key, callback) {
+    if (this.buffer[key] !== undefined) {
+      delete this.buffer[key];
+      const obj = {};
+      obj[this.storageName] = this.buffer;
+      this.storage.set(obj, () => {
+        if (typeof callback === 'function') callback(true);
+      });
+    } else {
+      if (typeof callback === 'function') callback(false);
     }
   }
 }
