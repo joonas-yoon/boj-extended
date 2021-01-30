@@ -20,7 +20,7 @@ function extendTheme() {
   bar.appendChild(li);
   btn.addEventListener('click', (evt) => {
     evt.preventDefault();
-    const theme = document.body.getAttribute('theme');
+    const theme = document.body.parentNode.getAttribute('theme');
     const newTheme = theme == 'dark' ? 'light' : 'dark';
     Config.save('theme', newTheme, (result) => {
       applyTheme(btn, result);
@@ -34,7 +34,7 @@ function extendTheme() {
 }
 
 function applyTheme(button, theme) {
-  document.body.setAttribute('theme', theme);
+  document.body.parentNode.setAttribute('theme', theme);
   if (button) {
     button.innerText = theme == 'dark' ? '밝은 테마' : '어두운 테마';
   }
