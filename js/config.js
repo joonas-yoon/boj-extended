@@ -1,6 +1,11 @@
-class ConfigClass {
+const Config = {
   // can be bufferred
-  save(key, value, callback) {
+  save: function (key, value, callback) {
+    if (chrome.runtime.lastError) {
+      console.warn(chrome.runtime.lastError.message);
+      setTimeout(this.save.bind(null, key, value, callback), 100);
+      return;
+    }
     chrome.runtime.sendMessage(
       {
         action: 'config.save',
@@ -11,9 +16,14 @@ class ConfigClass {
       },
       callback
     );
-  }
+  },
 
-  load(key, callback) {
+  load: function (key, callback) {
+    if (chrome.runtime.lastError) {
+      console.warn(chrome.runtime.lastError.message);
+      setTimeout(this.load.bind(null, key, callback), 100);
+      return;
+    }
     chrome.runtime.sendMessage(
       {
         action: 'config.load',
@@ -23,9 +33,14 @@ class ConfigClass {
       },
       callback
     );
-  }
+  },
 
-  remove(key, callback) {
+  remove: function (key, callback) {
+    if (chrome.runtime.lastError) {
+      console.warn(chrome.runtime.lastError.message);
+      setTimeout(this.save.remove(null, key, callback), 100);
+      return;
+    }
     chrome.runtime.sendMessage(
       {
         action: 'config.remove',
@@ -35,7 +50,5 @@ class ConfigClass {
       },
       callback
     );
-  }
-}
-
-const Config = new ConfigClass();
+  },
+};

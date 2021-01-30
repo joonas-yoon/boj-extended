@@ -2,7 +2,7 @@ function openSettingPage() {
   chrome.runtime.openOptionsPage();
 }
 
-class ConfigClass {
+class _Config {
   constructor() {
     this.storage =
       typeof browser !== 'undefined'
@@ -24,7 +24,7 @@ class ConfigClass {
     const obj = {};
     obj[this.storageName] = this.buffer;
     this.storage.set(obj, () => {
-      if (typeof callback === 'function') callback(value);
+      callback(value);
     });
   }
 
@@ -52,15 +52,15 @@ class ConfigClass {
       const obj = {};
       obj[this.storageName] = this.buffer;
       this.storage.set(obj, () => {
-        if (typeof callback === 'function') callback(true);
+        callback(true);
       });
     } else {
-      if (typeof callback === 'function') callback(false);
+      callback(false);
     }
   }
 }
 
-const Config = new ConfigClass(); // as singleton
+const Config = new _Config(); // as singleton
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   switch (message.action) {
@@ -79,4 +79,5 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
     default:
       break;
   }
+  return true;
 });
