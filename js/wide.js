@@ -12,29 +12,31 @@ function extendWide() {
   bar.appendChild(li);
   btn.addEventListener('click', (evt) => {
     evt.preventDefault();
-    Config.load('wide', (wide) => {
-      applyWide(btn, !wide);
+    const wide = btn.getAttribute('wide') == 'true';
+    Config.save('wide', !wide, (result) => {
+      applyWide(btn, result);
     });
   });
 
   // after page loaded
   Config.load('wide', (wide) => {
-    applyWide(null, wide);
+    applyWide(btn, wide);
   });
 }
 
-function applyWide(btn, toWide) {
-  Config.save('wide', toWide, (result) => {
-    const container = document.getElementsByClassName('content')[0];
-    if (result) {
-      container.classList.remove('container');
-      container.classList.add('container-fluid');
-      container.style.padding = '40px 3em';
-    } else {
-      container.classList.remove('container-fluid');
-      container.classList.add('container');
-      container.style.padding = '40px 0';
-    }
-    if (btn) btn.innerText = result ? '기본 보기' : '넓게 보기';
-  });
+function applyWide(btn, wide) {
+  const container = document.getElementsByClassName('content')[0];
+  if (wide) {
+    container.classList.remove('container');
+    container.classList.add('container-fluid');
+    container.style.padding = '40px 3em';
+  } else {
+    container.classList.remove('container-fluid');
+    container.classList.add('container');
+    container.style.padding = '40px 0';
+  }
+  if (btn) {
+    btn.setAttribute('wide', !!wide);
+    btn.innerText = wide ? '기본 크기' : '넓은 크기';
+  }
 }

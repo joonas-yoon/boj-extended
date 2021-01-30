@@ -1,4 +1,9 @@
-(function () {
+(function main() {
+  if (chrome.runtime.lastError) {
+    console.error(chrome.runtime.lastError.message);
+    setTimeout(main, 100);
+    return;
+  }
   Array.from(document.getElementsByClassName('btn-close-window')).forEach(
     (e) => {
       e.addEventListener('click', (evt) => {

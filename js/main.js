@@ -1,4 +1,10 @@
 (function extend() {
+  if (chrome.runtime.lastError) {
+    console.warn(chrome.runtime.lastError.message);
+    setTimeout(extend, 1000);
+    return;
+  }
+
   /* eslint-disable no-undef */
   const loc = window.location;
 
