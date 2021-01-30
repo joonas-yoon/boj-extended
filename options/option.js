@@ -17,7 +17,9 @@
   const oTheme = document.getElementsByClassName('option-theme');
   for (let i = 0; i < oTheme.length; ++i) {
     oTheme[i].addEventListener('change', (evt) => {
-      applyTheme(null, evt.target.value);
+      Config.save('theme', evt.target.value, (result) => {
+        applyTheme(null, result);
+      });
     });
   }
 
@@ -29,7 +31,9 @@
   const oWide = document.getElementsByClassName('option-wide');
   for (let i = 0; i < oWide.length; ++i) {
     oWide[i].addEventListener('change', (evt) => {
-      applyWide(null, !!parseInt(evt.target.value));
+      Config.save('wide', !!parseInt(evt.target.value), (result) => {
+        applyWide(null, result);
+      });
     });
   }
 
