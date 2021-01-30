@@ -1,5 +1,5 @@
 (function extendThemePre() {
-  document.addEventListener('DOMContentLoaded', () => {
+  window.addEventListener('DOMContentLoaded', () => {
     Config.load('theme', (theme) => {
       applyTheme(null, theme);
     });
@@ -22,20 +22,20 @@ function extendTheme() {
     evt.preventDefault();
     const theme = document.body.getAttribute('theme');
     const newTheme = theme == 'dark' ? 'light' : 'dark';
-    applyTheme(btn, newTheme);
+    Config.save('theme', newTheme, (result) => {
+      applyTheme(btn, result);
+    });
   });
 
   // after page loaded
-  Config.load('theme', (theme) => {
-    applyTheme(btn, theme);
+  Config.load('theme', (result) => {
+    applyTheme(btn, result);
   });
 }
 
 function applyTheme(button, theme) {
-  Config.save('theme', theme, (result) => {
-    document.body.setAttribute('theme', theme);
-    if (button) {
-      button.innerText = result == 'dark' ? '밝은 테마' : '어두운 테마';
-    }
-  });
+  document.body.setAttribute('theme', theme);
+  if (button) {
+    button.innerText = theme == 'dark' ? '밝은 테마' : '어두운 테마';
+  }
 }
