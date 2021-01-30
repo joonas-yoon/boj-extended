@@ -73,7 +73,7 @@ body[theme='dark'] .headline h4 {
   border-bottom-color: #b5b5b5;
 }
 body[theme='dark'] table.table tr td a {
-  color: #dfdfdf;
+  color: #89c4e8;
 }
 body[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
 body[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
@@ -117,6 +117,20 @@ body[theme='dark'] .table > tbody > tr.success > th,
 body[theme='dark'] .table > tfoot > tr.success > th {
   border-color: #6f9062;
   background-color: #567b47;
+}
+body[theme='dark'] .table > thead > tr > td.success a,
+body[theme='dark'] .table > tbody > tr > td.success a,
+body[theme='dark'] .table > tfoot > tr > td.success a,
+body[theme='dark'] .table > thead > tr > th.success a,
+body[theme='dark'] .table > tbody > tr > th.success a,
+body[theme='dark'] .table > tfoot > tr > th.success a,
+body[theme='dark'] .table > thead > tr.success > td a,
+body[theme='dark'] .table > tbody > tr.success > td a,
+body[theme='dark'] .table > tfoot > tr.success > td a,
+body[theme='dark'] .table > thead > tr.success > th a,
+body[theme='dark'] .table > tbody > tr.success > th a,
+body[theme='dark'] .table > tfoot > tr.success > th a {
+  color: #ebf5e7;
 }
 body[theme='dark'] .table > thead > tr.result-mine > td:first-child,
 body[theme='dark'] .table > tbody > tr.result-mine > td:first-child,
@@ -273,7 +287,16 @@ body[theme='dark'] .dropdown-menu > li > a:focus {
   background-color: #5f5f5f;
 }
 body[theme='dark'] .funny-boxes {
-  background: #020202;
+  background: #191919;
+}
+body[theme='dark'] .funny-boxes h2 a {
+  color: #89c4e8;
+}
+body[theme='dark'] .funny-boxes-top-sea {
+  border-top-color: #376c90;
+}
+body[theme='dark'] .funny-boxes-top-sea:hover {
+  border-top-color: #252d3c;
 }
 body[theme='dark'] .search-block-v2 {
   background: #060606;
@@ -322,6 +345,9 @@ body[theme='dark'] .blog-twitter .blog-twitter-inner:before {
 }
 body[theme='dark'] .blog-twitter .blog-twitter-inner a.article-subject {
   color: #b1b1b1;
+}
+body[theme='dark'] .posts .dl-horizontal a {
+  color: #c5c5c5;
 }
 body[theme='dark'] .result-ac {
   color: #09b58c !important;
