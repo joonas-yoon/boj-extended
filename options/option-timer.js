@@ -13,11 +13,18 @@
   // Timers
   Config.load('problem-timers', (list) => {
     let pids = Object.keys(list || {});
-    for (let i = 0; i < pids.length; ++i) {
-      let pid = pids[i];
-      let timeInfo = list[pid];
-      let pname = PROVISIONED_DB['problems'][pid];
-      container.appendChild(createTimerElement(pid, pname, timeInfo));
+    if (pids.length) {
+      for (let i = 0; i < pids.length; ++i) {
+        let pid = pids[i];
+        let timeInfo = list[pid];
+        let pname = PROVISIONED_DB['problems'][pid];
+        container.appendChild(createTimerElement(pid, pname, timeInfo));
+      }
+    } else {
+      // empty
+      const p = document.createElement('p');
+      p.innerText = '표시할 항목이 없습니다.';
+      container.appendChild(p);
     }
   });
 
