@@ -20,10 +20,11 @@
       "all_frames": true,
       "js": [
         "js/db.js",
-        "js/user.js",
         "js/status.js",
-        "js/group.js",
         "js/problem.js",
+        "js/user.js",
+        "js/board.js",
+        "js/group.js",
         "js/setting.js",
         "js/main.js"
       ]
