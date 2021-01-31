@@ -3,7 +3,6 @@ html[theme='dark'] body {
   color: #dfdfdf;
   background-color: #161616;
 }
-html[theme='dark'] div,
 html[theme='dark'] p,
 html[theme='dark'] li {
   color: #dfdfdf;
@@ -381,13 +380,18 @@ html[theme='dark'] .close:focus {
 }
 html[theme='dark'] .alert-success {
   color: #3c763d;
-  background-color: transparent;
+  background-color: rgb(25, 25, 25, 0.4);
   border-color: #b6e291;
 }
 html[theme='dark'] .alert-info {
   color: #31708f;
-  background-color: transparent;
+  background-color: rgb(25, 25, 25, 0.4);
   border-color: #79cdde;
+}
+html[theme='dark'] .alert-danger {
+  color: #ebccd1;
+  background-color: rgb(25, 25, 25, 0.4);
+  border-color: #a94442;
 }
 html[theme='dark'] #contest_statistics a {
   color: #a0a0a0;
