@@ -1,384 +1,492 @@
-html + body[theme='dark'] {
-  background-color: black;
+html[theme='dark'],
+html[theme='dark'] body {
+  color: #dfdfdf;
+  background-color: #161616;
 }
-body[theme='dark'] body {
+html[theme='dark'] p,
+html[theme='dark'] li {
   color: #dfdfdf;
 }
-body[theme='dark'] div,
-body[theme='dark'] p,
-body[theme='dark'] li {
-  color: #cfcfcf;
+html[theme='dark'] a {
+  color: #89c4e8;
 }
-body[theme='dark'] a {
-  color: #52ace4;
-}
-body[theme='dark'] h1,
-body[theme='dark'] h2,
-body[theme='dark'] h3,
-body[theme='dark'] h4,
-body[theme='dark'] h5,
-body[theme='dark'] h6 {
+html[theme='dark'] h1,
+html[theme='dark'] h2,
+html[theme='dark'] h3,
+html[theme='dark'] h4,
+html[theme='dark'] h5,
+html[theme='dark'] h6 {
   color: #cfcfd0;
 }
-body[theme='dark'],
-body[theme='dark'] .wrapper {
-  background: black;
+html[theme='dark'] legend {
+  color: #eaeaea;
 }
-body[theme='dark'] .header {
-  background-color: #0e0e0e;
+html[theme='dark'] blockquote {
+  border-left-color: #3f3f3f;
+}
+html[theme='dark'] blockquote:hover,
+html[theme='dark'] blockquote.text-right:hover {
+  border-color: #6eacd4;
+}
+html[theme='dark'],
+html[theme='dark'] .wrapper {
+  background: #161616;
+}
+html[theme='dark'] .header {
+  background-color: #161616;
   color: white;
-  border-bottom: solid 2px #0a0a0a;
+  border-bottom: solid 2px #202020;
 }
-body[theme='dark'] .header .navbar-default .navbar-nav > .active > a {
-  color: #d2d2d2;
-  border-color: #949494;
+html[theme='dark'] .header .navbar-default .navbar-nav > li > a {
+  color: #a2a4a5;
 }
-body[theme='dark'] .header .mega-menu .mega-menu-content {
+html[theme='dark'] .header .navbar-default .navbar-nav > li:hover > a {
+  color: #c9c9c9;
+  border-bottom-color: #8a8a8a;
+}
+html[theme='dark'] .header .navbar-default .navbar-nav > .active > a {
+  color: white;
+  border-color: #eeeeee;
+}
+html[theme='dark'] .header .mega-menu .mega-menu-content {
   background: #0e0e0e;
 }
-body[theme='dark'] .header .dropdown-menu {
+html[theme='dark'] .header .dropdown-menu {
   border-top: solid 2px #949494;
 }
 @media (min-width: 992px) {
-  body[theme='dark'] .header .mega-menu .equal-height-in {
+  html[theme='dark'] .header .mega-menu .equal-height-in {
     border-left-color: #191919;
   }
 }
-body[theme='dark'] table.table tr td a {
-  color: #bbb;
+html[theme='dark'] .page-header {
+  border-bottom-color: #4a4a4a;
 }
-body[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
-body[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
+html[theme='dark'] .headline {
+  border-bottom-color: #757575;
+}
+html[theme='dark'] .headline h2,
+html[theme='dark'] .headline h3,
+html[theme='dark'] .headline h4 {
+  border-bottom-color: #b5b5b5;
+}
+html[theme='dark'] table.table tr td a {
+  color: #89c4e8;
+}
+html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
+html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: #111;
   border-color: #333;
 }
-body[theme='dark'] .table-bordered {
+html[theme='dark'] .table-bordered {
   border-color: #333;
 }
-body[theme='dark'] .table-bordered > thead > tr > th,
-body[theme='dark'] .table-bordered > tbody > tr > th,
-body[theme='dark'] .table-bordered > tfoot > tr > th,
-body[theme='dark'] .table-bordered > thead > tr > td,
-body[theme='dark'] .table-bordered > tbody > tr > td,
-body[theme='dark'] .table-bordered > tfoot > tr > td {
+html[theme='dark'] .table-bordered > thead > tr > th,
+html[theme='dark'] .table-bordered > tbody > tr > th,
+html[theme='dark'] .table-bordered > tfoot > tr > th,
+html[theme='dark'] .table-bordered > thead > tr > td,
+html[theme='dark'] .table-bordered > tbody > tr > td,
+html[theme='dark'] .table-bordered > tfoot > tr > td {
   border-color: #333;
 }
-body[theme='dark'] .table-hover > tbody > tr:hover > td,
-body[theme='dark'] .table-hover > tbody > tr:hover > th {
+html[theme='dark'] .table-hover > tbody > tr:hover > td,
+html[theme='dark'] .table-hover > tbody > tr:hover > th {
   background-color: #232323;
 }
-body[theme='dark'] .table > thead > tr > th,
-body[theme='dark'] .table > tbody > tr > th,
-body[theme='dark'] .table > tfoot > tr > th,
-body[theme='dark'] .table > thead > tr > td,
-body[theme='dark'] .table > tbody > tr > td,
-body[theme='dark'] .table > tfoot > tr > td {
+html[theme='dark'] .table > thead > tr > th,
+html[theme='dark'] .table > tbody > tr > th,
+html[theme='dark'] .table > tfoot > tr > th,
+html[theme='dark'] .table > thead > tr > td,
+html[theme='dark'] .table > tbody > tr > td,
+html[theme='dark'] .table > tfoot > tr > td {
   border-color: #2d2d2d;
 }
-body[theme='dark'] .table > thead > tr > td.success,
-body[theme='dark'] .table > tbody > tr > td.success,
-body[theme='dark'] .table > tfoot > tr > td.success,
-body[theme='dark'] .table > thead > tr > th.success,
-body[theme='dark'] .table > tbody > tr > th.success,
-body[theme='dark'] .table > tfoot > tr > th.success,
-body[theme='dark'] .table > thead > tr.success > td,
-body[theme='dark'] .table > tbody > tr.success > td,
-body[theme='dark'] .table > tfoot > tr.success > td,
-body[theme='dark'] .table > thead > tr.success > th,
-body[theme='dark'] .table > tbody > tr.success > th,
-body[theme='dark'] .table > tfoot > tr.success > th {
+html[theme='dark'] .table > thead > tr > td.success,
+html[theme='dark'] .table > tbody > tr > td.success,
+html[theme='dark'] .table > tfoot > tr > td.success,
+html[theme='dark'] .table > thead > tr > th.success,
+html[theme='dark'] .table > tbody > tr > th.success,
+html[theme='dark'] .table > tfoot > tr > th.success,
+html[theme='dark'] .table > thead > tr.success > td,
+html[theme='dark'] .table > tbody > tr.success > td,
+html[theme='dark'] .table > tfoot > tr.success > td,
+html[theme='dark'] .table > thead > tr.success > th,
+html[theme='dark'] .table > tbody > tr.success > th,
+html[theme='dark'] .table > tfoot > tr.success > th {
   border-color: #6f9062;
   background-color: #567b47;
 }
-body[theme='dark'] .table > thead > tr.result-mine > td:first-child,
-body[theme='dark'] .table > tbody > tr.result-mine > td:first-child,
-body[theme='dark'] .table > tfoot > tr.result-mine > td:first-child {
+html[theme='dark'] .table > thead > tr > td.success a,
+html[theme='dark'] .table > tbody > tr > td.success a,
+html[theme='dark'] .table > tfoot > tr > td.success a,
+html[theme='dark'] .table > thead > tr > th.success a,
+html[theme='dark'] .table > tbody > tr > th.success a,
+html[theme='dark'] .table > tfoot > tr > th.success a,
+html[theme='dark'] .table > thead > tr.success > td a,
+html[theme='dark'] .table > tbody > tr.success > td a,
+html[theme='dark'] .table > tfoot > tr.success > td a,
+html[theme='dark'] .table > thead > tr.success > th a,
+html[theme='dark'] .table > tbody > tr.success > th a,
+html[theme='dark'] .table > tfoot > tr.success > th a {
+  color: #ebf5e7;
+}
+html[theme='dark'] .table > thead > tr.result-mine > td:first-child,
+html[theme='dark'] .table > tbody > tr.result-mine > td:first-child,
+html[theme='dark'] .table > tfoot > tr.result-mine > td:first-child {
   border-left: 4px solid #e2e2e2;
 }
-body[theme='dark'] .table > thead > tr > td.info,
-body[theme='dark'] .table > tbody > tr > td.info,
-body[theme='dark'] .table > tfoot > tr > td.info,
-body[theme='dark'] .table > thead > tr > th.info,
-body[theme='dark'] .table > tbody > tr > th.info,
-body[theme='dark'] .table > tfoot > tr > th.info,
-body[theme='dark'] .table > thead > tr.info > td,
-body[theme='dark'] .table > tbody > tr.info > td,
-body[theme='dark'] .table > tfoot > tr.info > td,
-body[theme='dark'] .table > thead > tr.info > th,
-body[theme='dark'] .table > tbody > tr.info > th,
-body[theme='dark'] .table > tfoot > tr.info > th {
+html[theme='dark'] .table > thead > tr > td.info,
+html[theme='dark'] .table > tbody > tr > td.info,
+html[theme='dark'] .table > tfoot > tr > td.info,
+html[theme='dark'] .table > thead > tr > th.info,
+html[theme='dark'] .table > tbody > tr > th.info,
+html[theme='dark'] .table > tfoot > tr > th.info,
+html[theme='dark'] .table > thead > tr.info > td,
+html[theme='dark'] .table > tbody > tr.info > td,
+html[theme='dark'] .table > tfoot > tr.info > td,
+html[theme='dark'] .table > thead > tr.info > th,
+html[theme='dark'] .table > tbody > tr.info > th,
+html[theme='dark'] .table > tfoot > tr.info > th {
   background-color: #13587b;
+  border-color: #124c69;
 }
-body[theme='dark'] .footer-v3 .footer {
-  background: #101010;
+html[theme='dark'] .thumbnail {
+  background-color: #222222;
+  border-color: #333333;
+  color: white;
+}
+html[theme='dark'] .thumbnail h3 a,
+html[theme='dark'] .thumbnail-style h3 a {
+  color: #c5c5c5;
+}
+html[theme='dark'] .footer-v3 .footer {
+  background: #191919;
   border-top: 5px solid #1f1f1f;
 }
-body[theme='dark'] .form-control {
+html[theme='dark'] .form-control {
   color: #eee;
   background-color: #191919;
-  border-color: #6a6a6a;
+  border-color: #2f2f2f;
 }
-body[theme='dark'] .form-control input::placeholder {
+html[theme='dark'] .form-control input::placeholder {
   color: #dfdfdf;
 }
-body[theme='dark'] .pagination > li > a,
-body[theme='dark'] .pagination > li > span {
-  background-color: #040404;
-  border-color: #313131;
+html[theme='dark'] .form-control[disabled],
+html[theme='dark'] .form-control[readonly],
+html[theme='dark'] fieldset[disabled] .form-control {
+  color: #616161;
+  background-color: #353535;
 }
-body[theme='dark'] .nav > li > a:hover,
-body[theme='dark'] .nav > li > a:focus {
+html[theme='dark'] .pagination > li > a,
+html[theme='dark'] .pagination > li > span {
+  background-color: #2f2f2f;
+  border-color: #5a5a5a;
+  color: #eee;
+}
+html[theme='dark'] .pagination li a:hover {
+  background-color: #5f5f5f;
+}
+html[theme='dark'] .pagination > .active > a,
+html[theme='dark'] .pagination > .active > span,
+html[theme='dark'] .pagination > .active > a:hover,
+html[theme='dark'] .pagination > .active > span:hover,
+html[theme='dark'] .pagination > .active > a:focus,
+html[theme='dark'] .pagination > .active > span:focus {
+  background-color: #717171;
+  border-color: #717171;
+}
+
+html[theme='dark'] .nav .open > a,
+html[theme='dark'] .nav .open > a:hover,
+html[theme='dark'] .nav .open > a:focus {
+  background-color: #333;
+  color: #cfcfcf;
+}
+html[theme='dark'] .nav > li > a:hover,
+html[theme='dark'] .nav > li > a:focus {
   background-color: #383838;
-  color: #ccc;
+  color: #cfcfcf;
 }
-body[theme='dark'] .nav-pills > li.active > a,
-body[theme='dark'] .nav-pills > li.active > a:hover,
-body[theme='dark'] .nav-pills > li.active > a:focus {
+html[theme='dark'] .nav-pills > li.active > a,
+html[theme='dark'] .nav-pills > li.active > a:hover,
+html[theme='dark'] .nav-pills > li.active > a:focus {
   color: #000;
   background-color: #e2e2e2;
 }
-body[theme='dark'] .nav-pills > li.active > a,
-body[theme='dark'] .nav-pills > li.active > a:hover,
-body[theme='dark'] .nav-pills > li.active > a:focus {
+html[theme='dark'] .nav-pills > li.active > a,
+html[theme='dark'] .nav-pills > li.active > a:hover,
+html[theme='dark'] .nav-pills > li.active > a:focus {
   color: #000;
   background-color: #ffffff;
 }
-body[theme='dark'] .reg-page {
+html[theme='dark'] .reg-page {
   color: #e2e2e2;
   padding: 30px;
   background: #0e0e0e;
   border: solid 1px #1f1f1f;
   box-shadow: 0 0 3px #2f2f2f;
 }
-body[theme='dark'] .reg-header h2 {
+html[theme='dark'] .reg-header h2 {
   color: #e2e2e2;
 }
-body[theme='dark'] .input-group-addon {
+html[theme='dark'] .input-group-addon {
   color: #dadada;
   background: #1d1d1d;
   border-color: #222;
 }
-body[theme='dark'] .breadcrumbs {
+html[theme='dark'] .breadcrumbs {
   background: #050505 !important;
   border-color: black;
 }
-body[theme='dark'] .sky-form {
+html[theme='dark'] .sky-form {
   border-color: #222;
 }
-body[theme='dark'] .sky-form fieldset {
+html[theme='dark'] .sky-form fieldset {
   background: #080808;
   color: white;
 }
-body[theme='dark'] .sky-form .radio,
-body[theme='dark'] .sky-form .checkbox {
+html[theme='dark'] .sky-form .radio,
+html[theme='dark'] .sky-form .checkbox {
   color: #9a9a9a;
 }
-body[theme='dark'] .selectize-input {
+html[theme='dark'] .selectize-input {
   border-color: #222;
 }
-body[theme='dark'] .selectize-control.single .selectize-input.input-active,
-body[theme='dark'] .selectize-input {
+html[theme='dark'] .selectize-control.single .selectize-input.input-active,
+html[theme='dark'] .selectize-input {
   background: #4a4a4a;
 }
-body[theme='dark'] .selectize-dropdown,
-body[theme='dark'] .selectize-dropdown.form-control {
+html[theme='dark'] .selectize-dropdown,
+html[theme='dark'] .selectize-dropdown.form-control {
   background: #2d2d2d;
 }
-body[theme='dark'] .sky-form .radio i,
-body[theme='dark'] .sky-form .checkbox i {
+html[theme='dark'] .sky-form .radio i,
+html[theme='dark'] .sky-form .checkbox i {
   background: #1f1f1f;
 }
-body[theme='dark'] .sky-form .radio input + i:after {
+html[theme='dark'] .sky-form .radio input + i:after {
   background-color: #fff;
 }
-body[theme='dark'] .sky-form footer {
+html[theme='dark'] .sky-form footer {
   background: #080808;
 }
-body[theme='dark'] .dropdown-menu {
+html[theme='dark'] .dropdown-menu {
   background-color: #333;
 }
-body[theme='dark'] .dropdown-menu > li > a {
+html[theme='dark'] .dropdown-menu > li > a {
   color: #ccc;
 }
-body[theme='dark'] .dropdown-menu .divider {
+html[theme='dark'] .dropdown-menu .divider {
   background-color: #4a4a4a;
 }
-body[theme='dark'] .dropdown-menu > li > a:hover,
-body[theme='dark'] .dropdown-menu > li > a:focus {
+html[theme='dark'] .dropdown-menu > li > a:hover,
+html[theme='dark'] .dropdown-menu > li > a:focus {
   color: #dadada;
   background-color: #5f5f5f;
 }
-body[theme='dark'] .funny-boxes {
-  background: #020202;
+html[theme='dark'] .funny-boxes {
+  background: #191919;
 }
-body[theme='dark'] .search-block-v2 {
+html[theme='dark'] .funny-boxes h2 a {
+  color: #89c4e8;
+}
+html[theme='dark'] .funny-boxes-top-sea {
+  border-top-color: #376c90;
+}
+html[theme='dark'] .funny-boxes-top-sea:hover {
+  border-top-color: #252d3c;
+}
+html[theme='dark'] .search-block-v2 {
   background: #060606;
 }
-body[theme='dark'] .list-group-item {
-  background-color: #101010;
-  border-color: #2d2d2d;
+html[theme='dark'] .list-group-item {
+  background: #222222;
+  border-color: #2f2f2f;
 }
-body[theme='dark'] .sidebar-nav-v1 > li.active > a {
-  color: #000;
-}
-body[theme='dark'] .sidebar-nav-v1 > li.active,
-body[theme='dark'] .sidebar-nav-v1 > li.active:hover {
-  background: #d0d1d2;
-}
-body[theme='dark'] .sidebar-nav-v1 li a:hover,
-body[theme='dark'] .sidebar-nav-v1 li a:active {
-  color: #f1f1f1;
-}
-body[theme='dark'] .form-control[disabled],
-body[theme='dark'] .form-control[readonly],
-body[theme='dark'] fieldset[disabled] .form-control {
-  color: #616161;
-  background-color: #353535;
-}
-body[theme='dark'] .progress {
-  background: #0c0c0c;
-}
-body[theme='dark'] .panel-default {
-  border-color: #6b6b6b;
-}
-body[theme='dark'] .panel-default > .panel-heading {
-  color: #fff;
-  background-color: #5a5a5a;
-  border-color: #313131;
-}
-body[theme='dark'] .panel-body {
-  background-color: #111;
-}
-body[theme='dark'] .page-header > h1 {
+html[theme='dark'] .sidebar-nav-v1 > li.active > a {
   color: white;
 }
-body[theme='dark'] .blog-twitter .blog-twitter-inner {
+html[theme='dark'] .sidebar-nav-v1 > li.active,
+html[theme='dark'] .sidebar-nav-v1 > li.active:hover {
+  background: #555555;
+  border-color: #5f5f5f;
+}
+html[theme='dark'] .sidebar-nav-v1 li a:hover,
+html[theme='dark'] .sidebar-nav-v1 li a:active {
+  color: #fafafa;
+}
+html[theme='dark'] .progress {
+  background: #0c0c0c;
+}
+html[theme='dark'] .panel-default {
+  border-color: #333333;
+}
+html[theme='dark'] .panel-default > .panel-heading {
+  color: #fff;
+  background-color: #262626;
+  border-color: #313131;
+}
+html[theme='dark'] .panel-body {
+  background-color: #111;
+}
+html[theme='dark'] .page-header > h1 {
+  color: white;
+}
+html[theme='dark'] .blog-twitter .blog-twitter-inner {
   background: #252525;
 }
-body[theme='dark'] .blog-twitter .blog-twitter-inner:after {
+html[theme='dark'] .blog-twitter .blog-twitter-inner:after {
   border-top: 15px solid #6d6d6d;
 }
-body[theme='dark'] .blog-twitter .blog-twitter-inner:before {
+html[theme='dark'] .blog-twitter .blog-twitter-inner:before {
   border-bottom-color: black;
 }
-body[theme='dark'] .blog-twitter .blog-twitter-inner a.article-subject {
+html[theme='dark'] .blog-twitter .blog-twitter-inner a.article-subject {
   color: #b1b1b1;
 }
-body[theme='dark'] .result-ac {
+html[theme='dark'] .posts .dl-horizontal a {
+  color: #c5c5c5;
+}
+html[theme='dark'] .result-ac {
   color: #09b58c !important;
 }
-body[theme='dark'] .result-wa {
+html[theme='dark'] .result-wa {
   color: #dd4124 !important;
 }
-body[theme='dark'] .result-rte {
+html[theme='dark'] .result-rte {
   color: #8d6bd8 !important;
 }
-body[theme='dark'] .result-ce {
+html[theme='dark'] .result-ce {
   color: #458ac7 !important;
 }
-body[theme='dark'] .result-pe,
-body[theme='dark'] .result-tle,
-body[theme='dark'] .result-mle,
-body[theme='dark'] .result-ole {
+html[theme='dark'] .result-pe,
+html[theme='dark'] .result-tle,
+html[theme='dark'] .result-mle,
+html[theme='dark'] .result-ole {
   color: #fa7268 !important;
 }
-body[theme='dark'] .result-co,
-body[theme='dark'] .result-del {
+html[theme='dark'] .result-co,
+html[theme='dark'] .result-del {
   color: #505050 !important;
 }
-body[theme='dark'] .close {
+html[theme='dark'] .close {
   color: white;
   opacity: 0.5;
 }
-body[theme='dark'] .close:hover,
-body[theme='dark'] .close:focus {
+html[theme='dark'] .close:hover,
+html[theme='dark'] .close:focus {
   color: white;
   opacity: 0.85;
 }
-body[theme='dark'] .alert-success {
+html[theme='dark'] .alert-success {
   color: #3c763d;
-  background-color: transparent;
+  background-color: rgb(25, 25, 25, 0.4);
   border-color: #b6e291;
 }
-body[theme='dark'] .alert-info {
+html[theme='dark'] .alert-info {
   color: #31708f;
-  background-color: transparent;
+  background-color: rgb(25, 25, 25, 0.4);
   border-color: #79cdde;
 }
-body[theme='dark'] #contest_statistics a {
+html[theme='dark'] .alert-danger {
+  color: #ebccd1;
+  background-color: rgb(25, 25, 25, 0.4);
+  border-color: #a94442;
+}
+html[theme='dark'] #contest_statistics a {
   color: #a0a0a0;
 }
-body[theme='dark'] .label-success {
+html[theme='dark'] .label-success {
   background-color: transparent;
   border: 1px solid #5cb85c;
   color: #5cb85c;
 }
-body[theme='dark'] span.label-light-green,
-body[theme='dark'] span.badge-light-green {
+html[theme='dark'] span.label-light-green,
+html[theme='dark'] span.badge-light-green {
   background-color: transparent;
   border: 1px solid #79d5b3;
   color: #79d5b3 !important;
 }
-body[theme='dark'] .label-default {
+html[theme='dark'] .label-default {
   background-color: transparent;
   border: 1px solid #777;
   color: #777 !important;
 }
-body[theme='dark'] span.label-purple,
-body[theme='dark'] span.badge-purple {
+html[theme='dark'] span.label-purple,
+html[theme='dark'] span.badge-purple {
   background-color: transparent;
   border: 1px solid #9b6bcc;
   color: #9b6bcc !important;
 }
-body[theme='dark'] .label-info {
+html[theme='dark'] .label-info {
   background-color: transparent;
   border: 1px solid #5bc0de;
   color: #5bc0de !important;
 }
-body[theme='dark'] .label-danger {
+html[theme='dark'] .label-danger {
   background-color: transparent;
   border: 1px solid #d9534f;
   color: #d9534f !important;
 }
-body[theme='dark'] .label-primary {
+html[theme='dark'] .label-primary {
   background-color: transparent;
   border: 1px solid #428bca;
   color: #428bca !important;
 }
-body[theme='dark'] .label-warning {
+html[theme='dark'] .label-warning {
   background-color: transparent;
   border: 1px solid #f0ad4e;
   color: #f0ad4e !important;
 }
-body[theme='dark'] span.label-dark,
-body[theme='dark'] span.badge-dark {
+html[theme='dark'] span.label-dark,
+html[theme='dark'] span.badge-dark {
   background-color: transparent;
   border: 1px solid #555;
   color: #555 !important;
 }
-body[theme='dark'] span.label-aqua,
-body[theme='dark'] span.badge-aqua {
+html[theme='dark'] span.label-aqua,
+html[theme='dark'] span.badge-aqua {
   background-color: transparent;
   border: 1px solid #27d7e7;
   color: #27d7e7 !important;
 }
-body[theme='dark'] span.label-sea,
-body[theme='dark'] span.badge-sea {
+html[theme='dark'] span.label-sea,
+html[theme='dark'] span.badge-sea {
   background-color: transparent;
   border: 1px solid #1abc9c;
   color: #1abc9c !important;
 }
-body[theme='dark'] span.label-dark-blue,
-body[theme='dark'] span.badge-dark-blue {
+html[theme='dark'] span.label-yellow,
+html[theme='dark'] span.badge-yellow {
+  background-color: transparent;
+  border: 1px solid #f1c40f;
+  color: #f1c40f !important;
+}
+html[theme='dark'] span.label-dark-blue,
+html[theme='dark'] span.badge-dark-blue {
   background-color: transparent;
   border: 1px solid #4765a0;
   color: #4765a0 !important;
 }
-body[theme='dark'] .sampledata {
+html[theme='dark'] .sampledata {
   background-color: #0e0e0e;
   color: #eaeaea;
   border-color: #2f2f2f;
 }
-body[theme='dark'] .space-highlight {
+html[theme='dark'] .space-highlight {
   background-color: rgba(123, 103, 24, 0.3);
+}
+html[theme='dark'] .user-admin {
+  color: white !important;
+}
+html[theme='dark'] .user-legendary-first-letter {
+  color: white !important;
+}
+html[theme='dark'] .s-results .inner-results h3 a {
+  color: #fff;
+}
+html[theme='dark'] #problem-timer .dropdown-menu input.timer-number {
+  color: white;
+  background-color: #3f3f3f;
+  border-color: #6a6a6a;
 }

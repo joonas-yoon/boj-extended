@@ -14,6 +14,8 @@
     extendStatusPage();
   } else if (loc.pathname.startsWith('/group/member/')) {
     extendGroupMemberPage();
+  } else if (loc.pathname.startsWith('/board/')) {
+    extendBoardPage();
   } else if (isSettingPage(loc.pathname)) {
     extendSettingPage();
   }

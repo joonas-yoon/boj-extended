@@ -1,4 +1,10 @@
 const Config = {
+  storageKeyPrefix: 'boj-extended-',
+
+  getKey: function (key) {
+    return this.storageKeyPrefix + key;
+  },
+
   // can be bufferred
   save: function (key, value, callback) {
     if (chrome.runtime.lastError) {
@@ -16,6 +22,8 @@ const Config = {
       },
       callback
     );
+    // Duplicate for HA (High Availability)
+    window.localStorage.setItem(this.getKey(key), value);
   },
 
   load: function (key, callback) {
@@ -31,7 +39,10 @@ const Config = {
           key: key,
         },
       },
-      callback
+      (value) => {
+        callback(value);
+        window.localStorage.setItem(this.getKey(key), value);
+      }
     );
   },
 
@@ -50,5 +61,13 @@ const Config = {
       },
       callback
     );
+    window.localStorage.removeItem(this.getKey(key));
   },
 };
+
+// preload theme from localStorage
+(() => {
+  const html = document.documentElement;
+  const theme = localStorage.getItem(Config.getKey('theme'));
+  html.setAttribute('theme', theme || 'light');
+})();
