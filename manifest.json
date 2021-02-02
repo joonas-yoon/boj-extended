@@ -13,7 +13,12 @@
       "all_frames": true,
       "css": ["css/common.css", "css/theme-dark.css"],
       "run_at": "document_start",
-      "js": ["js/config.js", "js/utils.js", "js/theme.js", "js/wide.js"]
+      "js": [
+        "js/config.js",
+        "js/utils.js",
+        "js/theme.js",
+        "js/wide.js"
+      ]
     },
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
@@ -26,7 +31,8 @@
         "js/board.js",
         "js/group.js",
         "js/setting.js",
-        "js/main.js"
+        "js/main.js",
+        "js/ga.js"
       ]
     }
   ],
