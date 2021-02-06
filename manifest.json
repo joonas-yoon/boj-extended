@@ -17,14 +17,14 @@
         "js/config.js",
         "js/utils.js",
         "js/theme.js",
-        "js/wide.js"
+        "js/wide.js",
+        "js/db.js"
       ]
     },
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
       "js": [
-        "js/db.js",
         "js/status.js",
         "js/problem.js",
         "js/user.js",

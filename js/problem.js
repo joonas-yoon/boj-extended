@@ -21,18 +21,24 @@ function extendProblemPage() {
   menu.appendChild(dropdown);
 
   // the number of questions
-  const searchMenu = document.querySelector('ul.problem-menu li a[href^="/board/search/"]');
+  const searchMenu = document.querySelector(
+    'ul.problem-menu li a[href^="/board/search/"]'
+  );
   if (searchMenu) {
-    Utils.requestAjax('https://www.acmicpc.net/board/search/all/problem/' + pid, (response) => {
-      const doc = new DOMParser().parseFromString(response, 'text/html');
-      const pages = doc.querySelectorAll('ul.pagination li').length - 2;
-      const rows = doc.querySelectorAll('.table > tbody > tr:not(.success)').length;
-      let estimates = rows;
-      if (pages > 1) {
-        estimates = ((pages - 1) * rows) + '+';
+    Utils.requestAjax(
+      'https://www.acmicpc.net/board/search/all/problem/' + pid,
+      (response) => {
+        const doc = new DOMParser().parseFromString(response, 'text/html');
+        const pages = doc.querySelectorAll('ul.pagination li').length - 2;
+        const rows = doc.querySelectorAll('.table > tbody > tr:not(.success)')
+          .length;
+        let estimates = rows;
+        if (pages > 1) {
+          estimates = (pages - 1) * rows + '+';
+        }
+        searchMenu.innerText += ' (' + estimates + ')';
       }
-      searchMenu.innerText += ' (' + estimates +')';
-    });
+    );
   }
 
   function stopTimer() {
