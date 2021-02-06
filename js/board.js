@@ -13,21 +13,21 @@ function extendBoardPage() {
     const theads = document.querySelectorAll('table.table tr th');
     theads[1].style.width = 'auto';
     theads[2].style.width = 'auto';
-
-    function display(showPid, maxLength) {
-      titles.forEach((e) => {
-        if (showPid) {
-          e.innerText = e.getAttribute('data-original-id');
-        } else {
-          const text = e.getAttribute('data-original-title');
-          e.innerText = text.length > maxLength ? text.substr(0, maxLength - 3) + '…' : text;
-        }
-      });
-    }
     
     // load and apply to display pid/pname
     Config.load('show-status-pid', (showPid) => {
       setTimeout(() => display(!!showPid, 10), 10);
+    });
+  }
+
+  function display(showPid, maxLength) {
+    titles.forEach((e) => {
+      if (showPid) {
+        e.innerText = e.getAttribute('data-original-id');
+      } else {
+        const text = e.getAttribute('data-original-title');
+        e.innerText = text.length > maxLength ? text.substr(0, maxLength - 3) + '…' : text;
+      }
     });
   }
 }
