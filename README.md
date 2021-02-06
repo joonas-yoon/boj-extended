@@ -6,16 +6,15 @@
 
 ## 미리 보기
 
-|**유저 페이지**|**어두운 테마**|
-|:-:|:-:|
-|![User Page](docs/images/screenshot-user.png)|![Dark Theme](docs/images/screenshot-theme-dark.png)|
-|**채점 현황**|**넓게 보기**|
-|![Status Page](docs/images/screenshot-status.png)|![Wide Screen](docs/images/screenshot-wide.png)|
-|**문제 타이머**|**문제 타이머**|
-|![Timer](docs/images/screenshot-timer2.png)|![Timer List](docs/images/screenshot-timer.png)|
-|**설정**||
-|![Option](docs/images/screenshot-option.png)||
-
+|                  **유저 페이지**                  |                   **어두운 테마**                    |
+| :-----------------------------------------------: | :--------------------------------------------------: |
+|   ![User Page](docs/images/screenshot-user.png)   | ![Dark Theme](docs/images/screenshot-theme-dark.png) |
+|                   **채점 현황**                   |                    **넓게 보기**                     |
+| ![Status Page](docs/images/screenshot-status.png) |   ![Wide Screen](docs/images/screenshot-wide.png)    |
+|                  **문제 타이머**                  |                   **문제 타이머**                    |
+|    ![Timer](docs/images/screenshot-timer2.png)    |   ![Timer List](docs/images/screenshot-timer.png)    |
+|                     **설정**                      |                                                      |
+|   ![Option](docs/images/screenshot-option.png)    |                                                      |
 
 ## 설치 및 사용
 
