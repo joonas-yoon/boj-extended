@@ -1,3 +1,9 @@
+.copy-button {
+  padding: 1.5px 3px !important;
+  border: 1px solid #428bca !important;
+  font-size: 13px !important;
+}
+
 #problem-timer .dropdown-menu {
   width: 200px;
   padding: 5px;
