@@ -2,6 +2,7 @@ from time import sleep
 from random import randint
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from datetime import datetime
 import sys
 import requests
 import json
@@ -50,7 +51,11 @@ try:
     
     # export json as file
     with open('db.json', 'w') as f:
-        json.dump({'problems': problems}, f, ensure_ascii=False, indent=2, separators=(',', ': '))
+        db = {
+            'problems': problems
+            'last_updated': str(datetime.now())
+        }
+        json.dump(db, f, ensure_ascii=False, indent=2, separators=(',', ': '))
 
 except Exception as e:
     print(e)

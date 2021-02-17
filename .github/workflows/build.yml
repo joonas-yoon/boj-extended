@@ -36,6 +36,7 @@ jobs:
         cp -r options dist/ && mv dist/options/build/* dist/options/ && rmdir dist/options/build/
         cp manifest.json dist
         cp LICENSE dist
+        cp db.json dist
         zip -r extension.crx dist && cp extension.crx dist
 
     - name: Commit report
