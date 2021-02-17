@@ -37,14 +37,11 @@ jobs:
         node-version: '14.x'
     - run: |
         python ./util/bot.py
-        npm ci
-        echo "const PROVISIONED_DB = " > js/db.js && cat db.json >> js/db.js && echo ";" >> js/db.js
-        npm run lint
 
     - name: Commit report
       run: |
           git config --global user.name 'joonas-bot'
           git config --global user.email 'joonas-yoon@users.noreply.github.com'
-          git add -N js/db.js
-          git diff js/db.js > git.diff
-          [ -s git.diff ] && git add js/db.js db.json && git commit -m ":construction_worker: automatically updated" && git push || echo "Skip commit"
+          git add -N db.json
+          git diff db.json > git.diff
+          [ -s git.diff ] && git add db.json && git commit -m ":construction_worker: automatically updated" && git push || echo "Skip commit"
