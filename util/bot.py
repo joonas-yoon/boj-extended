@@ -52,7 +52,7 @@ try:
     # export json as file
     with open('db.json', 'w') as f:
         db = {
-            'problems': problems
+            'problems': problems,
             'last_updated': str(datetime.now())
         }
         json.dump(db, f, ensure_ascii=False, indent=2, separators=(',', ': '))
