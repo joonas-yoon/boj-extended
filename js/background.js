@@ -24,14 +24,14 @@ class _Config {
     const obj = {};
     obj[this.storageName] = this.buffer;
     this.storage.set(obj, () => {
-      callback(value);
+      if (typeof callback === 'function') callback(value);
     });
   }
 
   load(key, callback) {
     // find in buffer first (but not synchronized yet)
     if (this.buffer[key] !== undefined) {
-      callback(this.buffer[key]);
+      if (typeof callback === 'function') callback(this.buffer[key]);
     } else {
       const storageName = this.storageName;
       this.storage.get(storageName, (items) => {
@@ -52,15 +52,67 @@ class _Config {
       const obj = {};
       obj[this.storageName] = this.buffer;
       this.storage.set(obj, () => {
-        callback(true);
+        if (typeof callback === 'function') callback(true);
       });
     } else {
-      callback(false);
+      if (typeof callback === 'function') callback(false);
     }
   }
 }
 
 const Config = new _Config(); // as singleton
+
+const Problems = {
+  data: {},
+
+  fetchFromRemote: function () {
+    const self = this;
+    const url =
+      'https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/db.json';
+    const httpRequest = new XMLHttpRequest();
+    if (!httpRequest) {
+      console.error('Can not create XMLHTTP instance.');
+      return false;
+    }
+    httpRequest.onreadystatechange = function () {
+      if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+        try {
+          const newDB = JSON.parse(httpRequest.responseText);
+          if (!newDB) {
+            console.error('Can not fetch data from remote');
+            return;
+          }
+          const oldDB = JSON.parse(
+            localStorage.getItem('boj-extended-DB_PROBLEMS')
+          );
+          if (
+            !oldDB ||
+            !oldDB['last_updated'] ||
+            newDB['last_updated'] != oldDB['last_updated']
+          ) {
+            localStorage.setItem(
+              'boj-extended-DB_PROBLEMS',
+              JSON.stringify(newDB)
+            );
+            self.data = newDB;
+          } else {
+            self.data = oldDB;
+          }
+        } catch (err) {
+          console.error(err.message + ' in ' + httpRequest.responseText);
+        }
+      }
+    };
+    httpRequest.open('GET', url);
+    httpRequest.send();
+  },
+
+  get: function (callback) {
+    callback(this.data['problems']);
+  },
+};
+
+Problems.fetchFromRemote();
 
 chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
   switch (message.action) {
@@ -72,6 +124,9 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
       break;
     case 'config.load':
       Config.load(message.data.key, sendResponse);
+      break;
+    case 'config.load.problems':
+      Problems.get(sendResponse);
       break;
     case 'config.remove':
       Config.remove(message.data.key, sendResponse);

@@ -63,6 +63,15 @@ const Config = {
     );
     window.localStorage.removeItem(this.getKey(key));
   },
+
+  getProblems: function (callback) {
+    chrome.runtime.sendMessage(
+      {
+        action: 'config.load.problems',
+      },
+      callback
+    );
+  },
 };
 
 // preload theme from localStorage

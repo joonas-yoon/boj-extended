@@ -1,31 +1,6 @@
 function extendUserPage() {
   Utils.loadCSS('css/user.css');
 
-  const pnames = PROVISIONED_DB['problems'];
-  const panels = document.querySelectorAll('.panel-body');
-  panels.forEach((panel) => {
-    const div = document.createElement('div');
-    const labels = panel.querySelectorAll('a[href]');
-    labels.forEach((e, i) => {
-      const pid = e.innerText;
-      const pname = pnames[pid] || '*New Problem';
-      const newA = e.cloneNode();
-      newA.innerHTML =
-        '<span class="pid">' +
-        pid +
-        '</span> <span class="pname">' +
-        pname +
-        '</span>';
-      div.appendChild(newA);
-      if (i + 1 == labels.length) {
-        setTimeout(() => {
-          panel.innerHTML = '';
-          panel.appendChild(div);
-        }, 1000);
-      }
-    });
-  });
-
   function display(containers, key, visible) {
     containers.forEach((panel) => {
       if (visible) {
@@ -35,6 +10,8 @@ function extendUserPage() {
       }
     });
   }
+
+  const panels = document.querySelectorAll('.panel-body');
 
   const checkboxes = document.createElement('div');
   const checkbox1 = document.createElement('input');
@@ -68,14 +45,39 @@ function extendUserPage() {
   const wrapper = document.querySelector('.col-md-9');
   wrapper.insertBefore(checkboxes, wrapper.firstChild);
 
-  // sync with configs
-  Config.load('show-pid', (checked) => {
-    checked = checked === null || checked === undefined ? true : checked;
-    checkbox1.checked = checked;
-    display(panels, 'show-id', checked);
-  });
-  Config.load('show-pname', (checked) => {
-    checkbox2.checked = checked;
-    display(panels, 'show-name', checked);
+  Config.getProblems((problems) => {
+    panels.forEach((panel) => {
+      const div = document.createElement('div');
+      const labels = panel.querySelectorAll('a[href]');
+      labels.forEach((e, i) => {
+        const pid = e.innerText;
+        const pname = problems[pid] || '*New Problem';
+        const newA = e.cloneNode();
+        newA.innerHTML =
+          '<span class="pid">' +
+          pid +
+          '</span> <span class="pname">' +
+          pname +
+          '</span>';
+        div.appendChild(newA);
+        if (i + 1 == labels.length) {
+          setTimeout(() => {
+            panel.innerHTML = '';
+            panel.appendChild(div);
+          }, 10);
+        }
+      });
+    });
+
+    // sync with configs
+    Config.load('show-pid', (checked) => {
+      checked = checked === null || checked === undefined ? true : checked;
+      checkbox1.checked = checked;
+      display(panels, 'show-id', checked);
+    });
+    Config.load('show-pname', (checked) => {
+      checkbox2.checked = checked;
+      display(panels, 'show-name', checked);
+    });
   });
 }
