@@ -275,7 +275,7 @@
     "1273": "샷",
     "1274": "커피숍1",
     "1275": "커피숍2",
-    "1276": "교각 놓기",
+    "1276": "PLATFORME",
     "1277": "발전소 설치",
     "1278": "연극",
     "1279": "내멋대로 주사위",
@@ -18754,7 +18754,11 @@
     "21189": "On Average They're Purple",
     "21190": "Full Depth Morning Show",
     "21191": "This Ain't Your Grandpa's Checkerboard",
-    "21192": "Solar Energy"
+    "21192": "Solar Energy",
+    "21193": "Magic Scale",
+    "21194": "Meditation",
+    "21195": "Rounds",
+    "21196": "Statues"
   },
-  "last_updated": "2021-03-09 19:27:08.213490"
+  "last_updated": "2021-03-11 19:30:15.235868"
 }
