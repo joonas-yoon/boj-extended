@@ -15,7 +15,7 @@ function extendStatusPage() {
     .getElementById('status-table')
     .querySelectorAll('th')
     .forEach((e, i) => {
-      if (i < 4) {
+      if (2 <= i && i <= 3) {
         e.style.width = 'auto';
       }
     });
