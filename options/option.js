@@ -70,8 +70,11 @@
     oReText[i].addEventListener('input', (evt) => {
       const key = evt.target.getAttribute('name');
       const value = evt.target.value;
+      const formatPreview = reformatPreview(
+        value || evt.target.getAttribute('placeholder')
+      );
       const previewId = evt.target.getAttribute('data-preview');
-      document.getElementById(previewId).innerHTML = reformatPreview(value);
+      document.getElementById(previewId).innerHTML = formatPreview;
       Config.save(key, reformat(value));
       Config.save(key + '-code', value);
     });
