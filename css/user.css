@@ -9,11 +9,11 @@
 }
 
 .panel-body[show-id] a > .pid {
-  display: inherit !important;
+  display: inline-block !important;
 }
 
 .panel-body[show-name] a > .pname {
-  display: inherit !important;
+  display: inline-block !important;
 }
 
 .panel-body a:after {
@@ -23,4 +23,25 @@
 
 .panel-body a:last-child:after {
   content: '' !important;
+}
+
+.panel-body .pgroup.pg-0 {
+  display: inline !important;
+}
+
+.panel-body .pgroup.pg-1 {
+  display: none;
+}
+
+.panel-footer {
+  background-color: #ffffff;
+}
+
+.panel-footer .btn-display-all {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin: -10px auto;
+  text-align: center;
+  cursor: pointer;
 }

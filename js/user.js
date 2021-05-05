@@ -46,9 +46,10 @@ function extendUserPage() {
   wrapper.insertBefore(checkboxes, wrapper.firstChild);
 
   Config.getProblems((problems) => {
-    panels.forEach((panel) => {
+    panels.forEach((panelOrigin) => {
       const div = document.createElement('div');
-      const labels = panel.querySelectorAll('a[href]');
+      const labels = panelOrigin.querySelectorAll('a[href]');
+      const panelResult = document.createElement('div');
       labels.forEach((e, i) => {
         const pid = e.innerText;
         const pname = problems[pid] || '*New Problem';
@@ -60,11 +61,39 @@ function extendUserPage() {
           pname +
           '</span>';
         div.appendChild(newA);
-        if (i + 1 == labels.length) {
-          setTimeout(() => {
-            panel.innerHTML = '';
-            panel.appendChild(div);
-          }, 10);
+        // split by group
+        const isLastItem = i + 1 === labels.length;
+        const countPerGroup = 100;
+        if (i == countPerGroup || isLastItem) {
+          const gid = isLastItem ? (i < countPerGroup ? 0 : 1) : 0;
+          div.setAttribute('class', 'pgroup pg-' + gid);
+          panelResult.appendChild(div.cloneNode(true));
+          div.innerHTML = '';
+          // end of items
+          if (isLastItem) {
+            setTimeout(() => {
+              panelOrigin.innerHTML = panelResult.innerHTML;
+            }, 10);
+
+            // has more items
+            if (i >= countPerGroup) {
+              // add button to display all
+              const panelFooter = document.createElement('div');
+              panelFooter.setAttribute('class', 'panel-footer');
+              const showButton = document.createElement('a');
+              showButton.setAttribute('class', 'btn-display-all');
+              showButton.innerText = '모두 보기';
+              showButton.addEventListener('click', (evt) => {
+                evt.preventDefault();
+                panelOrigin.querySelectorAll('.pgroup').forEach((e) => {
+                  e.style.display = 'inline';
+                });
+                evt.target.remove();
+              });
+              panelFooter.appendChild(showButton);
+              panelOrigin.parentElement.appendChild(panelFooter);
+            }
+          }
         }
       });
     });
