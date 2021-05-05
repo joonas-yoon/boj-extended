@@ -37,6 +37,9 @@ jobs:
         cp manifest.json dist
         cp LICENSE dist
         cp db.json dist
+        echo "const PROVISIONED_DB = `cat db.json`;" > dist/js/db.js
+        npm run lint 2> lint.err
+        [ -s lint.err ] && exit 1
         zip -r extension.crx dist && cp extension.crx dist
 
     - name: Commit report
