@@ -19681,7 +19681,18 @@
     "21949": "Cambridge",
     "21950": "MaxComp",
     "21951": "DEL13",
-    "21952": "Hidden Sequence"
+    "21952": "Hidden Sequence",
+    "21953": "Balanced Tree",
+    "21954": "D-균형 트리",
+    "21955": "Split",
+    "21956": "Treasure",
+    "21957": "Mean",
+    "21958": "Simple",
+    "21959": "Subway",
+    "21960": "Consul",
+    "21961": "Costinland",
+    "21962": "Cat",
+    "21963": "Mouse"
   },
-  "last_updated": "2021-06-08 19:58:03.970850"
+  "last_updated": "2021-06-13 19:34:21.144688"
 }
