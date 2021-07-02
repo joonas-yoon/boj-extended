@@ -147,9 +147,10 @@ html[theme='dark'] .table > tbody > tr.success > td,
 html[theme='dark'] .table > tfoot > tr.success > td,
 html[theme='dark'] .table > thead > tr.success > th,
 html[theme='dark'] .table > tbody > tr.success > th,
-html[theme='dark'] .table > tfoot > tr.success > th {
-  border-color: #6f9062;
-  background-color: #567b47;
+html[theme='dark'] .table > tfoot > tr.success > th,
+html[theme='dark'] td.accepted {
+  border-color: #5c804d;
+  background-color: #6c8e5e;
 }
 html[theme='dark'] .table > thead > tr > td.success a,
 html[theme='dark'] .table > tbody > tr > td.success a,
@@ -162,7 +163,8 @@ html[theme='dark'] .table > tbody > tr.success > td a,
 html[theme='dark'] .table > tfoot > tr.success > td a,
 html[theme='dark'] .table > thead > tr.success > th a,
 html[theme='dark'] .table > tbody > tr.success > th a,
-html[theme='dark'] .table > tfoot > tr.success > th a {
+html[theme='dark'] .table > tfoot > tr.success > th a,
+html[theme='dark'] td.accepted {
   color: #ebf5e7;
 }
 html[theme='dark'] .table > thead > tr.result-mine > td:first-child,
@@ -428,8 +430,16 @@ html[theme='dark'] .alert-danger {
   background-color: rgb(25, 25, 25, 0.4);
   border-color: #a94442;
 }
+html[theme='dark'] #contest_scoreboard a {
+  color: #ffffff;
+}
 html[theme='dark'] #contest_statistics a {
   color: #a0a0a0;
+}
+html[theme='dark'] a.list-group-item.active > .badge,
+html[theme='dark'] .nav-pills > .active > a > .badge {
+  color: #ffffff;
+  background-color: #161616;
 }
 html[theme='dark'] .label-success {
   background-color: transparent;
