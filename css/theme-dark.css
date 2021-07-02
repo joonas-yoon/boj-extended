@@ -358,13 +358,14 @@ html[theme='dark'] .progress {
 html[theme='dark'] .panel-default {
   border-color: #333333;
 }
-html[theme='dark'] .panel-default > .panel-heading {
+html[theme='dark'] .panel-default > .panel-heading,
+html[theme='dark'] .panel-default > .panel-footer {
   color: #fff;
   background-color: #262626;
   border-color: #313131;
 }
 html[theme='dark'] .panel-body {
-  background-color: #111;
+  background-color: #333;
 }
 html[theme='dark'] .page-header > h1 {
   color: white;
