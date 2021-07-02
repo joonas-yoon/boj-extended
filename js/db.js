@@ -2805,8 +2805,7 @@ const PROVISIONED_DB = {
     4067: 'Target Practice',
     4068: 'Caterpillar',
     4069: 'Hie with the Pie',
-    4070:
-      'Mahershalalhashbaz, Nebuchadnezzar, and Billy Bob Benjamin Go to the Regionals',
+    4070: 'Mahershalalhashbaz, Nebuchadnezzar, and Billy Bob Benjamin Go to the Regionals',
     4071: 'The Mastermind Master’s Mind',
     4072: 'Words',
     4073: 'Stake Your Claim',
@@ -13258,8 +13257,7 @@ const PROVISIONED_DB = {
     15638: 'No Description',
     15639: 'Rick',
     15640: 'Satan Game',
-    15641:
-      'SUPER SUPER BINARY SEARCH DELUXE 2.5: THE LEGEND OF THE GOLDEN MAZASSUMNIDA, EPISODE 2: THE MAZWAETL UNIVERSE, PART 2: THE PARALLEL UNIVERSE AND THE LOST MAZASSUMNIDA: GAME OF THE YEAR EDITION',
+    15641: 'SUPER SUPER BINARY SEARCH DELUXE 2.5: THE LEGEND OF THE GOLDEN MAZASSUMNIDA, EPISODE 2: THE MAZWAETL UNIVERSE, PART 2: THE PARALLEL UNIVERSE AND THE LOST MAZASSUMNIDA: GAME OF THE YEAR EDITION',
     15642: 'Thinking Station',
     15643: 'Yee',
     15644: '구슬 탈출 3',
@@ -14700,8 +14698,7 @@ const PROVISIONED_DB = {
     17106: '빙고',
     17107: 'Thinking Language',
     17108: '파이의 왕 김파이',
-    17109:
-      '연결그래프의 모든 간선의 저항이 1Ω일 경우 간선으로 직접 이어진 모든 쌍의 점 A, B 에 대해 A와 B 사이의 합성저항 값의 총합을 구한 뒤 소수점 넷째자리에서 반올림한 값을 출력하는 문제',
+    17109: '연결그래프의 모든 간선의 저항이 1Ω일 경우 간선으로 직접 이어진 모든 쌍의 점 A, B 에 대해 A와 B 사이의 합성저항 값의 총합을 구한 뒤 소수점 넷째자리에서 반올림한 값을 출력하는 문제',
     17110: 'Africa 2',
     17111: 'Is it rated?',
     17112: 'ì¸ì½”ë”©',
@@ -15819,8 +15816,7 @@ const PROVISIONED_DB = {
     18248: '제야의 종',
     18249: '욱제가 풀어야 하는 문제',
     18250: '철도 여행',
-    18251:
-      '내 생각에 A번인 단순 dfs 문제가 이 대회에서 E번이 되어버린 건에 관하여 (Easy)',
+    18251: '내 생각에 A번인 단순 dfs 문제가 이 대회에서 E번이 되어버린 건에 관하여 (Easy)',
     18252: '별이 빛나는 밤에',
     18253: '최단경로와 쿼리',
     18254: '쿼리와 쿼리',
@@ -16390,8 +16386,7 @@ const PROVISIONED_DB = {
     18822: 'Beginning the Hunt',
     18823: 'Nonogram QR',
     18824: '4차 산업 혁명',
-    18825:
-      '눈치게임 A+B! A-B! A+B! 터렛! A+B! 피보나치 함수! A+B! A-B! A+B! 어린 왕자! A+B! ACM Craft! A+B! A-B! A+B! 습격자 초라기! A+B! 벡터 매칭! A+B! A-B! A+B! A/B! A+B! 터렛! A+B! A-B! A+B! 분산처리! A+B! A+B! 마셔라! 마셔라 마셔라! 마셔라 틀이 들어간다!',
+    18825: '눈치게임 A+B! A-B! A+B! 터렛! A+B! 피보나치 함수! A+B! A-B! A+B! 어린 왕자! A+B! ACM Craft! A+B! A-B! A+B! 습격자 초라기! A+B! 벡터 매칭! A+B! A-B! A+B! A/B! A+B! 터렛! A+B! A-B! A+B! 분산처리! A+B! A+B! 마셔라! 마셔라 마셔라! 마셔라 틀이 들어간다!',
     18826: 'A+B (MC)',
     18827: '연속합 2147483647',
     18828: '배중률교',

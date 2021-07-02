@@ -63,17 +63,19 @@
         oReText[i].value = format;
         document.getElementById(
           oReText[i].getAttribute('data-preview')
-        ).innerHTML = reformat(format);
+        ).innerHTML = reformatPreview(format);
       }
     });
 
     oReText[i].addEventListener('input', (evt) => {
       const key = evt.target.getAttribute('name');
-      const value = evt.target.value || evt.target.getAttribute('placeholder');
+      const value = evt.target.value;
+      const formatPreview = reformatPreview(
+        value || evt.target.getAttribute('placeholder')
+      );
       const previewId = evt.target.getAttribute('data-preview');
-      const formatted = reformat(value);
-      document.getElementById(previewId).innerHTML = formatted;
-      Config.save(key, formatted);
+      document.getElementById(previewId).innerHTML = formatPreview;
+      Config.save(key, reformat(value));
       Config.save(key + '-code', value);
     });
   }
@@ -84,5 +86,9 @@
     while (rs.test(text)) text = text.replace(rs, '<span class="result-$1">');
     text = text.replace(re, '</span>');
     return text;
+  }
+
+  function reformatPreview(text) {
+    return reformat(text).replaceAll(':number:', '00');
   }
 })();

@@ -48,6 +48,7 @@
           formatting(res, fakeText);
         });
       } else {
+        // /source, /share
         addFakeResult(element, fakeText);
       }
       formatting(element, fakeText);
@@ -83,6 +84,7 @@
     function formatting(input, output) {
       const type = (input.getAttribute('class') || '').trim();
       if (!type.startsWith('result-')) return;
+      const inputText = input.innerText;
       Config.load(type, (format) => {
         if (!format) {
           input.style.display = '';
@@ -90,7 +92,26 @@
         } else {
           input.style.display = 'none';
           output.style.display = '';
-          output.innerHTML = format;
+          const digits = (inputText.match(/[+-]?\d+(\.\d+)?/g) || [''])[0];
+          const numberFormat = ':number:';
+          if (format.indexOf(numberFormat) !== -1) {
+            // user has number in format
+            output.innerHTML = format.replaceAll(numberFormat, digits);
+          } else if (digits !== '') {
+            // user does not have in format, but there are digits (e.g. score)
+            const prefix = (inputText.match(/점|%/) || [''])[0];
+            const lastCloseIdx = format.lastIndexOf('</');
+            output.innerHTML =
+              format.substring(0, lastCloseIdx) +
+              ' (' +
+              digits +
+              prefix +
+              ')' +
+              format.substring(lastCloseIdx, format.length);
+          } else {
+            // format for only text
+            output.innerHTML = format;
+          }
         }
       });
     }
