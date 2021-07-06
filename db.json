@@ -19810,6 +19810,11 @@
     "22023": "Distributing Candies",
     "22024": "Keys",
     "22025": "Fountain Parks",
+    "22027": "Critical Vertex",
+    "22028": "Lag",
+    "22030": "Two Bullets",
+    "22031": "Yet Another Interval Graph Problem",
+    "22033": "Streetlights",
     "22034": "Alto Singing",
     "22035": "Bus Lines",
     "22036": "Costly Contest",
@@ -19963,7 +19968,9 @@
     "22188": "Тарифы",
     "22189": "K-cортировка",
     "22190": "Рельсы",
-    "22191": "Угадай число"
+    "22191": "Угадай число",
+    "22193": "Multiply",
+    "22194": "Museum"
   },
-  "last_updated": "2021-07-04 19:34:24.426209"
+  "last_updated": "2021-07-06 19:33:21.077865"
 }
