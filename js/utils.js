@@ -7,12 +7,16 @@ const Utils = {
       return false;
     }
     httpRequest.onreadystatechange = function () {
-      if (httpRequest.readyState == 4 && httpRequest.status == 200) {
-        try {
-          callback(httpRequest.responseText, null);
-        } catch (err) {
-          console.error(err.message + ' in ' + httpRequest.responseText);
-          callback(null, err.message);
+      if (httpRequest.readyState == 4) {
+        if (httpRequest.status == 200) {
+          try {
+            callback(httpRequest.responseText, null);
+          } catch (err) {
+            console.error(err.message + ' in ' + httpRequest.responseText);
+            callback(null, err.message);
+          }
+        } else {
+          callback(null, httpRequest.status);
         }
       }
     };

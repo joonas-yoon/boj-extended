@@ -1,6 +1,6 @@
 {
   "tabWidth": 2,
-  "endOfLine": "crlf",
+  "endOfLine": "lf",
   "semi": true,
   "singleQuote": true
 }
