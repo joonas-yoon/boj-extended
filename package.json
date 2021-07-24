@@ -1,6 +1,6 @@
 {
   "name": "boj-extended",
-  "version": "1.4.6",
+  "version": "1.5.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "env BABEL_ENV=production babel js/ --out-dir js/build && env BABEL_ENV=production babel options/ --out-dir options/build",
