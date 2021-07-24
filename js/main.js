@@ -24,6 +24,7 @@
   extendWide();
   extendReformatMessage();
   extendProblemPage();
+  extendVs();
 
   function isSettingPage(path) {
     return (

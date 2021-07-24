@@ -27,6 +27,7 @@
       "js": [
         "js/status.js",
         "js/problem.js",
+        "js/vs.js",
         "js/user.js",
         "js/board.js",
         "js/group.js",
