@@ -11,6 +11,11 @@ function extendUserPage() {
     });
   }
 
+  function getCurrentUsername() {
+    const { pathname } = window.location;
+    return pathname.replace('/user/', '') || '';
+  }
+
   const panels = document.querySelectorAll('.panel-body');
 
   const checkboxes = document.createElement('div');
@@ -43,7 +48,10 @@ function extendUserPage() {
   checkboxes.appendChild(label2);
 
   const wrapper = document.querySelector('.col-md-9');
+  // add checkboxes whether problem's id or name
   wrapper.insertBefore(checkboxes, wrapper.firstChild);
+  // add vs form
+  wrapper.insertBefore(createVsForm(getCurrentUsername()), checkboxes); // eslint-disable-line no-undef
 
   Config.getProblems((problems) => {
     panels.forEach((panelOrigin) => {

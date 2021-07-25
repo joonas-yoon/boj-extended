@@ -38,6 +38,14 @@ const Utils = {
     tag.setAttribute('src', path);
     document.getElementsByTagName('body')[0].appendChild(tag);
   },
+  createElement: function (tag, attrs) {
+    const keys = Object.keys(attrs);
+    const el = document.createElement(tag || 'div');
+    for (let i = 0; i < keys.length; ++i) {
+      el.setAttribute(keys[i], attrs[[keys[i]]]);
+    }
+    return el;
+  },
 };
 
 // progress bar for timer
@@ -119,4 +127,59 @@ function progressTimer() {
       progress.style.display = 'none';
     },
   };
+}
+
+function createVsForm(name1, name2) {
+  const div = Utils.createElement('div', {
+    class: 'vs',
+    style: 'margin-bottom: 10px',
+  });
+  const row = Utils.createElement('div', { class: 'row' });
+  const colpad = Utils.createElement('div', {
+    class: 'col col-sr-only col-md-1',
+  });
+  const colbtn = Utils.createElement('div', { class: 'col col-md-2' });
+  const col1 = Utils.createElement('div', { class: 'col col-md-4' });
+  const col2 = col1.cloneNode();
+  row.appendChild(colpad.cloneNode());
+  row.appendChild(col1);
+  row.appendChild(colbtn);
+  row.appendChild(col2);
+  row.appendChild(colpad.cloneNode());
+  div.appendChild(row);
+  const input1 = Utils.createElement('input', {
+    type: 'text',
+    class: 'form-control',
+    value: name1 || '',
+    placeholder: 'Username',
+  });
+  const input2 = Utils.createElement('input', {
+    type: 'text',
+    class: 'form-control',
+    value: name2 || '',
+    placeholder: 'Username',
+  });
+  col1.appendChild(input1);
+  col2.appendChild(input2);
+  const btn = Utils.createElement('button', {
+    type: 'button',
+    class: 'btn btn-primary btn-block',
+  });
+  btn.innerText = 'VS';
+  btn.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    const v1 = input1.value;
+    const v2 = input2.value;
+    input1.setAttribute(
+      'class',
+      'form-control' + (v1 ? '' : ' text-border-red bg-color-red')
+    );
+    input2.setAttribute(
+      'class',
+      'form-control' + (v2 ? '' : ' text-border-red bg-color-red')
+    );
+    if (v1 && v2) window.location = `https://www.acmicpc.net/vs/${v1}/${v2}`;
+  });
+  colbtn.appendChild(btn);
+  return div;
 }
