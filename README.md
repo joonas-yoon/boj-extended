@@ -13,8 +13,8 @@
 | ![Status Page](docs/images/screenshot-status.png) |   ![Wide Screen](docs/images/screenshot-wide.png)    |
 |                  **문제 타이머**                  |                   **문제 타이머**                    |
 |    ![Timer](docs/images/screenshot-timer2.png)    |   ![Timer List](docs/images/screenshot-timer.png)    |
-|                     **설정**                      |                                                      |
-|   ![Option](docs/images/screenshot-option.png)    |                                                      |
+|                     **설정**                      |                     **유저 VS**                      |
+|   ![Option](docs/images/screenshot-option.png)    |         ![VS](docs/images/screenshot-vs.png)         |
 
 ## 설치 및 사용
 
