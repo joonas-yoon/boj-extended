@@ -7,7 +7,6 @@ function extendProblemPage() {
       .getAttribute('href')
       .replace('/problem/', '')
   );
-  console.log(pid);
 
   const storageTimerList = 'problem-timers';
 
@@ -51,21 +50,22 @@ function extendProblemPage() {
   }
 
   function createTimerDropdown() {
-    const li = document.createElement('li');
-    li.setAttribute('id', 'problem-timer');
-    li.setAttribute('class', 'dropdown');
+    const li = Utils.createElement('li', {
+      id: 'problem-timer',
+      class: 'dropdown',
+    });
 
-    const a = document.createElement('a');
-    a.setAttribute('class', 'dropdown-toggle');
+    const a = Utils.createElement('a', {
+      class: 'dropdown-toggle',
+      style: 'cursor: pointer',
+    });
     a.innerHTML = '타이머<b class="caret"></b>';
-    a.style.cursor = 'pointer';
     a.addEventListener('click', (evt) => {
       li.classList.toggle('open');
     });
     li.appendChild(a);
 
-    const form = document.createElement('form');
-    form.setAttribute('class', 'dropdown-menu');
+    const form = Utils.createElement('form', { class: 'dropdown-menu' });
     form.addEventListener('submit', (evt) => {
       evt.preventDefault();
       const button = evt.target.getElementsByClassName('btn')[0];
@@ -117,15 +117,15 @@ function extendProblemPage() {
       '<div style="margin-top: 5px;"><label style="width: 30%;">시간</label><label style="width: 33%;">분</label><label style="width: 33%;">초</label></div>';
     li.appendChild(form);
 
-    const seperator = document.createElement('span');
-    seperator.setAttribute('class', 'timer-seperator');
+    const seperator = Utils.createElement('span', { class: 'timer-seperator' });
     seperator.innerText = ':';
 
-    const inputH = document.createElement('input');
-    inputH.setAttribute('type', 'number');
-    inputH.setAttribute('class', 'timer-number');
-    inputH.setAttribute('value', '0');
-    inputH.setAttribute('name', 'h');
+    const inputH = Utils.createElement('input', {
+      type: 'number',
+      class: 'timer-number',
+      value: '0',
+      name: 'h',
+    });
     form.appendChild(inputH);
 
     const inputM = inputH.cloneNode(true);
@@ -181,8 +181,7 @@ function extendProblemPage() {
       }
     });
 
-    const divider = document.createElement('li');
-    divider.setAttribute('class', 'divider');
+    const divider = Utils.createElement('li', { class: 'divider' });
     form.appendChild(divider);
 
     const button = document.createElement('button');

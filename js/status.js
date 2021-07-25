@@ -71,23 +71,25 @@ function extendStatusPage() {
 
   function createRadioElement(labelText, changeEvent, checked) {
     const randID = Math.random().toString(36).substr(2);
-    const div = document.createElement('div');
-    div.setAttribute('class', 'form-check form-check-inline');
-    div.style.display = 'inline';
-    div.style.marginRight = '1em';
+    const div = Utils.createElement('div', {
+      class: 'form-check form-check-inline',
+      style: 'display: inline; margin-right: 1em;',
+    });
 
-    const input = document.createElement('input');
-    input.setAttribute('class', 'form-check-input');
-    input.setAttribute('type', 'radio');
-    input.setAttribute('id', randID);
-    input.setAttribute('name', 'radio-extended');
+    const input = Utils.createElement('input', {
+      class: 'form-check-input',
+      type: 'radio',
+      id: randID,
+      name: 'radio-extended',
+    });
     input.addEventListener('change', changeEvent);
     input.checked = !!checked;
 
-    const label = document.createElement('label');
-    label.setAttribute('class', 'form-check-label');
-    label.setAttribute('for', randID);
-    label.style.marginLeft = '5px';
+    const label = Utils.createElement('label', {
+      class: 'form-check-label',
+      for: randID,
+      style: 'margin-left: 5px;',
+    });
     label.innerText = labelText;
 
     div.appendChild(input);
