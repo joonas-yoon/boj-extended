@@ -7,12 +7,16 @@ const Utils = {
       return false;
     }
     httpRequest.onreadystatechange = function () {
-      if (httpRequest.readyState == 4 && httpRequest.status == 200) {
-        try {
-          callback(httpRequest.responseText, null);
-        } catch (err) {
-          console.error(err.message + ' in ' + httpRequest.responseText);
-          callback(null, err.message);
+      if (httpRequest.readyState == 4) {
+        if (httpRequest.status == 200) {
+          try {
+            callback(httpRequest.responseText, null);
+          } catch (err) {
+            console.error(err.message + ' in ' + httpRequest.responseText);
+            callback(null, err.message);
+          }
+        } else {
+          callback(null, httpRequest.status);
         }
       }
     };
@@ -34,6 +38,14 @@ const Utils = {
     tag.setAttribute('src', path);
     document.getElementsByTagName('body')[0].appendChild(tag);
   },
+  createElement: function (tag, attrs) {
+    const keys = Object.keys(attrs);
+    const el = document.createElement(tag || 'div');
+    for (let i = 0; i < keys.length; ++i) {
+      el.setAttribute(keys[i], attrs[[keys[i]]]);
+    }
+    return el;
+  }
 };
 
 // progress bar for timer

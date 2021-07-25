@@ -1,6 +1,6 @@
 {
   "name": "boj-extended",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "env BABEL_ENV=production babel js/ --out-dir js/build && env BABEL_ENV=production babel options/ --out-dir options/build",
@@ -17,22 +17,22 @@
   },
   "homepage": "https://github.com/joonas-yoon/boj-extended#readme",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
-    "@babel/core": "^7.12.10",
-    "@babel/plugin-transform-runtime": "^7.12.10",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
     "babel-eslint": "^10.1.0",
     "babel-minify": "^0.5.1",
     "babel-plugin-transform-remove-console": "^6.9.4",
-    "eslint": "^7.18.0",
+    "eslint": "^7.29.0",
     "eslint-auto-fix": "^1.0.3",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-promise": "^4.2.1",
-    "prettier": "^2.2.1"
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "prettier": "^2.3.2"
   },
   "dependencies": {
     "babel-runtime": "^6.26.0"
