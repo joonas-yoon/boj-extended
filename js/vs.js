@@ -11,23 +11,33 @@ function extendVs() {
   const container = document.getElementsByClassName('container content')[0];
   container.innerHTML = '';
 
+  const vsform = createVsForm(users[0], users[1]); // eslint-disable-line no-undef
+  vsform.style.marginBottom = '20px';
+  container.appendChild(vsform);
+
+  const tagByPid = {};
+
   fetchProblems(users[0], async (p1) => {
-    let solved1;
-    let tried1;
-    let unsolved1;
+    let solved1 = [];
+    let tried1 = [];
+    let unsolved1 = [];
     await p1.forEach((p) => {
       if (p.title.startsWith('맞은')) solved1 = p.tags;
-      else if (p.title.startsWith('맞았')) tried1 = p.tags;
-      else unsolved1 = p.tags;
+      else {
+        if (p.title.startsWith('맞았')) tried1 = p.tags;
+        unsolved1 = p.tags;
+      }
     });
     fetchProblems(users[1], async (p2) => {
-      let solved2;
-      let tried2;
-      let unsolved2;
+      let solved2 = [];
+      let tried2 = [];
+      let unsolved2 = [];
       await p2.forEach((p) => {
         if (p.title.startsWith('맞은')) solved2 = p.tags;
-        else if (p.title.startsWith('맞았')) tried2 = p.tags;
-        else unsolved2 = p.tags;
+        else {
+          if (p.title.startsWith('맞았')) tried2 = p.tags;
+          unsolved2 = p.tags;
+        }
       });
 
       const solvedBoth = solved1
@@ -39,19 +49,33 @@ function extendVs() {
       const solved2Only = solved2
         .filter((p) => !solved1.includes(p))
         .map(createProblemTag);
+      const solvedNobody = unsolved1
+        .filter((p) => unsolved2.includes(p))
+        .map(createProblemTag);
+
+      const userHref1 = Utils.createElement('a', { href: '/user/' + users[0] });
+      userHref1.innerText = users[0];
+      const userHref2 = Utils.createElement('a', { href: '/user/' + users[1] });
+      userHref2.innerText = users[1];
 
       container.appendChild(
-        createPanel(users[0] + '와 ' + users[1] + ' 모두 푼 문제', solvedBoth)
+        createPanel(
+          userHref1.outerHTML + '와 ' + userHref2.outerHTML + ' 모두 푼 문제',
+          solvedBoth
+        )
       );
-      container.appendChild(createPanel(users[0] + '만 푼 문제', solved1Only));
-      container.appendChild(createPanel(users[1] + '만 푼 문제', solved2Only));
+      container.appendChild(
+        createPanel(userHref1.outerHTML + '만 푼 문제', solved1Only)
+      );
+      container.appendChild(
+        createPanel(userHref2.outerHTML + '만 푼 문제', solved2Only)
+      );
+      container.appendChild(createPanel('둘 다 풀지 못한 문제', solvedNobody));
     });
   });
 
   function createProblemTag(pid) {
-    const a = Utils.createElement('a', {
-      href: 'https://www.acmicpc.net/problem/' + pid,
-    });
+    const a = tagByPid[pid];
     a.style.display = 'inline-block';
     a.style.marginRight = '3px';
     a.innerText = pid;
@@ -86,7 +110,9 @@ function extendVs() {
           const tags = [];
           const title = panels[i].querySelector('.panel-title').innerText;
           panels[i].querySelectorAll('a[href^="/problem/"]').forEach((a) => {
-            tags.push(parseInt(a.href.substr(a.href.lastIndexOf('/') + 1)));
+            const pid = parseInt(a.href.substr(a.href.lastIndexOf('/') + 1));
+            tags.push(pid);
+            tagByPid[pid] = a;
           });
           problems.push({
             title: title,
