@@ -1,10 +1,10 @@
 function extendVs() {
   const { pathname } = window.location;
   const urlPrefix = '/vs/';
-  if (!pathname.startsWith(urlPrefix)) return;
   const users = pathname.substr(urlPrefix.length).split('/') || [];
   if (users.length !== 2) {
     alert('비교 대상은 2명만 가능합니다.');
+    window.history.back();
     return;
   }
 
@@ -80,6 +80,7 @@ function extendVs() {
       (html, error) => {
         if (error) {
           alert('존재하지 않거나 잘못된 아이디입니다.');
+          window.history.back();
           return;
         }
         const doc = new DOMParser().parseFromString(html, 'text/html');
