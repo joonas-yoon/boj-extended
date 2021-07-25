@@ -49,8 +49,9 @@ function extendVs() {
   });
 
   function createProblemTag(pid) {
-    const a = document.createElement('a');
-    a.href = 'https://www.acmicpc.net/problem/' + pid;
+    const a = Utils.createElement('a', {
+      href: 'https://www.acmicpc.net/problem/' + pid,
+    });
     a.style.display = 'inline-block';
     a.style.marginRight = '3px';
     a.innerText = pid;
@@ -59,16 +60,11 @@ function extendVs() {
 
   // title: string, body: Node
   function createPanel(title, tags) {
-    const panel = document.createElement('div');
-    const phead = document.createElement('div');
-    const pbody = document.createElement('div');
-    panel.setAttribute('class', 'panel panel-default');
-    phead.setAttribute('class', 'panel-heading');
-    pbody.setAttribute('class', 'panel-body');
+    const panel = Utils.createElement('div', { class: 'panel panel-default' });
+    const phead = Utils.createElement('div', { class: 'panel-heading' });
+    const pbody = Utils.createElement('div', { class: 'panel-body' });
     phead.innerHTML = '<h3 class="panel-title">' + title + '</h3>';
-    tags.forEach((t) => {
-      pbody.appendChild(t);
-    });
+    tags.forEach((t) => pbody.appendChild(t));
     panel.appendChild(phead);
     panel.appendChild(pbody);
     return panel;

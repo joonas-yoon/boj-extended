@@ -45,7 +45,7 @@ const Utils = {
       el.setAttribute(keys[i], attrs[[keys[i]]]);
     }
     return el;
-  }
+  },
 };
 
 // progress bar for timer
