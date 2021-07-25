@@ -4,7 +4,6 @@
     "ignorePatterns": ["build/", "*.min.js"],
     "rules": {
       "semi": ["error", "always"],
-      "linebreak-style": ["error", "windows"],
       "require-jsdoc": ["off"],
       "no-console": ["off"],
       "no-unused-vars": ["off"]
