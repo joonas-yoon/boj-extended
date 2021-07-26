@@ -11,14 +11,14 @@ function extendStatusPage() {
   });
 
   // width to fit-content
-  document
+  const tableHeadCols = document
     .getElementById('status-table')
-    .querySelectorAll('th')
-    .forEach((e, i) => {
-      if (2 <= i && i <= 3) {
-        e.style.width = 'auto';
-      }
-    });
+    .querySelectorAll('th');
+  tableHeadCols.forEach((e, i) => {
+    if (3 === i) e.style.width = '20%';
+    // result
+    else if (4 <= i) e.style.width = 'auto'; // metadata (memory, time, lang, code, date)
+  });
 
   // highlight my result
   const username = document.querySelector('a.username');
@@ -37,6 +37,7 @@ function extendStatusPage() {
   }
 
   function display(showPid) {
+    // apply for each titles
     titles.forEach((e) => {
       if (showPid) {
         e.innerText = e.getAttribute('data-original-id');
@@ -45,6 +46,8 @@ function extendStatusPage() {
         e.innerText = text.length > 20 ? text.substr(0, 17) + '…' : text;
       }
     });
+    // fit column width
+    tableHeadCols[2].style.width = showPid ? '8%' : '17%';
   }
 
   // load and apply to display pid/pname
