@@ -20,6 +20,10 @@
 
 [How to Install Extensions From Outside the Chrome Web Store](https://www.howtogeek.com/120743/how-to-install-extensions-from-outside-the-chrome-web-store/)
 
+## 업데이트 내역
+
+[UPDATE NOTE](UPDATENOTE.md)
+
 ## License
 
 [BOJ-extended](https://github.com/joonas-yoon/boj-extended/) are released under [MIT license](https://github.com/joonas-yoon/boj-extended/blob/master/LICENSE).
