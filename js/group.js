@@ -1,20 +1,30 @@
-function extendGroupMyListPage() {
+function extendGroupListPage() {
   const table = document.querySelector('.table');
-  const colNames = [
-    { text: '문제집', url: '/group/workbook/list/' },
-    { text: '채점 현황', url: '/status?group_id=' },
-    { text: '연습', url: '/group/practice/' },
-    { text: '랭킹', url: '/group/ranklist/' },
-    { text: '게시판', url: '/group/board/list/' },
-    { text: '파일', url: '/group/files/' },
-    { text: '관리', url: '/group/admin/' },
-  ];
+  const isMyList = window.location.pathname.indexOf('all') === -1;
+  let colNames = [];
+  let colWidths = [];
+
+  // /group/list (only for logged user)
+  if (isMyList) {
+    colNames = [
+      { text: '문제집', url: '/group/workbook/list/' },
+      { text: '채점 현황', url: '/status?group_id=' },
+      { text: '연습', url: '/group/practice/' },
+      { text: '랭킹', url: '/group/ranklist/' },
+      { text: '게시판', url: '/group/board/list/' },
+      { text: '파일', url: '/group/files/' },
+    ];
+    colWidths = [40, 16, 5, 8, 10, 5, 5, 6, 5];
+  } else {
+    // /group/list/all
+    colNames = [{ text: '가입 신청', url: '/group/join/' }];
+    colWidths = [70, 15, 5, 10];
+  }
 
   // add links for each all rows
   table.querySelectorAll('tr').forEach(addColumns);
 
   // re-balance columns width
-  const colWidths = [35, 15, 5, 10, 10, 5, 5, 5, 5, 5];
   const headCols = table.getElementsByTagName('th');
   colWidths.forEach(
     (width, index) => (headCols[index].style.width = `${width}%`)
