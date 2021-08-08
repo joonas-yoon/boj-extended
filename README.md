@@ -15,6 +15,8 @@
 |    ![Timer](docs/images/screenshot-timer2.png)    |   ![Timer List](docs/images/screenshot-timer.png)    |
 |                     **설정**                      |                     **유저 VS**                      |
 |   ![Option](docs/images/screenshot-option.png)    |         ![VS](docs/images/screenshot-vs.png)         |
+|                     **그룹**                      |                                                      |
+| ![Groups](docs/images/screenshot-group-list.png)  |                                                      |
 
 ## 설치 및 사용
 
