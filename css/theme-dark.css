@@ -556,3 +556,15 @@ html[theme='dark'] #problem-timer .dropdown-menu input.timer-number {
   background-color: #3f3f3f;
   border-color: #6a6a6a;
 }
+html[theme='dark'] .panel img,
+html[theme='dark'] #problem-body img:not(.level_badge) {
+  filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
+  -webkit-filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
+  -moz-filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
+  transition: 0.2s ease-out;
+}
+html[theme='dark'] .panel img:hover,
+html[theme='dark'] #problem-body img:not(.level_badge):hover {
+  filter: none;
+  transition: 0.3s;
+}
