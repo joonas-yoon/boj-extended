@@ -276,15 +276,24 @@ html[theme='dark'] .breadcrumbs {
   border-color: black;
 }
 html[theme='dark'] .sky-form {
-  border-color: #222;
+  border-color: #333;
 }
-html[theme='dark'] .sky-form fieldset {
-  background: #080808;
+html[theme='dark'] .sky-form,
+html[theme='dark'] .sky-form fieldset,
+html[theme='dark'] .sky-form footer {
+  background: #222;
   color: white;
 }
 html[theme='dark'] .sky-form .radio,
 html[theme='dark'] .sky-form .checkbox {
   color: #9a9a9a;
+}
+html[theme='dark'] .sky-form .radio i,
+html[theme='dark'] .sky-form .checkbox i {
+  background: #1f1f1f;
+}
+html[theme='dark'] .sky-form .radio input + i:after {
+  background-color: #fff;
 }
 html[theme='dark'] .selectize-input {
   border-color: #222;
@@ -297,15 +306,16 @@ html[theme='dark'] .selectize-dropdown,
 html[theme='dark'] .selectize-dropdown.form-control {
   background: #2d2d2d;
 }
-html[theme='dark'] .sky-form .radio i,
-html[theme='dark'] .sky-form .checkbox i {
+html[theme='dark'] .selectize-dropdown-content {
+  color: #dfdfdf;
+}
+html[theme='dark'] .selectize-dropdown .active {
+  background-color: #dcdcdc;
+  color: #000000;
+}
+html[theme='dark'] .selectize-control.multi .selectize-input > div {
   background: #1f1f1f;
-}
-html[theme='dark'] .sky-form .radio input + i:after {
-  background-color: #fff;
-}
-html[theme='dark'] .sky-form footer {
-  background: #080808;
+  color: #fff;
 }
 html[theme='dark'] .dropdown-menu {
   background-color: #333;
