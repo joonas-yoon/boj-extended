@@ -40,6 +40,7 @@
   }
 
   function extendReformatMessage() {
+    // add fake result for each texts
     document.querySelectorAll('span[class^=result-]').forEach((element) => {
       if (element.classList.contains('result-text')) return;
       const fakeText = document.createElement('span');
@@ -89,11 +90,14 @@
       const type = (input.getAttribute('class') || '').trim();
       if (!type.startsWith('result-')) return;
       const inputText = input.innerText;
+      const td = input.closest('td');
       Config.load(type, (format) => {
         if (!format) {
+          if (td) td.setAttribute('class', 'result');
           input.style.display = '';
           output.style.display = 'none';
         } else {
+          if (td) td.setAttribute('class', 'result has-fake');
           input.style.display = 'none';
           output.style.display = '';
           const digits = (inputText.match(/[+-]?\d+(\.\d+)?/g) || [''])[0];
