@@ -6,17 +6,17 @@
 
 ## 미리 보기
 
-|                  **유저 페이지**                  |                   **어두운 테마**                    |
-| :-----------------------------------------------: | :--------------------------------------------------: |
-|   ![User Page](docs/images/screenshot-user.png)   | ![Dark Theme](docs/images/screenshot-theme-dark.png) |
-|                   **채점 현황**                   |                    **넓게 보기**                     |
-| ![Status Page](docs/images/screenshot-status.png) |   ![Wide Screen](docs/images/screenshot-wide.png)    |
-|                  **문제 타이머**                  |                   **문제 타이머**                    |
-|    ![Timer](docs/images/screenshot-timer2.png)    |   ![Timer List](docs/images/screenshot-timer.png)    |
-|                     **설정**                      |                     **유저 VS**                      |
-|   ![Option](docs/images/screenshot-option.png)    |         ![VS](docs/images/screenshot-vs.png)         |
-|                     **그룹**                      |                                                      |
-| ![Groups](docs/images/screenshot-group-list.png)  |                                                      |
+|                    **유저 페이지**                      |                      **어두운 테마**                       |
+| :----------------------------------------------------: | :-------------------------------------------------------: |
+|   [![User Page](docs/images/screenshot-user.png)][1]   | [![Dark Theme](docs/images/screenshot-theme-dark.png)][2] |
+|                     **채점 현황**                       |                       **넓게 보기**                       |
+| [![Status Page](docs/images/screenshot-status.png)][3] |    [![Wide Screen](docs/images/screenshot-wide.png)][4]   |
+|                    **문제 타이머**                      |                      **문제 타이머**                      |
+|    [![Timer](docs/images/screenshot-timer2.png)][5]    |   [![Timer List](docs/images/screenshot-timer.png)][6]   |
+|                       **설정**                         |                        **유저 VS**                        |
+|   [![Option](docs/images/screenshot-option.png)][7]    |         [![VS](docs/images/screenshot-vs.png)][8]        |
+|                      **그룹**                          |                                                           |
+| [![Groups](docs/images/screenshot-group-list.png)][9]  |                                                          |
 
 ## 설치 및 사용
 
@@ -29,3 +29,13 @@
 ## License
 
 [BOJ-extended](https://github.com/joonas-yoon/boj-extended/) are released under [MIT license](https://github.com/joonas-yoon/boj-extended/blob/master/LICENSE).
+
+[1]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-user.png
+[2]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-theme-dark.png
+[3]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-status.png
+[4]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-wide.png
+[5]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-timer2.png
+[6]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-timer.png
+[7]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-option.png
+[8]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-vs.png
+[9]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-group-list.png
