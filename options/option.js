@@ -55,6 +55,18 @@
     oStatusPid[showPid ? 0 : 1].checked = true;
   });
 
+  // group:link
+  const oGroupLink = document.getElementsByClassName('option-group-link');
+  for (let i = 0; i < oGroupLink.length; ++i) {
+    oGroupLink[i].addEventListener('change', (evt) => {
+      Config.save('show-group-link', !!parseInt(evt.target.value));
+    });
+  }
+
+  Config.load('show-group-link', (showGroupLink) => {
+    oGroupLink[showGroupLink ? 1 : 0].checked = true;
+  });
+
   // status:re-text
   const oReText = document.getElementsByClassName('msg-code');
   for (let i = 0; i < oReText.length; ++i) {

@@ -12,6 +12,8 @@
     extendUserPage();
   } else if (loc.pathname.startsWith('/status')) {
     extendStatusPage();
+  } else if (loc.pathname.startsWith('/group/list')) {
+    extendGroupListPage();
   } else if (loc.pathname.startsWith('/group/member/')) {
     extendGroupMemberPage();
   } else if (loc.pathname.startsWith('/board/')) {
@@ -38,6 +40,7 @@
   }
 
   function extendReformatMessage() {
+    // add fake result for each texts
     document.querySelectorAll('span[class^=result-]').forEach((element) => {
       if (element.classList.contains('result-text')) return;
       const fakeText = document.createElement('span');
@@ -47,6 +50,13 @@
         addFakeResult(box, fakeText);
         addObserver(box, (resultText) => {
           const res = resultText.querySelector('span') || resultText;
+          // save current percentage
+          if (res.classList.contains('result-judging')) {
+            const id = res.closest('tr').id;
+            const percent = parseInt(res.innerText.match(/\d+/)) || null;
+            if (!window.bojext) window.bojext = {};
+            if (percent !== null) window.bojext[id] = percent;
+          }
           formatting(res, fakeText);
         });
       } else {
@@ -81,17 +91,26 @@
 
     function addFakeResult(appendTo, element) {
       appendTo.parentNode.appendChild(element);
+      const latestPercentage = Utils.createElement('span', {
+        class: 'result-latest',
+        style: 'float: right;color: #dd4124;',
+      });
+      appendTo.parentNode.appendChild(latestPercentage);
     }
 
     function formatting(input, output) {
       const type = (input.getAttribute('class') || '').trim();
       if (!type.startsWith('result-')) return;
       const inputText = input.innerText;
+      const td = input.closest('td');
+      // replace text by user's format
       Config.load(type, (format) => {
         if (!format) {
+          if (td) td.setAttribute('class', 'result');
           input.style.display = '';
           output.style.display = 'none';
         } else {
+          if (td) td.setAttribute('class', 'result has-fake');
           input.style.display = 'none';
           output.style.display = '';
           const digits = (inputText.match(/[+-]?\d+(\.\d+)?/g) || [''])[0];
@@ -116,6 +135,21 @@
           }
         }
       });
+      // display latest percentage when it is not accept
+      const id = input.closest('tr').id;
+      const ptext = td.querySelector('.result-latest');
+      if (
+        !input.classList.contains('result-ac') &&
+        !input.classList.contains('result-pac')
+      ) {
+        if (window.bojext && window.bojext[id] !== undefined) {
+          ptext.innerText = '(' + window.bojext[id] + '%)';
+        } else {
+          ptext.innerText = '';
+        }
+      } else {
+        ptext.innerText = '';
+      }
     }
   }
 })();
