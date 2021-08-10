@@ -20,11 +20,56 @@
 
 ## 설치 및 사용
 
-[How to Install Extensions From Outside the Chrome Web Store](https://www.howtogeek.com/120743/how-to-install-extensions-from-outside-the-chrome-web-store/)
+Google Chrome과 Naver Whale의 경우, 웹 스토어에서 최신 버전을 설치할 수 있습니다.
+
+직접 설치하는 경우에는 브라우저마다 다르니, 각 브라우저의 설정에서 확인하시길 바랍니다.
+
+- [How to Install Extensions From Outside the Chrome Web Store](https://www.howtogeek.com/120743/how-to-install-extensions-from-outside-the-chrome-web-store/)
 
 ## 업데이트 내역
 
-[UPDATE NOTE](UPDATENOTE.md)
+[▶ 자세히 보기](UPDATENOTE.md)
+
+## 직접 수정 및 빌드
+
+### Requirement
+
+`npm`을 위해서 `node.js`가 필요합니다.
+
+```bash
+npm install
+```
+
+### Build
+
+```bash
+npm run build
+```
+
+위 커맨드를 입력하면, 아래`js/` 하위의 자바스크립트 파일들이 트랜스컴파일되어 `js/build/`에 생성됩니다.
+
+- `js/*.js` -> `js/build/*.js`
+- `options/*.js` -> `options/build/*.js`
+
+빌드된 스크립트를 사용하고 싶다면, `manifest.json`에서 변경해주셔야합니다.
+
+```json
+"js": [
+  "js/config.js",  // -> "js/build/config.js"
+  "js/utils.js",   // -> "js/build/utils.js",
+  "js/theme.js",   // -> "js/build/theme.js",
+  "js/wide.js",    // -> "js/build/wide.js",
+  "js/db.js"       // -> "js/build/db.js"
+]
+```
+
+### Lint
+
+다음 커맨드로 코딩 컨벤션을 맞출 수 있습니다.
+
+```bash
+npm run lint
+```
 
 ## License
 
