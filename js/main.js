@@ -40,6 +40,10 @@
   }
 
   function extendReformatMessage() {
+    // load history from localStorage
+    window.bojextStatusHistories = JSON.parse(
+      localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+    );
     // add fake result for each texts
     document.querySelectorAll('span[class^=result-]').forEach((element) => {
       if (element.classList.contains('result-text')) return;
@@ -54,8 +58,7 @@
           if (res.classList.contains('result-judging')) {
             const id = res.closest('tr').id;
             const percent = parseInt(res.innerText.match(/\d+/)) || null;
-            if (!window.bojext) window.bojext = {};
-            if (percent !== null) window.bojext[id] = percent;
+            if (percent !== null) updateHistory(id, percent);
           }
           formatting(res, fakeText);
         });
@@ -142,13 +145,32 @@
         !input.classList.contains('result-ac') &&
         !input.classList.contains('result-pac')
       ) {
-        if (window.bojext && window.bojext[id] !== undefined) {
-          ptext.innerText = '(' + window.bojext[id] + '%)';
+        if (window.bojextStatusHistories[id] !== undefined) {
+          ptext.innerText = '(' + window.bojextStatusHistories[id] + '%)';
         } else {
           ptext.innerText = '';
         }
       } else {
         ptext.innerText = '';
+      }
+    }
+
+    // ISSUE: synchronization not guaranteed with multiple tabs
+    async function updateHistory(id, percent) {
+      // load history from localStorage
+      const histories = JSON.parse(
+        localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+      );
+      console.log(histories);
+      const needsUpdate = percent == 100 || histories[id] != percent;
+      if (percent == 100) delete histories[id];
+      else histories[id] = percent;
+      if (needsUpdate) {
+        localStorage.setItem(
+          Constants.STORAGE_STATUS_HISTORY,
+          JSON.stringify(histories)
+        );
+        window.bojextStatusHistories = histories;
       }
     }
   }

@@ -14,6 +14,7 @@
       "css": ["css/common.css", "css/theme-dark.css"],
       "run_at": "document_start",
       "js": [
+        "js/constants.js",
         "js/config.js",
         "js/utils.js",
         "js/theme.js",
