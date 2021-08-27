@@ -149,7 +149,6 @@
       const ptext = td.querySelector('.result-latest');
       if (
         !input.classList.contains('result-ac') &&
-        !input.classList.contains('result-pac') &&
         window.bojextStatusHistories &&
         window.bojextStatusHistories[id] !== undefined
       ) {
