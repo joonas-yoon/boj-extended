@@ -1,5 +1,5 @@
 const Config = {
-  storageKeyPrefix: 'boj-extended-',
+  storageKeyPrefix: Constants.CONFIG_PREFIX,
 
   getKey: function (key) {
     return this.storageKeyPrefix + key;

@@ -6,17 +6,17 @@
 
 ## 미리 보기
 
-|                    **유저 페이지**                      |                      **어두운 테마**                       |
+|                    **유저 페이지**                     |                      **어두운 테마**                      |
 | :----------------------------------------------------: | :-------------------------------------------------------: |
 |   [![User Page](docs/images/screenshot-user.png)][1]   | [![Dark Theme](docs/images/screenshot-theme-dark.png)][2] |
-|                     **채점 현황**                       |                       **넓게 보기**                       |
-| [![Status Page](docs/images/screenshot-status.png)][3] |    [![Wide Screen](docs/images/screenshot-wide.png)][4]   |
-|                    **문제 타이머**                      |                      **문제 타이머**                      |
-|    [![Timer](docs/images/screenshot-timer2.png)][5]    |   [![Timer List](docs/images/screenshot-timer.png)][6]   |
-|                       **설정**                         |                        **유저 VS**                        |
-|   [![Option](docs/images/screenshot-option.png)][7]    |         [![VS](docs/images/screenshot-vs.png)][8]        |
-|                      **그룹**                          |                                                           |
-| [![Groups](docs/images/screenshot-group-list.png)][9]  |                                                          |
+|                     **채점 현황**                      |                       **넓게 보기**                       |
+| [![Status Page](docs/images/screenshot-status.png)][3] |   [![Wide Screen](docs/images/screenshot-wide.png)][4]    |
+|                    **문제 타이머**                     |                      **문제 타이머**                      |
+|    [![Timer](docs/images/screenshot-timer2.png)][5]    |   [![Timer List](docs/images/screenshot-timer.png)][6]    |
+|                        **설정**                        |                        **유저 VS**                        |
+|   [![Option](docs/images/screenshot-option.png)][7]    |         [![VS](docs/images/screenshot-vs.png)][8]         |
+|                        **그룹**                        |                                                           |
+| [![Groups](docs/images/screenshot-group-list.png)][9]  |                                                           |
 
 ## 설치 및 사용
 
@@ -25,6 +25,17 @@ Google Chrome과 Naver Whale의 경우, 웹 스토어에서 최신 버전을 설
 직접 설치하는 경우에는 브라우저마다 다르니, 각 브라우저의 설정에서 확인하시길 바랍니다.
 
 - [How to Install Extensions From Outside the Chrome Web Store](https://www.howtogeek.com/120743/how-to-install-extensions-from-outside-the-chrome-web-store/)
+
+Safari의 경우,
+
+1. '개발자용' 메뉴에서 '서명되지 않은 확장프로그램 허용' 옵션 체크  
+   (개발자용 메뉴 활성화: 환경설정 - 고급 - 메뉴 막대에서 개발자용 메뉴 보기)
+2. extension.dmg 파일을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행  
+   (애플리케이션 폴더 내부로 복사한 파일을 실행해야 합니다.)
+3. 사파리 확장프로그램 설정에 추가된 BOJ extension 체크
+4. [백준사이트](https://www.acmicpc.net)에 접속 후 주소창 왼쪽에 나타난 BOJ extension 클릭 후 '이 웹페이지에서 항상 허용' 선택
+
+순서로 진행하시면 됩니다.
 
 ## 업데이트 내역
 

@@ -40,30 +40,39 @@
   }
 
   function extendReformatMessage() {
-    // add fake result for each texts
-    document.querySelectorAll('span[class^=result-]').forEach((element) => {
-      if (element.classList.contains('result-text')) return;
-      const fakeText = document.createElement('span');
-      fakeText.setAttribute('class', 'result-fake-text');
-      const box = isWillUpdate(element);
-      if (box !== null) {
-        addFakeResult(box, fakeText);
-        addObserver(box, (resultText) => {
-          const res = resultText.querySelector('span') || resultText;
-          // save current percentage
-          if (res.classList.contains('result-judging')) {
-            const id = res.closest('tr').id;
-            const percent = parseInt(res.innerText.match(/\d+/)) || null;
-            if (!window.bojext) window.bojext = {};
-            if (percent !== null) window.bojext[id] = percent;
-          }
-          formatting(res, fakeText);
-        });
-      } else {
-        // /source, /share
-        addFakeResult(element, fakeText);
+    Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
+      // load history from localStorage
+      showHistory = showHistory !== false; // true or null (default)
+      if (showHistory) {
+        window.bojextStatusHistories = JSON.parse(
+          localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+        );
       }
-      formatting(element, fakeText);
+      console.log('load', window.bojextStatusHistories);
+      // add fake result for each texts
+      document.querySelectorAll('span[class^=result-]').forEach((element) => {
+        if (element.classList.contains('result-text')) return;
+        const fakeText = document.createElement('span');
+        fakeText.setAttribute('class', 'result-fake-text');
+        const box = isWillUpdate(element);
+        if (box !== null) {
+          addFakeResult(box, fakeText);
+          addObserver(box, (resultText) => {
+            const res = resultText.querySelector('span') || resultText;
+            // save current percentage
+            if (res.classList.contains('result-judging')) {
+              const id = res.closest('tr').id;
+              const percent = parseInt(res.innerText.match(/\d+/)) || null;
+              if (showHistory && percent !== null) updateHistory(id, percent);
+            }
+            formatting(res, fakeText);
+          });
+        } else {
+          // /source, /share
+          addFakeResult(element, fakeText);
+        }
+        formatting(element, fakeText);
+      });
     });
 
     function isWillUpdate(el) {
@@ -140,15 +149,30 @@
       const ptext = td.querySelector('.result-latest');
       if (
         !input.classList.contains('result-ac') &&
-        !input.classList.contains('result-pac')
+        window.bojextStatusHistories &&
+        window.bojextStatusHistories[id] !== undefined
       ) {
-        if (window.bojext && window.bojext[id] !== undefined) {
-          ptext.innerText = '(' + window.bojext[id] + '%)';
-        } else {
-          ptext.innerText = '';
-        }
+        ptext.innerText = '(' + window.bojextStatusHistories[id] + '%)';
       } else {
         ptext.innerText = '';
+      }
+    }
+
+    // ISSUE: synchronization not guaranteed with multiple tabs
+    async function updateHistory(id, percent) {
+      // load history from localStorage
+      const histories = JSON.parse(
+        localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+      );
+      const needsUpdate = percent == 100 || histories[id] != percent;
+      if (percent == 100) delete histories[id];
+      else histories[id] = Math.max(histories[id] || 0, percent);
+      if (needsUpdate) {
+        localStorage.setItem(
+          Constants.STORAGE_STATUS_HISTORY,
+          JSON.stringify(histories)
+        );
+        window.bojextStatusHistories = histories;
       }
     }
   }

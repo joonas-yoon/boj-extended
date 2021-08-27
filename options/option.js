@@ -55,15 +55,43 @@
     oStatusPid[showPid ? 0 : 1].checked = true;
   });
 
+  // status:history
+  const oStatusHistory = document.getElementsByClassName(
+    'option-status-history'
+  );
+  for (let i = 0; i < oStatusHistory.length; ++i) {
+    oStatusHistory[i].addEventListener('change', (evt) => {
+      Config.save(
+        Constants.CONFIG_SHOW_STATUS_HISTORY,
+        !!parseInt(evt.target.value)
+      );
+    });
+  }
+
+  Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
+    // default is true
+    oStatusHistory[showHistory !== false ? 0 : 1].checked = true;
+  });
+
+  // TODO: remove item from its storage not here, at same domain
+  // document.getElementById('btn-status-history-clear').addEventListener('click', (evt) => {
+  //   evt.preventDefault();
+  //   localStorage.removeItem(Constants.STORAGE_STATUS_HISTORY);
+  //   return false;
+  // });
+
   // group:link
   const oGroupLink = document.getElementsByClassName('option-group-link');
   for (let i = 0; i < oGroupLink.length; ++i) {
     oGroupLink[i].addEventListener('change', (evt) => {
-      Config.save('show-group-link', !!parseInt(evt.target.value));
+      Config.save(
+        Constants.CONFIG_SHOW_GROUP_LINK,
+        !!parseInt(evt.target.value)
+      );
     });
   }
 
-  Config.load('show-group-link', (showGroupLink) => {
+  Config.load(Constants.CONFIG_SHOW_GROUP_LINK, (showGroupLink) => {
     oGroupLink[showGroupLink ? 1 : 0].checked = true;
   });
 
