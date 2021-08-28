@@ -1,6 +1,6 @@
 # BOJ-extended <img align="right" src="icons/icon48.png"/>
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green]) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green]) ![Safari unsupported](https://img.shields.io/badge/safari-not%20tested-lightgray) ![FireFox unsupported](https://img.shields.io/badge/firefox-not%20tested-lightgray)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green]) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green]) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial-orange) ![FireFox unsupported](https://img.shields.io/badge/firefox-not%20tested-lightgray)
 
 [![Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) [![Naver Whale Store](docs/images/whalestore-sm.png)](https://store.whale.naver.com/detail/epdpeloboklojnaelckeihkghcgebhnp)
 
@@ -24,18 +24,18 @@ Google Chrome과 Naver Whale의 경우, 웹 스토어에서 최신 버전을 설
 
 직접 설치하는 경우에는 브라우저마다 다르니, 각 브라우저의 설정에서 확인하시길 바랍니다.
 
+**Chrome에서 직접 설치하기**
+
 - [How to Install Extensions From Outside the Chrome Web Store](https://www.howtogeek.com/120743/how-to-install-extensions-from-outside-the-chrome-web-store/)
 
-Safari의 경우,
+**Safari에서 직접 설치하기**
 
 1. '개발자용' 메뉴에서 '서명되지 않은 확장프로그램 허용' 옵션 체크  
    (개발자용 메뉴 활성화: 환경설정 - 고급 - 메뉴 막대에서 개발자용 메뉴 보기)
 2. extension.dmg 파일을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행  
    (애플리케이션 폴더 내부로 복사한 파일을 실행해야 합니다.)
 3. 사파리 확장프로그램 설정에 추가된 BOJ extension 체크
-4. [백준사이트](https://www.acmicpc.net)에 접속 후 주소창 왼쪽에 나타난 BOJ extension 클릭 후 '이 웹페이지에서 항상 허용' 선택
-
-순서로 진행하시면 됩니다.
+4. [백준 온라인 저지 사이트](https://www.acmicpc.net)에 접속 후 주소창 왼쪽에 나타난 BOJ extension 클릭 후 '이 웹페이지에서 항상 허용' 선택
 
 ## 업데이트 내역
 
@@ -64,7 +64,7 @@ npm run build
 
 빌드된 스크립트를 사용하고 싶다면, `manifest.json`에서 변경해주셔야합니다.
 
-```json
+```
 "js": [
   "js/config.js",  // -> "js/build/config.js"
   "js/utils.js",   // -> "js/build/utils.js",
