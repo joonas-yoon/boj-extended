@@ -1,3 +1,24 @@
+## v1.5.4
+
+2021/08/29
+
+**Fixes**
+
+- 어두운 테마
+- - 언어 선택 dropdown [(#26)](https://github.com/joonas-yoon/boj-extended/issues/26)
+- - 에디터에도 색상 반전 적용 [(#27)](https://github.com/joonas-yoon/boj-extended/issues/27)
+
+**Changes**
+
+- 채점 현황
+- - 퍼센트(%) 기록을 로컬에 저장하여 표시 (`localStorage`)
+- - 부분 점수에도 퍼센트(%) 기록을 표시
+- 어두운 테마
+- - 일부 버튼 색상 변경
+- - 메뉴 네비게이션 색상 변경
+- 옵션
+- - 페이지 레이아웃 수정
+
 ## v1.5.3
 
 2021/08/09
