@@ -30,9 +30,6 @@ html[theme='dark'] ::-webkit-scrollbar-button:horizontal:increment {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%235a6268'><polygon points='20,10 20,90 70,50'/></svg>");
   background-position: right center;
 }
-/* html[theme='dark'] ::-webkit-scrollbar-track-piece {
-  background: #f8f9fa;
-} */
 html[theme='dark'],
 html[theme='dark'] body {
   color: #dfdfdf;
@@ -247,14 +244,8 @@ html[theme='dark'] .nav > li > a:focus {
 html[theme='dark'] .nav-pills > li.active > a,
 html[theme='dark'] .nav-pills > li.active > a:hover,
 html[theme='dark'] .nav-pills > li.active > a:focus {
-  color: #000;
-  background-color: #e2e2e2;
-}
-html[theme='dark'] .nav-pills > li.active > a,
-html[theme='dark'] .nav-pills > li.active > a:hover,
-html[theme='dark'] .nav-pills > li.active > a:focus {
-  color: #000;
-  background-color: #ffffff;
+  color: #fff;
+  background-color: #3c739a;
 }
 html[theme='dark'] .reg-page {
   color: #e2e2e2;
@@ -316,6 +307,30 @@ html[theme='dark'] .selectize-dropdown .active {
 html[theme='dark'] .selectize-control.multi .selectize-input > div {
   background: #1f1f1f;
   color: #fff;
+}
+html[theme='dark'] .chosen-container-single .chosen-single {
+  border-color: #191919;
+  background-color: #161616;
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(20%,#292929),color-stop(50%,#222222),color-stop(52%,#1f1f1f),to(#292929));
+  background: linear-gradient(#292929 20%,#222222 50%,#1f1f1f 52%,#292929 100%);
+  -webkit-box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
+  box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
+  color: #b3b3b3;
+}
+html[theme='dark'] .chosen-container .chosen-drop {
+  border-color: #292929;
+  background: #191919;
+  -webkit-box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
+  box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
+}
+html[theme='dark'] .chosen-container .chosen-results li.highlighted {
+  background-color: #2353a0;
+  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(20%,#2353a0),color-stop(90%,#1b4586));
+  background-image: linear-gradient(#2353a0 20%,#1b4586 90%);
+  color: #fff;
+}
+html[theme='dark'] .chosen-container-single .chosen-search input[type=text] {
+  border-color: #3f3f3f;
 }
 html[theme='dark'] .dropdown-menu {
   background-color: #333;
@@ -441,6 +456,16 @@ html[theme='dark'] .alert-danger {
   background-color: rgb(25, 25, 25, 0.4);
   border-color: #a94442;
 }
+html[theme='dark'] .btn-default {
+  color: #fff;
+  background-color: #232323;
+  border-color: #272727;
+}
+html[theme='dark'] .btn-primary {
+  color: #fff;
+  background-color: #20649e;
+  border-color: #28689e;
+}
 html[theme='dark'] #contest_scoreboard a {
   color: #ffffff;
 }
@@ -557,6 +582,10 @@ html[theme='dark'] #problem-timer .dropdown-menu input.timer-number {
   border-color: #6a6a6a;
 }
 html[theme='dark'] .panel img,
+html[theme='dark'] .redactor-modal,
+html[theme='dark'] .redactor-dropdown,
+html[theme='dark'] .redactor-styles figure,
+html[theme='dark'] .redactor-box.redactor-styles-on,
 html[theme='dark'] #problem-body img:not(.level_badge) {
   filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
   -webkit-filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
@@ -567,4 +596,16 @@ html[theme='dark'] .panel img:hover,
 html[theme='dark'] #problem-body img:not(.level_badge):hover {
   filter: none;
   transition: 0.3s;
+}
+html[theme='dark'] .redactor-styles p,
+html[theme='dark'] .redactor-styles li,
+html[theme='dark'] .redactor-styles blockquote,
+html[theme='dark'] .redactor-styles pre,
+html[theme='dark'] .redactor-styles table,
+html[theme='dark'] .redactor-statusbar li {
+  color: #000;
+}
+html[theme='dark'] .redactor-styles table th,
+html[theme='dark'] .redactor-styles table td {
+  border: 1px solid #ccc;
 }
