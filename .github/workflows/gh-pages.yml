@@ -1,0 +1,24 @@
+name: GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a multi-line script
+        run: |
+          git checkout main
+          mkdir gh-pages
+          cp -r icons/ gh-pages/
+          cp -r docs/ gh-pages/
+          cp *.md gh-pages/
+          cp LICENSE gh-pages/
+          git checkout gh-pages
+          mv gh-pages/* .
+          mv README.md index.md
