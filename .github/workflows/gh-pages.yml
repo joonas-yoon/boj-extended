@@ -10,15 +10,23 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Run a multi-line script
+        with:
+          ref: main
+      - name: copy from main
         run: |
-          git checkout main
           mkdir gh-pages
           cp -r icons/ gh-pages/
           cp -r docs/ gh-pages/
           cp *.md gh-pages/
           cp LICENSE gh-pages/
-          git checkout gh-pages
+
+      - uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+      - name: update to gh-pages
+        run: |
           mv gh-pages/* .
+          rm -rf gh-pages
           mv README.md index.md
+          git add .
+          git commit -m "docs: update github pages"
