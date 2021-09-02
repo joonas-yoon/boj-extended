@@ -1,0 +1,26 @@
+{
+    "extends": ["eslint:recommended", "google", "prettier"],
+    "plugins": ["prettier"],
+    "ignorePatterns": ["build/", "*.min.js"],
+    "rules": {
+      "semi": ["error", "always"],
+      "require-jsdoc": ["off"],
+      "no-console": ["off"],
+      "no-unused-vars": ["off"]
+    },
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "es6": true,
+      "jquery": true,
+      "webextensions": true
+    },
+    "globals": {
+      "chrome": false,
+      "Constants": false,
+      "Config": false,
+      "Utils": false,
+      "PROVISIONED_DB": false
+    }
+  }
+  

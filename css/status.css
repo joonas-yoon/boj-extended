@@ -1,0 +1,12 @@
+.table > thead > tr.result-mine > td:first-child,
+.table > tbody > tr.result-mine > td:first-child,
+.table > tfoot > tr.result-mine > td:first-child {
+  border-left: 4px solid #2980b9;
+}
+.table tr td.result .result-fake-text,
+.table tr td.result.has-fake .result-text {
+  display: none;
+}
+.table tr td.result.has-fake .result-fake-text {
+  display: initial;
+}
