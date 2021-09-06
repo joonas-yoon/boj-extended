@@ -1,6 +1,6 @@
 # BOJ-extended <img align="right" src="icons/icon48.png"/>
 
-[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green]) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green]) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial-orange) ![FireFox unsupported](https://img.shields.io/badge/firefox-not%20tested-lightgray)
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green]) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green]) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial-orange) ![FireFox 91.0.2](https://img.shields.io/badge/firefox-91.0.2%20partial-orange)
 
 [![Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) [![Naver Whale Store](docs/images/whalestore-sm.png)](https://store.whale.naver.com/detail/epdpeloboklojnaelckeihkghcgebhnp)
 
