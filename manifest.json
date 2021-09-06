@@ -38,7 +38,10 @@
       ]
     }
   ],
-  "options_page": "options/option.html",
+  "options_ui": {
+    "page": "options/option.html",
+    "open_in_tab": true
+  },
   "web_accessible_resources": [
     "css/status.css",
     "css/user.css",
