@@ -51,7 +51,7 @@ function extendUserPage() {
   // add checkboxes whether problem's id or name
   wrapper.insertBefore(checkboxes, wrapper.firstChild);
   // add vs form
-  wrapper.insertBefore(createVsForm(getCurrentUsername()), checkboxes); // eslint-disable-line no-undef
+  wrapper.insertBefore(createVsForm(getCurrentUsername(), getMyUsername()), checkboxes); // eslint-disable-line no-undef
 
   Config.getProblems((problems) => {
     panels.forEach((panelOrigin) => {
