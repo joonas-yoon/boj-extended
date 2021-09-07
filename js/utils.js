@@ -48,6 +48,16 @@ const Utils = {
   },
 };
 
+function getMyUsername() {
+  const username = document.querySelector('ul.loginbar a.username');
+  if (username) return username.innerText;
+  else return null;
+}
+
+function isLoggedIn() {
+  return getMyUsername() !== null;
+}
+
 // progress bar for timer
 function progressTimer() {
   const progress = document.createElement('div');
