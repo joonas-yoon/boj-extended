@@ -311,8 +311,21 @@ html[theme='dark'] .selectize-control.multi .selectize-input > div {
 html[theme='dark'] .chosen-container-single .chosen-single {
   border-color: #191919;
   background-color: #161616;
-  background: -webkit-gradient(linear,left top,left bottom,color-stop(20%,#292929),color-stop(50%,#222222),color-stop(52%,#1f1f1f),to(#292929));
-  background: linear-gradient(#292929 20%,#222222 50%,#1f1f1f 52%,#292929 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(20%, #292929),
+    color-stop(50%, #222222),
+    color-stop(52%, #1f1f1f),
+    to(#292929)
+  );
+  background: linear-gradient(
+    #292929 20%,
+    #222222 50%,
+    #1f1f1f 52%,
+    #292929 100%
+  );
   -webkit-box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
   box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
   color: #b3b3b3;
@@ -325,11 +338,17 @@ html[theme='dark'] .chosen-container .chosen-drop {
 }
 html[theme='dark'] .chosen-container .chosen-results li.highlighted {
   background-color: #2353a0;
-  background-image: -webkit-gradient(linear,left top,left bottom,color-stop(20%,#2353a0),color-stop(90%,#1b4586));
-  background-image: linear-gradient(#2353a0 20%,#1b4586 90%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(20%, #2353a0),
+    color-stop(90%, #1b4586)
+  );
+  background-image: linear-gradient(#2353a0 20%, #1b4586 90%);
   color: #fff;
 }
-html[theme='dark'] .chosen-container-single .chosen-search input[type=text] {
+html[theme='dark'] .chosen-container-single .chosen-search input[type='text'] {
   border-color: #3f3f3f;
 }
 html[theme='dark'] .dropdown-menu {
