@@ -6,14 +6,17 @@
 .panel-body a > .pid,
 .panel-body a > .pname {
   display: none;
+  word-break: break-all;
 }
 
+.panel[show-id] a > .pid,
 .panel-body[show-id] a > .pid {
-  display: inline-block !important;
+  display: inline !important;
 }
 
+.panel[show-name] a > .pname,
 .panel-body[show-name] a > .pname {
-  display: inline-block !important;
+  display: inline !important;
 }
 
 .panel-body a:after {

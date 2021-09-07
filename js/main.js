@@ -51,7 +51,6 @@
       console.log('load', window.bojextStatusHistories);
       // add fake result for each texts
       document.querySelectorAll('span[class^=result-]').forEach((element) => {
-        if (element.classList.contains('result-text')) return;
         const fakeText = document.createElement('span');
         fakeText.setAttribute('class', 'result-fake-text');
         const box = isWillUpdate(element);
