@@ -46,6 +46,7 @@
 
     <link rel="stylesheet" href="/css/common.css" />
     <link rel="stylesheet" href="/css/theme-dark.css" />
+    <link rel="stylesheet" href="/css/status.css" />
 
     <style>
       td.result-msg-code {
@@ -54,6 +55,9 @@
       td.result-msg-code > input {
         border: 0 !important;
         outline: 0 !important;
+      }
+      input.form-control::placeholder {
+        color: rgba(128, 128, 128, 0.4);
       }
     </style>
 
@@ -249,7 +253,7 @@
                 <!-- status:history -->
                 <div class="form-group">
                   <label class="col-md-2 control-label" for="status-pid"
-                    >채점 현황 (%)</label
+                    >채점 현황<br />퍼센트(%) 기록</label
                   >
                   <div class="col-md-10">
                     <div class="radio">
@@ -261,7 +265,15 @@
                           value="1"
                           checked
                         />
-                        사용함
+                        사용함 &nbsp;
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-xs"
+                          data-toggle="modal"
+                          data-target="#helpHistoryModal"
+                        >
+                          미리 보기
+                        </button>
                       </label>
                     </div>
                     <div class="radio">
@@ -274,12 +286,6 @@
                         />
                         사용 안 함
                       </label>
-                    </div>
-                    <div class="margin-top-5">
-                      <p>
-                        *페이지에 마지막으로 표시된 내용을 기록하는 것으로, 실제
-                        퍼센트와 다를 수 있습니다.
-                      </p>
                     </div>
                     <!-- <div class="margin-top-5">
                       <button
@@ -295,6 +301,16 @@
                 <div class="form-group">
                   <label class="col-md-2 control-label">결과 바꾸기</label>
                   <div class="col-md-10">
+                    <p class="text-right">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-xs"
+                        data-toggle="modal"
+                        data-target="#helpFormattingModal"
+                      >
+                        도움말 보기
+                      </button>
+                    </p>
                     <table class="table table-bordered" style="width: 100%">
                       <thead>
                         <tr>
@@ -316,7 +332,10 @@
                               data-preview="preview-ac"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-ac">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-ac"
+                          >
                             <span class="result-ac">맞았습니다!!</span>
                           </td>
                         </tr>
@@ -332,7 +351,10 @@
                               data-preview="preview-pac"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-pac">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-pac"
+                          >
                             <span class="result-pac">00점</span>
                           </td>
                         </tr>
@@ -348,7 +370,10 @@
                               data-preview="preview-wa"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-wa">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-wa"
+                          >
                             <span class="result-wa">틀렸습니다</span>
                           </td>
                         </tr>
@@ -364,7 +389,10 @@
                               data-preview="preview-ce"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-ce">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-ce"
+                          >
                             <span class="result-ce">컴파일 에러</span>
                           </td>
                         </tr>
@@ -383,7 +411,10 @@
                               disabled
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-rte">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-rte"
+                          >
                             <span class="result-rte">런타임 에러 (이유)</span>
                           </td>
                         </tr>
@@ -399,7 +430,10 @@
                               data-preview="preview-tle"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-tle">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-tle"
+                          >
                             <span class="result-tle">시간 초과</span>
                           </td>
                         </tr>
@@ -415,7 +449,10 @@
                               data-preview="preview-mle"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-mle">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-mle"
+                          >
                             <span class="result-mle">메모리 초과</span>
                           </td>
                         </tr>
@@ -431,7 +468,10 @@
                               data-preview="preview-ole"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-ole">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-ole"
+                          >
                             <span class="result-ole">출력 초과</span>
                           </td>
                         </tr>
@@ -451,7 +491,10 @@
                               data-preview="preview-pe"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-pe">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-pe"
+                          >
                             <span class="result-pe"
                               >출력 형식이 잘못되었습니다</span
                             >
@@ -469,7 +512,10 @@
                               data-preview="preview-wait"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-wait">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-wait"
+                          >
                             <span class="result-wait">기다리는 중</span>
                           </td>
                         </tr>
@@ -487,7 +533,10 @@
                               data-preview="preview-compile"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-compile">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-compile"
+                          >
                             <span class="result-compile">채점 준비 중</span>
                           </td>
                         </tr>
@@ -505,7 +554,10 @@
                               data-preview="preview-judging"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-judging">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-judging"
+                          >
                             <span class="result-judging">채점 중 (00%)</span>
                           </td>
                         </tr>
@@ -521,7 +573,10 @@
                               data-preview="preview-del"
                             />
                           </td>
-                          <td class="result-msg-preview" id="preview-del">
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-del"
+                          >
                             <span class="result-del">채점 불가</span>
                           </td>
                         </tr>
@@ -535,6 +590,144 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal: preview history (%) -->
+    <div
+      class="modal fade"
+      id="helpHistoryModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="helpHistoryModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="helpHistoryModalLabel">
+              채점 현황 퍼센트 기록 :: 미리 보기
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-warning">
+              &#8251; <b>페이지에 마지막으로 표시된 내용을 기록</b>하는 것으로,
+              실제 퍼센트와 다를 수 있습니다. <br />
+            </div>
+            <img
+              class="center-block"
+              src="https://user-images.githubusercontent.com/9527681/128722599-c2dc230d-47f9-406e-a697-13682a87ad79.gif"
+              alt="preview-1"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: formatting result text -->
+    <div
+      class="modal fade"
+      id="helpFormattingModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="helpFormattingModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="helpFormattingModalLabel">
+              결과 바꾸기 :: 도움말
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="headline">
+              <h3>작성해보기</h3>
+            </div>
+
+            <p>
+              <code>&lt;type&gt;</code> 태그를 활용하여 글자의 스타일을 지정할
+              수 있습니다.
+            </p>
+            <p>
+              지정하고 싶은 텍스트를
+              <code>&lt;type&gt;텍스트&lt;/type&gt;</code> 와 같이 태그로
+              감싸주세요.
+            </p>
+            <p>숫자는 :number:로 대치할 수 있습니다.</p>
+
+            <table class="table table-bordered">
+              <tr>
+                <th>여기에 태그를 적어보세요</th>
+                <th>결과</th>
+              </tr>
+              <tr>
+                <td class="result-msg-code" width="50%">
+                  <input
+                    type="text"
+                    placeholder="<ac>여기</ac>에 <wa>태그</wa>를 <pac>적어보세요</pac>"
+                    name="preview-help-modal"
+                    class="form-control msg-code"
+                    value="<ac>여기</ac>에 <wa>태그</wa>를 <pac>적어보세요</pac>"
+                    id="reformat-practice"
+                    data-preview="preview-help-modal"
+                  />
+                </td>
+                <td
+                  class="result-msg-preview result-fake-text"
+                  id="preview-help-modal"
+                  width="50%"
+                ></td>
+              </tr>
+            </table>
+
+            <br />
+            <div class="headline">
+              <h3>태그 목록</h3>
+            </div>
+
+            <table class="table table-bordered" id="reformat-tag-table">
+              <thread>
+                <tr>
+                  <th>태그</th>
+                  <th>적용되는 스타일</th>
+                </tr>
+              </thread>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery-1.12.4.min.js"></script>
+    <script
+      src="bootstrap-3.3.7.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
 
     <script src="/js/constants.js"></script>
     <script src="/js/config.js"></script>
