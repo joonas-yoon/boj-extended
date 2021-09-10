@@ -38,6 +38,11 @@ jobs:
     - run: |
         python ./util/bot.py
 
+    - name: Lint
+      run: |
+        npm ci
+        npm run lint
+
     - name: Commit report
       run: |
           git config --global user.name 'joonas-bot'

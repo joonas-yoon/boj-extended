@@ -1,3 +1,4 @@
+/* eslint no-undef: "off" */
 (function extend() {
   if (chrome.runtime.lastError) {
     console.warn(chrome.runtime.lastError.message);
@@ -5,7 +6,6 @@
     return;
   }
 
-  /* eslint-disable no-undef */
   const loc = window.location;
 
   if (loc.pathname.startsWith('/user/')) {
@@ -107,8 +107,12 @@
     }
 
     function formatting(input, output) {
-      const type = (input.getAttribute('class') || '').trim();
-      if (!type.startsWith('result-')) return;
+      let classes = (input.getAttribute('class') || '').split(' ');
+      classes = classes.filter(
+        (c) => c != 'result-text' && c.startsWith('result-')
+      );
+      if (classes.length < 1) return;
+      const type = classes[0];
       const inputText = input.innerText;
       const td = input.closest('td');
       // replace text by user's format

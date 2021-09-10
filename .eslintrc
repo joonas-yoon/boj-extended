@@ -1,11 +1,12 @@
 {
     "extends": ["eslint:recommended", "google", "prettier"],
     "plugins": ["prettier"],
-    "ignorePatterns": ["build/", "*.min.js"],
+    "ignorePatterns": ["**/build/*", "*.min.js"],
     "rules": {
       "semi": ["error", "always"],
       "require-jsdoc": ["off"],
       "no-console": ["off"],
+      "no-undef": ["off"],
       "no-unused-vars": ["off"]
     },
     "parser": "babel-eslint",

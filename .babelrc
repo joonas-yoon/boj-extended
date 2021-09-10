@@ -9,7 +9,7 @@
     "@babel/plugin-proposal-class-properties",
     "dynamic-import-node"
   ],
-  "ignore": ["**/build/*"],
+  "ignore": ["**/build/*", "**/*.min.js"],
   "env": {
     "production": {
       "comments": false,
