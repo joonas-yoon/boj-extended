@@ -606,9 +606,9 @@ html[theme='dark'] .redactor-dropdown,
 html[theme='dark'] .redactor-styles figure,
 html[theme='dark'] .redactor-box.redactor-styles-on,
 html[theme='dark'] #problem-body img:not(.level_badge) {
-  filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
-  -webkit-filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
-  -moz-filter: invert(85%) hue-rotate(180deg) brightness(80%) contrast(110%);
+  filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
+  -webkit-filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
+  -moz-filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
   transition: 0.2s ease-out;
 }
 html[theme='dark'] .panel img:hover,
