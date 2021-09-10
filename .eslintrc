@@ -6,6 +6,7 @@
       "semi": ["error", "always"],
       "require-jsdoc": ["off"],
       "no-console": ["off"],
+      "no-undef": ["off"],
       "no-unused-vars": ["off"]
     },
     "parser": "babel-eslint",
