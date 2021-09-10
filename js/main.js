@@ -1,4 +1,4 @@
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 (function extend() {
   if (chrome.runtime.lastError) {
     console.warn(chrome.runtime.lastError.message);

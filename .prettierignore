@@ -1,8 +1,8 @@
 .*
 **/*.min.js
-dist/
-docs/
-icons/
-js/build/
+dist/*
+docs/*
+icons/*
+**/build/*
 node_modules/*
-util/
+util/*
