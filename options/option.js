@@ -107,17 +107,57 @@
       }
     });
 
-    oReText[i].addEventListener('input', (evt) => {
-      const key = evt.target.getAttribute('name');
-      const value = evt.target.value;
-      const formatPreview = reformatPreview(
-        value || evt.target.getAttribute('placeholder')
-      );
-      const previewId = evt.target.getAttribute('data-preview');
-      document.getElementById(previewId).innerHTML = formatPreview;
-      Config.save(key, reformat(value));
-      Config.save(key + '-code', value);
-    });
+    oReText[i].addEventListener('input', onReformatChanged);
+  }
+
+  // help:reformat
+  {
+    const inputReformat = document.getElementById('reformat-practice');
+    onReformatChanged({ target: inputReformat });
+    const table = document.getElementById('reformat-tag-table');
+    const tbody = table.querySelector('tbody');
+    const tags = [
+      'ac',
+      'green',
+      'acc',
+      'accept',
+      'wa',
+      'red',
+      'wrong',
+      'fail',
+      'pac',
+      'yellow',
+      'partial',
+      'ce',
+      'blue',
+      'rte',
+      're',
+      'purple',
+      'runtime',
+      'ple',
+      'tle',
+      'ole',
+      'time',
+      'wait',
+      'gray',
+      'grey',
+      'compile',
+      'judging',
+      'del',
+      // default tags
+      'b',
+      'strong',
+      'i',
+      'u',
+      'strike',
+    ];
+    for (const tag of tags) {
+      const row = document.createElement('tr');
+      const text = '적용된 결과 미리보기';
+      const val = reformatPreview(`<${tag}>${text}</${tag}>`);
+      row.innerHTML = `<td><code>&lt;${tag}&gt;</td><td class="result-fake-text">${val}</td>`;
+      tbody.appendChild(row);
+    }
   }
 
   function reformat(text) {
@@ -128,7 +168,20 @@
     return text;
   }
 
+  // TODO: :score:와 :percent:로 분리하기
   function reformatPreview(text) {
     return reformat(text).replaceAll(':number:', '00');
+  }
+
+  function onReformatChanged(evt) {
+    const key = evt.target.getAttribute('name');
+    const value = evt.target.value;
+    const formatPreview = reformatPreview(
+      value || evt.target.getAttribute('placeholder')
+    );
+    const previewId = evt.target.getAttribute('data-preview');
+    document.getElementById(previewId).innerHTML = formatPreview;
+    Config.save(key, reformat(value));
+    Config.save(key + '-code', value);
   }
 })();
