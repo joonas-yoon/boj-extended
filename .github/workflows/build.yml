@@ -7,6 +7,12 @@ on:
   pull_request:
     branches:
       - main
+  workflow_dispatch:
+    inputs:
+      update:
+        description: 'build to update'
+        required: true
+        default: 'Build'
 
 jobs:
   build:
@@ -21,31 +27,16 @@ jobs:
     - name: Install ubuntu package
       run: sudo apt-get install zip
 
-    - name: Build scripts
-      run: |
-        npm ci
-        npm run build
-
     - name: Build distributable
       run: |
+        npm ci
         ls -al
-        rm -rf dist && mkdir dist
-        cp -r css dist/css
-        cp -r js/build dist/js
-        cp -r icons dist/icons
-        cp -r options dist/ && mv dist/options/build/* dist/options/ && rmdir dist/options/build/
-        cp manifest.json dist
-        cp LICENSE dist
-        cp db.json dist
-        echo "const PROVISIONED_DB = `cat db.json`;" > dist/js/db.js
-        npm run lint 2> lint.err
-        [ -s lint.err ] && exit 1
-        zip -r extension.crx dist && cp extension.crx dist
+        npm run build
 
     - name: Commit report
       run: |
-          git config --global user.name 'joonas-bot'
+          git config --global user.name 'joonas-yoon'
           git config --global user.email 'joonas-yoon@users.noreply.github.com'
           git add -fN dist
-          git diff -- dist ':(exclude)*.crx' > git.diff
-          [ -s git.diff ] && git add -f extension.crx dist && git commit -m ":rocket: deploy" && git push || echo "Skip commit"
+          git diff -- dist > git.diff
+          [ -s git.diff ] && git add -f dist && git commit -m ":rocket: deploy at `date "+%Y-%m-%d %H:%M"`" && git push || echo "Skip commit"

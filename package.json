@@ -2,8 +2,9 @@
   "name": "boj-extended",
   "version": "1.5.3",
   "scripts": {
+    "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "env BABEL_ENV=production babel js/ --out-dir js/build && env BABEL_ENV=production babel options/ --out-dir options/build",
+    "build": "chmod +x build.sh && bash -c 'source build.sh'",
     "lint": "eslint js --fix && prettier . --write"
   },
   "repository": {
