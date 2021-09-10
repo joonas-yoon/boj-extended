@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 (function extend() {
   if (chrome.runtime.lastError) {
     console.warn(chrome.runtime.lastError.message);
@@ -5,7 +6,6 @@
     return;
   }
 
-  /* eslint-disable no-undef */
   const loc = window.location;
 
   if (loc.pathname.startsWith('/user/')) {
