@@ -59,6 +59,11 @@
       input.form-control::placeholder {
         color: rgba(128, 128, 128, 0.4);
       }
+      .form-group .control-label,
+      .form-group .col-xs-4,
+      .form-group .col-xs-8:not(:last-child) {
+        padding-bottom: 10px;
+      }
     </style>
 
     <title>설정 - BOJ Extended</title>
@@ -132,18 +137,19 @@
                 </div>
                 <div class="form-group">
                   <!-- theme -->
-                  <label class="col-md-2 control-label" for="theme">테마</label>
-                  <div class="col-md-4">
+                  <label class="col-sm-2 col-xs-4 control-label" for="theme">테마</label>
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
-                          type="radio"
-                          class="option-theme"
-                          name="theme"
-                          value="light"
-                          checked
+                        type="radio"
+                        class="option-theme"
+                        name="theme"
+                        value="light"
+                        checked
                         />
                         밝은 테마
+                        <span class="label label-light margin-left-5">기본값</span>
                       </label>
                     </div>
                     <div class="radio">
@@ -158,11 +164,11 @@
                       </label>
                     </div>
                   </div>
-                  <label class="col-md-2 control-label" for="wide"
+                  <label class="col-sm-2 col-xs-4 control-label" for="wide"
                     >화면 크기</label
                   >
                   <!-- wide -->
-                  <div class="col-md-4">
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -173,6 +179,7 @@
                           checked
                         />
                         기본 보기
+                        <span class="label label-light margin-left-5">기본값</span>
                       </label>
                     </div>
                     <div class="radio">
@@ -188,43 +195,12 @@
                     </div>
                   </div>
                 </div>
-                <!-- status:group-link -->
                 <div class="form-group">
-                  <label class="col-md-2 control-label" for="group-link"
-                    >그룹 목록의 링크</label
+                  <label class="col-sm-2 col-xs-4 control-label" for="status-pid"
+                  >채점 현황</label
                   >
-                  <div class="col-md-10">
-                    <div class="radio">
-                      <label>
-                        <input
-                          type="radio"
-                          class="option-group-link"
-                          name="group-link"
-                          value="1"
-                          checked
-                        />
-                        보기
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input
-                          type="radio"
-                          class="option-group-link"
-                          name="group-link"
-                          value="0"
-                        />
-                        보지 않기
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <!-- status:pid/pname -->
-                <div class="form-group">
-                  <label class="col-md-2 control-label" for="status-pid"
-                    >채점 현황</label
-                  >
-                  <div class="col-md-10">
+                  <!-- status:pid/pname -->
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -235,6 +211,7 @@
                           checked
                         />
                         문제 번호 보기
+                        <span class="label label-light margin-left-5">기본값</span>
                       </label>
                     </div>
                     <div class="radio">
@@ -249,13 +226,11 @@
                       </label>
                     </div>
                   </div>
-                </div>
-                <!-- status:history -->
-                <div class="form-group">
-                  <label class="col-md-2 control-label" for="status-pid"
+                  <!-- status:history -->
+                  <label class="col-sm-2 col-xs-4 control-label" for="status-pid"
                     >채점 현황<br />퍼센트(%) 기록</label
                   >
-                  <div class="col-md-10">
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -265,10 +240,11 @@
                           value="1"
                           checked
                         />
-                        사용함 &nbsp;
+                        사용함
+                        <span class="label label-light margin-left-5">기본값</span>
                         <button
                           type="button"
-                          class="btn btn-primary btn-xs"
+                          class="btn btn-primary btn-xs margin-left-5"
                           data-toggle="modal"
                           data-target="#helpHistoryModal"
                         >
@@ -295,6 +271,38 @@
                         저장 기록 비우기
                       </button>
                     </div> -->
+                  </div>
+                </div>
+                <!-- status:group-link -->
+                <div class="form-group">
+                  <label class="col-sm-2 col-xs-4 control-label" for="group-link"
+                    >그룹 목록의 링크</label
+                  >
+                  <div class="col-sm-10 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-group-link"
+                          name="group-link"
+                          value="1"
+                          checked
+                        />
+                        보기
+                        <span class="label label-light margin-left-5">기본값</span>
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-group-link"
+                          name="group-link"
+                          value="0"
+                        />
+                        보지 않기
+                      </label>
+                    </div>
                   </div>
                 </div>
                 <!-- status:resultText -->
