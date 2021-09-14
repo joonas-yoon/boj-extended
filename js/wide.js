@@ -29,11 +29,9 @@ function applyWide(btn, wide) {
   if (wide) {
     container.classList.remove('container');
     container.classList.add('container-fluid');
-    container.style.padding = '40px 3em';
   } else {
     container.classList.remove('container-fluid');
     container.classList.add('container');
-    container.style.padding = '40px 0';
   }
   if (btn) {
     btn.setAttribute('wide', !!wide);
