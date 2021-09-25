@@ -196,21 +196,32 @@ const RTE_MSGS = [
 ];
 
 (function () {
+  function getLanguage(e) {
+    const tr = e.closest('tr');
+    return tr.children[6].firstChild.innerText || '';
+  }
+
+  function getReason(lang, type) {
+    for (const msgs of RTE_MSGS) {
+      const reason = msgs['messages'][type];
+      if (reason) {
+        console.log(reason, msgs['langs'], lang);
+      }
+      if (reason && msgs['langs'].indexOf(lang) !== -1) {
+        return reason;
+      }
+    }
+    return '';
+  }
+
   // add reason for rte message
   // it must be used after loading jQuery
   $('.result-rte').each((i, e) => {
     const x = e.innerText;
-    const errorMsg = x.slice(x.indexOf('(') + 1, x.indexOf(')'));
-    if (errorMsg) {
-      const lang =
-        e.parentNode.parentNode.parentNode.parentNode.getElementsByTagName(
-          'td'
-        )[6].innerText || '';
-      let reason = '';
-      for (let i = 0; i < RTE_MSGS.length; ++i) {
-        reason = RTE_MSGS[i]['messages'][errorMsg];
-        if (reason && RTE_MSGS[i]['langs'].indexOf(lang) !== -1) break;
-      }
+    const errorType = x.slice(x.indexOf('(') + 1, x.indexOf(')'));
+    if (errorType) {
+      const lang = getLanguage(e);
+      const reason = getReason(lang, errorType);
       if (reason) {
         $(e)
           .attr('data-placement', 'top')
