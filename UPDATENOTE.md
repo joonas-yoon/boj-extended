@@ -4,10 +4,17 @@
 
 **Fixes**
 
+- 제출 현황
+- - 런타임 에러의 원인 도움말 요약이 표시되지 않던 버그 수정
+- - 하이퍼 링크가 적용되지 않던 버그 수정 [(#35)](https://github.com/joonas-yoon/boj-extended/issues/35)
 - 옵션 설정 페이지
 - - 문제 타이머 버그 수정
 - - 도움말 보기에 어두운 테마 적용 [(#33)](https://github.com/joonas-yoon/boj-extended/issues/33)
 - - 창 너비에 따른 여백 수정 [(#31)](https://github.com/joonas-yoon/boj-extended/issues/31)
+
+**Changes**
+
+- 어두운 테마 색상 조정
 
 ## v1.5.7
 
