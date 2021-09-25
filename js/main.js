@@ -53,6 +53,7 @@
       document.querySelectorAll('span[class^=result-]').forEach((element) => {
         const fakeText = document.createElement('span');
         fakeText.setAttribute('class', 'result-fake-text');
+        fakeText.appendChild(element.firstChild.cloneNode(true));
         const box = isWillUpdate(element);
         if (box !== null) {
           addFakeResult(box, fakeText);
@@ -106,6 +107,16 @@
       appendTo.parentNode.appendChild(latestPercentage);
     }
 
+    function outputAsHtml(output, html) {
+      if (
+        isElement(output.firstChild) &&
+        output.firstChild.getAttribute('href')
+      ) {
+        output = output.firstChild;
+      }
+      output.innerHTML = html;
+    }
+
     function formatting(input, output) {
       let classes = (input.getAttribute('class') || '').split(' ');
       classes = classes.filter(
@@ -129,21 +140,23 @@
           const numberFormat = ':number:';
           if (format.indexOf(numberFormat) !== -1) {
             // user has number in format
-            output.innerHTML = format.replaceAll(numberFormat, digits);
+            outputAsHtml(output, format.replaceAll(numberFormat, digits));
           } else if (digits !== '') {
             // user does not have in format, but there are digits (e.g. score)
             const prefix = (inputText.match(/점|%/) || [''])[0];
             const lastCloseIdx = format.lastIndexOf('</');
-            output.innerHTML =
+            outputAsHtml(
+              output,
               format.substring(0, lastCloseIdx) +
-              ' (' +
-              digits +
-              prefix +
-              ')' +
-              format.substring(lastCloseIdx, format.length);
+                ' (' +
+                digits +
+                prefix +
+                ')' +
+                format.substring(lastCloseIdx, format.length)
+            );
           } else {
             // format for only text
-            output.innerHTML = format;
+            outputAsHtml(output, format);
           }
         }
       });
@@ -177,6 +190,23 @@
         );
         window.bojextStatusHistories = histories;
       }
+    }
+  }
+
+  function isElement(obj) {
+    try {
+      // Using W3 DOM2 (works for FF, Opera and Chrome)
+      return obj instanceof HTMLElement;
+    } catch (e) {
+      // Browsers not supporting W3 DOM2 don't have HTMLElement and
+      // an exception is thrown and we end up here. Testing some
+      // properties that all elements have (works on IE7)
+      return (
+        typeof obj === 'object' &&
+        obj.nodeType === 1 &&
+        typeof obj.style === 'object' &&
+        typeof obj.ownerDocument === 'object'
+      );
     }
   }
 })();
