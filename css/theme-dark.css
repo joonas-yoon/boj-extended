@@ -170,7 +170,7 @@ html[theme='dark'] td.accepted {
 html[theme='dark'] .table > thead > tr.result-mine > td:first-child,
 html[theme='dark'] .table > tbody > tr.result-mine > td:first-child,
 html[theme='dark'] .table > tfoot > tr.result-mine > td:first-child {
-  border-left: 4px solid #e2e2e2;
+  border-left: 4px solid #6284a7;
 }
 html[theme='dark'] .table > thead > tr > td.info,
 html[theme='dark'] .table > tbody > tr > td.info,
@@ -197,7 +197,7 @@ html[theme='dark'] .thumbnail-style h3 a {
   color: #c5c5c5;
 }
 html[theme='dark'] .footer-v3 .footer {
-  background-color: rgb(255,255,255,.02);
+  background-color: rgb(255, 255, 255, 0.02);
   border-top: 5px solid #1f1f1f;
 }
 html[theme='dark'] .form-control {
@@ -216,12 +216,12 @@ html[theme='dark'] fieldset[disabled] .form-control {
 }
 html[theme='dark'] .pagination > li > a,
 html[theme='dark'] .pagination > li > span {
-  background-color: #2f2f2f;
-  border-color: #3a3a3a;
-  color: #eee;
+  color: #eeeeee;
+  background-color: #1c1c1c;
+  border-color: #303030;
 }
 html[theme='dark'] .pagination li a:hover {
-  background-color: #4a4a4a;
+  background-color: #2f2f2f;
 }
 html[theme='dark'] .pagination > .active > a,
 html[theme='dark'] .pagination > .active > span,
@@ -229,8 +229,8 @@ html[theme='dark'] .pagination > .active > a:hover,
 html[theme='dark'] .pagination > .active > span:hover,
 html[theme='dark'] .pagination > .active > a:focus,
 html[theme='dark'] .pagination > .active > span:focus {
-  background-color: #5a5a5a;
-  border-color: #636363;
+  background-color: #3a3a3a;
+  border-color: #4a4a4a;
 }
 
 html[theme='dark'] .nav .open > a,
@@ -402,8 +402,11 @@ html[theme='dark'] .sidebar-nav-v1 li a:active {
 html[theme='dark'] .progress {
   background: #0c0c0c;
 }
-html[theme='dark'] .panel-default {
-  border-color: #333333;
+html[theme='dark'] .progress-bar {
+  background-color: #0f4676;
+}
+html[theme='dark'] .progress-bar-success {
+  background-color: #136a13;
 }
 html[theme='dark'] .panel-default > .panel-heading,
 html[theme='dark'] .panel-default > .panel-footer {
@@ -465,23 +468,33 @@ html[theme='dark'] .close:focus {
 }
 html[theme='dark'] .alert-success {
   color: #3c763d;
-  background-color: rgb(25, 25, 25, 0.4);
+  background-color: rgb(182, 226, 145, 0.1);
   border-color: #b6e291;
 }
 html[theme='dark'] .alert-info {
   color: #31708f;
-  background-color: rgb(25, 25, 25, 0.4);
+  background-color: rgb(121, 205, 222, 0.1);
   border-color: #79cdde;
 }
 html[theme='dark'] .alert-danger {
   color: #ebccd1;
-  background-color: rgb(255, 255, 255, .1);
-  border-color: rgb(255, 255, 255, .15);
+  background-color: rgb(221, 65, 36, 0.1);
+  border-color: #8b3b2c;
 }
-html[theme='dark'] .btn-default {
+html[theme='dark'] .alert-warning {
+  color: #e1c48a;
+  background-color: rgb(252, 248, 227, 0.1);
+  border-color: #faebcc;
+}
+html[theme='dark'] .btn-default,
+html[theme='dark'] #favorite_button {
   color: #fff;
   background-color: #232323;
   border-color: #272727;
+}
+html[theme='dark'] .btn-default:hover,
+html[theme='dark'] #favorite_button:hover {
+  background-color: #2f2f2f;
 }
 html[theme='dark'] .btn-primary {
   color: #fff;
@@ -499,24 +512,30 @@ html[theme='dark'] .nav-pills > .active > a > .badge {
   color: #ffffff;
   background-color: #161616;
 }
-html[theme='dark'] .label-success {
+html[theme='dark'] .label-success,
+html[theme='dark'] .problem-label-ac {
   background-color: transparent;
   border: 1px solid #5cb85c;
   color: #5cb85c;
 }
-html[theme='dark'] span.label-light-green,
-html[theme='dark'] span.badge-light-green {
+html[theme='dark'] .label-light-green,
+html[theme='dark'] .problem-label-debug,
+html[theme='dark'] .badge-light-green {
   background-color: transparent;
   border: 1px solid #79d5b3;
   color: #79d5b3 !important;
 }
-html[theme='dark'] .label-default {
+html[theme='dark'] .label-default,
+html[theme='dark'] .label-light,
+html[theme='dark'] .badge-light,
+html[theme='dark'] .problem-label-multilang,
+html[theme='dark'] .bookmark {
   background-color: transparent;
   border: 1px solid #777;
   color: #777 !important;
 }
-html[theme='dark'] span.label-purple,
-html[theme='dark'] span.badge-purple {
+html[theme='dark'] .label-purple,
+html[theme='dark'] .badge-purple {
   background-color: transparent;
   border: 1px solid #9b6bcc;
   color: #9b6bcc !important;
@@ -526,7 +545,8 @@ html[theme='dark'] .label-info {
   border: 1px solid #5bc0de;
   color: #5bc0de !important;
 }
-html[theme='dark'] .label-danger {
+html[theme='dark'] .label-danger,
+html[theme='dark'] .problem-label-wa {
   background-color: transparent;
   border: 1px solid #d9534f;
   color: #d9534f !important;
@@ -541,41 +561,81 @@ html[theme='dark'] .label-warning {
   border: 1px solid #f0ad4e;
   color: #f0ad4e !important;
 }
-html[theme='dark'] span.label-dark,
-html[theme='dark'] span.badge-dark {
+html[theme='dark'] .label-dark,
+html[theme='dark'] .badge-dark {
   background-color: transparent;
   border: 1px solid #555;
   color: #555 !important;
 }
-html[theme='dark'] span.label-aqua,
-html[theme='dark'] span.badge-aqua {
+html[theme='dark'] .label-aqua,
+html[theme='dark'] .badge-aqua {
   background-color: transparent;
   border: 1px solid #27d7e7;
   color: #27d7e7 !important;
 }
-html[theme='dark'] span.label-sea,
-html[theme='dark'] span.badge-sea {
+html[theme='dark'] .label-sea,
+html[theme='dark'] .badge-sea {
   background-color: transparent;
   border: 1px solid #1abc9c;
   color: #1abc9c !important;
 }
-html[theme='dark'] span.label-yellow,
-html[theme='dark'] span.badge-yellow {
+html[theme='dark'] .label-yellow,
+html[theme='dark'] .badge-yellow {
   background-color: transparent;
   border: 1px solid #f1c40f;
   color: #f1c40f !important;
 }
-html[theme='dark'] span.label-dark-blue,
-html[theme='dark'] span.badge-dark-blue {
+html[theme='dark'] .label-dark-blue,
+html[theme='dark'] .badge-dark-blue {
   background-color: transparent;
   border: 1px solid #4765a0;
   color: #4765a0 !important;
 }
-html[theme='dark'] .problem-text pre,
+html[theme='dark'] .problem-label-spj {
+  background-color: transparent;
+  border: 1px solid #5bc0de;
+  color: #5bc0de !important;
+}
+html[theme='dark'] .problem-label-source {
+  background-color: transparent;
+  border: 1px solid #428bca;
+  color: #428bca !important;
+}
+html[theme='dark'] .problem-label-preparing {
+  background-color: transparent;
+  border: 1px solid #f0ad4e;
+  color: #f0ad4e !important;
+}
+html[theme='dark'] .problem-label-interactive {
+  background-color: transparent;
+  border: 1px solid #27d7e7;
+  color: #27d7e7 !important;
+}
+html[theme='dark'] .problem-label-partial {
+  background-color: transparent;
+  border: 1px solid #5bc0de;
+  color: #5bc0de !important;
+}
+html[theme='dark'] .problem-label-subtask {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #555 !important;
+}
+html[theme='dark'] .problem-label-func {
+  background-color: transparent;
+  border: 1px solid #27d7e7;
+  color: #27d7e7 !important;
+}
+html[theme='dark'] .problem-label-language-restrict {
+  background-color: transparent;
+  border: 1px solid #4765a0;
+  color: #4765a0 !important;
+}
+html[theme='dark'] .content pre,
 html[theme='dark'] .sampledata {
-  background-color: #0e0e0e;
-  border-color: #2f2f2f;
-  color: #eaeaea;
+  color: #dedede;
+  background-color: #1b1b1b;
+  border-color: #3c3c3c;
 }
 html[theme='dark'] .space-highlight {
   background-color: rgba(123, 103, 24, 0.3);
@@ -589,15 +649,6 @@ html[theme='dark'] .user-legendary-first-letter {
 html[theme='dark'] .s-results .inner-results h3 a {
   color: #fff;
 }
-html[theme='dark'] #favorite_button {
-  color: #e6e6e6;
-  background-color: #0e0e0e;
-  border-color: #2f2f2f;
-}
-html[theme='dark'] #favorite_button:hover {
-  color: #f3f3f3;
-  background-color: #1a1a1a;
-}
 html[theme='dark'] #problem-timer .dropdown-menu input.timer-number {
   color: white;
   background-color: #3f3f3f;
@@ -608,6 +659,8 @@ html[theme='dark'] .redactor-modal,
 html[theme='dark'] .redactor-dropdown,
 html[theme='dark'] .redactor-styles figure,
 html[theme='dark'] .redactor-box.redactor-styles-on,
+html[theme='dark'] .CodeMirror,
+html[theme='dark'] .CodeMirror-code,
 html[theme='dark'] #problem-body img:not(.level_badge) {
   filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
   -webkit-filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
