@@ -518,6 +518,11 @@ html[theme='dark'] .problem-label-ac {
   border: 1px solid #5cb85c;
   color: #5cb85c;
 }
+html[theme='dark'] .problem-label-pac {
+  background-color: transparent;
+  border: 1px solid #efc050;
+  color: #efc050;
+}
 html[theme='dark'] .label-light-green,
 html[theme='dark'] .problem-label-debug,
 html[theme='dark'] .badge-light-green {
@@ -529,13 +534,14 @@ html[theme='dark'] .label-default,
 html[theme='dark'] .label-light,
 html[theme='dark'] .badge-light,
 html[theme='dark'] .problem-label-multilang,
-html[theme='dark'] .bookmark {
+html[theme='dark'] .problem-label-bookmark {
   background-color: transparent;
   border: 1px solid #777;
   color: #777 !important;
 }
 html[theme='dark'] .label-purple,
-html[theme='dark'] .badge-purple {
+html[theme='dark'] .badge-purple, 
+html[theme='dark'] .problem-label-tag {
   background-color: transparent;
   border: 1px solid #9b6bcc;
   color: #9b6bcc !important;
@@ -568,13 +574,18 @@ html[theme='dark'] .badge-dark {
   color: #555 !important;
 }
 html[theme='dark'] .label-aqua,
-html[theme='dark'] .badge-aqua {
+html[theme='dark'] .badge-aqua,
+html[theme='dark'] .problem-label-two-steps,
+html[theme='dark'] .problem-label-class,
+html[theme='dark'] .problem-label-feedback,
+html[theme='dark'] .problem-label-full {
   background-color: transparent;
   border: 1px solid #27d7e7;
   color: #27d7e7 !important;
 }
 html[theme='dark'] .label-sea,
-html[theme='dark'] .badge-sea {
+html[theme='dark'] .badge-sea,
+html[theme='dark'] .problem-label-unofficial {
   background-color: transparent;
   border: 1px solid #1abc9c;
   color: #1abc9c !important;
