@@ -1,3 +1,14 @@
+## 1.5.8
+
+2021/09/25
+
+**Fixes**
+
+- 옵션 설정 페이지
+- - 문제 타이머 버그 수정
+- - 도움말 보기에 어두운 테마 적용 [(#33)](https://github.com/joonas-yoon/boj-extended/issues/33)
+- - 창 너비에 따른 여백 수정 [(#31)](https://github.com/joonas-yoon/boj-extended/issues/31)
+
 ## v1.5.7
 
 2021/09/10

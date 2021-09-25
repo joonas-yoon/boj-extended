@@ -102,6 +102,9 @@ html[theme='dark'] .headline h3,
 html[theme='dark'] .headline h4 {
   border-bottom-color: #b5b5b5;
 }
+html[theme='dark'] .modal-content {
+  background-color: #202020;
+}
 html[theme='dark'] table.table tr td a {
   color: #89c4e8;
 }
@@ -194,7 +197,7 @@ html[theme='dark'] .thumbnail-style h3 a {
   color: #c5c5c5;
 }
 html[theme='dark'] .footer-v3 .footer {
-  background: #191919;
+  background-color: rgb(255,255,255,.02);
   border-top: 5px solid #1f1f1f;
 }
 html[theme='dark'] .form-control {
@@ -214,11 +217,11 @@ html[theme='dark'] fieldset[disabled] .form-control {
 html[theme='dark'] .pagination > li > a,
 html[theme='dark'] .pagination > li > span {
   background-color: #2f2f2f;
-  border-color: #5a5a5a;
+  border-color: #3a3a3a;
   color: #eee;
 }
 html[theme='dark'] .pagination li a:hover {
-  background-color: #5f5f5f;
+  background-color: #4a4a4a;
 }
 html[theme='dark'] .pagination > .active > a,
 html[theme='dark'] .pagination > .active > span,
@@ -226,8 +229,8 @@ html[theme='dark'] .pagination > .active > a:hover,
 html[theme='dark'] .pagination > .active > span:hover,
 html[theme='dark'] .pagination > .active > a:focus,
 html[theme='dark'] .pagination > .active > span:focus {
-  background-color: #717171;
-  border-color: #717171;
+  background-color: #5a5a5a;
+  border-color: #636363;
 }
 
 html[theme='dark'] .nav .open > a,
@@ -263,8 +266,8 @@ html[theme='dark'] .input-group-addon {
   border-color: #222;
 }
 html[theme='dark'] .breadcrumbs {
-  background: #050505 !important;
-  border-color: black;
+  background: #191919;
+  border-color: #0e0e0e;
 }
 html[theme='dark'] .sky-form {
   border-color: #333;
@@ -472,8 +475,8 @@ html[theme='dark'] .alert-info {
 }
 html[theme='dark'] .alert-danger {
   color: #ebccd1;
-  background-color: rgb(25, 25, 25, 0.4);
-  border-color: #a94442;
+  background-color: rgb(255, 255, 255, .1);
+  border-color: rgb(255, 255, 255, .15);
 }
 html[theme='dark'] .btn-default {
   color: #fff;
