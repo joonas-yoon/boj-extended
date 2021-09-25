@@ -12,12 +12,12 @@
 
   // Timers
   Config.load('problem-timers', (list) => {
-    let pids = Object.keys(list || {});
+    const pids = Object.keys(list || {});
     if (pids.length) {
       for (let i = 0; i < pids.length; ++i) {
-        let pid = pids[i];
-        let timeInfo = list[pid];
-        let pname = PROVISIONED_DB['problems'][pid];
+        const pid = pids[i];
+        const timeInfo = list[pid];
+        const pname = PROVISIONED_DB['problems'][pid];
         container.appendChild(createTimerElement(pid, pname, timeInfo));
       }
     } else {
