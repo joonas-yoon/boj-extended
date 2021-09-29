@@ -62,10 +62,10 @@ html[theme='dark'] blockquote.text-right:hover {
 }
 html[theme='dark'],
 html[theme='dark'] .wrapper {
-  background: #161616;
+  background: #1a1a1a;
 }
 html[theme='dark'] .header {
-  background-color: #161616;
+  background-color: #1a1a1a;
   color: white;
   border-bottom: solid 2px #202020;
 }
@@ -110,7 +110,7 @@ html[theme='dark'] table.table tr td a {
 }
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #141414;
+  background-color: #181818;
   border-color: #333;
 }
 html[theme='dark'] .table-bordered {
@@ -149,8 +149,8 @@ html[theme='dark'] .table > thead > tr.success > th,
 html[theme='dark'] .table > tbody > tr.success > th,
 html[theme='dark'] .table > tfoot > tr.success > th,
 html[theme='dark'] td.accepted {
-  border-color: #5c804d;
-  background-color: #6c8e5e;
+  border-color: #507141;
+  background-color: #3d5f30;
 }
 html[theme='dark'] .table > thead > tr > td.success a,
 html[theme='dark'] .table > tbody > tr > td.success a,
@@ -266,8 +266,8 @@ html[theme='dark'] .input-group-addon {
   border-color: #222;
 }
 html[theme='dark'] .breadcrumbs {
-  background: #191919;
-  border-color: #0e0e0e;
+  background: #1a1a1a;
+  border-color: #252525;
 }
 html[theme='dark'] .sky-form {
   border-color: #333;
@@ -408,14 +408,17 @@ html[theme='dark'] .progress-bar {
 html[theme='dark'] .progress-bar-success {
   background-color: #136a13;
 }
+html[theme='dark'] .panel-default {
+  border-color: #292929;
+}
 html[theme='dark'] .panel-default > .panel-heading,
 html[theme='dark'] .panel-default > .panel-footer {
   color: #fff;
-  background-color: #262626;
+  background-color: #232323;
   border-color: #313131;
 }
 html[theme='dark'] .panel-body {
-  background-color: #333;
+  background-color: #292929;
 }
 html[theme='dark'] .page-header > h1 {
   color: white;
@@ -678,6 +681,7 @@ html[theme='dark'] .redactor-modal,
 html[theme='dark'] .redactor-dropdown,
 html[theme='dark'] .redactor-styles figure,
 html[theme='dark'] .redactor-box.redactor-styles-on,
+html[theme='dark'] #logo-header,
 html[theme='dark'] #problem-body img:not(.level_badge) {
   filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
   -webkit-filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
@@ -719,6 +723,12 @@ html[theme='dark'] .xml .hljs-tag,
 html[theme='dark'] .scss .hljs-variable {
   color: #787878;
 }
+/* Notifications */
+html[theme='dark'] .noty_theme__mint.noty_type__success {
+  background-color: #839a3e;
+  border-bottom: 1px solid #616f34;
+  color: #f1f1f1;
+}
 /* Editor */
 html[theme='dark'] .editor-toolbar {
   border-top: 1px solid #333 !important;
@@ -742,92 +752,123 @@ html[theme='dark'] .CodeMirror {
     Author:     Chris Kempson (http://chriskempson.com)
     CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
-    But override as 'cm-s-paper' to replace (original is 'cm-s-base16-dark')
+    But override as 'cm-s-paper', 'cm-s-default' to replace (original is 'cm-s-base16-dark')
 */
-html[theme='dark'] .cm-s-paper.CodeMirror {
+html[theme="dark"] .cm-s-default.CodeMirror,
+html[theme="dark"] .cm-s-paper.CodeMirror {
   background: #151515;
   color: #e0e0e0;
 }
-html[theme='dark'] .cm-s-paper div.CodeMirror-selected {
+html[theme="dark"] .cm-s-default div.CodeMirror-selected,
+html[theme="dark"] .cm-s-paper div.CodeMirror-selected {
   background: #303030;
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-line::selection,
-html[theme='dark'] .cm-s-paper .CodeMirror-line > span::selection,
-html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::selection {
+html[theme="dark"] .cm-s-default .CodeMirror-line::selection,
+html[theme="dark"] .cm-s-paper .CodeMirror-line::selection,
+html[theme="dark"] .cm-s-default .CodeMirror-line > span::selection,
+html[theme="dark"] .cm-s-paper .CodeMirror-line > span::selection,
+html[theme="dark"] .cm-s-default .CodeMirror-line > span > span::selection,
+html[theme="dark"] .cm-s-paper .CodeMirror-line > span > span::selection {
   background: rgba(48, 48, 48, 0.99);
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-line::-moz-selection,
-html[theme='dark'] .cm-s-paper .CodeMirror-line > span::-moz-selection,
-html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::-moz-selection {
+html[theme="dark"] .cm-s-default .CodeMirror-line::-moz-selection,
+html[theme="dark"] .cm-s-paper .CodeMirror-line::-moz-selection,
+html[theme="dark"] .cm-s-default .CodeMirror-line > span::-moz-selection,
+html[theme="dark"] .cm-s-paper .CodeMirror-line > span::-moz-selection,
+html[theme="dark"] .cm-s-default .CodeMirror-line > span > span::-moz-selection,
+html[theme="dark"] .cm-s-paper .CodeMirror-line > span > span::-moz-selection {
   background: rgba(48, 48, 48, 0.99);
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-gutters {
+html[theme="dark"] .cm-s-default .CodeMirror-gutters,
+html[theme="dark"] .cm-s-paper .CodeMirror-gutters {
   background: #151515;
   border-right: 0px;
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-guttermarker {
+html[theme="dark"] .cm-s-default .CodeMirror-guttermarker,
+html[theme="dark"] .cm-s-paper .CodeMirror-guttermarker {
   color: #ac4142;
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-guttermarker-subtle {
+html[theme="dark"] .cm-s-default .CodeMirror-guttermarker-subtle,
+html[theme="dark"] .cm-s-paper .CodeMirror-guttermarker-subtle {
   color: #505050;
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-linenumber {
+html[theme="dark"] .cm-s-default .CodeMirror-linenumber,
+html[theme="dark"] .cm-s-paper .CodeMirror-linenumber {
   color: #505050;
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-cursor {
+html[theme="dark"] .cm-s-default .CodeMirror-cursor,
+html[theme="dark"] .cm-s-paper .CodeMirror-cursor {
   border-left: 1px solid #b0b0b0;
 }
-html[theme='dark'] .cm-s-paper.cm-fat-cursor .CodeMirror-cursor {
+html[theme="dark"] .cm-s-default.cm-fat-cursor .CodeMirror-cursor,
+html[theme="dark"] .cm-s-paper.cm-fat-cursor .CodeMirror-cursor {
   background-color: #8e8d8875 !important;
 }
-html[theme='dark'] .cm-s-paper .cm-animate-fat-cursor {
+html[theme="dark"] .cm-s-default .cm-animate-fat-cursor,
+html[theme="dark"] .cm-s-paper .cm-animate-fat-cursor {
   background-color: #8e8d8875 !important;
 }
-html[theme='dark'] .cm-s-paper span.cm-comment {
+html[theme="dark"] .cm-s-default span.cm-comment,
+html[theme="dark"] .cm-s-paper span.cm-comment {
   color: #8f5536;
 }
-html[theme='dark'] .cm-s-paper span.cm-atom {
+html[theme="dark"] .cm-s-default span.cm-atom,
+html[theme="dark"] .cm-s-paper span.cm-atom {
   color: #aa759f;
 }
-html[theme='dark'] .cm-s-paper span.cm-number {
+html[theme="dark"] .cm-s-default span.cm-number,
+html[theme="dark"] .cm-s-paper span.cm-number {
   color: #aa759f;
 }
-html[theme='dark'] .cm-s-paper span.cm-property,
-html[theme='dark'] .cm-s-paper span.cm-attribute {
+html[theme="dark"] .cm-s-default span.cm-property,
+html[theme="dark"] .cm-s-paper span.cm-property,
+html[theme="dark"] .cm-s-default span.cm-attribute,
+html[theme="dark"] .cm-s-paper span.cm-attribute {
   color: #90a959;
 }
-html[theme='dark'] .cm-s-paper span.cm-keyword {
+html[theme="dark"] .cm-s-default span.cm-keyword,
+html[theme="dark"] .cm-s-paper span.cm-keyword {
   color: #ac4142;
 }
-html[theme='dark'] .cm-s-paper span.cm-string {
+html[theme="dark"] .cm-s-default span.cm-string,
+html[theme="dark"] .cm-s-paper span.cm-string {
   color: #f4bf75;
 }
-html[theme='dark'] .cm-s-paper span.cm-variable {
+html[theme="dark"] .cm-s-default span.cm-variable,
+html[theme="dark"] .cm-s-paper span.cm-variable {
   color: #90a959;
 }
-html[theme='dark'] .cm-s-paper span.cm-variable-2 {
+html[theme="dark"] .cm-s-default span.cm-variable-2,
+html[theme="dark"] .cm-s-paper span.cm-variable-2 {
   color: #6a9fb5;
 }
-html[theme='dark'] .cm-s-paper span.cm-def {
+html[theme="dark"] .cm-s-default span.cm-def,
+html[theme="dark"] .cm-s-paper span.cm-def {
   color: #d28445;
 }
-html[theme='dark'] .cm-s-paper span.cm-bracket {
+html[theme="dark"] .cm-s-default span.cm-bracket,
+html[theme="dark"] .cm-s-paper span.cm-bracket {
   color: #e0e0e0;
 }
-html[theme='dark'] .cm-s-paper span.cm-tag {
+html[theme="dark"] .cm-s-default span.cm-tag,
+html[theme="dark"] .cm-s-paper span.cm-tag {
   color: #ac4142;
 }
-html[theme='dark'] .cm-s-paper span.cm-link {
+html[theme="dark"] .cm-s-default span.cm-link,
+html[theme="dark"] .cm-s-paper span.cm-link {
   color: #aa759f;
 }
-html[theme='dark'] .cm-s-paper span.cm-error {
+html[theme="dark"] .cm-s-default span.cm-error,
+html[theme="dark"] .cm-s-paper span.cm-error {
   background: #ac4142;
   color: #b0b0b0;
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-activeline-background {
+html[theme="dark"] .cm-s-default .CodeMirror-activeline-background,
+html[theme="dark"] .cm-s-paper .CodeMirror-activeline-background {
   background: #202020;
 }
-html[theme='dark'] .cm-s-paper .CodeMirror-matchingbracket {
+html[theme="dark"] .cm-s-default .CodeMirror-matchingbracket,
+html[theme="dark"] .cm-s-paper .CodeMirror-matchingbracket {
   text-decoration: underline;
   color: white !important;
 }
