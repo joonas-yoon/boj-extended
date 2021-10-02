@@ -51,19 +51,25 @@
       console.log('load', window.bojextStatusHistories);
       // add fake result for each texts
       document.querySelectorAll('span[class^=result-]').forEach((element) => {
+        if (element.getAttribute('class') === 'result-text') return;
         const fakeText = document.createElement('span');
         fakeText.setAttribute('class', 'result-fake-text');
         fakeText.appendChild(element.firstChild.cloneNode(true));
-        const box = isWillUpdate(element);
+        const box = element.closest('.result-text');
         if (box !== null) {
           addFakeResult(box, fakeText);
           addObserver(box, (resultText) => {
+            const id = res.closest('tr').id;
             const res = resultText.querySelector('span') || resultText;
             // save current percentage
             if (res.classList.contains('result-judging')) {
-              const id = res.closest('tr').id;
               const percent = parseInt(res.innerText.match(/\d+/)) || null;
               if (showHistory && percent !== null) updateHistory(id, percent);
+            } else {
+              const isAccept =
+                res.classList.contains('result-ac') ||
+                res.classList.contains('result-pac');
+              if (isAccept) deleteHistory(id);
             }
             formatting(res, fakeText);
           });
@@ -74,14 +80,6 @@
         formatting(element, fakeText);
       });
     });
-
-    function isWillUpdate(el) {
-      for (let i = 0; i < 3; ++i) {
-        if (el.classList.contains('result-text')) return el;
-        el = el.parentNode;
-      }
-      return null;
-    }
 
     function addObserver(target, callback) {
       const observer = new MutationObserver(function (mutations) {
@@ -175,14 +173,13 @@
     }
 
     // ISSUE: synchronization not guaranteed with multiple tabs
-    async function updateHistory(id, percent) {
+    function updateHistory(id, percent) {
       // load history from localStorage
       const histories = JSON.parse(
         localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
       );
-      const needsUpdate = percent == 100 || histories[id] != percent;
-      if (percent == 100) delete histories[id];
-      else histories[id] = Math.max(histories[id] || 0, percent);
+      const needsUpdate = histories[id] != percent;
+      histories[id] = Math.max(histories[id] || 0, percent);
       if (needsUpdate) {
         localStorage.setItem(
           Constants.STORAGE_STATUS_HISTORY,
@@ -191,6 +188,19 @@
         window.bojextStatusHistories = histories;
       }
     }
+  }
+
+  function deleteHistory(id) {
+    // load history from localStorage
+    const histories = JSON.parse(
+      localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+    );
+    delete histories[id];
+    localStorage.setItem(
+      Constants.STORAGE_STATUS_HISTORY,
+      JSON.stringify(histories)
+    );
+    window.bojextStatusHistories = histories;
   }
 
   function isElement(obj) {
