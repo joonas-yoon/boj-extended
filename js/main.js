@@ -65,35 +65,38 @@
         );
       }
       console.log('load', window.bojextStatusHistories);
-      // add fake result for each texts
-      document.querySelectorAll('span[class^=result-]').forEach((element) => {
-        if (element.getAttribute('class') === 'result-text') return;
-        const fakeText = document.createElement('span');
-        fakeText.setAttribute('class', 'result-fake-text');
-        fakeText.appendChild(element.firstChild.cloneNode(true));
-        const box = element.closest('.result-text');
-        if (box !== null) {
-          addFakeResult(box, fakeText);
-          addObserver(box, (resultText) => {
-            const res = resultText.querySelector('span') || resultText;
-            const id = res.closest('tr').id;
-            // save current percentage
-            if (res.classList.contains('result-judging')) {
-              const percent = parseInt(res.innerText.match(/\d+/)) || null;
-              if (showHistory && percent !== null) updateHistory(id, percent);
-            } else {
-              const isAccept =
-                res.classList.contains('result-ac') ||
-                res.classList.contains('result-pac');
-              if (isAccept) deleteHistory(id);
-            }
-            formatting(res, fakeText);
-          });
-        } else {
-          // /source, /share
-          addFakeResult(element, fakeText);
-        }
-        formatting(element, fakeText);
+      Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
+        // add fake result for each texts
+        document.querySelectorAll('span[class^=result-]').forEach((element) => {
+          if (element.getAttribute('class') === 'result-text') return;
+          const fakeText = document.createElement('span');
+          fakeText.setAttribute('class', 'result-fake-text');
+          fakeText.appendChild(element.firstChild.cloneNode(true));
+          fakeText.style.display = 'none';
+          const box = element.closest('.result-text');
+          if (box !== null) {
+            addFakeResult(box, fakeText);
+            addObserver(box, (resultText) => {
+              const res = resultText.querySelector('span') || resultText;
+              const id = res.closest('tr').id;
+              // save current percentage
+              if (res.classList.contains('result-judging')) {
+                const percent = parseInt(res.innerText.match(/\d+/)) || null;
+                if (showHistory && percent !== null) updateHistory(id, percent);
+              } else {
+                const isAccept =
+                  res.classList.contains('result-ac') ||
+                  res.classList.contains('result-pac');
+                if (isAccept) deleteHistory(id);
+              }
+              if (showFakeResult) formatting(res, fakeText);
+            });
+          } else {
+            // /source, /share
+            addFakeResult(element, fakeText);
+          }
+          if (showFakeResult) formatting(element, fakeText);
+        });
       });
     });
 

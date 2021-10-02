@@ -95,20 +95,37 @@
     oGroupLink[showGroupLink ? 1 : 0].checked = true;
   });
 
-  // status:re-text
-  const oReText = document.getElementsByClassName('msg-code');
-  for (let i = 0; i < oReText.length; ++i) {
-    Config.load(oReText[i].getAttribute('name') + '-code', (format) => {
+  // status:fake-text
+  const oFakeText = document.getElementsByClassName('msg-code');
+  for (let i = 0; i < oFakeText.length; ++i) {
+    Config.load(oFakeText[i].getAttribute('name') + '-code', (format) => {
       if (format) {
-        oReText[i].value = format;
+        oFakeText[i].value = format;
         document.getElementById(
-          oReText[i].getAttribute('data-preview')
-        ).innerHTML = reformatPreview(format);
+          oFakeText[i].getAttribute('data-preview')
+        ).innerHTML = reformat(format);
       }
     });
 
-    oReText[i].addEventListener('input', onReformatChanged);
+    oFakeText[i].addEventListener('input', onReformatChanged);
   }
+  // active button
+  const oFakeTextActive = document.getElementsByClassName(
+    'option-status-result'
+  );
+  for (let i = 0; i < oFakeTextActive.length; ++i) {
+    oFakeTextActive[i].addEventListener('change', (evt) => {
+      Config.save(
+        Constants.CONFIG_SHOW_FAKE_RESULT,
+        !!parseInt(evt.target.value)
+      );
+    });
+  }
+
+  Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
+    console.log('CONFIG_SHOW_FAKE_RESULT', showFakeResult);
+    oFakeTextActive[showFakeResult ? 0 : 1].checked = true;
+  });
 
   // help:reformat
   {
@@ -154,29 +171,24 @@
     for (const tag of tags) {
       const row = document.createElement('tr');
       const text = '적용된 결과 미리보기';
-      const val = reformatPreview(`<${tag}>${text}</${tag}>`);
+      const val = reformat(`<${tag}>${text}</${tag}>`);
       row.innerHTML = `<td><code>&lt;${tag}&gt;</td><td class="result-fake-text">${val}</td>`;
       tbody.appendChild(row);
     }
   }
 
   function reformat(text) {
-    let rs = RegExp(/<([a-z]+)>/),
-      re = RegExp(/<\/[a-z]+>/g);
+    const rs = RegExp(/<([a-z]+)>/);
+    const re = RegExp(/<\/[a-z]+>/g);
     while (rs.test(text)) text = text.replace(rs, '<span class="result-$1">');
     text = text.replace(re, '</span>');
     return text;
   }
 
-  // TODO: :score:와 :percent:로 분리하기
-  function reformatPreview(text) {
-    return reformat(text).replaceAll(':number:', '00');
-  }
-
   function onReformatChanged(evt) {
     const key = evt.target.getAttribute('name');
     const value = evt.target.value;
-    const formatPreview = reformatPreview(
+    const formatPreview = reformat(
       value || evt.target.getAttribute('placeholder')
     );
     const previewId = evt.target.getAttribute('data-preview');

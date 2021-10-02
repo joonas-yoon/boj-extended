@@ -309,6 +309,30 @@
                 <div class="form-group">
                   <label class="col-md-2 control-label">결과 바꾸기</label>
                   <div class="col-md-10">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-result"
+                          name="status-result"
+                          value="1"
+                        />
+                        사용함
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-result"
+                          name="status-result"
+                          value="0"
+                          checked
+                        />
+                        사용 안 함
+                        <span class="label label-light margin-left-5">기본값</span>
+                      </label>
+                    </div>
                     <p class="text-right">
                       <button
                         type="button"
@@ -322,8 +346,8 @@
                     <table class="table table-bordered" style="width: 100%">
                       <thead>
                         <tr>
-                          <th>실제 결과</th>
-                          <th>바꿀 메시지</th>
+                          <th>바꾸기 전 결과</th>
+                          <th>적용할 포맷</th>
                           <th>미리보기</th>
                         </tr>
                       </thead>
