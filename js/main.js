@@ -40,6 +40,22 @@
   }
 
   function extendReformatMessage() {
+    const resultPattern = {
+      'result-ac': '맞았습니다!!',
+      'result-pac': '맞았습니다!!',
+      'result-wa': '틀렸습니다',
+      'result-ce': '컴파일 에러',
+      'result-rte': '런타임 에러',
+      'result-tle': '시간 초과',
+      'result-mle': '메모리 초과',
+      'result-ole': '출력 초과',
+      'result-pe': '출력 형식이 잘못되었습니다',
+      'result-wait': '기다리는 중',
+      'result-compile': '채점 준비 중',
+      'result-judging': '채점 중',
+      'result-del': '채점 불가',
+    };
+
     Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
       // load history from localStorage
       showHistory = showHistory !== false; // true or null (default)
@@ -59,8 +75,8 @@
         if (box !== null) {
           addFakeResult(box, fakeText);
           addObserver(box, (resultText) => {
-            const id = res.closest('tr').id;
             const res = resultText.querySelector('span') || resultText;
+            const id = res.closest('tr').id;
             // save current percentage
             if (res.classList.contains('result-judging')) {
               const percent = parseInt(res.innerText.match(/\d+/)) || null;
@@ -134,28 +150,19 @@
           if (td) td.setAttribute('class', 'result has-fake');
           input.style.display = 'none';
           output.style.display = '';
-          const digits = (inputText.match(/[+-]?\d+(\.\d+)?/g) || [''])[0];
-          const numberFormat = ':number:';
-          if (format.indexOf(numberFormat) !== -1) {
-            // user has number in format
-            outputAsHtml(output, format.replaceAll(numberFormat, digits));
-          } else if (digits !== '') {
-            // user does not have in format, but there are digits (e.g. score)
-            const prefix = (inputText.match(/점|%/) || [''])[0];
-            const lastCloseIdx = format.lastIndexOf('</');
-            outputAsHtml(
-              output,
-              format.substring(0, lastCloseIdx) +
-                ' (' +
-                digits +
-                prefix +
-                ')' +
-                format.substring(lastCloseIdx, format.length)
-            );
-          } else {
-            // format for only text
-            outputAsHtml(output, format);
-          }
+          const outputText1 = input.innerText.replaceAll(
+            resultPattern[type],
+            ''
+          );
+          format = format.replace(
+            /<span (.+)?>(.*)<\/span>/gi,
+            '<span $1>$2 ' + outputText1 + '</span>'
+          );
+          const outputText2 = input.innerText.replaceAll(
+            resultPattern[type],
+            format
+          );
+          outputAsHtml(output, format);
         }
       });
       // display latest percentage when it is not accept
