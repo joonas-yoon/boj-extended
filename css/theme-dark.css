@@ -62,12 +62,12 @@ html[theme='dark'] blockquote.text-right:hover {
 }
 html[theme='dark'],
 html[theme='dark'] .wrapper {
-  background: #1a1a1a;
+  background: #222222;
 }
 html[theme='dark'] .header {
-  background-color: #1a1a1a;
+  background-color: #202020;
   color: white;
-  border-bottom: solid 2px #202020;
+  border-bottom: solid 2px #2a2a2a;
 }
 html[theme='dark'] .header .navbar-default .navbar-nav > li > a {
   color: #a2a4a5;
@@ -110,7 +110,7 @@ html[theme='dark'] table.table tr td a {
 }
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #181818;
+  background-color: #1f1f1f;
   border-color: #333;
 }
 html[theme='dark'] .table-bordered {
@@ -202,7 +202,7 @@ html[theme='dark'] .footer-v3 .footer {
 }
 html[theme='dark'] .form-control {
   color: #eee;
-  background-color: #191919;
+  background-color: #1d1d1d;
   border-color: #2f2f2f;
 }
 html[theme='dark'] .form-control input::placeholder {
@@ -217,7 +217,7 @@ html[theme='dark'] fieldset[disabled] .form-control {
 html[theme='dark'] .pagination > li > a,
 html[theme='dark'] .pagination > li > span {
   color: #eeeeee;
-  background-color: #1c1c1c;
+  background-color: #262626;
   border-color: #303030;
 }
 html[theme='dark'] .pagination li a:hover {
@@ -294,11 +294,11 @@ html[theme='dark'] .selectize-input {
 }
 html[theme='dark'] .selectize-control.single .selectize-input.input-active,
 html[theme='dark'] .selectize-input {
-  background: #4a4a4a;
+  background: #3a3a3a;
 }
 html[theme='dark'] .selectize-dropdown,
 html[theme='dark'] .selectize-dropdown.form-control {
-  background: #2d2d2d;
+  background: #2f2f2f;
 }
 html[theme='dark'] .selectize-dropdown-content {
   color: #dfdfdf;
@@ -409,7 +409,7 @@ html[theme='dark'] .progress-bar-success {
   background-color: #136a13;
 }
 html[theme='dark'] .panel-default {
-  border-color: #292929;
+  border-color: #333333;
 }
 html[theme='dark'] .panel-default > .panel-heading,
 html[theme='dark'] .panel-default > .panel-footer {
@@ -728,6 +728,16 @@ html[theme='dark'] .noty_theme__mint.noty_type__success {
   background-color: #839a3e;
   border-bottom: 1px solid #616f34;
   color: #f1f1f1;
+}
+/* User colors */
+html[theme='dark'] .user-red {
+  color: #ff1010 !important;
+}
+html[theme='dark'] .user-blue {
+  color: #5454ff !important;
+}
+html[theme='dark'] .user-violet {
+  color: #bd0bbd !important;
 }
 /* Editor */
 html[theme='dark'] .editor-toolbar {
