@@ -1,3 +1,22 @@
+## 1.5.9
+
+2021/10/03
+
+**Features**
+
+- 소스 코드(제출, 코드보기, 하이라이트)를 어두운 테마에서도 적용 [(#34)](https://github.com/joonas-yoon/boj-extended/issues/34) [(#38)](https://github.com/joonas-yoon/boj-extended/issues/38)
+- 재채점 페이지에도 문제 제목 적용 [(#25)](https://github.com/joonas-yoon/boj-extended/issues/25)
+
+**Fixes**
+
+- 결과 바꾸기
+- - 재채점 결과 페이지에서 바뀐 결과가 두 번 출력되는 버그 수정 [(#36)](https://github.com/joonas-yoon/boj-extended/issues/36)
+- - 숫자 포맷 제거 [(#37)](https://github.com/joonas-yoon/boj-extended/issues/37)
+
+**Changes**
+
+- 어두운 테마 색상 조정
+
 ## 1.5.8
 
 2021/09/25
