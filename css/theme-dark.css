@@ -33,7 +33,7 @@ html[theme='dark'] ::-webkit-scrollbar-button:horizontal:increment {
 html[theme='dark'],
 html[theme='dark'] body {
   color: #dfdfdf;
-  background-color: #161616;
+  background-color: #1f1f1f;
 }
 html[theme='dark'] p,
 html[theme='dark'] li {
@@ -62,12 +62,12 @@ html[theme='dark'] blockquote.text-right:hover {
 }
 html[theme='dark'],
 html[theme='dark'] .wrapper {
-  background: #161616;
+  background: #222222;
 }
 html[theme='dark'] .header {
-  background-color: #161616;
+  background-color: #202020;
   color: white;
-  border-bottom: solid 2px #202020;
+  border-bottom: solid 2px #2a2a2a;
 }
 html[theme='dark'] .header .navbar-default .navbar-nav > li > a {
   color: #a2a4a5;
@@ -81,7 +81,7 @@ html[theme='dark'] .header .navbar-default .navbar-nav > .active > a {
   border-color: #eeeeee;
 }
 html[theme='dark'] .header .mega-menu .mega-menu-content {
-  background: #0e0e0e;
+  background: #1a1a1a;
 }
 html[theme='dark'] .header .dropdown-menu {
   border-top: solid 2px #949494;
@@ -110,7 +110,7 @@ html[theme='dark'] table.table tr td a {
 }
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #111;
+  background-color: #1f1f1f;
   border-color: #333;
 }
 html[theme='dark'] .table-bordered {
@@ -149,8 +149,8 @@ html[theme='dark'] .table > thead > tr.success > th,
 html[theme='dark'] .table > tbody > tr.success > th,
 html[theme='dark'] .table > tfoot > tr.success > th,
 html[theme='dark'] td.accepted {
-  border-color: #5c804d;
-  background-color: #6c8e5e;
+  border-color: #507141;
+  background-color: #3d5f30;
 }
 html[theme='dark'] .table > thead > tr > td.success a,
 html[theme='dark'] .table > tbody > tr > td.success a,
@@ -202,7 +202,7 @@ html[theme='dark'] .footer-v3 .footer {
 }
 html[theme='dark'] .form-control {
   color: #eee;
-  background-color: #191919;
+  background-color: #1d1d1d;
   border-color: #2f2f2f;
 }
 html[theme='dark'] .form-control input::placeholder {
@@ -217,7 +217,7 @@ html[theme='dark'] fieldset[disabled] .form-control {
 html[theme='dark'] .pagination > li > a,
 html[theme='dark'] .pagination > li > span {
   color: #eeeeee;
-  background-color: #1c1c1c;
+  background-color: #262626;
   border-color: #303030;
 }
 html[theme='dark'] .pagination li a:hover {
@@ -266,8 +266,8 @@ html[theme='dark'] .input-group-addon {
   border-color: #222;
 }
 html[theme='dark'] .breadcrumbs {
-  background: #191919;
-  border-color: #0e0e0e;
+  background: #1a1a1a;
+  border-color: #252525;
 }
 html[theme='dark'] .sky-form {
   border-color: #333;
@@ -294,11 +294,11 @@ html[theme='dark'] .selectize-input {
 }
 html[theme='dark'] .selectize-control.single .selectize-input.input-active,
 html[theme='dark'] .selectize-input {
-  background: #4a4a4a;
+  background: #3a3a3a;
 }
 html[theme='dark'] .selectize-dropdown,
 html[theme='dark'] .selectize-dropdown.form-control {
-  background: #2d2d2d;
+  background: #2f2f2f;
 }
 html[theme='dark'] .selectize-dropdown-content {
   color: #dfdfdf;
@@ -312,8 +312,9 @@ html[theme='dark'] .selectize-control.multi .selectize-input > div {
   color: #fff;
 }
 html[theme='dark'] .chosen-container-single .chosen-single {
-  border-color: #191919;
-  background-color: #161616;
+  color: #eeeeee;
+  border-color: #333333;
+  background-color: #292929;
   background: -webkit-gradient(
     linear,
     left top,
@@ -331,11 +332,10 @@ html[theme='dark'] .chosen-container-single .chosen-single {
   );
   -webkit-box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
   box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
-  color: #b3b3b3;
 }
 html[theme='dark'] .chosen-container .chosen-drop {
-  border-color: #292929;
-  background: #191919;
+  border-color: #333333;
+  background: #292929;
   -webkit-box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
   box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
 }
@@ -381,7 +381,7 @@ html[theme='dark'] .funny-boxes-top-sea:hover {
   border-top-color: #252d3c;
 }
 html[theme='dark'] .search-block-v2 {
-  background: #060606;
+  background: transparent;
 }
 html[theme='dark'] .list-group-item {
   background: #222222;
@@ -400,7 +400,7 @@ html[theme='dark'] .sidebar-nav-v1 li a:active {
   color: #fafafa;
 }
 html[theme='dark'] .progress {
-  background: #0c0c0c;
+  background: rgb(128, 128, 128, 0.1);
 }
 html[theme='dark'] .progress-bar {
   background-color: #0f4676;
@@ -408,14 +408,17 @@ html[theme='dark'] .progress-bar {
 html[theme='dark'] .progress-bar-success {
   background-color: #136a13;
 }
+html[theme='dark'] .panel-default {
+  border-color: #333333;
+}
 html[theme='dark'] .panel-default > .panel-heading,
 html[theme='dark'] .panel-default > .panel-footer {
   color: #fff;
-  background-color: #262626;
+  background-color: #232323;
   border-color: #313131;
 }
 html[theme='dark'] .panel-body {
-  background-color: #333;
+  background-color: #292929;
 }
 html[theme='dark'] .page-header > h1 {
   color: white;
@@ -486,6 +489,11 @@ html[theme='dark'] .alert-warning {
   background-color: rgb(252, 248, 227, 0.1);
   border-color: #faebcc;
 }
+html[theme='dark'] .btn {
+  color: #eee;
+  background-color: #323232;
+  border-color: #3c3c3c;
+}
 html[theme='dark'] .btn-default,
 html[theme='dark'] #favorite_button {
   color: #fff;
@@ -501,6 +509,9 @@ html[theme='dark'] .btn-primary {
   background-color: #20649e;
   border-color: #28689e;
 }
+html[theme='dark'] .btn-u.btn-u-default {
+  background: #3b4b4c;
+}
 html[theme='dark'] #contest_scoreboard a {
   color: #ffffff;
 }
@@ -509,14 +520,19 @@ html[theme='dark'] #contest_statistics a {
 }
 html[theme='dark'] a.list-group-item.active > .badge,
 html[theme='dark'] .nav-pills > .active > a > .badge {
-  color: #ffffff;
-  background-color: #161616;
+  color: #3c739a;
+  background-color: #ffffff;
 }
 html[theme='dark'] .label-success,
 html[theme='dark'] .problem-label-ac {
   background-color: transparent;
   border: 1px solid #5cb85c;
   color: #5cb85c;
+}
+html[theme='dark'] .problem-label-pac {
+  background-color: transparent;
+  border: 1px solid #efc050;
+  color: #efc050;
 }
 html[theme='dark'] .label-light-green,
 html[theme='dark'] .problem-label-debug,
@@ -529,13 +545,14 @@ html[theme='dark'] .label-default,
 html[theme='dark'] .label-light,
 html[theme='dark'] .badge-light,
 html[theme='dark'] .problem-label-multilang,
-html[theme='dark'] .bookmark {
+html[theme='dark'] .problem-label-bookmark {
   background-color: transparent;
   border: 1px solid #777;
   color: #777 !important;
 }
 html[theme='dark'] .label-purple,
-html[theme='dark'] .badge-purple {
+html[theme='dark'] .badge-purple,
+html[theme='dark'] .problem-label-tag {
   background-color: transparent;
   border: 1px solid #9b6bcc;
   color: #9b6bcc !important;
@@ -568,13 +585,18 @@ html[theme='dark'] .badge-dark {
   color: #555 !important;
 }
 html[theme='dark'] .label-aqua,
-html[theme='dark'] .badge-aqua {
+html[theme='dark'] .badge-aqua,
+html[theme='dark'] .problem-label-two-steps,
+html[theme='dark'] .problem-label-class,
+html[theme='dark'] .problem-label-feedback,
+html[theme='dark'] .problem-label-full {
   background-color: transparent;
   border: 1px solid #27d7e7;
   color: #27d7e7 !important;
 }
 html[theme='dark'] .label-sea,
-html[theme='dark'] .badge-sea {
+html[theme='dark'] .badge-sea,
+html[theme='dark'] .problem-label-unofficial {
   background-color: transparent;
   border: 1px solid #1abc9c;
   color: #1abc9c !important;
@@ -631,20 +653,14 @@ html[theme='dark'] .problem-label-language-restrict {
   border: 1px solid #4765a0;
   color: #4765a0 !important;
 }
-html[theme='dark'] .content pre,
+html[theme='dark'] pre:not(.CodeMirror-line),
 html[theme='dark'] .sampledata {
-  color: #dedede;
-  background-color: #1b1b1b;
+  color: inherit;
+  background-color: rgba(128, 128, 128, 0.05);
   border-color: #3c3c3c;
 }
 html[theme='dark'] .space-highlight {
   background-color: rgba(123, 103, 24, 0.3);
-}
-html[theme='dark'] .user-admin {
-  color: white !important;
-}
-html[theme='dark'] .user-legendary-first-letter {
-  color: white !important;
 }
 html[theme='dark'] .s-results .inner-results h3 a {
   color: #fff;
@@ -659,12 +675,11 @@ html[theme='dark'] .redactor-modal,
 html[theme='dark'] .redactor-dropdown,
 html[theme='dark'] .redactor-styles figure,
 html[theme='dark'] .redactor-box.redactor-styles-on,
-html[theme='dark'] .CodeMirror,
-html[theme='dark'] .CodeMirror-code,
+html[theme='dark'] #logo-header,
 html[theme='dark'] #problem-body img:not(.level_badge) {
-  filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
-  -webkit-filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
-  -moz-filter: invert(80%) hue-rotate(180deg) brightness(110%) contrast(150%);
+  filter: invert(80%) hue-rotate(180deg) brightness(120%) contrast(140%);
+  -webkit-filter: invert(80%) hue-rotate(180deg) brightness(120%) contrast(140%);
+  -moz-filter: invert(80%) hue-rotate(180deg) brightness(120%) contrast(140%);
   transition: 0.2s ease-out;
 }
 html[theme='dark'] .panel img:hover,
@@ -683,4 +698,187 @@ html[theme='dark'] .redactor-statusbar li {
 html[theme='dark'] .redactor-styles table th,
 html[theme='dark'] .redactor-styles table td {
   border: 1px solid #ccc;
+}
+/* Code */
+html[theme='dark'] .hljs {
+  color: #bfbfbf;
+}
+html[theme='dark'] .bash .hljs-variable,
+html[theme='dark'] .cs .hljs-preprocessor,
+html[theme='dark'] .cs .hljs-preprocessor .hljs-keyword,
+html[theme='dark'] .css .hljs-attr_selector,
+html[theme='dark'] .css .hljs-value,
+html[theme='dark'] .ini .hljs-value,
+html[theme='dark'] .ini .hljs-keyword,
+html[theme='dark'] .javascript .hljs-tag .hljs-title,
+html[theme='dark'] .makefile .hljs-constant,
+html[theme='dark'] .nginx .hljs-variable,
+html[theme='dark'] .xml .hljs-tag,
+html[theme='dark'] .scss .hljs-variable {
+  color: #787878;
+}
+/* Notifications */
+html[theme='dark'] .noty_theme__mint.noty_type__success {
+  background-color: #839a3e;
+  border-bottom: 1px solid #616f34;
+  color: #f1f1f1;
+}
+/* User colors */
+html[theme='dark'] .user-admin {
+  color: white !important;
+}
+html[theme='dark'] .user-legendary-first-letter {
+  color: white !important;
+}
+html[theme='dark'] .user-red {
+  color: #ff1010 !important;
+}
+html[theme='dark'] .user-blue {
+  color: #5454ff !important;
+}
+html[theme='dark'] .user-violet {
+  color: #bd0bbd !important;
+}
+/* Editor */
+html[theme='dark'] .editor-toolbar {
+  border-top: 1px solid #333 !important;
+  border-left: 1px solid #333 !important;
+  border-right: 1px solid #333 !important;
+  border-bottom: none;
+}
+html[theme='dark'] .editor-toolbar a:before {
+  color: #ffffff !important;
+}
+html[theme='dark'] .editor-toolbar a.active,
+html[theme='dark'] .editor-toolbar a:hover {
+  background: #979797 !important;
+  border-color: transparent !important;
+}
+html[theme='dark'] .CodeMirror {
+  border: 1px solid #333 !important;
+}
+/*
+    Name:       Base16 Default Dark
+    Author:     Chris Kempson (http://chriskempson.com)
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-codemirror)
+    Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
+    But override as 'cm-s-paper', 'cm-s-default' to replace (original is 'cm-s-base16-dark')
+*/
+html[theme='dark'] .cm-s-default.CodeMirror,
+html[theme='dark'] .cm-s-paper.CodeMirror {
+  background: #151515;
+  color: #e0e0e0;
+}
+html[theme='dark'] .cm-s-default div.CodeMirror-selected,
+html[theme='dark'] .cm-s-paper div.CodeMirror-selected {
+  background: #303030;
+}
+html[theme='dark'] .cm-s-default .CodeMirror-line::selection,
+html[theme='dark'] .cm-s-paper .CodeMirror-line::selection,
+html[theme='dark'] .cm-s-default .CodeMirror-line > span::selection,
+html[theme='dark'] .cm-s-paper .CodeMirror-line > span::selection,
+html[theme='dark'] .cm-s-default .CodeMirror-line > span > span::selection,
+html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::selection {
+  background: rgba(48, 48, 48, 0.99);
+}
+html[theme='dark'] .cm-s-default .CodeMirror-line::-moz-selection,
+html[theme='dark'] .cm-s-paper .CodeMirror-line::-moz-selection,
+html[theme='dark'] .cm-s-default .CodeMirror-line > span::-moz-selection,
+html[theme='dark'] .cm-s-paper .CodeMirror-line > span::-moz-selection,
+html[theme='dark'] .cm-s-default .CodeMirror-line > span > span::-moz-selection,
+html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::-moz-selection {
+  background: rgba(48, 48, 48, 0.99);
+}
+html[theme='dark'] .cm-s-default .CodeMirror-gutters,
+html[theme='dark'] .cm-s-paper .CodeMirror-gutters {
+  background: #151515;
+  border-right: 0px;
+}
+html[theme='dark'] .cm-s-default .CodeMirror-guttermarker,
+html[theme='dark'] .cm-s-paper .CodeMirror-guttermarker {
+  color: #ac4142;
+}
+html[theme='dark'] .cm-s-default .CodeMirror-guttermarker-subtle,
+html[theme='dark'] .cm-s-paper .CodeMirror-guttermarker-subtle {
+  color: #505050;
+}
+html[theme='dark'] .cm-s-default .CodeMirror-linenumber,
+html[theme='dark'] .cm-s-paper .CodeMirror-linenumber {
+  color: #505050;
+}
+html[theme='dark'] .cm-s-default .CodeMirror-cursor,
+html[theme='dark'] .cm-s-paper .CodeMirror-cursor {
+  border-left: 1px solid #b0b0b0;
+}
+html[theme='dark'] .cm-s-default.cm-fat-cursor .CodeMirror-cursor,
+html[theme='dark'] .cm-s-paper.cm-fat-cursor .CodeMirror-cursor {
+  background-color: #8e8d8875 !important;
+}
+html[theme='dark'] .cm-s-default .cm-animate-fat-cursor,
+html[theme='dark'] .cm-s-paper .cm-animate-fat-cursor {
+  background-color: #8e8d8875 !important;
+}
+html[theme='dark'] .cm-s-default span.cm-comment,
+html[theme='dark'] .cm-s-paper span.cm-comment {
+  color: #8f5536;
+}
+html[theme='dark'] .cm-s-default span.cm-atom,
+html[theme='dark'] .cm-s-paper span.cm-atom {
+  color: #aa759f;
+}
+html[theme='dark'] .cm-s-default span.cm-number,
+html[theme='dark'] .cm-s-paper span.cm-number {
+  color: #aa759f;
+}
+html[theme='dark'] .cm-s-default span.cm-property,
+html[theme='dark'] .cm-s-paper span.cm-property,
+html[theme='dark'] .cm-s-default span.cm-attribute,
+html[theme='dark'] .cm-s-paper span.cm-attribute {
+  color: #90a959;
+}
+html[theme='dark'] .cm-s-default span.cm-keyword,
+html[theme='dark'] .cm-s-paper span.cm-keyword {
+  color: #ac4142;
+}
+html[theme='dark'] .cm-s-default span.cm-string,
+html[theme='dark'] .cm-s-paper span.cm-string {
+  color: #f4bf75;
+}
+html[theme='dark'] .cm-s-default span.cm-variable,
+html[theme='dark'] .cm-s-paper span.cm-variable {
+  color: #90a959;
+}
+html[theme='dark'] .cm-s-default span.cm-variable-2,
+html[theme='dark'] .cm-s-paper span.cm-variable-2 {
+  color: #6a9fb5;
+}
+html[theme='dark'] .cm-s-default span.cm-def,
+html[theme='dark'] .cm-s-paper span.cm-def {
+  color: #d28445;
+}
+html[theme='dark'] .cm-s-default span.cm-bracket,
+html[theme='dark'] .cm-s-paper span.cm-bracket {
+  color: #e0e0e0;
+}
+html[theme='dark'] .cm-s-default span.cm-tag,
+html[theme='dark'] .cm-s-paper span.cm-tag {
+  color: #ac4142;
+}
+html[theme='dark'] .cm-s-default span.cm-link,
+html[theme='dark'] .cm-s-paper span.cm-link {
+  color: #aa759f;
+}
+html[theme='dark'] .cm-s-default span.cm-error,
+html[theme='dark'] .cm-s-paper span.cm-error {
+  background: #ac4142;
+  color: #b0b0b0;
+}
+html[theme='dark'] .cm-s-default .CodeMirror-activeline-background,
+html[theme='dark'] .cm-s-paper .CodeMirror-activeline-background {
+  background: #202020;
+}
+html[theme='dark'] .cm-s-default .CodeMirror-matchingbracket,
+html[theme='dark'] .cm-s-paper .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
 }
