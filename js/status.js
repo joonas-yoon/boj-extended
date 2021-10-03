@@ -1,40 +1,110 @@
+/**
+ * location: /status/
+ */
 function extendStatusPage() {
   Utils.loadCSS('css/status.css');
   Utils.loadScript('js/status-rte.js');
 
-  // pre-update to rows
-  const titles = document.querySelectorAll('a[href].problem_title');
+  const table = document.getElementById('status-table');
+  const form = document.querySelector('form[action="/status"]');
+  _extendStatusTable(
+    form,
+    table,
+    ['7%', '12%', '9%', '24%', '9%', '9%', '12%', '9%', '9%'],
+    ['7%', '12%', '17%', '20%', 'auto', 'auto', '12%', '9%', '9%'],
+    []
+  );
+}
+
+/**
+ * location: /rejudge/
+ */
+function extendRejudgePage() {
+  Utils.loadCSS('css/status.css');
+
+  const table = document.getElementById('rejudge-table');
+  const form = table.parentNode;
+  // rejudge has no attribute 'data-original-title'
+  Config.getProblems((problems) => {
+    _extendStatusTable(
+      form,
+      table,
+      ['8%', '8%', '8%', '8%', '7%', '14%', '8%', '7%', '14%', '9%', '9%'],
+      [
+        'auto',
+        'auto',
+        'auto',
+        '8%',
+        '7%',
+        'auto',
+        '8%',
+        '7%',
+        'auto',
+        'auto',
+        'auto',
+      ],
+      problems
+    );
+  });
+}
+
+function _createRadioForm(form, callback) {
+  // load and apply to display pid/pname
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
+    const radio1 = Utils.createRadioElement(
+      '문제 번호',
+      (evt) => {
+        Config.save(Constants.CONFIG_SHOW_STATUS_PID, true, callback);
+      },
+      !!showPid
+    );
+    const radio2 = Utils.createRadioElement(
+      '문제 제목',
+      (evt) => {
+        Config.save(Constants.CONFIG_SHOW_STATUS_PID, false, callback);
+      },
+      !showPid
+    );
+    form.insertBefore(radio2, form.firstChild);
+    form.insertBefore(radio1, form.firstChild);
+    if (callback && typeof callback === 'function') {
+      setTimeout(() => callback(!!showPid), 10);
+    }
+  });
+}
+
+function _extendStatusTable(
+  container,
+  table,
+  beforeWidth,
+  afterWidth,
+  problemNames
+) {
+  // width to fit-content
+  const tableHeadCols = table.querySelectorAll('th');
+  const titles = table.querySelectorAll('a[href^="/problem/"]');
+
+  // width to fit-content
+  tableHeadCols.forEach((e, i) => {
+    e.style.width = beforeWidth[i];
+  });
+
+  // highlight my result
+  const username = getMyUsername();
+  table.querySelectorAll('a[href^="/user/"]').forEach((e) => {
+    if (username == e.innerText) {
+      e.closest('tr').setAttribute('class', 'result-mine');
+    }
+  });
   titles.forEach((e) => {
     if (e.getAttribute('data-original-id') == undefined) {
       e.setAttribute('data-original-id', e.innerText);
     }
+    if (e.getAttribute('data-original-title') == undefined) {
+      // put data-original-title
+      e.setAttribute('data-original-title', problemNames[e.innerText]);
+    }
   });
-
-  // width to fit-content
-  const tableHeadCols = document
-    .getElementById('status-table')
-    .querySelectorAll('th');
-  tableHeadCols.forEach((e, i) => {
-    if (3 === i) e.style.width = '20%';
-    // result
-    else if (4 <= i) e.style.width = 'auto'; // metadata (memory, time, lang, code, date)
-  });
-
-  // highlight my result
-  const username = document.querySelector('a.username');
-  if (username) {
-    document
-      .getElementById('status-table')
-      .querySelectorAll('a[href]')
-      .forEach((e) => {
-        if (
-          e.getAttribute('href').startsWith('/user/') &&
-          username.innerText == e.innerText
-        ) {
-          e.parentNode.parentNode.setAttribute('class', 'result-mine');
-        }
-      });
-  }
 
   function display(showPid) {
     // apply for each titles
@@ -47,56 +117,10 @@ function extendStatusPage() {
       }
     });
     // fit column width
-    tableHeadCols[2].style.width = showPid ? '8%' : '17%';
+    tableHeadCols.forEach((e, i) => {
+      e.style.width = afterWidth[i];
+    });
   }
 
-  // load and apply to display pid/pname
-  Config.load('show-status-pid', (showPid) => {
-    const form = document.querySelector('form[action="/status"]');
-    const radio1 = createRadioElement(
-      '문제 번호',
-      (evt) => {
-        Config.save('show-status-pid', true, display);
-      },
-      !!showPid
-    );
-    const radio2 = createRadioElement(
-      '문제 제목',
-      (evt) => {
-        Config.save('show-status-pid', false, display);
-      },
-      !showPid
-    );
-    form.insertBefore(radio2, form.firstChild);
-    form.insertBefore(radio1, form.firstChild);
-    setTimeout(() => display(!!showPid), 10);
-  });
-
-  function createRadioElement(labelText, changeEvent, checked) {
-    const randID = Math.random().toString(36).substr(2);
-    const div = Utils.createElement('div', {
-      class: 'form-check form-check-inline',
-      style: 'display: inline; margin-right: 1em;',
-    });
-
-    const input = Utils.createElement('input', {
-      class: 'form-check-input',
-      type: 'radio',
-      id: randID,
-      name: 'radio-extended',
-    });
-    input.addEventListener('change', changeEvent);
-    input.checked = !!checked;
-
-    const label = Utils.createElement('label', {
-      class: 'form-check-label',
-      for: randID,
-      style: 'margin-left: 5px;',
-    });
-    label.innerText = labelText;
-
-    div.appendChild(input);
-    div.appendChild(label);
-    return div;
-  }
+  _createRadioForm(container, display);
 }

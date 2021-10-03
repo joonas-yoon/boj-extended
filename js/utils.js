@@ -46,6 +46,49 @@ const Utils = {
     }
     return el;
   },
+  createRadioElement: function (labelText, changeEvent, checked) {
+    const randID = Math.random().toString(36).substr(2);
+    const div = Utils.createElement('div', {
+      class: 'form-check form-check-inline',
+      style: 'display: inline; margin-right: 1em;',
+    });
+
+    const input = Utils.createElement('input', {
+      class: 'form-check-input',
+      type: 'radio',
+      id: randID,
+      name: 'radio-extended',
+    });
+    input.addEventListener('change', changeEvent);
+    input.checked = !!checked;
+
+    const label = Utils.createElement('label', {
+      class: 'form-check-label',
+      for: randID,
+      style: 'margin-left: 5px;',
+    });
+    label.innerText = labelText;
+
+    div.appendChild(input);
+    div.appendChild(label);
+    return div;
+  },
+  isElement: function (obj) {
+    try {
+      // Using W3 DOM2 (works for FF, Opera and Chrome)
+      return obj instanceof HTMLElement;
+    } catch (e) {
+      // Browsers not supporting W3 DOM2 don't have HTMLElement and
+      // an exception is thrown and we end up here. Testing some
+      // properties that all elements have (works on IE7)
+      return (
+        typeof obj === 'object' &&
+        obj.nodeType === 1 &&
+        typeof obj.style === 'object' &&
+        typeof obj.ownerDocument === 'object'
+      );
+    }
+  },
 };
 
 function getMyUsername() {

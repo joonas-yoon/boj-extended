@@ -33,6 +33,7 @@
         "js/board.js",
         "js/group.js",
         "js/setting.js",
+        "js/global.js",
         "js/main.js",
         "js/ga.js"
       ]
