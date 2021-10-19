@@ -295,7 +295,7 @@
     "1293": "생물농축",
     "1294": "문자열 장식",
     "1295": "평면도",
-    "1296": "데이트",
+    "1296": "팀 이름 정하기",
     "1297": "TV 크기",
     "1298": "노트북의 주인을 찾아서",
     "1299": "전쟁 - 탈출편2",
@@ -382,7 +382,7 @@
     "1384": "메시지",
     "1385": "벌집",
     "1386": "f와 g",
-    "1387": "배열 교환",
+    "1387": "행렬 교환",
     "1388": "바닥 장식",
     "1389": "케빈 베이컨의 6단계 법칙",
     "1390": "테트리스",
@@ -21008,18 +21008,6 @@
     "23167": "Drunkards",
     "23168": "Rational Dimasik",
     "23169": "Mission Impossible: Grand Theft Auto",
-    "23170": "Automatic Sprayer 2",
-    "23171": "Dynamic Short Path",
-    "23172": "Equivalent Pipelines",
-    "23173": "Flowerbed Redecoration",
-    "23174": "Goose Coins",
-    "23175": "Histogram Sequence 3",
-    "23176": "Lamb’s Respite",
-    "23177": "Or Machine",
-    "23178": "Organizing Beads",
-    "23179": "Periodic Ruler",
-    "23180": "Three Competitions",
-    "23181": "Utilitarianism 2",
     "23182": "APL Lives!",
     "23183": "Barcodes",
     "23184": "Tracking Bio-bots",
@@ -21100,5 +21088,5 @@
     "23259": "Celebrity",
     "23260": "최대공약수가 뭔데"
   },
-  "last_updated": "2021-10-17 19:37:21.311610"
+  "last_updated": "2021-10-19 19:33:52.663079"
 }
