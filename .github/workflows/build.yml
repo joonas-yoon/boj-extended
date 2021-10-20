@@ -33,8 +33,8 @@ jobs:
 
     - name: Commit report
       run: |
-          git config --global user.name 'joonas-yoon'
-          git config --global user.email 'joonas-yoon@users.noreply.github.com'
+          git config user.name 'Github Actions'
+          git config user.email 'joo-na@users.noreply.github.com'
           git add -fN dist
           git diff -- dist > git.diff
           [ -s git.diff ] && git add -f dist && git commit -m ":rocket: deploy at `date "+%Y-%m-%d %H:%M"`" && git push || echo "Skip commit"

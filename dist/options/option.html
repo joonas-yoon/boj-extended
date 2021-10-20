@@ -59,6 +59,11 @@
       input.form-control::placeholder {
         color: rgba(128, 128, 128, 0.4);
       }
+      .form-group .control-label,
+      .form-group .col-xs-4,
+      .form-group .col-xs-8:not(:last-child) {
+        padding-bottom: 10px;
+      }
     </style>
 
     <title>설정 - BOJ Extended</title>
@@ -132,8 +137,10 @@
                 </div>
                 <div class="form-group">
                   <!-- theme -->
-                  <label class="col-md-2 control-label" for="theme">테마</label>
-                  <div class="col-md-4">
+                  <label class="col-sm-2 col-xs-4 control-label" for="theme"
+                    >테마</label
+                  >
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -144,6 +151,9 @@
                           checked
                         />
                         밝은 테마
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
                       </label>
                     </div>
                     <div class="radio">
@@ -158,11 +168,11 @@
                       </label>
                     </div>
                   </div>
-                  <label class="col-md-2 control-label" for="wide"
+                  <label class="col-sm-2 col-xs-4 control-label" for="wide"
                     >화면 크기</label
                   >
                   <!-- wide -->
-                  <div class="col-md-4">
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -173,6 +183,9 @@
                           checked
                         />
                         기본 보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
                       </label>
                     </div>
                     <div class="radio">
@@ -188,43 +201,14 @@
                     </div>
                   </div>
                 </div>
-                <!-- status:group-link -->
                 <div class="form-group">
-                  <label class="col-md-2 control-label" for="group-link"
-                    >그룹 목록의 링크</label
-                  >
-                  <div class="col-md-10">
-                    <div class="radio">
-                      <label>
-                        <input
-                          type="radio"
-                          class="option-group-link"
-                          name="group-link"
-                          value="1"
-                          checked
-                        />
-                        보기
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input
-                          type="radio"
-                          class="option-group-link"
-                          name="group-link"
-                          value="0"
-                        />
-                        보지 않기
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <!-- status:pid/pname -->
-                <div class="form-group">
-                  <label class="col-md-2 control-label" for="status-pid"
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="status-pid"
                     >채점 현황</label
                   >
-                  <div class="col-md-10">
+                  <!-- status:pid/pname -->
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -235,6 +219,9 @@
                           checked
                         />
                         문제 번호 보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
                       </label>
                     </div>
                     <div class="radio">
@@ -249,13 +236,13 @@
                       </label>
                     </div>
                   </div>
-                </div>
-                <!-- status:history -->
-                <div class="form-group">
-                  <label class="col-md-2 control-label" for="status-pid"
+                  <!-- status:history -->
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="status-pid"
                     >채점 현황<br />퍼센트(%) 기록</label
                   >
-                  <div class="col-md-10">
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -265,10 +252,13 @@
                           value="1"
                           checked
                         />
-                        사용함 &nbsp;
+                        사용함
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
                         <button
                           type="button"
-                          class="btn btn-primary btn-xs"
+                          class="btn btn-primary btn-xs margin-left-5"
                           data-toggle="modal"
                           data-target="#helpHistoryModal"
                         >
@@ -297,10 +287,72 @@
                     </div> -->
                   </div>
                 </div>
+                <!-- status:group-link -->
+                <div class="form-group">
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="group-link"
+                    >그룹 목록의 링크</label
+                  >
+                  <div class="col-sm-10 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-group-link"
+                          name="group-link"
+                          value="1"
+                          checked
+                        />
+                        보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-group-link"
+                          name="group-link"
+                          value="0"
+                        />
+                        보지 않기
+                      </label>
+                    </div>
+                  </div>
+                </div>
                 <!-- status:resultText -->
                 <div class="form-group">
                   <label class="col-md-2 control-label">결과 바꾸기</label>
                   <div class="col-md-10">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-result"
+                          name="status-result"
+                          value="1"
+                        />
+                        사용함
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-result"
+                          name="status-result"
+                          value="0"
+                          checked
+                        />
+                        사용 안 함
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
                     <p class="text-right">
                       <button
                         type="button"
@@ -314,8 +366,8 @@
                     <table class="table table-bordered" style="width: 100%">
                       <thead>
                         <tr>
-                          <th>실제 결과</th>
-                          <th>바꿀 메시지</th>
+                          <th>바꾸기 전 결과</th>
+                          <th>적용할 포맷</th>
                           <th>미리보기</th>
                         </tr>
                       </thead>
@@ -340,11 +392,11 @@
                           </td>
                         </tr>
                         <tr>
-                          <td><span class="result-pac">00점</span></td>
+                          <td><span class="result-pac">맞았습니다!!</span></td>
                           <td class="result-msg-code">
                             <input
                               type="text"
-                              placeholder="<pac>:number:점</pac>"
+                              placeholder="<pac>맞았습니다!!</pac>"
                               name="result-pac"
                               class="form-control msg-code"
                               value=""
@@ -355,7 +407,7 @@
                             class="result-msg-preview result-fake-text"
                             id="preview-pac"
                           >
-                            <span class="result-pac">00점</span>
+                            <span class="result-pac">맞았습니다!!</span>
                           </td>
                         </tr>
                         <tr>
@@ -398,24 +450,23 @@
                         </tr>
                         <tr>
                           <td>
-                            <span class="result-rte">런타임 에러 (이유)</span>
+                            <span class="result-rte">런타임 에러</span>
                           </td>
                           <td class="result-msg-code">
                             <input
                               type="text"
-                              placeholder="준비중"
+                              placeholder="<rte>런타임 에러</rte>"
                               name="result-rte"
                               class="form-control msg-code"
                               value=""
                               data-preview="preview-rte"
-                              disabled
                             />
                           </td>
                           <td
                             class="result-msg-preview result-fake-text"
                             id="preview-rte"
                           >
-                            <span class="result-rte">런타임 에러 (이유)</span>
+                            <span class="result-rte">런타임 에러</span>
                           </td>
                         </tr>
                         <tr>
@@ -542,12 +593,12 @@
                         </tr>
                         <tr>
                           <td>
-                            <span class="result-judging">채점 중 (00%)</span>
+                            <span class="result-judging">채점 중</span>
                           </td>
                           <td class="result-msg-code">
                             <input
                               type="text"
-                              placeholder="<judging>채점 중 (:number:%)</judging>"
+                              placeholder="<judging>채점 중</judging>"
                               name="result-judging"
                               class="form-control msg-code"
                               value=""
@@ -558,7 +609,7 @@
                             class="result-msg-preview result-fake-text"
                             id="preview-judging"
                           >
-                            <span class="result-judging">채점 중 (00%)</span>
+                            <span class="result-judging">채점 중</span>
                           </td>
                         </tr>
                         <tr>

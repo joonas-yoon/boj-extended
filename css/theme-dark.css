@@ -312,8 +312,9 @@ html[theme='dark'] .selectize-control.multi .selectize-input > div {
   color: #fff;
 }
 html[theme='dark'] .chosen-container-single .chosen-single {
-  border-color: #191919;
-  background-color: #161616;
+  color: #eeeeee;
+  border-color: #333333;
+  background-color: #292929;
   background: -webkit-gradient(
     linear,
     left top,
@@ -331,11 +332,10 @@ html[theme='dark'] .chosen-container-single .chosen-single {
   );
   -webkit-box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
   box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
-  color: #b3b3b3;
 }
 html[theme='dark'] .chosen-container .chosen-drop {
-  border-color: #292929;
-  background: #191919;
+  border-color: #333333;
+  background: #292929;
   -webkit-box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
   box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
 }
@@ -656,20 +656,14 @@ html[theme='dark'] .problem-label-language-restrict {
   border: 1px solid #4765a0;
   color: #4765a0 !important;
 }
-html[theme='dark'] :not(.form-group) pre,
+html[theme='dark'] pre:not(.CodeMirror-line),
 html[theme='dark'] .sampledata {
   color: inherit;
-  background-color: inherit;
+  background-color: rgba(128, 128, 128, 0.05);
   border-color: #3c3c3c;
 }
 html[theme='dark'] .space-highlight {
   background-color: rgba(123, 103, 24, 0.3);
-}
-html[theme='dark'] .user-admin {
-  color: white !important;
-}
-html[theme='dark'] .user-legendary-first-letter {
-  color: white !important;
 }
 html[theme='dark'] .s-results .inner-results h3 a {
   color: #fff;
@@ -733,6 +727,12 @@ html[theme='dark'] .noty_theme__mint.noty_type__success {
   color: #f1f1f1;
 }
 /* User colors */
+html[theme='dark'] .user-admin {
+  color: white !important;
+}
+html[theme='dark'] .user-legendary-first-letter {
+  color: white !important;
+}
 html[theme='dark'] .user-red {
   color: #ff1010 !important;
 }
