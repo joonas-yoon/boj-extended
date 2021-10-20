@@ -106,10 +106,13 @@ function progressTimer() {
   const progress = document.createElement('div');
   progress.setAttribute('class', 'progress');
 
-  const bar = document.createElement('div');
-  bar.setAttribute('class', 'progress-bar');
-  bar.innerText = 'Loading...';
-  progress.appendChild(bar);
+  const barLeft = document.createElement('div');
+  barLeft.setAttribute('class', 'progress-bar');
+  progress.appendChild(barLeft);
+  const barRight = document.createElement('div');
+  barRight.setAttribute('class', 'progress-bar');
+  barRight.innerText = 'Loading...';
+  progress.appendChild(barRight);
 
   function timeHumanize(ms) {
     let txt = '';
@@ -125,24 +128,33 @@ function progressTimer() {
   }
 
   function updateProgress(startTime, endTime, callback) {
-    const curTime = endTime - new Date().getTime() + 1;
-    const percentage = (100 * curTime) / (endTime - startTime);
+    const remainTime = endTime - new Date().getTime() + 1;
+    const passedTime = new Date().getTime() - startTime;
+    const percentage = (100 * remainTime) / (endTime - startTime);
     // overdue
-    if (curTime < 0) {
-      bar.setAttribute(
+    if (remainTime < 0) {
+      barLeft.setAttribute('style', 'display: none;');
+      barRight.setAttribute(
         'style',
         'float:left; transition-duration: .2s; width: 100%; background-color:#dc3545;'
       );
-      bar.innerText = timeHumanize(-curTime) + ' 지남';
+      barRight.innerText = timeHumanize(-remainTime) + ' 지남';
     } else {
       let bg = '';
       if (percentage <= 50) bg = 'background-color:#ffc107;';
       else if (percentage <= 10) bg = 'background-color:#dc3545;';
-      bar.setAttribute(
+      barLeft.setAttribute(
+        'style',
+        'float:left; transition-duration: .2s; width:' +
+          (100 - percentage) +
+          '%;  background-color:transparent; color: inherit;'
+      );
+      barLeft.innerText = timeHumanize(passedTime) + ' 지남';
+      barRight.setAttribute(
         'style',
         'float:right; transition-duration: .2s; width:' + percentage + '%;' + bg
       );
-      bar.innerText = timeHumanize(curTime) + ' 남음';
+      barRight.innerText = timeHumanize(remainTime) + ' 남음';
     }
     if (progress.getAttribute('state') === 'running') {
       window.requestAnimationFrame(
@@ -170,7 +182,7 @@ function progressTimer() {
     },
     text: function (text) {
       // like jquery style
-      if (text) bar.innerText = text;
+      if (text) barRight.innerText = text;
       return text;
     },
     show: function () {
