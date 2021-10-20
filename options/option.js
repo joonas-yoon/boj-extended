@@ -124,7 +124,7 @@
 
   Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
     console.log('CONFIG_SHOW_FAKE_RESULT', showFakeResult);
-    oFakeTextActive[showFakeResult ? 0 : 1].checked = true;
+    oFakeTextActive[showFakeResult !== false ? 0 : 1].checked = true;
   });
 
   // help:reformat
