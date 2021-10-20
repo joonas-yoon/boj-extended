@@ -1,3 +1,20 @@
+# 1.5.10
+
+**Features**
+
+- 타이머에 시간 표기 추가 [(#41)](https://github.com/joonas-yoon/boj-extended/issues/41)
+
+**Fixes**
+
+- 어두운 테마
+- - 메모 작성에서 누락된 CSS 적용 [(#42)](https://github.com/joonas-yoon/boj-extended/issues/42)
+- - 반전 필터 및 색상 조정
+- - 부분 점수 버그 수정 [(#40)](https://github.com/joonas-yoon/boj-extended/issues/40)
+
+**Changes**
+
+- 채점현황의 결과 바꾸기 기본값 변경 [(#39)](https://github.com/joonas-yoon/boj-extended/issues/#39)
+
 ## 1.5.9
 
 2021/10/03
