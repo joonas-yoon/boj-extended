@@ -24,6 +24,7 @@ function extendGlobal() {
     Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
       // load history from localStorage
       showHistory = showHistory !== false; // true or null (default)
+      console.log('showHistory', showHistory);
       if (showHistory) {
         window.bojextStatusHistories = JSON.parse(
           localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
@@ -32,6 +33,8 @@ function extendGlobal() {
       console.log('load', window.bojextStatusHistories);
       Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
         // add fake result for each texts
+        showFakeResult = showFakeResult !== false; // true or null (default)
+        console.log('showFakeResult', showFakeResult);
         document.querySelectorAll('span[class^=result-]').forEach((element) => {
           if (element.getAttribute('class') === 'result-text') return;
           const fakeText = document.createElement('span');
