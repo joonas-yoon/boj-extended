@@ -116,6 +116,9 @@ html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
 html[theme='dark'] .table-bordered {
   border-color: #333;
 }
+html[theme='dark'] .table-bordered > tbody > tr.striped > td {
+  background-color: #1f1f1f;
+}
 html[theme='dark'] .table-bordered > thead > tr > th,
 html[theme='dark'] .table-bordered > tbody > tr > th,
 html[theme='dark'] .table-bordered > tfoot > tr > th,
@@ -681,7 +684,8 @@ html[theme='dark'] .redactor-box.redactor-styles-on,
 html[theme='dark'] #logo-header,
 html[theme='dark'] #problem-body img:not(.level_badge) {
   filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
-  -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
+  -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%)
+    contrast(72.5%);
   -moz-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
   transition: 0.2s ease-out;
 }
