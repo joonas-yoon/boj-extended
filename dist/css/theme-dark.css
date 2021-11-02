@@ -266,7 +266,7 @@ html[theme='dark'] .input-group-addon {
   border-color: #222;
 }
 html[theme='dark'] .breadcrumbs {
-  background: #1a1a1a;
+  background: #1d1d1d;
   border-color: #252525;
 }
 html[theme='dark'] .sky-form {
@@ -369,7 +369,7 @@ html[theme='dark'] .dropdown-menu > li > a:focus {
   background-color: #5f5f5f;
 }
 html[theme='dark'] .funny-boxes {
-  background: #191919;
+  background: #262626;
 }
 html[theme='dark'] .funny-boxes h2 a {
   color: #89c4e8;
@@ -440,6 +440,9 @@ html[theme='dark'] .posts .dl-horizontal a {
 }
 html[theme='dark'] .result-ac {
   color: #09b58c !important;
+}
+html[theme='dark'] .result-pac {
+  color: #efc050 !important;
 }
 html[theme='dark'] .result-wa {
   color: #dd4124 !important;
@@ -677,9 +680,10 @@ html[theme='dark'] .redactor-styles figure,
 html[theme='dark'] .redactor-box.redactor-styles-on,
 html[theme='dark'] #logo-header,
 html[theme='dark'] #problem-body img:not(.level_badge) {
-  filter: invert(80%) hue-rotate(180deg) brightness(120%) contrast(140%);
-  -webkit-filter: invert(80%) hue-rotate(180deg) brightness(120%) contrast(140%);
-  -moz-filter: invert(80%) hue-rotate(180deg) brightness(120%) contrast(140%);
+  filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
+  -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%)
+    contrast(72.5%);
+  -moz-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
   transition: 0.2s ease-out;
 }
 html[theme='dark'] .panel img:hover,
@@ -766,7 +770,7 @@ html[theme='dark'] .CodeMirror {
 */
 html[theme='dark'] .cm-s-default.CodeMirror,
 html[theme='dark'] .cm-s-paper.CodeMirror {
-  background: #151515;
+  background: #1d1d1d;
   color: #e0e0e0;
 }
 html[theme='dark'] .cm-s-default div.CodeMirror-selected,
@@ -789,9 +793,26 @@ html[theme='dark'] .cm-s-default .CodeMirror-line > span > span::-moz-selection,
 html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::-moz-selection {
   background: rgba(48, 48, 48, 0.99);
 }
+html[theme='dark'] .editor-toolbar a.fa-header-x:after {
+  color: #d6dadd !important;
+}
+html[theme='dark'] .editor-toolbar.fullscreen,
+html[theme='dark'] .editor-toolbar.fullscreen::before,
+html[theme='dark'] .editor-toolbar.fullscreen::after {
+  background: #222222;
+}
+html[theme='dark'] .editor-preview-active,
+html[theme='dark'] .editor-preview-active-side {
+  background: #222;
+  border: 1px solid #333;
+}
+html[theme='dark'] .editor-toolbar.disabled-for-preview a:not(.no-disable) {
+  background: inherit;
+  opacity: 0.5;
+}
 html[theme='dark'] .cm-s-default .CodeMirror-gutters,
 html[theme='dark'] .cm-s-paper .CodeMirror-gutters {
-  background: #151515;
+  background: #1d1d1d;
   border-right: 0px;
 }
 html[theme='dark'] .cm-s-default .CodeMirror-guttermarker,
