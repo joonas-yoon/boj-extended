@@ -3,6 +3,7 @@ function extendGlobal() {
   extendWide();
   extendReformatMessage();
   extendProblemPage();
+  extendQuickSearch();
 
   function extendReformatMessage() {
     const resultPattern = {

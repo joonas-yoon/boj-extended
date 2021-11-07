@@ -33,6 +33,7 @@
         "js/user.js",
         "js/board.js",
         "js/group.js",
+        "js/search.js",
         "js/setting.js",
         "js/global.js",
         "js/main.js",
