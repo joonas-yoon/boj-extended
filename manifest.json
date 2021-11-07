@@ -27,6 +27,7 @@
       "all_frames": true,
       "js": [
         "js/status.js",
+        "js/notifications.js",
         "js/problem.js",
         "js/vs.js",
         "js/user.js",
