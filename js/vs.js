@@ -21,6 +21,14 @@ function extendVs() {
     vsform.style.marginBottom = '20px';
     container.appendChild(vsform);
 
+    // change title
+    document.title = users[0] + ' vs ' + users[1];
+
+    // text
+    const TITLE_AC = '맞은 문제';
+    const TITLE_PAC = '맞았지만';
+    const TITLE_WA = '시도했지만';
+
     const tagByPid = {};
 
     fetchProblems(users[0], async (p1) => {
@@ -28,22 +36,18 @@ function extendVs() {
       let tried1 = [];
       let unsolved1 = [];
       await p1.forEach((p) => {
-        if (p.title.startsWith('맞은')) solved1 = p.tags;
-        else {
-          if (p.title.startsWith('맞았')) tried1 = p.tags;
-          unsolved1 = p.tags;
-        }
+        if (p.title.startsWith(TITLE_AC)) solved1 = p.tags;
+        else if (p.title.startsWith(TITLE_PAC)) tried1 = p.tags;
+        else if (p.title.startsWith(TITLE_WA)) unsolved1 = p.tags;
       });
       fetchProblems(users[1], async (p2) => {
         let solved2 = [];
         let tried2 = [];
         let unsolved2 = [];
         await p2.forEach((p) => {
-          if (p.title.startsWith('맞은')) solved2 = p.tags;
-          else {
-            if (p.title.startsWith('맞았')) tried2 = p.tags;
-            unsolved2 = p.tags;
-          }
+          if (p.title.startsWith(TITLE_AC)) solved2 = p.tags;
+          else if (p.title.startsWith(TITLE_PAC)) tried2 = p.tags;
+          else if (p.title.startsWith(TITLE_WA)) unsolved2 = p.tags;
         });
 
         const solvedBoth = solved1
@@ -188,7 +192,8 @@ function extendVs() {
           const doc = new DOMParser().parseFromString(html, 'text/html');
           const panels = doc.querySelectorAll('.panel');
           const problems = [];
-          for (let i = 0; i < panels.length; ++i) {
+          // first is heat chart
+          for (let i = 1; i < panels.length; ++i) {
             const tags = [];
             const title = panels[i].querySelector('.panel-title').innerText;
             panels[i].querySelectorAll('a[href^="/problem/"]').forEach((a) => {
@@ -196,6 +201,7 @@ function extendVs() {
               tags.push(pid);
               tagByPid[pid] = a;
             });
+            console.log(title);
             problems.push({
               title: title,
               tags: tags,

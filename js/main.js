@@ -12,6 +12,8 @@
     extendUserPage();
   } else if (loc.pathname.startsWith('/status')) {
     extendStatusPage();
+  } else if (loc.pathname.startsWith('/notifications')) {
+    extendNotificationsPage();
   } else if (loc.pathname.startsWith('/rejudge/')) {
     extendRejudgePage();
   } else if (loc.pathname.startsWith('/group/list')) {
