@@ -420,6 +420,14 @@ html[theme='dark'] .panel-default > .panel-footer {
   background-color: #232323;
   border-color: #313131;
 }
+html[theme='dark'] .panel-info {
+  border-color: #124c69;
+}
+html[theme='dark'] .panel-info > .panel-heading {
+  color: #fff;
+  background-color: #13587b;
+  border-color: #124c69;
+}
 html[theme='dark'] .panel-body {
   background-color: #292929;
 }
