@@ -1,4 +1,4 @@
-# 1.5.11
+## 1.5.11
 
 2021/11/07
 
@@ -12,7 +12,7 @@
 - - 댓글 하이라이팅 [(#45)](https://github.com/joonas-yoon/boj-extended/issues/45)
 - - 외부 대회 일정 ([#46](https://github.com/joonas-yoon/boj-extended/issues/46) by [@comment2](https://github.com/comment2))
 
-# 1.5.10
+## 1.5.10
 
 2021/10/21
 
