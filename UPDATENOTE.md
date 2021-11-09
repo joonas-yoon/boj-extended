@@ -1,3 +1,12 @@
+## 1.6.0
+
+2021/11/09
+
+**Features**
+
+- 빠른 검색 [(#48)](https://github.com/joonas-yoon/boj-extended/issues/48)
+- - `ctrl` + `/` 또는 `alt` + `/`
+
 ## 1.5.11
 
 2021/11/07

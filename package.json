@@ -1,6 +1,6 @@
 {
   "name": "boj-extended",
-  "version": "1.5.11",
+  "version": "1.6.0",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/joonas-yoon/boj-extended#readme",
   "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/plugin-transform-runtime": "^7.15.0",
-    "@babel/preset-env": "^7.15.6",
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
     "babel-eslint": "^10.1.0",
     "babel-minify": "^0.5.1",
     "babel-plugin-transform-remove-console": "^6.9.4",
@@ -29,7 +29,7 @@
     "eslint-auto-fix": "^1.0.3",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-promise": "^4.3.1",
