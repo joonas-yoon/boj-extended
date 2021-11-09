@@ -914,3 +914,23 @@ html[theme='dark'] .cm-s-paper .CodeMirror-matchingbracket {
   text-decoration: underline;
   color: white !important;
 }
+/* Quick Search */
+html[theme='dark'] #quick-search .results {
+  background-color: #262626;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+}
+html[theme='dark'] #quick-search .results::-webkit-scrollbar-track {
+  background: #262626;
+}
+html[theme='dark'] #quick-search .results::-webkit-scrollbar-thumb {
+  background: #555;
+}
+html[theme='dark'] #quick-search .results::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+html[theme='dark'] #quick-search .results .quick-search-item {
+  border-bottom: 1px solid #363636;
+}
+html[theme='dark'] #quick-search .results .quick-search-item > .meta {
+  color: #999;
+}
