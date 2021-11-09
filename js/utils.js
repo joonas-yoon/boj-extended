@@ -39,7 +39,7 @@ const Utils = {
     document.getElementsByTagName('body')[0].appendChild(tag);
   },
   createElement: function (tag, attrs) {
-    const keys = Object.keys(attrs);
+    const keys = Object.keys(attrs || {});
     const el = document.createElement(tag || 'div');
     for (let i = 0; i < keys.length; ++i) {
       el.setAttribute(keys[i], attrs[[keys[i]]]);
