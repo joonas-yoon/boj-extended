@@ -26,6 +26,10 @@
   align-items: center;
 }
 
+#quick-search .form-control {
+  box-shadow: 0 0 3em rgb(0, 0, 0, 0.5);
+}
+
 #quick-search .results {
   background-color: #ffffff;
   border: 1px solid rgba(128, 128, 128, 0.1);
@@ -42,6 +46,10 @@
 }
 #quick-search .results::-webkit-scrollbar-thumb:hover {
   background: #888;
+}
+
+#quick-search .results:empty {
+  display: none;
 }
 
 #quick-search .results .quick-search-item:first-child {
