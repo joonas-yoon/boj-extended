@@ -8,6 +8,9 @@ function extendQuickSearch() {
   const container = Utils.createElement('div', {
     class: 'container',
   });
+  const form = Utils.createElement('div', {
+    class: 'form-group',
+  });
   const input = Utils.createElement('input', {
     class: 'form-control',
     placeholder: '검색',
@@ -25,8 +28,9 @@ function extendQuickSearch() {
     href: '/search',
   });
   moreButton.innerText = '더 많은 검색 결과 보기';
-  container.appendChild(input);
-  container.appendChild(resultBox);
+  form.appendChild(input);
+  form.appendChild(resultBox);
+  container.appendChild(form);
   container.appendChild(resultFooter);
   container.appendChild(moreButton);
   bg.appendChild(container);
