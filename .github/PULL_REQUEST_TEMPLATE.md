@@ -1,25 +1,10 @@
-<!-- 👋 Hi there. Thanks to ✨pull request✨ -->
+<!-- 👋 안녕하세요. ✨PR✨에 감사드립니다. -->
+<!-- 해당 PR이 어떤 내용을 담고 있는 지, 간략하게 작성해주셔도 좋습니다. -->
 
-<!--- Provide a general summary of your changes in the Title above -->
+**연결된 이슈**
+<!-- 연결된 이슈가 있다면 #00 와 같이 적어주시면 됩니다. -->
 
-## Description
-<!--- Describe your changes in detail -->
+**내용**
+<!-- 커밋들에 대한 간단한 내용을 여기에 적어주세요. -->
 
-## Motivation and Context
-<!--- Why is this change required? What problem does it solve? -->
-<!--- If it fixes an open issue, please link to the issue here. -->
-
-## How Has This Been Tested?
-<!--- Please describe in detail how you tested your changes. -->
-<!--- Include details of your testing environment, and the tests you ran to -->
-<!--- see how your change affects other areas of the code, etc. -->
-
-## Screenshots (if appropriate):
-
-## Types of changes
-<!--- What types of changes does your code introduce? Put an `x` in all the boxes that apply: -->
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to change)
-- [ ] Typo
-
+**스크린샷 (선택)**

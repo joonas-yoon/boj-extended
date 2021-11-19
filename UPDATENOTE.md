@@ -1,4 +1,29 @@
-# 1.5.10
+## 1.6.0
+
+2021/11/09
+
+**Features**
+
+- 빠른 검색 [(#48)](https://github.com/joonas-yoon/boj-extended/issues/48)
+- - `ctrl` + `/` 또는 `alt` + `/`
+
+## 1.5.11
+
+2021/11/07
+
+**Features**
+
+- 알림 페이지에서 문제 색상 적용 [(#44)](https://github.com/joonas-yoon/boj-extended/issues/44)
+
+**Fixes**
+
+- 어두운 테마
+- - 댓글 하이라이팅 [(#45)](https://github.com/joonas-yoon/boj-extended/issues/45)
+- - 외부 대회 일정 ([#46](https://github.com/joonas-yoon/boj-extended/issues/46) by [@comment2](https://github.com/comment2))
+
+## 1.5.10
+
+2021/10/21
 
 **Features**
 

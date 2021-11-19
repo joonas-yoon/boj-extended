@@ -12,25 +12,27 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      with:
+        ref: 'release'
     - name: Set up python 3.9
       uses: actions/setup-python@v1
       with:
         python-version: 3.9
-    
+
     - name: Install python package
-      run: |        
+      run: |
         pip install selenium
         pip install requests
-    
+
     - name: Install ubuntu package
-      run: |        
+      run: |
         sudo apt-get install fonts-unfonts-core
         sudo apt-get install fonts-unfonts-extra
         wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add
         sudo apt-get install google-chrome-stable
         wget https://chromedriver.storage.googleapis.com/2.40/chromedriver_linux64.zip
         unzip ./chromedriver_linux64.zip
-      
+
     - name: Run bot
       uses: actions/setup-node@v1
       with:

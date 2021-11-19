@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
+      - release
   pull_request:
     branches:
       - main
+      - release
   workflow_dispatch:
     inputs:
       update:
@@ -17,7 +19,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ contains(github.event.head_commit.message, 'version:') }}
+    if: ${{ contains(github.event.head_commit.message, 'version:') || contains(github.event.head_commit.message, '[deploy]') }}
     steps:
     - uses: actions/checkout@v2
     - name: Set up node 14.x

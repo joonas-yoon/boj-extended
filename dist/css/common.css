@@ -12,3 +12,80 @@
   text-align: center;
   margin: 3px;
 }
+
+#quick-search {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+  backdrop-filter: blur(2px);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#quick-search .results {
+  background-color: #ffffff;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+#quick-search .results::-webkit-scrollbar {
+  width: 6px;
+}
+#quick-search .results::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 1rem;
+}
+#quick-search .results::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+#quick-search .results .quick-search-item:first-child {
+  padding-top: 2rem;
+}
+#quick-search .results .quick-search-item:last-child {
+  padding-bottom: 2rem;
+}
+
+#quick-search .results .quick-search-item {
+  display: block;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #efefef;
+}
+
+#quick-search .results .quick-search-item > .title {
+  font-size: 1.25em;
+  margin-bottom: 5px;
+}
+
+#quick-search .results .quick-search-item > .meta {
+  color: #999;
+  margin-bottom: 5px;
+}
+
+#quick-search .results .quick-search-item > .desc {
+  margin-bottom: 5px;
+}
+
+#quick-search .results .quick-search-item > .links a {
+  margin-right: 1em;
+}
+
+#quick-search .results-footer {
+  color: #999;
+  text-align: right;
+}
+
+#quick-search .more-button {
+  display: block;
+  margin: 0 auto;
+  display: block;
+  width: max-content;
+  border-radius: 5em !important;
+  padding-left: 2em;
+  padding-right: 2em;
+}
