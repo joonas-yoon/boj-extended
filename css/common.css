@@ -19,11 +19,12 @@
   top: 0;
   left: 0;
   z-index: 999999999;
-  backdrop-filter: blur(2px);
   width: 100vw;
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background: rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(3px);
 }
 
 #quick-search .form-group {

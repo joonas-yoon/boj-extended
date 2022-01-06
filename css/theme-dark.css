@@ -67,7 +67,7 @@ html[theme='dark'] .wrapper {
 html[theme='dark'] .header {
   background-color: #202020;
   color: white;
-  border-bottom: solid 2px #2a2a2a;
+  border-bottom: solid 2px #3c3c3c;
 }
 html[theme='dark'] .header .navbar-default .navbar-nav > li > a {
   color: #a2a4a5;
@@ -81,14 +81,15 @@ html[theme='dark'] .header .navbar-default .navbar-nav > .active > a {
   border-color: #eeeeee;
 }
 html[theme='dark'] .header .mega-menu .mega-menu-content {
-  background: #1a1a1a;
+  background: #222222;
 }
 html[theme='dark'] .header .dropdown-menu {
-  border-top: solid 2px #949494;
+  border-top: 2px solid #3c3c3c;
+  border-bottom: 2px solid #343b3e;
 }
 @media (min-width: 992px) {
   html[theme='dark'] .header .mega-menu .equal-height-in {
-    border-left-color: #191919;
+    border-left-color: #202020;
   }
 }
 html[theme='dark'] .page-header {
@@ -205,7 +206,7 @@ html[theme='dark'] .footer-v3 .footer {
 }
 html[theme='dark'] .form-control {
   color: #eee;
-  background-color: #1d1d1d;
+  background-color: #202020;
   border-color: #2f2f2f;
 }
 html[theme='dark'] .form-control input::placeholder {
@@ -254,19 +255,19 @@ html[theme='dark'] .nav-pills > li.active > a:focus {
   background-color: #3c739a;
 }
 html[theme='dark'] .reg-page {
-  color: #e2e2e2;
+  color: #efefef;
   padding: 30px;
-  background: #0e0e0e;
-  border: solid 1px #1f1f1f;
-  box-shadow: 0 0 3px #2f2f2f;
+  background: #252525;
+  border: solid 1px #2f2f2f;
+  box-shadow: 0 0 3px #282828;
 }
 html[theme='dark'] .reg-header h2 {
-  color: #e2e2e2;
+  color: #f5f5f5;
 }
 html[theme='dark'] .input-group-addon {
-  color: #dadada;
-  background: #1d1d1d;
-  border-color: #222;
+  color: #dfdfdf; 
+  background: #2e2e2e;
+  border-color: #2c2c2c;
 }
 html[theme='dark'] .breadcrumbs {
   background: #1d1d1d;
