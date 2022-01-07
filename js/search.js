@@ -1,5 +1,19 @@
 /* eslint-disable camelcase */
 function extendQuickSearch() {
+  // variables
+  let searchHandle = null;
+  let lastSearchText = '';
+  let problemInfo = {};
+  let currentTabIndex = 0;
+  let isOverlay = false;
+  const tabs = [
+    { title: '문제', c: 'Problems', active: true, el: null },
+    { title: '문제집', c: 'Workbooks', el: null },
+    { title: '출처', c: 'Categories', el: null },
+    { title: '블로그', c: 'Blogs', el: null },
+    { title: '게시판', c: 'Articles', el: null },
+  ];
+
   // UI: overlay
   const bg = Utils.createElement('div', {
     id: 'quick-search',
@@ -22,7 +36,7 @@ function extendQuickSearch() {
   const resultFooter = Utils.createElement('div', {
     class: 'results-footer',
   });
-  resultFooter.innerText = '-';
+  resultFooter.innerText = '결과 표시 (0.000초)';
   const moreButton = Utils.createElement('a', {
     class: 'btn btn-default more-button',
     href: '/search',
@@ -34,13 +48,6 @@ function extendQuickSearch() {
   const tabsContainer = Utils.createElement('div', {
     class: 'tabs',
   });
-  const tabs = [
-    { title: '문제', c: 'Problems', active: true, el: null },
-    { title: '문제집', c: 'Workbooks', el: null },
-    { title: '출처', c: 'Categories', el: null },
-    { title: '블로그', c: 'Blogs', el: null },
-    { title: '게시판', c: 'Articles', el: null },
-  ];
   for (let i = 0; i < tabs.length; ++i) {
     const tab = tabs[i];
     const tabEl = Utils.createElement('div', {
@@ -63,13 +70,16 @@ function extendQuickSearch() {
   container.appendChild(moreButton);
   bg.appendChild(container);
   document.body.appendChild(bg);
-
-  // variables
-  let searchHandle = null;
-  let lastSearchText = '';
-  let problemInfo = {};
-  let currentTabIndex = 0;
-  let isOverlay = false;
+  // UI: add button to topbar
+  const btnLi = document.createElement('li');
+  const btnBar = document.createElement('a');
+  btnBar.innerHTML = '<i class="fa fa-search"></i>';
+  btnLi.appendChild(btnBar);
+  btnBar.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    activate(true);
+  });
+  addElementToBar(btnLi);
 
   // add event listener to input
   input.addEventListener('keyup', async (evt) => {

@@ -249,6 +249,13 @@ function createVsForm(name1, name2) {
   return div;
 }
 
+function addElementToBar(element) {
+  const bar = document.querySelector('ul.loginbar');
+  const divider = Utils.createElement('li', { class: 'topbar-devider' });
+  bar.appendChild(divider);
+  bar.appendChild(element);
+}
+
 // return { pid: className, 1001: 'result-ac', 1002: 'result-pac', 1003: 'result-wa', ... }
 async function fetchProblemsByUser(id) {
   if (!id) return;

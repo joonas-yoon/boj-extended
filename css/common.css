@@ -55,6 +55,7 @@
 
 #quick-search .results::-webkit-scrollbar {
   width: 6px;
+  height: 6px;
 }
 #quick-search .results::-webkit-scrollbar-thumb {
   background: #aaa;
@@ -168,4 +169,8 @@
   font-weight: bold;
   color: #000000;
   cursor: default;
+}
+/* Topbar */
+.topbar .loginbar > li > a {
+  cursor: pointer;
 }
