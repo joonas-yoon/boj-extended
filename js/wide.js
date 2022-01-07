@@ -24,6 +24,7 @@ function extendWide() {
   });
 }
 
+// TODO: /search 페이지에서는 안됨 (구조가 다름)
 function applyWide(btn, wide) {
   const container = document.getElementsByClassName('content')[0];
   if (wide) {
