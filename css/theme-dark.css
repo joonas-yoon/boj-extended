@@ -265,7 +265,7 @@ html[theme='dark'] .reg-header h2 {
   color: #f5f5f5;
 }
 html[theme='dark'] .input-group-addon {
-  color: #dfdfdf; 
+  color: #dfdfdf;
   background: #2e2e2e;
   border-color: #2c2c2c;
 }
@@ -439,13 +439,16 @@ html[theme='dark'] .blog-twitter .blog-twitter-inner {
   background: #252525;
 }
 html[theme='dark'] .blog-twitter .blog-twitter-inner:after {
-  border-top: 15px solid #6d6d6d;
+  border-top: 15px solid #383838;
 }
 html[theme='dark'] .blog-twitter .blog-twitter-inner:before {
-  border-bottom-color: black;
+  border-bottom-color: #222222;
 }
 html[theme='dark'] .blog-twitter .blog-twitter-inner a.article-subject {
-  color: #b1b1b1;
+  color: #c5c5c5;
+}
+html[theme='dark'] .blog-twitter .blog-twitter-inner a {
+  color: #1e86c7;
 }
 html[theme='dark'] .posts .dl-horizontal a {
   color: #c5c5c5;
@@ -515,6 +518,28 @@ html[theme='dark'] #favorite_button {
   background-color: #232323;
   border-color: #272727;
 }
+html[theme='dark'] .btn-danger {
+  background-color: #ed5565;
+  border-color: #ed5565;
+  color: #fff;
+}
+html[theme='dark'] .btn-danger:hover,
+html[theme='dark'] .btn-danger:focus,
+html[theme='dark'] .btn-danger:active,
+html[theme='dark'] .btn-danger.active,
+html[theme='dark'] .open .dropdown-toggle.btn-danger,
+html[theme='dark'] .btn-danger:active:focus,
+html[theme='dark'] .btn-danger:active:hover,
+html[theme='dark'] .btn-danger.active:hover,
+html[theme='dark'] .btn-danger.active:focus {
+  background-color: #ec4758;
+  border-color: #ec4758;
+  color: #fff;
+}
+html[theme='dark'] .btn-danger.btn-outline {
+  background-color: transparent;
+  color: #ed5565;
+}
 html[theme='dark'] .btn-default:hover,
 html[theme='dark'] #favorite_button:hover {
   background-color: #2f2f2f;
@@ -533,6 +558,104 @@ html[theme='dark'] #contest_scoreboard a {
 html[theme='dark'] #contest_statistics a {
   color: #a0a0a0;
 }
+/* start: /user/.+ */
+html[theme='dark'] .tab-v2 .nav-tabs li.active a {
+  background: #222;
+  border: solid 1px #333;
+  color: #f0f0f0;
+}
+html[theme='dark'] .page-header .fa {
+  color: inherit;
+}
+/* end: /user/.+ */
+/* start: /contest/board */
+html[theme='dark'] .top-navigation #page-wrapper {
+  background-color: #222222;
+}
+html[theme='dark'] .top-navigation .nav > li > a {
+  color: #95989b;
+}
+html[theme='dark'] #page-wrapper .navbar-collapse.collapse {
+  background-color: #2a2a2a;
+}
+html[theme='dark'] #page-wrapper .border-bottom {
+  border-bottom: 1px solid #2f2f2f !important;
+}
+html[theme='dark'] #page-wrapper .footer {
+  background: #303030;
+  border-top: 1px solid #4f5356;
+}
+html[theme='dark'] #right-sidebar {
+  background-color: #222;
+  border-left: 1px solid #323232;
+  border-top: 1px solid #323232;
+}
+html[theme='dark'] .sidebar-container ul.sidebar-list li {
+  border-bottom: 1px solid #535556;
+}
+html[theme='dark'] .sidebar-container .sidebar-title {
+  border-bottom: 1px solid #505456;
+}
+html[theme='dark'] .ibox-content {
+  background-color: #282828;
+  color: #fff;
+  border-color: #535454;
+}
+html[theme='dark'] .widget.style1 h2 {
+  color: #fcfcfc;
+}
+html[theme='dark'] .navy-bg {
+  background-color: #1e816c;
+}
+html[theme='dark'] .lazur-bg {
+  background-color: #239c9d;
+}
+html[theme='dark'] .yellow-bg {
+  background-color: #d59550;
+}
+html[theme='dark'] .red-bg {
+  background-color: #bc4955;
+}
+html[theme='dark'] .sidebar-success {
+  background-color: #204d44;
+  border-bottom-color: #12342d !important;
+}
+html[theme='dark'] .sidebar-fail {
+  background-color: #633136;
+  border-bottom-color: #5a2329 !important;
+}
+html[theme='dark'] .sidebar-pending {
+  background-color: #373a3a;
+}
+html[theme='dark'] .sidebar-pending h4 {
+  color: #999999;
+}
+html[theme='dark'] .inmodal .modal-body {
+  background: #242424;
+}
+html[theme='dark'] .modal-header {
+  border-bottom: 1px solid #363636;
+}
+html[theme='dark'] .modal-footer {
+  border-top: 1px solid #363636;
+}
+html[theme='dark'] .tabs-container .nav-tabs {
+  border-bottom: none;
+}
+html[theme='dark'] .tabs-container .panel-body {
+  border: 1px solid #393a3a;
+}
+html[theme='dark'] .top-navigation .nav > li.active {
+  background: transparent;
+}
+html[theme='dark'] .tabs-container .nav-tabs > li.active > a,
+html[theme='dark'] .tabs-container .nav-tabs > li.active > a:hover,
+html[theme='dark'] .tabs-container .nav-tabs > li.active > a:focus {
+  border: 1px solid #393a3a;
+  border-bottom-color: transparent;
+  background-color: #292929;
+}
+/* end: /contest/board */
 html[theme='dark'] a.list-group-item.active > .badge,
 html[theme='dark'] .nav-pills > .active > a > .badge {
   color: #3c739a;
