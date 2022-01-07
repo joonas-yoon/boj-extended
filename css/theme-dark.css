@@ -1039,6 +1039,9 @@ html[theme='dark'] .cm-s-paper .CodeMirror-matchingbracket {
   color: white !important;
 }
 /* Quick Search */
+html[theme='dark'] #quick-search {
+  background: rgba(0, 0, 0, 0.15);
+}
 html[theme='dark'] #quick-search .results {
   background-color: #262626;
   border: 1px solid rgba(128, 128, 128, 0.1);
@@ -1057,4 +1060,18 @@ html[theme='dark'] #quick-search .results .quick-search-item {
 }
 html[theme='dark'] #quick-search .results .quick-search-item > .meta {
   color: #999;
+}
+html[theme='dark'] #quick-search .tabs .tab {
+  color: #8f8f8f;
+}
+html[theme='dark'] #quick-search .tabs .tab:hover,
+html[theme='dark'] #quick-search .tabs .tab:active {
+  background-color: rgb(32, 32, 32, 0.7);
+  border-color: rgb(38, 38, 38, 0.7);
+  color: #efefef;
+}
+html[theme='dark'] #quick-search .tabs .tab.active {
+  border-color: #262626;
+  background-color: #202020;
+  color: #ffffff;
 }
