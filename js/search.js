@@ -43,7 +43,11 @@ function extendQuickSearch() {
   ];
   for (let i = 0; i < tabs.length; ++i) {
     const tab = tabs[i];
-    const tabEl = Utils.createElement('div', { class: 'tab', tabIndex: i });
+    const tabEl = Utils.createElement('div', {
+      class: 'tab',
+      tidx: i,
+      tabindex: -1,
+    });
     tabEl.innerText = tab.title;
     if (tab.active) tabEl.classList.add('active');
     tabEl.addEventListener('click', (evt) => {
@@ -65,6 +69,7 @@ function extendQuickSearch() {
   let lastSearchText = '';
   let problemInfo = {};
   let currentTabIndex = 0;
+  let isOverlay = false;
 
   // add event listener to input
   input.addEventListener('keyup', async (evt) => {
@@ -84,9 +89,25 @@ function extendQuickSearch() {
   const keyPressed = new Set();
   document.addEventListener('keydown', (evt) => {
     keyPressed.add(evt.key);
+    if (isOverlay) {
+      // Tab: switch tab
+      if (evt.key === 'Tab') {
+        if (keyPressed.has('Shift')) {
+          // shift: go previous tab
+          currentTabIndex = (currentTabIndex - 1 + tabs.length) % tabs.length;
+        } else {
+          // go next tab
+          currentTabIndex = (currentTabIndex + 1) % tabs.length;
+        }
+        activateTab(currentTabIndex);
+        evt.preventDefault();
+      }
+    }
   });
   document.addEventListener('keyup', (evt) => {
     console.log(evt);
+    // ESC: deactivate
+    // Ctrl+/ or Alt+/: activate
     if (keyPressed.has('Escape')) {
       activate(false);
     } else if (
@@ -104,6 +125,7 @@ function extendQuickSearch() {
   });
 
   async function activate(on) {
+    isOverlay = !!on;
     if (on === true) {
       // fetch problem status by current user
       problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -120,7 +142,7 @@ function extendQuickSearch() {
 
   function activateTab(tabIndex) {
     for (const tab of tabs) {
-      const isActive = tab.el.getAttribute('tabIndex') == tabIndex;
+      const isActive = tab.el.getAttribute('tidx') == tabIndex;
       if (isActive) {
         tab.el.classList.add('active');
       } else {
