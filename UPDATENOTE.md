@@ -1,4 +1,20 @@
-## 1.6.0
+## 1.7.0
+
+2022/01/07
+
+**Features**
+
+- 검색 페이지에도 문제 색상 적용 [(#54)](https://github.com/joonas-yoon/boj-extended/issues/54)
+- 빠른 검색에 탭 추가 [(#55)](https://github.com/joonas-yoon/boj-extended/issues/55)
+
+**Fixes**
+
+- 어두운 테마
+- - 대회 스코어보드에도 적용
+- - 일부 색상 수정 (로그인 페이지, 상단 확장 메뉴, 빠른 검색의 배경 등)
+- `localStorage` 를 사용하여 캐싱
+
+## 1.6.1
 
 2021/11/09
 
