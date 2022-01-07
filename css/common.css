@@ -94,12 +94,8 @@
 #quick-search .results .quick-search-item > .search-breadcrumb > li {
   padding: 0;
 }
-#quick-search
-  .results
-  .quick-search-item
-  > .search-breadcrumb
-  > li
-  + li:before {
+#quick-search .results .quick-search-item > .search-breadcrumb > li + li:before,
+#quick-search .results .quick-search-item .links > .problem + .problem:before {
   content: '/\00a0';
 }
 
@@ -122,12 +118,17 @@
   margin-bottom: 5px;
 }
 
-#quick-search .results .quick-search-item > .links a {
+#quick-search .results .quick-search-item > .links > a {
   margin-right: 1em;
 }
-#quick-search .results .quick-search-item > .links span.tag {
+#quick-search .results .quick-search-item > .links > .tag {
+  display: inline-block;
   color: #6a9299;
   margin-right: 0.5em;
+}
+#quick-search .results .quick-search-item .links > .problem {
+  display: inline-block;
+  margin-right: 3px;
 }
 
 #quick-search .results-footer {

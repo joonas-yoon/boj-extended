@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 function extendQuickSearch() {
   // UI: overlay
   const bg = Utils.createElement('div', {
@@ -211,12 +212,30 @@ function extendQuickSearch() {
     `;
   }
   function htmlWorkbooks(result) {
-    const { id, problems, _highlightResult } = result;
+    const { id, problems, creator: author, _highlightResult } = result;
     const { name, comment, creator, problem } = _highlightResult;
+    const problemList = (problem || [])
+      .filter(({ problem_id, title }) => {
+        return problem_id.matchedWords.length || title.matchedWords.length;
+      })
+      .map(({ problem_id, title }) => {
+        const pid = problem_id.value.replace(/(<([^>]+)>)/gi, '');
+        const problemColor = problemInfo[pid] || '';
+        return `<span class="problem">\
+          <a href="/problem/${pid}" class="${problemColor}">${problem_id.value}번 ${title.value}</a>\
+        </span>`;
+      })
+      .join('\n');
     return `\
       <div class="title"><a href="/workbook/view/${id}">${name.value}</a></div>\
-      <div class="meta">만든 사람: ${creator.value} &nbsp; 문제: ${problems}</div>\
+      <div class="meta">
+        <span class="author">만든 사람: <a href="/user/${author}">${creator.value}</a></span>\
+        <span class="count">문제: ${problems}</span>\
+      </div>\
       <div class="desc">${comment.value}</div>\
+      <div class="links">\
+        ${problemList}
+      </div>\
     `;
   }
   function htmlCategories(result) {
