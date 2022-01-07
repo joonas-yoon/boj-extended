@@ -83,8 +83,13 @@
 #quick-search .results .quick-search-item > .search-breadcrumb > li {
   padding: 0;
 }
-#quick-search .results .quick-search-item > .search-breadcrumb > li + li:before {
-  content: "/\00a0";
+#quick-search
+  .results
+  .quick-search-item
+  > .search-breadcrumb
+  > li
+  + li:before {
+  content: '/\00a0';
 }
 
 #quick-search .results .quick-search-item > .title {

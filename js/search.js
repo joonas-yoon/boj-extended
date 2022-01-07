@@ -164,7 +164,9 @@ function extendQuickSearch() {
       console.log(res);
     }
     console.groupEnd();
-    moreButton.href = encodeURI('/search#q=' + searchText + '&c=' + currentIndexName);
+    moreButton.href = encodeURI(
+      '/search#q=' + searchText + '&c=' + currentIndexName
+    );
     resultFooter.innerHTML = `${nbHits}개의 결과 중 ${hits.length}개 표시 (${
       processingTimeMS / 1000
     }초)`;
@@ -220,7 +222,11 @@ function extendQuickSearch() {
   function htmlCategories(result) {
     const { avail, id, parents, total, _highlightResult } = result;
     const { name } = _highlightResult;
-    const breadcrumb = (parents || []).map(child => `<li><a href="/category/${child.id}">${child.name}</a></li>`).join('\n');
+    const breadcrumb = (parents || [])
+      .map(
+        (child) => `<li><a href="/category/${child.id}">${child.name}</a></li>`
+      )
+      .join('\n');
     return `\
       <ul class="list-inline up-ul search-breadcrumb">${breadcrumb}</ul>
       <div class="title"><a href="/category/detail/view/${id}">${name.value}</a></div>\
@@ -231,7 +237,10 @@ function extendQuickSearch() {
     const { id, user, comments, date, tags } = result;
     const { title } = result._highlightResult;
     const { content } = result._snippetResult;
-    const tagList = tags.filter(tag => tag.length > 0).map(tag => `<span class="tag">#${tag}</span>`).join('\n');
+    const tagList = tags
+      .filter((tag) => tag.length > 0)
+      .map((tag) => `<span class="tag">#${tag}</span>`)
+      .join('\n');
     return `\
       <div class="title"><a href="/blog/view/${id}">${title.value}</a></div>\
       <div class="meta">\
