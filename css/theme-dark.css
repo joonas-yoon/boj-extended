@@ -1,3 +1,4 @@
+/* Default CSS */
 html[theme='dark'] ::-webkit-scrollbar {
   width: auto;
 }
@@ -60,6 +61,10 @@ html[theme='dark'] blockquote:hover,
 html[theme='dark'] blockquote.text-right:hover {
   border-color: #6eacd4;
 }
+html[theme='dark'] hr {
+  border-top: 1px solid #4c4c4c;
+}
+/* Site */
 html[theme='dark'],
 html[theme='dark'] .wrapper {
   background: #222222;
@@ -1037,6 +1042,10 @@ html[theme='dark'] .cm-s-default .CodeMirror-matchingbracket,
 html[theme='dark'] .cm-s-paper .CodeMirror-matchingbracket {
   text-decoration: underline;
   color: white !important;
+}
+/* Search Page */
+html[theme='dark'] .s-results .related-search {
+  border-right: 1px solid #3e3e3e;
 }
 /* Quick Search */
 html[theme='dark'] #quick-search {

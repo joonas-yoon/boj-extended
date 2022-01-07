@@ -14,6 +14,17 @@
   margin: 3px;
 }
 
+/* Search Page */
+.s-results .inner-results h3 a.result-pac {
+  color: #efc050;
+}
+.s-results .inner-results h3 a.result-ac {
+  color: #009874;
+}
+.s-results .inner-results h3 a.result-wa {
+  color: #dd4124;
+}
+
 /* Quick Search */
 #quick-search {
   display: none;
