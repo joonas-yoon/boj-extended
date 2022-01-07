@@ -56,5 +56,5 @@
     "128": "icons/icon128.png"
   },
   "permissions": ["storage"],
-  "content_security_policy": "script-src 'self' https://www.googletagmanager.com; object-src 'self'"
+  "content_security_policy": "script-src 'self' https://www.googletagmanager.com https://code.jquery.com; object-src 'self'"
 }
