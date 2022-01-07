@@ -128,3 +128,40 @@ function extendQuickSearch() {
     }초)`;
   }
 }
+
+async function extendSearchPage() {
+  const container = document
+    .getElementById('result')
+    .getElementsByClassName('results')[0];
+  if (!container) {
+    // retry in 10 seconds
+    setTimeout(extendSearchPage, 1000 * 10);
+    return;
+  }
+
+  const problemsInfo = await fetchProblemsByUser(getMyUsername());
+  if (!problemsInfo) return;
+
+  function coloringProblems(elementContainer) {
+    elementContainer.querySelectorAll('a[href^="/problem/"]').forEach((el) => {
+      const hrefText = el.href || '';
+      // only for link to problem
+      if (hrefText.match(/\/problem\/[0-9]+$/)) {
+        const cls = problemsInfo[getLastNumberFromHref(hrefText)];
+        if (cls) el.classList.add(cls);
+      }
+    });
+  }
+
+  // observe target
+  const observer = new MutationObserver(function (mutations) {
+    if (mutations.length == 0) return;
+    coloringProblems(mutations[0].target);
+  });
+
+  // start to observe
+  const config = { attributes: true, childList: true, characterData: true };
+  observer.observe(container, config);
+  // color first on load
+  coloringProblems(container);
+}

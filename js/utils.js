@@ -248,3 +248,54 @@ function createVsForm(name1, name2) {
   colbtn.appendChild(btn);
   return div;
 }
+
+// return { pid: className, 1001: 'result-ac', 1002: 'result-pac', 1003: 'result-wa', ... }
+async function fetchProblemsByUser(id) {
+  if (!id) return;
+
+  // parse user information
+  function parse(htmlText) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlText, 'text/html');
+    const problems = doc.querySelectorAll(
+      'a[href^="/problem/"][class^="result-"]'
+    );
+    const results = {};
+    for (const a of problems) {
+      const pid = getLastNumberFromHref(a.href);
+      const cls = a.getAttribute('class');
+      results[pid] = cls;
+    }
+    return results;
+  }
+
+  const storageKey = Config.STORAGE_PREFIX + '__problems-' + id;
+  const cacheData = JSON.parse((await localStorage.getItem(storageKey)) || {});
+  console.log('cacheData', cacheData);
+  const result = {};
+
+  const currentTimestamp = new Date().getTime();
+  const duration = 5 * 60 * 1000; // 5 minutes, in milliseconds
+  const isDateExpired =
+    cacheData &&
+    Number(cacheData.lastUpdated || 0) + duration < currentTimestamp;
+  if (cacheData == null || cacheData.problems == null || isDateExpired) {
+    // run request and parse
+    const response = await fetch(`/user/${id}`);
+    console.group(`request new problems solved by ${id}`);
+    // on succeed
+    if (response.status === 200) {
+      result.problems = await parse(await response.text());
+      result.lastUpdated = currentTimestamp;
+    }
+    await localStorage.setItem(storageKey, JSON.stringify(result));
+    console.log('saved to localStorage', result);
+    console.groupEnd();
+    return result.problems;
+  }
+  return cacheData.problems;
+}
+
+function getLastNumberFromHref(href) {
+  return parseInt(href.substr(href.lastIndexOf('/') + 1));
+}

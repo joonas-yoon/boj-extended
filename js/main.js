@@ -24,6 +24,8 @@
     extendBoardPage();
   } else if (loc.pathname.startsWith('/vs/')) {
     extendVs();
+  } else if (loc.pathname.startsWith('/search')) {
+    extendSearchPage();
   } else if (isSettingPage(loc.pathname)) {
     extendSettingPage();
   }
