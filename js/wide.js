@@ -1,15 +1,8 @@
 function extendWide() {
-  // add html element
-  const bar = document.querySelector('ul.loginbar');
-  const divider = document.createElement('li');
-  divider.setAttribute('class', 'topbar-devider');
-  bar.appendChild(divider);
   const li = document.createElement('li');
   const btn = document.createElement('a');
   btn.innerText = '화면 크기';
-  btn.style.cursor = 'pointer';
   li.appendChild(btn);
-  bar.appendChild(li);
   btn.addEventListener('click', (evt) => {
     evt.preventDefault();
     const wide = btn.getAttribute('wide') == 'true';
@@ -17,6 +10,7 @@ function extendWide() {
       applyWide(btn, result);
     });
   });
+  addElementToBar(li);
 
   // after page loaded
   Config.load('wide', (wide) => {
