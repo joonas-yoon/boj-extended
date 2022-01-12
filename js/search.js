@@ -1,4 +1,21 @@
+/* eslint-disable camelcase */
 function extendQuickSearch() {
+  // constants
+  const TAB_INDEX_KEY = 'tidx';
+  // variables
+  let searchHandle = null;
+  let lastSearchText = '';
+  let problemInfo = {};
+  let currentTabIndex = 0;
+  let isOverlay = false;
+  const tabs = [
+    { title: '문제', c: 'Problems', active: true, el: null },
+    { title: '문제집', c: 'Workbooks', el: null },
+    { title: '출처', c: 'Categories', el: null },
+    { title: '블로그', c: 'Blogs', el: null },
+    { title: '게시판', c: 'Articles', el: null },
+  ];
+
   // UI: overlay
   const bg = Utils.createElement('div', {
     id: 'quick-search',
@@ -21,7 +38,7 @@ function extendQuickSearch() {
   const resultFooter = Utils.createElement('div', {
     class: 'results-footer',
   });
-  resultFooter.innerText = '-';
+  resultFooter.innerText = '결과 표시 (0.000초)';
   const moreButton = Utils.createElement('a', {
     class: 'btn btn-default more-button',
     href: '/search',
@@ -33,21 +50,18 @@ function extendQuickSearch() {
   const tabsContainer = Utils.createElement('div', {
     class: 'tabs',
   });
-  const tabs = [
-    { title: '문제', c: 'Problems', active: true, el: null },
-    { title: '문제집', c: 'Workbooks', el: null },
-    { title: '출처', c: 'Categories', el: null },
-    { title: '블로그', c: 'Blogs', el: null },
-    { title: '게시판', c: 'Articles', el: null },
-  ];
   for (let i = 0; i < tabs.length; ++i) {
     const tab = tabs[i];
-    const tabEl = Utils.createElement('div', { class: 'tab', tabIndex: i });
+    const tabEl = Utils.createElement('div', {
+      class: 'tab',
+      tidx: i,
+      tabindex: -1,
+    });
     tabEl.innerText = tab.title;
     if (tab.active) tabEl.classList.add('active');
     tabEl.addEventListener('click', (evt) => {
       evt.preventDefault();
-      activateTab(tabEl.getAttribute('tabIndex'));
+      activateTab(tabEl.getAttribute(TAB_INDEX_KEY));
     });
     tabs[i].el = tabEl; // refer
     tabsContainer.appendChild(tabEl);
@@ -58,12 +72,16 @@ function extendQuickSearch() {
   container.appendChild(moreButton);
   bg.appendChild(container);
   document.body.appendChild(bg);
-
-  // variables
-  let searchHandle = null;
-  let lastSearchText = '';
-  let problemInfo = {};
-  let currentTabIndex = 0;
+  // UI: add button to topbar
+  const btnLi = document.createElement('li');
+  const btnBar = document.createElement('a');
+  btnBar.innerHTML = '<i class="fa fa-search"></i>';
+  btnLi.appendChild(btnBar);
+  btnBar.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    activate(true);
+  });
+  addElementToBar(btnLi);
 
   // add event listener to input
   input.addEventListener('keyup', async (evt) => {
@@ -83,9 +101,25 @@ function extendQuickSearch() {
   const keyPressed = new Set();
   document.addEventListener('keydown', (evt) => {
     keyPressed.add(evt.key);
+    if (isOverlay) {
+      // Tab: switch tab
+      if (evt.key === 'Tab') {
+        if (keyPressed.has('Shift')) {
+          // shift: go previous tab
+          currentTabIndex = (currentTabIndex - 1 + tabs.length) % tabs.length;
+        } else {
+          // go next tab
+          currentTabIndex = (currentTabIndex + 1) % tabs.length;
+        }
+        activateTab(currentTabIndex);
+        evt.preventDefault();
+      }
+    }
   });
   document.addEventListener('keyup', (evt) => {
     console.log(evt);
+    // ESC: deactivate
+    // Ctrl+/ or Alt+/: activate
     if (keyPressed.has('Escape')) {
       activate(false);
     } else if (
@@ -103,6 +137,7 @@ function extendQuickSearch() {
   });
 
   async function activate(on) {
+    isOverlay = !!on;
     if (on === true) {
       // fetch problem status by current user
       problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -119,7 +154,7 @@ function extendQuickSearch() {
 
   function activateTab(tabIndex) {
     for (const tab of tabs) {
-      const isActive = tab.el.getAttribute('tabIndex') == tabIndex;
+      const isActive = tab.el.getAttribute(TAB_INDEX_KEY) == tabIndex;
       if (isActive) {
         tab.el.classList.add('active');
       } else {
@@ -211,12 +246,30 @@ function extendQuickSearch() {
     `;
   }
   function htmlWorkbooks(result) {
-    const { id, problems, _highlightResult } = result;
+    const { id, problems, creator: author, _highlightResult } = result;
     const { name, comment, creator, problem } = _highlightResult;
+    const problemList = (problem || [])
+      .filter(({ problem_id, title }) => {
+        return problem_id.matchedWords.length || title.matchedWords.length;
+      })
+      .map(({ problem_id, title }) => {
+        const pid = problem_id.value.replace(/(<([^>]+)>)/gi, '');
+        const problemColor = problemInfo[pid] || '';
+        return `<span class="problem">\
+          <a href="/problem/${pid}" class="${problemColor}">${problem_id.value}번 ${title.value}</a>\
+        </span>`;
+      })
+      .join('\n');
     return `\
       <div class="title"><a href="/workbook/view/${id}">${name.value}</a></div>\
-      <div class="meta">만든 사람: ${creator.value} &nbsp; 문제: ${problems}</div>\
+      <div class="meta">
+        <span class="author">만든 사람: <a href="/user/${author}">${creator.value}</a></span>\
+        <span class="count">문제: ${problems}</span>\
+      </div>\
       <div class="desc">${comment.value}</div>\
+      <div class="links">\
+        ${problemList}
+      </div>\
     `;
   }
   function htmlCategories(result) {
