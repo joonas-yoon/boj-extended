@@ -1,5 +1,7 @@
 /* eslint-disable camelcase */
 function extendQuickSearch() {
+  // constants
+  const TAB_INDEX_KEY = 'tidx';
   // variables
   let searchHandle = null;
   let lastSearchText = '';
@@ -59,7 +61,7 @@ function extendQuickSearch() {
     if (tab.active) tabEl.classList.add('active');
     tabEl.addEventListener('click', (evt) => {
       evt.preventDefault();
-      activateTab(tabEl.getAttribute('tabIndex'));
+      activateTab(tabEl.getAttribute(TAB_INDEX_KEY));
     });
     tabs[i].el = tabEl; // refer
     tabsContainer.appendChild(tabEl);
@@ -152,7 +154,7 @@ function extendQuickSearch() {
 
   function activateTab(tabIndex) {
     for (const tab of tabs) {
-      const isActive = tab.el.getAttribute('tidx') == tabIndex;
+      const isActive = tab.el.getAttribute(TAB_INDEX_KEY) == tabIndex;
       if (isActive) {
         tab.el.classList.add('active');
       } else {
