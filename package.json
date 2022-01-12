@@ -1,6 +1,6 @@
 {
   "name": "boj-extended",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
