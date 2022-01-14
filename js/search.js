@@ -2,6 +2,7 @@
 function extendQuickSearch() {
   // constants
   const TAB_INDEX_KEY = 'tidx';
+  const LAST_SEARCH_STATE = 'qs-last-state';
   // variables
   let searchHandle = null;
   let lastSearchText = '';
@@ -54,7 +55,7 @@ function extendQuickSearch() {
     const tab = tabs[i];
     const tabEl = Utils.createElement('div', {
       class: 'tab',
-      tidx: i,
+      [TAB_INDEX_KEY]: i,
       tabindex: -1,
     });
     tabEl.innerText = tab.title;
@@ -139,6 +140,12 @@ function extendQuickSearch() {
   async function activate(on) {
     isOverlay = !!on;
     if (on === true) {
+      // set value from last state
+      const state = await getLastState() || {};
+      input.value = state.text || '';
+      if (state.tabIndex >= 0) {
+        activateTab(state.tabIndex);
+      }
       // fetch problem status by current user
       problemInfo = await fetchProblemsByUser(getMyUsername());
       // set variables
@@ -152,7 +159,7 @@ function extendQuickSearch() {
     }
   }
 
-  function activateTab(tabIndex) {
+  async function activateTab(tabIndex) {
     for (const tab of tabs) {
       const isActive = tab.el.getAttribute(TAB_INDEX_KEY) == tabIndex;
       if (isActive) {
@@ -162,10 +169,13 @@ function extendQuickSearch() {
       }
     }
     currentTabIndex = Number(tabIndex);
+    await setLastState({tabIndex});
     search(input.value);
   }
 
   async function search(searchText) {
+    // save text to storage
+    await setLastState({text: searchText});
     // scroll to top
     resultBox.scroll(0, 0);
     // hijack
@@ -207,6 +217,24 @@ function extendQuickSearch() {
     }초)`;
   }
 
+  function getProblemStatus(id) {
+    if (problemInfo == null) return '';
+    return problemInfo[id] || '';
+  }
+
+  async function setLastState(obj) {
+    const key = Constants.STORAGE_PREFIX + LAST_SEARCH_STATE;
+    const last = await getLastState() || {};
+    const newLast = {...last, ...obj};
+    console.log(obj, 'newLast', newLast);
+    await localStorage.setItem(key, JSON.stringify(newLast));
+  }
+  async function getLastState() {
+    const key = Constants.STORAGE_PREFIX + LAST_SEARCH_STATE;
+    return JSON.parse(await localStorage.getItem(key)) || {};
+  }
+
+  // UI create utils under
   function createResultItem(result, indexName) {
     if (result == null) return null;
     switch (indexName) {
@@ -229,11 +257,6 @@ function extendQuickSearch() {
     const item = Utils.createElement('div', { class: 'quick-search-item' });
     item.innerHTML = html;
     return item;
-  }
-
-  function getProblemStatus(id) {
-    if (problemInfo == null) return '';
-    return problemInfo[id] || '';
   }
 
   function htmlProblems(result) {
