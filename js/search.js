@@ -231,11 +231,21 @@ function extendQuickSearch() {
     return item;
   }
 
+  function getProblemStatus(id) {
+    if (problemInfo == null) return '';
+    return problemInfo[id] || '';
+  }
+
   function htmlProblems(result) {
     const { id, time, memory, _highlightResult } = result;
     const { title, description } = _highlightResult;
+    const problemColor = getProblemStatus(id);
     return `\
-      <div class="title"><a href="/problem/${id}">${id}번 - ${title.value}</a></div>\
+      <div class="title">\
+        <a href="/problem/${id}" class="${problemColor}">\
+          ${id}번 - ${title.value}\
+        </a>\
+      </div>\
       <div class="meta">시간 제한: ${time}초 &nbsp; 메모리 제한: ${memory}MB</div>\
       <div class="desc">${description.value}</div>\
       <div class="links"> \
@@ -254,16 +264,20 @@ function extendQuickSearch() {
       })
       .map(({ problem_id, title }) => {
         const pid = problem_id.value.replace(/(<([^>]+)>)/gi, '');
-        const problemColor = problemInfo[pid] || '';
+        const problemColor = getProblemStatus(pid);
         return `<span class="problem">\
-          <a href="/problem/${pid}" class="${problemColor}">${problem_id.value}번 ${title.value}</a>\
+          <a href="/problem/${pid}" class="${problemColor}">\
+            ${problem_id.value}번 ${title.value}\
+          </a>\
         </span>`;
       })
       .join('\n');
     return `\
       <div class="title"><a href="/workbook/view/${id}">${name.value}</a></div>\
-      <div class="meta">
-        <span class="author">만든 사람: <a href="/user/${author}">${creator.value}</a></span>\
+      <div class="meta">\
+        <span class="author">\
+          만든 사람: <a href="/user/${author}">${creator.value}</a>\
+        </span>\
         <span class="count">문제: ${problems}</span>\
       </div>\
       <div class="desc">${comment.value}</div>\
@@ -282,7 +296,9 @@ function extendQuickSearch() {
       .join('\n');
     return `\
       <ul class="list-inline up-ul search-breadcrumb">${breadcrumb}</ul>
-      <div class="title"><a href="/category/detail/view/${id}">${name.value}</a></div>\
+      <div class="title">\
+        <a href="/category/detail/view/${id}">${name.value}</a>\
+      </div>\
       <div class="meta">전체 문제: ${total} &nbsp; 풀 수 있는 문제: ${avail}</div>\
     `;
   }
@@ -299,7 +315,9 @@ function extendQuickSearch() {
       <div class="meta">\
         <span class="date">${date}</span>\
         <a class="author" href="/user/${user}">${user}</a>\
-        <a href="/blog/view/${id}#comments"><i class="fa fa-comments-o"></i> ${comments}</a>\
+        <a href="/blog/view/${id}#comments">\
+          <i class="fa fa-comments-o"></i> ${comments}\
+        </a>\
       </div>\
       <div class="desc">${content.value}</div>\
       <div class="links">${tagList}</div> \
@@ -312,8 +330,10 @@ function extendQuickSearch() {
     let problemTag = '';
     let problemColor = '';
     if (problem != null) {
-      problemColor = problemInfo[problem] || '';
-      problemTag = `<a href="/problem/${problem}" class="${problemColor}">${problem}번</a>&nbsp;`;
+      problemColor = getProblemStatus(problem);
+      problemTag = `<a href="/problem/${problem}" class="${problemColor}">\
+        ${problem}번\
+      </a>&nbsp;`;
     }
     return `\
       <div class="meta ${problemColor}">\
@@ -323,7 +343,9 @@ function extendQuickSearch() {
       <div class="meta">\
         <span class="date">${created}</span>\
         <a class="author" href="/user/${user}">${user}</a>\
-        <a href="/board/view/${id}#comments" class="comments"><i class="fa fa-comments-o"></i> ${comments}</a>\
+        <a href="/board/view/${id}#comments" class="comments">\
+          <i class="fa fa-comments-o"></i> ${comments}\
+        </a>\
         <span><i class="fa fa-thumbs-o-up"></i> ${like}</span>\
       </div>\
       <div class="desc">${content.value}</div>\
