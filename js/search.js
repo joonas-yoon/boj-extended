@@ -158,7 +158,7 @@ function extendQuickSearch() {
     isOverlay = !!on;
     if (on === true) {
       // set value from last state
-      const state = await getLastState() || {};
+      const state = (await getLastState()) || {};
       console.log('lastState', state);
       input.value = state.text || '';
       if (state.tabIndex >= 0) {
@@ -190,7 +190,7 @@ function extendQuickSearch() {
     searchState.lock = false;
     resultBox.scroll(0, 0);
     currentTabIndex = Number(tabIndex);
-    await setLastState({tabIndex});
+    await setLastState({ tabIndex });
     search(input.value);
   }
 
@@ -206,13 +206,14 @@ function extendQuickSearch() {
       resultBox.scroll(0, 0);
     } else if (
       pageNum > searchState.maxPage ||
-      pageNum == searchState.curPage) {
+      pageNum == searchState.curPage
+    ) {
       // nothing to do
       return;
     }
     console.log('pageNum', pageNum);
     // save text to storage
-    await setLastState({text: searchText});
+    await setLastState({ text: searchText });
     // variables
     const currentIndexName = tabs[currentTabIndex].c || 'Problems';
     const result = await requestSearch(searchText, currentIndexName, pageNum);
@@ -290,12 +291,12 @@ function extendQuickSearch() {
     const scrollHeight = el.scrollHeight - height;
     const scrollTop = el.scrollTop;
     return scrollTop / scrollHeight;
-}
+  }
 
   async function setLastState(obj) {
     const key = Constants.STORAGE_PREFIX + LAST_SEARCH_STATE;
-    const last = await getLastState() || {};
-    const newLast = {...last, ...obj};
+    const last = (await getLastState()) || {};
+    const newLast = { ...last, ...obj };
     await localStorage.setItem(key, JSON.stringify(newLast));
   }
   async function getLastState() {
