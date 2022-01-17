@@ -234,8 +234,11 @@ function extendQuickSearch() {
   function htmlProblems(result) {
     const { id, time, memory, _highlightResult } = result;
     const { title, description } = _highlightResult;
+    const problemColor = problemInfo[id] || '';
     return `\
-      <div class="title"><a href="/problem/${id}">${id}번 - ${title.value}</a></div>\
+      <div class="title">\
+        <a href="/problem/${id}" class="${problemColor}">${id}번 - ${title.value}</a>\
+      </div>\
       <div class="meta">시간 제한: ${time}초 &nbsp; 메모리 제한: ${memory}MB</div>\
       <div class="desc">${description.value}</div>\
       <div class="links"> \
