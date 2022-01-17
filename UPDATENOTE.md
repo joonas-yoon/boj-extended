@@ -1,3 +1,27 @@
+## 1.7.2
+
+2022/01/18
+
+**Features**
+- 빠른 검색
+- - 무한 스크롤 적용 (검색 결과는 최대 1,000개까지 표시됨)
+- 모든 BOJ 문제 링크에 문제 색상 반영되도록 변경 [(#61)](https://github.com/joonas-yoon/boj-extended/issues/61)
+
+**Fixes**
+- 빠른 검색 시 마지막 상태를 저장 (탭 위치, 마지막 입력 텍스트 유지)
+
+## 1.7.1
+
+2022/01/12
+
+**Features**
+- 빠른 검색
+- - 문제집 내부의 검색된 문제 표시
+- - 탭키로 탭 변경 가능 (다음 탭: Tab, 이전 탭: Shift+Tab)
+
+**Fixes**
+- hotfix [(#59)](https://github.com/joonas-yoon/boj-extended/issues/59)
+
 ## 1.7.0
 
 2022/01/07

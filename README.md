@@ -5,7 +5,6 @@
 
 [![Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) [![Naver Whale Store](docs/images/whalestore-sm.png)](https://store.whale.naver.com/detail/epdpeloboklojnaelckeihkghcgebhnp) [![FireFox Add-ONS](docs/images/firefox-sm.png)](https://addons.mozilla.org/ko/firefox/addon/boj-extended/)
 
-
 ## 미리 보기
 
 |                    **유저 페이지**                     |                      **어두운 테마**                      |
