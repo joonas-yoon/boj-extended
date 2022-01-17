@@ -29,8 +29,9 @@ function extendProblemPage() {
       (response) => {
         const doc = new DOMParser().parseFromString(response, 'text/html');
         const pages = doc.querySelectorAll('ul.pagination li').length - 2;
-        const rows = doc.querySelectorAll('.table > tbody > tr:not(.success)')
-          .length;
+        const rows = doc.querySelectorAll(
+          '.table > tbody > tr:not(.success)'
+        ).length;
         let estimates = rows;
         if (pages > 1) {
           estimates = (pages - 1) * rows + '+';
