@@ -4,6 +4,19 @@ function extendGlobal() {
   extendReformatMessage();
   extendProblemPage();
   extendQuickSearch();
+  extendProblemColor();
+
+  async function extendProblemColor() {
+    const problemInfo = await fetchProblemsByUser(getMyUsername());
+    if (!problemInfo) return;
+    // apply colors
+    document.querySelectorAll('a[href]').forEach((el) => {
+      const pid = getProblemID(el.href);
+      if (pid !== null && problemInfo[pid]) {
+        el.classList.add(problemInfo[pid] || '');
+      }
+    });
+  }
 
   function extendReformatMessage() {
     const resultPattern = {

@@ -308,3 +308,20 @@ async function fetchProblemsByUser(id) {
 function getLastNumberFromHref(href) {
   return parseInt(href.substr(href.lastIndexOf('/') + 1));
 }
+
+function getPathname(url) {
+  try {
+    if (/^http(s)?:\/\//.test(url)) url = new URL(url);
+    else url = new URL(locaiton.hostname + url);
+    return url.pathname;
+  } catch (error) {
+    return null;
+  }
+}
+
+function getProblemID(url) {
+  url = getPathname(url);
+  if (!url || !/^\/problem\/[0-9]{4,}$/.test(url)) return null;
+  const pid = getLastNumberFromHref(url);
+  return pid == null || isNaN(pid) ? null : pid;
+}

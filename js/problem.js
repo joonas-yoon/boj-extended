@@ -1,12 +1,7 @@
 function extendProblemPage() {
   const menu = document.getElementsByClassName('problem-menu')[0];
   if (!menu) return;
-  const pid = parseInt(
-    menu
-      .querySelector('a[href^="/problem"]')
-      .getAttribute('href')
-      .replace('/problem/', '')
-  );
+  const pid = getProblemID(menu.href);
 
   const storageTimerList = 'problem-timers';
 
@@ -29,8 +24,9 @@ function extendProblemPage() {
       (response) => {
         const doc = new DOMParser().parseFromString(response, 'text/html');
         const pages = doc.querySelectorAll('ul.pagination li').length - 2;
-        const rows = doc.querySelectorAll('.table > tbody > tr:not(.success)')
-          .length;
+        const rows = doc.querySelectorAll(
+          '.table > tbody > tr:not(.success)'
+        ).length;
         let estimates = rows;
         if (pages > 1) {
           estimates = (pages - 1) * rows + '+';

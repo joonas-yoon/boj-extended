@@ -349,11 +349,10 @@ async function extendSearchPage() {
 
   function coloringProblems(elementContainer) {
     elementContainer.querySelectorAll('a[href^="/problem/"]').forEach((el) => {
-      const hrefText = el.href || '';
       // only for link to problem
-      if (hrefText.match(/\/problem\/[0-9]+$/)) {
-        const cls = problemsInfo[getLastNumberFromHref(hrefText)];
-        if (cls) el.classList.add(cls);
+      const pid = getProblemID(el.href);
+      if (pid && problemsInfo[pid]) {
+        el.classList.add(problemsInfo[pid]);
       }
     });
   }
