@@ -1,3 +1,11 @@
+## 1.7.3
+
+2022/01/19
+
+**Fixes**
+
+- 색상이 엉뚱한 곳에도 적용되는 것 수정 [(#64)](https://github.com/joonas-yoon/boj-extended/issues/64)
+
 ## 1.7.2
 
 2022/01/18
