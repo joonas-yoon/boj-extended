@@ -11,7 +11,9 @@ function extendGlobal() {
     if (!problemInfo) return;
     // apply colors
     document.querySelectorAll('a[href]').forEach((el) => {
-      const pid = getProblemID(el.href);
+      const href = el.getAttribute('href');
+      if (href == '#') return;
+      const pid = getProblemID(href);
       if (pid !== null && problemInfo[pid]) {
         el.classList.add(problemInfo[pid] || '');
       }
