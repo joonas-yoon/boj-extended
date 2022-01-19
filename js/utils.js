@@ -312,7 +312,7 @@ function getLastNumberFromHref(href) {
 function getPathname(url) {
   try {
     if (/^http(s)?:\/\//.test(url)) url = new URL(url);
-    else url = new URL(locaiton.hostname + url);
+    else url = new URL(location.protocol + location.hostname + url);
     return url.pathname;
   } catch (error) {
     return null;
