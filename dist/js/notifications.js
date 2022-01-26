@@ -1,1 +1,0 @@
-"use strict";async function extendNotificationsPage(){const a=getMyUsername(),b=await fetchProblemsByUser(a);if(b){const a=document.getElementById("notifications");a.querySelectorAll("a[href^=\"/problem/\"]").forEach(a=>{a.classList.add(b[getLastNumberFromHref(a.href)])})}}
