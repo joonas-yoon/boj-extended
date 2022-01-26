@@ -1,3 +1,13 @@
+## 1.7.5.1
+
+`1.7.4`, `1.7.5`와 동일 (배포 자동화 테스트를 위한 단순한 버전 업)
+
+[`chrome-webstore-upload-cli`](https://www.npmjs.com/package/chrome-webstore-upload-cli)를 사용하여 크롬 웹스토어에 자동으로 배포되는 프로세스 추가
+
+**Fixes**
+
+- 문제와 연결된 질문 게시글의 개수 파싱 수정 및 효율화 [(#67)](https://github.com/joonas-yoon/boj-extended/issues/67)
+
 ## 1.7.3
 
 2022/01/19
