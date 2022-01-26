@@ -4,11 +4,9 @@ on:
   push:
     branches:
       - main
-      - release
   pull_request:
     branches:
       - main
-      - release
   workflow_dispatch:
     inputs:
       update:
@@ -19,7 +17,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ contains(github.event.head_commit.message, 'version:') || contains(github.event.head_commit.message, '[deploy]') }}
+    if: ${{ contains(github.event.head_commit.message, 'version:') }}
     steps:
     - uses: actions/checkout@v2
     - name: Set up node 14.x
@@ -40,3 +38,26 @@ jobs:
           git add -fN dist
           git diff -- dist > git.diff
           [ -s git.diff ] && git add -f dist && git commit -m ":rocket: deploy at `date "+%Y-%m-%d %H:%M"`" && git push || echo "Skip commit"
+
+  deploy:
+    needs: build
+    if: ${{ contains(github.ref, 'main') || contains(github.event.head_commit.message, '[deploy]') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: git pull
+      
+      - name: Zip files
+      - run: zip -r dist.zip ./dist/*
+      
+      - name: Install CLI Tool
+      - run: npm install chrome-webstore-upload-cli@2.0.1 -g
+
+      - name: Upload Files
+      - run: |
+          cd dist && chrome-webstore-upload upload --auto-publish
+        env:
+          EXTENSION_ID: ${{ secrets.EXTENSION_ID }}
+          CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
