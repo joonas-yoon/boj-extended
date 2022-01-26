@@ -1,4 +1,4 @@
-name: build
+name: build and deploy
 
 on:
   push:
@@ -10,9 +10,9 @@ on:
   workflow_dispatch:
     inputs:
       update:
-        description: 'build to update'
+        description: 'build + deploy'
         required: true
-        default: 'Build'
+        default: 'Build & Deploy'
 
 jobs:
   build:
@@ -47,15 +47,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - run: git pull
-      
+
       - name: Zip files
-      - run: zip -r dist.zip ./dist/*
-      
+        run: zip -r dist.zip ./dist/*
+
       - name: Install CLI Tool
-      - run: npm install chrome-webstore-upload-cli@2.0.1 -g
+        run: npm install chrome-webstore-upload-cli@2.0.1 -g
 
       - name: Upload Files
-      - run: |
+        run: |
           cd dist && chrome-webstore-upload upload --auto-publish
         env:
           EXTENSION_ID: ${{ secrets.EXTENSION_ID }}
