@@ -1,7 +1,8 @@
 function extendProblemPage() {
   const menu = document.getElementsByClassName('problem-menu')[0];
   if (!menu) return;
-  const pid = getProblemID(location.href);
+  const problemMenuElement = menu.querySelector('a[href^="/problem"]');
+  const pid = getProblemID(problemMenuElement.href);
 
   // Constants
   const STORAGE_TIMER = 'problem-timers';
@@ -22,10 +23,18 @@ function extendProblemPage() {
   );
   if (searchMenu) {
     (async () => {
+      if (pid == null) {
+        console.log('pid is null');
+        return;
+      }
       const qc = await getQuestionCount();
       const qcount = qc ? qc[pid] : null;
-      console.log('qcount', qc);
       const currentTime = new Date().getTime();
+      console.group('problem.js');
+      console.log('qcounts', qc);
+      console.log(`qcounts[${pid}]:`, qcount);
+      console.log('currentTime', currentTime);
+      console.groupEnd();
       const UPDATE_DURATION = 24 * 3600 * 1000; // 24 hours
       let estimates = 0;
       if (qcount && currentTime - qcount.last_updated <= UPDATE_DURATION) {
@@ -54,9 +63,9 @@ function extendProblemPage() {
           // store this result
           setQuestionCount(estimates);
         }
-        // update UI
-        searchMenu.innerText += ' (' + estimates + ')';
       }
+      // update UI
+      searchMenu.innerText += ' (' + estimates + ')';
     })();
   }
 
