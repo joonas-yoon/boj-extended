@@ -19,6 +19,7 @@ assignees: ''
  - Browser:
  - OS:
  - Architecture:
+ - App version: (설치되어있는 boj-extended 확장 프로그램 버전)
 <!--
 Windows의 경우, PowerShell 에서 아래 커맨드를 복사/붙여넣기한 결과를 적어주세요.
 " - OS: $([Environment]::OSVersion.Version)"
