@@ -68,7 +68,7 @@ const Problems = {
   fetchFromRemote: function () {
     const self = this;
     const url =
-      'https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/db.json';
+      'https://raw.githubusercontent.com/joonas-yoon/boj-extended/release/db.json';
     const httpRequest = new XMLHttpRequest();
     if (!httpRequest) {
       console.error('Can not create XMLHTTP instance.');
