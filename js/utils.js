@@ -278,9 +278,11 @@ async function fetchProblemsByUser(id) {
 
   const storageKey = Constants.STORAGE_PREFIX + 'problems_' + id;
   const storedValue = await localStorage.getItem(storageKey);
-  console.log('fetch from storage:', storageKey, storedValue);
+  console.groupCollapsed('fetch from storage');
+  console.log(storageKey, storedValue);
   const cacheData = JSON.parse(storedValue) || {};
   console.log('cacheData', cacheData);
+  console.groupEnd();
   const result = {};
 
   const currentTimestamp = new Date().getTime();
