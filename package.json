@@ -1,6 +1,6 @@
 {
   "name": "boj-extended",
-  "version": "1.7.0",
+  "version": "1.7.3",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,11 +20,15 @@
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-arrow-functions": "^7.16.7",
     "@babel/plugin-transform-runtime": "^7.16.0",
-    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-env": "^7.16.8",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
     "babel-minify": "^0.5.1",
     "babel-plugin-transform-remove-console": "^6.9.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
     "eslint": "^7.32.0",
     "eslint-auto-fix": "^1.0.3",
     "eslint-config-google": "^0.14.0",
@@ -33,9 +37,11 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-promise": "^4.3.1",
-    "prettier": "^2.4.1"
+    "prettier": "^2.5.1"
   },
   "dependencies": {
-    "babel-runtime": "^6.26.0"
+    "@babel/polyfill": "^7.12.1",
+    "@babel/runtime": "7.0.0-beta.55",
+    "core-js": "^3.20.3"
   }
 }

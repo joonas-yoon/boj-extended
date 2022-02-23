@@ -111,9 +111,6 @@ html[theme='dark'] .headline h4 {
 html[theme='dark'] .modal-content {
   background-color: #202020;
 }
-html[theme='dark'] table.table tr td a {
-  color: #89c4e8;
-}
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > td,
 html[theme='dark'] .table-striped > tbody > tr:nth-child(odd) > th {
   background-color: #1f1f1f;
@@ -459,29 +456,29 @@ html[theme='dark'] .posts .dl-horizontal a {
   color: #c5c5c5;
 }
 html[theme='dark'] .result-ac {
-  color: #09b58c !important;
+  color: #09b58c;
 }
 html[theme='dark'] .result-pac {
-  color: #efc050 !important;
+  color: #efc050;
 }
 html[theme='dark'] .result-wa {
-  color: #dd4124 !important;
+  color: #dd4124;
 }
 html[theme='dark'] .result-rte {
-  color: #8d6bd8 !important;
+  color: #8d6bd8;
 }
 html[theme='dark'] .result-ce {
-  color: #458ac7 !important;
+  color: #458ac7;
 }
 html[theme='dark'] .result-pe,
 html[theme='dark'] .result-tle,
 html[theme='dark'] .result-mle,
 html[theme='dark'] .result-ole {
-  color: #fa7268 !important;
+  color: #fa7268;
 }
 html[theme='dark'] .result-co,
 html[theme='dark'] .result-del {
-  color: #505050 !important;
+  color: #505050;
 }
 html[theme='dark'] .close {
   color: white;

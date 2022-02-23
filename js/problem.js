@@ -1,14 +1,12 @@
 function extendProblemPage() {
   const menu = document.getElementsByClassName('problem-menu')[0];
   if (!menu) return;
-  const pid = parseInt(
-    menu
-      .querySelector('a[href^="/problem"]')
-      .getAttribute('href')
-      .replace('/problem/', '')
-  );
+  const problemMenuElement = menu.querySelector('a[href^="/problem"]');
+  const pid = getProblemID(problemMenuElement.href);
 
-  const storageTimerList = 'problem-timers';
+  // Constants
+  const STORAGE_TIMER = 'problem-timers';
+  const STORAGE_PROBLEM_BOARD = 'problem-boards';
 
   const container = document
     .getElementsByClassName('content')[0]
@@ -24,20 +22,66 @@ function extendProblemPage() {
     'ul.problem-menu li a[href^="/board/search/"]'
   );
   if (searchMenu) {
-    Utils.requestAjax(
-      'https://www.acmicpc.net/board/search/all/problem/' + pid,
-      (response) => {
-        const doc = new DOMParser().parseFromString(response, 'text/html');
-        const pages = doc.querySelectorAll('ul.pagination li').length - 2;
-        const rows = doc.querySelectorAll('.table > tbody > tr:not(.success)')
-          .length;
-        let estimates = rows;
-        if (pages > 1) {
-          estimates = (pages - 1) * rows + '+';
-        }
-        searchMenu.innerText += ' (' + estimates + ')';
+    (async () => {
+      if (pid == null) {
+        console.log('pid is null');
+        return;
       }
-    );
+      const qc = await getQuestionCount();
+      const qcount = qc ? qc[pid] : null;
+      const currentTime = new Date().getTime();
+      console.group('problem.js');
+      console.log('qcounts', qc);
+      console.log(`qcounts[${pid}]:`, qcount);
+      console.log('currentTime', currentTime);
+      console.groupEnd();
+      const UPDATE_DURATION = 24 * 3600 * 1000; // 24 hours
+      let estimates = 0;
+      if (qcount && currentTime - qcount.last_updated <= UPDATE_DURATION) {
+        // use cache
+        estimates = qcount.count || 0;
+      } else {
+        const doc = await fetch(
+          `https://www.acmicpc.net/board/search/all/problem/${pid}`
+        )
+          .then((res) => res.text())
+          .then((html) => new DOMParser().parseFromString(html, 'text/html'))
+          .catch((err) => {
+            console.error(err);
+            return null;
+          });
+        if (doc !== null) {
+          const pages = doc.querySelectorAll('ul.pagination li').length - 2;
+          const rows = doc.querySelectorAll(
+            '.table > tbody > tr:not(.success)'
+          ).length;
+          // count questions
+          estimates = rows;
+          if (pages > 1) {
+            estimates = (pages - 1) * rows + '+';
+          }
+          // store this result
+          setQuestionCount(estimates);
+        }
+      }
+      // update UI
+      searchMenu.innerText += ' (' + estimates + ')';
+    })();
+  }
+
+  async function getQuestionCount() {
+    return JSON.parse(await localStorage.getItem(STORAGE_PROBLEM_BOARD));
+  }
+
+  async function setQuestionCount(val) {
+    const data = {
+      ...(await getQuestionCount()),
+      [pid]: {
+        count: val,
+        last_updated: new Date().getTime(),
+      },
+    };
+    await localStorage.setItem(STORAGE_PROBLEM_BOARD, JSON.stringify(data));
   }
 
   function stopTimer() {
@@ -85,10 +129,10 @@ function extendProblemPage() {
           // save in storage
           const startTime = new Date().getTime();
           const endTime = startTime + t * 1000;
-          Config.load(storageTimerList, (list) => {
+          Config.load(STORAGE_TIMER, (list) => {
             list = list || {};
             list[pid] = { startTime: startTime, endTime: endTime };
-            Config.save(storageTimerList, list, (result) => {
+            Config.save(STORAGE_TIMER, list, (result) => {
               progress.show();
               progress.start(startTime, endTime);
               console.log('list updated', result);
@@ -101,10 +145,10 @@ function extendProblemPage() {
         button.classList.add('btn-primary');
         button.classList.remove('btn-danger');
         // sync setting
-        Config.load(storageTimerList, (list) => {
+        Config.load(STORAGE_TIMER, (list) => {
           if (!list) return;
           delete list[pid];
-          Config.save(storageTimerList, list, (result) => {
+          Config.save(STORAGE_TIMER, list, (result) => {
             progress.hide();
             progress.stop();
           });
@@ -184,7 +228,7 @@ function extendProblemPage() {
     form.appendChild(divider);
 
     const button = document.createElement('button');
-    Config.load(storageTimerList, (list) => {
+    Config.load(STORAGE_TIMER, (list) => {
       console.log(list);
       const info = list ? list[pid] : undefined;
       if (info) {

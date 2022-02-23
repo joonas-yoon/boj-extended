@@ -1,13 +1,19 @@
 {
   "presets":  [
-    ["@babel/preset-env",{
-      "targets": "chrome 55"
-    }]
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "chrome": "55",
+          "firefox": "60"
+        },
+        "modules": false
+      }
+    ]
   ],
   "plugins": [
-    "@babel/plugin-transform-runtime",
     "@babel/plugin-proposal-class-properties",
-    "dynamic-import-node"
+    "@babel/plugin-transform-arrow-functions"
   ],
   "ignore": ["**/build/*", "**/*.min.js"],
   "env": {

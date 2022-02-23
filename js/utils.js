@@ -249,9 +249,16 @@ function createVsForm(name1, name2) {
   return div;
 }
 
+function addElementToBar(element) {
+  const bar = document.querySelector('ul.loginbar');
+  const divider = Utils.createElement('li', { class: 'topbar-devider' });
+  bar.appendChild(divider);
+  bar.appendChild(element);
+}
+
 // return { pid: className, 1001: 'result-ac', 1002: 'result-pac', 1003: 'result-wa', ... }
 async function fetchProblemsByUser(id) {
-  if (!id) return;
+  if (!id) return null;
 
   // parse user information
   function parse(htmlText) {
@@ -269,9 +276,13 @@ async function fetchProblemsByUser(id) {
     return results;
   }
 
-  const storageKey = Config.STORAGE_PREFIX + '__problems-' + id;
-  const cacheData = JSON.parse((await localStorage.getItem(storageKey)) || {});
+  const storageKey = Constants.STORAGE_PREFIX + 'problems_' + id;
+  const storedValue = await localStorage.getItem(storageKey);
+  console.groupCollapsed('fetch from storage');
+  console.log(storageKey, storedValue);
+  const cacheData = JSON.parse(storedValue) || {};
   console.log('cacheData', cacheData);
+  console.groupEnd();
   const result = {};
 
   const currentTimestamp = new Date().getTime();
@@ -298,4 +309,21 @@ async function fetchProblemsByUser(id) {
 
 function getLastNumberFromHref(href) {
   return parseInt(href.substr(href.lastIndexOf('/') + 1));
+}
+
+function getPathname(url) {
+  try {
+    if (/^http(s)?:\/\//.test(url)) url = new URL(url);
+    else url = new URL(location.protocol + location.hostname + url);
+    return url.pathname;
+  } catch (error) {
+    return null;
+  }
+}
+
+function getProblemID(url) {
+  url = getPathname(url);
+  if (!url || !/^\/problem\/[0-9]{4,}$/.test(url)) return null;
+  const pid = getLastNumberFromHref(url);
+  return pid == null || isNaN(pid) ? null : pid;
 }

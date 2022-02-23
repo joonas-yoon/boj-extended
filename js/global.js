@@ -4,6 +4,21 @@ function extendGlobal() {
   extendReformatMessage();
   extendProblemPage();
   extendQuickSearch();
+  extendProblemColor();
+
+  async function extendProblemColor() {
+    const problemInfo = await fetchProblemsByUser(getMyUsername());
+    if (!problemInfo) return;
+    // apply colors
+    document.querySelectorAll('a[href]').forEach((el) => {
+      const href = el.getAttribute('href');
+      if (href == '#') return;
+      const pid = getProblemID(href);
+      if (pid !== null && problemInfo[pid]) {
+        el.classList.add(problemInfo[pid] || '');
+      }
+    });
+  }
 
   function extendReformatMessage() {
     const resultPattern = {

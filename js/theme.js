@@ -7,17 +7,10 @@
 })();
 
 function extendTheme() {
-  // add html element
-  const bar = document.querySelector('ul.loginbar');
-  const divider = document.createElement('li');
-  divider.setAttribute('class', 'topbar-devider');
-  bar.appendChild(divider);
   const li = document.createElement('li');
   const btn = document.createElement('a');
   btn.innerText = '테마 불러오는 중...';
-  btn.style.cursor = 'pointer';
   li.appendChild(btn);
-  bar.appendChild(li);
   btn.addEventListener('click', (evt) => {
     evt.preventDefault();
     const theme = document.body.parentNode.getAttribute('theme');
@@ -26,6 +19,7 @@ function extendTheme() {
       applyTheme(btn, result);
     });
   });
+  addElementToBar(li);
 
   // after page loaded
   Config.load('theme', (result) => {
