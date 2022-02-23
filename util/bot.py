@@ -4,7 +4,6 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from datetime import datetime
 import sys
-import requests
 import json
 
 try:
@@ -19,13 +18,18 @@ try:
     driver = webdriver.Chrome('chromedriver', options=options)
     driver.implicitly_wait(3)
     assert driver is not None
-    
+
     # access BOJ
     driver.get('https://www.acmicpc.net/problemset')
+    sleep(10) # wait 10 seconds for page load
 
-    pages = len(driver.find_element_by_class_name('pagination').find_elements_by_tag_name('li'))
+    paginator = driver.find_element_by_class_name('pagination')
+    print('paginator', paginator)
+    page_li = paginator.find_elements_by_tag_name('li')
+    print('page_li', page_li)
+    pages = len(page_li)
     print('total pages:', pages)
-    
+
     problems = {}
     l = -1
     for page in range(pages):
@@ -48,7 +52,7 @@ try:
             print('...')
         # sleep randomly [500ms, 1000ms]
         sleep(randint(500, 1000) / 1000)
-    
+
     # export json as file
     with open('db.json', 'w') as f:
         db = {
