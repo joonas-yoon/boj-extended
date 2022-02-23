@@ -5,6 +5,12 @@ on:
     # every 4:00 am, MON/WED/FRI (UTC+9)
     # but 7:00 pm, SUN/TUE/THU in UTC
     - cron: '0 19 * * 0,2,4'
+  workflow_dispatch:
+    inputs:
+      update:
+        description: 'Run bot'
+        required: true
+        default: 'Run bot in manually'
 
 jobs:
   build:
