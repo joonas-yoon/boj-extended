@@ -21,11 +21,10 @@ try:
 
     # access BOJ
     driver.get('https://www.acmicpc.net/problemset')
-    sleep(10) # wait 10 seconds for page load
 
-    paginator = driver.find_element_by_class_name('pagination')
+    paginator = driver.find_element(By.CLASS_NAME, 'pagination')
     print('paginator', paginator)
-    page_li = paginator.find_elements_by_tag_name('li')
+    page_li = paginator.find_elements(By.TAG_NAME, 'li')
     print('page_li', page_li)
     pages = len(page_li)
     print('total pages:', pages)
