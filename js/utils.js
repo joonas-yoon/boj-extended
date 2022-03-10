@@ -24,7 +24,7 @@ const Utils = {
     httpRequest.send();
   },
   loadCSS: function (url) {
-    const path = chrome.extension.getURL(url);
+    const path = chrome.runtime.getURL(url);
     const css = document.createElement('link');
     css.setAttribute('rel', 'stylesheet');
     css.setAttribute('type', 'text/css');
@@ -32,7 +32,7 @@ const Utils = {
     document.getElementsByTagName('head')[0].appendChild(css);
   },
   loadScript: function (url) {
-    const path = chrome.extension.getURL(url);
+    const path = chrome.runtime.getURL(url);
     const tag = document.createElement('script');
     tag.setAttribute('type', 'text/javascript');
     tag.setAttribute('src', path);
