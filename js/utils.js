@@ -256,7 +256,14 @@ function addElementToBar(element) {
   bar.appendChild(element);
 }
 
-// return { pid: className, 1001: 'result-ac', 1002: 'result-pac', 1003: 'result-wa', ... }
+/**
+ * @deprecated since version 1.7.6
+ *
+ * fetch information for problems from user profile
+ *
+ * @param {string} id username
+ * @return {Array} classes for problem color { pid: className, 1001: 'result-ac', ... }
+ */
 async function fetchProblemsByUser(id) {
   if (!id) return null;
 
