@@ -1,0 +1,40 @@
+name: lint
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+      - dev
+  workflow_dispatch:
+    inputs:
+      update:
+        description: 'lint'
+        required: true
+        default: 'Lint'
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up node 14.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '14.x'
+
+    - name: Install dependencies and Lint
+      run: |
+        npm ci
+        ls -al
+        npm run lint
+
+    - name: Commit report
+      run: |
+          git config user.name 'Github Actions'
+          git config user.email 'joo-na@users.noreply.github.com'
+          git add -fN .
+          git diff -- . > git.diff
+          [ -s git.diff ] && git add -f . && git commit -m ":adhesive_bandage: lint" && git push || echo "Skip commit"
