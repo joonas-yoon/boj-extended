@@ -24,7 +24,7 @@ const Utils = {
     httpRequest.send();
   },
   loadCSS: function (url) {
-    const path = chrome.extension.getURL(url);
+    const path = chrome.runtime.getURL(url);
     const css = document.createElement('link');
     css.setAttribute('rel', 'stylesheet');
     css.setAttribute('type', 'text/css');
@@ -32,7 +32,7 @@ const Utils = {
     document.getElementsByTagName('head')[0].appendChild(css);
   },
   loadScript: function (url) {
-    const path = chrome.extension.getURL(url);
+    const path = chrome.runtime.getURL(url);
     const tag = document.createElement('script');
     tag.setAttribute('type', 'text/javascript');
     tag.setAttribute('src', path);
@@ -256,7 +256,14 @@ function addElementToBar(element) {
   bar.appendChild(element);
 }
 
-// return { pid: className, 1001: 'result-ac', 1002: 'result-pac', 1003: 'result-wa', ... }
+/**
+ * @deprecated since version 1.7.6
+ *
+ * fetch information for problems from user profile
+ *
+ * @param {string} id username
+ * @return {Array} classes for problem color { pid: className, 1001: 'result-ac', ... }
+ */
 async function fetchProblemsByUser(id) {
   if (!id) return null;
 

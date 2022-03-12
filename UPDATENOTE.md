@@ -1,3 +1,21 @@
+## 1.7.6
+
+**Features**
+
+- Manifest Version 3로 변경 [(docs)](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-migration/)
+- - Google Analytics 삭제
+
+**Deprecated**
+
+- 게시글 개수 표시 삭제 [(#80)](https://github.com/joonas-yoon/boj-extended/issues/80)
+- 문제 해결 여부에 따른 색상 표시 삭제 [(#80)](https://github.com/joonas-yoon/boj-extended/issues/80)
+
+## 1.7.5.2
+
+**Fixes**
+
+- 게시글 개수 버그 수정
+
 ## 1.7.5.1
 
 `1.7.4`, `1.7.5`와 동일 (배포 자동화 테스트를 위한 단순한 버전 업)
