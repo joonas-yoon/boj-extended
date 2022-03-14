@@ -1,4 +1,4 @@
-importScripts('./constants.js');
+importScripts(chrome.runtime.getURL('/js/constants.js'));
 
 function openSettingPage() {
   chrome.runtime.openOptionsPage();
@@ -81,12 +81,13 @@ const Problems = {
           last_updated: null,
         };
       });
+    console.log('fetchFromRemote', newDB);
     // replace to new one
     if (newDB !== null) {
-      const { [Constants.BG_DB_PROBLEMS]: rawOldDB } =
-        await chrome.storage.local.get(Constants.BG_DB_PROBLEMS);
-      console.log('oldDB', JSON.parse(rawOldDB || '{}'));
-      const oldDB = JSON.parse(rawOldDB);
+      const {
+        [Constants.BG_DB_PROBLEMS]: rawOldDB,
+      } = await chrome.storage.local.get(Constants.BG_DB_PROBLEMS);
+      const oldDB = JSON.parse(rawOldDB || '{}');
       if (
         !oldDB ||
         !oldDB['last_updated'] ||

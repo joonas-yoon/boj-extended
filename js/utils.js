@@ -194,6 +194,15 @@ function progressTimer() {
   };
 }
 
+/**
+ * @deprecated since version 1.7.7
+ *
+ * create a form to versus user
+ *
+ * @param {String} name1 username to diff
+ * @param {String} name2 another username to diff
+ * @return {HTMLElement} form
+ */
 function createVsForm(name1, name2) {
   const div = Utils.createElement('div', {
     class: 'vs',

@@ -6,25 +6,23 @@
     return;
   }
 
-  const loc = window.location;
+  const url = window.location.pathname;
 
-  if (loc.pathname.startsWith('/user/')) {
+  if (url.startsWith('/user/')) {
     extendUserPage();
-  } else if (loc.pathname.startsWith('/status')) {
+  } else if (url.startsWith('/status')) {
     extendStatusPage();
-  } else if (loc.pathname.startsWith('/rejudge/')) {
+  } else if (url.startsWith('/rejudge/')) {
     extendRejudgePage();
-  } else if (loc.pathname.startsWith('/group/list')) {
+  } else if (url.startsWith('/group/list')) {
     extendGroupListPage();
-  } else if (loc.pathname.startsWith('/group/member/')) {
+  } else if (url.startsWith('/group/member/')) {
     extendGroupMemberPage();
-  } else if (loc.pathname.startsWith('/board/')) {
+  } else if (url.startsWith('/board/')) {
     extendBoardPage();
-  } else if (loc.pathname.startsWith('/vs/')) {
-    extendVs();
-  } else if (loc.pathname.startsWith('/search')) {
+  } else if (url.startsWith('/search')) {
     extendSearchPage();
-  } else if (isSettingPage(loc.pathname)) {
+  } else if (isSettingPage(url)) {
     extendSettingPage();
   }
 
