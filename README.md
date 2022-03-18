@@ -16,8 +16,8 @@
 |    [![Timer](docs/images/screenshot-timer2.png)][5]    |   [![Timer List](docs/images/screenshot-timer.png)][6]    |
 |                        **설정**                        |                       **빠른 검색**                       |
 |   [![Option](docs/images/screenshot-option.png)][7]    | [![Quick Search](docs/images/screenshot-search.png)][10]  |
-|                        **그룹**                        |                                                       |
-| [![Groups](docs/images/screenshot-group-list.png)][9]  |                                                       |
+|                        **그룹**                        |                                                           |
+| [![Groups](docs/images/screenshot-group-list.png)][9]  |                                                           |
 
 ## 설치 및 사용
 

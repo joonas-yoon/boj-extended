@@ -84,9 +84,8 @@ const Problems = {
     console.log('fetchFromRemote', newDB);
     // replace to new one
     if (newDB !== null) {
-      const {
-        [Constants.BG_DB_PROBLEMS]: rawOldDB,
-      } = await chrome.storage.local.get(Constants.BG_DB_PROBLEMS);
+      const { [Constants.BG_DB_PROBLEMS]: rawOldDB } =
+        await chrome.storage.local.get(Constants.BG_DB_PROBLEMS);
       const oldDB = JSON.parse(rawOldDB || '{}');
       if (
         !oldDB ||
