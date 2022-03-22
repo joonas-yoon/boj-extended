@@ -247,7 +247,7 @@
     "1245": "농장 관리",
     "1246": "온라인 판매",
     "1247": "부호",
-    "1248": "맞춰봐",
+    "1248": "Guess",
     "1249": "워드똑똑",
     "1250": "색칠된 공들",
     "1251": "단어 나누기",
@@ -22764,7 +22764,18 @@
     "24827": "Jack The Lumberjack",
     "24828": "Random Digital Exponentiation",
     "24829": "Counting Codes",
-    "24830": "Broken Calculator"
+    "24830": "Broken Calculator",
+    "24831": "Two Rabbits",
+    "24832": "Longest Palindrome",
+    "24833": "Air Conditioner",
+    "24834": "Shortest and Longest LIS",
+    "24835": "1-Trees and Queries",
+    "24836": "Animal Observation (easy version)",
+    "24837": "Animal Observation (hard version)",
+    "24839": "Speed Typing",
+    "24840": "Challenge Nine",
+    "24841": "Palindrome Free Strings",
+    "24842": "Interesting Integers"
   },
-  "last_updated": "2022-03-20 19:38:25.381950"
+  "last_updated": "2022-03-22 19:40:38.574551"
 }
