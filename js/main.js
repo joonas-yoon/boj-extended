@@ -16,8 +16,6 @@
     extendRejudgePage();
   } else if (url.startsWith('/group/list')) {
     extendGroupListPage();
-  } else if (url.startsWith('/group/member/')) {
-    extendGroupMemberPage();
   } else if (url.startsWith('/board/')) {
     extendBoardPage();
   } else if (url.startsWith('/search')) {
