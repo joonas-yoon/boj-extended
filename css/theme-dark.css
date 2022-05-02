@@ -1081,3 +1081,12 @@ html[theme='dark'] #quick-search .tabs .tab.active {
   background-color: #202020;
   color: #ffffff;
 }
+html[theme='dark'] .theme-dropdown {
+  background-color: #363636;
+}
+html[theme='dark'] .theme-dropdown ul.theme-ul li.theme-li {
+  color: #dfdfdf;
+}
+html[theme='dark'] .theme-dropdown ul.theme-ul li.theme-li:hover {
+  background-color: #454545;
+}

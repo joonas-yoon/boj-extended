@@ -7,29 +7,69 @@
 })();
 
 function extendTheme() {
-  const li = document.createElement('li');
+  const container = Utils.createElement('li', { class: 'theme-selector' });
+  const dropdown = Utils.createElement('div', { class: 'theme-dropdown' });
+  const ul = Utils.createElement('ul', { class: 'theme-ul' });
+  const themeList = Object.keys(Constants.THEMES) || [];
+  for (const theme of themeList) {
+    const li = Utils.createElement('li', {
+      class: 'theme-li',
+    });
+    li.innerText = Constants.THEMES[theme];
+    li.addEventListener('click', (evt) => {
+      evt.preventDefault();
+      onSelectTheme(theme);
+    });
+    ul.appendChild(li);
+  }
   const btn = document.createElement('a');
   btn.innerText = '테마 불러오는 중...';
-  li.appendChild(btn);
   btn.addEventListener('click', (evt) => {
     evt.preventDefault();
-    const theme = document.body.parentNode.getAttribute('theme');
-    const newTheme = theme == 'dark' ? 'light' : 'dark';
-    Config.save('theme', newTheme, (result) => {
-      applyTheme(btn, result);
-    });
+    showDropdown(!isShowDropdown());
   });
-  addElementToBar(li);
+
+  // release dropdown
+  document.addEventListener('click', (evt) => {
+    if (!evt.target.closest(`.${container.className}`)) {
+      showDropdown(false);
+    }
+  });
+
+  // add element to DOM
+  dropdown.appendChild(ul);
+  container.appendChild(btn);
+  container.appendChild(dropdown);
+  addElementToBar(container);
 
   // after page loaded
-  Config.load('theme', (result) => {
-    applyTheme(btn, result);
+  Config.load('theme', (appliedTheme) => {
+    applyTheme(btn, appliedTheme);
   });
+
+  function onSelectTheme(theme) {
+    Config.save('theme', theme, (appliedTheme) => {
+      applyTheme(btn, appliedTheme);
+    });
+  }
+
+  const dAttrKey = 'data-dropdown';
+  function isShowDropdown() {
+    return dropdown.hasAttribute(dAttrKey);
+  }
+
+  function showDropdown(visible) {
+    if (visible) {
+      dropdown.setAttribute(dAttrKey, true);
+    } else {
+      dropdown.removeAttribute(dAttrKey);
+    }
+  }
 }
 
 function applyTheme(button, theme) {
   document.body.parentNode.setAttribute('theme', theme);
   if (button) {
-    button.innerText = theme == 'dark' ? '밝은 테마' : '어두운 테마';
+    button.innerText = Constants.THEMES[theme];
   }
 }

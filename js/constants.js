@@ -12,4 +12,8 @@ const Constants = {
   BG_DB_PROBLEMS: 'boj-extended-DB-PROBLEMS',
   BG_PROBLEM_FETCH_URL:
     'https://raw.githubusercontent.com/joonas-yoon/boj-extended/release/db.json',
+  THEMES: {
+    light: '밝은 테마',
+    dark: '어두운 테마',
+  },
 };

@@ -176,3 +176,35 @@
 .topbar .loginbar > li > a {
   cursor: pointer;
 }
+
+/* Theme Selector */
+.theme-dropdown {
+  display: block;
+  position: absolute;
+  top: 2em;
+  left: 0;
+  width: 120px;
+  padding: 5px 0px;
+  background-color: #ffffff;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.theme-dropdown:not([data-dropdown]) {
+  display: none;
+}
+
+.theme-dropdown ul.theme-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.theme-dropdown ul.theme-ul li.theme-li {
+  list-style: none;
+  color: #5a5a5a;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.theme-dropdown ul.theme-ul li.theme-li:hover {
+  background-color: #f3f3f3;
+}
