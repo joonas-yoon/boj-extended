@@ -15,5 +15,6 @@ const Constants = {
   THEMES: {
     light: '밝은 테마',
     dark: '어두운 테마',
+    rigel: 'Rigel',
   },
 };

@@ -1081,6 +1081,7 @@ html[theme='dark'] #quick-search .tabs .tab.active {
   background-color: #202020;
   color: #ffffff;
 }
+/* Theme Selector */
 html[theme='dark'] .theme-dropdown {
   background-color: #363636;
 }
