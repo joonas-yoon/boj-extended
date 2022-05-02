@@ -11,7 +11,7 @@ function extendGroupListPage() {
     // /group/list (only for logged user)
     if (isMyList) {
       colNames = [
-        { text: '문제집', url: '/group/workbook/list/' },
+        { text: '문제집', url: '/group/workbook/' },
         { text: '채점 현황', url: '/status?group_id=' },
         { text: '연습', url: '/group/practice/' },
         { text: '랭킹', url: '/group/ranklist/' },
