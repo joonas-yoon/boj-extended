@@ -1,6 +1,6 @@
 (function extendThemePre() {
   window.addEventListener('DOMContentLoaded', () => {
-    Config.load('theme', (theme) => {
+    Config.load(Constants.CONFIG_THEME, (theme) => {
       applyTheme(null, theme);
     });
   });
@@ -43,12 +43,12 @@ function extendTheme() {
   addElementToBar(container);
 
   // after page loaded
-  Config.load('theme', (appliedTheme) => {
+  Config.load(Constants.CONFIG_THEME, (appliedTheme) => {
     applyTheme(btn, appliedTheme);
   });
 
   function onSelectTheme(theme) {
-    Config.save('theme', theme, (appliedTheme) => {
+    Config.save(Constants.CONFIG_THEME, theme, (appliedTheme) => {
       applyTheme(btn, appliedTheme);
     });
   }

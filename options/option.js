@@ -17,13 +17,13 @@
   const oTheme = document.getElementsByClassName('option-theme');
   for (let i = 0; i < oTheme.length; ++i) {
     oTheme[i].addEventListener('change', (evt) => {
-      Config.save('theme', evt.target.value, (result) => {
+      Config.save(Constants.CONFIG_THEME, evt.target.value, (result) => {
         applyTheme(null, result);
       });
     });
   }
 
-  Config.load('theme', (theme) => {
+  Config.load(Constants.CONFIG_THEME, (theme) => {
     for (let i = 0; i < oTheme.length; ++i) {
       oTheme[i].checked = oTheme[i].value == theme;
     }

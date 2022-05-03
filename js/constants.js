@@ -4,6 +4,8 @@ const Constants = {
   CONFIG_SHOW_STATUS_HISTORY: 'show-status-history',
   CONFIG_SHOW_STATUS_PID: 'show-status-pid',
   CONFIG_SHOW_FAKE_RESULT: 'show-fake-result',
+  CONFIG_THEME: 'theme',
+  CONFIG_THEME_IMAGE_FILTER: 'theme-image-filter',
   STORAGE_PREFIX: 'boj-extended-local-',
   STORAGE_STATUS_HISTORY: 'boj-extended-local-status-history',
   QUICK_SEARCH_URL: 'https://aewewtnd4p-dsn.algolia.net/1/indexes/*/queries',
