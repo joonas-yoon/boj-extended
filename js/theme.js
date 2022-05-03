@@ -1,5 +1,6 @@
 (function extendThemePre() {
   window.addEventListener('DOMContentLoaded', () => {
+    applyTheme(null, localStorage.getItem('systemTheme'));
     Config.load(Constants.CONFIG_THEME, (theme) => {
       applyTheme(null, theme);
     });
@@ -18,13 +19,13 @@ function extendTheme() {
     li.innerText = Constants.THEMES[theme];
     li.addEventListener('click', (evt) => {
       evt.preventDefault();
-      onSelectTheme(theme);
+      saveTheme(theme);
     });
     ul.appendChild(li);
   }
-  const btn = document.createElement('a');
-  btn.innerText = '테마 불러오는 중...';
-  btn.addEventListener('click', (evt) => {
+  const themeButton = document.createElement('a');
+  themeButton.innerText = '테마 불러오는 중...';
+  themeButton.addEventListener('click', (evt) => {
     evt.preventDefault();
     showDropdown(!isShowDropdown());
   });
@@ -38,19 +39,19 @@ function extendTheme() {
 
   // add element to DOM
   dropdown.appendChild(ul);
-  container.appendChild(btn);
+  container.appendChild(themeButton);
   container.appendChild(dropdown);
   addElementToBar(container);
 
   // after page loaded
-  Config.load(Constants.CONFIG_THEME, (appliedTheme) => {
-    applyTheme(btn, appliedTheme);
-  });
+  Config.load(Constants.CONFIG_THEME, selectTheme);
 
-  function onSelectTheme(theme) {
-    Config.save(Constants.CONFIG_THEME, theme, (appliedTheme) => {
-      applyTheme(btn, appliedTheme);
-    });
+  function saveTheme(theme) {
+    Config.save(Constants.CONFIG_THEME, theme, selectTheme);
+  }
+
+  function selectTheme(theme) {
+    applyTheme(themeButton, theme);
   }
 
   const dAttrKey = 'data-dropdown';
@@ -68,8 +69,36 @@ function extendTheme() {
 }
 
 function applyTheme(button, theme) {
-  document.body.parentNode.setAttribute('theme', theme);
-  if (button) {
-    button.innerText = Constants.THEMES[theme];
+  setTimeout(() => {
+    if (button) {
+      button.innerText = Constants.THEMES[theme];
+    }
+  }, 100);
+  // detect dark mode by user preference
+  if (theme == 'auto') {
+    theme = getThemeBySystem();
+    setTimeout(detectDarkmode, 100);
   }
+  document.body.parentNode.setAttribute('theme', theme);
+}
+
+function detectDarkmode() {
+  const systemMedia = window.matchMedia('(prefers-color-scheme: dark)');
+  setThemeBySystem(systemMedia);
+  // add event listener
+  systemMedia.addEventListener('change', setThemeBySystem);
+}
+
+function getThemeBySystem(systemMedia) {
+  systemMedia = systemMedia || window.matchMedia('(prefers-color-scheme: dark)');
+  const isDarkMode = !!systemMedia.matches;
+  return isDarkMode ? 'dark' : 'light';
+}
+
+function setThemeBySystem(systemMedia) {
+  const theme = getThemeBySystem(systemMedia);
+  // NOTE: this do not save to config
+  applyTheme(null, theme);
+  // for caching
+  localStorage.setItem('systemTheme', theme);
 }

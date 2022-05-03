@@ -15,6 +15,7 @@ const Constants = {
   BG_PROBLEM_FETCH_URL:
     'https://raw.githubusercontent.com/joonas-yoon/boj-extended/release/db.json',
   THEMES: {
+    auto: '시스템 설정',
     light: '밝은 테마',
     dark: '어두운 테마',
     rigel: 'Rigel',
