@@ -279,23 +279,22 @@ html[theme='rigel'] .pagination > .active > span:focus {
   background-color: #7eb2dd;
   border-color: #146078;
 }
-
 html[theme='rigel'] .nav .open > a,
 html[theme='rigel'] .nav .open > a:hover,
 html[theme='rigel'] .nav .open > a:focus {
-  background-color: #333;
-  color: #cfcfcf;
+  background-color: #008eb6;
+  color: #e6e6dc;
 }
 html[theme='rigel'] .nav > li > a:hover,
 html[theme='rigel'] .nav > li > a:focus {
-  background-color: #383838;
-  color: #cfcfcf;
+  background-color: #3c739a;
+  color: #e6e6dc;
 }
 html[theme='rigel'] .nav-pills > li.active > a,
 html[theme='rigel'] .nav-pills > li.active > a:hover,
 html[theme='rigel'] .nav-pills > li.active > a:focus {
+  background-color: #70b2e1;
   color: #fff;
-  background-color: #3c739a;
 }
 html[theme='rigel'] .reg-page {
   color: #efefef;
@@ -402,18 +401,18 @@ html[theme='rigel'] .chosen-container-single .chosen-search input[type='text'] {
   border-color: #3f3f3f;
 }
 html[theme='rigel'] .dropdown-menu {
-  background-color: #333;
+  background-color: #008eb6;
 }
 html[theme='rigel'] .dropdown-menu > li > a {
   color: #c1c1b4;
 }
 html[theme='rigel'] .dropdown-menu .divider {
-  background-color: #4a4a4a;
+  background-color: #70b2e1;
 }
 html[theme='rigel'] .dropdown-menu > li > a:hover,
 html[theme='rigel'] .dropdown-menu > li > a:focus {
-  color: #00394f;
-  background-color: #00394f !important;
+  color: #e6e6dc;
+  background-color: #70b2e1 !important;
 }
 html[theme='rigel'] .funny-boxes {
   background: #001a26;
@@ -480,13 +479,13 @@ html[theme='rigel'] .page-header > h1 {
   color: white;
 }
 html[theme='rigel'] .blog-twitter .blog-twitter-inner {
-  background: #252525;
+  background: #0b3546;
 }
 html[theme='rigel'] .blog-twitter .blog-twitter-inner:after {
-  border-top: 15px solid #383838;
+  border-top: 15px solid #1c8db2;
 }
 html[theme='rigel'] .blog-twitter .blog-twitter-inner:before {
-  border-bottom-color: #222222;
+  border-bottom-color: #002635;
 }
 html[theme='rigel'] .blog-twitter .blog-twitter-inner a.article-subject {
   color: #c5c5c5;
