@@ -24,7 +24,10 @@ function extendTheme() {
     ul.appendChild(li);
   }
   const themeButton = document.createElement('a');
-  themeButton.innerText = '테마 불러오는 중...';
+  themeButton.innerHTML = '';
+  for (let i = 1; i <= 3; ++i) {
+    themeButton.innerHTML += `<div class="loading-bar bar-${i}"></div>`;
+  }
   themeButton.addEventListener('click', (evt) => {
     evt.preventDefault();
     showDropdown(!isShowDropdown());
