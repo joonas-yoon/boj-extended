@@ -46,6 +46,7 @@
 
     <link rel="stylesheet" href="/css/common.css" />
     <link rel="stylesheet" href="/css/theme-dark.css" />
+    <link rel="stylesheet" href="/css/theme-rigel.css" />
     <link rel="stylesheet" href="/css/status.css" />
 
     <style>
@@ -147,6 +148,18 @@
                           type="radio"
                           class="option-theme"
                           name="theme"
+                          value="auto"
+                          checked
+                        />
+                        시스템 설정
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-theme"
+                          name="theme"
                           value="light"
                           checked
                         />
@@ -165,6 +178,20 @@
                           value="dark"
                         />
                         어두운 테마
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-theme"
+                          name="theme"
+                          value="rigel"
+                        />
+                        Rigel
+                        <a href="https://rigel.netlify.com/" target="_blank">
+                          <i class="fa fa-adjust fa-external-link"></i>
+                        </a>
                       </label>
                     </div>
                   </div>
@@ -773,16 +800,8 @@
       </div>
     </div>
 
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="bootstrap-3.3.7.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-      crossorigin="anonymous"
-    ></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-3.3.7.min.js"></script>
 
     <script src="/js/constants.js"></script>
     <script src="/js/config.js"></script>
