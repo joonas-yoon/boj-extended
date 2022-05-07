@@ -4,8 +4,6 @@ const Constants = {
   CONFIG_SHOW_STATUS_HISTORY: 'show-status-history',
   CONFIG_SHOW_STATUS_PID: 'show-status-pid',
   CONFIG_SHOW_FAKE_RESULT: 'show-fake-result',
-  CONFIG_THEME: 'theme',
-  CONFIG_THEME_IMAGE_FILTER: 'theme-image-filter',
   STORAGE_PREFIX: 'boj-extended-local-',
   STORAGE_STATUS_HISTORY: 'boj-extended-local-status-history',
   QUICK_SEARCH_URL: 'https://aewewtnd4p-dsn.algolia.net/1/indexes/*/queries',
@@ -14,10 +12,4 @@ const Constants = {
   BG_DB_PROBLEMS: 'boj-extended-DB-PROBLEMS',
   BG_PROBLEM_FETCH_URL:
     'https://raw.githubusercontent.com/joonas-yoon/boj-extended/release/db.json',
-  THEMES: {
-    // auto: '시스템 설정',
-    light: '밝은 테마',
-    dark: '어두운 테마',
-    rigel: 'Rigel',
-  },
 };

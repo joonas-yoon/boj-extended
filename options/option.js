@@ -17,16 +17,14 @@
   const oTheme = document.getElementsByClassName('option-theme');
   for (let i = 0; i < oTheme.length; ++i) {
     oTheme[i].addEventListener('change', (evt) => {
-      Config.save(Constants.CONFIG_THEME, evt.target.value, (result) => {
+      Config.save('theme', evt.target.value, (result) => {
         applyTheme(null, result);
       });
     });
   }
 
-  Config.load(Constants.CONFIG_THEME, (theme) => {
-    for (let i = 0; i < oTheme.length; ++i) {
-      oTheme[i].checked = oTheme[i].value == theme;
-    }
+  Config.load('theme', (theme) => {
+    oTheme[theme == 'light' ? 0 : 1].checked = true;
     applyTheme(null, theme);
   });
 
@@ -49,11 +47,11 @@
   const oStatusPid = document.getElementsByClassName('option-status-pid');
   for (let i = 0; i < oStatusPid.length; ++i) {
     oStatusPid[i].addEventListener('change', (evt) => {
-      Config.save(Constants.CONFIG_SHOW_STATUS_PID, !!parseInt(evt.target.value));
+      Config.save('show-status-pid', !!parseInt(evt.target.value));
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
+  Config.load('show-status-pid', (showPid) => {
     oStatusPid[showPid ? 0 : 1].checked = true;
   });
 
@@ -74,6 +72,13 @@
     // default is true
     oStatusHistory[showHistory !== false ? 0 : 1].checked = true;
   });
+
+  // TODO: remove item from its storage not here, at same domain
+  // document.getElementById('btn-status-history-clear').addEventListener('click', (evt) => {
+  //   evt.preventDefault();
+  //   localStorage.removeItem(Constants.STORAGE_STATUS_HISTORY);
+  //   return false;
+  // });
 
   // group:link
   const oGroupLink = document.getElementsByClassName('option-group-link');
