@@ -27,7 +27,7 @@ jobs:
 
     - name: Install python package
       run: |
-        pip install selenium
+        pip install selenium==4.1.3
         pip install requests
 
     - name: Install ubuntu package
