@@ -44,10 +44,10 @@ try:
         driver.get('https://www.acmicpc.net/problemset/{}'.format(page + 1))
         sleep_rand(1000, 3000) # wait [1s ~ 3s] for page loading
         table = driver.find_element(By.ID, 'problemset')
-        rows = table.find_elements_by_tag_name('tr')[1:]
+        rows = table.find_elements(By.TAG_NAME, 'tr')[1:]
         l2 = 0
         for row in rows:
-            pid, name = row.find_elements_by_tag_name('td')[:2]
+            pid, name = row.find_elements(By.TAG_NAME, 'td')[:2]
             problems[pid.text] = name.text
             if logging and l2 < 5:
                 print(f'{pid.text} {name.text}')
