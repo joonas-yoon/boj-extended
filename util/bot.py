@@ -6,6 +6,10 @@ from datetime import datetime
 import sys
 import json
 
+def sleep_rand(min_ms, max_ms):
+    sleep(randint(min_ms, max_ms) / 1000)
+
+
 try:
     options = webdriver.ChromeOptions()
     options.add_argument('--lang=ko_KR')
@@ -38,6 +42,7 @@ try:
             print(f'\n{page} page ({per})', '=' * (30 - len(per)))
             l = page * 10 // pages
         driver.get('https://www.acmicpc.net/problemset/{}'.format(page + 1))
+        sleep_rand(1000, 3000) # wait [1s ~ 3s] for page loading
         table = driver.find_element(By.ID, 'problemset')
         rows = table.find_elements_by_tag_name('tr')[1:]
         l2 = 0
@@ -49,8 +54,7 @@ try:
                 l2 += 1
         if logging and l2 != len(rows):
             print('...')
-        # sleep randomly [500ms, 1000ms]
-        sleep(randint(500, 1000) / 1000)
+        sleep_rand(500, 1000)
 
     # export json as file
     with open('db.json', 'w') as f:
@@ -66,4 +70,5 @@ except Exception as e:
     sys.exit(str(e))
 
 finally:
-    driver.quit()
+    if driver != None:
+        driver.quit()

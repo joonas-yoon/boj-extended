@@ -1,7 +1,7 @@
 # BOJ-extended <img align="right" src="icons/icon48.png"/>
 
-[![build](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml/badge.svg?branch=release)](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml) ![GitHub issues](https://img.shields.io/github/issues-raw/joonas-yoon/boj-extended) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/mfcaadoifdifdnigjmfbekjbhehibfel?label=users%40chrome) ![Chrome Web Store Ratings](https://img.shields.io/chrome-web-store/stars/mfcaadoifdifdnigjmfbekjbhehibfel) ![GitHub all releases](https://img.shields.io/github/downloads/joonas-yoon/boj-extended/total)
-![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green?logo=googlechrome) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green?logo=googlechrome) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial-orange?logo=safari) ![FireFox 91.0.2](https://img.shields.io/badge/firefox-91.0.2%20partial-orange?logo=firefox)
+[![build](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml/badge.svg?branch=release)](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml) ![GitHub issues](https://img.shields.io/github/issues-raw/joonas-yoon/boj-extended) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/mfcaadoifdifdnigjmfbekjbhehibfel?label=users%40chrome) ![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome Web Store Ratings](https://img.shields.io/chrome-web-store/rating/mfcaadoifdifdnigjmfbekjbhehibfel) ![GitHub all releases](https://img.shields.io/github/downloads/joonas-yoon/boj-extended/total)
+![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green?logo=googlechrome) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green?logo=googlechrome) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial-orange?logo=safari) ![FireFox 91.0.2](https://img.shields.io/badge/firefox-91.0.2%20partial-orange?logo=firefox) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjoonas-yoon%2Fboj-extended)](#)
 
 [![Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) [![Naver Whale Store](docs/images/whalestore-sm.png)](https://store.whale.naver.com/detail/epdpeloboklojnaelckeihkghcgebhnp) [![FireFox Add-ONS](docs/images/firefox-sm.png)](https://addons.mozilla.org/ko/firefox/addon/boj-extended/)
 
@@ -14,10 +14,10 @@
 | [![Status Page](docs/images/screenshot-status.png)][3] |   [![Wide Screen](docs/images/screenshot-wide.png)][4]    |
 |                    **문제 타이머**                     |                      **문제 타이머**                      |
 |    [![Timer](docs/images/screenshot-timer2.png)][5]    |   [![Timer List](docs/images/screenshot-timer.png)][6]    |
-|                        **설정**                        |                        **유저 VS**                        |
-|   [![Option](docs/images/screenshot-option.png)][7]    |         [![VS](docs/images/screenshot-vs.png)][8]         |
-|                        **그룹**                        |                       **빠른 검색**                       |
-| [![Groups](docs/images/screenshot-group-list.png)][9]  | [![Quick Search](docs/images/screenshot-search.png)][10]  |
+|                        **설정**                        |                       **빠른 검색**                       |
+|   [![Option](docs/images/screenshot-option.png)][7]    | [![Quick Search](docs/images/screenshot-search.png)][10]  |
+|                        **그룹**                        |                                                           |
+| [![Groups](docs/images/screenshot-group-list.png)][9]  |                                                           |
 
 ## 설치 및 사용
 
