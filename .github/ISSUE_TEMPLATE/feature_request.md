@@ -2,7 +2,7 @@
 name: 기능 요청
 about: 아이디어를 마음껏 적어주세요
 title: ''
-labels: '✨ new feature'
+labels: "✨ new feature"
 assignees: ''
 
 ---
