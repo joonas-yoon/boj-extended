@@ -298,7 +298,7 @@ function initBeforeSendHeaders(){
       }
       return { requestHeaders: details.requestHeaders };
     },
-    {urls: [`https://*${BG_ORIGIN_HOSTNAME}/*`]},
+    {urls: [`https://*.${BG_ORIGIN_HOSTNAME}/*`]},
     [ 'blocking', 'requestHeaders', 'extraHeaders']
   );
 }
