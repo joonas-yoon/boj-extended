@@ -1,6 +1,5 @@
 (function extendThemePre() {
   window.addEventListener('DOMContentLoaded', () => {
-    applyTheme(null, localStorage.getItem('systemTheme'));
     Config.load(Constants.CONFIG_THEME, (theme) => {
       applyTheme(null, theme);
     });
@@ -78,10 +77,11 @@ function applyTheme(button, theme) {
     }
   }, 100);
   // detect dark mode by user preference
-  if (theme == 'auto') {
-    theme = getThemeBySystem();
-    setTimeout(detectDarkmode, 100);
-  }
+  // FIXME: flickering when page loaded
+  // if (theme == 'auto') {
+  //   theme = getThemeBySystem();
+  //   detectDarkmode();
+  // }
   document.body.parentNode.setAttribute('theme', theme);
 }
 
