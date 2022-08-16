@@ -1,6 +1,6 @@
 name: 버그 제보
 description: "어떤 문제가 생겼는 지 알려주세요"
-title: ""
+title: "제목"
 labels: "🐛 bug"
 body:
   - type: markdown
