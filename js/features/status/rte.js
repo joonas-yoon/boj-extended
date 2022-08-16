@@ -198,7 +198,12 @@ const RTE_MSGS = [
 (function () {
   function getLanguage(e) {
     const tr = e.closest('tr');
-    return tr.children[6].firstChild.innerText || '';
+    const langElement = tr.children[6];
+    if (langElement.firstChild.href) {
+      return langElement.firstChild.innerText;
+    } else {
+      return langElement.innerText;
+    }
   }
 
   function getReason(lang, type) {
@@ -211,24 +216,45 @@ const RTE_MSGS = [
         return reason;
       }
     }
-    return '';
+    return null;
   }
 
+  const tooltip = Utils.createElement('div', {
+    class: 'rte-tooltip',
+  });
+
   // add reason for rte message
-  // it must be used after loading jQuery
-  $('.result-rte').each((i, e) => {
+  const rteMessages = document.getElementsByClassName('result-rte');
+  Array.from(rteMessages).forEach((e, i) => {
     const x = e.innerText;
     const errorType = x.slice(x.indexOf('(') + 1, x.indexOf(')'));
     if (errorType) {
+      console.group(x + i);
       const lang = getLanguage(e);
       const reason = getReason(lang, errorType);
-      if (reason) {
-        $(e)
-          .attr('data-placement', 'top')
-          .attr('data-original-title', reason)
-          .css('text-decoration', 'underline')
-          .tooltip();
+      console.log(e);
+      console.log('lang', lang);
+      if (reason !== null) {
+        e.setAttribute('data-reason', encodeURIComponent(reason));
+        e.addEventListener('mouseover', () => {
+          document.body.appendChild(tooltip);
+          tooltip.style.display = 'inline-block';
+          const { top, left } = e.getBoundingClientRect();
+          const MARGIN = 10;
+          tooltip.innerText = decodeURIComponent(e.getAttribute('data-reason'));
+          tooltip.style.top =
+            top - tooltip.offsetHeight + window.pageYOffset - MARGIN + 'px';
+          tooltip.style.left = left + 'px';
+        });
+        e.addEventListener('mouseout', () => {
+          setTimeout(() => {
+            if (document.body.contains(tooltip)) {
+              document.body.removeChild(tooltip);
+            }
+          }, 50);
+        });
       }
+      console.groupEnd();
     }
   });
 })();

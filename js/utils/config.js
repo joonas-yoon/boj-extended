@@ -73,10 +73,3 @@ const Config = {
     );
   },
 };
-
-// preload theme from localStorage
-(() => {
-  const html = document.documentElement;
-  const theme = localStorage.getItem(Config.getKey('theme'));
-  html.setAttribute('theme', theme || 'light');
-})();
