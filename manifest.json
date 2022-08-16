@@ -19,8 +19,7 @@
         "js/utils/helpers.js",
         "js/utils/index.js",
         "js/features/theme.js",
-        "js/features/wide.js",
-        "js/db.js"
+        "js/features/wide.js"
       ]
     },
     {
