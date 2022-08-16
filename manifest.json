@@ -16,8 +16,8 @@
         "js/constants.js",
         "js/config.js",
         "js/utils.js",
-        "js/theme.js",
-        "js/wide.js",
+        "js/features/theme.js",
+        "js/features/wide.js",
         "js/db.js"
       ]
     },
@@ -25,14 +25,14 @@
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
       "js": [
-        "js/status.js",
-        "js/problem.js",
-        "js/user.js",
-        "js/board.js",
-        "js/group.js",
-        "js/search.js",
-        "js/setting.js",
-        "js/global.js",
+        "js/features/status.js",
+        "js/features/problem.js",
+        "js/features/user.js",
+        "js/features/board.js",
+        "js/features/group.js",
+        "js/features/search.js",
+        "js/features/setting.js",
+        "js/features/global.js",
         "js/main.js"
       ]
     }
