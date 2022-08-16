@@ -190,7 +190,7 @@
   display: inline-block;
   position: relative;
   width: 3px;
-  background-color: rgba(128, 128, 128, .75);
+  background-color: rgba(128, 128, 128, 0.75);
   animation-name: loading-bar-waves;
   animation-duration: 500ms;
   animation-iteration-count: infinite;
@@ -237,4 +237,21 @@
 }
 .theme-dropdown ul.theme-ul li.theme-li:hover {
   background-color: #f3f3f3;
+}
+
+/* Tooltip */
+.rte-tooltip {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  position: absolute;
+  top: -1em;
+  left: 0;
+  padding: 4px 10px;
+  background-color: #343434;
+  color: #fefefe;
+}
+
+.result-rte[data-reason] > a {
+  text-decoration-style: wavy;
 }
