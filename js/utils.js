@@ -1,5 +1,6 @@
 const Utils = {
   requestAjax: function (url, callback) {
+    onceInitBeforeSendHeaders();
     const httpRequest = new XMLHttpRequest();
 
     if (!httpRequest) {
@@ -264,6 +265,45 @@ function addElementToBar(element) {
   bar.appendChild(divider);
   bar.appendChild(element);
 }
+/**
+ * @author David Walsh
+ * @origin https://davidwalsh.name/javascript-once
+ * 
+ * @param {*} fn  The function to call only once
+ * @param {*} context The context to run the function in
+ * @returns  The function that was passed in
+ */
+function once(fn, context) { 
+  var result;
+  return function() { 
+      if (fn) {
+          result = fn.apply(context || this, arguments);
+          fn = null;
+      }
+      return result;
+  };
+}
+
+/**
+ * run it once, you won't get an empty response even if you call fetch function.
+ */
+function initBeforeSendHeaders(){
+  chrome.webRequest.onBeforeSendHeaders.addListener(
+    function(details) {
+      for (var i = 0; i < details.requestHeaders.length; ++i) {
+        if (details.requestHeaders[i].name === 'sec-fetch-dest') {
+          details.requestHeaders[i].value = 'document';
+          break;
+        }
+      }
+      return { requestHeaders: details.requestHeaders };
+    },
+    {urls: ['https://acmicpc.net/*']},
+    [ 'blocking', 'requestHeaders', 'extraHeaders']
+  );
+}
+
+var onceInitBeforeSendHeaders = once(initBeforeSendHeaders);
 
 /**
  * @deprecated since version 1.7.6
@@ -307,6 +347,7 @@ async function fetchProblemsByUser(id) {
     cacheData &&
     Number(cacheData.lastUpdated || 0) + duration < currentTimestamp;
   if (cacheData == null || cacheData.problems == null || isDateExpired) {
+    onceInitBeforeSendHeaders();
     // run request and parse
     const response = await fetch(`/user/${id}`);
     console.group(`request new problems solved by ${id}`);
