@@ -248,7 +248,9 @@ const RTE_MSGS = [
         });
         e.addEventListener('mouseout', () => {
           setTimeout(() => {
-            document.body.removeChild(tooltip);
+            if (document.body.contains(tooltip)) {
+              document.body.removeChild(tooltip);
+            }
           }, 50);
         });
       }
