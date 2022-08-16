@@ -1,14 +1,13 @@
 name: 버그 제보
-description: 어떤 문제가 생겼는 지 알려주세요
-title: ''
-labels: '🐛 bug'
+description: "어떤 문제가 생겼는 지 알려주세요"
+title: ""
+labels: "🐛 bug"
 body:
   - type: markdown
     attributes:
-      value: |
-        👋 안녕하세요, 제보해주셔서 감사합니다!
+      value: "👋 안녕하세요, 제보해주셔서 감사합니다!"
  - type: textarea
-    id: what
+    id: what-happens
     attributes:
       label: What happens
       description: |
@@ -17,8 +16,7 @@ body:
         개발자 도구(F12) - 콘솔(Console)에 나온 오류 메시지를 적어주시면, 더욱 정확하게 해결할 수 있습니다.
         
         스크린샷을 첨부해주시면, 더 좋습니다.
-      placeholder: |
-        여기에 작성해주세요
+      placeholder: "여기에 작성해주세요"
       render: markdown
     validations:
       required: true
@@ -56,8 +54,9 @@ body:
         sw_vers
         uname
         ```
+      placeholder: "(선택 사항)"
  - type: textarea
-    id: appversion
+    id: app-version
     attributes:
       label: 확장 프로그램 버전
       description: |
@@ -66,3 +65,5 @@ body:
         문제가 생긴 확장 프로그램의 버전을 적어주세요 :)
         
         Google Chrome의 경우에는, Chrome > 설정 > 확장 프로그램 관리 > BOJ Extended 세부정보 > 버전에서 확인하실 수 있습니다.
+    validations:
+      required: true
