@@ -274,7 +274,7 @@ function addElementToBar(element) {
  * @returns  The function that was passed in
  */
 function once(fn, context) { 
-  var result;
+  let result = null;
   return function() { 
       if (fn) {
           result = fn.apply(context || this, arguments);
@@ -290,7 +290,7 @@ function once(fn, context) {
 function initBeforeSendHeaders(){
   chrome.webRequest.onBeforeSendHeaders.addListener(
     function(details) {
-      for (var i = 0; i < details.requestHeaders.length; ++i) {
+      for (let i = 0; i < details.requestHeaders.length; ++i) {
         if (details.requestHeaders[i].name === 'sec-fetch-dest') {
           details.requestHeaders[i].value = 'document';
           break;
@@ -298,7 +298,7 @@ function initBeforeSendHeaders(){
       }
       return { requestHeaders: details.requestHeaders };
     },
-    {urls: ['https://acmicpc.net/*']},
+    {urls: [`https://*${BG_ORIGIN_HOSTNAME}/*`]},
     [ 'blocking', 'requestHeaders', 'extraHeaders']
   );
 }

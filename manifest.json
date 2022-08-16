@@ -52,7 +52,7 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["storage", "webRequest", "webRequestBlocking"],
+  "permissions": ["storage", "webRequest", "declarativeNetRequest"],
   "host_permissions": [
     "https://www.acmicpc.net/?",
     "https://www.acmicpc.net/*"
