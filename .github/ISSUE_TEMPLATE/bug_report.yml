@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: "👋 안녕하세요, 제보해주셔서 감사합니다!"
- - type: textarea
+  - type: textarea
     id: what-happens
     attributes:
       label: What happens
@@ -20,7 +20,7 @@ body:
       render: markdown
     validations:
       required: true
- - type: dropdown
+  - type: dropdown
     id: os
     attributes:
       label: Operating System
@@ -33,7 +33,7 @@ body:
         - 그 외
     validations:
       required: true
- - type: textarea
+  - type: textarea
     id: env
     attributes:
       label: 환경
@@ -55,7 +55,7 @@ body:
         uname
         ```
       placeholder: "(선택 사항)"
- - type: textarea
+  - type: textarea
     id: app-version
     attributes:
       label: 확장 프로그램 버전
