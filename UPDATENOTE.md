@@ -1,3 +1,50 @@
+## 1.8.2
+
+**Features**
+
+- 새 테마 추가 (`Rigel`)
+- 런타임 오류 결과에 간략한 메시지 툴팁 추가
+
+**Changes**
+
+- 디렉토리 구조 리팩토링
+- 사용하지 않는 파일과 변수들 삭제
+
+## 1.8.1
+
+**Notice**
+
+- 테마 기능 업데이트로 생긴 버그 때문에 `1.8.0`을 `1.7.6`으로 되돌림 [(#90)](https://github.com/joonas-yoon/boj-extended/issues/90)
+
+## 1.8.0
+
+**Features**
+
+- 새 테마 추가
+- - 시스템에 따른 자동 설정
+- - `Rigel`
+- - 테마 선택 UI 변경 (드롭다운)
+
+## 1.7.8.1
+
+**Fixes**
+
+- 그룹 페이지 업데이트 [(#87)](https://github.com/joonas-yoon/boj-extended/issues/87)
+- - **멤버** 탭 삭제에 따라 관련 기능 삭제
+- - 비로그인 상태에서 보이는 탭 변경
+- - 문제집 URL 변경
+
+## 1.7.7
+
+**Fixes**
+
+- 프로필 화면의 문제 제목 표시 오류 수정 [(#83)](https://github.com/joonas-yoon/boj-extended/issues/83)
+- 백그라운드 서비스 워커에서 설정 파일을 불러오는 경로 수정
+
+**Removes**
+
+- 유저 VS 기능 삭제
+
 ## 1.7.6
 
 **Features**
