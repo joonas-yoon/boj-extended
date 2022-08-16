@@ -14,8 +14,10 @@
       "run_at": "document_start",
       "js": [
         "js/constants.js",
-        "js/config.js",
-        "js/utils.js",
+        "js/utils/config.js",
+        "js/preload.js",
+        "js/utils/helpers.js",
+        "js/utils/index.js",
         "js/features/theme.js",
         "js/features/wide.js",
         "js/db.js"
