@@ -1,6 +1,6 @@
 const Utils = {
   requestAjax: function (url, callback) {
-    onceInitBeforeSendHeaders();
+    // onceInitBeforeSendHeaders();
     const httpRequest = new XMLHttpRequest();
 
     if (!httpRequest) {
@@ -265,24 +265,24 @@ function addElementToBar(element) {
   bar.appendChild(divider);
   bar.appendChild(element);
 }
-/**
- * @author David Walsh
- * @origin https://davidwalsh.name/javascript-once
- * 
- * @param {*} fn  The function to call only once
- * @param {*} context The context to run the function in
- * @returns  The function that was passed in
- */
-function once(fn, context) { 
-  let result = null;
-  return function() { 
-      if (fn) {
-          result = fn.apply(context || this, arguments);
-          fn = null;
-      }
-      return result;
-  };
-}
+// /**
+//  * @author David Walsh
+//  * @origin https://davidwalsh.name/javascript-once
+//  * 
+//  * @param {*} fn  The function to call only once
+//  * @param {*} context The context to run the function in
+//  * @returns  The function that was passed in
+//  */
+// function once(fn, context) { 
+//   let result = null;
+//   return function() { 
+//       if (fn) {
+//           result = fn.apply(context || this, arguments);
+//           fn = null;
+//       }
+//       return result;
+//   };
+// }
 
 /**
  * run it once, you won't get an empty response even if you call fetch function.
@@ -303,7 +303,8 @@ function initBeforeSendHeaders(){
   );
 }
 
-var onceInitBeforeSendHeaders = once(initBeforeSendHeaders);
+// var onceInitBeforeSendHeaders = once(initBeforeSendHeaders);
+initBeforeSendHeaders();
 
 /**
  * @deprecated since version 1.7.6
@@ -347,7 +348,7 @@ async function fetchProblemsByUser(id) {
     cacheData &&
     Number(cacheData.lastUpdated || 0) + duration < currentTimestamp;
   if (cacheData == null || cacheData.problems == null || isDateExpired) {
-    onceInitBeforeSendHeaders();
+    // onceInitBeforeSendHeaders();
     // run request and parse
     const response = await fetch(`/user/${id}`);
     console.group(`request new problems solved by ${id}`);
