@@ -93,7 +93,8 @@ function detectDarkmode() {
 }
 
 function getThemeBySystem(systemMedia) {
-  systemMedia = systemMedia || window.matchMedia('(prefers-color-scheme: dark)');
+  systemMedia =
+    systemMedia || window.matchMedia('(prefers-color-scheme: dark)');
   const isDarkMode = !!systemMedia.matches;
   return isDarkMode ? 'dark' : 'light';
 }

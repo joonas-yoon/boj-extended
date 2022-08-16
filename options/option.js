@@ -49,7 +49,10 @@
   const oStatusPid = document.getElementsByClassName('option-status-pid');
   for (let i = 0; i < oStatusPid.length; ++i) {
     oStatusPid[i].addEventListener('change', (evt) => {
-      Config.save(Constants.CONFIG_SHOW_STATUS_PID, !!parseInt(evt.target.value));
+      Config.save(
+        Constants.CONFIG_SHOW_STATUS_PID,
+        !!parseInt(evt.target.value)
+      );
     });
   }
 
