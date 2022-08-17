@@ -3,3 +3,4 @@ dist/
 **/build/*
 *.err
 versions/
+*.diff
