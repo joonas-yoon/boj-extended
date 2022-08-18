@@ -2,9 +2,9 @@ name: Bot
 
 on:
   schedule:
-    # every 4:00 am, MON/WED/FRI (UTC+9)
-    # but 7:00 pm, SUN/TUE/THU in UTC
-    - cron: '0 19 * * 0,2,4'
+    # every 4:00 am, everyday in UTC+9
+    # but 7:00 pm, everyday in UTC
+    - cron: '0 19 * * *'
   workflow_dispatch:
     inputs:
       update:
