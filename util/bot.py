@@ -1,74 +1,82 @@
 from time import sleep
 from random import randint
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from datetime import datetime
-import sys
+
 import json
+import requests
+
+MAX_TRIES = 500
+INTERVAL = 100
+API_HOST = 'https://solved.ac/api/v3'
+
 
 def sleep_rand(min_ms, max_ms):
     sleep(randint(min_ms, max_ms) / 1000)
 
 
-try:
-    options = webdriver.ChromeOptions()
-    options.add_argument('--lang=ko_KR')
-    options.add_argument('--headless')
-    options.add_argument('--window-size=1920x1080')
-    options.add_argument('--disable-gpu')
-    options.add_argument('--no-sandbox')
+def get_problems_count():
+  res = requests.get(f'{API_HOST}/site/stats').json()
+  return res['problemCount']
 
-    # chrome driver
-    driver = webdriver.Chrome('chromedriver', options=options)
-    driver.implicitly_wait(3)
-    assert driver is not None
 
-    # access BOJ
-    driver.get('https://www.acmicpc.net/problemset')
+def get_problem_details(ids):
+  pids = '%2C'.join(list(map(str, ids)))
+  try:
+      return requests.get(f'{API_HOST}/problem/lookup?problemIds={pids}').json()
+  except:
+      return None
 
-    paginator = driver.find_element(By.CLASS_NAME, 'pagination')
-    print('paginator', paginator)
-    page_li = paginator.find_elements(By.TAG_NAME, 'li')
-    print('page_li', page_li)
-    pages = len(page_li)
-    print('total pages:', pages)
 
-    problems = {}
-    l = -1
-    for page in range(pages):
-        logging = l != page * 10 // pages
-        if logging:
-            per = '{:.2f}%'.format(100 * page / pages)
-            print(f'\n{page} page ({per})', '=' * (30 - len(per)))
-            l = page * 10 // pages
-        driver.get('https://www.acmicpc.net/problemset/{}'.format(page + 1))
-        sleep_rand(1000, 3000) # wait [1s ~ 3s] for page loading
-        table = driver.find_element(By.ID, 'problemset')
-        rows = table.find_elements(By.TAG_NAME, 'tr')[1:]
-        l2 = 0
-        for row in rows:
-            pid, name = row.find_elements(By.TAG_NAME, 'td')[:2]
-            problems[pid.text] = name.text
-            if logging and l2 < 5:
-                print(f'{pid.text} {name.text}')
-                l2 += 1
-        if logging and l2 != len(rows):
-            print('...')
-        sleep_rand(500, 1000)
+total_count = get_problems_count()
+count = 0
+offset = 1000
+problems = {}
+prev_count = -10 ** 10
 
-    # export json as file
-    with open('db.json', 'w') as f:
-        db = {
-            'problems': problems,
-            'last_updated': str(datetime.now())
-        }
-        json.dump(db, f, ensure_ascii=False, indent=2, separators=(',', ': '))
+print('total problems:', total_count)
 
-except Exception as e:
-    print(e)
-    driver.quit()
-    sys.exit(str(e))
+for tries in range(MAX_TRIES):
+  rows = get_problem_details(range(offset, offset + INTERVAL))
+  
+  for err in range(MAX_TRIES):
+    if rows != None: break
+    sleep(5 * 60 * 1000)
+    rows = get_problem_details(range(offset, offset + INTERVAL))
 
-finally:
-    if driver != None:
-        driver.quit()
+  rows_count = len(rows)
+  count += rows_count
+
+  is_last = count >= total_count
+  is_print = is_last or (count - prev_count > (total_count // 10))
+
+  if is_print:
+    print('=' * 30 + '\n')
+    print('# Collect {} items ... ({:.2f}%)\n\n'.format(count, count / total_count * 100))
+  
+  result = {}
+  for row in rows:
+    pid = int(row['problemId'])
+    title = row['titleKo']
+    result[pid] = title
+    if is_print:
+      print(pid, title)
+
+  problems.update(result)
+
+  if is_last:
+    break
+
+  if is_print:
+    prev_count = count
+    
+  offset += INTERVAL
+  sleep_rand(100, 1000)
+
+
+with open('db.json', 'w') as f:
+    db = {
+        'version': '1.0.0',
+        'last_updated': str(datetime.now()),
+        'problems': problems
+    }
+    json.dump(db, f, ensure_ascii=False, indent=2, separators=(',', ': '))
