@@ -1,3 +1,8 @@
+/* Fix bootstraps */
+input.form-control.bg-color-red::placeholder {
+  color: white;
+}
+
 /* Problem Timer */
 #problem-timer .dropdown-menu {
   width: 200px;

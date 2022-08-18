@@ -107,21 +107,16 @@ function createVsForm(name1, name2) {
     style: 'margin-bottom: 10px',
   });
   const row = Utils.createElement('div', { class: 'row' });
-  const colpad = Utils.createElement('div', {
-    class: 'col col-sr-only col-md-1',
-  });
   const colbtn = Utils.createElement('div', { class: 'col col-md-2' });
-  const col1 = Utils.createElement('div', { class: 'col col-md-4' });
+  const col1 = Utils.createElement('div', { class: 'col col-md-5' });
   const col2 = col1.cloneNode();
-  row.appendChild(colpad.cloneNode());
   row.appendChild(col1);
   row.appendChild(colbtn);
   row.appendChild(col2);
-  row.appendChild(colpad.cloneNode());
   div.appendChild(row);
   const input1 = Utils.createElement('input', {
     type: 'text',
-    class: 'form-control',
+    class: 'form-control text-right',
     value: name1 || '',
     placeholder: 'Username',
   });
@@ -135,7 +130,7 @@ function createVsForm(name1, name2) {
   col2.appendChild(input2);
   const btn = Utils.createElement('button', {
     type: 'button',
-    class: 'btn btn-primary btn-block',
+    class: 'btn btn-primary btn-vs btn-block',
   });
   btn.innerText = 'VS';
   btn.addEventListener('click', (evt) => {
@@ -144,7 +139,7 @@ function createVsForm(name1, name2) {
     const v2 = input2.value;
     input1.setAttribute(
       'class',
-      'form-control' + (v1 ? '' : ' text-border-red bg-color-red')
+      'form-control text-right' + (v1 ? '' : ' text-border-red bg-color-red')
     );
     input2.setAttribute(
       'class',
