@@ -20,6 +20,8 @@
     extendBoardPage();
   } else if (url.startsWith('/search')) {
     extendSearchPage();
+  } else if (url.startsWith('/vs/')) {
+    extendVs();
   } else if (isSettingPage(url)) {
     extendSettingPage();
   }

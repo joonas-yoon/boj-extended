@@ -32,6 +32,7 @@
         "js/features/user.js",
         "js/features/board.js",
         "js/features/group.js",
+        "js/features/vs.js",
         "js/features/search.js",
         "js/features/setting.js",
         "js/features/global.js",
