@@ -255,3 +255,57 @@
 .result-rte[data-reason] > a {
   text-decoration-style: wavy;
 }
+
+/* Problem Links */
+
+a[href^="/problem"].problem-link-style-box {
+  display: inline-block;
+  padding: 3px 8px;
+  margin: 2px;
+  border: 1px solid transparent;
+  background-color: #efefef;
+  font-weight: normal;
+  border-radius: 5px !important;
+  line-height: 1.25;
+  min-height: 18px;
+}
+
+a[href^="/problem"].problem-link-style-box.result-ac {
+  background-color: #009874;
+  color: white;
+}
+
+a[href^="/problem"].problem-link-style-box.result-pac {
+  background-color: #efc050;
+  color: white;
+}
+
+a[href^="/problem"].problem-link-style-box.result-wa {
+  background-color: #dd4124;
+  color: white;
+}
+
+a[href^="/problem"].problem-link-style-box:hover {
+  font-weight: normal;
+  background-color: transparent;
+  border-color: #009874;
+  text-decoration: none;
+}
+
+a[href^="/problem"].problem-link-style-box.result-ac:hover {
+  background-color: transparent;
+  border-color: #959595;
+  color: #009874;
+}
+
+a[href^="/problem"].problem-link-style-box.result-pac:hover {
+  background-color: transparent;
+  border-color: #efc050;
+  color: #efc050;
+}
+
+a[href^="/problem"].problem-link-style-box.result-wa:hover {
+  background-color: transparent;
+  border-color: #dd4124;
+  color: #dd4124;
+}

@@ -19,15 +19,6 @@
   display: inline !important;
 }
 
-.panel-body a:after {
-  content: ' / ';
-  text-decoration: none !important;
-}
-
-.panel-body a:last-child:after {
-  content: '' !important;
-}
-
 .panel-body .pgroup.pg-0 {
   display: inline !important;
 }

@@ -239,3 +239,16 @@ function getProblemID(url) {
   const pid = getLastNumberFromHref(url);
   return pid == null || isNaN(pid) ? null : pid;
 }
+
+function createProblemLinkElement(baseElement, problemsLookup, pid) {
+  const a = baseElement.cloneNode();
+  const pname = problemsLookup[pid] || '*New Problem';
+  a.classList.add('problem-link-style-box');
+  a.innerHTML =
+    '<span class="pid">' +
+    pid +
+    '</span> <span class="pname">' +
+    pname +
+    '</span>';
+  return a;
+}
