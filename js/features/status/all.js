@@ -3,7 +3,7 @@
  */
 function extendStatusPage() {
   Utils.loadCSS('css/status.css');
-  Utils.loadScript('js/status-rte.js');
+  Utils.loadScript('js/features/status/rte.js');
 
   const table = document.getElementById('status-table');
   const form = document.querySelector('form[action="/status"]');
