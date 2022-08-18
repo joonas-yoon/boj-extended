@@ -3,7 +3,9 @@
 **Features**
 
 - 새 테마 추가 (`Rigel`)
+- - ![](https://user-images.githubusercontent.com/9527681/166296279-c25bea15-679e-4672-a776-8cd0ed8cb73e.png)
 - 런타임 오류 결과에 간략한 메시지 툴팁 추가
+- - ![](https://user-images.githubusercontent.com/9527681/184939662-953b28ea-b36e-4b68-a78b-f26cc792c6c9.gif)
 
 **Changes**
 
@@ -117,6 +119,8 @@
 
 - 검색 페이지에도 문제 색상 적용 [(#54)](https://github.com/joonas-yoon/boj-extended/issues/54)
 - 빠른 검색에 탭 추가 [(#55)](https://github.com/joonas-yoon/boj-extended/issues/55)
+- ![](https://user-images.githubusercontent.com/9527681/148531868-98836957-908e-4a7e-b8d6-899eb05c4f6e.png)
+- ![](https://user-images.githubusercontent.com/9527681/148532062-07326dbe-1bb1-448f-b94f-b8f8dc121683.png)
 
 **Fixes**
 
@@ -133,6 +137,7 @@
 
 - 빠른 검색 [(#48)](https://github.com/joonas-yoon/boj-extended/issues/48)
 - - `ctrl` + `/` 또는 `alt` + `/`
+- - ![](https://user-images.githubusercontent.com/9527681/140657019-eb299c53-1c07-4c0a-bb0b-e52f8cef537a.png)
 
 ## 1.5.11
 
@@ -154,7 +159,8 @@
 
 **Features**
 
-- 타이머에 시간 표기 추가 [(#41)](https://github.com/joonas-yoon/boj-extended/issues/41)
+- 타이머에 시간 표기 추가 [(#41)](https://github.com/joonas-yoon/boj-extended/issues/41
+- - ![](https://user-images.githubusercontent.com/9527681/137610903-c7f39a95-009e-44bd-b474-1af98f9f481f.png)
 
 **Fixes**
 
@@ -319,6 +325,7 @@
 
 - 유저 프로필의 문제 표시 수 수정 [(#16)](https://github.com/joonas-yoon/boj-extended/issues/16)
 - - 더보기 추가
+- - ![](https://user-images.githubusercontent.com/9527681/117659307-c1f35700-b1d6-11eb-831c-dcc9c7ae5ff6.png)
 
 **Fixes**
 
@@ -433,6 +440,7 @@
 **Features**
 
 - 어두운 테마 추가
+- - ![](https://user-images.githubusercontent.com/9527681/105626575-cdaf4d80-5e73-11eb-8ca4-30cb8cce0959.png)
 - Github action으로 빌드 자동화
 
 ## v1.2.1
