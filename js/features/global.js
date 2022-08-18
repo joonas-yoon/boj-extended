@@ -5,6 +5,7 @@ function extendGlobal() {
   extendProblemPage();
   extendQuickSearch();
   extendProblemColor();
+  extendLastViewPopup();
 
   async function extendProblemColor() {
     const problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -195,5 +196,12 @@ function extendGlobal() {
       JSON.stringify(histories)
     );
     window.bojextStatusHistories = histories;
+  }
+
+  function extendLastViewPopup() {
+    // Config.load(CONFIG_LOCATION_HISTORY, (location) => {
+    //   console.log('location', location);
+    // });
+    console.log('location', window.location.href);
   }
 }
