@@ -5,6 +5,7 @@ function extendGlobal() {
   extendProblemPage();
   extendQuickSearch();
   extendProblemColor();
+  extendLastViewPopup();
 
   async function extendProblemColor() {
     const problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -195,5 +196,71 @@ function extendGlobal() {
       JSON.stringify(histories)
     );
     window.bojextStatusHistories = histories;
+  }
+
+  function extendLastViewPopup() {
+    const NOW = new Date();
+
+    // load and display message pop up
+    Config.load(Constants.CONFIG_LOCATION_HISTORY, (location) => {
+      console.log('location from config', location);
+      if (isSoLong(location)) {
+        displayMessage(location);
+      }
+    });
+
+    // save
+    setTimeout(() => {
+      const currentLocation = {
+        title: document.title,
+        href: window.location.href,
+        timestamp: NOW.toISOString(),
+      };
+      console.log('location', currentLocation);
+      // for global sync
+      Config.save(
+        Constants.CONFIG_LOCATION_HISTORY,
+        JSON.stringify(currentLocation)
+      );
+      // for current session
+      sessionStorage.setItem(Constants.CONFIG_LOCATION_HISTORY, true);
+    }, 100);
+
+    function isSoLong(location) {
+      const fromSession = sessionStorage.getItem(
+        Constants.CONFIG_LOCATION_HISTORY
+      );
+      if (fromSession == null) return true;
+      if (location == null) return false;
+      try {
+        const loc = JSON.parse(location);
+        if (loc.href == window.location.href) return false;
+        return NOW - loc.timestamp >= Constants.CONFIG_LOCATION_EXPIRE_MS;
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function displayMessage(location) {
+      const loc = JSON.parse(location);
+      const messageBox = Utils.createElement('div', {
+        class: 'boj-ext-alert alert-default',
+      });
+      const title = Utils.createElement('div', {
+        class: 'title',
+      });
+      const close = Utils.createElement('div', {
+        class: 'close',
+      });
+      title.innerHTML = '마지막으로 본 페이지 : ';
+      title.innerHTML += `<a href="${loc.href}">${loc.title}</a>`;
+      close.innerHTML = '<i class="fa fa-close"></i>';
+      close.addEventListener('click', () => {
+        document.body.removeChild(messageBox);
+      });
+      messageBox.appendChild(title);
+      messageBox.appendChild(close);
+      document.body.appendChild(messageBox);
+    }
   }
 }
