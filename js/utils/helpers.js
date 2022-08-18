@@ -164,8 +164,6 @@ function addElementToBar(element) {
 }
 
 /**
- * @deprecated since version 1.7.6
- *
  * fetch information for problems from user profile
  *
  * @param {string} id username
