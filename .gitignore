@@ -4,3 +4,4 @@ dist/
 *.err
 versions/
 _metadata
+*.diff

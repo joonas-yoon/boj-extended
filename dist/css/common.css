@@ -176,3 +176,82 @@
 .topbar .loginbar > li > a {
   cursor: pointer;
 }
+
+/* Theme Selector */
+@keyframes loading-bar-waves {
+  0% {
+    height: 1px;
+  }
+  100% {
+    height: 9px;
+  }
+}
+.theme-selector .loading-bar {
+  display: inline-block;
+  position: relative;
+  width: 3px;
+  background-color: rgba(128, 128, 128, 0.75);
+  animation-name: loading-bar-waves;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.theme-selector .loading-bar:not(:last-child) {
+  margin-right: 2px;
+}
+.theme-selector .loading-bar.bar-1 {
+  animation-delay: 0ms;
+}
+.theme-selector .loading-bar.bar-2 {
+  animation-delay: 100ms;
+}
+.theme-selector .loading-bar.bar-3 {
+  animation-delay: 200ms;
+}
+.theme-dropdown {
+  display: block;
+  position: absolute;
+  top: 2em;
+  left: 0;
+  width: 120px;
+  padding: 5px 0px;
+  background-color: #ffffff;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.theme-dropdown:not([data-dropdown]) {
+  display: none;
+}
+
+.theme-dropdown ul.theme-ul {
+  margin: 0;
+  padding: 0;
+}
+
+.theme-dropdown ul.theme-ul li.theme-li {
+  list-style: none;
+  color: #5a5a5a;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.theme-dropdown ul.theme-ul li.theme-li:hover {
+  background-color: #f3f3f3;
+}
+
+/* Tooltip */
+.rte-tooltip {
+  width: 100%;
+  max-width: 200px;
+  display: inline-block;
+  position: absolute;
+  top: -1em;
+  left: 0;
+  padding: 4px 10px;
+  background-color: #343434;
+  color: #fefefe;
+}
+
+.result-rte[data-reason] > a {
+  text-decoration-style: wavy;
+}
