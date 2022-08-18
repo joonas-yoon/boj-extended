@@ -38,8 +38,9 @@ print('total problems:', total_count)
 for tries in range(MAX_TRIES):
   rows = get_problem_details(range(offset, offset + INTERVAL))
   
-  for err in range(MAX_TRIES):
+  for err in range(5):
     if rows != None: break
+    print('[Awating next retry....]')
     sleep(5 * 60 * 1000)
     rows = get_problem_details(range(offset, offset + INTERVAL))
 
@@ -50,16 +51,19 @@ for tries in range(MAX_TRIES):
   is_print = is_last or (count - prev_count > (total_count // 10))
 
   if is_print:
-    print('=' * 30 + '\n')
-    print('# Collect {} items ... ({:.2f}%)\n\n'.format(count, count / total_count * 100))
+    print('=' * 80 + '\n')
+    print('# Collect {} items ... ({:.2f}%)\n'.format(count, count / total_count * 100))
   
   result = {}
-  for row in rows:
+  for i, row in enumerate(rows):
     pid = int(row['problemId'])
     title = row['titleKo']
     result[pid] = title
     if is_print:
-      print(pid, title)
+      if i < 5 or rows_count - 5 <= i:
+        print(pid, title)
+      elif i == 5:
+        print('...')
 
   problems.update(result)
 
@@ -70,7 +74,7 @@ for tries in range(MAX_TRIES):
     prev_count = count
     
   offset += INTERVAL
-  sleep_rand(100, 1000)
+  sleep_rand(100, 800)
 
 
 with open('db.json', 'w') as f:
