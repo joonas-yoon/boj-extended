@@ -48,7 +48,7 @@ for tries in range(MAX_TRIES):
   count += rows_count
 
   is_last = count >= total_count
-  is_print = is_last or (count - prev_count > (total_count // 10))
+  is_print = is_last or (count - prev_count > (total_count // 20))
 
   if is_print:
     print('=' * 80 + '\n')
@@ -74,7 +74,7 @@ for tries in range(MAX_TRIES):
     prev_count = count
     
   offset += INTERVAL
-  sleep_rand(100, 800)
+  sleep_rand(100, 1000)
 
 
 with open('db.json', 'w') as f:
