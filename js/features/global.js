@@ -227,7 +227,9 @@ function extendGlobal() {
     }, 100);
 
     function isSoLong(location) {
-      const fromSession = sessionStorage.getItem(Constants.CONFIG_LOCATION_HISTORY);
+      const fromSession = sessionStorage.getItem(
+        Constants.CONFIG_LOCATION_HISTORY
+      );
       if (fromSession == null) return true;
       if (location == null) return false;
       try {
