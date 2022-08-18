@@ -219,9 +219,8 @@ const RTE_MSGS = [
     return null;
   }
 
-  const tooltip = Utils.createElement('div', {
-    class: 'rte-tooltip',
-  });
+  const tooltip = document.createElement('div');
+  tooltip.className = 'rte-tooltip';
 
   // add reason for rte message
   const rteMessages = document.getElementsByClassName('result-rte');
