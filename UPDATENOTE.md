@@ -1,3 +1,19 @@
+## 1.8.3
+
+**Restores**
+
+- 유저 VS 페이지 복구
+- 게시글 개수 표시 복구
+- 문제 해결 여부에 따른 색상 표시 복구
+
+**Changes**
+
+- 유저 페이지
+- - 문제 표시 UI 변경
+- - - ![](https://user-images.githubusercontent.com/9527681/185422492-2f19157e-a732-4934-9bcc-b67875997b55.png)
+- - VS 버튼에 배경 효과 추가
+- - - ![](https://user-images.githubusercontent.com/9527681/185434073-a015164b-d027-4b08-8b05-709250ca2863.png)
+
 ## 1.8.2
 
 **Features**
