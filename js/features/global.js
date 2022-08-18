@@ -217,13 +217,18 @@ function extendGlobal() {
         timestamp: NOW.toISOString(),
       };
       console.log('location', currentLocation);
+      // for global sync
       Config.save(
         Constants.CONFIG_LOCATION_HISTORY,
         JSON.stringify(currentLocation)
       );
+      // for current session
+      sessionStorage.setItem(Constants.CONFIG_LOCATION_HISTORY, true);
     }, 100);
 
     function isSoLong(location) {
+      const fromSession = sessionStorage.getItem(Constants.CONFIG_LOCATION_HISTORY);
+      if (fromSession == null) return true;
       if (location == null) return false;
       try {
         const loc = JSON.parse(location);
