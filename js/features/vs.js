@@ -52,22 +52,22 @@ function extendVs() {
 
         const solvedBoth = solved1
           .filter((p) => solved2.includes(p))
-          .map(createProblemTag);
+          .map(createProblemLinkMapper);
         const solved1Only = solved1
           .filter((p) => !solved2.includes(p))
-          .map(createProblemTag);
+          .map(createProblemLinkMapper);
         const solved2Only = solved2
           .filter((p) => !solved1.includes(p))
-          .map(createProblemTag);
+          .map(createProblemLinkMapper);
         const tried1Only = tried1
           .filter((p) => !solved2.includes(p))
-          .map(createProblemTag);
+          .map(createProblemLinkMapper);
         const tried2Only = tried2
           .filter((p) => !solved1.includes(p))
-          .map(createProblemTag);
+          .map(createProblemLinkMapper);
         const solvedNobody = unsolved1
           .filter((p) => unsolved2.includes(p))
-          .map(createProblemTag);
+          .map(createProblemLinkMapper);
 
         const userHref1 = Utils.createElement('a', {
           href: '/user/' + users[0],
@@ -149,20 +149,8 @@ function extendVs() {
       });
     });
 
-    function createProblemTag(pid) {
-      const e = tagByPid[pid];
-      const a = e.cloneNode();
-      const pname = problems[pid] || '*New Problem';
-      a.style.display = 'inline';
-      a.style.marginRight = '3px';
-      a.style.wordBreak = 'break-all';
-      a.innerHTML =
-        '<span class="pid">' +
-        pid +
-        '</span> <span class="pname">' +
-        pname +
-        '</span>';
-      return a;
+    function createProblemLinkMapper(pid) {
+      return createProblemLinkElement(tagByPid[pid], problems, pid);
     }
 
     // title: string, body: Node

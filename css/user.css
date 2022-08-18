@@ -19,15 +19,6 @@
   display: inline !important;
 }
 
-.panel-body a:after {
-  content: ' / ';
-  text-decoration: none !important;
-}
-
-.panel-body a:last-child:after {
-  content: '' !important;
-}
-
 .panel-body .pgroup.pg-0 {
   display: inline !important;
 }
@@ -47,4 +38,20 @@
   margin: -10px auto;
   text-align: center;
   cursor: pointer;
+}
+
+/* VS form */
+.btn-vs {
+  color: white;
+  border: none;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, #6253e1, #F24645);
+  box-shadow: 0 1px 4px 0 rgba(126, 52, 161, 0.5);
+}
+
+.btn-vs:hover {
+  color: white;
+  background-position: 100% 0;
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.5);
+  transition: all .4s ease-in-out;
 }

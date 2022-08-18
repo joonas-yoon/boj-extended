@@ -50,6 +50,11 @@ function extendUserPage() {
   const wrapper = document.querySelector('.col-md-9');
   // add checkboxes whether problem's id or name
   wrapper.insertBefore(checkboxes, wrapper.firstChild);
+  // add vs form
+  wrapper.insertBefore(
+    createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
+    checkboxes
+  );
 
   Config.getProblems((problems) => {
     panels.forEach((panelOrigin) => {
@@ -58,14 +63,7 @@ function extendUserPage() {
       const panelResult = document.createElement('div');
       labels.forEach((e, i) => {
         const pid = e.innerText;
-        const pname = problems[pid] || '*New Problem';
-        const newA = e.cloneNode();
-        newA.innerHTML =
-          '<span class="pid">' +
-          pid +
-          '</span> <span class="pname">' +
-          pname +
-          '</span>';
+        const newA = createProblemLinkElement(e, problems, pid);
         div.appendChild(newA);
         // split by group
         const isLastItem = i + 1 === labels.length;

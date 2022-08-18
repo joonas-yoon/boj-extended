@@ -101,36 +101,22 @@ function progressTimer() {
   };
 }
 
-/**
- * @deprecated since version 1.7.7
- *
- * create a form to versus user
- *
- * @param {String} name1 username to diff
- * @param {String} name2 another username to diff
- * @return {HTMLElement} form
- */
 function createVsForm(name1, name2) {
   const div = Utils.createElement('div', {
     class: 'vs',
     style: 'margin-bottom: 10px',
   });
   const row = Utils.createElement('div', { class: 'row' });
-  const colpad = Utils.createElement('div', {
-    class: 'col col-sr-only col-md-1',
-  });
   const colbtn = Utils.createElement('div', { class: 'col col-md-2' });
-  const col1 = Utils.createElement('div', { class: 'col col-md-4' });
+  const col1 = Utils.createElement('div', { class: 'col col-md-5' });
   const col2 = col1.cloneNode();
-  row.appendChild(colpad.cloneNode());
   row.appendChild(col1);
   row.appendChild(colbtn);
   row.appendChild(col2);
-  row.appendChild(colpad.cloneNode());
   div.appendChild(row);
   const input1 = Utils.createElement('input', {
     type: 'text',
-    class: 'form-control',
+    class: 'form-control text-right',
     value: name1 || '',
     placeholder: 'Username',
   });
@@ -144,7 +130,7 @@ function createVsForm(name1, name2) {
   col2.appendChild(input2);
   const btn = Utils.createElement('button', {
     type: 'button',
-    class: 'btn btn-primary btn-block',
+    class: 'btn btn-primary btn-vs btn-block',
   });
   btn.innerText = 'VS';
   btn.addEventListener('click', (evt) => {
@@ -153,7 +139,7 @@ function createVsForm(name1, name2) {
     const v2 = input2.value;
     input1.setAttribute(
       'class',
-      'form-control' + (v1 ? '' : ' text-border-red bg-color-red')
+      'form-control text-right' + (v1 ? '' : ' text-border-red bg-color-red')
     );
     input2.setAttribute(
       'class',
@@ -173,8 +159,6 @@ function addElementToBar(element) {
 }
 
 /**
- * @deprecated since version 1.7.6
- *
  * fetch information for problems from user profile
  *
  * @param {string} id username
@@ -249,4 +233,17 @@ function getProblemID(url) {
   if (!url || !/^\/problem\/[0-9]{4,}$/.test(url)) return null;
   const pid = getLastNumberFromHref(url);
   return pid == null || isNaN(pid) ? null : pid;
+}
+
+function createProblemLinkElement(baseElement, problemsLookup, pid) {
+  const a = baseElement.cloneNode();
+  const pname = problemsLookup[pid] || '*New Problem';
+  a.classList.add('problem-link-style-box');
+  a.innerHTML =
+    '<span class="pid">' +
+    pid +
+    '</span> <span class="pname">' +
+    pname +
+    '</span>';
+  return a;
 }
