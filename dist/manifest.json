@@ -1,7 +1,7 @@
 {
   "name": "BOJ Extended",
   "description": "백준 온라인 저지(BOJ)를 확장된 기능과 함께 사용해보세요.",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "manifest_version": 3,
   "background": {
     "service_worker": "js/background.js"
@@ -32,6 +32,7 @@
         "js/features/user.js",
         "js/features/board.js",
         "js/features/group.js",
+        "js/features/vs.js",
         "js/features/search.js",
         "js/features/setting.js",
         "js/features/global.js",
@@ -54,7 +55,20 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["storage"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
   "host_permissions": [
     "https://www.acmicpc.net/?",
     "https://www.acmicpc.net/*"

@@ -13,7 +13,7 @@ function ownKeys(a,b){var c=Object.keys(a);if(Object.getOwnPropertySymbols){var 
         <a href="/status?from_problem=1&amp;problem_id=${b}">채점 현황</a> \
       </div> \
     `}function m(a){const{id:b,problems:c,creator:d,_highlightResult:e}=a,{name:g,comment:h,creator:i,problem:j}=e,k=(j||[]).filter(function({problem_id:a,title:b}){return a.matchedWords.length||b.matchedWords.length}).map(function({problem_id:a,title:b}){const c=a.value.replace(/(<([^>]+)>)/gi,""),d=f(c);return`<span class="problem">\
-          <a href="/problem/${c}" class="${d}">\
+          <a href="/problem/${c}" class="${d} problem-link-style-box">\
             ${a.value}번 ${b.value}\
           </a>\
         </span>`}).join("\n");return`\
