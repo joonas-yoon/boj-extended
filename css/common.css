@@ -95,7 +95,12 @@
 #quick-search .results .quick-search-item > .search-breadcrumb > li {
   padding: 0;
 }
-#quick-search .results .quick-search-item > .search-breadcrumb > li + li:before {
+#quick-search
+  .results
+  .quick-search-item
+  > .search-breadcrumb
+  > li
+  + li:before {
   content: '/\00a0';
 }
 
@@ -131,7 +136,12 @@
   display: inline-block;
   margin-right: 3px;
 }
-#quick-search .results .quick-search-item .links > .problem > a.problem-link-style-box {
+#quick-search
+  .results
+  .quick-search-item
+  .links
+  > .problem
+  > a.problem-link-style-box {
   margin: 0 0 5px 0 !important;
 }
 
@@ -259,7 +269,7 @@
 }
 
 /* Problem Links */
-a[href^="/problem"].problem-link-style-box {
+a[href^='/problem'].problem-link-style-box {
   display: inline-block;
   padding: 3px 8px;
   margin: 2px;
@@ -271,41 +281,41 @@ a[href^="/problem"].problem-link-style-box {
   min-height: 18px;
 }
 
-a[href^="/problem"].problem-link-style-box.result-ac {
+a[href^='/problem'].problem-link-style-box.result-ac {
   background-color: #009874;
   color: white;
 }
 
-a[href^="/problem"].problem-link-style-box.result-pac {
+a[href^='/problem'].problem-link-style-box.result-pac {
   background-color: #efc050;
   color: white;
 }
 
-a[href^="/problem"].problem-link-style-box.result-wa {
+a[href^='/problem'].problem-link-style-box.result-wa {
   background-color: #dd4124;
   color: white;
 }
 
-a[href^="/problem"].problem-link-style-box:hover {
+a[href^='/problem'].problem-link-style-box:hover {
   font-weight: normal;
   background-color: transparent;
   border-color: #959595;
   text-decoration: none;
 }
 
-a[href^="/problem"].problem-link-style-box.result-ac:hover {
+a[href^='/problem'].problem-link-style-box.result-ac:hover {
   background-color: transparent;
   border-color: #009874;
   color: #009874;
 }
 
-a[href^="/problem"].problem-link-style-box.result-pac:hover {
+a[href^='/problem'].problem-link-style-box.result-pac:hover {
   background-color: transparent;
   border-color: #efc050;
   color: #efc050;
 }
 
-a[href^="/problem"].problem-link-style-box.result-wa:hover {
+a[href^='/problem'].problem-link-style-box.result-wa:hover {
   background-color: transparent;
   border-color: #dd4124;
   color: #dd4124;
