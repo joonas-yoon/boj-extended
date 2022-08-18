@@ -2,9 +2,9 @@ name: Bot
 
 on:
   schedule:
-    # every 4:00 am, MON/WED/FRI (UTC+9)
-    # but 7:00 pm, SUN/TUE/THU in UTC
-    - cron: '0 19 * * 0,2,4'
+    # every 4:00 am, everyday in UTC+9
+    # but 7:00 pm, everyday in UTC
+    - cron: '0 19 * * *'
   workflow_dispatch:
     inputs:
       update:
@@ -20,34 +20,23 @@ jobs:
     - uses: actions/checkout@v2
       with:
         ref: 'release'
+
     - name: Set up python 3.9
       uses: actions/setup-python@v1
       with:
         python-version: 3.9
 
     - name: Install python package
-      run: |
-        pip install selenium
-        pip install requests
-
-    - name: Install ubuntu package
-      run: |
-        sudo apt-get install fonts-unfonts-core
-        sudo apt-get install fonts-unfonts-extra
-        wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add
-        sudo apt-get install google-chrome-stable
-        wget https://chromedriver.storage.googleapis.com/78.0.3904.11/chromedriver_linux64.zip
-        unzip ./chromedriver_linux64.zip
+      run: pip install requests
 
     - name: Run bot
+      run: python ./util/bot.py
+
+    - name: Lint
       uses: actions/setup-node@v1
       with:
         node-version: '14.x'
     - run: |
-        python ./util/bot.py
-
-    - name: Lint
-      run: |
         npm ci
         npm run lint
 

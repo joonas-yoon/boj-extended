@@ -1,3 +1,5 @@
+importScripts(chrome.runtime.getURL('/js/constants.js'));
+
 function openSettingPage() {
   chrome.runtime.openOptionsPage();
 }
@@ -65,46 +67,39 @@ const Config = new _Config(); // as singleton
 const Problems = {
   data: {},
 
-  fetchFromRemote: function () {
+  fetchFromRemote: async function () {
     const self = this;
-    const url =
-      'https://raw.githubusercontent.com/joonas-yoon/boj-extended/release/db.json';
-    const httpRequest = new XMLHttpRequest();
-    if (!httpRequest) {
-      console.error('Can not create XMLHTTP instance.');
-      return false;
-    }
-    httpRequest.onreadystatechange = function () {
-      if (httpRequest.readyState == 4 && httpRequest.status == 200) {
-        try {
-          const newDB = JSON.parse(httpRequest.responseText);
-          if (!newDB) {
-            console.error('Can not fetch data from remote');
-            return;
-          }
-          const oldDB = JSON.parse(
-            localStorage.getItem('boj-extended-DB_PROBLEMS')
-          );
-          if (
-            !oldDB ||
-            !oldDB['last_updated'] ||
-            newDB['last_updated'] != oldDB['last_updated']
-          ) {
-            localStorage.setItem(
-              'boj-extended-DB_PROBLEMS',
-              JSON.stringify(newDB)
-            );
-            self.data = newDB;
-          } else {
-            self.data = oldDB;
-          }
-        } catch (err) {
-          console.error(err.message + ' in ' + httpRequest.responseText);
-        }
+    const newDB = await fetch(Constants.BG_PROBLEM_FETCH_URL)
+      .then((res) => {
+        // eslint-disable-next-line no-throw-literal
+        if (!res) throw 'Can not fetch data from remote';
+        return res.json();
+      })
+      .catch((error) => {
+        console.error(error);
+        return {
+          last_updated: null,
+        };
+      });
+    console.log('fetchFromRemote', newDB);
+    // replace to new one
+    if (newDB !== null) {
+      const { [Constants.BG_DB_PROBLEMS]: rawOldDB } =
+        await chrome.storage.local.get(Constants.BG_DB_PROBLEMS);
+      const oldDB = JSON.parse(rawOldDB || '{}');
+      if (
+        !oldDB ||
+        !oldDB['last_updated'] ||
+        newDB['last_updated'] != oldDB['last_updated']
+      ) {
+        chrome.storage.local.set({
+          [Constants.BG_DB_PROBLEMS]: JSON.stringify(newDB),
+        });
+        self.data = newDB;
+      } else {
+        self.data = oldDB;
       }
-    };
-    httpRequest.open('GET', url);
-    httpRequest.send();
+    }
   },
 
   get: function (callback) {
