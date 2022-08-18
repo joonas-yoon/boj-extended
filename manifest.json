@@ -46,7 +46,11 @@
   },
   "web_accessible_resources": [
     {
-      "resources": ["css/status.css", "css/user.css", "js/status-rte.js"],
+      "resources": [
+        "css/status.css",
+        "css/user.css",
+        "js/features/status/rte.js"
+      ],
       "matches": ["<all_urls>"]
     }
   ],
