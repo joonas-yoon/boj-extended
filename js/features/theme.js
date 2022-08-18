@@ -11,17 +11,8 @@ function extendTheme() {
   const dropdown = Utils.createElement('div', { class: 'theme-dropdown' });
   const ul = Utils.createElement('ul', { class: 'theme-ul' });
   const themeList = Object.keys(Constants.THEMES) || [];
-  for (const theme of themeList) {
-    const li = Utils.createElement('li', {
-      class: 'theme-li',
-    });
-    li.innerText = Constants.THEMES[theme];
-    li.addEventListener('click', (evt) => {
-      evt.preventDefault();
-      saveTheme(theme);
-    });
-    ul.appendChild(li);
-  }
+
+  // initialize button
   const themeButton = document.createElement('a');
   themeButton.innerHTML = '';
   for (let i = 1; i <= 3; ++i) {
@@ -31,6 +22,20 @@ function extendTheme() {
     evt.preventDefault();
     showDropdown(!isShowDropdown());
   });
+
+  // intialize theme dropdown
+  for (const theme of themeList) {
+    const li = Utils.createElement('li', {
+      class: 'theme-li',
+    });
+    li.innerText = Constants.THEMES[theme];
+    li.addEventListener('click', (evt) => {
+      evt.preventDefault();
+      applyTheme(themeButton, theme);
+      saveTheme(theme);
+    });
+    ul.appendChild(li);
+  }
 
   // release dropdown
   document.addEventListener('click', (evt) => {
@@ -46,15 +51,9 @@ function extendTheme() {
   addElementToBar(container);
 
   // after page loaded
-  Config.load(Constants.CONFIG_THEME, selectTheme);
-
-  function saveTheme(theme) {
-    Config.save(Constants.CONFIG_THEME, theme, selectTheme);
-  }
-
-  function selectTheme(theme) {
-    applyTheme(themeButton, theme);
-  }
+  Config.load(Constants.CONFIG_THEME, (storedTheme) => {
+    applyTheme(themeButton, storedTheme);
+  });
 
   const dAttrKey = 'data-dropdown';
   function isShowDropdown() {
@@ -71,38 +70,43 @@ function extendTheme() {
 }
 
 function applyTheme(button, theme) {
+  console.log('apply theme (requested):', theme);
+
+  // detect dark mode by user preference
+  // FIXME: flickering when page loaded
+  if (hasNoPreferedTheme(theme)) {
+    theme = getThemeBySystem();
+    detectDarkmode();
+  }
+
+  console.log('apply theme (detected):', theme);
+
   setTimeout(() => {
     if (button) {
       button.innerText = Constants.THEMES[theme];
     }
   }, 100);
-  // detect dark mode by user preference
-  // FIXME: flickering when page loaded
-  // if (theme == 'auto') {
-  //   theme = getThemeBySystem();
-  //   detectDarkmode();
-  // }
   document.body.parentNode.setAttribute('theme', theme);
+
+  function hasNoPreferedTheme(theme) {
+    return theme == null || theme == 'auto';
+  }
+
+  function detectDarkmode() {
+    const systemMedia = window.matchMedia('(prefers-color-scheme: dark)');
+    saveTheme(getThemeBySystem(systemMedia));
+    systemMedia.addEventListener('change', setThemeBySystem);
+  }
+
+  function getThemeBySystem(systemMedia) {
+    systemMedia =
+      systemMedia || window.matchMedia('(prefers-color-scheme: dark)');
+    const isDarkMode = !!systemMedia.matches;
+    return isDarkMode ? 'dark' : 'light';
+  }
 }
 
-function detectDarkmode() {
-  const systemMedia = window.matchMedia('(prefers-color-scheme: dark)');
-  setThemeBySystem(systemMedia);
-  // add event listener
-  systemMedia.addEventListener('change', setThemeBySystem);
-}
-
-function getThemeBySystem(systemMedia) {
-  systemMedia =
-    systemMedia || window.matchMedia('(prefers-color-scheme: dark)');
-  const isDarkMode = !!systemMedia.matches;
-  return isDarkMode ? 'dark' : 'light';
-}
-
-function setThemeBySystem(systemMedia) {
-  const theme = getThemeBySystem(systemMedia);
-  // NOTE: this do not save to config
-  applyTheme(null, theme);
-  // for caching
-  localStorage.setItem('systemTheme', theme);
+function saveTheme(theme, callback) {
+  const defaultCallback = () => {};
+  Config.save(Constants.CONFIG_THEME, theme, callback || defaultCallback);
 }
