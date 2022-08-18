@@ -359,7 +359,7 @@ function extendQuickSearch() {
         const pid = problem_id.value.replace(/(<([^>]+)>)/gi, '');
         const problemColor = getProblemStatus(pid);
         return `<span class="problem">\
-          <a href="/problem/${pid}" class="${problemColor}">\
+          <a href="/problem/${pid}" class="${problemColor} problem-link-style-box">\
             ${problem_id.value}번 ${title.value}\
           </a>\
         </span>`;

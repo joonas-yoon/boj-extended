@@ -6,6 +6,7 @@ function extendProblemPage() {
 
   // Constants
   const STORAGE_TIMER = 'problem-timers';
+  const STORAGE_PROBLEM_BOARD = 'problem-boards';
 
   const container = document
     .getElementsByClassName('content')[0]
@@ -15,6 +16,73 @@ function extendProblemPage() {
 
   const dropdown = createTimerDropdown();
   menu.appendChild(dropdown);
+
+  // the number of questions
+  const searchMenu = document.querySelector(
+    'ul.problem-menu li a[href^="/board/search/"]'
+  );
+  if (searchMenu) {
+    (async () => {
+      if (pid == null) {
+        console.log('pid is null');
+        return;
+      }
+      const qc = await getQuestionCount();
+      const qcount = qc ? qc[pid] : null;
+      const currentTime = new Date().getTime();
+      console.group('problem.js');
+      console.log('qcounts', qc);
+      console.log(`qcounts[${pid}]:`, qcount);
+      console.log('currentTime', currentTime);
+      console.groupEnd();
+      const UPDATE_DURATION = 24 * 3600 * 1000; // 24 hours
+      let estimates = 0;
+      if (qcount && currentTime - qcount.last_updated <= UPDATE_DURATION) {
+        // use cache
+        estimates = qcount.count || 0;
+      } else {
+        const doc = await fetch(
+          `https://www.acmicpc.net/board/search/all/problem/${pid}`
+        )
+          .then((res) => res.text())
+          .then((html) => new DOMParser().parseFromString(html, 'text/html'))
+          .catch((err) => {
+            console.error(err);
+            return null;
+          });
+        if (doc !== null) {
+          const pages = doc.querySelectorAll('ul.pagination li').length - 2;
+          const rows = doc.querySelectorAll(
+            '.table > tbody > tr:not(.success)'
+          ).length;
+          // count questions
+          estimates = rows;
+          if (pages > 1) {
+            estimates = (pages - 1) * rows + '+';
+          }
+          // store this result
+          setQuestionCount(estimates);
+        }
+      }
+      // update UI
+      searchMenu.innerText += ' (' + estimates + ')';
+    })();
+  }
+
+  async function getQuestionCount() {
+    return JSON.parse(await localStorage.getItem(STORAGE_PROBLEM_BOARD));
+  }
+
+  async function setQuestionCount(val) {
+    const data = {
+      ...(await getQuestionCount()),
+      [pid]: {
+        count: val,
+        last_updated: new Date().getTime(),
+      },
+    };
+    await localStorage.setItem(STORAGE_PROBLEM_BOARD, JSON.stringify(data));
+  }
 
   function stopTimer() {
     // TODO: 옵션에서 메시지 설정
