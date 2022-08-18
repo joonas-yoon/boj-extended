@@ -95,8 +95,7 @@
 #quick-search .results .quick-search-item > .search-breadcrumb > li {
   padding: 0;
 }
-#quick-search .results .quick-search-item > .search-breadcrumb > li + li:before,
-#quick-search .results .quick-search-item .links > .problem + .problem:before {
+#quick-search .results .quick-search-item > .search-breadcrumb > li + li:before {
   content: '/\00a0';
 }
 
@@ -131,6 +130,9 @@
 #quick-search .results .quick-search-item .links > .problem {
   display: inline-block;
   margin-right: 3px;
+}
+#quick-search .results .quick-search-item .links > .problem > a.problem-link-style-box {
+  margin: 0 0 5px 0 !important;
 }
 
 #quick-search .results-footer {
