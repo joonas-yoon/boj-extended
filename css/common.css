@@ -259,7 +259,6 @@
 }
 
 /* Problem Links */
-
 a[href^="/problem"].problem-link-style-box {
   display: inline-block;
   padding: 3px 8px;
@@ -290,13 +289,13 @@ a[href^="/problem"].problem-link-style-box.result-wa {
 a[href^="/problem"].problem-link-style-box:hover {
   font-weight: normal;
   background-color: transparent;
-  border-color: #009874;
+  border-color: #959595;
   text-decoration: none;
 }
 
 a[href^="/problem"].problem-link-style-box.result-ac:hover {
   background-color: transparent;
-  border-color: #959595;
+  border-color: #009874;
   color: #009874;
 }
 

@@ -1091,3 +1091,47 @@ html[theme='dark'] .theme-dropdown ul.theme-ul li.theme-li {
 html[theme='dark'] .theme-dropdown ul.theme-ul li.theme-li:hover {
   background-color: #454545;
 }
+
+/* Problem Links */
+html[theme='dark'] a[href^="/problem"].problem-link-style-box {
+  background-color: #3c3c3c;
+}
+
+html[theme='dark'] a[href^="/problem"].problem-link-style-box.result-ac {
+  background-color: #016951;
+  color: #e7e7e7;
+}
+
+html[theme='dark'] a[href^="/problem"].problem-link-style-box.result-pac {
+  background-color: #d5a32d;
+  color: #fcfcfc;
+}
+
+html[theme='dark'] a[href^="/problem"].problem-link-style-box.result-wa {
+  background-color: #a72811;
+  color: #dadada;
+}
+
+html[theme='dark'] a[href^="/problem"].problem-link-style-box:hover {
+  background-color: transparent;
+  border-color: #e2e2e2;
+  text-decoration: none;
+}
+
+html[theme='dark'] a[href^="/problem"].problem-link-style-box.result-ac:hover {
+  background-color: transparent;
+  border-color: #00dba8;
+  color: #00dba8;
+}
+
+html[theme='dark'] a[href^="/problem"].problem-link-style-box.result-pac:hover {
+  background-color: transparent;
+  border-color: #f1b936;
+  color: #f1b936;
+}
+
+html[theme='dark'] a[href^="/problem"].problem-link-style-box.result-wa:hover {
+  background-color: transparent;
+  border-color: #f7573b;
+  color: #f7573b;
+}
