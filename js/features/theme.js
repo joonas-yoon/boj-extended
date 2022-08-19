@@ -72,11 +72,9 @@ function extendTheme() {
 function applyTheme(button, theme) {
   console.log('apply theme (requested):', theme);
 
-  // detect dark mode by user preference
-  // FIXME: flickering when page loaded
   if (hasNoPreferedTheme(theme)) {
     theme = getThemeBySystem();
-    detectDarkmode();
+    saveTheme(theme);
   }
 
   console.log('apply theme (detected):', theme);
@@ -90,12 +88,6 @@ function applyTheme(button, theme) {
 
   function hasNoPreferedTheme(theme) {
     return theme == null || theme == 'auto';
-  }
-
-  function detectDarkmode() {
-    const systemMedia = window.matchMedia('(prefers-color-scheme: dark)');
-    saveTheme(getThemeBySystem(systemMedia));
-    systemMedia.addEventListener('change', setThemeBySystem);
   }
 
   function getThemeBySystem(systemMedia) {
