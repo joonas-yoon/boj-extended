@@ -27,7 +27,6 @@
       "all_frames": true,
       "js": [
         "js/features/status/all.js",
-        "js/features/status/rte.js",
         "js/features/problem.js",
         "js/features/user.js",
         "js/features/board.js",
