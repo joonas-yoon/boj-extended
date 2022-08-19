@@ -1,28 +1,4 @@
 const Utils = {
-  requestAjax: function (url, callback) {
-    const httpRequest = new XMLHttpRequest();
-
-    if (!httpRequest) {
-      console.error('Can not create XMLHTTP instance.');
-      return false;
-    }
-    httpRequest.onreadystatechange = function () {
-      if (httpRequest.readyState == 4) {
-        if (httpRequest.status == 200) {
-          try {
-            callback(httpRequest.responseText, null);
-          } catch (err) {
-            console.error(err.message + ' in ' + httpRequest.responseText);
-            callback(null, err.message);
-          }
-        } else {
-          callback(null, httpRequest.status);
-        }
-      }
-    };
-    httpRequest.open('GET', url);
-    httpRequest.send();
-  },
   loadCSS: function (url) {
     const path = chrome.runtime.getURL(url);
     const css = document.createElement('link');
@@ -41,8 +17,15 @@ const Utils = {
   createElement: function (tag, attrs) {
     const keys = Object.keys(attrs || {});
     const el = document.createElement(tag || 'div');
-    for (let i = 0; i < keys.length; ++i) {
-      el.setAttribute(keys[i], attrs[[keys[i]]]);
+    for (const key of keys) {
+      const value = attrs[key];
+      if (key == 'children') {
+        for (const child of value) {
+          el.appendChild(child);
+        }
+      } else {
+        el.setAttribute(key, value);
+      }
     }
     return el;
   },

@@ -168,16 +168,16 @@ function extendVs() {
     }
 
     function fetchProblems(username, response) {
-      Utils.requestAjax(
-        'https://www.acmicpc.net/user/' + username,
-        (html, error) => {
-          if (error) {
-            console.log(error);
-            alert('존재하지 않거나 잘못된 아이디입니다.');
-            window.history.back();
-            return;
-          }
-          const doc = new DOMParser().parseFromString(html, 'text/html');
+      fetch('https://www.acmicpc.net/user/' + username)
+        .catch(error => {
+          console.log(error);
+          alert('존재하지 않거나 잘못된 아이디입니다.');
+          window.history.back();
+          return false;
+        })
+        .then(res => res.text())
+        .then(html => new DOMParser().parseFromString(html, 'text/html'))
+        .then(doc => {
           const panels = doc.querySelectorAll('.panel');
           const problems = [];
           // first is heat chart
@@ -195,9 +195,9 @@ function extendVs() {
               tags: tags,
             });
           }
-          response(problems);
-        }
-      );
+          return problems;
+        })
+        .then(response);
     }
   });
 
