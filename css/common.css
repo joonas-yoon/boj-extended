@@ -267,6 +267,7 @@ input.form-control.bg-color-red::placeholder {
   padding: 4px 10px;
   background-color: #343434;
   color: #fefefe;
+  word-break: break-all;
 }
 
 .result-rte[data-reason] > a {

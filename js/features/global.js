@@ -49,41 +49,72 @@ function extendGlobal() {
       }
       console.log('load', window.bojextStatusHistories);
       Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
+        console.log('showFakeResult (default: true)', showFakeResult);
+        const formattingIfHasFake = (element, fakeText) => {
+          // true or null (default)
+          if (showFakeResult !== false) {
+            formatting(element, fakeText);
+          }
+        };
         // add fake result for each texts
-        showFakeResult = showFakeResult !== false; // true or null (default)
-        console.log('showFakeResult', showFakeResult);
         document.querySelectorAll('span[class^=result-]').forEach((element) => {
           if (element.getAttribute('class') === 'result-text') return;
-          const fakeText = document.createElement('span');
-          fakeText.setAttribute('class', 'result-fake-text');
-          fakeText.appendChild(element.firstChild.cloneNode(true));
-          fakeText.style.display = 'none';
+          const fakeText = Utils.createElement('span', {
+            class: 'result-fake-text',
+            style: 'display: none',
+            children: [element.firstChild.cloneNode(true)],
+          });
           const box = element.closest('.result-text');
           if (box !== null) {
             addFakeResult(box, fakeText);
             addObserver(box, (resultText) => {
-              const res = resultText.querySelector('span') || resultText;
-              const id = res.closest('tr').id;
-              // save current percentage
-              if (res.classList.contains('result-judging')) {
-                const percent = parseInt(res.innerText.match(/\d+/)) || null;
-                if (showHistory && percent !== null) updateHistory(id, percent);
-              } else {
-                const isAccept =
-                  res.classList.contains('result-ac') ||
-                  res.classList.contains('result-pac');
-                if (isAccept) deleteHistory(id);
-              }
-              if (showFakeResult) formatting(res, fakeText);
+              const statusElement = getStatusElement(resultText);
+              onStatusElementUpdated(statusElement, showHistory);
+              formattingIfHasFake(statusElement, fakeText);
             });
           } else {
             // /source, /share
             addFakeResult(element, fakeText);
           }
-          if (showFakeResult) formatting(element, fakeText);
+          formattingIfHasFake(element, fakeText);
         });
       });
     });
+
+    function onStatusElementUpdated(statusElement, showHistory) {
+      const statusId = getStatusId(statusElement);
+      // save current percentage
+      if (isUpdatable(statusElement)) {
+        const percent = parseInt(statusElement.innerText.match(/\d+/)) || null;
+        if (showHistory && percent !== null) {
+          updateHistory(statusId, percent);
+        }
+      } else if (isAcceptResult(statusElement)) {
+        deleteHistory(statusId);
+      }
+    }
+
+    function getStatusElement(el) {
+      return el.querySelector('span') || el;
+    }
+
+    function getStatusId(el) {
+      return el.closest('tr').id;
+    }
+
+    function isUpdatable(el) {
+      return (
+        el.classList.contains('result-judging') &&
+        !el.innerText.includes('런타임 에러 이유를 찾는 중')
+      );
+    }
+
+    function isAcceptResult(el) {
+      return (
+        el.classList.contains('result-ac') ||
+        el.classList.contains('result-pac')
+      );
+    }
 
     function addObserver(target, callback) {
       const observer = new MutationObserver(function (mutations) {
