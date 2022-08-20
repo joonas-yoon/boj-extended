@@ -1126,7 +1126,8 @@ html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-ac:hover {
   color: #00dba8;
 }
 
-html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-pac:hover {
+html[theme='rigel']
+  a[href^='/problem'].problem-link-style-box.result-pac:hover {
   background-color: transparent;
   border-color: #f1b936;
   color: #f1b936;
@@ -1137,4 +1138,3 @@ html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-wa:hover {
   border-color: #f7573b;
   color: #f7573b;
 }
-
