@@ -109,13 +109,6 @@ function extendGlobal() {
       );
     }
 
-    function isAcceptResult(el) {
-      return (
-        el.classList.contains('result-ac') ||
-        el.classList.contains('result-pac')
-      );
-    }
-
     function addObserver(target, callback) {
       const observer = new MutationObserver(function (mutations) {
         mutations.forEach(function (mutation) {
@@ -188,7 +181,7 @@ function extendGlobal() {
       const id = input.closest('tr').id;
       const ptext = td.querySelector('.result-latest');
       if (
-        !input.classList.contains('result-ac') &&
+        !isAcceptResult(input) &&
         window.bojextStatusHistories &&
         window.bojextStatusHistories[id] !== undefined
       ) {
@@ -227,6 +220,10 @@ function extendGlobal() {
       JSON.stringify(histories)
     );
     window.bojextStatusHistories = histories;
+  }
+
+  function isAcceptResult(el) {
+    return el.classList.contains('result-ac');
   }
 
   function extendLastViewPopup() {
