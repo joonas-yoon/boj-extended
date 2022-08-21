@@ -198,4 +198,78 @@
     Config.save(key, reformat(value));
     Config.save(key + '-code', value);
   }
+
+  // global:font
+  const oExternalFontEnable = document.getElementById(
+    'option-global-font-enable'
+  );
+  const oExternalFontDisable = document.getElementById(
+    'option-global-font-disable'
+  );
+  const oFontForms = document.getElementById('global-font-setting');
+  const oFontFormURL = document.getElementById('font-url');
+  const oFontFormFamily = document.getElementById('font-family');
+  const exampleStyleTag = document.createElement('style');
+  oExternalFontEnable.addEventListener('change', () => {
+    enableFontStyleSetting(true);
+  });
+  oExternalFontDisable.addEventListener('change', () => {
+    enableFontStyleSetting(false);
+  });
+  oFontFormURL.addEventListener('keyup', () => {
+    updateAndSaveFontStyle(oFontFormURL.value, oFontFormFamily.value);
+  });
+  oFontFormFamily.addEventListener('keyup', () => {
+    updateAndSaveFontStyle(oFontFormURL.value, oFontFormFamily.value);
+  });
+
+  function enableFontStyleSetting(enabled) {
+    if (enabled) {
+      oExternalFontEnable.checked = true;
+      oFontForms.style.display = 'block';
+      if (!document.head.contains(exampleStyleTag)) {
+        document.head.appendChild(exampleStyleTag);
+      }
+      updateAndSaveFontStyle(oFontFormURL.value, oFontFormFamily.value);
+    } else {
+      oExternalFontDisable.checked = true;
+      oFontForms.style.display = 'none';
+      if (document.head.contains(exampleStyleTag)) {
+        document.head.removeChild(exampleStyleTag);
+      }
+    }
+  }
+
+  function updateAndSaveFontStyle(url, family) {
+    const TAGS =
+      'body, input, button, select, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .purchase span';
+    const INHERITED_FONTS =
+      "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans CJK KR', 'Noto Sans KR', '나눔바른고딕', '나눔고딕', '맑은고딕', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'";
+    const importUrl = "@import url('" + url + "');";
+    const overrideRule =
+      TAGS +
+      ' { font-family: ' +
+      family +
+      ', ' +
+      INHERITED_FONTS +
+      ' !important; }';
+
+    const ruleString =
+      (url ? importUrl : '') + '\n' + (family ? overrideRule : '');
+    exampleStyleTag.innerText = ruleString;
+
+    const rules = {
+      enabled: true,
+      url,
+      family,
+    };
+    Config.save(Constants.CONFIG_FONT_STYLE, JSON.stringify(rules));
+  }
+
+  Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+    const rules = JSON.parse(rulesStr || '{}');
+    oFontFormURL.value = rules['url'] || '';
+    oFontFormFamily.value = rules['family'] || '';
+    enableFontStyleSetting(rules['enabled'] || false);
+  });
 })();
