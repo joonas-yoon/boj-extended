@@ -11,7 +11,9 @@
 - rigel 테마에서 문제 링크의 색상 수정
 - 퍼센트 표시
 - - 런타임 오류 시 버그 수정 [(#78)](https://github.com/joonas-yoon/boj-extended/issues/78)
-- - 부분 점수에서도 표시되도록 변경
+- - - ![](https://user-images.githubusercontent.com/9527681/185526258-4292730f-a713-48a4-9f45-11ccd2c39d1b.gif)
+- - 부분 점수에서도 표시되도록 변경 [(#74)](https://github.com/joonas-yoon/boj-extended/issues/74)
+- - - ![](https://user-images.githubusercontent.com/9527681/185736731-6abd17a7-4a36-4e80-b8ac-75b615778ae6.png)
 - 옵션 페이지에서 "결과 바꾸기"가 저장이 안 되던 버그 수정
 - 일부 함수 최적화
 
