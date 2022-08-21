@@ -4,6 +4,7 @@ const Constants = {
   CONFIG_SHOW_STATUS_HISTORY: 'show-status-history',
   CONFIG_SHOW_STATUS_PID: 'show-status-pid',
   CONFIG_SHOW_FAKE_RESULT: 'show-fake-result',
+  CONFIG_FONT_STYLE: 'font-style',
   CONFIG_THEME: 'theme',
   CONFIG_THEME_IMAGE_FILTER: 'theme-image-filter',
   CONFIG_LOCATION_HISTORY: 'location-history',

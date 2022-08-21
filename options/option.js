@@ -4,6 +4,8 @@
     setTimeout(main, 100);
     return;
   }
+
+  // close button
   Array.from(document.getElementsByClassName('btn-close-window')).forEach(
     (e) => {
       e.addEventListener('click', (evt) => {
@@ -106,7 +108,9 @@
     });
 
     oFakeText[i].addEventListener('input', onReformatChanged);
+    oFakeText[i].addEventListener('keyup', onReformatChanged);
   }
+
   // active button
   const oFakeTextActive = document.getElementsByClassName(
     'option-status-result'
@@ -194,4 +198,69 @@
     Config.save(key, reformat(value));
     Config.save(key + '-code', value);
   }
+
+  // global:font
+  const oExternalFontEnable = document.getElementById(
+    'option-global-font-enable'
+  );
+  const oExternalFontDisable = document.getElementById(
+    'option-global-font-disable'
+  );
+  const oFontForms = document.getElementById('global-font-setting');
+  const oFontFormURL = document.getElementById('font-url');
+  const oFontFormFamily = document.getElementById('font-family');
+  const exampleStyleTag = document.createElement('style');
+  oExternalFontEnable.addEventListener('change', () => {
+    enableFontStyleSetting(true);
+  });
+  oExternalFontDisable.addEventListener('change', () => {
+    enableFontStyleSetting(false);
+  });
+  oFontFormURL.addEventListener('keyup', () => {
+    updateAndSaveFontStyle(createFontRules(true));
+  });
+  oFontFormFamily.addEventListener('keyup', () => {
+    updateAndSaveFontStyle(createFontRules(true));
+  });
+
+  function enableFontStyleSetting(enabled) {
+    if (enabled) {
+      oExternalFontEnable.checked = true;
+      oFontForms.style.display = 'block';
+      if (!document.head.contains(exampleStyleTag)) {
+        document.head.appendChild(exampleStyleTag);
+      }
+    } else {
+      oExternalFontDisable.checked = true;
+      oFontForms.style.display = 'none';
+      if (document.head.contains(exampleStyleTag)) {
+        document.head.removeChild(exampleStyleTag);
+      }
+    }
+    updateAndSaveFontStyle(createFontRules(enabled));
+  }
+
+  function createFontRules(enabled) {
+    const url = oFontFormURL.value || '';
+    const family = oFontFormFamily.value || '';
+    return {
+      enabled,
+      url,
+      family,
+    };
+  }
+
+  function updateAndSaveFontStyle(rules) {
+    const tag = createFontStyleElement(rules);
+    exampleStyleTag.innerText = tag.innerText;
+    Config.save(Constants.CONFIG_FONT_STYLE, JSON.stringify(rules));
+  }
+
+  Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+    const rules = JSON.parse(rulesStr || '{}');
+    console.log('font rules', rules);
+    oFontFormURL.value = rules['url'] || '';
+    oFontFormFamily.value = rules['family'] || '';
+    enableFontStyleSetting(rules['enabled'] || false);
+  });
 })();
