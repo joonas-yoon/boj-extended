@@ -217,10 +217,10 @@
     enableFontStyleSetting(false);
   });
   oFontFormURL.addEventListener('keyup', () => {
-    updateAndSaveFontStyle(oFontFormURL.value, oFontFormFamily.value);
+    updateAndSaveFontStyle(createFontRules(true));
   });
   oFontFormFamily.addEventListener('keyup', () => {
-    updateAndSaveFontStyle(oFontFormURL.value, oFontFormFamily.value);
+    updateAndSaveFontStyle(createFontRules(true));
   });
 
   function enableFontStyleSetting(enabled) {
@@ -230,7 +230,6 @@
       if (!document.head.contains(exampleStyleTag)) {
         document.head.appendChild(exampleStyleTag);
       }
-      updateAndSaveFontStyle(oFontFormURL.value, oFontFormFamily.value);
     } else {
       oExternalFontDisable.checked = true;
       oFontForms.style.display = 'none';
@@ -238,14 +237,20 @@
         document.head.removeChild(exampleStyleTag);
       }
     }
+    updateAndSaveFontStyle(createFontRules(enabled));
   }
 
-  function updateAndSaveFontStyle(url, family) {
-    const rules = {
-      enabled: true,
+  function createFontRules(enabled) {
+    const url = oFontFormURL.value || '';
+    const family = oFontFormFamily.value || '';
+    return {
+      enabled,
       url,
       family,
     };
+  }
+
+  function updateAndSaveFontStyle(rules) {
     const tag = createFontStyleElement(rules);
     exampleStyleTag.innerText = tag.innerText;
     Config.save(Constants.CONFIG_FONT_STYLE, JSON.stringify(rules));
@@ -253,6 +258,7 @@
 
   Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
     const rules = JSON.parse(rulesStr || '{}');
+    console.log('font rules', rules);
     oFontFormURL.value = rules['url'] || '';
     oFontFormFamily.value = rules['family'] || '';
     enableFontStyleSetting(rules['enabled'] || false);
