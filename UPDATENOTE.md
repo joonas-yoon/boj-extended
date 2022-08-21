@@ -1,3 +1,20 @@
+## 1.8.4
+
+**Features**
+
+- 폰트 설정 추가
+- - ![image](https://user-images.githubusercontent.com/9527681/185799041-5cb4ec91-212a-4cb1-ac03-d36213020b05.png)
+- - ![image](https://user-images.githubusercontent.com/9527681/185799019-c55567ff-a306-4d4b-ab62-6600eac0a6ac.png)
+
+**Fixes**
+
+- rigel 테마에서 문제 링크의 색상 수정
+- 퍼센트 표시
+- - 런타임 오류 시 버그 수정 [(#78)](https://github.com/joonas-yoon/boj-extended/issues/78)
+- - 부분 점수에서도 표시되도록 변경
+- 옵션 페이지에서 "결과 바꾸기"가 저장이 안 되던 버그 수정
+- 일부 함수 최적화
+
 ## 1.8.3.1
 
 **Features**

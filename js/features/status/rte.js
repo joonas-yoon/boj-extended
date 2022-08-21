@@ -228,12 +228,13 @@ const RTE_MSGS = [
     const x = e.innerText;
     const errorType = x.slice(x.indexOf('(') + 1, x.indexOf(')'));
     if (errorType) {
-      console.group(x + i);
+      console.group(x + ' - ' + i);
       const lang = getLanguage(e);
       const reason = getReason(lang, errorType);
       console.log(e);
       console.log('lang', lang);
       if (reason !== null) {
+        console.log('reason', reason);
         e.setAttribute('data-reason', encodeURIComponent(reason));
         e.addEventListener('mouseover', () => {
           document.body.appendChild(tooltip);
