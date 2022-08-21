@@ -14,10 +14,10 @@
 | [![Status Page](docs/images/screenshot-status.png)][3] |   [![Wide Screen](docs/images/screenshot-wide.png)][4]    |
 |                    **문제 타이머**                     |                      **문제 타이머**                      |
 |    [![Timer](docs/images/screenshot-timer2.png)][5]    |   [![Timer List](docs/images/screenshot-timer.png)][6]    |
-|                        **설정**                        |                       **빠른 검색**                       |
-|   [![Option](docs/images/screenshot-option.png)][7]    | [![Quick Search](docs/images/screenshot-search.png)][10]  |
-|                        **그룹**                        |                                                           |
-| [![Groups](docs/images/screenshot-group-list.png)][9]  |                                                           |
+|                        **설정**                        |                     **유저 비교(VS)**                     |
+|   [![Option](docs/images/screenshot-option.png)][7]    |    [![Quick Search](docs/images/screenshot-vs.png)][8]    |
+|                        **그룹**                        |                       **빠른 검색**                       |
+| [![Groups](docs/images/screenshot-group-list.png)][9]  | [![Quick Search](docs/images/screenshot-search.png)][10]  |
 
 ## 설치 및 사용
 
