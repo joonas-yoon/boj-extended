@@ -4,6 +4,8 @@
     setTimeout(main, 100);
     return;
   }
+
+  // close button
   Array.from(document.getElementsByClassName('btn-close-window')).forEach(
     (e) => {
       e.addEventListener('click', (evt) => {
@@ -106,7 +108,9 @@
     });
 
     oFakeText[i].addEventListener('input', onReformatChanged);
+    oFakeText[i].addEventListener('keyup', onReformatChanged);
   }
+
   // active button
   const oFakeTextActive = document.getElementsByClassName(
     'option-status-result'
