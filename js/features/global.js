@@ -1,6 +1,7 @@
 function extendGlobal() {
   extendTheme();
   extendWide();
+  extendFontStyle();
   extendReformatMessage();
   extendProblemPage();
   extendQuickSearch();
@@ -290,5 +291,14 @@ function extendGlobal() {
       messageBox.appendChild(close);
       document.body.appendChild(messageBox);
     }
+  }
+
+  function extendFontStyle() {
+    Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+      const rules = JSON.parse(rulesStr || '{}');
+      if (rules['enabled']) {
+        document.head.appendChild(createFontStyleElement(rules));
+      }
+    });
   }
 }
