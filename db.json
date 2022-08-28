@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2022-08-27 19:14:29.223006",
+  "last_updated": "2022-08-28 19:15:10.166492",
   "problems": {
     "1000": "A+B",
     "1001": "A-B",
@@ -23453,6 +23453,16 @@
     "25520": "Zalagaonica",
     "25521": "Klavir",
     "25522": "Pikulice",
-    "25523": "Trošak"
+    "25523": "Trošak",
+    "25524": "K-TI",
+    "25525": "PARKING",
+    "25527": "Counting Peaks of Infection",
+    "25528": "Leave No One Behind",
+    "25529": "Training Schedule for ICPC",
+    "25530": "Audience Queue",
+    "25531": "Village of Lore",
+    "25532": "Trim It Step by Step",
+    "25533": "Keep in Touch",
+    "25534": "Artist in Agony"
   }
 }
