@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2022-08-28 19:15:10.166492",
+  "last_updated": "2022-08-29 19:14:40.277031",
   "problems": {
     "1000": "A+B",
     "1001": "A-B",
@@ -23463,6 +23463,13 @@
     "25531": "Village of Lore",
     "25532": "Trim It Step by Step",
     "25533": "Keep in Touch",
-    "25534": "Artist in Agony"
+    "25534": "Artist in Agony",
+    "25535": "IZAZOV",
+    "25536": "SKLONIŠTE",
+    "25537": "VEZUV",
+    "25538": "모험가 길드",
+    "25539": "ŠIBICE",
+    "25540": "SMRAD",
+    "25541": "KRAFNA"
   }
 }
