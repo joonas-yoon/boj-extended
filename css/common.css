@@ -285,6 +285,8 @@ a[href^='/problem'].problem-link-style-box {
   border-radius: 5px !important;
   line-height: 1.25;
   min-height: 18px;
+  min-width: 4.25em;
+  text-align: center;
 }
 
 a[href^='/problem'].problem-link-style-box.result-ac {
