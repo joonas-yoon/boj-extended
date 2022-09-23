@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2022-09-22 19:16:32.265885",
+  "last_updated": "2022-09-23 19:18:42.855140",
   "problems": {
     "1000": "A+B",
     "1001": "A-B",
@@ -23571,6 +23571,11 @@
     "25662": "Flower's Land",
     "25663": "Games",
     "25664": "Half Plane",
+    "25665": "Inverse Line Graph",
+    "25666": "Just Another Number Theory Problem",
+    "25667": "Kitten's Computer",
+    "25668": "Long: WCWBTT",
+    "25669": "Matrix Counting",
     "25670": "No!"
   }
 }
