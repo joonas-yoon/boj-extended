@@ -144,6 +144,11 @@ function extendQuickSearch() {
     if (evt.target == bg) activate(false);
   });
 
+  // release all key events when window is blurred
+  window.addEventListener('blur', (evt) => {
+    keyPressed.clear();
+  });
+
   // infinity scroll on results
   resultBox.addEventListener('scroll', (evt) => {
     const per = getScrollPercentage(resultBox);
