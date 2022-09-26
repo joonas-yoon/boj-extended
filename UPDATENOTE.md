@@ -1,3 +1,9 @@
+## 1.8.4.1
+
+**Fixes**
+
+- 빠른 검색 단축키 버그 수정 ([#113](https://github.com/joonas-yoon/boj-extended/issues/113))
+
 ## 1.8.4
 
 **Features**
