@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2022-09-27 19:22:34.265318",
+  "last_updated": "2022-09-28 19:21:25.169817",
   "problems": {
     "1000": "A+B",
     "1001": "A-B",
@@ -23614,6 +23614,18 @@
     "25699": "Rectangle Placement",
     "25700": "Infectious Disease",
     "25701": "Positive String",
-    "25702": "DFS"
+    "25702": "DFS",
+    "25715": "Puzzle: X-Sums Sudoku",
+    "25716": "Puzzle: Patrick's Parabox",
+    "25717": "Puzzle: Hearthstone",
+    "25718": "Poker Game: Decision",
+    "25719": "Poker Game: Construction",
+    "25720": "Longest Common Subsequence",
+    "25721": "Lexicographic Comparison",
+    "25722": "Expression Evaluation",
+    "25723": "Equivalence in Connectivity",
+    "25724": "Symmetry: Tree",
+    "25725": "Symmetry: Convex",
+    "25726": "Symmetry: Closure"
   }
 }
