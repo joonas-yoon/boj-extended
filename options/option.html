@@ -306,14 +306,14 @@
                     </div> -->
                   </div>
                 </div>
-                <!-- status:group-link -->
                 <div class="form-group">
+                  <!-- status:group-link -->
                   <label
                     class="col-sm-2 col-xs-4 control-label"
                     for="group-link"
                     >그룹 목록의 링크</label
                   >
-                  <div class="col-sm-10 col-xs-8">
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -335,6 +335,40 @@
                           type="radio"
                           class="option-group-link"
                           name="group-link"
+                          value="0"
+                        />
+                        보지 않기
+                      </label>
+                    </div>
+                  </div>
+                  <!-- global:user-tier-->
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="user-tier"
+                    >solved.ac 유저 티어</label
+                  >
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
+                          value="1"
+                          checked
+                        />
+                        보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
                           value="0"
                         />
                         보지 않기

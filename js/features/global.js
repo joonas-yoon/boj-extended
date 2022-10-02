@@ -305,15 +305,19 @@ function extendGlobal() {
 
   function extendUserBadge() {
     if (!isLoggedIn()) return;
-    const userTags = document.querySelectorAll('a[href^="/user/"');
-    userTags.forEach(async (tag) => {
-      const tier = await fetch(
-        `https://solved.ac/api/v3/user/show?handle=${tag.innerText}`
-      )
-        .then((res) => res.json())
-        .then(({ tier }) => tier)
-        .catch(() => 0);
-      tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerText}`;
+    Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+      // default as true
+      if (showUserTier === false) return;
+      const userTags = document.querySelectorAll('a[href^="/user/"');
+      userTags.forEach(async (tag) => {
+        const tier = await fetch(
+          `https://solved.ac/api/v3/user/show?handle=${tag.innerText}`
+        )
+          .then((res) => res.json())
+          .then(({ tier }) => tier)
+          .catch(() => 0);
+        tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerText}`;
+      });
     });
   }
 }
