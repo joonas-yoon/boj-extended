@@ -316,7 +316,7 @@ function extendGlobal() {
           .then((res) => res.json())
           .then(({ tier }) => tier)
           .catch(() => 0);
-        tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerText}`;
+        tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;
       });
     });
   }
