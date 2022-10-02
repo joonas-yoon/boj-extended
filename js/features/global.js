@@ -7,6 +7,7 @@ function extendGlobal() {
   extendQuickSearch();
   extendProblemColor();
   extendLastViewPopup();
+  extendUserBadge();
 
   async function extendProblemColor() {
     const problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -299,6 +300,20 @@ function extendGlobal() {
       if (rules['enabled']) {
         document.head.appendChild(createFontStyleElement(rules));
       }
+    });
+  }
+
+  function extendUserBadge() {
+    if (!isLoggedIn()) return;
+    const userTags = document.querySelectorAll('a[href^="/user/"');
+    userTags.forEach(async (tag) => {
+      const tier = await fetch(
+        `https://solved.ac/api/v3/user/show?handle=${tag.innerText}`
+      )
+        .then((res) => res.json())
+        .then(({ tier }) => tier)
+        .catch(() => 0);
+      tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerText}`;
     });
   }
 }
