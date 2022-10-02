@@ -1,3 +1,13 @@
+## 1.9.0
+
+**Features**
+
+- 유저의 solved.ac 티어 표시 기능 [(#115)](https://github.com/joonas-yoon/boj-extended/issues/115)
+- - 연동되지 않은 사용자는 물음표 티어로 표시
+- - ![image](https://user-images.githubusercontent.com/9527681/193469068-7c85cbc2-646d-4cdc-8521-f7334028910a.png)
+- - ![image](https://user-images.githubusercontent.com/9527681/193469078-56d57942-245f-4707-94af-9cd5997d3874.png)
+- - ![image](https://user-images.githubusercontent.com/9527681/193470404-b07d865e-271b-4e37-8d42-1012994cd12b.png)
+
 ## 1.8.4.1
 
 **Fixes**

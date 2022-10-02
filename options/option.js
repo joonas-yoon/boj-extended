@@ -92,7 +92,23 @@
   }
 
   Config.load(Constants.CONFIG_SHOW_GROUP_LINK, (showGroupLink) => {
-    oGroupLink[showGroupLink ? 1 : 0].checked = true;
+    oGroupLink[showGroupLink ? 0 : 1].checked = true;
+  });
+
+  // global:user-tier
+  const oUserTier = document.getElementsByClassName('option-user-tier');
+  for (let i = 0; i < oUserTier.length; ++i) {
+    oUserTier[i].addEventListener('change', (evt) => {
+      Config.save(
+        Constants.CONFIG_SHOW_USER_TIER,
+        !!parseInt(evt.target.value)
+      );
+    });
+  }
+
+  Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+    // default as true
+    oUserTier[!(showUserTier === true) ? 0 : 1].checked = true;
   });
 
   // status:fake-text
