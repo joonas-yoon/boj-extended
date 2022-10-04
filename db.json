@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "last_updated": "2022-10-02 19:17:38.646875",
+  "last_updated": "2022-10-04 19:22:27.996125",
   "problems": {
     "1000": "A+B",
     "1001": "A-B",
@@ -23638,6 +23638,23 @@
     "25723": "Equivalence in Connectivity",
     "25724": "Symmetry: Tree",
     "25725": "Symmetry: Convex",
-    "25726": "Symmetry: Closure"
+    "25726": "Symmetry: Closure",
+    "25727": "Building Bombing",
+    "25728": "Connecting Cables",
+    "25729": "Double-Colored Papers",
+    "25730": "Histogram Sequence 4",
+    "25731": "Making Number",
+    "25732": "One Path",
+    "25733": "Permutation Arrangement",
+    "25734": "Set and Sequence and Query",
+    "25735": "Similarity Graph",
+    "25736": "Squirrel Game",
+    "25737": "Two Paths",
+    "25738": "Village Planning",
+    "25739": "Window Arrangement",
+    "25740": "Good Partitions",
+    "25741": "Grid",
+    "25742": "The Beauty of Cycles",
+    "25743": "Interval"
   }
 }
