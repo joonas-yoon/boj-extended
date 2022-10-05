@@ -16,7 +16,7 @@ function extendUserPage() {
     return pathname.replace('/user/', '') || '';
   }
 
-  const panels = document.querySelectorAll('.panel-body');
+  const panels = Array.from(document.getElementsByClassName('problem-list'));
 
   const checkboxes = document.createElement('div');
   const checkbox1 = document.createElement('input');
@@ -47,70 +47,50 @@ function extendUserPage() {
   checkboxes.appendChild(checkbox2);
   checkboxes.appendChild(label2);
 
-  const wrapper = document.querySelector('.col-md-9');
-  // add checkboxes whether problem's id or name
-  wrapper.insertBefore(checkboxes, wrapper.firstChild);
-  // add vs form
-  wrapper.insertBefore(
-    createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
-    checkboxes
-  );
+  try {
+    const wrapper = document.getElementsByClassName('col-md-9')[0];
+    // add checkboxes whether problem's id or name
+    wrapper.insertBefore(checkboxes, wrapper.firstChild);
+    // add vs form
+    wrapper.insertBefore(
+      createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
+      checkboxes
+    );
+  } catch (e) {
+    console.error(e);
+  }
 
-  Config.getProblems((problems) => {
-    panels.forEach((panelOrigin) => {
-      const div = document.createElement('div');
-      const labels = panelOrigin.querySelectorAll('a[href]');
-      const panelResult = document.createElement('div');
-      labels.forEach((e, i) => {
-        const pid = e.innerText;
-        const newA = createProblemLinkElement(e, problems, pid);
-        div.appendChild(newA);
-        // split by group
-        const isLastItem = i + 1 === labels.length;
-        const countPerGroup = 100;
-        if (i == countPerGroup || isLastItem) {
-          const gid = isLastItem ? (i < countPerGroup ? 0 : 1) : 0;
-          div.setAttribute('class', 'pgroup pg-' + gid);
-          panelResult.appendChild(div.cloneNode(true));
-          div.innerHTML = '';
-          // end of items
-          if (isLastItem) {
-            setTimeout(() => {
-              panelOrigin.innerHTML = panelResult.innerHTML;
-            }, 10);
+  // set data-problem-id
+  panels.forEach((panel) => {
+    const problemTags = panel.getElementsByTagName('a');
+    Array.from(problemTags).forEach((e, i) => {
+      if (!e.href) return;
+      const pid = e.textContent;
+      e.setAttribute('data-problem-id', pid);
+      e.classList.add('problem-link-style-box');
+    });
 
-            // has more items
-            if (i >= countPerGroup) {
-              // add button to display all
-              const panelFooter = document.createElement('div');
-              panelFooter.setAttribute('class', 'panel-footer');
-              const showButton = document.createElement('a');
-              showButton.setAttribute('class', 'btn-display-all');
-              showButton.innerText = '모두 보기';
-              showButton.addEventListener('click', (evt) => {
-                evt.preventDefault();
-                panelOrigin.querySelectorAll('.pgroup').forEach((e) => {
-                  e.style.display = 'inline';
-                });
-                evt.target.remove();
-              });
-              panelFooter.appendChild(showButton);
-              panelOrigin.parentElement.appendChild(panelFooter);
-            }
-          }
-        }
+    // set data-problem-title after fetching problems
+    Config.getProblems((problems) => {
+      Array.from(problemTags).forEach((e, i) => {
+        if (!e.href) return;
+        const pid = e.getAttribute('data-problem-id');
+        e.setAttribute(
+          'data-problem-title',
+          (problems || {})[pid] || '*New Problem'
+        );
       });
     });
+  });
 
-    // sync with configs
-    Config.load('show-pid', (checked) => {
-      checked = checked === null || checked === undefined ? true : checked;
-      checkbox1.checked = checked;
-      display(panels, 'show-id', checked);
-    });
-    Config.load('show-pname', (checked) => {
-      checkbox2.checked = checked;
-      display(panels, 'show-name', checked);
-    });
+  // sync with configs
+  Config.load('show-pid', (checked) => {
+    checked = checked === null || checked === undefined ? true : checked;
+    checkbox1.checked = checked;
+    display(panels, 'show-id', checked);
+  });
+  Config.load('show-pname', (checked) => {
+    checkbox2.checked = checked;
+    display(panels, 'show-name', checked);
   });
 }
