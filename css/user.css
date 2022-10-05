@@ -28,7 +28,7 @@
   font-weight: normal;
 }
 
-.problem-list a:nth-child(n + 100) {
+.problem-list.collpased a:nth-child(n + 100) {
   display: none;
 }
 

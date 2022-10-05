@@ -60,19 +60,36 @@ function extendUserPage() {
     console.error(e);
   }
 
+  const MAX_DISPLAY_ITEMS = 100;
+
   // set data-problem-id
   panels.forEach((panel) => {
-    const problemTags = panel.getElementsByTagName('a');
-    Array.from(problemTags).forEach((e, i) => {
+    const problemTags = Array.from(panel.getElementsByTagName('a'));
+    problemTags.forEach((e, i) => {
       if (!e.href) return;
       const pid = e.textContent;
       e.setAttribute('data-problem-id', pid);
       e.classList.add('problem-link-style-box');
     });
 
+    // add button to display all
+    if (problemTags.length > MAX_DISPLAY_ITEMS) {
+      panel.classList.add('collpased');
+      const panelFooter = Utils.createElement('div', { class: 'panel-footer' });
+      const showButton = Utils.createElement('a', { class: 'btn-display-all' });
+      showButton.innerText = '모두 보기';
+      showButton.addEventListener('click', (evt) => {
+        evt.preventDefault();
+        panel.classList.remove('collpased');
+        panelFooter.classList.add('hidden');
+      });
+      panelFooter.appendChild(showButton);
+      panel.closest('.panel').appendChild(panelFooter);
+    }
+
     // set data-problem-title after fetching problems
     Config.getProblems((problems) => {
-      Array.from(problemTags).forEach((e, i) => {
+      problemTags.forEach((e, i) => {
         if (!e.href) return;
         const pid = e.getAttribute('data-problem-id');
         e.setAttribute(
