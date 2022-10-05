@@ -65,12 +65,11 @@ function extendUserPage() {
   // set data-problem-id
   panels.forEach((panel) => {
     const problemTags = Array.from(panel.getElementsByTagName('a'));
-    problemTags.forEach((e, i) => {
+    problemTags.forEach((e) => {
       if (!e.href) return;
-      const pid = e.textContent;
-      e.setAttribute('data-problem-id', pid);
       e.classList.add('problem-link-style-box');
     });
+    setProblemAttributes(problemTags);
 
     // add button to display all
     if (problemTags.length > MAX_DISPLAY_ITEMS) {
@@ -86,18 +85,6 @@ function extendUserPage() {
       panelFooter.appendChild(showButton);
       panel.closest('.panel').appendChild(panelFooter);
     }
-
-    // set data-problem-title after fetching problems
-    Config.getProblems((problems) => {
-      problemTags.forEach((e, i) => {
-        if (!e.href) return;
-        const pid = e.getAttribute('data-problem-id');
-        e.setAttribute(
-          'data-problem-title',
-          (problems || {})[pid] || '*New Problem'
-        );
-      });
-    });
   });
 
   // sync with configs
@@ -111,17 +98,9 @@ function extendUserPage() {
     display(panels, 'show-name', checked);
   });
 
-  displayProblemTier();
-
-  function displayProblemTier() {
-    const tags = document.querySelectorAll('.problem-list a[href^="/problem"]');
-    const getPidfromProblemHref = (tag) =>
-      Number(
-        tag.href
-          .replace(`${window.location.protocol}//${window.location.host}`, '')
-          .replace('/problem/', '')
-      );
-    const pids = Array.from(tags)
+  function setProblemAttributes(problemTags) {
+    const getPidfromProblemHref = (tag) => Number(tag.textContent);
+    const pids = problemTags
       .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
       .filter((x) => !isNaN(x.id));
     const listToMap = (list) =>
@@ -134,9 +113,12 @@ function extendUserPage() {
       fetch(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`)
         .then((res) => res.json())
         .then((res) => {
-          res.forEach(({ problemId, level }) =>
-            map[problemId].element.setAttribute('data-tier', level)
-          );
+          res.forEach(({ problemId, level, titleKo }) => {
+            const e = map[problemId].element;
+            e.setAttribute('data-tier', level);
+            e.setAttribute('data-problem-id', problemId);
+            e.setAttribute('data-problem-title', titleKo);
+          });
         });
     }
   }
