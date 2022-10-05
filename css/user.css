@@ -60,6 +60,106 @@
   content: attr(data-problem-id) ' ' attr(data-problem-title);
 }
 
+.problem-list a[data-tier] {
+  padding-left: 18px;
+}
+.problem-list a[data-tier='0']::before {
+  content: url(https://static.solved.ac/tier_small/0.svg);
+}
+.problem-list a[data-tier='1']::before {
+  content: url(https://static.solved.ac/tier_small/1.svg);
+}
+.problem-list a[data-tier='2']::before {
+  content: url(https://static.solved.ac/tier_small/2.svg);
+}
+.problem-list a[data-tier='3']::before {
+  content: url(https://static.solved.ac/tier_small/3.svg);
+}
+.problem-list a[data-tier='4']::before {
+  content: url(https://static.solved.ac/tier_small/4.svg);
+}
+.problem-list a[data-tier='5']::before {
+  content: url(https://static.solved.ac/tier_small/5.svg);
+}
+.problem-list a[data-tier='6']::before {
+  content: url(https://static.solved.ac/tier_small/6.svg);
+}
+.problem-list a[data-tier='7']::before {
+  content: url(https://static.solved.ac/tier_small/7.svg);
+}
+.problem-list a[data-tier='8']::before {
+  content: url(https://static.solved.ac/tier_small/8.svg);
+}
+.problem-list a[data-tier='9']::before {
+  content: url(https://static.solved.ac/tier_small/9.svg);
+}
+.problem-list a[data-tier='10']::before {
+  content: url(https://static.solved.ac/tier_small/10.svg);
+}
+.problem-list a[data-tier='11']::before {
+  content: url(https://static.solved.ac/tier_small/11.svg);
+}
+.problem-list a[data-tier='12']::before {
+  content: url(https://static.solved.ac/tier_small/12.svg);
+}
+.problem-list a[data-tier='13']::before {
+  content: url(https://static.solved.ac/tier_small/13.svg);
+}
+.problem-list a[data-tier='14']::before {
+  content: url(https://static.solved.ac/tier_small/14.svg);
+}
+.problem-list a[data-tier='15']::before {
+  content: url(https://static.solved.ac/tier_small/15.svg);
+}
+.problem-list a[data-tier='16']::before {
+  content: url(https://static.solved.ac/tier_small/16.svg);
+}
+.problem-list a[data-tier='17']::before {
+  content: url(https://static.solved.ac/tier_small/17.svg);
+}
+.problem-list a[data-tier='18']::before {
+  content: url(https://static.solved.ac/tier_small/18.svg);
+}
+.problem-list a[data-tier='19']::before {
+  content: url(https://static.solved.ac/tier_small/19.svg);
+}
+.problem-list a[data-tier='20']::before {
+  content: url(https://static.solved.ac/tier_small/20.svg);
+}
+.problem-list a[data-tier='21']::before {
+  content: url(https://static.solved.ac/tier_small/21.svg);
+}
+.problem-list a[data-tier='22']::before {
+  content: url(https://static.solved.ac/tier_small/22.svg);
+}
+.problem-list a[data-tier='23']::before {
+  content: url(https://static.solved.ac/tier_small/23.svg);
+}
+.problem-list a[data-tier='24']::before {
+  content: url(https://static.solved.ac/tier_small/24.svg);
+}
+.problem-list a[data-tier='25']::before {
+  content: url(https://static.solved.ac/tier_small/25.svg);
+}
+.problem-list a[data-tier='26']::before {
+  content: url(https://static.solved.ac/tier_small/26.svg);
+}
+.problem-list a[data-tier='27']::before {
+  content: url(https://static.solved.ac/tier_small/27.svg);
+}
+.problem-list a[data-tier='28']::before {
+  content: url(https://static.solved.ac/tier_small/28.svg);
+}
+.problem-list a[data-tier='29']::before {
+  content: url(https://static.solved.ac/tier_small/29.svg);
+}
+.problem-list a[data-tier='30']::before {
+  content: url(https://static.solved.ac/tier_small/30.svg);
+}
+.problem-list a[data-tier='31']::before {
+  content: url(https://static.solved.ac/tier_small/31.svg);
+}
+
 .panel-footer {
   background-color: #ffffff;
 }

@@ -110,4 +110,34 @@ function extendUserPage() {
     checkbox2.checked = checked;
     display(panels, 'show-name', checked);
   });
+
+  displayProblemTier();
+
+  function displayProblemTier() {
+    const tags = document.querySelectorAll('.problem-list a[href^="/problem"]');
+    const getPidfromProblemHref = (tag) =>
+      Number(
+        tag.href
+          .replace(`${window.location.protocol}//${window.location.host}`, '')
+          .replace('/problem/', '')
+      );
+    const pids = Array.from(tags)
+      .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
+      .filter((x) => !isNaN(x.id));
+    const listToMap = (list) =>
+      [{ id: '' }].concat(list).reduce((p, c) => ({ ...(p || {}), [c.id]: c }));
+    for (let i = 0; i <= Math.ceil(pids.length / 100); ++i) {
+      const batch = pids.slice(i * 100, (i + 1) * 100) || [];
+      if (batch.length === 0) break;
+      const map = listToMap(batch);
+      const query = encodeURIComponent(batch.map((b) => b.id).join(','));
+      fetch(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`)
+        .then((res) => res.json())
+        .then((res) => {
+          res.forEach(({ problemId, level }) =>
+            map[problemId].element.setAttribute('data-tier', level)
+          );
+        });
+    }
+  }
 }
