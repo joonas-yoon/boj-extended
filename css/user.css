@@ -47,11 +47,11 @@
   background-size: 300% 100%;
   background-image: linear-gradient(to right, #6253e1, #f24645);
   box-shadow: 0 1px 4px 0 rgba(126, 52, 161, 0.5);
+  transition: all 0.4s ease-in-out;
 }
 
 .btn-vs:hover {
   color: white;
   background-position: 100% 0;
   box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.5);
-  transition: all 0.4s ease-in-out;
 }
