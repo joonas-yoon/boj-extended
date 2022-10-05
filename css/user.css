@@ -50,13 +50,13 @@
   line-height: 16px;
   letter-spacing: normal;
 }
-.problem-list a[data-problem-id]::after {
+.problem-list[show-id] a::after {
   content: attr(data-problem-id);
 }
-.problem-list a[data-problem-title]::after {
+.problem-list[show-name] a::after {
   content: attr(data-problem-title);
 }
-.problem-list a[data-problem-id][data-problem-title]::after {
+.problem-list[show-id][show-name] a::after {
   content: attr(data-problem-id) ' ' attr(data-problem-title);
 }
 
