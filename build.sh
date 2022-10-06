@@ -21,4 +21,3 @@ rmdir dist/options/build/
 cp rules.json dist
 cp manifest.json dist
 cp LICENSE dist
-cp db.json dist
