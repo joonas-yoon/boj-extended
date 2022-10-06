@@ -21,11 +21,13 @@
 
   font-size: 1em;
   letter-spacing: 0px;
+  transition: background-color 240ms ease-out;
 }
 
 .problem-list a:hover {
   text-decoration: none;
   font-weight: normal;
+  transition: none;
 }
 
 .problem-list.collpased a:nth-child(n + 100) {
