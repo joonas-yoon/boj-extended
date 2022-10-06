@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="/css/theme-dark.css" />
     <link rel="stylesheet" href="/css/theme-rigel.css" />
     <link rel="stylesheet" href="/css/status.css" />
+    <link rel="stylesheet" href="/css/user.css" />
 
     <style>
       td.result-msg-code {
@@ -306,8 +307,106 @@
                     </div> -->
                   </div>
                 </div>
+                <!-- solved.ac -->
                 <div class="form-group">
-                  <!-- status:group-link -->
+                  <!-- solved.ac:problem-tier -->
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="group-link"
+                    >문제 난이도<br /><img
+                      src="https://static.solved.ac/res/logo-blacktext.svg"
+                      style="height: 1em"
+                    />
+                  </label>
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-problem-tier"
+                          class="option-problem-tier"
+                        />
+                        <div
+                          class="problem-list"
+                          show-id="true"
+                          show-name="true"
+                          show-tier="true"
+                        >
+                          <a
+                            class="problem-link-style-box problem-example-tag"
+                            data-problem-id="1000"
+                            data-problem-title="A+B"
+                            data-tier="10"
+                            style="user-select: none"
+                            >1000</a
+                          >
+                          아이콘 표시
+                        </div>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-problem-tier-color"
+                          class="option-problem-tier-color"
+                        />
+                        <div
+                          class="problem-list"
+                          show-id="true"
+                          show-name="true"
+                          tier-color="true"
+                        >
+                          <a
+                            class="problem-link-style-box"
+                            data-problem-id="1000"
+                            data-problem-title="A+B"
+                            data-tier="10"
+                            style="user-select: none"
+                            >1000</a
+                          >
+                          색상 표시
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  <!-- global:user-tier-->
+                  <label class="col-sm-2 col-xs-4 control-label" for="user-tier"
+                    >유저 티어<br /><img
+                      src="https://static.solved.ac/res/logo-blacktext.svg"
+                      style="height: 1em"
+                  /></label>
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
+                          value="1"
+                          checked
+                        />
+                        보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
+                          value="0"
+                        />
+                        보지 않기
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- status:group-link -->
+                <div class="form-group">
                   <label
                     class="col-sm-2 col-xs-4 control-label"
                     for="group-link"
@@ -335,38 +434,6 @@
                           type="radio"
                           class="option-group-link"
                           name="group-link"
-                          value="0"
-                        />
-                        보지 않기
-                      </label>
-                    </div>
-                  </div>
-                  <!-- global:user-tier-->
-                  <label class="col-sm-2 col-xs-4 control-label" for="user-tier"
-                    >solved.ac 유저 티어</label
-                  >
-                  <div class="col-sm-4 col-xs-8">
-                    <div class="radio">
-                      <label>
-                        <input
-                          type="radio"
-                          class="option-user-tier"
-                          name="user-tier"
-                          value="1"
-                          checked
-                        />
-                        보기
-                        <span class="label label-light margin-left-5"
-                          >기본값</span
-                        >
-                      </label>
-                    </div>
-                    <div class="radio">
-                      <label>
-                        <input
-                          type="radio"
-                          class="option-user-tier"
-                          name="user-tier"
                           value="0"
                         />
                         보지 않기

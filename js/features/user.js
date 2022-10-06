@@ -87,17 +87,6 @@ function extendUserPage() {
     }
   });
 
-  // sync with configs
-  Config.load('show-pid', (checked) => {
-    checked = checked === null || checked === undefined ? true : checked;
-    checkbox1.checked = checked;
-    display(panels, 'show-id', checked);
-  });
-  Config.load('show-pname', (checked) => {
-    checkbox2.checked = checked;
-    display(panels, 'show-name', checked);
-  });
-
   function setProblemAttributes(problemTags) {
     const getPidfromProblemHref = (tag) => Number(tag.textContent);
     const pids = problemTags
@@ -122,4 +111,22 @@ function extendUserPage() {
         });
     }
   }
+
+  // sync with configs
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
+    checkbox1.checked = !(checked === false);
+    display(panels, 'show-id', checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE, (checked) => {
+    checkbox2.checked = checked;
+    display(panels, 'show-name', checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (checked) => {
+    checkbox2.checked = !(checked === false);
+    display(panels, 'show-tier', checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (checked) => {
+    checkbox2.checked = checked;
+    display(panels, 'show-tier-color', checked);
+  });
 }

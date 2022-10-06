@@ -111,6 +111,32 @@
     oUserTier[!(showUserTier === true) ? 0 : 1].checked = true;
   });
 
+  // user:problem-tier
+  const oProblemTier = document.getElementById('option-problem-tier');
+  const oProblemTierColor = document.getElementById(
+    'option-problem-tier-color'
+  );
+  oProblemTier.addEventListener('change', (evt) => {
+    console.log(evt.target.checked);
+    Config.save(
+      Constants.CONFIG_SHOW_PROBLEM_TIER,
+      Boolean(oProblemTier.checked)
+    );
+  });
+  oProblemTierColor.addEventListener('change', (evt) => {
+    console.log(evt.target.checked);
+    Config.save(
+      Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR,
+      Boolean(oProblemTierColor.checked)
+    );
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (show) => {
+    oProblemTier.checked = !(show === false); // default as true
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
+    oProblemTierColor.checked = show;
+  });
+
   // status:fake-text
   const oFakeText = document.getElementsByClassName('msg-code');
   for (let i = 0; i < oFakeText.length; ++i) {

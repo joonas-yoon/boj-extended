@@ -60,104 +60,178 @@
   content: attr(data-problem-id) ' ' attr(data-problem-title);
 }
 
-.problem-list a[data-tier] {
+.problem-list[show-tier] a[data-tier] {
   padding-left: 18px;
 }
-.problem-list a[data-tier='0']::before {
+.problem-list[show-tier] a[data-tier='0']::before {
   content: url(https://static.solved.ac/tier_small/0.svg);
 }
-.problem-list a[data-tier='1']::before {
+.problem-list[show-tier] a[data-tier='1']::before {
   content: url(https://static.solved.ac/tier_small/1.svg);
 }
-.problem-list a[data-tier='2']::before {
+.problem-list[show-tier] a[data-tier='2']::before {
   content: url(https://static.solved.ac/tier_small/2.svg);
 }
-.problem-list a[data-tier='3']::before {
+.problem-list[show-tier] a[data-tier='3']::before {
   content: url(https://static.solved.ac/tier_small/3.svg);
 }
-.problem-list a[data-tier='4']::before {
+.problem-list[show-tier] a[data-tier='4']::before {
   content: url(https://static.solved.ac/tier_small/4.svg);
 }
-.problem-list a[data-tier='5']::before {
+.problem-list[show-tier] a[data-tier='5']::before {
   content: url(https://static.solved.ac/tier_small/5.svg);
 }
-.problem-list a[data-tier='6']::before {
+.problem-list[show-tier] a[data-tier='6']::before {
   content: url(https://static.solved.ac/tier_small/6.svg);
 }
-.problem-list a[data-tier='7']::before {
+.problem-list[show-tier] a[data-tier='7']::before {
   content: url(https://static.solved.ac/tier_small/7.svg);
 }
-.problem-list a[data-tier='8']::before {
+.problem-list[show-tier] a[data-tier='8']::before {
   content: url(https://static.solved.ac/tier_small/8.svg);
 }
-.problem-list a[data-tier='9']::before {
+.problem-list[show-tier] a[data-tier='9']::before {
   content: url(https://static.solved.ac/tier_small/9.svg);
 }
-.problem-list a[data-tier='10']::before {
+.problem-list[show-tier] a[data-tier='10']::before {
   content: url(https://static.solved.ac/tier_small/10.svg);
 }
-.problem-list a[data-tier='11']::before {
+.problem-list[show-tier] a[data-tier='11']::before {
   content: url(https://static.solved.ac/tier_small/11.svg);
 }
-.problem-list a[data-tier='12']::before {
+.problem-list[show-tier] a[data-tier='12']::before {
   content: url(https://static.solved.ac/tier_small/12.svg);
 }
-.problem-list a[data-tier='13']::before {
+.problem-list[show-tier] a[data-tier='13']::before {
   content: url(https://static.solved.ac/tier_small/13.svg);
 }
-.problem-list a[data-tier='14']::before {
+.problem-list[show-tier] a[data-tier='14']::before {
   content: url(https://static.solved.ac/tier_small/14.svg);
 }
-.problem-list a[data-tier='15']::before {
+.problem-list[show-tier] a[data-tier='15']::before {
   content: url(https://static.solved.ac/tier_small/15.svg);
 }
-.problem-list a[data-tier='16']::before {
+.problem-list[show-tier] a[data-tier='16']::before {
   content: url(https://static.solved.ac/tier_small/16.svg);
 }
-.problem-list a[data-tier='17']::before {
+.problem-list[show-tier] a[data-tier='17']::before {
   content: url(https://static.solved.ac/tier_small/17.svg);
 }
-.problem-list a[data-tier='18']::before {
+.problem-list[show-tier] a[data-tier='18']::before {
   content: url(https://static.solved.ac/tier_small/18.svg);
 }
-.problem-list a[data-tier='19']::before {
+.problem-list[show-tier] a[data-tier='19']::before {
   content: url(https://static.solved.ac/tier_small/19.svg);
 }
-.problem-list a[data-tier='20']::before {
+.problem-list[show-tier] a[data-tier='20']::before {
   content: url(https://static.solved.ac/tier_small/20.svg);
 }
-.problem-list a[data-tier='21']::before {
+.problem-list[show-tier] a[data-tier='21']::before {
   content: url(https://static.solved.ac/tier_small/21.svg);
 }
-.problem-list a[data-tier='22']::before {
+.problem-list[show-tier] a[data-tier='22']::before {
   content: url(https://static.solved.ac/tier_small/22.svg);
 }
-.problem-list a[data-tier='23']::before {
+.problem-list[show-tier] a[data-tier='23']::before {
   content: url(https://static.solved.ac/tier_small/23.svg);
 }
-.problem-list a[data-tier='24']::before {
+.problem-list[show-tier] a[data-tier='24']::before {
   content: url(https://static.solved.ac/tier_small/24.svg);
 }
-.problem-list a[data-tier='25']::before {
+.problem-list[show-tier] a[data-tier='25']::before {
   content: url(https://static.solved.ac/tier_small/25.svg);
 }
-.problem-list a[data-tier='26']::before {
+.problem-list[show-tier] a[data-tier='26']::before {
   content: url(https://static.solved.ac/tier_small/26.svg);
 }
-.problem-list a[data-tier='27']::before {
+.problem-list[show-tier] a[data-tier='27']::before {
   content: url(https://static.solved.ac/tier_small/27.svg);
 }
-.problem-list a[data-tier='28']::before {
+.problem-list[show-tier] a[data-tier='28']::before {
   content: url(https://static.solved.ac/tier_small/28.svg);
 }
-.problem-list a[data-tier='29']::before {
+.problem-list[show-tier] a[data-tier='29']::before {
   content: url(https://static.solved.ac/tier_small/29.svg);
 }
-.problem-list a[data-tier='30']::before {
+.problem-list[show-tier] a[data-tier='30']::before {
   content: url(https://static.solved.ac/tier_small/30.svg);
 }
-.problem-list a[data-tier='31']::before {
+.problem-list[show-tier] a[data-tier='31']::before {
   content: url(https://static.solved.ac/tier_small/31.svg);
+}
+.problem-list[show-tier-color] a[data-tier='0'] {
+  color: #2a2a2a !important;
+  background-color: #efefef !important;
+}
+.problem-list[show-tier-color] a[data-tier='1'],
+.problem-list[show-tier-color] a[data-tier='2'],
+.problem-list[show-tier-color] a[data-tier='3'],
+.problem-list[show-tier-color] a[data-tier='4'],
+.problem-list[show-tier-color] a[data-tier='5'] {
+  color: #fefefe;
+  background-color: #ad5600 !important;
+}
+.problem-list[show-tier-color] a[data-tier='6'],
+.problem-list[show-tier-color] a[data-tier='7'],
+.problem-list[show-tier-color] a[data-tier='8'],
+.problem-list[show-tier-color] a[data-tier='9'],
+.problem-list[show-tier-color] a[data-tier='10'] {
+  color: #fefefe;
+  background-color: #435f7a !important;
+}
+.problem-list[show-tier-color] a[data-tier='11'],
+.problem-list[show-tier-color] a[data-tier='12'],
+.problem-list[show-tier-color] a[data-tier='13'],
+.problem-list[show-tier-color] a[data-tier='14'],
+.problem-list[show-tier-color] a[data-tier='15'] {
+  color: #fefefe;
+  background-color: #ec9a00 !important;
+}
+.problem-list[show-tier-color] a[data-tier='16'],
+.problem-list[show-tier-color] a[data-tier='17'],
+.problem-list[show-tier-color] a[data-tier='18'],
+.problem-list[show-tier-color] a[data-tier='19'],
+.problem-list[show-tier-color] a[data-tier='20'] {
+  color: #fefefe;
+  background-color: #27e2a4 !important;
+}
+.problem-list[show-tier-color] a[data-tier='21'],
+.problem-list[show-tier-color] a[data-tier='22'],
+.problem-list[show-tier-color] a[data-tier='23'],
+.problem-list[show-tier-color] a[data-tier='24'],
+.problem-list[show-tier-color] a[data-tier='25'] {
+  color: #fefefe;
+  background-color: #00b4fc !important;
+}
+.problem-list[show-tier-color] a[data-tier='26'],
+.problem-list[show-tier-color] a[data-tier='27'],
+.problem-list[show-tier-color] a[data-tier='28'],
+.problem-list[show-tier-color] a[data-tier='29'],
+.problem-list[show-tier-color] a[data-tier='30'] {
+  color: #fefefe;
+  background-color: #ff0062 !important;
+}
+.problem-list[show-tier-color] a[data-tier='31'] {
+  background: rgb(255, 124, 168);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 124, 168, 1) 0%,
+    rgba(180, 145, 255, 1) 50%,
+    rgba(124, 249, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 124, 168, 1) 0%,
+    rgba(180, 145, 255, 1) 50%,
+    rgba(124, 249, 255, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 124, 168, 1) 0%,
+    rgba(180, 145, 255, 1) 50%,
+    rgba(124, 249, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7ca8",endColorstr="#7cf9ff",GradientType=1);
 }
 
 .panel-footer {
