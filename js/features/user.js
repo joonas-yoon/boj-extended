@@ -18,34 +18,74 @@ function extendUserPage() {
 
   const panels = Array.from(document.getElementsByClassName('problem-list'));
 
-  const checkboxes = document.createElement('div');
-  const checkbox1 = document.createElement('input');
-  checkbox1.setAttribute('type', 'checkbox');
-  checkbox1.setAttribute('id', 'show-pid');
+  const checkbox1 = Utils.createElement('input', {
+    id: 'show-pid',
+    type: 'checkbox',
+  });
+  const checkbox2 = Utils.createElement('input', {
+    id: 'show-pname',
+    type: 'checkbox',
+  });
+  const checkbox3 = Utils.createElement('input', {
+    id: 'show-tier',
+    type: 'checkbox',
+  });
+  const checkbox4 = Utils.createElement('input', {
+    id: 'show-tier-color',
+    type: 'checkbox',
+  });
+
   checkbox1.addEventListener('change', (evt) => {
-    Config.save('show-pid', evt.target.checked);
+    console.log('checkbox show-pid', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_ID, evt.target.checked);
     display(panels, 'show-id', evt.target.checked);
   });
-  const checkbox2 = document.createElement('input');
-  checkbox2.setAttribute('type', 'checkbox');
-  checkbox1.setAttribute('id', 'show-pname');
   checkbox2.addEventListener('change', (evt) => {
-    Config.save('show-pname', evt.target.checked);
+    console.log('checkbox show-pname', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TITLE, evt.target.checked);
     display(panels, 'show-name', evt.target.checked);
   });
+  checkbox3.addEventListener('change', (evt) => {
+    console.log('checkbox show-tier', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER, evt.target.checked);
+    display(panels, 'show-tier', evt.target.checked);
+  });
+  checkbox4.addEventListener('change', (evt) => {
+    console.log('checkbox show-tier-color', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, evt.target.checked);
+    display(panels, 'show-tier-color', evt.target.checked);
+  });
 
-  const label1 = document.createElement('label');
-  label1.setAttribute('for', 'show-pid');
-  label1.innerText = '문제 번호';
-  const label2 = document.createElement('label');
-  label2.setAttribute('for', 'show-pname');
-  label2.innerText = '문제 제목';
+  const label1 = Utils.createElement('label', {
+    for: 'show-pid',
+    children: document.createTextNode('문제 번호'),
+  });
+  const label2 = Utils.createElement('label', {
+    for: 'show-pname',
+    children: document.createTextNode('문제 제목'),
+  });
+  const label3 = Utils.createElement('label', {
+    for: 'show-tier',
+    children: document.createTextNode('티어 표시'),
+  });
+  const label4 = Utils.createElement('label', {
+    for: 'show-tier-color',
+    children: document.createTextNode('티어 색상 표시'),
+  });
 
-  checkboxes.setAttribute('class', 'problem-toggles');
-  checkboxes.appendChild(checkbox1);
-  checkboxes.appendChild(label1);
-  checkboxes.appendChild(checkbox2);
-  checkboxes.appendChild(label2);
+  const checkboxes = Utils.createElement('div', {
+    class: 'problem-toggles',
+    children: [
+      checkbox1,
+      label1,
+      checkbox2,
+      label2,
+      checkbox3,
+      label3,
+      checkbox4,
+      label4,
+    ],
+  });
 
   try {
     const wrapper = document.getElementsByClassName('col-md-9')[0];
@@ -115,18 +155,18 @@ function extendUserPage() {
   // sync with configs
   Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
     checkbox1.checked = !(checked === false);
-    display(panels, 'show-id', checked);
+    display(panels, 'show-id', checkbox1.checked);
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE, (checked) => {
     checkbox2.checked = checked;
-    display(panels, 'show-name', checked);
+    display(panels, 'show-name', checkbox2.checked);
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (checked) => {
-    checkbox2.checked = !(checked === false);
-    display(panels, 'show-tier', checked);
+    checkbox3.checked = !(checked === false);
+    display(panels, 'show-tier', checkbox3.checked);
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (checked) => {
-    checkbox2.checked = checked;
-    display(panels, 'show-tier-color', checked);
+    checkbox4.checked = checked;
+    display(panels, 'show-tier-color', checkbox4.checked);
   });
 }
