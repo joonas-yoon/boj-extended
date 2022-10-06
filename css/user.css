@@ -163,53 +163,112 @@
   color: #2a2a2a !important;
   background-color: #efefef !important;
 }
+.problem-list[show-tier-color] a[data-tier='0']:hover {
+  color: inherit !important;
+  border-color: #efefef !important;
+  background-color: transparent !important;
+}
 .problem-list[show-tier-color] a[data-tier='1'],
 .problem-list[show-tier-color] a[data-tier='2'],
 .problem-list[show-tier-color] a[data-tier='3'],
 .problem-list[show-tier-color] a[data-tier='4'],
 .problem-list[show-tier-color] a[data-tier='5'] {
-  color: #fefefe;
+  color: #fefefe !important;
   background-color: #ad5600 !important;
+}
+.problem-list[show-tier-color] a[data-tier='1']:hover,
+.problem-list[show-tier-color] a[data-tier='2']:hover,
+.problem-list[show-tier-color] a[data-tier='3']:hover,
+.problem-list[show-tier-color] a[data-tier='4']:hover,
+.problem-list[show-tier-color] a[data-tier='5']:hover {
+  color: inherit !important;
+  border-color: #ad5600 !important;
+  background-color: transparent !important;
 }
 .problem-list[show-tier-color] a[data-tier='6'],
 .problem-list[show-tier-color] a[data-tier='7'],
 .problem-list[show-tier-color] a[data-tier='8'],
 .problem-list[show-tier-color] a[data-tier='9'],
 .problem-list[show-tier-color] a[data-tier='10'] {
-  color: #fefefe;
+  color: #fefefe !important;
   background-color: #435f7a !important;
+}
+.problem-list[show-tier-color] a[data-tier='6']:hover,
+.problem-list[show-tier-color] a[data-tier='7']:hover,
+.problem-list[show-tier-color] a[data-tier='8']:hover,
+.problem-list[show-tier-color] a[data-tier='9']:hover,
+.problem-list[show-tier-color] a[data-tier='10']:hover {
+  color: inherit !important;
+  border-color: #435f7a !important;
+  background-color: transparent !important;
 }
 .problem-list[show-tier-color] a[data-tier='11'],
 .problem-list[show-tier-color] a[data-tier='12'],
 .problem-list[show-tier-color] a[data-tier='13'],
 .problem-list[show-tier-color] a[data-tier='14'],
 .problem-list[show-tier-color] a[data-tier='15'] {
-  color: #fefefe;
+  color: #fefefe !important;
   background-color: #ec9a00 !important;
+}
+.problem-list[show-tier-color] a[data-tier='11']:hover,
+.problem-list[show-tier-color] a[data-tier='12']:hover,
+.problem-list[show-tier-color] a[data-tier='13']:hover,
+.problem-list[show-tier-color] a[data-tier='14']:hover,
+.problem-list[show-tier-color] a[data-tier='15']:hover {
+  color: inherit !important;
+  border-color: #ec9a00 !important;
+  background-color: transparent !important;
 }
 .problem-list[show-tier-color] a[data-tier='16'],
 .problem-list[show-tier-color] a[data-tier='17'],
 .problem-list[show-tier-color] a[data-tier='18'],
 .problem-list[show-tier-color] a[data-tier='19'],
 .problem-list[show-tier-color] a[data-tier='20'] {
-  color: #fefefe;
+  color: #fefefe !important;
   background-color: #27e2a4 !important;
+}
+.problem-list[show-tier-color] a[data-tier='16']:hover,
+.problem-list[show-tier-color] a[data-tier='17']:hover,
+.problem-list[show-tier-color] a[data-tier='18']:hover,
+.problem-list[show-tier-color] a[data-tier='19']:hover,
+.problem-list[show-tier-color] a[data-tier='20']:hover {
+  color: inherit !important;
+  border-color: #27e2a4 !important;
+  background-color: transparent !important;
 }
 .problem-list[show-tier-color] a[data-tier='21'],
 .problem-list[show-tier-color] a[data-tier='22'],
 .problem-list[show-tier-color] a[data-tier='23'],
 .problem-list[show-tier-color] a[data-tier='24'],
 .problem-list[show-tier-color] a[data-tier='25'] {
-  color: #fefefe;
+  color: #fefefe !important;
   background-color: #00b4fc !important;
+}
+.problem-list[show-tier-color] a[data-tier='21']:hover,
+.problem-list[show-tier-color] a[data-tier='22']:hover,
+.problem-list[show-tier-color] a[data-tier='23']:hover,
+.problem-list[show-tier-color] a[data-tier='24']:hover,
+.problem-list[show-tier-color] a[data-tier='25']:hover {
+  color: inherit !important;
+  border-color: #00b4fc !important;
+  background-color: transparent !important;
 }
 .problem-list[show-tier-color] a[data-tier='26'],
 .problem-list[show-tier-color] a[data-tier='27'],
 .problem-list[show-tier-color] a[data-tier='28'],
 .problem-list[show-tier-color] a[data-tier='29'],
 .problem-list[show-tier-color] a[data-tier='30'] {
-  color: #fefefe;
+  color: #fefefe !important;
   background-color: #ff0062 !important;
+}
+.problem-list[show-tier-color] a[data-tier='26']:hover,
+.problem-list[show-tier-color] a[data-tier='27']:hover,
+.problem-list[show-tier-color] a[data-tier='28']:hover,
+.problem-list[show-tier-color] a[data-tier='29']:hover,
+.problem-list[show-tier-color] a[data-tier='30']:hover {
+  color: inherit !important;
+  border-color: #ff0062 !important;
+  background-color: transparent !important;
 }
 .problem-list[show-tier-color] a[data-tier='31'] {
   background: rgb(255, 124, 168);
@@ -232,6 +291,11 @@
     rgba(124, 249, 255, 1) 100%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7ca8",endColorstr="#7cf9ff",GradientType=1);
+}
+.problem-list[show-tier-color] a[data-tier='31']:hover {
+  color: inherit !important;
+  border-color: rgb(255, 124, 168) !important;
+  background-color: transparent !important;
 }
 
 .panel-footer {
