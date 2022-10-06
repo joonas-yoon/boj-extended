@@ -11,7 +11,7 @@ function extendVs() {
   }
 
   // main
-  Config.getProblems((problems) => {
+  Config.getProblems((problemsLookup) => {
     // recreate page
     const container = document.getElementsByClassName('container content')[0];
     container.innerHTML = '';
@@ -150,7 +150,7 @@ function extendVs() {
     });
 
     function createProblemLinkMapper(pid) {
-      return createProblemLinkElement(tagByPid[pid], problems, pid);
+      return createProblemLinkElement(tagByPid[pid], problemsLookup, pid);
     }
 
     // title: string, body: Node

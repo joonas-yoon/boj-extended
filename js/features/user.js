@@ -132,24 +132,19 @@ function extendUserPage() {
     const pids = problemTags
       .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
       .filter((x) => !isNaN(x.id));
-    const listToMap = (list) =>
-      [{ id: '' }].concat(list).reduce((p, c) => ({ ...(p || {}), [c.id]: c }));
-    for (let i = 0; i <= Math.ceil(pids.length / 100); ++i) {
-      const batch = pids.slice(i * 100, (i + 1) * 100) || [];
-      if (batch.length === 0) break;
-      const map = listToMap(batch);
-      const query = encodeURIComponent(batch.map((b) => b.id).join(','));
-      fetch(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`)
-        .then((res) => res.json())
-        .then((res) => {
-          res.forEach(({ problemId, level, titleKo }) => {
-            const e = map[problemId].element;
-            e.setAttribute('data-tier', level);
-            e.setAttribute('data-problem-id', problemId);
-            e.setAttribute('data-problem-title', titleKo);
-          });
-        });
-    }
+    Config.getProblems((problemLookup) => {
+      pids.forEach((tag) => {
+        const e = tag.element;
+        const info = problemLookup[tag.id];
+        e.setAttribute('data-tier', info['level']);
+        e.setAttribute('data-problem-id', tag.id);
+        try {
+          e.setAttribute('data-problem-title', info['title']);
+        } catch (err) {
+          e.setAttribute('data-problem-title', '(가져오기 실패)');
+        }
+      });
+    });
   }
 
   // sync with configs
