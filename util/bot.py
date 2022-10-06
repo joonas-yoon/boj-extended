@@ -2,6 +2,7 @@ from time import sleep
 from random import randint
 from datetime import datetime
 
+import os
 import json
 import requests
 
@@ -82,7 +83,7 @@ for tries in range(MAX_TRIES):
     sleep_rand(100, 1000)
 
 
-with open('db-v1.1.json', 'w', encoding='utf-8') as f:
+with open(os.path.join('db', 'v1.1.json'), 'w', encoding='utf-8') as f:
     db = {
         'version': '1.1.0',
         'last_updated': str(datetime.now()),
