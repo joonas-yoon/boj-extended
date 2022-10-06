@@ -237,7 +237,12 @@ function getProblemID(url) {
 
 function createProblemLinkElement(baseElement, problemsLookup, pid) {
   const a = baseElement.cloneNode();
-  const pname = problemsLookup[pid] || '*New Problem';
+  let pname = `(가져오기 실패)`;
+  try {
+    pname = problemsLookup[pid]['title'];
+  } catch (err) {
+    console.info(`No problem title for ${pid} yet`);
+  }
   a.classList.add('problem-link-style-box');
   a.innerHTML =
     '<span class="pid">' +

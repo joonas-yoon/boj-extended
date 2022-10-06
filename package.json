@@ -5,7 +5,8 @@
     "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "chmod +x build.sh && bash -c 'source build.sh'",
-    "lint": "eslint js --fix && prettier . --write"
+    "lint": "eslint js",
+    "lint:fix": "eslint js --fix && prettier . --write"
   },
   "repository": {
     "type": "git",

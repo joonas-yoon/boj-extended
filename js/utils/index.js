@@ -20,7 +20,8 @@ const Utils = {
     for (const key of keys) {
       const value = attrs[key];
       if (key == 'children') {
-        for (const child of value) {
+        const iteration = Array.isArray(value) ? value : [value];
+        for (const child of iteration) {
           el.appendChild(child);
         }
       } else {

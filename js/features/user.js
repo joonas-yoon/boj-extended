@@ -16,101 +16,152 @@ function extendUserPage() {
     return pathname.replace('/user/', '') || '';
   }
 
-  const panels = document.querySelectorAll('.panel-body');
+  const panels = Array.from(document.getElementsByClassName('problem-list'));
 
-  const checkboxes = document.createElement('div');
-  const checkbox1 = document.createElement('input');
-  checkbox1.setAttribute('type', 'checkbox');
-  checkbox1.setAttribute('id', 'show-pid');
+  const checkbox1 = Utils.createElement('input', {
+    id: 'show-pid',
+    type: 'checkbox',
+  });
+  const checkbox2 = Utils.createElement('input', {
+    id: 'show-pname',
+    type: 'checkbox',
+  });
+  const checkbox3 = Utils.createElement('input', {
+    id: 'show-tier',
+    type: 'checkbox',
+  });
+  const checkbox4 = Utils.createElement('input', {
+    id: 'show-tier-color',
+    type: 'checkbox',
+  });
+
   checkbox1.addEventListener('change', (evt) => {
-    Config.save('show-pid', evt.target.checked);
+    console.log('checkbox show-pid', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_ID, evt.target.checked);
     display(panels, 'show-id', evt.target.checked);
   });
-  const checkbox2 = document.createElement('input');
-  checkbox2.setAttribute('type', 'checkbox');
-  checkbox1.setAttribute('id', 'show-pname');
   checkbox2.addEventListener('change', (evt) => {
-    Config.save('show-pname', evt.target.checked);
+    console.log('checkbox show-pname', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TITLE, evt.target.checked);
     display(panels, 'show-name', evt.target.checked);
   });
+  checkbox3.addEventListener('change', (evt) => {
+    console.log('checkbox show-tier', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER, evt.target.checked);
+    display(panels, 'show-tier', evt.target.checked);
+  });
+  checkbox4.addEventListener('change', (evt) => {
+    console.log('checkbox show-tier-color', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, evt.target.checked);
+    display(panels, 'show-tier-color', evt.target.checked);
+  });
 
-  const label1 = document.createElement('label');
-  label1.setAttribute('for', 'show-pid');
-  label1.innerText = '문제 번호';
-  const label2 = document.createElement('label');
-  label2.setAttribute('for', 'show-pname');
-  label2.innerText = '문제 제목';
+  const label1 = Utils.createElement('label', {
+    for: 'show-pid',
+    children: document.createTextNode('문제 번호'),
+  });
+  const label2 = Utils.createElement('label', {
+    for: 'show-pname',
+    children: document.createTextNode('문제 제목'),
+  });
+  const label3 = Utils.createElement('label', {
+    for: 'show-tier',
+    children: document.createTextNode('티어 표시'),
+  });
+  const label4 = Utils.createElement('label', {
+    for: 'show-tier-color',
+    children: document.createTextNode('티어 색상 표시'),
+  });
 
-  checkboxes.setAttribute('class', 'problem-toggles');
-  checkboxes.appendChild(checkbox1);
-  checkboxes.appendChild(label1);
-  checkboxes.appendChild(checkbox2);
-  checkboxes.appendChild(label2);
+  const checkboxes = Utils.createElement('div', {
+    class: 'problem-toggles',
+    children: [
+      checkbox1,
+      label1,
+      checkbox2,
+      label2,
+      checkbox3,
+      label3,
+      checkbox4,
+      label4,
+    ],
+  });
 
-  const wrapper = document.querySelector('.col-md-9');
-  // add checkboxes whether problem's id or name
-  wrapper.insertBefore(checkboxes, wrapper.firstChild);
-  // add vs form
-  wrapper.insertBefore(
-    createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
-    checkboxes
-  );
+  try {
+    const wrapper = document.getElementsByClassName('col-md-9')[0];
+    // add checkboxes whether problem's id or name
+    wrapper.insertBefore(checkboxes, wrapper.firstChild);
+    // add vs form
+    wrapper.insertBefore(
+      createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
+      checkboxes
+    );
+  } catch (e) {
+    console.error(e);
+  }
 
-  Config.getProblems((problems) => {
-    panels.forEach((panelOrigin) => {
-      const div = document.createElement('div');
-      const labels = panelOrigin.querySelectorAll('a[href]');
-      const panelResult = document.createElement('div');
-      labels.forEach((e, i) => {
-        const pid = e.innerText;
-        const newA = createProblemLinkElement(e, problems, pid);
-        div.appendChild(newA);
-        // split by group
-        const isLastItem = i + 1 === labels.length;
-        const countPerGroup = 100;
-        if (i == countPerGroup || isLastItem) {
-          const gid = isLastItem ? (i < countPerGroup ? 0 : 1) : 0;
-          div.setAttribute('class', 'pgroup pg-' + gid);
-          panelResult.appendChild(div.cloneNode(true));
-          div.innerHTML = '';
-          // end of items
-          if (isLastItem) {
-            setTimeout(() => {
-              panelOrigin.innerHTML = panelResult.innerHTML;
-            }, 10);
+  const MAX_DISPLAY_ITEMS = 100;
 
-            // has more items
-            if (i >= countPerGroup) {
-              // add button to display all
-              const panelFooter = document.createElement('div');
-              panelFooter.setAttribute('class', 'panel-footer');
-              const showButton = document.createElement('a');
-              showButton.setAttribute('class', 'btn-display-all');
-              showButton.innerText = '모두 보기';
-              showButton.addEventListener('click', (evt) => {
-                evt.preventDefault();
-                panelOrigin.querySelectorAll('.pgroup').forEach((e) => {
-                  e.style.display = 'inline';
-                });
-                evt.target.remove();
-              });
-              panelFooter.appendChild(showButton);
-              panelOrigin.parentElement.appendChild(panelFooter);
-            }
-          }
+  // set data-problem-id
+  panels.forEach((panel) => {
+    const problemTags = Array.from(panel.getElementsByTagName('a'));
+    problemTags.forEach((e) => {
+      if (!e.href) return;
+      e.classList.add('problem-link-style-box');
+    });
+    setProblemAttributes(problemTags);
+
+    // add button to display all
+    if (problemTags.length > MAX_DISPLAY_ITEMS) {
+      panel.classList.add('collpased');
+      const panelFooter = Utils.createElement('div', { class: 'panel-footer' });
+      const showButton = Utils.createElement('a', { class: 'btn-display-all' });
+      showButton.innerText = '모두 보기';
+      showButton.addEventListener('click', (evt) => {
+        evt.preventDefault();
+        panel.classList.remove('collpased');
+        panelFooter.classList.add('hidden');
+      });
+      panelFooter.appendChild(showButton);
+      panel.closest('.panel').appendChild(panelFooter);
+    }
+  });
+
+  function setProblemAttributes(problemTags) {
+    const getPidfromProblemHref = (tag) => Number(tag.textContent);
+    const pids = problemTags
+      .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
+      .filter((x) => !isNaN(x.id));
+    Config.getProblems((problemLookup) => {
+      pids.forEach((tag) => {
+        const e = tag.element;
+        const info = problemLookup[tag.id];
+        e.setAttribute('data-tier', info['level']);
+        e.setAttribute('data-problem-id', tag.id);
+        try {
+          e.setAttribute('data-problem-title', info['title']);
+        } catch (err) {
+          e.setAttribute('data-problem-title', '(가져오기 실패)');
         }
       });
     });
+  }
 
-    // sync with configs
-    Config.load('show-pid', (checked) => {
-      checked = checked === null || checked === undefined ? true : checked;
-      checkbox1.checked = checked;
-      display(panels, 'show-id', checked);
-    });
-    Config.load('show-pname', (checked) => {
-      checkbox2.checked = checked;
-      display(panels, 'show-name', checked);
-    });
+  // sync with configs
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
+    checkbox1.checked = !(checked === false);
+    display(panels, 'show-id', checkbox1.checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE, (checked) => {
+    checkbox2.checked = checked;
+    display(panels, 'show-name', checkbox2.checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (checked) => {
+    checkbox3.checked = !(checked === false);
+    display(panels, 'show-tier', checkbox3.checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (checked) => {
+    checkbox4.checked = checked;
+    display(panels, 'show-tier-color', checkbox4.checked);
   });
 }
