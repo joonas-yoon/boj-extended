@@ -78,7 +78,7 @@ function _extendStatusTable(
   table,
   beforeWidth,
   afterWidth,
-  problemNames
+  problemsLookup
 ) {
   // width to fit-content
   const tableHeadCols = table.querySelectorAll('th');
@@ -92,17 +92,18 @@ function _extendStatusTable(
   // highlight my result
   const username = getMyUsername();
   table.querySelectorAll('a[href^="/user/"]').forEach((e) => {
-    if (username == e.innerText) {
+    const text = e.textContent;
+    if (username == text) {
       e.closest('tr').setAttribute('class', 'result-mine');
     }
   });
   titles.forEach((e) => {
+    const pid = e.textContent;
     if (e.getAttribute('data-original-id') == undefined) {
-      e.setAttribute('data-original-id', e.innerText);
+      e.setAttribute('data-original-id', pid);
     }
     if (e.getAttribute('data-original-title') == undefined) {
-      // put data-original-title
-      e.setAttribute('data-original-title', problemNames[e.innerText]);
+      e.setAttribute('data-original-title', problemsLookup[pid]['title']);
     }
   });
 

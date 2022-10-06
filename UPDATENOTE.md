@@ -1,8 +1,24 @@
+## 1.9.1
+
+**Features**
+- 유저 페이지
+- - 문제의 난이도와 그 색상을 표시하는 옵션 추가 (옵션 페이지에서 설정 가능)
+- - ![image](https://user-images.githubusercontent.com/9527681/194349706-91a7f929-4790-4301-b842-3306d2c9c340.png)
+
+**Fixes**
+- 유저 프로필 페이지의 동작을 최적화
+- - 평균 5200 밀리초에 렌더링되던 동작들이 평균 3200 밀리초로 감소
+- - 체감 속도는 120 밀리초에서 1초 사이 (CSSOM 먼저 업데이트 후, DOM 트리 변경으로)
+- `db.json` 버전을 `1.1.0`으로 올리고 디렉토리를 변경 (`/db/v1.1json`)
+- - 문제 난이도 필드 추가
+- DOM 노드 생성 함수의 버그 수정
+
 ## 1.9.0
 
 **Features**
 
 - 유저의 solved.ac 티어 표시 기능 [(#115)](https://github.com/joonas-yoon/boj-extended/issues/115)
+- - thanks to [@spotky1004](https://github.com/spotky1004)
 - - 연동되지 않은 사용자는 물음표 티어로 표시
 - - ![image](https://user-images.githubusercontent.com/9527681/193469068-7c85cbc2-646d-4cdc-8521-f7334028910a.png)
 - - ![image](https://user-images.githubusercontent.com/9527681/193469078-56d57942-245f-4707-94af-9cd5997d3874.png)
@@ -217,7 +233,8 @@
 
 - 어두운 테마
 - - 댓글 하이라이팅 [(#45)](https://github.com/joonas-yoon/boj-extended/issues/45)
-- - 외부 대회 일정 ([#46](https://github.com/joonas-yoon/boj-extended/issues/46) by [@comment2](https://github.com/comment2))
+- - 외부 대회 일정 ([#46](https://github.com/joonas-yoon/boj-extended/issues/46)
+- - thanks to [@comment2](https://github.com/comment2)
 - - ![](https://user-images.githubusercontent.com/86146642/139788933-c27009cb-c3b6-441e-b092-4bdfb47558be.png)
 
 ## 1.5.10
