@@ -15,16 +15,16 @@ def sleep_rand(min_ms, max_ms):
 
 
 def get_problems_count():
-  res = requests.get(f'{API_HOST}/site/stats').json()
-  return res['problemCount']
+    res = requests.get(f'{API_HOST}/site/stats').json()
+    return res['problemCount']
 
 
 def get_problem_details(ids):
-  pids = '%2C'.join(list(map(str, ids)))
-  try:
-      return requests.get(f'{API_HOST}/problem/lookup?problemIds={pids}').json()
-  except:
-      return None
+    pids = '%2C'.join(list(map(str, ids)))
+    try:
+        return requests.get(f'{API_HOST}/problem/lookup?problemIds={pids}').json()
+    except:
+        return None
 
 
 total_count = get_problems_count()
@@ -36,50 +36,55 @@ prev_count = -10 ** 10
 print('total problems:', total_count)
 
 for tries in range(MAX_TRIES):
-  rows = get_problem_details(range(offset, offset + INTERVAL))
-  
-  for err in range(5):
-    if rows != None: break
-    print('[Awating next retry....]')
-    sleep(5 * 60 * 1000)
     rows = get_problem_details(range(offset, offset + INTERVAL))
 
-  rows_count = len(rows)
-  count += rows_count
+    for err in range(5):
+        if rows != None:
+            break
+        print('[Awating next retry....]')
+        sleep(5 * 60 * 1000)
+        rows = get_problem_details(range(offset, offset + INTERVAL))
 
-  is_last = count >= total_count
-  is_print = is_last or (count - prev_count > (total_count // 20))
+    rows_count = len(rows)
+    count += rows_count
 
-  if is_print:
-    print('=' * 80 + '\n')
-    print('# Collect {} items ... ({:.2f}%)\n'.format(count, count / total_count * 100))
-  
-  result = {}
-  for i, row in enumerate(rows):
-    pid = int(row['problemId'])
-    title = row['titleKo']
-    result[pid] = title
+    is_last = count >= total_count
+    is_print = is_last or (count - prev_count > (total_count // 20))
+
     if is_print:
-      if i < 5 or rows_count - 5 <= i:
-        print(pid, title)
-      elif i == 5:
-        print('...')
+        print('=' * 80 + '\n')
+        print('# Collect {} items ... ({:.2f}%)\n'.format(
+            count, count / total_count * 100))
 
-  problems.update(result)
+    result = {}
+    for i, row in enumerate(rows):
+        pid = int(row['problemId'])
+        title = row['titleKo']
+        result[pid] = dict(
+          title=title,
+          level=row['level']
+        )
+        if is_print:
+            if i < 5 or rows_count - 5 <= i:
+                print(pid, title)
+            elif i == 5:
+                print('...')
 
-  if is_last:
-    break
+    problems.update(result)
 
-  if is_print:
-    prev_count = count
-    
-  offset += INTERVAL
-  sleep_rand(100, 1000)
+    if is_last:
+        break
+
+    if is_print:
+        prev_count = count
+
+    offset += INTERVAL
+    sleep_rand(100, 1000)
 
 
-with open('db.json', 'w') as f:
+with open('db-v1.1.json', 'w', encoding='utf-8') as f:
     db = {
-        'version': '1.0.0',
+        'version': '1.1.0',
         'last_updated': str(datetime.now()),
         'problems': problems
     }
