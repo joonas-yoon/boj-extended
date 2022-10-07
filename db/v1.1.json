@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-06 19:25:58.547575",
+  "last_updated": "2022-10-07 19:21:03.719205",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5660,7 +5660,7 @@
     },
     "2447": {
       "title": "별 찍기 - 10",
-      "level": 10
+      "level": 11
     },
     "2448": {
       "title": "별 찍기 - 11",
@@ -12880,7 +12880,7 @@
     },
     "4297": {
       "title": "Ultra-QuickSort",
-      "level": 17
+      "level": 16
     },
     "4298": {
       "title": "Up the Ante",
@@ -13132,7 +13132,7 @@
     },
     "4360": {
       "title": "A Star not a Tree?",
-      "level": 19
+      "level": 18
     },
     "4361": {
       "title": "Adventures in Moving - Part IV",
@@ -17468,7 +17468,7 @@
     },
     "5571": {
       "title": "ピザ",
-      "level": 13
+      "level": 12
     },
     "5572": {
       "title": "사다리 게임",
@@ -24456,7 +24456,7 @@
     },
     "7694": {
       "title": "Triangle",
-      "level": 13
+      "level": 12
     },
     "7695": {
       "title": "Brackets",
@@ -25276,7 +25276,7 @@
     },
     "7943": {
       "title": "Tetris",
-      "level": 19
+      "level": 21
     },
     "7944": {
       "title": "Autostrady",
@@ -26800,7 +26800,7 @@
     },
     "8330": {
       "title": "순열",
-      "level": 19
+      "level": 18
     },
     "8331": {
       "title": "Quasi-template",
@@ -28688,7 +28688,7 @@
     },
     "8804": {
       "title": "Palindromy",
-      "level": 4
+      "level": 5
     },
     "8805": {
       "title": "Konduktor",
@@ -48828,7 +48828,7 @@
     },
     "14073": {
       "title": "Bitovni",
-      "level": 14
+      "level": 15
     },
     "14074": {
       "title": "Kratki",
@@ -57672,7 +57672,7 @@
     },
     "16313": {
       "title": "Janitor Troubles",
-      "level": 15
+      "level": 16
     },
     "16314": {
       "title": "Kingpin Escape",
@@ -60948,7 +60948,7 @@
     },
     "17143": {
       "title": "낚시왕",
-      "level": 15
+      "level": 14
     },
     "17144": {
       "title": "미세먼지 안녕!",
@@ -72508,7 +72508,7 @@
     },
     "20058": {
       "title": "마법사 상어와 파이어스톰",
-      "level": 12
+      "level": 13
     },
     "20059": {
       "title": "Hotspots 2",
@@ -78972,7 +78972,7 @@
     },
     "21683": {
       "title": "Две строки",
-      "level": 4
+      "level": 5
     },
     "21684": {
       "title": "Скользящая симметрия",
@@ -91116,7 +91116,7 @@
     },
     "24812": {
       "title": "Substitution Mania!",
-      "level": 0
+      "level": 18
     },
     "24813": {
       "title": "The Grand Adventure",
@@ -91944,7 +91944,7 @@
     },
     "25023": {
       "title": "보안 시스템",
-      "level": 28
+      "level": 27
     },
     "25024": {
       "title": "시간과 날짜",
@@ -94580,7 +94580,7 @@
     },
     "25734": {
       "title": "Set and Sequence and Query",
-      "level": 16
+      "level": 15
     },
     "25735": {
       "title": "Similarity Graph",
