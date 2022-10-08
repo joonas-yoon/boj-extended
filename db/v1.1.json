@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-07 19:21:03.719205",
+  "last_updated": "2022-10-08 19:17:03.432197",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5880,7 +5880,7 @@
     },
     "2502": {
       "title": "떡 먹는 호랑이",
-      "level": 10
+      "level": 9
     },
     "2503": {
       "title": "숫자 야구",
@@ -34656,7 +34656,7 @@
     },
     "10435": {
       "title": "만칼라",
-      "level": 17
+      "level": 18
     },
     "10436": {
       "title": "무한 유리수 트리",
@@ -44648,7 +44648,7 @@
     },
     "12996": {
       "title": "Acka",
-      "level": 13
+      "level": 12
     },
     "12997": {
       "title": "철인 2종 경기",
@@ -45708,7 +45708,7 @@
     },
     "13273": {
       "title": "로마숫자",
-      "level": 11
+      "level": 10
     },
     "13274": {
       "title": "수열",
@@ -81240,7 +81240,7 @@
     },
     "22270": {
       "title": "Game of Slots",
-      "level": 22
+      "level": 21
     },
     "22271": {
       "title": "Halting Wolf",
@@ -94617,6 +94617,50 @@
     "25743": {
       "title": "Interval",
       "level": 19
+    },
+    "25762": {
+      "title": "Easy Problem",
+      "level": 0
+    },
+    "25763": {
+      "title": "Standard Problem",
+      "level": 0
+    },
+    "25764": {
+      "title": "Network Transfer",
+      "level": 0
+    },
+    "25765": {
+      "title": "Hard Problem",
+      "level": 0
+    },
+    "25766": {
+      "title": "String Strange Sum",
+      "level": 0
+    },
+    "25767": {
+      "title": "Bayan Testing",
+      "level": 0
+    },
+    "25768": {
+      "title": "Battleship: New Rules",
+      "level": 0
+    },
+    "25769": {
+      "title": "Triangular Cactus Paths",
+      "level": 0
+    },
+    "25770": {
+      "title": "Best Sun",
+      "level": 0
+    },
+    "25771": {
+      "title": "Fast Bridges",
+      "level": 0
+    },
+    "25772": {
+      "title": "Decoding The Message",
+      "level": 0
     }
   }
 }
