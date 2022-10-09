@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-08 19:17:03.432197",
+  "last_updated": "2022-10-09 19:17:41.197466",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -148,7 +148,7 @@
     },
     "1036": {
       "title": "36진수",
-      "level": 14
+      "level": 15
     },
     "1037": {
       "title": "약수",
@@ -232,7 +232,7 @@
     },
     "1057": {
       "title": "토너먼트",
-      "level": 8
+      "level": 7
     },
     "1058": {
       "title": "친구",
@@ -292,7 +292,7 @@
     },
     "1072": {
       "title": "게임",
-      "level": 8
+      "level": 7
     },
     "1073": {
       "title": "도미노",
@@ -392,7 +392,7 @@
     },
     "1097": {
       "title": "마법의 문자열",
-      "level": 15
+      "level": 16
     },
     "1098": {
       "title": "쌍둥이 마을",
@@ -1536,7 +1536,7 @@
     },
     "1388": {
       "title": "바닥 장식",
-      "level": 7
+      "level": 8
     },
     "1389": {
       "title": "케빈 베이컨의 6단계 법칙",
@@ -2604,7 +2604,7 @@
     },
     "1656": {
       "title": "덜컹덜컹",
-      "level": 10
+      "level": 11
     },
     "1657": {
       "title": "두부장수 장홍준",
@@ -5788,7 +5788,7 @@
     },
     "2479": {
       "title": "경로 찾기",
-      "level": 13
+      "level": 12
     },
     "2480": {
       "title": "주사위 세개",
@@ -8268,7 +8268,7 @@
     },
     "3108": {
       "title": "로고",
-      "level": 13
+      "level": 14
     },
     "3109": {
       "title": "빵집",
@@ -9396,7 +9396,7 @@
     },
     "3405": {
       "title": "파산하는 왕국",
-      "level": 17
+      "level": 16
     },
     "3406": {
       "title": "Who wants to live forever?",
@@ -21364,7 +21364,7 @@
     },
     "6591": {
       "title": "이항 쇼다운",
-      "level": 8
+      "level": 7
     },
     "6592": {
       "title": "Compromise",
@@ -21728,7 +21728,7 @@
     },
     "6682": {
       "title": "Base Numbers",
-      "level": 0
+      "level": 13
     },
     "6683": {
       "title": "Paper Cutting",
@@ -39100,7 +39100,7 @@
     },
     "11579": {
       "title": "초차원전쟁 이나",
-      "level": 8
+      "level": 9
     },
     "11580": {
       "title": "Footprint",
@@ -50008,7 +50008,7 @@
     },
     "14368": {
       "title": "Fashion Police (Large)",
-      "level": 15
+      "level": 16
     },
     "14369": {
       "title": "전화번호 수수께끼 (Small)",
@@ -52348,7 +52348,7 @@
     },
     "14966": {
       "title": "Hokej",
-      "level": 18
+      "level": 17
     },
     "14967": {
       "title": "Deda",
@@ -55808,7 +55808,7 @@
     },
     "15836": {
       "title": "Matrix Multiplication Calculator",
-      "level": 5
+      "level": 6
     },
     "15837": {
       "title": "Sum of Subrectangle Areas",
@@ -60928,7 +60928,7 @@
     },
     "17138": {
       "title": "습격자 초라기와 쿼리 (Easy)",
-      "level": 19
+      "level": 20
     },
     "17139": {
       "title": "습격자 초라기와 쿼리 (Normal)",
@@ -90800,7 +90800,7 @@
     },
     "24733": {
       "title": "이것도 XOR해 보시지",
-      "level": 19
+      "level": 18
     },
     "24734": {
       "title": "Eerie Shadows",
@@ -91688,7 +91688,7 @@
     },
     "24957": {
       "title": "Loop of Chocolate",
-      "level": 5
+      "level": 4
     },
     "24958": {
       "title": "Lottery Fun Time",
@@ -93656,7 +93656,7 @@
     },
     "25482": {
       "title": "Pikule",
-      "level": 12
+      "level": 13
     },
     "25483": {
       "title": "Zbroj",
@@ -93700,7 +93700,7 @@
     },
     "25495": {
       "title": "에어팟",
-      "level": 3
+      "level": 4
     },
     "25496": {
       "title": "장신구 명장 임스",
@@ -94660,6 +94660,50 @@
     },
     "25772": {
       "title": "Decoding The Message",
+      "level": 0
+    },
+    "25773": {
+      "title": "Number Maximization",
+      "level": 4
+    },
+    "25774": {
+      "title": "Simplified Calendar System",
+      "level": 3
+    },
+    "25775": {
+      "title": "Letter Frequency",
+      "level": 5
+    },
+    "25776": {
+      "title": "Pseudo Pseudo Random Numbers",
+      "level": 7
+    },
+    "25777": {
+      "title": "Word Tree",
+      "level": 12
+    },
+    "25778": {
+      "title": "House Prices Going Up",
+      "level": 15
+    },
+    "25779": {
+      "title": "Which Number",
+      "level": 0
+    },
+    "25780": {
+      "title": "Maximum Satisfaction",
+      "level": 0
+    },
+    "25781": {
+      "title": "Share Auction",
+      "level": 0
+    },
+    "25782": {
+      "title": "Desert Travel",
+      "level": 0
+    },
+    "25783": {
+      "title": "Security Fence",
       "level": 0
     }
   }
