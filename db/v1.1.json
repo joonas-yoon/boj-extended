@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-09 19:17:41.197466",
+  "last_updated": "2022-10-10 19:25:52.897474",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2188,7 +2188,7 @@
     },
     "1552": {
       "title": "도미노",
-      "level": 9
+      "level": 10
     },
     "1553": {
       "title": "도미노 찾기",
@@ -6080,7 +6080,7 @@
     },
     "2552": {
       "title": "전구숫자",
-      "level": 18
+      "level": 19
     },
     "2553": {
       "title": "마지막 팩토리얼 수",
@@ -12880,7 +12880,7 @@
     },
     "4297": {
       "title": "Ultra-QuickSort",
-      "level": 16
+      "level": 17
     },
     "4298": {
       "title": "Up the Ante",
@@ -18676,7 +18676,7 @@
     },
     "5889": {
       "title": "Cows in a Skyscraper",
-      "level": 19
+      "level": 20
     },
     "5890": {
       "title": "Tractor",
@@ -20244,7 +20244,7 @@
     },
     "6297": {
       "title": "Intervals",
-      "level": 20
+      "level": 22
     },
     "6298": {
       "title": "Family",
@@ -23928,7 +23928,7 @@
     },
     "7561": {
       "title": "크래머의 공식",
-      "level": 12
+      "level": 11
     },
     "7562": {
       "title": "나이트의 이동",
@@ -29428,7 +29428,7 @@
     },
     "8989": {
       "title": "시계",
-      "level": 10
+      "level": 9
     },
     "8990": {
       "title": "Pocket Ball",
@@ -32724,7 +32724,7 @@
     },
     "9918": {
       "title": "Cube",
-      "level": 16
+      "level": 15
     },
     "9919": {
       "title": "Route",
@@ -35208,7 +35208,7 @@
     },
     "10573": {
       "title": "증가하는 수",
-      "level": 13
+      "level": 12
     },
     "10574": {
       "title": "Ranked Choice",
@@ -36060,7 +36060,7 @@
     },
     "10799": {
       "title": "쇠막대기",
-      "level": 8
+      "level": 9
     },
     "10800": {
       "title": "컬러볼",
@@ -40716,7 +40716,7 @@
     },
     "11999": {
       "title": "Milk Pails (Bronze)",
-      "level": 7
+      "level": 6
     },
     "12000": {
       "title": "Circular Barn (Bronze)",
@@ -46024,7 +46024,7 @@
     },
     "13352": {
       "title": "석양이 진다...",
-      "level": 17
+      "level": 16
     },
     "13353": {
       "title": "Translators’ Dinner",
@@ -51476,7 +51476,7 @@
     },
     "14747": {
       "title": "Cycle Mean",
-      "level": 23
+      "level": 24
     },
     "14748": {
       "title": "Flow Graph Complexity",
@@ -51912,7 +51912,7 @@
     },
     "14856": {
       "title": "조금 똑똑한 뢰벗과 조금 잘생긴 사냐",
-      "level": 10
+      "level": 11
     },
     "14857": {
       "title": "모눈종이와 삼각형",
@@ -64464,7 +64464,7 @@
     },
     "18034": {
       "title": "Fabricating Sculptures",
-      "level": 19
+      "level": 18
     },
     "18035": {
       "title": "Gluing Pictures",
@@ -76552,7 +76552,7 @@
     },
     "21078": {
       "title": "Minimum Spanning Tree",
-      "level": 21
+      "level": 23
     },
     "21079": {
       "title": "Horses",
@@ -76648,7 +76648,7 @@
     },
     "21102": {
       "title": "Local Maxima",
-      "level": 22
+      "level": 23
     },
     "21103": {
       "title": "Maximum Subsequence",
@@ -89572,7 +89572,7 @@
     },
     "24418": {
       "title": "알고리즘 수업 - 행렬 경로 문제 1",
-      "level": 8
+      "level": 7
     },
     "24419": {
       "title": "알고리즘 수업 - 행렬 경로 문제 2",
@@ -94618,6 +94618,10 @@
       "title": "Interval",
       "level": 19
     },
+    "25744": {
+      "title": "Drinking Water",
+      "level": 0
+    },
     "25762": {
       "title": "Easy Problem",
       "level": 0
@@ -94705,6 +94709,150 @@
     "25783": {
       "title": "Security Fence",
       "level": 0
+    },
+    "25784": {
+      "title": "Easy-to-Solve Expressions",
+      "level": 2
+    },
+    "25785": {
+      "title": "Easy-to-Pronounce Words",
+      "level": 3
+    },
+    "25786": {
+      "title": "Decimal XOR",
+      "level": 3
+    },
+    "25787": {
+      "title": "Square Fishing Net",
+      "level": 6
+    },
+    "25788": {
+      "title": "Aqualin",
+      "level": 10
+    },
+    "25789": {
+      "title": "RCV Simplification",
+      "level": 13
+    },
+    "25790": {
+      "title": "Panda Hunting Treasure Box",
+      "level": 12
+    },
+    "25791": {
+      "title": "Lecture Allocation",
+      "level": 0
+    },
+    "25792": {
+      "title": "Stone Smoothing",
+      "level": 0
+    },
+    "25801": {
+      "title": "Odd/Even Strings",
+      "level": 3
+    },
+    "25802": {
+      "title": "Fiborooji Sequence",
+      "level": 5
+    },
+    "25803": {
+      "title": "Soccer Standing Table",
+      "level": 0
+    },
+    "25804": {
+      "title": "Caterpillar Walk",
+      "level": 0
+    },
+    "25805": {
+      "title": "Tutorial Groupings",
+      "level": 0
+    },
+    "25806": {
+      "title": "Food Poisoning",
+      "level": 0
+    },
+    "25807": {
+      "title": "Toboggan Ride",
+      "level": 0
+    },
+    "25808": {
+      "title": "Discord Daisy Chain",
+      "level": 0
+    },
+    "25809": {
+      "title": "K-gap Subsequence",
+      "level": 0
+    },
+    "25810": {
+      "title": "Ultimate Commitment Forever",
+      "level": 0
+    },
+    "25811": {
+      "title": "Really Nerdy Game",
+      "level": 0
+    },
+    "25812": {
+      "title": "Nice Raises",
+      "level": 3
+    },
+    "25813": {
+      "title": "Changing Strings",
+      "level": 2
+    },
+    "25814": {
+      "title": "Heavy Numbers",
+      "level": 3
+    },
+    "25815": {
+      "title": "Cat’s Age",
+      "level": 3
+    },
+    "25816": {
+      "title": "Overall Ranking",
+      "level": 8
+    },
+    "25817": {
+      "title": "Don’t Complicate It!",
+      "level": 9
+    },
+    "25818": {
+      "title": "How Much Coffee is Left?",
+      "level": 7
+    },
+    "25819": {
+      "title": "Time to Eat",
+      "level": 0
+    },
+    "25820": {
+      "title": "Tower Climbing",
+      "level": 0
+    },
+    "25821": {
+      "title": "Palindromic Primes",
+      "level": 20
+    },
+    "25822": {
+      "title": "2000문제 푼 임스",
+      "level": 10
+    },
+    "25823": {
+      "title": "조합의 합의 합",
+      "level": 14
+    },
+    "25824": {
+      "title": "빠른 오름차순 메시지 전달",
+      "level": 11
+    },
+    "25825": {
+      "title": "빠른 무작위 메시지 전달",
+      "level": 12
+    },
+    "25826": {
+      "title": "2차원 배열 다중 업데이트 단일 합",
+      "level": 9
+    },
+    "25827": {
+      "title": "시간 구간 다중 업데이트 다중 합",
+      "level": 10
     }
   }
 }
