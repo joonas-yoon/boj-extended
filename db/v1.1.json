@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-10 19:25:52.897474",
+  "last_updated": "2022-10-11 19:21:29.636059",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -572,7 +572,7 @@
     },
     "1142": {
       "title": "피자",
-      "level": 17
+      "level": 18
     },
     "1143": {
       "title": "경찰",
@@ -4268,7 +4268,7 @@
     },
     "2084": {
       "title": "차수열",
-      "level": 11
+      "level": 12
     },
     "2085": {
       "title": "진법",
@@ -4748,7 +4748,7 @@
     },
     "2206": {
       "title": "벽 부수고 이동하기",
-      "level": 12
+      "level": 13
     },
     "2207": {
       "title": "가위바위보",
@@ -6692,7 +6692,7 @@
     },
     "2705": {
       "title": "팰린드롬 파티션",
-      "level": 9
+      "level": 10
     },
     "2706": {
       "title": "문자 보내기",
@@ -11340,7 +11340,7 @@
     },
     "3906": {
       "title": "How I Mathematician Wonder What You Are!",
-      "level": 0
+      "level": 22
     },
     "3907": {
       "title": "정육면체 8퍼즐",
@@ -13236,7 +13236,7 @@
     },
     "4386": {
       "title": "별자리 만들기",
-      "level": 12
+      "level": 13
     },
     "4387": {
       "title": "Language Cardinality",
@@ -23196,7 +23196,7 @@
     },
     "7368": {
       "title": "Untidy Desktops",
-      "level": 0
+      "level": 4
     },
     "7369": {
       "title": "Maya Calendar",
@@ -30184,7 +30184,7 @@
     },
     "9206": {
       "title": "나무 말고 꽃",
-      "level": 19
+      "level": 18
     },
     "9207": {
       "title": "페그 솔리테어",
@@ -46740,7 +46740,7 @@
     },
     "13532": {
       "title": "악마의 수열",
-      "level": 14
+      "level": 15
     },
     "13533": {
       "title": "꽃 구매하기",
@@ -47784,7 +47784,7 @@
     },
     "13793": {
       "title": "Number Sorting",
-      "level": 17
+      "level": 18
     },
     "13794": {
       "title": "Sky Jump",
@@ -51832,7 +51832,7 @@
     },
     "14836": {
       "title": "Omnicircumnavigation (Small)",
-      "level": 23
+      "level": 24
     },
     "14837": {
       "title": "Omnicircumnavigation (Large)",
@@ -53580,7 +53580,7 @@
     },
     "15274": {
       "title": "Multiplication Game",
-      "level": 16
+      "level": 17
     },
     "15275": {
       "title": "Polyline Simplification",
@@ -59732,7 +59732,7 @@
     },
     "16828": {
       "title": "Santa’s Gift",
-      "level": 16
+      "level": 14
     },
     "16829": {
       "title": "Prefix Suffix Search",
@@ -66332,7 +66332,7 @@
     },
     "18504": {
       "title": "Bracket Euler Tour",
-      "level": 17
+      "level": 18
     },
     "18505": {
       "title": "Tree of Charge",
@@ -69120,7 +69120,7 @@
     },
     "19202": {
       "title": "Elegant Square",
-      "level": 0
+      "level": 18
     },
     "19203": {
       "title": "Four Colors",
@@ -71052,7 +71052,7 @@
     },
     "19689": {
       "title": "Collecting Mushrooms",
-      "level": 11
+      "level": 12
     },
     "19690": {
       "title": "Journey",
@@ -78632,7 +78632,7 @@
     },
     "21598": {
       "title": "SciComLove",
-      "level": 2
+      "level": 1
     },
     "21599": {
       "title": "아이템 배치하기",
@@ -82108,7 +82108,7 @@
     },
     "22506": {
       "title": "On or Off",
-      "level": 15
+      "level": 16
     },
     "22507": {
       "title": "Marathon Match",
@@ -94556,7 +94556,7 @@
     },
     "25728": {
       "title": "Connecting Cables",
-      "level": 16
+      "level": 15
     },
     "25729": {
       "title": "Double-Colored Papers",
@@ -94580,7 +94580,7 @@
     },
     "25734": {
       "title": "Set and Sequence and Query",
-      "level": 15
+      "level": 16
     },
     "25735": {
       "title": "Similarity Graph",
@@ -94740,7 +94740,7 @@
     },
     "25791": {
       "title": "Lecture Allocation",
-      "level": 0
+      "level": 11
     },
     "25792": {
       "title": "Stone Smoothing",
@@ -94796,7 +94796,7 @@
     },
     "25813": {
       "title": "Changing Strings",
-      "level": 2
+      "level": 3
     },
     "25814": {
       "title": "Heavy Numbers",
@@ -94804,7 +94804,7 @@
     },
     "25815": {
       "title": "Cat’s Age",
-      "level": 3
+      "level": 2
     },
     "25816": {
       "title": "Overall Ranking",
@@ -94828,7 +94828,7 @@
     },
     "25821": {
       "title": "Palindromic Primes",
-      "level": 20
+      "level": 15
     },
     "25822": {
       "title": "2000문제 푼 임스",
@@ -94848,11 +94848,95 @@
     },
     "25826": {
       "title": "2차원 배열 다중 업데이트 단일 합",
-      "level": 9
+      "level": 10
     },
     "25827": {
       "title": "시간 구간 다중 업데이트 다중 합",
       "level": 10
+    },
+    "25828": {
+      "title": "Corona Virus Testing",
+      "level": 2
+    },
+    "25829": {
+      "title": "Presidential Election",
+      "level": 0
+    },
+    "25830": {
+      "title": "Microwave Mishap",
+      "level": 0
+    },
+    "25831": {
+      "title": "Food Display Arrangement",
+      "level": 0
+    },
+    "25832": {
+      "title": "Making Connections",
+      "level": 0
+    },
+    "25833": {
+      "title": "Boxing Books",
+      "level": 0
+    },
+    "25834": {
+      "title": "Bad Tree",
+      "level": 0
+    },
+    "25835": {
+      "title": "Lots of Towers of Hanoi",
+      "level": 0
+    },
+    "25836": {
+      "title": "Paragliders and Aircraft",
+      "level": 0
+    },
+    "25837": {
+      "title": "Boring Solitaire",
+      "level": 0
+    },
+    "25838": {
+      "title": "Safe Logging",
+      "level": 0
+    },
+    "25839": {
+      "title": "Village Transportation",
+      "level": 0
+    },
+    "25840": {
+      "title": "Sharing Birthdays",
+      "level": 3
+    },
+    "25841": {
+      "title": "Digit Count",
+      "level": 3
+    },
+    "25842": {
+      "title": "Tetrooj Box",
+      "level": 6
+    },
+    "25843": {
+      "title": "Judging Assistant for Contest",
+      "level": 0
+    },
+    "25844": {
+      "title": "Thirsty Professors",
+      "level": 0
+    },
+    "25845": {
+      "title": "Hidden Message",
+      "level": 0
+    },
+    "25846": {
+      "title": "Make the Team",
+      "level": 0
+    },
+    "25847": {
+      "title": "Decoder Ring",
+      "level": 0
+    },
+    "25848": {
+      "title": "Wedding DJ",
+      "level": 0
     }
   }
 }
