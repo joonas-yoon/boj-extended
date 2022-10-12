@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-11 19:21:29.636059",
+  "last_updated": "2022-10-12 19:22:59.127410",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -592,7 +592,7 @@
     },
     "1147": {
       "title": "BOJ 소풍",
-      "level": 17
+      "level": 18
     },
     "1148": {
       "title": "단어 만들기",
@@ -8268,7 +8268,7 @@
     },
     "3108": {
       "title": "로고",
-      "level": 14
+      "level": 13
     },
     "3109": {
       "title": "빵집",
@@ -31360,7 +31360,7 @@
     },
     "9514": {
       "title": "카드 게임",
-      "level": 13
+      "level": 16
     },
     "9515": {
       "title": "지우기 게임",
@@ -44228,7 +44228,7 @@
     },
     "12891": {
       "title": "DNA 비밀번호",
-      "level": 9
+      "level": 8
     },
     "12892": {
       "title": "생일 선물",
@@ -48468,7 +48468,7 @@
     },
     "13965": {
       "title": "The White Rabbit Pocket Watch",
-      "level": 18
+      "level": 19
     },
     "13966": {
       "title": "Risky Lottery",
@@ -72968,7 +72968,7 @@
     },
     "20174": {
       "title": "Ink Mix",
-      "level": 23
+      "level": 24
     },
     "20175": {
       "title": "Mobile Robot",
@@ -74332,7 +74332,7 @@
     },
     "20523": {
       "title": "Обитаемые горы",
-      "level": 22
+      "level": 24
     },
     "20524": {
       "title": "Управление видеонаблюдением",
@@ -81856,7 +81856,7 @@
     },
     "22443": {
       "title": "Minus One",
-      "level": 12
+      "level": 14
     },
     "22444": {
       "title": "Wave Attack",
@@ -94692,11 +94692,11 @@
     },
     "25779": {
       "title": "Which Number",
-      "level": 0
+      "level": 15
     },
     "25780": {
       "title": "Maximum Satisfaction",
-      "level": 0
+      "level": 20
     },
     "25781": {
       "title": "Share Auction",
@@ -94804,7 +94804,7 @@
     },
     "25815": {
       "title": "Cat’s Age",
-      "level": 2
+      "level": 3
     },
     "25816": {
       "title": "Overall Ranking",
@@ -94860,15 +94860,15 @@
     },
     "25829": {
       "title": "Presidential Election",
-      "level": 0
+      "level": 3
     },
     "25830": {
       "title": "Microwave Mishap",
-      "level": 0
+      "level": 3
     },
     "25831": {
       "title": "Food Display Arrangement",
-      "level": 0
+      "level": 11
     },
     "25832": {
       "title": "Making Connections",
@@ -94884,7 +94884,7 @@
     },
     "25835": {
       "title": "Lots of Towers of Hanoi",
-      "level": 0
+      "level": 13
     },
     "25836": {
       "title": "Paragliders and Aircraft",
@@ -94924,7 +94924,7 @@
     },
     "25845": {
       "title": "Hidden Message",
-      "level": 0
+      "level": 11
     },
     "25846": {
       "title": "Make the Team",
