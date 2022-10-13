@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-12 19:22:59.127410",
+  "last_updated": "2022-10-13 19:23:48.154013",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8976,7 +8976,7 @@
     },
     "3290": {
       "title": "GAME",
-      "level": 15
+      "level": 0
     },
     "3291": {
       "title": "LIST",
@@ -16624,7 +16624,7 @@
     },
     "5253": {
       "title": "Fan Groups",
-      "level": 20
+      "level": 21
     },
     "5254": {
       "title": "Balls",
@@ -19960,7 +19960,7 @@
     },
     "6220": {
       "title": "Making Change",
-      "level": 8
+      "level": 9
     },
     "6221": {
       "title": "The Bale Tower",
@@ -41104,7 +41104,7 @@
     },
     "12102": {
       "title": "종이 접기 2",
-      "level": 13
+      "level": 14
     },
     "12103": {
       "title": "짝합 수열",
@@ -51912,7 +51912,7 @@
     },
     "14856": {
       "title": "조금 똑똑한 뢰벗과 조금 잘생긴 사냐",
-      "level": 11
+      "level": 12
     },
     "14857": {
       "title": "모눈종이와 삼각형",
@@ -52356,7 +52356,7 @@
     },
     "14968": {
       "title": "Plahte",
-      "level": 23
+      "level": 22
     },
     "14969": {
       "title": "Taro's Shopping",
@@ -77976,7 +77976,7 @@
     },
     "21434": {
       "title": "Непростая задача",
-      "level": 13
+      "level": 14
     },
     "21435": {
       "title": "Головоломка",
@@ -82092,7 +82092,7 @@
     },
     "22502": {
       "title": "Starting Line",
-      "level": 13
+      "level": 12
     },
     "22503": {
       "title": "Tiles are Colorful",
@@ -84352,7 +84352,7 @@
     },
     "23074": {
       "title": "자연수 색칠하기 2",
-      "level": 15
+      "level": 14
     },
     "23075": {
       "title": "삼각형만들기 2",
@@ -89856,7 +89856,7 @@
     },
     "24497": {
       "title": "수열 복원",
-      "level": 17
+      "level": 16
     },
     "24498": {
       "title": "blobnom",
@@ -94820,7 +94820,7 @@
     },
     "25819": {
       "title": "Time to Eat",
-      "level": 0
+      "level": 12
     },
     "25820": {
       "title": "Tower Climbing",
@@ -94864,7 +94864,7 @@
     },
     "25830": {
       "title": "Microwave Mishap",
-      "level": 3
+      "level": 4
     },
     "25831": {
       "title": "Food Display Arrangement",
@@ -94880,7 +94880,7 @@
     },
     "25834": {
       "title": "Bad Tree",
-      "level": 0
+      "level": 10
     },
     "25835": {
       "title": "Lots of Towers of Hanoi",
