@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-13 19:23:48.154013",
+  "last_updated": "2022-10-14 19:20:43.235006",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4084,7 +4084,7 @@
     },
     "2036": {
       "title": "수열의 점수",
-      "level": 11
+      "level": 12
     },
     "2037": {
       "title": "문자메시지",
@@ -6820,7 +6820,7 @@
     },
     "2737": {
       "title": "연속 합",
-      "level": 13
+      "level": 12
     },
     "2738": {
       "title": "행렬 덧셈",
@@ -11220,7 +11220,7 @@
     },
     "3876": {
       "title": "sed 이용",
-      "level": 13
+      "level": 12
     },
     "3877": {
       "title": "Swimming Jam",
@@ -14476,7 +14476,7 @@
     },
     "4701": {
       "title": "Party Games",
-      "level": 15
+      "level": 18
     },
     "4702": {
       "title": "Funhouse",
@@ -17988,7 +17988,7 @@
     },
     "5717": {
       "title": "상근이의 친구들",
-      "level": 3
+      "level": 2
     },
     "5718": {
       "title": "Abwords",
@@ -18784,7 +18784,7 @@
     },
     "5916": {
       "title": "농장 관리",
-      "level": 19
+      "level": 20
     },
     "5917": {
       "title": "Roadblock",
@@ -23440,7 +23440,7 @@
     },
     "7432": {
       "title": "디스크 트리",
-      "level": 14
+      "level": 13
     },
     "7433": {
       "title": "Divisibility",
@@ -32580,7 +32580,7 @@
     },
     "9877": {
       "title": "Ski Course Rating",
-      "level": 21
+      "level": 20
     },
     "9878": {
       "title": "Bessie Slows Down",
@@ -41320,7 +41320,7 @@
     },
     "12156": {
       "title": "Noisy Neighbors (Large)",
-      "level": 13
+      "level": 14
     },
     "12157": {
       "title": "Hiking Deer (Small1)",
@@ -41768,7 +41768,7 @@
     },
     "12269": {
       "title": "Meet and party (Large)",
-      "level": 14
+      "level": 15
     },
     "12270": {
       "title": "Hex (Small)",
@@ -43268,7 +43268,7 @@
     },
     "12650": {
       "title": "Multi-base happiness (Large)",
-      "level": 13
+      "level": 14
     },
     "12651": {
       "title": "Crossing the Road (Small)",
@@ -51524,7 +51524,7 @@
     },
     "14759": {
       "title": "Party Games",
-      "level": 15
+      "level": 18
     },
     "14760": {
       "title": "Reverse Nonogram",
@@ -53684,7 +53684,7 @@
     },
     "15302": {
       "title": "Triangle to Hexagon",
-      "level": 16
+      "level": 17
     },
     "15303": {
       "title": "Sumdoku",
@@ -54384,7 +54384,7 @@
     },
     "15477": {
       "title": "水ようかん (Mizuyokan)",
-      "level": 17
+      "level": 16
     },
     "15478": {
       "title": "森林伐採 (Deforestation)",
@@ -59228,7 +59228,7 @@
     },
     "16702": {
       "title": "The Silence of the Lamps",
-      "level": 8
+      "level": 11
     },
     "16703": {
       "title": "Matrice",
@@ -67472,7 +67472,7 @@
     },
     "18789": {
       "title": "814 - 2",
-      "level": 28
+      "level": 27
     },
     "18790": {
       "title": "N의 배수 (1)",
@@ -81092,15 +81092,15 @@
     },
     "22229": {
       "title": "Table 8",
-      "level": 15
+      "level": 16
     },
     "22230": {
       "title": "Table 9",
-      "level": 14
+      "level": 15
     },
     "22231": {
       "title": "Table 10",
-      "level": 15
+      "level": 16
     },
     "22232": {
       "title": "가희와 파일 탐색기",
@@ -93928,7 +93928,7 @@
     },
     "25554": {
       "title": "포닉스의 신비한 분자 보고서",
-      "level": 16
+      "level": 17
     },
     "25555": {
       "title": "포커",
@@ -94676,7 +94676,7 @@
     },
     "25775": {
       "title": "Letter Frequency",
-      "level": 5
+      "level": 6
     },
     "25776": {
       "title": "Pseudo Pseudo Random Numbers",
@@ -94928,15 +94928,15 @@
     },
     "25846": {
       "title": "Make the Team",
-      "level": 0
+      "level": 18
     },
     "25847": {
       "title": "Decoder Ring",
-      "level": 0
+      "level": 18
     },
     "25848": {
       "title": "Wedding DJ",
-      "level": 0
+      "level": 17
     }
   }
 }
