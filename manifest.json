@@ -15,6 +15,7 @@
       "js": [
         "js/constants.js",
         "js/utils/config.js",
+        "js/utils/storage.js",
         "js/preload.js",
         "js/utils/helpers.js",
         "js/utils/index.js",
