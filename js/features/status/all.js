@@ -125,8 +125,8 @@ function _extendStatusTable(
     const oStatusTitle = document.getElementsByName('option-status-title')[0];
     titles.forEach((e) => {
 
-      const showTitle = Boolean(oStatusTitle[0].checked);
-      const showPid = Boolean(oStatusPid[0].checked);
+      const showTitle = Boolean(oStatusTitle.checked);
+      const showPid = Boolean(oStatusPid.checked);
       let problemText = '';
       if (showTitle) {
         problemText = e.getAttribute('data-original-title');
