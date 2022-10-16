@@ -305,17 +305,28 @@ function extendGlobal() {
 
   function extendUserBadge() {
     if (!isLoggedIn()) return;
+
+    const getTier = async (handle) => {
+      const cacheKey = `user:${handle}`;
+      const cacheValue = LocalCache.get(cacheKey);
+      if (cacheValue === null) return 0;
+      if (cacheValue !== undefined) return cacheValue.tier;
+      const info = await fetch(
+        `https://solved.ac/api/v3/user/show?handle=${handle}`
+      )
+        .then((res) => res.json())
+        .catch(() => null);
+      LocalCache.add(cacheKey, info);
+      console.log('cache updated', cacheKey, info);
+      return info === null ? 0 : info.tier;
+    };
+
     Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
       // default as true
       if (showUserTier === false) return;
       const userTags = document.querySelectorAll('a[href^="/user/"');
       userTags.forEach(async (tag) => {
-        const tier = await fetch(
-          `https://solved.ac/api/v3/user/show?handle=${tag.innerText}`
-        )
-          .then((res) => res.json())
-          .then(({ tier }) => tier)
-          .catch(() => 0);
+        const tier = await getTier(tag.innerText);
         tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;
       });
     });

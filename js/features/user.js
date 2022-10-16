@@ -128,23 +128,72 @@ function extendUserPage() {
   });
 
   function setProblemAttributes(problemTags) {
+    const getProblemCache = (problemId) =>
+      LocalCache.get(`problem:${problemId}`);
+    const saveProblemCache = (problemId, data) =>
+      LocalCache.add(`problem:${problemId}`, data);
+    const isProblemCached = (problemId) =>
+      getProblemCache(problemId) !== undefined;
+
+    const fetchProblems = async (tags) => {
+      const listToMap = (list) =>
+        [{ id: '' }]
+          .concat(list)
+          .reduce((p, c) => ({ ...(p || {}), [c.id]: c }));
+      for (let i = 0; i <= Math.ceil(tags.length / 100); ++i) {
+        const batch = tags.slice(i * 100, (i + 1) * 100) || [];
+        if (batch.length === 0) break;
+        const pids = batch.map(({ id }) => id);
+        const query = encodeURIComponent(pids.join(','));
+        const arr = await fetch(
+          `https://solved.ac/api/v3/problem/lookup?problemIds=${query}`
+        )
+          .then((res) => res.json())
+          .then((res) =>
+            res.map(({ problemId, titleKo, level }) => ({
+              id: problemId,
+              title: titleKo,
+              level,
+            }))
+          )
+          .catch((err) => {
+            console.error(err);
+            return [];
+          });
+
+        const infoByPid = listToMap(arr);
+        batch.forEach(({ element: e, id }) => {
+          e.setAttribute('data-problem-id', id);
+          try {
+            const { level, title } = infoByPid[id];
+            e.setAttribute('data-tier', level);
+            e.setAttribute('data-problem-title', title);
+            saveProblemCache(id, infoByPid[id]);
+          } catch {
+            e.setAttribute('data-tier', 0);
+            e.setAttribute('data-problem-title', '(가져오기 실패)');
+          }
+        });
+      }
+    };
+
     const getPidfromProblemHref = (tag) => Number(tag.textContent);
     const pids = problemTags
       .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
       .filter((x) => !isNaN(x.id));
-    Config.getProblems((problemLookup) => {
-      pids.forEach((tag) => {
-        const e = tag.element;
-        const info = problemLookup[tag.id];
-        e.setAttribute('data-tier', info['level']);
-        e.setAttribute('data-problem-id', tag.id);
-        try {
-          e.setAttribute('data-problem-title', info['title']);
-        } catch (err) {
-          e.setAttribute('data-problem-title', '(가져오기 실패)');
-        }
+
+    // apply cache first
+    pids
+      .filter(({ id }) => isProblemCached(id))
+      .forEach(({ element: e, id }) => {
+        e.setAttribute('data-problem-id', id);
+        const { title, level } = getProblemCache(id);
+        e.setAttribute('data-tier', level);
+        e.setAttribute('data-problem-title', title);
       });
-    });
+
+    const notCachedTags = pids.filter(({ id }) => !isProblemCached(id));
+    fetchProblems(notCachedTags);
   }
 
   // sync with configs
