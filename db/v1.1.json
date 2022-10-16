@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-15 19:17:30.164831",
+  "last_updated": "2022-10-16 19:17:53.004414",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -628,7 +628,7 @@
     },
     "1156": {
       "title": "장난감",
-      "level": 20
+      "level": 21
     },
     "1157": {
       "title": "단어 공부",
@@ -648,7 +648,7 @@
     },
     "1161": {
       "title": "버스",
-      "level": 18
+      "level": 19
     },
     "1162": {
       "title": "도로포장",
@@ -1976,7 +1976,7 @@
     },
     "1499": {
       "title": "뒤집기 수열",
-      "level": 14
+      "level": 15
     },
     "1500": {
       "title": "최대 곱",
@@ -4160,7 +4160,7 @@
     },
     "2056": {
       "title": "작업",
-      "level": 11
+      "level": 12
     },
     "2057": {
       "title": "팩토리얼 분해",
@@ -6916,7 +6916,7 @@
     },
     "2762": {
       "title": "구역 채우기",
-      "level": 19
+      "level": 0
     },
     "2763": {
       "title": "Histology Assistant",
@@ -7180,7 +7180,7 @@
     },
     "2831": {
       "title": "댄스 파티",
-      "level": 13
+      "level": 12
     },
     "2832": {
       "title": "정렬",
@@ -19456,7 +19456,7 @@
     },
     "6086": {
       "title": "최대 유량",
-      "level": 17
+      "level": 0
     },
     "6087": {
       "title": "레이저 통신",
@@ -21380,7 +21380,7 @@
     },
     "6595": {
       "title": "프로거",
-      "level": 14
+      "level": 13
     },
     "6596": {
       "title": "Globetrotter",
@@ -24232,7 +24232,7 @@
     },
     "7637": {
       "title": "AAAAHH! Overbooked!",
-      "level": 4
+      "level": 5
     },
     "7638": {
       "title": "Betting Sets",
@@ -24668,7 +24668,7 @@
     },
     "7775": {
       "title": "최종 순위",
-      "level": 12
+      "level": 13
     },
     "7776": {
       "title": "Grid",
@@ -29236,7 +29236,7 @@
     },
     "8941": {
       "title": "Molar mass",
-      "level": 4
+      "level": 5
     },
     "8942": {
       "title": "Network",
@@ -30948,7 +30948,7 @@
     },
     "9399": {
       "title": "Best Friends",
-      "level": 6
+      "level": 7
     },
     "9400": {
       "title": "Calculate the Fence Needed",
@@ -32560,7 +32560,7 @@
     },
     "9872": {
       "title": "Record Keeping",
-      "level": 7
+      "level": 8
     },
     "9873": {
       "title": "Cow Baseball",
@@ -39660,7 +39660,7 @@
     },
     "11719": {
       "title": "그대로 출력하기 2",
-      "level": 4
+      "level": 3
     },
     "11720": {
       "title": "숫자의 합",
@@ -42724,7 +42724,7 @@
     },
     "12514": {
       "title": "Candy Splitting (Large)",
-      "level": 8
+      "level": 9
     },
     "12515": {
       "title": "챔피언소트 (Small)",
@@ -46024,7 +46024,7 @@
     },
     "13352": {
       "title": "석양이 진다...",
-      "level": 16
+      "level": 17
     },
     "13353": {
       "title": "Translators’ Dinner",
@@ -50136,7 +50136,7 @@
     },
     "14400": {
       "title": "편의점 2",
-      "level": 8
+      "level": 9
     },
     "14401": {
       "title": "악덕 나라",
@@ -50156,7 +50156,7 @@
     },
     "14405": {
       "title": "피카츄",
-      "level": 6
+      "level": 5
     },
     "14406": {
       "title": "좌중을 사로잡는 건배사",
@@ -59724,7 +59724,7 @@
     },
     "16826": {
       "title": "GuruGuru",
-      "level": 9
+      "level": 8
     },
     "16827": {
       "title": "Colorful Drink",
@@ -67092,7 +67092,7 @@
     },
     "18694": {
       "title": "Game of Nim Everywhere",
-      "level": 20
+      "level": 19
     },
     "18695": {
       "title": "FIFA World Cup",
@@ -94008,7 +94008,7 @@
     },
     "25580": {
       "title": "Next Level",
-      "level": 14
+      "level": 0
     },
     "25581": {
       "title": "땅 두 배로 따먹기",
@@ -94628,7 +94628,7 @@
     },
     "25756": {
       "title": "방어율 무시 계산하기",
-      "level": 2
+      "level": 3
     },
     "25757": {
       "title": "임스와 함께하는 미니게임",
@@ -94784,19 +94784,19 @@
     },
     "25795": {
       "title": "예쁜 초콜릿과 숫자놀이",
-      "level": 12
+      "level": 13
     },
     "25796": {
       "title": "초콜릿 나눠 팔기",
-      "level": 0
+      "level": 14
     },
     "25797": {
       "title": "더블 초콜릿",
-      "level": 0
+      "level": 17
     },
     "25798": {
       "title": "초콜릿과 친구들의 습격",
-      "level": 22
+      "level": 21
     },
     "25799": {
       "title": "초콜릿과 왕 게임",
@@ -94988,7 +94988,7 @@
     },
     "25846": {
       "title": "Make the Team",
-      "level": 18
+      "level": 17
     },
     "25847": {
       "title": "Decoder Ring",
@@ -94996,7 +94996,7 @@
     },
     "25848": {
       "title": "Wedding DJ",
-      "level": 17
+      "level": 18
     }
   }
 }
