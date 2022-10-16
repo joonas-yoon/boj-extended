@@ -124,7 +124,6 @@ function _extendStatusTable(
     const oStatusPid = document.getElementsByName('option-status-pid')[0];
     const oStatusTitle = document.getElementsByName('option-status-title')[0];
     titles.forEach((e) => {
-
       const showTitle = Boolean(oStatusTitle.checked);
       const showPid = Boolean(oStatusPid.checked);
       let problemText = '';
