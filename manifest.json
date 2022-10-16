@@ -70,6 +70,7 @@
   },
   "permissions": [
     "storage",
+    "unlimitedStorage",
     "declarativeNetRequest",
     "declarativeNetRequestWithHostAccess"
   ],

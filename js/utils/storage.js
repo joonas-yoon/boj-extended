@@ -36,4 +36,4 @@ class CacheStorage {
   }
 }
 
-const Storage = new CacheStorage();
+const LocalCache = new CacheStorage();

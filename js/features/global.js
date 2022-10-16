@@ -308,7 +308,7 @@ function extendGlobal() {
 
     const getTier = async (handle) => {
       const cacheKey = `user:${handle}`;
-      const cacheValue = Storage.get(cacheKey);
+      const cacheValue = LocalCache.get(cacheKey);
       if (cacheValue === null) return 0;
       if (cacheValue !== undefined) return cacheValue.tier;
       const info = await fetch(
@@ -316,7 +316,7 @@ function extendGlobal() {
       )
         .then((res) => res.json())
         .catch(() => null);
-      Storage.add(cacheKey, info);
+      LocalCache.add(cacheKey, info);
       console.log('cache updated', cacheKey, info);
       return info === null ? 0 : info.tier;
     };
