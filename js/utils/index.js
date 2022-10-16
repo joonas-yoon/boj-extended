@@ -66,7 +66,7 @@ const Utils = {
 
     const input = Utils.createElement('input', {
       class: 'form-check-input',
-      type: 'check',
+      type: 'checkbox',
       id: randID,
       name: 'radio-extended',
     });
