@@ -133,7 +133,7 @@ function _extendStatusTable(
       }
       if (showPid) {
         if (problemText != '') {
-          problemText += '(' + e.getAttribute('data-original-id') + ')';
+          problemText += ' (' + e.getAttribute('data-original-id') + ')';
         } else {
           problemText = e.getAttribute('data-original-id');
         }
