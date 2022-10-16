@@ -62,10 +62,10 @@
       Boolean(oStatusTitle.checked)
     );
   });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (show) => {
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (show) => {
     oStatusPid.checked = show;
   });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
+  Config.load(Constants.CONFIG_SHOW_STATUS_TITLE, (show) => {
     oStatusTitle.checked = !(show === false); // default as true
   });
 
