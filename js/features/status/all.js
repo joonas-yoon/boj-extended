@@ -61,7 +61,8 @@ function _createCheckForm(form, callback) {
             callback
           );
         },
-        showPid
+        showPid,
+        'option-status-pid'
       );
       const check2 = Utils.createCheckElement(
         '문제 제목',
@@ -72,12 +73,13 @@ function _createCheckForm(form, callback) {
             callback
           );
         },
-        showTitle
+        showTitle,
+        'option-status-title'
       );
       form.insertBefore(check2, form.firstChild);
       form.insertBefore(check1, form.firstChild);
       if (callback && typeof callback === 'function') {
-        setTimeout(() => callback(showPid, showTitle), 10);
+        setTimeout(() => callback(), 10);
       }
     });
   });
@@ -117,9 +119,13 @@ function _extendStatusTable(
     }
   });
 
-  function display(showPid, showTitle) {
+  function display() {
     // apply for each titles
     titles.forEach((e) => {
+      const oStatusPid = document.getElementsByName('option-status-pid');
+      const oStatusTitle = document.getElementsByName('option-status-Title');
+      const showTitle = Boolean(oStatusTitle.checked);
+      const showPid = Boolean(oStatusPid.checked);
       let problemText = '';
       if (showTitle) {
         problemText = e.getAttribute('data-original-title');
