@@ -1,1 +1,0 @@
-(function(){const a=document.documentElement;let b=localStorage.getItem(Constants.CONFIG_THEME);b||(b=localStorage.getItem(Config.getKey("theme"))),a.setAttribute("theme",b||"light")})();

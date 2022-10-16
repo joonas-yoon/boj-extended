@@ -48,28 +48,38 @@ function extendRejudgePage() {
   });
 }
 
-function _createRadioForm(form, callback) {
+function _createCheckForm(form, callback) {
   // load and apply to display pid/pname
   Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
-    const radio1 = Utils.createRadioElement(
-      '문제 번호',
-      (evt) => {
-        Config.save(Constants.CONFIG_SHOW_STATUS_PID, true, callback);
-      },
-      !!showPid
-    );
-    const radio2 = Utils.createRadioElement(
-      '문제 제목',
-      (evt) => {
-        Config.save(Constants.CONFIG_SHOW_STATUS_PID, false, callback);
-      },
-      !showPid
-    );
-    form.insertBefore(radio2, form.firstChild);
-    form.insertBefore(radio1, form.firstChild);
-    if (callback && typeof callback === 'function') {
-      setTimeout(() => callback(!!showPid), 10);
-    }
+    Config.load(Constants.CONFIG_SHOW_STATUS_TITLE, (showTitle) => {
+      const check1 = Utils.createCheckElement(
+        '문제 번호',
+        (evt) => {
+          Config.save(
+            Constants.CONFIG_SHOW_STATUS_PID,
+            Boolean(evt.target.checked),
+            callback
+          );
+        },
+        showPid
+      );
+      const check2 = Utils.createCheckElement(
+        '문제 제목',
+        (evt) => {
+          Config.save(
+            Constants.CONFIG_SHOW_STATUS_TITLE,
+            Boolean(evt.target.checked),
+            callback
+          );
+        },
+        showTitle
+      );
+      form.insertBefore(check2, form.firstChild);
+      form.insertBefore(check1, form.firstChild);
+      if (callback && typeof callback === 'function') {
+        setTimeout(() => callback(showPid, showTitle), 10);
+      }
+    });
   });
 }
 
@@ -107,15 +117,22 @@ function _extendStatusTable(
     }
   });
 
-  function display(showPid) {
+  function display(showPid, showTitle) {
     // apply for each titles
     titles.forEach((e) => {
-      if (showPid) {
-        e.innerText = e.getAttribute('data-original-id');
-      } else {
-        const text = e.getAttribute('data-original-title');
-        e.innerText = text.length > 20 ? text.substr(0, 17) + '…' : text;
+      let problemText = '';
+      if (showTitle) {
+        problemText = e.getAttribute('data-original-title');
       }
+      if (showPid) {
+        if (problemText != '') {
+          problemText += '(' + e.getAttribute('data-original-id') + ')';
+        } else {
+          problemText = e.getAttribute('data-original-id');
+        }
+      }
+      e.innerText =
+        problemText.length > 20 ? problemText.substr(0, 17) + '…' : problemText;
     });
     // fit column width
     tableHeadCols.forEach((e, i) => {
@@ -123,5 +140,5 @@ function _extendStatusTable(
     });
   }
 
-  _createRadioForm(container, display);
+  _createCheckForm(container, display);
 }
