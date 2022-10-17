@@ -87,7 +87,7 @@ function createCheckboxForm(form, callback) {
 
   Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showTitle) => {
     const oStatusTitle = document.getElementsByName('option-status-ptitle')[0];
-    oStatusTitle = Boolean(showTitle);
+    oStatusTitle.checked = Boolean(showTitle);
   });
 }
 
