@@ -48,9 +48,9 @@
   });
 
   // status:pid
-  // status:title
+  // status:ptitle
   const oStatusPid = document.getElementById('option-status-pid');
-  const oStatusTitle = document.getElementById('option-status-title');
+  const oStatusTitle = document.getElementById('option-status-ptitle');
   oStatusPid.addEventListener('change', (evt) => {
     console.log(evt.target.checked);
     Config.save(Constants.CONFIG_SHOW_STATUS_PID, Boolean(oStatusPid.checked));
@@ -58,15 +58,15 @@
   oStatusTitle.addEventListener('change', (evt) => {
     console.log(evt.target.checked);
     Config.save(
-      Constants.CONFIG_SHOW_STATUS_TITLE,
+      Constants.CONFIG_SHOW_STATUS_PTITLE,
       Boolean(oStatusTitle.checked)
     );
   });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (show) => {
-    oStatusPid.checked = show;
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (isChecked) => {
+    oStatusPid.checked = Boolean(isChecked===false);  // default is true
   });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
-    oStatusTitle.checked = !(show === false); // default as true
+  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (isChecked) => {
+    oStatusTitle.checked = Boolean(isChecked);
   });
 
   // status:history
