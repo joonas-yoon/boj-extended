@@ -82,7 +82,7 @@ function createCheckboxForm(form, callback) {
 
   Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
     const oStatusPid = document.getElementsByName('option-status-pid')[0];
-    oStatusPid.checked = !!showPid;
+    oStatusPid.checked = !(showPid===false);
   });
 
   Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showTitle) => {
