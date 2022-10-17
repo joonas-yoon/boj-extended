@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-16 19:17:53.004414",
+  "last_updated": "2022-10-17 19:31:28.887141",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4268,7 +4268,7 @@
     },
     "2084": {
       "title": "차수열",
-      "level": 12
+      "level": 11
     },
     "2085": {
       "title": "진법",
@@ -7044,7 +7044,7 @@
     },
     "2797": {
       "title": "트램폴린",
-      "level": 17
+      "level": 16
     },
     "2798": {
       "title": "블랙잭",
@@ -19124,7 +19124,7 @@
     },
     "6001": {
       "title": "The Grand Farm-off",
-      "level": 6
+      "level": 7
     },
     "6002": {
       "title": "Job Hunt",
@@ -22540,7 +22540,7 @@
     },
     "7038": {
       "title": "Cow Patterns",
-      "level": 19
+      "level": 20
     },
     "7039": {
       "title": "Barn Expansion",
@@ -43084,7 +43084,7 @@
     },
     "12604": {
       "title": "Store Credit (Large)",
-      "level": 5
+      "level": 4
     },
     "12605": {
       "title": "단어순서 뒤집기",
@@ -55524,7 +55524,7 @@
     },
     "15765": {
       "title": "Family Tree",
-      "level": 11
+      "level": 12
     },
     "15766": {
       "title": "New Home",
@@ -60888,7 +60888,7 @@
     },
     "17128": {
       "title": "소가 정보섬에 올라온 이유",
-      "level": 9
+      "level": 8
     },
     "17129": {
       "title": "윌리암슨수액빨이딱따구리가 정보섬에 올라온 이유",
@@ -60948,7 +60948,7 @@
     },
     "17143": {
       "title": "낚시왕",
-      "level": 14
+      "level": 15
     },
     "17144": {
       "title": "미세먼지 안녕!",
@@ -61808,7 +61808,7 @@
     },
     "17360": {
       "title": "팰린드롬과 관련된 수열의 개수",
-      "level": 11
+      "level": 12
     },
     "17361": {
       "title": "배열 A 찾기",
@@ -64880,7 +64880,7 @@
     },
     "18138": {
       "title": "리유나는 세일러복을 좋아해",
-      "level": 16
+      "level": 17
     },
     "18139": {
       "title": "Rush Hour Puzzle",
@@ -77732,7 +77732,7 @@
     },
     "21373": {
       "title": "Känd klartext",
-      "level": 19
+      "level": 15
     },
     "21374": {
       "title": "Xorxorxor",
@@ -94628,7 +94628,7 @@
     },
     "25756": {
       "title": "방어율 무시 계산하기",
-      "level": 3
+      "level": 2
     },
     "25757": {
       "title": "임스와 함께하는 미니게임",
@@ -94736,7 +94736,7 @@
     },
     "25783": {
       "title": "Security Fence",
-      "level": 0
+      "level": 25
     },
     "25784": {
       "title": "Easy-to-Solve Expressions",
@@ -94784,11 +94784,11 @@
     },
     "25795": {
       "title": "예쁜 초콜릿과 숫자놀이",
-      "level": 13
+      "level": 12
     },
     "25796": {
       "title": "초콜릿 나눠 팔기",
-      "level": 14
+      "level": 15
     },
     "25797": {
       "title": "더블 초콜릿",
@@ -94800,11 +94800,11 @@
     },
     "25799": {
       "title": "초콜릿과 왕 게임",
-      "level": 23
+      "level": 24
     },
     "25800": {
       "title": "초콜릿 프로그래밍 언어",
-      "level": 19
+      "level": 18
     },
     "25801": {
       "title": "Odd/Even Strings",
@@ -94840,7 +94840,7 @@
     },
     "25809": {
       "title": "K-gap Subsequence",
-      "level": 0
+      "level": 18
     },
     "25810": {
       "title": "Ultimate Commitment Forever",
@@ -94960,7 +94960,7 @@
     },
     "25839": {
       "title": "Village Transportation",
-      "level": 0
+      "level": 24
     },
     "25840": {
       "title": "Sharing Birthdays",
