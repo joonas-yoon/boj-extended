@@ -48,40 +48,46 @@ function extendRejudgePage() {
   });
 }
 
-function _createCheckForm(form, callback) {
-  // load and apply to display pid/pname
+function createCheckboxForm(form, callback) {
+  const check1 = Utils.createCheckElement(
+    '문제 번호',
+    (evt) => {
+      Config.save(
+        Constants.CONFIG_SHOW_STATUS_PID,
+        Boolean(evt.target.checked),
+        callback
+      );
+    },
+    false,
+    'option-status-pid'
+  );
+  const check2 = Utils.createCheckElement(
+    '문제 제목',
+    (evt) => {
+      Config.save(
+        Constants.CONFIG_SHOW_STATUS_TITLE,
+        Boolean(evt.target.checked),
+        callback
+      );
+    },
+    false,
+    'option-status-ptitle'
+  );
+  form.insertBefore(check2, form.firstChild);
+  form.insertBefore(check1, form.firstChild);
+  
+  if (callback && typeof callback === 'function') {
+    setTimeout(() => callback(), 10);
+  }
+
   Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
-    Config.load(Constants.CONFIG_SHOW_STATUS_TITLE, (showTitle) => {
-      const check1 = Utils.createCheckElement(
-        '문제 번호',
-        (evt) => {
-          Config.save(
-            Constants.CONFIG_SHOW_STATUS_PID,
-            Boolean(evt.target.checked),
-            callback
-          );
-        },
-        showPid,
-        'option-status-pid'
-      );
-      const check2 = Utils.createCheckElement(
-        '문제 제목',
-        (evt) => {
-          Config.save(
-            Constants.CONFIG_SHOW_STATUS_TITLE,
-            Boolean(evt.target.checked),
-            callback
-          );
-        },
-        showTitle,
-        'option-status-title'
-      );
-      form.insertBefore(check2, form.firstChild);
-      form.insertBefore(check1, form.firstChild);
-      if (callback && typeof callback === 'function') {
-        setTimeout(() => callback(), 10);
-      }
-    });
+    const oStatusPid = document.getElementsByName('option-status-pid')[0];
+    oStatusPid.checked = !!showPid;
+  });
+
+  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showTitle) => {
+    const oStatusTitle = document.getElementsByName('option-status-ptitle')[0];
+    oStatusTitle = Boolean(showTitle);
   });
 }
 
@@ -122,7 +128,7 @@ function _extendStatusTable(
   function display() {
     // apply for each titles
     const oStatusPid = document.getElementsByName('option-status-pid')[0];
-    const oStatusTitle = document.getElementsByName('option-status-title')[0];
+    const oStatusTitle = document.getElementsByName('option-status-ptitle')[0];
     titles.forEach((e) => {
       const showTitle = Boolean(oStatusTitle.checked);
       const showPid = Boolean(oStatusPid.checked);
@@ -146,5 +152,5 @@ function _extendStatusTable(
     });
   }
 
-  _createCheckForm(container, display);
+  createCheckboxForm(container, display);
 }
