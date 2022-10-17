@@ -63,7 +63,7 @@
     );
   });
   Config.load(Constants.CONFIG_SHOW_STATUS_PID, (isChecked) => {
-    oStatusPid.checked = Boolean(isChecked===false);  // default is true
+    oStatusPid.checked = !!isChecked;  // default is true
   });
   Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (isChecked) => {
     oStatusTitle.checked = Boolean(isChecked);
