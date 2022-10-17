@@ -1,0 +1,330 @@
+.problem-toggles label {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.problem-list a {
+  position: relative;
+  display: inline-block;
+  background-color: rgb(239, 239, 239);
+  font-weight: normal;
+  line-height: 1.25;
+  min-height: 18px;
+  padding: 3px 8px;
+  margin: 2px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+  border-image: initial;
+  border-radius: 5px !important;
+  box-sizing: border-box;
+
+  font-size: 1em;
+  letter-spacing: 0px;
+  transition: background-color 240ms ease-out;
+}
+
+.problem-list a:hover {
+  text-decoration: none;
+  font-weight: normal;
+  transition: none;
+}
+
+.problem-list.collpased a:nth-child(n + 100) {
+  display: none;
+}
+
+.problem-list a[data-problem-id],
+.problem-list a[data-problem-title] {
+  font-size: 0;
+}
+
+.problem-list a::before {
+  width: 12px;
+  height: auto;
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: 3px;
+}
+.problem-list a::after {
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: normal;
+}
+.problem-list[show-id] a::after {
+  content: attr(data-problem-id);
+}
+.problem-list[show-name] a::after {
+  content: attr(data-problem-title);
+}
+.problem-list[show-id][show-name] a::after {
+  content: attr(data-problem-id) ' ' attr(data-problem-title);
+}
+
+.problem-list[show-tier] a[data-tier] {
+  padding-left: 18px;
+}
+.problem-list[show-tier] a[data-tier='0']::before {
+  content: url(https://static.solved.ac/tier_small/0.svg);
+}
+.problem-list[show-tier] a[data-tier='1']::before {
+  content: url(https://static.solved.ac/tier_small/1.svg);
+}
+.problem-list[show-tier] a[data-tier='2']::before {
+  content: url(https://static.solved.ac/tier_small/2.svg);
+}
+.problem-list[show-tier] a[data-tier='3']::before {
+  content: url(https://static.solved.ac/tier_small/3.svg);
+}
+.problem-list[show-tier] a[data-tier='4']::before {
+  content: url(https://static.solved.ac/tier_small/4.svg);
+}
+.problem-list[show-tier] a[data-tier='5']::before {
+  content: url(https://static.solved.ac/tier_small/5.svg);
+}
+.problem-list[show-tier] a[data-tier='6']::before {
+  content: url(https://static.solved.ac/tier_small/6.svg);
+}
+.problem-list[show-tier] a[data-tier='7']::before {
+  content: url(https://static.solved.ac/tier_small/7.svg);
+}
+.problem-list[show-tier] a[data-tier='8']::before {
+  content: url(https://static.solved.ac/tier_small/8.svg);
+}
+.problem-list[show-tier] a[data-tier='9']::before {
+  content: url(https://static.solved.ac/tier_small/9.svg);
+}
+.problem-list[show-tier] a[data-tier='10']::before {
+  content: url(https://static.solved.ac/tier_small/10.svg);
+}
+.problem-list[show-tier] a[data-tier='11']::before {
+  content: url(https://static.solved.ac/tier_small/11.svg);
+}
+.problem-list[show-tier] a[data-tier='12']::before {
+  content: url(https://static.solved.ac/tier_small/12.svg);
+}
+.problem-list[show-tier] a[data-tier='13']::before {
+  content: url(https://static.solved.ac/tier_small/13.svg);
+}
+.problem-list[show-tier] a[data-tier='14']::before {
+  content: url(https://static.solved.ac/tier_small/14.svg);
+}
+.problem-list[show-tier] a[data-tier='15']::before {
+  content: url(https://static.solved.ac/tier_small/15.svg);
+}
+.problem-list[show-tier] a[data-tier='16']::before {
+  content: url(https://static.solved.ac/tier_small/16.svg);
+}
+.problem-list[show-tier] a[data-tier='17']::before {
+  content: url(https://static.solved.ac/tier_small/17.svg);
+}
+.problem-list[show-tier] a[data-tier='18']::before {
+  content: url(https://static.solved.ac/tier_small/18.svg);
+}
+.problem-list[show-tier] a[data-tier='19']::before {
+  content: url(https://static.solved.ac/tier_small/19.svg);
+}
+.problem-list[show-tier] a[data-tier='20']::before {
+  content: url(https://static.solved.ac/tier_small/20.svg);
+}
+.problem-list[show-tier] a[data-tier='21']::before {
+  content: url(https://static.solved.ac/tier_small/21.svg);
+}
+.problem-list[show-tier] a[data-tier='22']::before {
+  content: url(https://static.solved.ac/tier_small/22.svg);
+}
+.problem-list[show-tier] a[data-tier='23']::before {
+  content: url(https://static.solved.ac/tier_small/23.svg);
+}
+.problem-list[show-tier] a[data-tier='24']::before {
+  content: url(https://static.solved.ac/tier_small/24.svg);
+}
+.problem-list[show-tier] a[data-tier='25']::before {
+  content: url(https://static.solved.ac/tier_small/25.svg);
+}
+.problem-list[show-tier] a[data-tier='26']::before {
+  content: url(https://static.solved.ac/tier_small/26.svg);
+}
+.problem-list[show-tier] a[data-tier='27']::before {
+  content: url(https://static.solved.ac/tier_small/27.svg);
+}
+.problem-list[show-tier] a[data-tier='28']::before {
+  content: url(https://static.solved.ac/tier_small/28.svg);
+}
+.problem-list[show-tier] a[data-tier='29']::before {
+  content: url(https://static.solved.ac/tier_small/29.svg);
+}
+.problem-list[show-tier] a[data-tier='30']::before {
+  content: url(https://static.solved.ac/tier_small/30.svg);
+}
+.problem-list[show-tier] a[data-tier='31']::before {
+  content: url(https://static.solved.ac/tier_small/31.svg);
+}
+.problem-list[show-tier-color] a[data-tier='0'] {
+  color: #2a2a2a !important;
+  background-color: #efefef !important;
+}
+.problem-list[show-tier-color] a[data-tier='0']:hover {
+  color: inherit !important;
+  border-color: #efefef !important;
+  background-color: transparent !important;
+}
+.problem-list[show-tier-color] a[data-tier='1'],
+.problem-list[show-tier-color] a[data-tier='2'],
+.problem-list[show-tier-color] a[data-tier='3'],
+.problem-list[show-tier-color] a[data-tier='4'],
+.problem-list[show-tier-color] a[data-tier='5'] {
+  color: #fefefe !important;
+  background-color: #ad5600 !important;
+}
+.problem-list[show-tier-color] a[data-tier='1']:hover,
+.problem-list[show-tier-color] a[data-tier='2']:hover,
+.problem-list[show-tier-color] a[data-tier='3']:hover,
+.problem-list[show-tier-color] a[data-tier='4']:hover,
+.problem-list[show-tier-color] a[data-tier='5']:hover {
+  color: inherit !important;
+  border-color: #ad5600 !important;
+  background-color: transparent !important;
+}
+.problem-list[show-tier-color] a[data-tier='6'],
+.problem-list[show-tier-color] a[data-tier='7'],
+.problem-list[show-tier-color] a[data-tier='8'],
+.problem-list[show-tier-color] a[data-tier='9'],
+.problem-list[show-tier-color] a[data-tier='10'] {
+  color: #fefefe !important;
+  background-color: #435f7a !important;
+}
+.problem-list[show-tier-color] a[data-tier='6']:hover,
+.problem-list[show-tier-color] a[data-tier='7']:hover,
+.problem-list[show-tier-color] a[data-tier='8']:hover,
+.problem-list[show-tier-color] a[data-tier='9']:hover,
+.problem-list[show-tier-color] a[data-tier='10']:hover {
+  color: inherit !important;
+  border-color: #435f7a !important;
+  background-color: transparent !important;
+}
+.problem-list[show-tier-color] a[data-tier='11'],
+.problem-list[show-tier-color] a[data-tier='12'],
+.problem-list[show-tier-color] a[data-tier='13'],
+.problem-list[show-tier-color] a[data-tier='14'],
+.problem-list[show-tier-color] a[data-tier='15'] {
+  color: #fefefe !important;
+  background-color: #ec9a00 !important;
+}
+.problem-list[show-tier-color] a[data-tier='11']:hover,
+.problem-list[show-tier-color] a[data-tier='12']:hover,
+.problem-list[show-tier-color] a[data-tier='13']:hover,
+.problem-list[show-tier-color] a[data-tier='14']:hover,
+.problem-list[show-tier-color] a[data-tier='15']:hover {
+  color: inherit !important;
+  border-color: #ec9a00 !important;
+  background-color: transparent !important;
+}
+.problem-list[show-tier-color] a[data-tier='16'],
+.problem-list[show-tier-color] a[data-tier='17'],
+.problem-list[show-tier-color] a[data-tier='18'],
+.problem-list[show-tier-color] a[data-tier='19'],
+.problem-list[show-tier-color] a[data-tier='20'] {
+  color: #fefefe !important;
+  background-color: #27e2a4 !important;
+}
+.problem-list[show-tier-color] a[data-tier='16']:hover,
+.problem-list[show-tier-color] a[data-tier='17']:hover,
+.problem-list[show-tier-color] a[data-tier='18']:hover,
+.problem-list[show-tier-color] a[data-tier='19']:hover,
+.problem-list[show-tier-color] a[data-tier='20']:hover {
+  color: inherit !important;
+  border-color: #27e2a4 !important;
+  background-color: transparent !important;
+}
+.problem-list[show-tier-color] a[data-tier='21'],
+.problem-list[show-tier-color] a[data-tier='22'],
+.problem-list[show-tier-color] a[data-tier='23'],
+.problem-list[show-tier-color] a[data-tier='24'],
+.problem-list[show-tier-color] a[data-tier='25'] {
+  color: #fefefe !important;
+  background-color: #00b4fc !important;
+}
+.problem-list[show-tier-color] a[data-tier='21']:hover,
+.problem-list[show-tier-color] a[data-tier='22']:hover,
+.problem-list[show-tier-color] a[data-tier='23']:hover,
+.problem-list[show-tier-color] a[data-tier='24']:hover,
+.problem-list[show-tier-color] a[data-tier='25']:hover {
+  color: inherit !important;
+  border-color: #00b4fc !important;
+  background-color: transparent !important;
+}
+.problem-list[show-tier-color] a[data-tier='26'],
+.problem-list[show-tier-color] a[data-tier='27'],
+.problem-list[show-tier-color] a[data-tier='28'],
+.problem-list[show-tier-color] a[data-tier='29'],
+.problem-list[show-tier-color] a[data-tier='30'] {
+  color: #fefefe !important;
+  background-color: #ff0062 !important;
+}
+.problem-list[show-tier-color] a[data-tier='26']:hover,
+.problem-list[show-tier-color] a[data-tier='27']:hover,
+.problem-list[show-tier-color] a[data-tier='28']:hover,
+.problem-list[show-tier-color] a[data-tier='29']:hover,
+.problem-list[show-tier-color] a[data-tier='30']:hover {
+  color: inherit !important;
+  border-color: #ff0062 !important;
+  background-color: transparent !important;
+}
+.problem-list[show-tier-color] a[data-tier='31'] {
+  background: rgb(255, 124, 168);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 124, 168, 1) 0%,
+    rgba(180, 145, 255, 1) 50%,
+    rgba(124, 249, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 124, 168, 1) 0%,
+    rgba(180, 145, 255, 1) 50%,
+    rgba(124, 249, 255, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 124, 168, 1) 0%,
+    rgba(180, 145, 255, 1) 50%,
+    rgba(124, 249, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7ca8",endColorstr="#7cf9ff",GradientType=1);
+}
+.problem-list[show-tier-color] a[data-tier='31']:hover {
+  color: inherit !important;
+  border-color: rgb(255, 124, 168) !important;
+  background-color: transparent !important;
+}
+
+.panel-footer {
+  background-color: #ffffff;
+}
+
+.panel-footer .btn-display-all {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  margin: -10px auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* VS form */
+.btn-vs {
+  color: white;
+  border: none;
+  background-size: 300% 100%;
+  background-image: linear-gradient(to right, #6253e1, #f24645);
+  box-shadow: 0 1px 4px 0 rgba(126, 52, 161, 0.5);
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-vs:hover {
+  color: white;
+  background-position: 100% 0;
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.5);
+}

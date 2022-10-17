@@ -1,0 +1,1 @@
+function extendSettingPage(){const a=document.getElementsByClassName("list-group sidebar-nav-v1")[1],b=document.createElement("li");b.setAttribute("class","list-group-item"),b.innerHTML="<a href=\"#\">BOJ Extended</a>",b.addEventListener("click",function(a){a.preventDefault(),chrome.runtime.sendMessage({action:"openSettingPage"})}),a.insertBefore(b,a.firstChild)}
