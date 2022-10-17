@@ -75,14 +75,14 @@ function createCheckboxForm(form, callback) {
   );
   form.insertBefore(check2, form.firstChild);
   form.insertBefore(check1, form.firstChild);
-  
+
   if (callback && typeof callback === 'function') {
     setTimeout(() => callback(), 10);
   }
 
   Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
     const oStatusPid = document.getElementsByName('option-status-pid')[0];
-    oStatusPid.checked = !(showPid===false);
+    oStatusPid.checked = !(showPid === false);
   });
 
   Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showTitle) => {
