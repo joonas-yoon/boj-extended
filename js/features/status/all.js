@@ -129,20 +129,24 @@ function _extendStatusTable(
   function display({ inputProblemId, inputProblemTitle }) {
     const showPid = Boolean(inputProblemId.checked);
     const showTitle = Boolean(inputProblemTitle.checked);
+    const createProblemText = (id, title) => {
+      if (showPid && showTitle) {
+        return `${id}번 (${title})`;
+      } else if (showPid) {
+        return `${id}번`;
+      } else if (showTitle) {
+        return `${title}`;
+      } else {
+        return '';
+      }
+    };
+
     // apply for each titles
     titles.forEach((e) => {
-      let problemText = '';
-      if (showTitle) {
-        problemText = e.getAttribute('data-original-title');
-      }
-      if (showPid) {
-        if (problemText != '') {
-          problemText += ' (' + e.getAttribute('data-original-id') + ')';
-        } else {
-          problemText = e.getAttribute('data-original-id');
-        }
-      }
-      e.innerText =
+      const pid = e.getAttribute('data-original-id');
+      const ptitle = e.getAttribute('data-original-title');
+      const problemText = createProblemText(pid, ptitle);
+      e.textContent =
         problemText.length > 20 ? problemText.substr(0, 17) + '…' : problemText;
     });
     // fit column width
