@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-17 19:31:28.887141",
+  "last_updated": "2022-10-18 19:24:30.307630",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -704,7 +704,7 @@
     },
     "1175": {
       "title": "배달",
-      "level": 14
+      "level": 15
     },
     "1176": {
       "title": "섞기",
@@ -1804,7 +1804,7 @@
     },
     "1456": {
       "title": "거의 소수",
-      "level": 10
+      "level": 11
     },
     "1457": {
       "title": "정확해",
@@ -2100,7 +2100,7 @@
     },
     "1530": {
       "title": "금민수의 합",
-      "level": 18
+      "level": 19
     },
     "1531": {
       "title": "투명",
@@ -6576,7 +6576,7 @@
     },
     "2676": {
       "title": "라스칼 삼각형",
-      "level": 8
+      "level": 9
     },
     "2677": {
       "title": "에드삭 만들기",
@@ -7768,7 +7768,7 @@
     },
     "2978": {
       "title": "A=S",
-      "level": 17
+      "level": 16
     },
     "2979": {
       "title": "트럭 주차",
@@ -13600,7 +13600,7 @@
     },
     "4482": {
       "title": "Tetrahedral Stacks of Cannonballs",
-      "level": 5
+      "level": 4
     },
     "4483": {
       "title": "“Robot Roll Call – Cambot...Servo...Gypsy...Croooow”",
@@ -19088,7 +19088,7 @@
     },
     "5992": {
       "title": "The Leisurely Stroll",
-      "level": 9
+      "level": 10
     },
     "5993": {
       "title": "Invasion of the Milkweed",
@@ -19896,7 +19896,7 @@
     },
     "6201": {
       "title": "New Cow Brands",
-      "level": 8
+      "level": 9
     },
     "6203": {
       "title": "Serious Cow Tag",
@@ -51232,7 +51232,7 @@
     },
     "14685": {
       "title": "Nailed It!",
-      "level": 11
+      "level": 12
     },
     "14686": {
       "title": "Sum Game",
@@ -53436,7 +53436,7 @@
     },
     "15238": {
       "title": "Pirates",
-      "level": 4
+      "level": 3
     },
     "15239": {
       "title": "Password check",
@@ -57112,7 +57112,7 @@
     },
     "16173": {
       "title": "점프왕 쩰리 (Small)",
-      "level": 7
+      "level": 6
     },
     "16174": {
       "title": "점프왕 쩰리 (Large)",
@@ -57696,7 +57696,7 @@
     },
     "16319": {
       "title": "Explosion Exploit",
-      "level": 16
+      "level": 17
     },
     "16320": {
       "title": "Firing the Phaser",
@@ -58304,7 +58304,7 @@
     },
     "16471": {
       "title": "작은 수 내기",
-      "level": 7
+      "level": 8
     },
     "16472": {
       "title": "고냥이",
@@ -59264,7 +59264,7 @@
     },
     "16711": {
       "title": "Erasing Matrix",
-      "level": 18
+      "level": 19
     },
     "16712": {
       "title": "Finding Love",
@@ -59412,7 +59412,7 @@
     },
     "16748": {
       "title": "Colorful Tree",
-      "level": 21
+      "level": 22
     },
     "16749": {
       "title": "Sixth Sense",
@@ -60948,7 +60948,7 @@
     },
     "17143": {
       "title": "낚시왕",
-      "level": 15
+      "level": 14
     },
     "17144": {
       "title": "미세먼지 안녕!",
@@ -63676,7 +63676,7 @@
     },
     "17837": {
       "title": "새로운 게임 2",
-      "level": 14
+      "level": 13
     },
     "17838": {
       "title": "커맨드",
@@ -71388,7 +71388,7 @@
     },
     "19777": {
       "title": "Дюны",
-      "level": 4
+      "level": 5
     },
     "19778": {
       "title": "Игра",
@@ -72008,7 +72008,7 @@
     },
     "19932": {
       "title": "Painting Squares",
-      "level": 22
+      "level": 23
     },
     "19933": {
       "title": "Comparing Plants",
@@ -76072,7 +76072,7 @@
     },
     "20958": {
       "title": "아린과 슬롯머신",
-      "level": 15
+      "level": 16
     },
     "20959": {
       "title": "Šifra",
@@ -82600,7 +82600,7 @@
     },
     "22629": {
       "title": "Marked Ancestor",
-      "level": 12
+      "level": 13
     },
     "22630": {
       "title": "Strange Couple",
@@ -91716,7 +91716,7 @@
     },
     "24964": {
       "title": "Cancer DNA",
-      "level": 22
+      "level": 24
     },
     "24965": {
       "title": "“Even” Division",
@@ -93488,11 +93488,11 @@
     },
     "25434": {
       "title": "Magic Cards",
-      "level": 20
+      "level": 19
     },
     "25435": {
       "title": "Hoax Spreading",
-      "level": 12
+      "level": 0
     },
     "25436": {
       "title": "Team Contest",
@@ -94628,7 +94628,7 @@
     },
     "25756": {
       "title": "방어율 무시 계산하기",
-      "level": 2
+      "level": 3
     },
     "25757": {
       "title": "임스와 함께하는 미니게임",
@@ -94828,7 +94828,7 @@
     },
     "25806": {
       "title": "Food Poisoning",
-      "level": 0
+      "level": 15
     },
     "25807": {
       "title": "Toboggan Ride",
@@ -94976,7 +94976,7 @@
     },
     "25843": {
       "title": "Judging Assistant for Contest",
-      "level": 0
+      "level": 6
     },
     "25844": {
       "title": "Thirsty Professors",
