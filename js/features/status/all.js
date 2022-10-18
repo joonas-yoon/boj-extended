@@ -133,7 +133,7 @@ function _extendStatusTable(
       if (showPid && showTitle) {
         return `${id}번 (${title})`;
       } else if (showPid) {
-        return `${id}번`;
+        return `${id}`;
       } else if (showTitle) {
         return `${title}`;
       } else {
@@ -146,9 +146,9 @@ function _extendStatusTable(
       const pid = e.getAttribute('data-original-id');
       const ptitle = e.getAttribute('data-original-title');
       const problemText = createProblemText(pid, ptitle);
-      e.textContent =
-        problemText.length > 20 ? problemText.substr(0, 17) + '…' : problemText;
+      e.textContent = problemText;
     });
+
     // fit column width
     tableHeadCols.forEach((e, i) => {
       e.style.width = afterWidth[i];
