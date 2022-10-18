@@ -57,7 +57,10 @@ const Utils = {
     div.appendChild(label);
     return div;
   },
-  createCheckElement: function (labelText, changeEvent, checked, checkboxName) {
+  createCheckboxElement: function (
+    labelText,
+    checkboxName
+  ) {
     const randID = Math.random().toString(36).substr(2);
     const div = Utils.createElement('div', {
       class: 'form-check form-check-inline',
@@ -70,8 +73,6 @@ const Utils = {
       id: randID,
       name: checkboxName,
     });
-    input.addEventListener('change', changeEvent);
-    input.checked = !!checked;
 
     const label = Utils.createElement('label', {
       class: 'form-check-label',
@@ -82,7 +83,7 @@ const Utils = {
 
     div.appendChild(input);
     div.appendChild(label);
-    return div;
+    return { container: div, input, label };
   },
   isElement: function (obj) {
     try {
