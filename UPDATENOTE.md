@@ -1,7 +1,12 @@
 ## 1.9.2
 
+**Features**
+
+- `unlimitedStorage` 권한 추가
+
 **Fixes**
 
+- 옵션 페이지의 문제 난이도 예시 버그 수정
 - solved.ac API 요청 횟수를 줄이기 위한 로컬 캐싱
 - - 유저 티어 불러오기 관련 [(#122)](https://github.com/joonas-yoon/boj-extended/issues/122)
 - - 유저 페이지에서 문제 정보의 소스를 solved.ac로 변경하고 캐싱 적용
