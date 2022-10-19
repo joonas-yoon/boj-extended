@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-18 19:24:30.307630",
+  "last_updated": "2022-10-19 19:26:59.243984",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -112,7 +112,7 @@
     },
     "1027": {
       "title": "고층 건물",
-      "level": 12
+      "level": 11
     },
     "1028": {
       "title": "다이아몬드 광산",
@@ -2940,7 +2940,7 @@
     },
     "1741": {
       "title": "반 나누기",
-      "level": 18
+      "level": 19
     },
     "1742": {
       "title": "레이싱결과",
@@ -4628,7 +4628,7 @@
     },
     "2175": {
       "title": "땅 자르기",
-      "level": 10
+      "level": 11
     },
     "2176": {
       "title": "합리적인 이동경로",
@@ -5968,7 +5968,7 @@
     },
     "2524": {
       "title": "희원이의 뉴욕 생활",
-      "level": 10
+      "level": 11
     },
     "2525": {
       "title": "오븐 시계",
@@ -10868,7 +10868,7 @@
     },
     "3777": {
       "title": "Computer Transformation",
-      "level": 13
+      "level": 12
     },
     "3778": {
       "title": "애너그램 거리",
@@ -28748,7 +28748,7 @@
     },
     "8819": {
       "title": "Wlazł kotek na płotek",
-      "level": 6
+      "level": 7
     },
     "8820": {
       "title": "Fabryka butów",
@@ -31948,7 +31948,7 @@
     },
     "9662": {
       "title": "돌 게임 8",
-      "level": 21
+      "level": 20
     },
     "9663": {
       "title": "N-Queen",
@@ -33976,7 +33976,7 @@
     },
     "10265": {
       "title": "MT",
-      "level": 18
+      "level": 17
     },
     "10266": {
       "title": "시계 사진들",
@@ -37584,7 +37584,7 @@
     },
     "11182": {
       "title": "Kindergarten Excursion",
-      "level": 9
+      "level": 10
     },
     "11183": {
       "title": "Coast Length",
@@ -42004,7 +42004,7 @@
     },
     "12330": {
       "title": "Bullseye (Large)",
-      "level": 10
+      "level": 11
     },
     "12331": {
       "title": "Manage your Energy (Small)",
@@ -43576,7 +43576,7 @@
     },
     "12727": {
       "title": "Numbers (Small)",
-      "level": 11
+      "level": 12
     },
     "12728": {
       "title": "n제곱 계산",
@@ -48572,7 +48572,7 @@
     },
     "13991": {
       "title": "Cactus Construction",
-      "level": 22
+      "level": 21
     },
     "13992": {
       "title": "Delight for a Cat",
@@ -55996,7 +55996,7 @@
     },
     "15885": {
       "title": "고장난 시계",
-      "level": 4
+      "level": 5
     },
     "15886": {
       "title": "내 선물을 받아줘 2",
@@ -56584,7 +56584,7 @@
     },
     "16041": {
       "title": "Double Clique",
-      "level": 22
+      "level": 23
     },
     "16042": {
       "title": "Flashing Fluorescents",
@@ -57144,7 +57144,7 @@
     },
     "16181": {
       "title": "Coloring Roads",
-      "level": 23
+      "level": 22
     },
     "16182": {
       "title": "Dumae",
@@ -76628,7 +76628,7 @@
     },
     "21097": {
       "title": "Circle",
-      "level": 0
+      "level": 20
     },
     "21098": {
       "title": "Composite Sequence",
@@ -77944,7 +77944,7 @@
     },
     "21426": {
       "title": "Число",
-      "level": 13
+      "level": 14
     },
     "21427": {
       "title": "Красивые номера",
@@ -78944,7 +78944,7 @@
     },
     "21676": {
       "title": "Газон",
-      "level": 10
+      "level": 11
     },
     "21677": {
       "title": "Трамвай",
@@ -92756,7 +92756,7 @@
     },
     "25237": {
       "title": "Word Ladder",
-      "level": 12
+      "level": 13
     },
     "25238": {
       "title": "가희와 방어율 무시",
@@ -94532,7 +94532,7 @@
     },
     "25722": {
       "title": "Expression Evaluation",
-      "level": 0
+      "level": 22
     },
     "25723": {
       "title": "Equivalence in Connectivity",
@@ -94780,7 +94780,7 @@
     },
     "25794": {
       "title": "초콜릿과 나이트 게임",
-      "level": 11
+      "level": 12
     },
     "25795": {
       "title": "예쁜 초콜릿과 숫자놀이",
@@ -94804,7 +94804,7 @@
     },
     "25800": {
       "title": "초콜릿 프로그래밍 언어",
-      "level": 18
+      "level": 19
     },
     "25801": {
       "title": "Odd/Even Strings",
