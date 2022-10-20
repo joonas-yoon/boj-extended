@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-19 19:26:59.243984",
+  "last_updated": "2022-10-20 19:26:51.829359",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -232,7 +232,7 @@
     },
     "1057": {
       "title": "토너먼트",
-      "level": 7
+      "level": 8
     },
     "1058": {
       "title": "친구",
@@ -2480,7 +2480,7 @@
     },
     "1625": {
       "title": "조명기구",
-      "level": 13
+      "level": 14
     },
     "1626": {
       "title": "두 번째로 작은 스패닝 트리",
@@ -3272,7 +3272,7 @@
     },
     "1826": {
       "title": "연료 채우기",
-      "level": 13
+      "level": 14
     },
     "1827": {
       "title": "여행가이드",
@@ -3940,7 +3940,7 @@
     },
     "1999": {
       "title": "최대최소",
-      "level": 15
+      "level": 14
     },
     "2000": {
       "title": "책장제작",
@@ -4596,7 +4596,7 @@
     },
     "2167": {
       "title": "2차원 배열의 합",
-      "level": 5
+      "level": 6
     },
     "2168": {
       "title": "타일 위의 대각선",
@@ -8544,7 +8544,7 @@
     },
     "3177": {
       "title": "크로아티아 수 읽기",
-      "level": 18
+      "level": 16
     },
     "3178": {
       "title": "코코스",
@@ -23624,7 +23624,7 @@
     },
     "7484": {
       "title": "Bowling",
-      "level": 5
+      "level": 6
     },
     "7485": {
       "title": "Exam",
@@ -24456,7 +24456,7 @@
     },
     "7694": {
       "title": "Triangle",
-      "level": 12
+      "level": 13
     },
     "7695": {
       "title": "Brackets",
@@ -28216,7 +28216,7 @@
     },
     "8686": {
       "title": "Banki",
-      "level": 13
+      "level": 12
     },
     "8687": {
       "title": "Pasy Ruchu",
@@ -32196,7 +32196,7 @@
     },
     "9725": {
       "title": "Mod-3 Permutation",
-      "level": 9
+      "level": 10
     },
     "9726": {
       "title": "Negative Binary",
@@ -35068,7 +35068,7 @@
     },
     "10538": {
       "title": "빅 픽쳐",
-      "level": 19
+      "level": 20
     },
     "10539": {
       "title": "수빈이와 수열",
@@ -38712,7 +38712,7 @@
     },
     "11482": {
       "title": "Conversation Log",
-      "level": 9
+      "level": 10
     },
     "11483": {
       "title": "Slant Drilling",
@@ -56916,7 +56916,7 @@
     },
     "16124": {
       "title": "나는 행복합니다",
-      "level": 22
+      "level": 23
     },
     "16125": {
       "title": "영점사격",
@@ -65228,7 +65228,7 @@
     },
     "18225": {
       "title": "당구공을 넣자",
-      "level": 13
+      "level": 14
     },
     "18226": {
       "title": "안 읽은 사람은 누구?",
@@ -67376,7 +67376,7 @@
     },
     "18765": {
       "title": "정*수-를+[만들자!]",
-      "level": 18
+      "level": 19
     },
     "18766": {
       "title": "카드 바꿔치기",
@@ -67840,7 +67840,7 @@
     },
     "18882": {
       "title": "Cowntact Tracing",
-      "level": 8
+      "level": 9
     },
     "18883": {
       "title": "N M 찍기",
@@ -82564,7 +82564,7 @@
     },
     "22620": {
       "title": "Defend the Bases",
-      "level": 17
+      "level": 18
     },
     "22621": {
       "title": "Galaxy Wide Web Service",
@@ -87104,7 +87104,7 @@
     },
     "23763": {
       "title": "괄호 문자열 이동하기",
-      "level": 20
+      "level": 19
     },
     "23764": {
       "title": "서로소 게임",
@@ -94924,7 +94924,7 @@
     },
     "25830": {
       "title": "Microwave Mishap",
-      "level": 4
+      "level": 3
     },
     "25831": {
       "title": "Food Display Arrangement",
@@ -94976,11 +94976,11 @@
     },
     "25843": {
       "title": "Judging Assistant for Contest",
-      "level": 6
+      "level": 5
     },
     "25844": {
       "title": "Thirsty Professors",
-      "level": 0
+      "level": 16
     },
     "25845": {
       "title": "Hidden Message",
