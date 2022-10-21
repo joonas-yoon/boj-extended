@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-20 19:26:51.829359",
+  "last_updated": "2022-10-21 19:22:26.158713",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6248,7 +6248,7 @@
     },
     "2594": {
       "title": "놀이공원",
-      "level": 9
+      "level": 8
     },
     "2595": {
       "title": "배수",
@@ -24960,7 +24960,7 @@
     },
     "7864": {
       "title": "Binary Witch",
-      "level": 8
+      "level": 9
     },
     "7865": {
       "title": "Fool Game",
@@ -31948,7 +31948,7 @@
     },
     "9662": {
       "title": "돌 게임 8",
-      "level": 20
+      "level": 19
     },
     "9663": {
       "title": "N-Queen",
@@ -39440,7 +39440,7 @@
     },
     "11664": {
       "title": "선분과 점",
-      "level": 10
+      "level": 11
     },
     "11665": {
       "title": "직육면체 교집합",
@@ -43228,7 +43228,7 @@
     },
     "12640": {
       "title": "Center of Mass (Large)",
-      "level": 10
+      "level": 9
     },
     "12641": {
       "title": "Bribe the Prisoners (Small)",
@@ -52428,7 +52428,7 @@
     },
     "14986": {
       "title": "Punching Power",
-      "level": 17
+      "level": 18
     },
     "14987": {
       "title": "Treetop Walkway",
@@ -78824,7 +78824,7 @@
     },
     "21646": {
       "title": "«Колесо Фортуны»",
-      "level": 10
+      "level": 11
     },
     "21647": {
       "title": "Форматирование текста",
@@ -82600,7 +82600,7 @@
     },
     "22629": {
       "title": "Marked Ancestor",
-      "level": 13
+      "level": 14
     },
     "22630": {
       "title": "Strange Couple",
@@ -82656,7 +82656,7 @@
     },
     "22643": {
       "title": "Substring Expression",
-      "level": 8
+      "level": 10
     },
     "22644": {
       "title": "Up Above the World So High",
@@ -82720,7 +82720,7 @@
     },
     "22659": {
       "title": "Princess in Danger",
-      "level": 15
+      "level": 14
     },
     "22660": {
       "title": "Princess, a Cryptanalyst",
@@ -84428,7 +84428,7 @@
     },
     "23093": {
       "title": "Bank Robbery",
-      "level": 0
+      "level": 22
     },
     "23094": {
       "title": "Pizzo Collectors",
@@ -88264,7 +88264,7 @@
     },
     "24055": {
       "title": "알고리즘 수업 - 삽입 정렬 5",
-      "level": 16
+      "level": 17
     },
     "24056": {
       "title": "알고리즘 수업 - 삽입 정렬 6",
@@ -91964,7 +91964,7 @@
     },
     "25028": {
       "title": "Fully Generate",
-      "level": 15
+      "level": 16
     },
     "25029": {
       "title": "Joyful KMP",
@@ -93328,7 +93328,7 @@
     },
     "25391": {
       "title": "특별상",
-      "level": 10
+      "level": 11
     },
     "25392": {
       "title": "사건의 지평선",
@@ -94976,7 +94976,7 @@
     },
     "25843": {
       "title": "Judging Assistant for Contest",
-      "level": 5
+      "level": 6
     },
     "25844": {
       "title": "Thirsty Professors",
