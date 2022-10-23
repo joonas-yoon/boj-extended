@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-21 19:22:26.158713",
+  "last_updated": "2022-10-23 19:18:54.869886",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5660,7 +5660,7 @@
     },
     "2447": {
       "title": "별 찍기 - 10",
-      "level": 11
+      "level": 10
     },
     "2448": {
       "title": "별 찍기 - 11",
@@ -5824,7 +5824,7 @@
     },
     "2488": {
       "title": "줄다리기",
-      "level": 18
+      "level": 0
     },
     "2489": {
       "title": "응급센터",
@@ -15620,7 +15620,7 @@
     },
     "5002": {
       "title": "도어맨",
-      "level": 10
+      "level": 9
     },
     "5003": {
       "title": "Eco-driving",
@@ -16524,7 +16524,7 @@
     },
     "5228": {
       "title": "Base K",
-      "level": 5
+      "level": 0
     },
     "5229": {
       "title": "Most Frequent Square",
@@ -18676,7 +18676,7 @@
     },
     "5889": {
       "title": "Cows in a Skyscraper",
-      "level": 20
+      "level": 19
     },
     "5890": {
       "title": "Tractor",
@@ -19380,7 +19380,7 @@
     },
     "6067": {
       "title": "Guarding the Farm",
-      "level": 10
+      "level": 11
     },
     "6068": {
       "title": "시간 관리하기",
@@ -19780,7 +19780,7 @@
     },
     "6172": {
       "title": "Cow Jogging",
-      "level": 16
+      "level": 15
     },
     "6173": {
       "title": "Pearl Pairing",
@@ -21648,7 +21648,7 @@
     },
     "6662": {
       "title": "Divisors",
-      "level": 8
+      "level": 9
     },
     "6663": {
       "title": "Emag eht htiw Em Pleh",
@@ -24996,7 +24996,7 @@
     },
     "7873": {
       "title": "Decision",
-      "level": 10
+      "level": 11
     },
     "7874": {
       "title": "Everybody may get lost in space",
@@ -27804,7 +27804,7 @@
     },
     "8583": {
       "title": "Skracalne liczby pierwsze",
-      "level": 12
+      "level": 13
     },
     "8584": {
       "title": "Urzędnicy",
@@ -31116,7 +31116,7 @@
     },
     "9453": {
       "title": "학생의 수",
-      "level": 18
+      "level": 15
     },
     "9454": {
       "title": "Lonely Mountain",
@@ -36440,7 +36440,7 @@
     },
     "10895": {
       "title": "Great Pow!",
-      "level": 8
+      "level": 9
     },
     "10896": {
       "title": "Hexagon travel",
@@ -36784,7 +36784,7 @@
     },
     "10982": {
       "title": "행운쿠키 제작소",
-      "level": 16
+      "level": 17
     },
     "10983": {
       "title": "히기카드",
@@ -38088,7 +38088,7 @@
     },
     "11308": {
       "title": "One-Way Roads",
-      "level": 18
+      "level": 17
     },
     "11309": {
       "title": "파워!!달걀",
@@ -41144,7 +41144,7 @@
     },
     "12112": {
       "title": "Savrsen",
-      "level": 11
+      "level": 12
     },
     "12113": {
       "title": "Sirni",
@@ -44536,7 +44536,7 @@
     },
     "12968": {
       "title": "방문",
-      "level": 9
+      "level": 10
     },
     "12969": {
       "title": "ABC",
@@ -54996,7 +54996,7 @@
     },
     "15632": {
       "title": "Drawing Character",
-      "level": 16
+      "level": 17
     },
     "15633": {
       "title": "Fan Death",
@@ -55360,7 +55360,7 @@
     },
     "15723": {
       "title": "n단 논법",
-      "level": 10
+      "level": 11
     },
     "15724": {
       "title": "주지수",
@@ -60156,7 +60156,7 @@
     },
     "16934": {
       "title": "게임 닉네임",
-      "level": 14
+      "level": 13
     },
     "16935": {
       "title": "배열 돌리기 3",
@@ -63808,7 +63808,7 @@
     },
     "17870": {
       "title": "Problematic Public Keys",
-      "level": 6
+      "level": 7
     },
     "17871": {
       "title": "Integers in Rational Bases",
@@ -65036,7 +65036,7 @@
     },
     "18177": {
       "title": "Light Emitting Hindenburg",
-      "level": 11
+      "level": 12
     },
     "18178": {
       "title": "K==S",
@@ -65248,7 +65248,7 @@
     },
     "18230": {
       "title": "2xN 예쁜 타일링",
-      "level": 10
+      "level": 9
     },
     "18231": {
       "title": "파괴된 도시",
@@ -67472,7 +67472,7 @@
     },
     "18789": {
       "title": "814 - 2",
-      "level": 27
+      "level": 28
     },
     "18790": {
       "title": "N의 배수 (1)",
@@ -76368,7 +76368,7 @@
     },
     "21032": {
       "title": "Odd GCD Matching",
-      "level": 7
+      "level": 8
     },
     "21033": {
       "title": "Sending Blessings",
@@ -79344,11 +79344,11 @@
     },
     "21780": {
       "title": "Aerobatics - 2",
-      "level": 23
+      "level": 0
     },
     "21781": {
       "title": "Aerobatics - 3",
-      "level": 21
+      "level": 0
     },
     "21782": {
       "title": "Aerobatics - 4",
@@ -85664,7 +85664,7 @@
     },
     "23403": {
       "title": "Logičari",
-      "level": 0
+      "level": 17
     },
     "23404": {
       "title": "Set",
@@ -86468,7 +86468,7 @@
     },
     "23604": {
       "title": "Chinese Remainder Theorem",
-      "level": 8
+      "level": 7
     },
     "23605": {
       "title": "Road",
@@ -86520,7 +86520,7 @@
     },
     "23617": {
       "title": "Crazy minesweeper",
-      "level": 0
+      "level": 18
     },
     "23618": {
       "title": "Error in code",
@@ -89948,7 +89948,7 @@
     },
     "24520": {
       "title": "Meet In The Middle",
-      "level": 17
+      "level": 18
     },
     "24521": {
       "title": "토지 구입",
@@ -90484,7 +90484,7 @@
     },
     "24654": {
       "title": "Build The Grid",
-      "level": 13
+      "level": 14
     },
     "24655": {
       "title": "Coins and Boxes",
@@ -93496,7 +93496,7 @@
     },
     "25436": {
       "title": "Team Contest",
-      "level": 10
+      "level": 0
     },
     "25437": {
       "title": "Connected Towns",
@@ -94772,7 +94772,7 @@
     },
     "25792": {
       "title": "Stone Smoothing",
-      "level": 0
+      "level": 19
     },
     "25793": {
       "title": "초콜릿 피라미드",
@@ -94997,6 +94997,222 @@
     "25848": {
       "title": "Wedding DJ",
       "level": 18
+    },
+    "25849": {
+      "title": "Briefcases Full of Money",
+      "level": 0
+    },
+    "25850": {
+      "title": "A Game Called Mind",
+      "level": 0
+    },
+    "25851": {
+      "title": "Unique Values",
+      "level": 0
+    },
+    "25852": {
+      "title": "Gone Fishing",
+      "level": 0
+    },
+    "25853": {
+      "title": "Sum of a Function",
+      "level": 0
+    },
+    "25854": {
+      "title": "Hang Gliding",
+      "level": 0
+    },
+    "25855": {
+      "title": "Trading Cards",
+      "level": 0
+    },
+    "25856": {
+      "title": "Median Inversion String",
+      "level": 0
+    },
+    "25857": {
+      "title": "Check List",
+      "level": 0
+    },
+    "25858": {
+      "title": "Divide the Cash",
+      "level": 0
+    },
+    "25859": {
+      "title": "Sort by Frequency",
+      "level": 0
+    },
+    "25860": {
+      "title": "Fitting on the Bed",
+      "level": 0
+    },
+    "25861": {
+      "title": "Candy Land",
+      "level": 0
+    },
+    "25862": {
+      "title": "Give-a-Gnocchi",
+      "level": 0
+    },
+    "25863": {
+      "title": "More or Less",
+      "level": 0
+    },
+    "25864": {
+      "title": "Cooperative Escape",
+      "level": 0
+    },
+    "25865": {
+      "title": "Mountain View",
+      "level": 0
+    },
+    "25866": {
+      "title": "Floating-Point Unrounding",
+      "level": 0
+    },
+    "25867": {
+      "title": "Programming Team’s Will",
+      "level": 0
+    },
+    "25868": {
+      "title": "Code Matching",
+      "level": 0
+    },
+    "25869": {
+      "title": "Window on the Wall",
+      "level": 3
+    },
+    "25870": {
+      "title": "Parity of Strings",
+      "level": 3
+    },
+    "25871": {
+      "title": "Historical TV Remote Control",
+      "level": 4
+    },
+    "25872": {
+      "title": "Circle Meets Square",
+      "level": 0
+    },
+    "25873": {
+      "title": "SGA President",
+      "level": 0
+    },
+    "25874": {
+      "title": "Rounding Many Ways",
+      "level": 0
+    },
+    "25875": {
+      "title": "World Cup Fever",
+      "level": 0
+    },
+    "25876": {
+      "title": "First Last Sorting",
+      "level": 0
+    },
+    "25877": {
+      "title": "Team Shirts/Jerseys",
+      "level": 0
+    },
+    "25878": {
+      "title": "Alex is Right",
+      "level": 0
+    },
+    "25879": {
+      "title": "Chocolate Gifts",
+      "level": 0
+    },
+    "25880": {
+      "title": "Cupcake Bonuses",
+      "level": 0
+    },
+    "25881": {
+      "title": "Electric Bill",
+      "level": 0
+    },
+    "25882": {
+      "title": "Simplified Keyboard",
+      "level": 0
+    },
+    "25883": {
+      "title": "Singin' in the Rain",
+      "level": 0
+    },
+    "25884": {
+      "title": "Editor Navigation",
+      "level": 0
+    },
+    "25885": {
+      "title": "Simple Darts",
+      "level": 0
+    },
+    "25886": {
+      "title": "Multimodal Transport",
+      "level": 0
+    },
+    "25887": {
+      "title": "Videogame Probability",
+      "level": 0
+    },
+    "25888": {
+      "title": "Maximum Non-Overlapping Increasing Subsequences",
+      "level": 0
+    },
+    "25889": {
+      "title": "Rotating Cards",
+      "level": 0
+    },
+    "25890": {
+      "title": "Multiples",
+      "level": 0
+    },
+    "25891": {
+      "title": "K-Item Shopping Spree",
+      "level": 0
+    },
+    "25893": {
+      "title": "Majestic 10",
+      "level": 0
+    },
+    "25894": {
+      "title": "Phoneme Palindromes",
+      "level": 0
+    },
+    "25895": {
+      "title": "Don’t Break the Ice",
+      "level": 0
+    },
+    "25896": {
+      "title": "Wildest Dreams",
+      "level": 0
+    },
+    "25897": {
+      "title": "Loopy Word Search",
+      "level": 0
+    },
+    "25898": {
+      "title": "Dot the i’s and Cross the T’s",
+      "level": 0
+    },
+    "25899": {
+      "title": "Jedi and the Galactic Empire",
+      "level": 0
+    },
+    "25900": {
+      "title": "Count the Dividing Pairs",
+      "level": 0
+    },
+    "25901": {
+      "title": "Lineup the Dominoes",
+      "level": 0
+    },
+    "25902": {
+      "title": "Rising Tides",
+      "level": 0
+    },
+    "25903": {
+      "title": "Bouncing Bunnies",
+      "level": 0
     }
   }
 }
