@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-23 19:18:54.869886",
+  "last_updated": "2022-10-24 19:26:49.732157",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6732,7 +6732,7 @@
     },
     "2715": {
       "title": "상범 마법 팬케이크 하우스",
-      "level": 11
+      "level": 12
     },
     "2716": {
       "title": "원숭이 매달기",
@@ -15344,7 +15344,7 @@
     },
     "4929": {
       "title": "수열 걷기",
-      "level": 10
+      "level": 9
     },
     "4930": {
       "title": "Alpha of Degree k",
@@ -21048,7 +21048,7 @@
     },
     "6512": {
       "title": "Cylinder",
-      "level": 10
+      "level": 12
     },
     "6513": {
       "title": "Deli Deli",
@@ -22240,7 +22240,7 @@
     },
     "6810": {
       "title": "ISBN",
-      "level": 2
+      "level": 1
     },
     "6811": {
       "title": "Old Fishin’ Hole",
@@ -23440,7 +23440,7 @@
     },
     "7432": {
       "title": "디스크 트리",
-      "level": 13
+      "level": 14
     },
     "7433": {
       "title": "Divisibility",
@@ -24180,7 +24180,7 @@
     },
     "7624": {
       "title": "Minesweeper",
-      "level": 0
+      "level": 13
     },
     "7625": {
       "title": "Space Boomerang",
@@ -26828,7 +26828,7 @@
     },
     "8337": {
       "title": "Rectangles 2",
-      "level": 13
+      "level": 12
     },
     "8338": {
       "title": "Type Two de Bruijn Sequences",
@@ -26840,7 +26840,7 @@
     },
     "8340": {
       "title": "Colouring",
-      "level": 8
+      "level": 10
     },
     "8341": {
       "title": "Programming Contest",
@@ -29360,7 +29360,7 @@
     },
     "8972": {
       "title": "미친 아두이노",
-      "level": 12
+      "level": 13
     },
     "8973": {
       "title": "수학 공책",
@@ -62404,7 +62404,7 @@
     },
     "17510": {
       "title": "Bigger Sokoban 40k",
-      "level": 24
+      "level": 25
     },
     "17511": {
       "title": "Capital",
@@ -70416,7 +70416,7 @@
     },
     "19529": {
       "title": "카드 놀이",
-      "level": 16
+      "level": 17
     },
     "19530": {
       "title": "숭고한 마라톤 대회",
@@ -85672,7 +85672,7 @@
     },
     "23405": {
       "title": "Volontiranje",
-      "level": 24
+      "level": 23
     },
     "23406": {
       "title": "Polynomial in a Black Box",
@@ -95000,11 +95000,11 @@
     },
     "25849": {
       "title": "Briefcases Full of Money",
-      "level": 0
+      "level": 3
     },
     "25850": {
       "title": "A Game Called Mind",
-      "level": 0
+      "level": 3
     },
     "25851": {
       "title": "Unique Values",
@@ -95016,7 +95016,7 @@
     },
     "25853": {
       "title": "Sum of a Function",
-      "level": 0
+      "level": 15
     },
     "25854": {
       "title": "Hang Gliding",
@@ -95036,11 +95036,11 @@
     },
     "25858": {
       "title": "Divide the Cash",
-      "level": 0
+      "level": 2
     },
     "25859": {
       "title": "Sort by Frequency",
-      "level": 0
+      "level": 5
     },
     "25860": {
       "title": "Fitting on the Bed",
@@ -95128,11 +95128,11 @@
     },
     "25881": {
       "title": "Electric Bill",
-      "level": 0
+      "level": 2
     },
     "25882": {
       "title": "Simplified Keyboard",
-      "level": 0
+      "level": 4
     },
     "25883": {
       "title": "Singin' in the Rain",
@@ -95152,19 +95152,19 @@
     },
     "25887": {
       "title": "Videogame Probability",
-      "level": 0
+      "level": 15
     },
     "25888": {
       "title": "Maximum Non-Overlapping Increasing Subsequences",
-      "level": 0
+      "level": 15
     },
     "25889": {
       "title": "Rotating Cards",
-      "level": 0
+      "level": 16
     },
     "25890": {
       "title": "Multiples",
-      "level": 0
+      "level": 22
     },
     "25891": {
       "title": "K-Item Shopping Spree",
@@ -95172,11 +95172,11 @@
     },
     "25893": {
       "title": "Majestic 10",
-      "level": 0
+      "level": 2
     },
     "25894": {
       "title": "Phoneme Palindromes",
-      "level": 0
+      "level": 4
     },
     "25895": {
       "title": "Don’t Break the Ice",
