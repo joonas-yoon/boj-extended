@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-25 19:39:23.462709",
+  "last_updated": "2022-10-26 19:14:29.917253",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6376,7 +6376,7 @@
     },
     "2626": {
       "title": "헬기착륙장",
-      "level": 21
+      "level": 20
     },
     "2627": {
       "title": "트리회전",
@@ -11736,7 +11736,7 @@
     },
     "4008": {
       "title": "특공대",
-      "level": 21
+      "level": 20
     },
     "4009": {
       "title": "순찰",
@@ -18276,7 +18276,7 @@
     },
     "5789": {
       "title": "한다 안한다",
-      "level": 4
+      "level": 3
     },
     "5790": {
       "title": "Log Books",
@@ -24360,7 +24360,7 @@
     },
     "7670": {
       "title": "Game Dice",
-      "level": 0
+      "level": 11
     },
     "7671": {
       "title": "Baking Cakes",
@@ -25028,7 +25028,7 @@
     },
     "7881": {
       "title": "YAPTCHA",
-      "level": 12
+      "level": 13
     },
     "7882": {
       "title": "Skyscrapers",
@@ -25160,7 +25160,7 @@
     },
     "7914": {
       "title": "Intelligence Quotient",
-      "level": 19
+      "level": 20
     },
     "7915": {
       "title": "Cave",
@@ -26664,11 +26664,11 @@
     },
     "8296": {
       "title": "Orienteering",
-      "level": 8
+      "level": 9
     },
     "8297": {
       "title": "Mushrooms",
-      "level": 8
+      "level": 10
     },
     "8298": {
       "title": "Coins",
@@ -26688,7 +26688,7 @@
     },
     "8302": {
       "title": "Map",
-      "level": 16
+      "level": 17
     },
     "8303": {
       "title": "The Goat",
@@ -30184,7 +30184,7 @@
     },
     "9206": {
       "title": "나무 말고 꽃",
-      "level": 18
+      "level": 19
     },
     "9207": {
       "title": "페그 솔리테어",
@@ -31524,7 +31524,7 @@
     },
     "9555": {
       "title": "대회 장소 준비",
-      "level": 9
+      "level": 8
     },
     "9556": {
       "title": "수학 숙제",
@@ -42684,7 +42684,7 @@
     },
     "12504": {
       "title": "FreeCell Statistics (Large)",
-      "level": 8
+      "level": 9
     },
     "12505": {
       "title": "The Killer Word (Small)",
@@ -57084,7 +57084,7 @@
     },
     "16166": {
       "title": "서울의 지하철",
-      "level": 9
+      "level": 10
     },
     "16167": {
       "title": "A Great Way",
@@ -65476,7 +65476,7 @@
     },
     "18287": {
       "title": "체스판 이동",
-      "level": 19
+      "level": 18
     },
     "18288": {
       "title": "팀 연습",
@@ -76968,7 +76968,7 @@
     },
     "21182": {
       "title": "Weird Flecks, But OK",
-      "level": 21
+      "level": 20
     },
     "21183": {
       "title": "Code Names",
@@ -87572,7 +87572,7 @@
     },
     "23880": {
       "title": "Walking Home",
-      "level": 11
+      "level": 12
     },
     "23881": {
       "title": "알고리즘 수업 - 선택 정렬 1",
@@ -90156,7 +90156,7 @@
     },
     "24572": {
       "title": "Square Pool",
-      "level": 13
+      "level": 14
     },
     "24573": {
       "title": "Good Fours and Good Fives",
@@ -94848,7 +94848,7 @@
     },
     "25811": {
       "title": "Really Nerdy Game",
-      "level": 15
+      "level": 16
     },
     "25812": {
       "title": "Nice Raises",
@@ -95008,7 +95008,7 @@
     },
     "25851": {
       "title": "Unique Values",
-      "level": 0
+      "level": 8
     },
     "25852": {
       "title": "Gone Fishing",
@@ -95152,11 +95152,11 @@
     },
     "25887": {
       "title": "Videogame Probability",
-      "level": 15
+      "level": 13
     },
     "25888": {
       "title": "Maximum Non-Overlapping Increasing Subsequences",
-      "level": 15
+      "level": 13
     },
     "25889": {
       "title": "Rotating Cards",
@@ -95192,7 +95192,7 @@
     },
     "25898": {
       "title": "Dot the i’s and Cross the T’s",
-      "level": 0
+      "level": 6
     },
     "25899": {
       "title": "Jedi and the Galactic Empire",
