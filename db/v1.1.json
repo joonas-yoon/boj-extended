@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-26 19:14:29.917253",
+  "last_updated": "2022-10-27 19:16:42.617670",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7548,7 +7548,7 @@
     },
     "2923": {
       "title": "숫자 게임",
-      "level": 15
+      "level": 14
     },
     "2924": {
       "title": "천재",
@@ -7580,7 +7580,7 @@
     },
     "2931": {
       "title": "가스관",
-      "level": 14
+      "level": 13
     },
     "2932": {
       "title": "표 회전",
@@ -20592,7 +20592,7 @@
     },
     "6384": {
       "title": "Area",
-      "level": 12
+      "level": 13
     },
     "6386": {
       "title": "Cog-Wheels",
@@ -26688,7 +26688,7 @@
     },
     "8302": {
       "title": "Map",
-      "level": 17
+      "level": 15
     },
     "8303": {
       "title": "The Goat",
@@ -26844,7 +26844,7 @@
     },
     "8341": {
       "title": "Programming Contest",
-      "level": 20
+      "level": 19
     },
     "8342": {
       "title": "Permutations",
@@ -28412,7 +28412,7 @@
     },
     "8735": {
       "title": "Obwody",
-      "level": 5
+      "level": 6
     },
     "8736": {
       "title": "Wieża 2",
@@ -30576,7 +30576,7 @@
     },
     "9306": {
       "title": "Practice: Roll Call",
-      "level": 4
+      "level": 3
     },
     "9307": {
       "title": "Geometric Inflation",
@@ -34024,7 +34024,7 @@
     },
     "10277": {
       "title": "JuQueen",
-      "level": 19
+      "level": 18
     },
     "10278": {
       "title": "Laser Cutting",
@@ -42024,7 +42024,7 @@
     },
     "12335": {
       "title": "Tic-Tac-Toe-Tomek (Small)",
-      "level": 6
+      "level": 7
     },
     "12336": {
       "title": "Tic-Tac-Toe-Tomek (Large)",
@@ -42156,7 +42156,7 @@
     },
     "12372": {
       "title": "Lost Password (Small)",
-      "level": 20
+      "level": 19
     },
     "12373": {
       "title": "Lost Password (Large)",
@@ -49412,7 +49412,7 @@
     },
     "14219": {
       "title": "막대과자 포장",
-      "level": 3
+      "level": 4
     },
     "14220": {
       "title": "양아치 집배원",
@@ -57000,7 +57000,7 @@
     },
     "16145": {
       "title": "Tide Pods",
-      "level": 5
+      "level": 4
     },
     "16146": {
       "title": "Blowin’ in the Wind",
@@ -62040,7 +62040,7 @@
     },
     "17418": {
       "title": "G++ Language",
-      "level": 21
+      "level": 20
     },
     "17419": {
       "title": "비트가 넘쳐흘러",
@@ -69444,7 +69444,7 @@
     },
     "19286": {
       "title": "Piecewise Linearity",
-      "level": 0
+      "level": 16
     },
     "19287": {
       "title": "Sketch",
@@ -85068,7 +85068,7 @@
     },
     "23253": {
       "title": "자료구조는 정말 최고야",
-      "level": 6
+      "level": 7
     },
     "23254": {
       "title": "나는 기말고사형 인간이야",
@@ -92740,7 +92740,7 @@
     },
     "25233": {
       "title": "Reset",
-      "level": 17
+      "level": 18
     },
     "25234": {
       "title": "Tic Tac Toe Counting",
@@ -94576,7 +94576,7 @@
     },
     "25733": {
       "title": "Permutation Arrangement",
-      "level": 18
+      "level": 19
     },
     "25734": {
       "title": "Set and Sequence and Query",
