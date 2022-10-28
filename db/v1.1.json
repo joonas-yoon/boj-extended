@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-27 19:16:42.617670",
+  "last_updated": "2022-10-28 19:14:36.278605",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -804,7 +804,7 @@
     },
     "1200": {
       "title": "기상예측",
-      "level": 17
+      "level": 18
     },
     "1201": {
       "title": "NMK",
@@ -3972,7 +3972,7 @@
     },
     "2007": {
       "title": "수들의 합 3",
-      "level": 17
+      "level": 18
     },
     "2008": {
       "title": "사다리 게임",
@@ -4380,7 +4380,7 @@
     },
     "2112": {
       "title": "두 부분 문자열",
-      "level": 16
+      "level": 17
     },
     "2113": {
       "title": "행렬과 피보나치 수",
@@ -8776,7 +8776,7 @@
     },
     "3236": {
       "title": "TELEPORT",
-      "level": 12
+      "level": 13
     },
     "3237": {
       "title": "UHODE",
@@ -22352,7 +22352,7 @@
     },
     "6984": {
       "title": "All Roads Lead Where?",
-      "level": 10
+      "level": 11
     },
     "6985": {
       "title": "Hoppers",
@@ -23756,7 +23756,7 @@
     },
     "7517": {
       "title": "Tudoku",
-      "level": 18
+      "level": 16
     },
     "7518": {
       "title": "Traveling Queen Problem",
@@ -24064,7 +24064,7 @@
     },
     "7595": {
       "title": "Triangles",
-      "level": 3
+      "level": 2
     },
     "7596": {
       "title": "MP3 Songs",
@@ -30656,7 +30656,7 @@
     },
     "9326": {
       "title": "MI6",
-      "level": 11
+      "level": 12
     },
     "9327": {
       "title": "용량 확보",
@@ -32324,7 +32324,7 @@
     },
     "9813": {
       "title": "Computing",
-      "level": 14
+      "level": 15
     },
     "9814": {
       "title": "Coding of Permutations",
@@ -50368,7 +50368,7 @@
     },
     "14458": {
       "title": "소가 길을 건너간 이유 10",
-      "level": 17
+      "level": 18
     },
     "14459": {
       "title": "소가 길을 건너간 이유 11",
@@ -53964,7 +53964,7 @@
     },
     "15372": {
       "title": "A Simple Problem.",
-      "level": 3
+      "level": 2
     },
     "15373": {
       "title": "A Simple Problem!",
@@ -58812,7 +58812,7 @@
     },
     "16598": {
       "title": "Achievements",
-      "level": 7
+      "level": 8
     },
     "16599": {
       "title": "Banana Republic",
@@ -64416,7 +64416,7 @@
     },
     "18022": {
       "title": "Eeny Meeny",
-      "level": 9
+      "level": 8
     },
     "18023": {
       "title": "Flow Finder",
@@ -66740,7 +66740,7 @@
     },
     "18606": {
       "title": "Block Breaker",
-      "level": 14
+      "level": 13
     },
     "18607": {
       "title": "Domino Covering",
@@ -88380,7 +88380,7 @@
     },
     "24084": {
       "title": "次の文字 (Next Character)",
-      "level": 4
+      "level": 3
     },
     "24085": {
       "title": "希少な数 (Rare Number)",
@@ -91264,7 +91264,7 @@
     },
     "24850": {
       "title": "Octopus Game",
-      "level": 12
+      "level": 13
     },
     "24851": {
       "title": "Third Group Exam",
@@ -94772,7 +94772,7 @@
     },
     "25792": {
       "title": "Stone Smoothing",
-      "level": 19
+      "level": 15
     },
     "25793": {
       "title": "초콜릿 피라미드",
