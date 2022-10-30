@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-28 19:14:36.278605",
+  "last_updated": "2022-10-30 19:14:31.714788",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2740,7 +2740,7 @@
     },
     "1690": {
       "title": "순열",
-      "level": 18
+      "level": 17
     },
     "1691": {
       "title": "석판",
@@ -2816,7 +2816,7 @@
     },
     "1709": {
       "title": "타일 위의 원",
-      "level": 8
+      "level": 9
     },
     "1710": {
       "title": "Flattening Tables",
@@ -4364,7 +4364,7 @@
     },
     "2108": {
       "title": "통계학",
-      "level": 8
+      "level": 9
     },
     "2109": {
       "title": "순회강연",
@@ -5660,7 +5660,7 @@
     },
     "2447": {
       "title": "별 찍기 - 10",
-      "level": 10
+      "level": 11
     },
     "2448": {
       "title": "별 찍기 - 11",
@@ -15520,7 +15520,7 @@
     },
     "4977": {
       "title": "Cliff Climbing",
-      "level": 15
+      "level": 14
     },
     "4978": {
       "title": "Twirl Around",
@@ -17280,7 +17280,7 @@
     },
     "5524": {
       "title": "입실 관리",
-      "level": 3
+      "level": 2
     },
     "5525": {
       "title": "IOIOI",
@@ -19988,7 +19988,7 @@
     },
     "6229": {
       "title": "Bronze Lilypad Pond",
-      "level": 8
+      "level": 9
     },
     "6230": {
       "title": "Buy One Get One Free",
@@ -20604,7 +20604,7 @@
     },
     "6389": {
       "title": "Gridland",
-      "level": 11
+      "level": 10
     },
     "6391": {
       "title": "Number Game",
@@ -20968,7 +20968,7 @@
     },
     "6492": {
       "title": "Shipping Routes",
-      "level": 9
+      "level": 10
     },
     "6493": {
       "title": "Slurpys",
@@ -22620,7 +22620,7 @@
     },
     "7058": {
       "title": "Royal guards",
-      "level": 18
+      "level": 19
     },
     "7060": {
       "title": "Printed Circuit",
@@ -32644,7 +32644,7 @@
     },
     "9893": {
       "title": "Paths",
-      "level": 11
+      "level": 12
     },
     "9894": {
       "title": "Pair",
@@ -35284,7 +35284,7 @@
     },
     "10604": {
       "title": "Working Hours",
-      "level": 6
+      "level": 7
     },
     "10605": {
       "title": "드래곤 죽이기",
@@ -35344,7 +35344,7 @@
     },
     "10619": {
       "title": "The One Dollar Gambler",
-      "level": 0
+      "level": 12
     },
     "10620": {
       "title": "Urdu orthography verification",
@@ -41952,7 +41952,7 @@
     },
     "12317": {
       "title": "Consonants (Small)",
-      "level": 0
+      "level": 8
     },
     "12318": {
       "title": "Consonants (Large)",
@@ -49520,7 +49520,7 @@
     },
     "14246": {
       "title": "K보다 큰 구간",
-      "level": 7
+      "level": 8
     },
     "14247": {
       "title": "나무 자르기",
@@ -54428,7 +54428,7 @@
     },
     "15488": {
       "title": "나이트가 체스판을 벗어나지 않을 확률",
-      "level": 10
+      "level": 11
     },
     "15489": {
       "title": "파스칼 삼각형",
@@ -54552,7 +54552,7 @@
     },
     "15519": {
       "title": "Tournament Chart",
-      "level": 11
+      "level": 12
     },
     "15520": {
       "title": "Prime-Factor Prime",
@@ -54576,7 +54576,7 @@
     },
     "15525": {
       "title": "Separate String",
-      "level": 22
+      "level": 21
     },
     "15526": {
       "title": "Revenge of the Endless BFS",
@@ -55392,7 +55392,7 @@
     },
     "15731": {
       "title": "Python 문법",
-      "level": 17
+      "level": 16
     },
     "15732": {
       "title": "도토리 숨기기",
@@ -56680,7 +56680,7 @@
     },
     "16065": {
       "title": "Down the Pyramid",
-      "level": 8
+      "level": 9
     },
     "16066": {
       "title": "Expired License",
@@ -65300,7 +65300,7 @@
     },
     "18243": {
       "title": "Small World Network",
-      "level": 9
+      "level": 10
     },
     "18244": {
       "title": "변형 계단 수",
@@ -65608,7 +65608,7 @@
     },
     "18320": {
       "title": "Loan Repayment",
-      "level": 16
+      "level": 17
     },
     "18321": {
       "title": "Wormhole Sort",
@@ -65956,7 +65956,7 @@
     },
     "18409": {
       "title": "母音を数える (Counting Vowels)",
-      "level": 2
+      "level": 1
     },
     "18410": {
       "title": "マージ (Merge)",
@@ -67932,7 +67932,7 @@
     },
     "18905": {
       "title": "Camping in the woods",
-      "level": 20
+      "level": 21
     },
     "18906": {
       "title": "Minimal Variance Tree",
@@ -76828,7 +76828,7 @@
     },
     "21147": {
       "title": "Triangular Collection",
-      "level": 12
+      "level": 13
     },
     "21148": {
       "title": "TripTik",
@@ -87096,7 +87096,7 @@
     },
     "23761": {
       "title": "Counterfeit Coin",
-      "level": 7
+      "level": 8
     },
     "23762": {
       "title": "배드민턴 복식 팀 만들기",
@@ -95004,7 +95004,7 @@
     },
     "25850": {
       "title": "A Game Called Mind",
-      "level": 3
+      "level": 4
     },
     "25851": {
       "title": "Unique Values",
@@ -95016,7 +95016,7 @@
     },
     "25853": {
       "title": "Sum of a Function",
-      "level": 15
+      "level": 16
     },
     "25854": {
       "title": "Hang Gliding",
