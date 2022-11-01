@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-10-30 19:14:31.714788",
+  "last_updated": "2022-11-01 19:15:48.363500",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -292,7 +292,7 @@
     },
     "1072": {
       "title": "게임",
-      "level": 7
+      "level": 8
     },
     "1073": {
       "title": "도미노",
@@ -828,7 +828,7 @@
     },
     "1206": {
       "title": "사람의 수",
-      "level": 8
+      "level": 9
     },
     "1207": {
       "title": "종이 자르기",
@@ -4260,7 +4260,7 @@
     },
     "2082": {
       "title": "시계",
-      "level": 7
+      "level": 8
     },
     "2083": {
       "title": "럭비 클럽",
@@ -4268,7 +4268,7 @@
     },
     "2084": {
       "title": "차수열",
-      "level": 11
+      "level": 12
     },
     "2085": {
       "title": "진법",
@@ -6124,7 +6124,7 @@
     },
     "2563": {
       "title": "색종이",
-      "level": 5
+      "level": 6
     },
     "2564": {
       "title": "경비원",
@@ -6200,7 +6200,7 @@
     },
     "2582": {
       "title": "동전 뒤집기 2",
-      "level": 20
+      "level": 0
     },
     "2583": {
       "title": "영역 구하기",
@@ -8220,7 +8220,7 @@
     },
     "3096": {
       "title": "영화제",
-      "level": 14
+      "level": 15
     },
     "3097": {
       "title": "산책 경로",
@@ -9256,7 +9256,7 @@
     },
     "3363": {
       "title": "동전",
-      "level": 12
+      "level": 11
     },
     "3364": {
       "title": "Escape",
@@ -9548,7 +9548,7 @@
     },
     "3443": {
       "title": "Reaux! Sham! Beaux!",
-      "level": 6
+      "level": 7
     },
     "3444": {
       "title": "Robotic Sort",
@@ -10580,7 +10580,7 @@
     },
     "3703": {
       "title": "Pie",
-      "level": 9
+      "level": 10
     },
     "3704": {
       "title": "Ticket to Ride",
@@ -11736,7 +11736,7 @@
     },
     "4008": {
       "title": "특공대",
-      "level": 20
+      "level": 21
     },
     "4009": {
       "title": "순찰",
@@ -13592,7 +13592,7 @@
     },
     "4480": {
       "title": "Laser Shot",
-      "level": 16
+      "level": 17
     },
     "4481": {
       "title": "Power Grid",
@@ -20704,7 +20704,7 @@
     },
     "6416": {
       "title": "트리인가?",
-      "level": 12
+      "level": 0
     },
     "6417": {
       "title": "코코넛 그 두 번째 이야기",
@@ -23756,7 +23756,7 @@
     },
     "7517": {
       "title": "Tudoku",
-      "level": 16
+      "level": 10
     },
     "7518": {
       "title": "Traveling Queen Problem",
@@ -25404,7 +25404,7 @@
     },
     "7976": {
       "title": "수열",
-      "level": 14
+      "level": 15
     },
     "7977": {
       "title": "크리스 마틴",
@@ -30376,7 +30376,7 @@
     },
     "9254": {
       "title": "역행렬",
-      "level": 14
+      "level": 0
     },
     "9255": {
       "title": "The Friend of My Enemy is My Enemy",
@@ -34864,7 +34864,7 @@
     },
     "10487": {
       "title": "4 thought",
-      "level": 8
+      "level": 9
     },
     "10488": {
       "title": "Biggest Slice",
@@ -35480,7 +35480,7 @@
     },
     "10653": {
       "title": "마라톤 2",
-      "level": 12
+      "level": 13
     },
     "10654": {
       "title": "Cow Jog",
@@ -40400,7 +40400,7 @@
     },
     "11920": {
       "title": "버블 정렬",
-      "level": 18
+      "level": 19
     },
     "11921": {
       "title": "0.1",
@@ -41776,7 +41776,7 @@
     },
     "12271": {
       "title": "Hex (Large)",
-      "level": 16
+      "level": 17
     },
     "12272": {
       "title": "Dragon Maze (Small)",
@@ -42732,7 +42732,7 @@
     },
     "12516": {
       "title": "챔피언소트 (Large)",
-      "level": 17
+      "level": 18
     },
     "12517": {
       "title": "Centauri Prime (Small1)",
@@ -46236,7 +46236,7 @@
     },
     "13405": {
       "title": "Placing Medals on a Binary Tree",
-      "level": 19
+      "level": 20
     },
     "13406": {
       "title": "Animal Companion in Maze",
@@ -50000,7 +50000,7 @@
     },
     "14366": {
       "title": "Slides! (Large)",
-      "level": 18
+      "level": 17
     },
     "14367": {
       "title": "Fashion Police (Small)",
@@ -54996,7 +54996,7 @@
     },
     "15632": {
       "title": "Drawing Character",
-      "level": 17
+      "level": 0
     },
     "15633": {
       "title": "Fan Death",
@@ -60024,7 +60024,7 @@
     },
     "16901": {
       "title": "XOR MST",
-      "level": 21
+      "level": 22
     },
     "16902": {
       "title": "mex",
@@ -60380,7 +60380,7 @@
     },
     "16992": {
       "title": "3-SAT",
-      "level": 18
+      "level": 0
     },
     "16993": {
       "title": "연속합과 쿼리",
@@ -60444,7 +60444,7 @@
     },
     "17008": {
       "title": "3-SAT 2",
-      "level": 18
+      "level": 0
     },
     "17009": {
       "title": "Winning Score",
@@ -61192,7 +61192,7 @@
     },
     "17206": {
       "title": "준석이의 수학 숙제",
-      "level": 4
+      "level": 5
     },
     "17207": {
       "title": "돌려막기",
@@ -65956,7 +65956,7 @@
     },
     "18409": {
       "title": "母音を数える (Counting Vowels)",
-      "level": 1
+      "level": 2
     },
     "18410": {
       "title": "マージ (Merge)",
@@ -66900,7 +66900,7 @@
     },
     "18646": {
       "title": "Quicksort",
-      "level": 15
+      "level": 16
     },
     "18647": {
       "title": "Spaceship",
@@ -67472,7 +67472,7 @@
     },
     "18789": {
       "title": "814 - 2",
-      "level": 27
+      "level": 26
     },
     "18790": {
       "title": "N의 배수 (1)",
@@ -68700,7 +68700,7 @@
     },
     "19097": {
       "title": "Primes",
-      "level": 0
+      "level": 21
     },
     "19098": {
       "title": "Vertex covers",
@@ -73300,7 +73300,7 @@
     },
     "20257": {
       "title": "Make Numbers",
-      "level": 11
+      "level": 10
     },
     "20258": {
       "title": "Pyramid",
@@ -73696,7 +73696,7 @@
     },
     "20358": {
       "title": "Voracious Steve",
-      "level": 11
+      "level": 13
     },
     "20359": {
       "title": "A simple task",
@@ -76740,7 +76740,7 @@
     },
     "21125": {
       "title": "Biological Software Utilities",
-      "level": 17
+      "level": 18
     },
     "21126": {
       "title": "Bytelandia States Union",
@@ -82416,7 +82416,7 @@
     },
     "22583": {
       "title": "RabbitLunch",
-      "level": 0
+      "level": 20
     },
     "22584": {
       "title": "CarrotBreeding",
@@ -85112,7 +85112,7 @@
     },
     "23264": {
       "title": "Simple Polygon",
-      "level": 18
+      "level": 19
     },
     "23265": {
       "title": "Antenna Analysis",
@@ -86684,7 +86684,7 @@
     },
     "23658": {
       "title": "Cubic Path",
-      "level": 13
+      "level": 14
     },
     "23659": {
       "title": "Red-Black Tree",
@@ -87680,7 +87680,7 @@
     },
     "23907": {
       "title": "Perfect Subarray",
-      "level": 16
+      "level": 15
     },
     "23908": {
       "title": "Candies",
@@ -87700,7 +87700,7 @@
     },
     "23912": {
       "title": "Locked Doors",
-      "level": 19
+      "level": 18
     },
     "23913": {
       "title": "Longest Arithmetic",
@@ -89848,7 +89848,7 @@
     },
     "24495": {
       "title": "Non-Transitive Dice",
-      "level": 7
+      "level": 8
     },
     "24496": {
       "title": "Drought",
@@ -90352,7 +90352,7 @@
     },
     "24621": {
       "title": "Photoshoot 2",
-      "level": 12
+      "level": 13
     },
     "24622": {
       "title": "Blocks",
@@ -90840,7 +90840,7 @@
     },
     "24743": {
       "title": "CIDR",
-      "level": 7
+      "level": 9
     },
     "24744": {
       "title": "Three Spheres and a Tetrahedron",
@@ -94388,7 +94388,7 @@
     },
     "25686": {
       "title": "1차원",
-      "level": 15
+      "level": 14
     },
     "25687": {
       "title": "2차원",
@@ -95170,6 +95170,10 @@
       "title": "K-Item Shopping Spree",
       "level": 0
     },
+    "25892": {
+      "title": "Zero AAMP Currents",
+      "level": 0
+    },
     "25893": {
       "title": "Majestic 10",
       "level": 2
@@ -95212,6 +95216,66 @@
     },
     "25903": {
       "title": "Bouncing Bunnies",
+      "level": 0
+    },
+    "25904": {
+      "title": "안녕 클레오파트라 세상에서 제일가는 포테이토칩",
+      "level": 3
+    },
+    "25905": {
+      "title": "장인은 도구를 탓하지 않는다",
+      "level": 4
+    },
+    "25906": {
+      "title": "수렵의 시간이다!",
+      "level": 10
+    },
+    "25907": {
+      "title": "양과 늑대",
+      "level": 11
+    },
+    "25908": {
+      "title": "수열의 합",
+      "level": 11
+    },
+    "25909": {
+      "title": "수확의 계절이다!",
+      "level": 13
+    },
+    "25910": {
+      "title": "게이트웨이 정하기",
+      "level": 16
+    },
+    "25911": {
+      "title": "달나라에 사는 토끼와 우주에서 떨어지는 떡",
+      "level": 19
+    },
+    "25912": {
+      "title": "현상금 헌터",
+      "level": 19
+    },
+    "25913": {
+      "title": "전투 시뮬레이션",
+      "level": 19
+    },
+    "25914": {
+      "title": "커모드 곰의 연어 사냥",
+      "level": 19
+    },
+    "25928": {
+      "title": "Lightbulbs",
+      "level": 0
+    },
+    "25929": {
+      "title": "Squaring the Triangle",
+      "level": 18
+    },
+    "25930": {
+      "title": "Course Selection",
+      "level": 0
+    },
+    "25931": {
+      "title": "Water Flow",
       "level": 0
     }
   }
