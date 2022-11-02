@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-01 19:15:48.363500",
+  "last_updated": "2022-11-02 19:14:46.847729",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -420,7 +420,7 @@
     },
     "1104": {
       "title": "패턴",
-      "level": 17
+      "level": 18
     },
     "1105": {
       "title": "팔",
@@ -1536,7 +1536,7 @@
     },
     "1388": {
       "title": "바닥 장식",
-      "level": 8
+      "level": 7
     },
     "1389": {
       "title": "케빈 베이컨의 6단계 법칙",
@@ -7628,7 +7628,7 @@
     },
     "2943": {
       "title": "토끼",
-      "level": 7
+      "level": 8
     },
     "2944": {
       "title": "수박 던지기 게임",
@@ -8264,7 +8264,7 @@
     },
     "3107": {
       "title": "IPv6",
-      "level": 10
+      "level": 11
     },
     "3108": {
       "title": "로고",
@@ -9932,7 +9932,7 @@
     },
     "3541": {
       "title": "상근타워",
-      "level": 10
+      "level": 9
     },
     "3542": {
       "title": "Database",
@@ -10828,7 +10828,7 @@
     },
     "3765": {
       "title": "Celebrity jeopardy",
-      "level": 0
+      "level": 2
     },
     "3766": {
       "title": "Sherlock Holmes",
@@ -19840,7 +19840,7 @@
     },
     "6187": {
       "title": "Going to the Movies",
-      "level": 7
+      "level": 8
     },
     "6188": {
       "title": "Clear Cold Water",
@@ -44228,7 +44228,7 @@
     },
     "12891": {
       "title": "DNA 비밀번호",
-      "level": 8
+      "level": 9
     },
     "12892": {
       "title": "생일 선물",
@@ -46832,7 +46832,7 @@
     },
     "13555": {
       "title": "증가하는 부분 수열",
-      "level": 17
+      "level": 18
     },
     "13556": {
       "title": "증가하는 부분 수열 2",
@@ -49640,7 +49640,7 @@
     },
     "14276": {
       "title": "도로 건설",
-      "level": 17
+      "level": 18
     },
     "14277": {
       "title": "등차 수열과 등비 수열",
@@ -60024,7 +60024,7 @@
     },
     "16901": {
       "title": "XOR MST",
-      "level": 22
+      "level": 21
     },
     "16902": {
       "title": "mex",
@@ -67384,7 +67384,7 @@
     },
     "18767": {
       "title": "조교 배치",
-      "level": 16
+      "level": 17
     },
     "18768": {
       "title": "팀 배정",
@@ -73264,7 +73264,7 @@
     },
     "20248": {
       "title": "Circles",
-      "level": 15
+      "level": 16
     },
     "20249": {
       "title": "Last Will",
@@ -84996,7 +84996,7 @@
     },
     "23235": {
       "title": "The Fastest Sorting Algorithm In The World",
-      "level": 2
+      "level": 1
     },
     "23236": {
       "title": "Fikapaus",
@@ -87756,7 +87756,7 @@
     },
     "23926": {
       "title": "Boring Numbers",
-      "level": 15
+      "level": 16
     },
     "23927": {
       "title": "Rugby",
@@ -95132,7 +95132,7 @@
     },
     "25882": {
       "title": "Simplified Keyboard",
-      "level": 6
+      "level": 7
     },
     "25883": {
       "title": "Singin' in the Rain",
@@ -95172,7 +95172,7 @@
     },
     "25892": {
       "title": "Zero AAMP Currents",
-      "level": 0
+      "level": 11
     },
     "25893": {
       "title": "Majestic 10",
