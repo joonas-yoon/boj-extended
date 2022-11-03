@@ -48,29 +48,48 @@ function extendRejudgePage() {
   });
 }
 
-function _createRadioForm(form, callback) {
-  // load and apply to display pid/pname
-  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
-    const radio1 = Utils.createRadioElement(
-      '문제 번호',
-      (evt) => {
-        Config.save(Constants.CONFIG_SHOW_STATUS_PID, true, callback);
-      },
-      !!showPid
-    );
-    const radio2 = Utils.createRadioElement(
-      '문제 제목',
-      (evt) => {
-        Config.save(Constants.CONFIG_SHOW_STATUS_PID, false, callback);
-      },
-      !showPid
-    );
-    form.insertBefore(radio2, form.firstChild);
-    form.insertBefore(radio1, form.firstChild);
-    if (callback && typeof callback === 'function') {
-      setTimeout(() => callback(!!showPid), 10);
-    }
+function createCheckboxForm(dispatchDisplay) {
+  const { container: pidContainer, input: pidInput } =
+    Utils.createCheckboxElement('문제 번호', 'option-status-pid');
+  const { container: ptitleContainer, input: ptitleInput } =
+    Utils.createCheckboxElement('문제 제목', 'option-status-ptitle');
+
+  const dispatchChangeEvent = () => {
+    dispatchDisplay({
+      inputProblemId: pidInput,
+      inputProblemTitle: ptitleInput,
+    });
+  };
+
+  const onChangeCheckbox = (configKey) => (evt) => {
+    Config.save(configKey, Boolean(evt.target.checked), dispatchChangeEvent);
+  };
+
+  pidInput.addEventListener(
+    'change',
+    onChangeCheckbox(Constants.CONFIG_SHOW_STATUS_PID)
+  );
+  ptitleInput.addEventListener(
+    'change',
+    onChangeCheckbox(Constants.CONFIG_SHOW_STATUS_PTITLE)
+  );
+
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showProbId) => {
+    pidInput.checked = !(showProbId === false); // default as true
+    dispatchChangeEvent();
   });
+
+  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showProbTitle) => {
+    ptitleInput.checked = Boolean(showProbTitle);
+    dispatchChangeEvent();
+  });
+
+  const container = Utils.createElement('div', {
+    style: 'display: inline-block;',
+  });
+  container.appendChild(pidContainer);
+  container.appendChild(ptitleContainer);
+  return container;
 }
 
 function _extendStatusTable(
@@ -107,21 +126,34 @@ function _extendStatusTable(
     }
   });
 
-  function display(showPid) {
+  function display({ inputProblemId, inputProblemTitle }) {
+    const showPid = Boolean(inputProblemId.checked);
+    const showTitle = Boolean(inputProblemTitle.checked);
+    const createProblemText = (id, title) => {
+      if (showPid && showTitle) {
+        return `${id}번 (${title})`;
+      } else if (showPid) {
+        return `${id}`;
+      } else if (showTitle) {
+        return `${title}`;
+      } else {
+        return '';
+      }
+    };
+
     // apply for each titles
     titles.forEach((e) => {
-      if (showPid) {
-        e.innerText = e.getAttribute('data-original-id');
-      } else {
-        const text = e.getAttribute('data-original-title');
-        e.innerText = text.length > 20 ? text.substr(0, 17) + '…' : text;
-      }
+      const pid = e.getAttribute('data-original-id');
+      const ptitle = e.getAttribute('data-original-title');
+      const problemText = createProblemText(pid, ptitle);
+      e.textContent = problemText;
     });
+
     // fit column width
     tableHeadCols.forEach((e, i) => {
       e.style.width = afterWidth[i];
     });
   }
 
-  _createRadioForm(container, display);
+  container.insertBefore(createCheckboxForm(display), container.firstChild);
 }

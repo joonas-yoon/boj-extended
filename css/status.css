@@ -1,8 +1,42 @@
+/* Marker */
 .table > thead > tr.result-mine > td:first-child,
 .table > tbody > tr.result-mine > td:first-child,
 .table > tfoot > tr.result-mine > td:first-child {
   border-left: 4px solid #2980b9;
 }
+
+/* Problem Text */
+.table tr td:nth-child(3) > img.solvedac-tier {
+  float: left;
+}
+.table tr td:nth-child(3) > a[href^='/problem/'] {
+  float: left;
+  margin-left: 4px;
+  width: 76px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.container-fluid .table tr td:nth-child(3) > a[href^='/problem/'] {
+  width: calc(100% - 32px);
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .table tr td:nth-child(3) > a[href^='/problem/'] {
+    width: 116px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .table tr td:nth-child(3) > a[href^='/problem/'] {
+    width: 122px;
+  }
+}
+@media (min-width: 1200px) {
+  .table tr td:nth-child(3) > a[href^='/problem/'] {
+    width: 154px;
+  }
+}
+
+/* Fake Text */
 .table tr td.result .result-fake-text,
 .table tr td.result.has-fake .result-text {
   display: none;

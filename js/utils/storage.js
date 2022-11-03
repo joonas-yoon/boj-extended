@@ -16,7 +16,7 @@ class CacheStorage {
       }
       return item.value;
     } catch (err) {
-      console.error(err);
+      console.info(err);
       return undefined;
     }
   }

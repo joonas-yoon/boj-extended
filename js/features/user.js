@@ -18,39 +18,39 @@ function extendUserPage() {
 
   const panels = Array.from(document.getElementsByClassName('problem-list'));
 
-  const checkbox1 = Utils.createElement('input', {
+  const checkboxProbId = Utils.createElement('input', {
     id: 'show-pid',
     type: 'checkbox',
   });
-  const checkbox2 = Utils.createElement('input', {
+  const checkboxProbTitle = Utils.createElement('input', {
     id: 'show-pname',
     type: 'checkbox',
   });
-  const checkbox3 = Utils.createElement('input', {
+  const checkboxProbTier = Utils.createElement('input', {
     id: 'show-tier',
     type: 'checkbox',
   });
-  const checkbox4 = Utils.createElement('input', {
+  const checkboxProbTierColor = Utils.createElement('input', {
     id: 'show-tier-color',
     type: 'checkbox',
   });
 
-  checkbox1.addEventListener('change', (evt) => {
+  checkboxProbId.addEventListener('change', (evt) => {
     console.log('checkbox show-pid', evt);
     Config.save(Constants.CONFIG_SHOW_PROBLEM_ID, evt.target.checked);
     display(panels, 'show-id', evt.target.checked);
   });
-  checkbox2.addEventListener('change', (evt) => {
+  checkboxProbTitle.addEventListener('change', (evt) => {
     console.log('checkbox show-pname', evt);
     Config.save(Constants.CONFIG_SHOW_PROBLEM_TITLE, evt.target.checked);
     display(panels, 'show-name', evt.target.checked);
   });
-  checkbox3.addEventListener('change', (evt) => {
+  checkboxProbTier.addEventListener('change', (evt) => {
     console.log('checkbox show-tier', evt);
     Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER, evt.target.checked);
     display(panels, 'show-tier', evt.target.checked);
   });
-  checkbox4.addEventListener('change', (evt) => {
+  checkboxProbTierColor.addEventListener('change', (evt) => {
     console.log('checkbox show-tier-color', evt);
     Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, evt.target.checked);
     display(panels, 'show-tier-color', evt.target.checked);
@@ -76,13 +76,13 @@ function extendUserPage() {
   const checkboxes = Utils.createElement('div', {
     class: 'problem-toggles',
     children: [
-      checkbox1,
+      checkboxProbId,
       label1,
-      checkbox2,
+      checkboxProbTitle,
       label2,
-      checkbox3,
+      checkboxProbTier,
       label3,
-      checkbox4,
+      checkboxProbTierColor,
       label4,
     ],
   });
@@ -198,19 +198,19 @@ function extendUserPage() {
 
   // sync with configs
   Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
-    checkbox1.checked = !(checked === false);
-    display(panels, 'show-id', checkbox1.checked);
+    checkboxProbId.checked = !(checked === false);
+    display(panels, 'show-id', checkboxProbId.checked);
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE, (checked) => {
-    checkbox2.checked = checked;
-    display(panels, 'show-name', checkbox2.checked);
+    checkboxProbTitle.checked = checked;
+    display(panels, 'show-name', checkboxProbTitle.checked);
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (checked) => {
-    checkbox3.checked = !(checked === false);
-    display(panels, 'show-tier', checkbox3.checked);
+    checkboxProbTier.checked = !(checked === false);
+    display(panels, 'show-tier', checkboxProbTier.checked);
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (checked) => {
-    checkbox4.checked = checked;
-    display(panels, 'show-tier-color', checkbox4.checked);
+    checkboxProbTierColor.checked = checked;
+    display(panels, 'show-tier-color', checkboxProbTierColor.checked);
   });
 }
