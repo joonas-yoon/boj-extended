@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-02 19:14:46.847729",
+  "last_updated": "2022-11-03 19:14:29.668365",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2992,7 +2992,7 @@
     },
     "1754": {
       "title": "진영 순열",
-      "level": 17
+      "level": 18
     },
     "1755": {
       "title": "숫자놀이",
@@ -6520,7 +6520,7 @@
     },
     "2662": {
       "title": "기업투자",
-      "level": 13
+      "level": 14
     },
     "2663": {
       "title": "간척지 만들기",
@@ -6912,7 +6912,7 @@
     },
     "2761": {
       "title": "모형 로켓의 높이",
-      "level": 14
+      "level": 15
     },
     "2762": {
       "title": "구역 채우기",
@@ -10152,7 +10152,7 @@
     },
     "3596": {
       "title": "크로스와 크로스",
-      "level": 18
+      "level": 19
     },
     "3597": {
       "title": "Domestic Networks",
@@ -11088,7 +11088,7 @@
     },
     "3843": {
       "title": "볼록 정다각형",
-      "level": 15
+      "level": 16
     },
     "3844": {
       "title": "백준 공화국",
@@ -13020,7 +13020,7 @@
     },
     "4332": {
       "title": "Persistent Numbers",
-      "level": 11
+      "level": 10
     },
     "4333": {
       "title": "Major Scales",
@@ -34024,7 +34024,7 @@
     },
     "10277": {
       "title": "JuQueen",
-      "level": 18
+      "level": 19
     },
     "10278": {
       "title": "Laser Cutting",
@@ -36360,7 +36360,7 @@
     },
     "10875": {
       "title": "뱀",
-      "level": 16
+      "level": 17
     },
     "10876": {
       "title": "사전 조사",
@@ -37092,7 +37092,7 @@
     },
     "11059": {
       "title": "크리 문자열",
-      "level": 5
+      "level": 6
     },
     "11060": {
       "title": "점프 점프",
@@ -39508,7 +39508,7 @@
     },
     "11681": {
       "title": "Wooden Signs",
-      "level": 21
+      "level": 20
     },
     "11682": {
       "title": "Landscaping",
@@ -47284,7 +47284,7 @@
     },
     "13668": {
       "title": "Jogo da Velha",
-      "level": 18
+      "level": 19
     },
     "13669": {
       "title": "Ataque Fulminante",
@@ -48120,7 +48120,7 @@
     },
     "13877": {
       "title": "이건 무슨 진법이지?",
-      "level": 4
+      "level": 3
     },
     "13878": {
       "title": "FBI Universal Control Numbers",
@@ -54180,7 +54180,7 @@
     },
     "15426": {
       "title": "GlitchBot",
-      "level": 6
+      "level": 7
     },
     "15427": {
       "title": "Greeting Card",
@@ -60776,7 +60776,7 @@
     },
     "17099": {
       "title": "Contest",
-      "level": 12
+      "level": 13
     },
     "17100": {
       "title": "Candy Boxes",
@@ -85144,7 +85144,7 @@
     },
     "23272": {
       "title": "Hiring Help",
-      "level": 21
+      "level": 22
     },
     "23273": {
       "title": "Intact Intervals",
@@ -85152,7 +85152,7 @@
     },
     "23274": {
       "title": "Joint Jog Jam",
-      "level": 4
+      "level": 5
     },
     "23275": {
       "title": "Knot Knowledge",
@@ -89052,7 +89052,7 @@
     },
     "24287": {
       "title": "Field",
-      "level": 11
+      "level": 12
     },
     "24288": {
       "title": "ХАКВАНЕ",
@@ -91796,7 +91796,7 @@
     },
     "24986": {
       "title": "Daily Turnovers",
-      "level": 22
+      "level": 23
     },
     "24987": {
       "title": "Expedition Plans",
@@ -95276,6 +95276,54 @@
     },
     "25931": {
       "title": "Water Flow",
+      "level": 0
+    },
+    "25932": {
+      "title": "Find the Twins",
+      "level": 2
+    },
+    "25933": {
+      "title": "Medal Ranking",
+      "level": 0
+    },
+    "25934": {
+      "title": "Brownies vs. Candies vs. Cookies",
+      "level": 0
+    },
+    "25935": {
+      "title": "Lemonade Stand",
+      "level": 0
+    },
+    "25936": {
+      "title": "Rain Gauge",
+      "level": 8
+    },
+    "25937": {
+      "title": "Balanced Strings",
+      "level": 0
+    },
+    "25938": {
+      "title": "Towers of Hanoi Grid",
+      "level": 0
+    },
+    "25939": {
+      "title": "Reach for the Stars",
+      "level": 0
+    },
+    "25940": {
+      "title": "Longest Path",
+      "level": 0
+    },
+    "25941": {
+      "title": "You Shall Pass",
+      "level": 0
+    },
+    "25942": {
+      "title": "Turing’s Challenge",
+      "level": 0
+    },
+    "25954": {
+      "title": "LCS 9",
       "level": 0
     }
   }
