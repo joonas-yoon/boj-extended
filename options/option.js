@@ -48,18 +48,25 @@
   });
 
   // status:pid
-  const oStatusPid = document.getElementsByClassName('option-status-pid');
-  for (let i = 0; i < oStatusPid.length; ++i) {
-    oStatusPid[i].addEventListener('change', (evt) => {
-      Config.save(
-        Constants.CONFIG_SHOW_STATUS_PID,
-        !!parseInt(evt.target.value)
-      );
-    });
-  }
-
-  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
-    oStatusPid[showPid ? 0 : 1].checked = true;
+  // status:ptitle
+  const oStatusPid = document.getElementById('option-status-pid');
+  const oStatusTitle = document.getElementById('option-status-ptitle');
+  oStatusPid.addEventListener('change', (evt) => {
+    console.log(evt.target.checked);
+    Config.save(Constants.CONFIG_SHOW_STATUS_PID, Boolean(oStatusPid.checked));
+  });
+  oStatusTitle.addEventListener('change', (evt) => {
+    console.log(evt.target.checked);
+    Config.save(
+      Constants.CONFIG_SHOW_STATUS_PTITLE,
+      Boolean(oStatusTitle.checked)
+    );
+  });
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (isChecked) => {
+    oStatusPid.checked = !(isChecked === false); // default is true
+  });
+  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (isChecked) => {
+    oStatusTitle.checked = Boolean(isChecked);
   });
 
   // status:history

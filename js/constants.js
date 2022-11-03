@@ -3,6 +3,7 @@ const Constants = {
   CONFIG_SHOW_GROUP_LINK: 'show-group-link',
   CONFIG_SHOW_STATUS_HISTORY: 'show-status-history',
   CONFIG_SHOW_STATUS_PID: 'show-status-pid',
+  CONFIG_SHOW_STATUS_PTITLE: 'show-status-ptitle',
   CONFIG_SHOW_FAKE_RESULT: 'show-fake-result',
   CONFIG_SHOW_USER_TIER: 'show-user-tier',
   CONFIG_SHOW_PROBLEM_ID: 'show-pid',

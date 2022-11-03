@@ -184,29 +184,23 @@ async function fetchProblemsByUser(id) {
   }
 
   const storageKey = Constants.STORAGE_PREFIX + 'problems_' + id;
-  const storedValue = await localStorage.getItem(storageKey);
+  const storedValue = LocalCache.get(storageKey, { expired: 5 * 60 * 1000 });
   console.groupCollapsed('fetch from storage');
   console.log(storageKey, storedValue);
-  const cacheData = JSON.parse(storedValue) || {};
+  const cacheData = storedValue || {};
   console.log('cacheData', cacheData);
   console.groupEnd();
   const result = {};
-
-  const currentTimestamp = new Date().getTime();
-  const duration = 5 * 60 * 1000; // 5 minutes, in milliseconds
-  const isDateExpired =
-    cacheData &&
-    Number(cacheData.lastUpdated || 0) + duration < currentTimestamp;
-  if (cacheData == null || cacheData.problems == null || isDateExpired) {
+  const isDateExpired = storedValue === null;
+  if (!cacheData.problems || isDateExpired) {
     // run request and parse
     const response = await fetch(`/user/${id}`);
     console.group(`request new problems solved by ${id}`);
     // on succeed
     if (response.status === 200) {
       result.problems = await parse(await response.text());
-      result.lastUpdated = currentTimestamp;
     }
-    await localStorage.setItem(storageKey, JSON.stringify(result));
+    LocalCache.add(storageKey, result);
     console.log('saved to localStorage', result);
     console.groupEnd();
     return result.problems;
