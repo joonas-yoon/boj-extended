@@ -4,6 +4,8 @@
     setTimeout(main, 100);
     return;
   }
+
+  // close button
   Array.from(document.getElementsByClassName('btn-close-window')).forEach(
     (e) => {
       e.addEventListener('click', (evt) => {
@@ -90,7 +92,49 @@
   }
 
   Config.load(Constants.CONFIG_SHOW_GROUP_LINK, (showGroupLink) => {
-    oGroupLink[showGroupLink ? 1 : 0].checked = true;
+    oGroupLink[showGroupLink ? 0 : 1].checked = true;
+  });
+
+  // global:user-tier
+  const oUserTier = document.getElementsByClassName('option-user-tier');
+  for (let i = 0; i < oUserTier.length; ++i) {
+    oUserTier[i].addEventListener('change', (evt) => {
+      Config.save(
+        Constants.CONFIG_SHOW_USER_TIER,
+        !!parseInt(evt.target.value)
+      );
+    });
+  }
+
+  Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+    // default as true
+    oUserTier[!(showUserTier === true) ? 0 : 1].checked = true;
+  });
+
+  // user:problem-tier
+  const oProblemTier = document.getElementById('option-problem-tier');
+  const oProblemTierColor = document.getElementById(
+    'option-problem-tier-color'
+  );
+  oProblemTier.addEventListener('change', (evt) => {
+    console.log(evt.target.checked);
+    Config.save(
+      Constants.CONFIG_SHOW_PROBLEM_TIER,
+      Boolean(oProblemTier.checked)
+    );
+  });
+  oProblemTierColor.addEventListener('change', (evt) => {
+    console.log(evt.target.checked);
+    Config.save(
+      Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR,
+      Boolean(oProblemTierColor.checked)
+    );
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (show) => {
+    oProblemTier.checked = !(show === false); // default as true
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
+    oProblemTierColor.checked = show;
   });
 
   // status:fake-text
@@ -106,7 +150,9 @@
     });
 
     oFakeText[i].addEventListener('input', onReformatChanged);
+    oFakeText[i].addEventListener('keyup', onReformatChanged);
   }
+
   // active button
   const oFakeTextActive = document.getElementsByClassName(
     'option-status-result'
@@ -194,4 +240,69 @@
     Config.save(key, reformat(value));
     Config.save(key + '-code', value);
   }
+
+  // global:font
+  const oExternalFontEnable = document.getElementById(
+    'option-global-font-enable'
+  );
+  const oExternalFontDisable = document.getElementById(
+    'option-global-font-disable'
+  );
+  const oFontForms = document.getElementById('global-font-setting');
+  const oFontFormURL = document.getElementById('font-url');
+  const oFontFormFamily = document.getElementById('font-family');
+  const exampleStyleTag = document.createElement('style');
+  oExternalFontEnable.addEventListener('change', () => {
+    enableFontStyleSetting(true);
+  });
+  oExternalFontDisable.addEventListener('change', () => {
+    enableFontStyleSetting(false);
+  });
+  oFontFormURL.addEventListener('keyup', () => {
+    updateAndSaveFontStyle(createFontRules(true));
+  });
+  oFontFormFamily.addEventListener('keyup', () => {
+    updateAndSaveFontStyle(createFontRules(true));
+  });
+
+  function enableFontStyleSetting(enabled) {
+    if (enabled) {
+      oExternalFontEnable.checked = true;
+      oFontForms.style.display = 'block';
+      if (!document.head.contains(exampleStyleTag)) {
+        document.head.appendChild(exampleStyleTag);
+      }
+    } else {
+      oExternalFontDisable.checked = true;
+      oFontForms.style.display = 'none';
+      if (document.head.contains(exampleStyleTag)) {
+        document.head.removeChild(exampleStyleTag);
+      }
+    }
+    updateAndSaveFontStyle(createFontRules(enabled));
+  }
+
+  function createFontRules(enabled) {
+    const url = oFontFormURL.value || '';
+    const family = oFontFormFamily.value || '';
+    return {
+      enabled,
+      url,
+      family,
+    };
+  }
+
+  function updateAndSaveFontStyle(rules) {
+    const tag = createFontStyleElement(rules);
+    exampleStyleTag.innerText = tag.innerText;
+    Config.save(Constants.CONFIG_FONT_STYLE, JSON.stringify(rules));
+  }
+
+  Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+    const rules = JSON.parse(rulesStr || '{}');
+    console.log('font rules', rules);
+    oFontFormURL.value = rules['url'] || '';
+    oFontFormFamily.value = rules['family'] || '';
+    enableFontStyleSetting(rules['enabled'] || false);
+  });
 })();

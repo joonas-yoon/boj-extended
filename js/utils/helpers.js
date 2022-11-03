@@ -237,7 +237,12 @@ function getProblemID(url) {
 
 function createProblemLinkElement(baseElement, problemsLookup, pid) {
   const a = baseElement.cloneNode();
-  const pname = problemsLookup[pid] || '*New Problem';
+  let pname = `(가져오기 실패)`;
+  try {
+    pname = problemsLookup[pid]['title'];
+  } catch (err) {
+    console.info(`No problem title for ${pid} yet`);
+  }
   a.classList.add('problem-link-style-box');
   a.innerHTML =
     '<span class="pid">' +
@@ -246,4 +251,23 @@ function createProblemLinkElement(baseElement, problemsLookup, pid) {
     pname +
     '</span>';
   return a;
+}
+
+function createFontStyleElement({ url, family }) {
+  const TAGS =
+    'body, input, button, select, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .purchase span';
+  const INHERITED_FONTS =
+    "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans CJK KR', 'Noto Sans KR', '나눔바른고딕', '나눔고딕', '맑은고딕', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'";
+  const importUrl = "@import url('" + url + "');";
+  const overrideRule =
+    TAGS +
+    ' { font-family: ' +
+    family +
+    ', ' +
+    INHERITED_FONTS +
+    ' !important; }';
+  const ruleString = (url ? importUrl : '') + (family ? overrideRule : '');
+  const styleTag = document.createElement('style');
+  styleTag.innerText = ruleString;
+  return styleTag;
 }

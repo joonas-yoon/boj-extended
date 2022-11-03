@@ -6,7 +6,6 @@ import os
 import json
 import requests
 
-MAX_TRIES = 500
 INTERVAL = 100
 API_HOST = 'https://solved.ac/api/v3'
 
@@ -24,19 +23,30 @@ def get_problem_details(ids):
     pids = '%2C'.join(list(map(str, ids)))
     try:
         return requests.get(f'{API_HOST}/problem/lookup?problemIds={pids}').json()
-    except:
+    except err:
+        print(err)
         return None
 
+
+def is_time_over(start_date):
+    return (datetime.now() - start_date).seconds / 3600 > 1.5
 
 total_count = get_problems_count()
 count = 0
 offset = 1000
 problems = {}
 prev_count = -10 ** 10
+start_date = datetime.now()
+total_tries = max(5, int(total_count / INTERVAL * 1.2))
 
 print('total problems:', total_count)
+print('total tries:', total_tries)
 
-for tries in range(MAX_TRIES):
+for tries in range(total_tries):
+    if is_time_over(start_date):
+        print('It takes too long')
+        exit(1)
+
     rows = get_problem_details(range(offset, offset + INTERVAL))
 
     for err in range(5):
@@ -45,6 +55,9 @@ for tries in range(MAX_TRIES):
         print('[Awating next retry....]')
         sleep(5 * 60 * 1000)
         rows = get_problem_details(range(offset, offset + INTERVAL))
+
+    if rows == None:
+        exit(1)
 
     rows_count = len(rows)
     count += rows_count

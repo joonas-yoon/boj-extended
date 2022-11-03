@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="/css/theme-dark.css" />
     <link rel="stylesheet" href="/css/theme-rigel.css" />
     <link rel="stylesheet" href="/css/status.css" />
+    <link rel="stylesheet" href="/css/user.css" />
 
     <style>
       td.result-msg-code {
@@ -64,6 +65,17 @@
       .form-group .col-xs-4,
       .form-group .col-xs-8:not(:last-child) {
         padding-bottom: 10px;
+      }
+      #global-font-setting {
+        margin-top: 5px;
+        display: none;
+      }
+      .problem-list a.problem-example-tag-color {
+        color: white;
+        background-color: #ec9a00;
+      }
+      html[theme='dark'] .problem-list a.problem-example-tag {
+        background-color: #3c3c3c;
       }
     </style>
 
@@ -116,6 +128,13 @@
                 href="https://github.com/joonas-yoon/boj-extended/issues"
                 target="_blank"
                 >버그 제보</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended"
+                target="_blank"
+                >도움이 되셨나요?</a
               >
             </li>
           </ul>
@@ -302,6 +321,104 @@
                     </div> -->
                   </div>
                 </div>
+                <!-- solved.ac -->
+                <div class="form-group">
+                  <!-- solved.ac:problem-tier -->
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="group-link"
+                    >문제 난이도<br /><img
+                      src="https://static.solved.ac/res/logo-blacktext.svg"
+                      style="height: 1em"
+                    />
+                  </label>
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-problem-tier"
+                          class="option-problem-tier"
+                        />
+                        <div
+                          class="problem-list"
+                          show-id="true"
+                          show-name="true"
+                          show-tier="true"
+                        >
+                          <a
+                            class="problem-link-style-box problem-example-tag"
+                            data-problem-id="1000"
+                            data-problem-title="A+B"
+                            data-tier="14"
+                            style="user-select: none"
+                            >1000</a
+                          >
+                          아이콘 표시
+                        </div>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-problem-tier-color"
+                          class="option-problem-tier-color"
+                        />
+                        <div
+                          class="problem-list"
+                          show-id="true"
+                          show-name="true"
+                          tier-color="true"
+                        >
+                          <a
+                            class="problem-link-style-box problem-example-tag-color"
+                            data-problem-id="1000"
+                            data-problem-title="A+B"
+                            data-tier="10"
+                            style="user-select: none"
+                            >1000</a
+                          >
+                          색상 표시
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  <!-- global:user-tier-->
+                  <label class="col-sm-2 col-xs-4 control-label" for="user-tier"
+                    >유저 티어<br /><img
+                      src="https://static.solved.ac/res/logo-blacktext.svg"
+                      style="height: 1em"
+                  /></label>
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
+                          value="1"
+                          checked
+                        />
+                        보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
+                          value="0"
+                        />
+                        보지 않기
+                      </label>
+                    </div>
+                  </div>
+                </div>
                 <!-- status:group-link -->
                 <div class="form-group">
                   <label
@@ -309,7 +426,7 @@
                     for="group-link"
                     >그룹 목록의 링크</label
                   >
-                  <div class="col-sm-10 col-xs-8">
+                  <div class="col-sm-4 col-xs-8">
                     <div class="radio">
                       <label>
                         <input
@@ -334,6 +451,68 @@
                           value="0"
                         />
                         보지 않기
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- global:font -->
+                <div class="form-group">
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="global-font"
+                    >외부 폰트 사용</label
+                  >
+                  <div class="col-sm-10 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          id="option-global-font-enable"
+                          name="global-font"
+                          value="1"
+                        />
+                        사용함
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-xs margin-left-5"
+                          data-toggle="modal"
+                          data-target="#helpFontModal"
+                        >
+                          도움말 보기
+                        </button>
+                      </label>
+                    </div>
+                    <div class="row" id="global-font-setting">
+                      <div class="col-sm-6">
+                        <label for="font-url">URL</label>
+                        <input
+                          id="font-url"
+                          class="form-control"
+                          placeholder="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="font-family">font-family</label>
+                        <input
+                          id="font-family"
+                          class="form-control"
+                          placeholder="Nanum Gothic"
+                        />
+                      </div>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          id="option-global-font-disable"
+                          name="global-font"
+                          value="0"
+                          checked
+                        />
+                        사용 안 함
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
                       </label>
                     </div>
                   </div>
@@ -652,6 +831,59 @@
                 </div>
               </form>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: how to get css link for external font -->
+    <div
+      class="modal fade"
+      id="helpFontModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="helpFontModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="helpFontModalLabel">
+              외부 폰트 사용 :: 도움말
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-warning">
+              폰트 변경 시, 사이트의 일부 레이아웃에 일그러짐이 있을 수
+              있습니다.
+            </div>
+            <p>
+              <a href="https://fonts.google.com/">Google Fonts</a>에서 폰트를
+              선택하신 후,
+            </p>
+            <p>
+              "Use on the web" 섹션에서 &lt;link&gt; 또는 @import 구문을
+              선택하시면 나오는 폰트의 CSS 링크를 복사한 후 붙여넣어 주세요.
+              <br />
+              해당 폰트의 CSS font-family 이름도 함께 적어주세요.
+            </p>
+            <p>
+              반드시 <a href="https://fonts.google.com/">Google Fonts</a>가
+              아니어도 됩니다. 폰트의 CSS 링크와 font-family 이름만 정확히
+              작성해주세요.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              닫기
+            </button>
           </div>
         </div>
       </div>

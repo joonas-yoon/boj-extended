@@ -1,11 +1,13 @@
 function extendGlobal() {
   extendTheme();
   extendWide();
+  extendFontStyle();
   extendReformatMessage();
   extendProblemPage();
   extendQuickSearch();
   extendProblemColor();
   extendLastViewPopup();
+  extendUserBadge();
 
   async function extendProblemColor() {
     const problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -49,41 +51,65 @@ function extendGlobal() {
       }
       console.log('load', window.bojextStatusHistories);
       Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
+        console.log('showFakeResult (default: true)', showFakeResult);
+        const formattingIfHasFake = (element, fakeText) => {
+          // true or null (default)
+          if (showFakeResult !== false) {
+            formatting(element, fakeText);
+          }
+        };
         // add fake result for each texts
-        showFakeResult = showFakeResult !== false; // true or null (default)
-        console.log('showFakeResult', showFakeResult);
         document.querySelectorAll('span[class^=result-]').forEach((element) => {
           if (element.getAttribute('class') === 'result-text') return;
-          const fakeText = document.createElement('span');
-          fakeText.setAttribute('class', 'result-fake-text');
-          fakeText.appendChild(element.firstChild.cloneNode(true));
-          fakeText.style.display = 'none';
+          const fakeText = Utils.createElement('span', {
+            class: 'result-fake-text',
+            style: 'display: none',
+            children: [element.firstChild.cloneNode(true)],
+          });
           const box = element.closest('.result-text');
           if (box !== null) {
             addFakeResult(box, fakeText);
             addObserver(box, (resultText) => {
-              const res = resultText.querySelector('span') || resultText;
-              const id = res.closest('tr').id;
-              // save current percentage
-              if (res.classList.contains('result-judging')) {
-                const percent = parseInt(res.innerText.match(/\d+/)) || null;
-                if (showHistory && percent !== null) updateHistory(id, percent);
-              } else {
-                const isAccept =
-                  res.classList.contains('result-ac') ||
-                  res.classList.contains('result-pac');
-                if (isAccept) deleteHistory(id);
-              }
-              if (showFakeResult) formatting(res, fakeText);
+              const statusElement = getStatusElement(resultText);
+              onStatusElementUpdated(statusElement, showHistory);
+              formattingIfHasFake(statusElement, fakeText);
             });
           } else {
             // /source, /share
             addFakeResult(element, fakeText);
           }
-          if (showFakeResult) formatting(element, fakeText);
+          formattingIfHasFake(element, fakeText);
         });
       });
     });
+
+    function onStatusElementUpdated(statusElement, showHistory) {
+      const statusId = getStatusId(statusElement);
+      // save current percentage
+      if (isUpdatable(statusElement)) {
+        const percent = parseInt(statusElement.innerText.match(/\d+/)) || null;
+        if (showHistory && percent !== null) {
+          updateHistory(statusId, percent);
+        }
+      } else if (isAcceptResult(statusElement)) {
+        deleteHistory(statusId);
+      }
+    }
+
+    function getStatusElement(el) {
+      return el.querySelector('span') || el;
+    }
+
+    function getStatusId(el) {
+      return el.closest('tr').id;
+    }
+
+    function isUpdatable(el) {
+      return (
+        el.classList.contains('result-judging') &&
+        !el.innerText.includes('런타임 에러 이유를 찾는 중')
+      );
+    }
 
     function addObserver(target, callback) {
       const observer = new MutationObserver(function (mutations) {
@@ -157,7 +183,7 @@ function extendGlobal() {
       const id = input.closest('tr').id;
       const ptext = td.querySelector('.result-latest');
       if (
-        !input.classList.contains('result-ac') &&
+        !isAcceptResult(input) &&
         window.bojextStatusHistories &&
         window.bojextStatusHistories[id] !== undefined
       ) {
@@ -196,6 +222,10 @@ function extendGlobal() {
       JSON.stringify(histories)
     );
     window.bojextStatusHistories = histories;
+  }
+
+  function isAcceptResult(el) {
+    return el.classList.contains('result-ac');
   }
 
   function extendLastViewPopup() {
@@ -262,5 +292,43 @@ function extendGlobal() {
       messageBox.appendChild(close);
       document.body.appendChild(messageBox);
     }
+  }
+
+  function extendFontStyle() {
+    Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+      const rules = JSON.parse(rulesStr || '{}');
+      if (rules['enabled']) {
+        document.head.appendChild(createFontStyleElement(rules));
+      }
+    });
+  }
+
+  function extendUserBadge() {
+    if (!isLoggedIn()) return;
+
+    const getTier = async (handle) => {
+      const cacheKey = `user:${handle}`;
+      const cacheValue = LocalCache.get(cacheKey);
+      if (cacheValue === null) return 0;
+      if (cacheValue !== undefined) return cacheValue.tier;
+      const info = await fetch(
+        `https://solved.ac/api/v3/user/show?handle=${handle}`
+      )
+        .then((res) => res.json())
+        .catch(() => null);
+      LocalCache.add(cacheKey, info);
+      console.log('cache updated', cacheKey, info);
+      return info === null ? 0 : info.tier;
+    };
+
+    Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+      // default as true
+      if (showUserTier === false) return;
+      const userTags = document.querySelectorAll('a[href^="/user/"');
+      userTags.forEach(async (tag) => {
+        const tier = await getTier(tag.innerText);
+        tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;
+      });
+    });
   }
 }
