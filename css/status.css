@@ -25,7 +25,7 @@
     width: 116px;
   }
 }
-@media (min-width: 993px) and (max-width: 1200px){
+@media (min-width: 993px) and (max-width: 1200px) {
   .table tr td:nth-child(3) > a[href^='/problem/'] {
     width: 122px;
   }

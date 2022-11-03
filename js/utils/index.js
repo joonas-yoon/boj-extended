@@ -57,10 +57,7 @@ const Utils = {
     div.appendChild(label);
     return div;
   },
-  createCheckboxElement: function (
-    labelText,
-    checkboxName
-  ) {
+  createCheckboxElement: function (labelText, checkboxName) {
     const randID = Math.random().toString(36).substr(2);
     const div = Utils.createElement('div', {
       class: 'form-check form-check-inline',
