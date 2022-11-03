@@ -253,21 +253,16 @@ function extendGlobal() {
         Constants.CONFIG_LOCATION_HISTORY,
         JSON.stringify(currentLocation)
       );
-      // for current session
-      sessionStorage.setItem(Constants.CONFIG_LOCATION_HISTORY, true);
     }, 100);
 
     function isSoLong(location) {
-      const fromSession = sessionStorage.getItem(
-        Constants.CONFIG_LOCATION_HISTORY
-      );
-      if (fromSession == null) return true;
-      if (location == null) return false;
+      if (!location) return false;
       try {
         const loc = JSON.parse(location);
         if (loc.href == window.location.href) return false;
         return NOW - loc.timestamp >= Constants.CONFIG_LOCATION_EXPIRE_MS;
       } catch (error) {
+        console.log('so long', error);
         return false;
       }
     }
