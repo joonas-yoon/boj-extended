@@ -1,3 +1,16 @@
+## 1.9.3
+
+**Features**
+
+- '문제 번호'와 '문제 제목' 보기를 체크 박스로 변경
+- - thanks to [@VertexToEdge](https://github.com/VertexToEdge)
+- - ![image](https://user-images.githubusercontent.com/9527681/199667796-7eca16ac-5b26-43a4-85fe-eabf65c5c6c3.png)
+
+**Fixes**
+
+- 같은 페이지에서 마지막으로 본 페이지를 표시하던 버그 수정
+- 캐시 업데이트 이전에 문제 색상이 변경되지 않던 버그 수정
+
 ## 1.9.2
 
 **Fixes**
@@ -374,6 +387,7 @@
 - - 이미지를 어둡게 변환하여 표시 [(#20)](https://github.com/joonas-yoon/boj-extended/issues/20)
 - 채점 현황
 - - 채점이 종료되면 몇 퍼센트(%)에서 틀렸는 지 임시로 표시 (해당 페이지의 전역 변수)
+- - thanks to [@zinccccc](https://www.acmicpc.net/user/zinccccc)
 - 그룹
 - - 그룹 목록에서 내부 메뉴로 바로 이동할 수 있는 링크 추가
 
