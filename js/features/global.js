@@ -17,7 +17,8 @@ function extendGlobal() {
       const href = el.getAttribute('href');
       if (href == '#') return;
       const pid = getProblemID(href);
-      if (pid !== null && problemInfo[pid]) {
+      const alreadyHavingColor = el.className.includes('result-');
+      if (pid !== null && !alreadyHavingColor && problemInfo[pid]) {
         el.classList.add(problemInfo[pid] || '');
       }
     });
