@@ -48,14 +48,14 @@ function extendRejudgePage() {
   });
 }
 
-function createCheckboxForm(onSave) {
+function createCheckboxForm(dispatchDisplay) {
   const { container: pidContainer, input: pidInput } =
     Utils.createCheckboxElement('문제 번호', 'option-status-pid');
   const { container: ptitleContainer, input: ptitleInput } =
     Utils.createCheckboxElement('문제 제목', 'option-status-ptitle');
 
   const dispatchChangeEvent = () => {
-    onSave({
+    dispatchDisplay({
       inputProblemId: pidInput,
       inputProblemTitle: ptitleInput,
     });
@@ -74,13 +74,13 @@ function createCheckboxForm(onSave) {
     onChangeCheckbox(Constants.CONFIG_SHOW_STATUS_PTITLE)
   );
 
-  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showPid) => {
-    pidInput.checked = !(showPid === false); // default as true
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showProbId) => {
+    pidInput.checked = !(showProbId === false); // default as true
     dispatchChangeEvent();
   });
 
-  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showTitle) => {
-    ptitleInput.checked = Boolean(showTitle);
+  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showProbTitle) => {
+    ptitleInput.checked = Boolean(showProbTitle);
     dispatchChangeEvent();
   });
 
