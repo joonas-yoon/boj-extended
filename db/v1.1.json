@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-03 19:14:29.668365",
+  "last_updated": "2022-11-04 19:15:14.293912",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7628,7 +7628,7 @@
     },
     "2943": {
       "title": "토끼",
-      "level": 8
+      "level": 9
     },
     "2944": {
       "title": "수박 던지기 게임",
@@ -34672,7 +34672,7 @@
     },
     "10439": {
       "title": "여왕님의 테라스",
-      "level": 15
+      "level": 14
     },
     "10440": {
       "title": "The Binary Search Efficiency Doubter",
@@ -41076,7 +41076,7 @@
     },
     "12095": {
       "title": "가장 오래 걸리는 스도쿠",
-      "level": 12
+      "level": 13
     },
     "12096": {
       "title": "",
@@ -48520,7 +48520,7 @@
     },
     "13978": {
       "title": "Cameras",
-      "level": 9
+      "level": 10
     },
     "13979": {
       "title": "Contest Strategy",
@@ -55964,7 +55964,7 @@
     },
     "15876": {
       "title": "Binary Counting",
-      "level": 6
+      "level": 7
     },
     "15877": {
       "title": "Apples and Bananas",
@@ -66508,7 +66508,7 @@
     },
     "18548": {
       "title": "Word Squared",
-      "level": 15
+      "level": 14
     },
     "18549": {
       "title": "Quoridor",
@@ -70400,7 +70400,7 @@
     },
     "19525": {
       "title": "Rectangle-free Grid",
-      "level": 18
+      "level": 20
     },
     "19526": {
       "title": "Cups and Beans",
@@ -73468,7 +73468,7 @@
     },
     "20299": {
       "title": "3대 측정",
-      "level": 4
+      "level": 3
     },
     "20300": {
       "title": "서강근육맨",
@@ -85476,7 +85476,7 @@
     },
     "23356": {
       "title": "Gets and Puts (Easy)",
-      "level": 18
+      "level": 19
     },
     "23357": {
       "title": "Gets and Puts (Hard)",
@@ -87552,7 +87552,7 @@
     },
     "23875": {
       "title": "Closest Cow Wins",
-      "level": 18
+      "level": 19
     },
     "23876": {
       "title": "Connecting Two Barns",
@@ -91808,7 +91808,7 @@
     },
     "24989": {
       "title": "Generator Tree",
-      "level": 0
+      "level": 26
     },
     "24990": {
       "title": "Hamilton - The Musical",
@@ -95284,11 +95284,11 @@
     },
     "25933": {
       "title": "Medal Ranking",
-      "level": 0
+      "level": 3
     },
     "25934": {
       "title": "Brownies vs. Candies vs. Cookies",
-      "level": 0
+      "level": 5
     },
     "25935": {
       "title": "Lemonade Stand",
@@ -95322,9 +95322,13 @@
       "title": "Turing’s Challenge",
       "level": 0
     },
+    "25949": {
+      "title": "Jar Game",
+      "level": 13
+    },
     "25954": {
       "title": "LCS 9",
-      "level": 0
+      "level": 27
     }
   }
 }
