@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-04 19:15:14.293912",
+  "last_updated": "2022-11-05 19:14:51.284862",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4288,7 +4288,7 @@
     },
     "2089": {
       "title": "-2진수",
-      "level": 8
+      "level": 9
     },
     "2090": {
       "title": "조화평균",
@@ -8860,7 +8860,7 @@
     },
     "3259": {
       "title": "PEOPLE",
-      "level": 10
+      "level": 11
     },
     "3260": {
       "title": "TEAMS",
@@ -13036,7 +13036,7 @@
     },
     "4336": {
       "title": "Temple of Dune",
-      "level": 11
+      "level": 12
     },
     "4337": {
       "title": "Ferry Loading II",
@@ -18656,7 +18656,7 @@
     },
     "5884": {
       "title": "감시 카메라",
-      "level": 12
+      "level": 13
     },
     "5885": {
       "title": "Islands",
@@ -25064,7 +25064,7 @@
     },
     "7890": {
       "title": "가까운 점 찾기",
-      "level": 25
+      "level": 24
     },
     "7891": {
       "title": "Can you add this?",
@@ -25116,7 +25116,7 @@
     },
     "7903": {
       "title": "Pearls",
-      "level": 9
+      "level": 10
     },
     "7904": {
       "title": "허프만 트리",
@@ -36464,7 +36464,7 @@
     },
     "10901": {
       "title": "Make superpalindrome!",
-      "level": 17
+      "level": 18
     },
     "10902": {
       "title": "Penalty calculation",
@@ -37512,7 +37512,7 @@
     },
     "11164": {
       "title": "Traveling Cellsperson",
-      "level": 5
+      "level": 6
     },
     "11165": {
       "title": "Dimensions",
@@ -56828,7 +56828,7 @@
     },
     "16102": {
       "title": "Catan’s Longest Road",
-      "level": 11
+      "level": 12
     },
     "16103": {
       "title": "Drawn and Quartered",
@@ -61020,7 +61020,7 @@
     },
     "17161": {
       "title": "편집 거리 (Hard)",
-      "level": 24
+      "level": 25
     },
     "17162": {
       "title": "가희의 수열놀이 (Small)",
@@ -63676,7 +63676,7 @@
     },
     "17837": {
       "title": "새로운 게임 2",
-      "level": 13
+      "level": 14
     },
     "17838": {
       "title": "커맨드",
@@ -71392,7 +71392,7 @@
     },
     "19778": {
       "title": "Игра",
-      "level": 0
+      "level": 10
     },
     "19779": {
       "title": "НОД и НОК",
@@ -72084,7 +72084,7 @@
     },
     "19951": {
       "title": "태상이의 훈련소 생활",
-      "level": 11
+      "level": 10
     },
     "19952": {
       "title": "인성 문제 있어??",
@@ -79236,7 +79236,7 @@
     },
     "21753": {
       "title": "Треугольник Паскаля",
-      "level": 12
+      "level": 13
     },
     "21754": {
       "title": "Два прямоугольника",
@@ -85680,7 +85680,7 @@
     },
     "23407": {
       "title": "Board Trick",
-      "level": 0
+      "level": 15
     },
     "23408": {
       "title": "Connectivity",
@@ -94516,7 +94516,7 @@
     },
     "25718": {
       "title": "Poker Game: Decision",
-      "level": 0
+      "level": 18
     },
     "25719": {
       "title": "Poker Game: Construction",
@@ -95288,7 +95288,7 @@
     },
     "25934": {
       "title": "Brownies vs. Candies vs. Cookies",
-      "level": 5
+      "level": 4
     },
     "25935": {
       "title": "Lemonade Stand",
@@ -95300,7 +95300,7 @@
     },
     "25937": {
       "title": "Balanced Strings",
-      "level": 0
+      "level": 11
     },
     "25938": {
       "title": "Towers of Hanoi Grid",
@@ -95324,7 +95324,7 @@
     },
     "25949": {
       "title": "Jar Game",
-      "level": 13
+      "level": 14
     },
     "25954": {
       "title": "LCS 9",
