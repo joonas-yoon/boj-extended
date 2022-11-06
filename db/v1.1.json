@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-05 19:14:51.284862",
+  "last_updated": "2022-11-06 19:14:07.104435",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5520,7 +5520,7 @@
     },
     "2412": {
       "title": "암벽 등반",
-      "level": 13
+      "level": 12
     },
     "2413": {
       "title": "비슷한 순열",
@@ -5780,7 +5780,7 @@
     },
     "2477": {
       "title": "참외밭",
-      "level": 8
+      "level": 9
     },
     "2478": {
       "title": "자물쇠",
@@ -15668,7 +15668,7 @@
     },
     "5014": {
       "title": "스타트링크",
-      "level": 11
+      "level": 10
     },
     "5015": {
       "title": "ls",
@@ -18660,7 +18660,7 @@
     },
     "5885": {
       "title": "Islands",
-      "level": 10
+      "level": 11
     },
     "5886": {
       "title": "Unlocking Blocks",
@@ -19140,7 +19140,7 @@
     },
     "6005": {
       "title": "Cow Pinball",
-      "level": 10
+      "level": 9
     },
     "6006": {
       "title": "Dizzy Cows",
@@ -23616,7 +23616,7 @@
     },
     "7482": {
       "title": "상자 만들기",
-      "level": 4
+      "level": 5
     },
     "7483": {
       "title": "Weird sort",
@@ -37716,7 +37716,7 @@
     },
     "11215": {
       "title": "Xortris",
-      "level": 0
+      "level": 18
     },
     "11216": {
       "title": "Shibuya Crossing",
@@ -38348,7 +38348,7 @@
     },
     "11391": {
       "title": "분배",
-      "level": 13
+      "level": 12
     },
     "11392": {
       "title": "색종이",
@@ -51044,7 +51044,7 @@
     },
     "14628": {
       "title": "입 챌린저",
-      "level": 12
+      "level": 13
     },
     "14629": {
       "title": "숫자 조각",
@@ -52488,7 +52488,7 @@
     },
     "15001": {
       "title": "Frog Leaps",
-      "level": 4
+      "level": 3
     },
     "15002": {
       "title": "Soccer Skills",
@@ -55328,7 +55328,7 @@
     },
     "15715": {
       "title": "배열과 gcd",
-      "level": 20
+      "level": 18
     },
     "15716": {
       "title": "딸기당근수박참외메론게임",
@@ -62404,7 +62404,7 @@
     },
     "17510": {
       "title": "Bigger Sokoban 40k",
-      "level": 25
+      "level": 24
     },
     "17511": {
       "title": "Capital",
@@ -63676,7 +63676,7 @@
     },
     "17837": {
       "title": "새로운 게임 2",
-      "level": 14
+      "level": 13
     },
     "17838": {
       "title": "커맨드",
@@ -76628,7 +76628,7 @@
     },
     "21097": {
       "title": "Circle",
-      "level": 20
+      "level": 19
     },
     "21098": {
       "title": "Composite Sequence",
@@ -81068,7 +81068,7 @@
     },
     "22223": {
       "title": "Table 2",
-      "level": 7
+      "level": 8
     },
     "22224": {
       "title": "Table 3",
@@ -87104,7 +87104,7 @@
     },
     "23763": {
       "title": "괄호 문자열 이동하기",
-      "level": 19
+      "level": 20
     },
     "23764": {
       "title": "서로소 게임",
@@ -95096,7 +95096,7 @@
     },
     "25873": {
       "title": "SGA President",
-      "level": 0
+      "level": 7
     },
     "25874": {
       "title": "Rounding Many Ways",
@@ -95261,6 +95261,58 @@
     "25914": {
       "title": "커모드 곰의 연어 사냥",
       "level": 19
+    },
+    "25915": {
+      "title": "연세여 사랑한다",
+      "level": 3
+    },
+    "25916": {
+      "title": "싫은데요",
+      "level": 10
+    },
+    "25917": {
+      "title": "Prime Arrangement",
+      "level": 11
+    },
+    "25918": {
+      "title": "북극곰은 괄호를 찢어",
+      "level": 10
+    },
+    "25919": {
+      "title": "Lost Edge",
+      "level": 14
+    },
+    "25920": {
+      "title": "Yonsei Formula 1",
+      "level": 16
+    },
+    "25921": {
+      "title": "건너 아는 사이",
+      "level": 12
+    },
+    "25922": {
+      "title": "비밀의 레시피",
+      "level": 14
+    },
+    "25923": {
+      "title": "동아리 박람회",
+      "level": 18
+    },
+    "25924": {
+      "title": "Darkest Dungeon",
+      "level": 0
+    },
+    "25925": {
+      "title": "안아줘요",
+      "level": 18
+    },
+    "25926": {
+      "title": "기러기 토마토 스위스 인도인 별똥별",
+      "level": 0
+    },
+    "25927": {
+      "title": "Parity Constraint Maximum Flow",
+      "level": 21
     },
     "25928": {
       "title": "Lightbulbs",
