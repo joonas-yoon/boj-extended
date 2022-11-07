@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-06 19:14:07.104435",
+  "last_updated": "2022-11-07 19:14:48.856462",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8856,7 +8856,7 @@
     },
     "3258": {
       "title": "컴포트",
-      "level": 9
+      "level": 8
     },
     "3259": {
       "title": "PEOPLE",
@@ -17764,7 +17764,7 @@
     },
     "5649": {
       "title": "Line of Best Fit",
-      "level": 13
+      "level": 11
     },
     "5650": {
       "title": "Software Licenses",
@@ -31332,7 +31332,7 @@
     },
     "9507": {
       "title": "Generations of Tribbles",
-      "level": 8
+      "level": 7
     },
     "9508": {
       "title": "Holodeck Hacking",
@@ -56804,7 +56804,7 @@
     },
     "16096": {
       "title": "Life on a Torus",
-      "level": 0
+      "level": 10
     },
     "16097": {
       "title": "Grumpy Groundhogs in Gridland",
@@ -87932,7 +87932,7 @@
     },
     "23971": {
       "title": "ZOAC 4",
-      "level": 3
+      "level": 2
     },
     "23972": {
       "title": "악마의 제안",
@@ -93692,7 +93692,7 @@
     },
     "25493": {
       "title": "까다로운 형제",
-      "level": 21
+      "level": 20
     },
     "25494": {
       "title": "단순한 문제 (Small)",
@@ -95136,7 +95136,7 @@
     },
     "25883": {
       "title": "Singin' in the Rain",
-      "level": 0
+      "level": 6
     },
     "25884": {
       "title": "Editor Navigation",
@@ -95184,7 +95184,7 @@
     },
     "25895": {
       "title": "Don’t Break the Ice",
-      "level": 0
+      "level": 5
     },
     "25896": {
       "title": "Wildest Dreams",
@@ -95288,7 +95288,7 @@
     },
     "25921": {
       "title": "건너 아는 사이",
-      "level": 12
+      "level": 13
     },
     "25922": {
       "title": "비밀의 레시피",
@@ -95308,11 +95308,11 @@
     },
     "25926": {
       "title": "기러기 토마토 스위스 인도인 별똥별",
-      "level": 0
+      "level": 19
     },
     "25927": {
       "title": "Parity Constraint Maximum Flow",
-      "level": 21
+      "level": 22
     },
     "25928": {
       "title": "Lightbulbs",
@@ -95356,15 +95356,15 @@
     },
     "25938": {
       "title": "Towers of Hanoi Grid",
-      "level": 0
+      "level": 12
     },
     "25939": {
       "title": "Reach for the Stars",
-      "level": 0
+      "level": 19
     },
     "25940": {
       "title": "Longest Path",
-      "level": 0
+      "level": 16
     },
     "25941": {
       "title": "You Shall Pass",
@@ -95372,6 +95372,18 @@
     },
     "25942": {
       "title": "Turing’s Challenge",
+      "level": 0
+    },
+    "25943": {
+      "title": "양팔저울",
+      "level": 7
+    },
+    "25945": {
+      "title": "컨테이너 재배치",
+      "level": 0
+    },
+    "25946": {
+      "title": "Flags",
       "level": 0
     },
     "25949": {
