@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-07 19:14:48.856462",
+  "last_updated": "2022-11-08 19:22:11.504576",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -776,7 +776,7 @@
     },
     "1193": {
       "title": "분수찾기",
-      "level": 5
+      "level": 6
     },
     "1194": {
       "title": "달이 차오른다, 가자.",
@@ -4748,7 +4748,7 @@
     },
     "2206": {
       "title": "벽 부수고 이동하기",
-      "level": 12
+      "level": 13
     },
     "2207": {
       "title": "가위바위보",
@@ -6284,7 +6284,7 @@
     },
     "2603": {
       "title": "고속버스 노선",
-      "level": 0
+      "level": 15
     },
     "2604": {
       "title": "농지 정리",
@@ -10388,7 +10388,7 @@
     },
     "3655": {
       "title": "먼저 가세요",
-      "level": 10
+      "level": 11
     },
     "3656": {
       "title": "수영장 만들기",
@@ -12616,7 +12616,7 @@
     },
     "4231": {
       "title": "Exchange Rates",
-      "level": 14
+      "level": 11
     },
     "4232": {
       "title": "Conformity",
@@ -15664,7 +15664,7 @@
     },
     "5013": {
       "title": "Death Knight Hero",
-      "level": 4
+      "level": 3
     },
     "5014": {
       "title": "스타트링크",
@@ -17640,7 +17640,7 @@
     },
     "5614": {
       "title": "問題 3",
-      "level": 8
+      "level": 7
     },
     "5615": {
       "title": "아파트 임대",
@@ -17732,7 +17732,7 @@
     },
     "5641": {
       "title": "겉보기에 쌍둥이 소수",
-      "level": 11
+      "level": 12
     },
     "5642": {
       "title": "퀸 게임",
@@ -22380,7 +22380,7 @@
     },
     "6991": {
       "title": "계통 트리",
-      "level": 19
+      "level": 20
     },
     "6992": {
       "title": "Arithmetic Sequence",
@@ -34960,7 +34960,7 @@
     },
     "10511": {
       "title": "Pork barrel",
-      "level": 22
+      "level": 21
     },
     "10512": {
       "title": "The Imp",
@@ -46276,7 +46276,7 @@
     },
     "13415": {
       "title": "정렬 게임",
-      "level": 15
+      "level": 14
     },
     "13416": {
       "title": "주식 투자",
@@ -56296,7 +56296,7 @@
     },
     "15969": {
       "title": "행복",
-      "level": 4
+      "level": 3
     },
     "15970": {
       "title": "화살표 그리기",
@@ -63256,7 +63256,7 @@
     },
     "17726": {
       "title": "Inheritance",
-      "level": 19
+      "level": 18
     },
     "17728": {
       "title": "Walls",
@@ -83524,7 +83524,7 @@
     },
     "22860": {
       "title": "폴더 정리 (small)",
-      "level": 13
+      "level": 12
     },
     "22861": {
       "title": "폴더 정리 (large)",
@@ -84540,7 +84540,7 @@
     },
     "23121": {
       "title": "Fancy Formulas",
-      "level": 18
+      "level": 17
     },
     "23122": {
       "title": "Glory Graph",
@@ -86524,7 +86524,7 @@
     },
     "23618": {
       "title": "Error in code",
-      "level": 13
+      "level": 14
     },
     "23619": {
       "title": "Birthday",
@@ -88928,7 +88928,7 @@
     },
     "24256": {
       "title": "Pretty sequences",
-      "level": 0
+      "level": 18
     },
     "24257": {
       "title": "Wall",
@@ -94244,7 +94244,7 @@
     },
     "25639": {
       "title": "수열과 최대 상승 쿼리",
-      "level": 19
+      "level": 20
     },
     "25640": {
       "title": "MBTI",
@@ -94708,7 +94708,7 @@
     },
     "25776": {
       "title": "Pseudo Pseudo Random Numbers",
-      "level": 7
+      "level": 6
     },
     "25777": {
       "title": "Word Tree",
@@ -95012,7 +95012,7 @@
     },
     "25852": {
       "title": "Gone Fishing",
-      "level": 0
+      "level": 19
     },
     "25853": {
       "title": "Sum of a Function",
@@ -95052,7 +95052,7 @@
     },
     "25862": {
       "title": "Give-a-Gnocchi",
-      "level": 0
+      "level": 11
     },
     "25863": {
       "title": "More or Less",
@@ -95156,7 +95156,7 @@
     },
     "25888": {
       "title": "Maximum Non-Overlapping Increasing Subsequences",
-      "level": 13
+      "level": 14
     },
     "25889": {
       "title": "Rotating Cards",
@@ -95192,7 +95192,7 @@
     },
     "25897": {
       "title": "Loopy Word Search",
-      "level": 0
+      "level": 8
     },
     "25898": {
       "title": "Dot the i’s and Cross the T’s",
@@ -95204,7 +95204,7 @@
     },
     "25900": {
       "title": "Count the Dividing Pairs",
-      "level": 0
+      "level": 14
     },
     "25901": {
       "title": "Lineup the Dominoes",
@@ -95216,7 +95216,7 @@
     },
     "25903": {
       "title": "Bouncing Bunnies",
-      "level": 0
+      "level": 17
     },
     "25904": {
       "title": "안녕 클레오파트라 세상에서 제일가는 포테이토칩",
@@ -95300,7 +95300,7 @@
     },
     "25924": {
       "title": "Darkest Dungeon",
-      "level": 0
+      "level": 18
     },
     "25925": {
       "title": "안아줘요",
@@ -95312,11 +95312,11 @@
     },
     "25927": {
       "title": "Parity Constraint Maximum Flow",
-      "level": 22
+      "level": 23
     },
     "25928": {
       "title": "Lightbulbs",
-      "level": 0
+      "level": 17
     },
     "25929": {
       "title": "Squaring the Triangle",
@@ -95352,7 +95352,7 @@
     },
     "25937": {
       "title": "Balanced Strings",
-      "level": 11
+      "level": 10
     },
     "25938": {
       "title": "Towers of Hanoi Grid",
@@ -95380,7 +95380,7 @@
     },
     "25945": {
       "title": "컨테이너 재배치",
-      "level": 0
+      "level": 7
     },
     "25946": {
       "title": "Flags",
