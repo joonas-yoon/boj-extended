@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-10 19:15:33.140439",
+  "last_updated": "2022-11-11 19:14:33.810476",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2260,7 +2260,7 @@
     },
     "1570": {
       "title": "오세준",
-      "level": 11
+      "level": 12
     },
     "1571": {
       "title": "단어 굴리기",
@@ -6332,7 +6332,7 @@
     },
     "2615": {
       "title": "오목",
-      "level": 10
+      "level": 9
     },
     "2616": {
       "title": "소형기관차",
@@ -7332,7 +7332,7 @@
     },
     "2869": {
       "title": "달팽이는 올라가고 싶다",
-      "level": 6
+      "level": 5
     },
     "2870": {
       "title": "수학숙제",
@@ -8176,7 +8176,7 @@
     },
     "3085": {
       "title": "사탕 게임",
-      "level": 9
+      "level": 8
     },
     "3086": {
       "title": "초콜릿 자르기",
@@ -11016,7 +11016,7 @@
     },
     "3825": {
       "title": "은행수",
-      "level": 11
+      "level": 12
     },
     "3826": {
       "title": "스타일리시",
@@ -12888,7 +12888,7 @@
     },
     "4299": {
       "title": "AFC 윔블던",
-      "level": 3
+      "level": 2
     },
     "4300": {
       "title": "Traditional BINGO",
@@ -14888,7 +14888,7 @@
     },
     "4811": {
       "title": "알약",
-      "level": 12
+      "level": 11
     },
     "4812": {
       "title": "Robot Navigation",
@@ -17724,7 +17724,7 @@
     },
     "5639": {
       "title": "이진 검색 트리",
-      "level": 12
+      "level": 11
     },
     "5640": {
       "title": "즐거운 색칠",
@@ -32064,7 +32064,7 @@
     },
     "9691": {
       "title": "Janosik",
-      "level": 8
+      "level": 9
     },
     "9692": {
       "title": "Blankets",
@@ -33616,7 +33616,7 @@
     },
     "10159": {
       "title": "저울",
-      "level": 12
+      "level": 13
     },
     "10160": {
       "title": "암호",
@@ -33636,7 +33636,7 @@
     },
     "10164": {
       "title": "격자상의 경로",
-      "level": 9
+      "level": 10
     },
     "10165": {
       "title": "버스 노선",
@@ -33916,7 +33916,7 @@
     },
     "10250": {
       "title": "ACM 호텔",
-      "level": 4
+      "level": 3
     },
     "10251": {
       "title": "운전 면허 시험",
@@ -34604,7 +34604,7 @@
     },
     "10422": {
       "title": "괄호",
-      "level": 13
+      "level": 12
     },
     "10423": {
       "title": "전기가 부족해",
@@ -36868,7 +36868,7 @@
     },
     "11003": {
       "title": "최솟값 찾기",
-      "level": 16
+      "level": 15
     },
     "11004": {
       "title": "K번째 수",
@@ -37060,7 +37060,7 @@
     },
     "11051": {
       "title": "이항 계수 2",
-      "level": 8
+      "level": 9
     },
     "11052": {
       "title": "카드 구매하기",
@@ -37716,7 +37716,7 @@
     },
     "11215": {
       "title": "Xortris",
-      "level": 18
+      "level": 17
     },
     "11216": {
       "title": "Shibuya Crossing",
@@ -39544,7 +39544,7 @@
     },
     "11690": {
       "title": "LCM(1, 2, ..., n)",
-      "level": 13
+      "level": 12
     },
     "11691": {
       "title": "LCM(i, j)",
@@ -47456,7 +47456,7 @@
     },
     "13711": {
       "title": "LCS 4",
-      "level": 15
+      "level": 16
     },
     "13712": {
       "title": "키르히호프의 법칙",
@@ -49592,7 +49592,7 @@
     },
     "14264": {
       "title": "정육각형과 삼각형",
-      "level": 3
+      "level": 2
     },
     "14265": {
       "title": "영선 수열",
@@ -50944,7 +50944,7 @@
     },
     "14603": {
       "title": "소금과 후추 (Large)",
-      "level": 19
+      "level": 20
     },
     "14604": {
       "title": "Over Fitting (Small)",
@@ -53644,7 +53644,7 @@
     },
     "15292": {
       "title": "Journey from Petersburg to Moscow",
-      "level": 23
+      "level": 24
     },
     "15293": {
       "title": "Knapsack Cryptosystem",
@@ -56812,11 +56812,11 @@
     },
     "16098": {
       "title": "Commuting Mathematicians",
-      "level": 0
+      "level": 14
     },
     "16099": {
       "title": "Larger Sport Facility",
-      "level": 0
+      "level": 1
     },
     "16100": {
       "title": "Andrew’s Amazing Architecture",
@@ -58500,7 +58500,7 @@
     },
     "16520": {
       "title": "Kaleidoscopic Palindromes",
-      "level": 9
+      "level": 8
     },
     "16521": {
       "title": "A Symmetrical Pizza",
@@ -58860,7 +58860,7 @@
     },
     "16610": {
       "title": "Jinxed Betting",
-      "level": 18
+      "level": 19
     },
     "16611": {
       "title": "Kleptography",
@@ -58968,7 +58968,7 @@
     },
     "16637": {
       "title": "괄호 추가하기",
-      "level": 12
+      "level": 13
     },
     "16638": {
       "title": "괄호 추가하기 2",
@@ -60928,7 +60928,7 @@
     },
     "17138": {
       "title": "습격자 초라기와 쿼리 (Easy)",
-      "level": 20
+      "level": 19
     },
     "17139": {
       "title": "습격자 초라기와 쿼리 (Normal)",
@@ -62632,7 +62632,7 @@
     },
     "17567": {
       "title": "Code Word",
-      "level": 15
+      "level": 14
     },
     "17568": {
       "title": "Dynamo Wheel",
@@ -65068,7 +65068,7 @@
     },
     "18185": {
       "title": "라면 사기 (Small)",
-      "level": 22
+      "level": 21
     },
     "18186": {
       "title": "라면 사기 (Large)",
@@ -66460,7 +66460,7 @@
     },
     "18536": {
       "title": "Tritwise Mex",
-      "level": 24
+      "level": 25
     },
     "18537": {
       "title": "Associativity Degree",
@@ -76564,7 +76564,7 @@
     },
     "21081": {
       "title": "Wandering",
-      "level": 16
+      "level": 15
     },
     "21082": {
       "title": "Assignment Problem",
@@ -84880,7 +84880,7 @@
     },
     "23206": {
       "title": "Which Planet is This?!",
-      "level": 19
+      "level": 18
     },
     "23207": {
       "title": "Preludes",
@@ -90428,7 +90428,7 @@
     },
     "24640": {
       "title": "Clean Up!",
-      "level": 0
+      "level": 17
     },
     "24641": {
       "title": "Day Streak",
@@ -90448,7 +90448,7 @@
     },
     "24645": {
       "title": "Halfway There",
-      "level": 0
+      "level": 16
     },
     "24646": {
       "title": "Imprecise Permutation Sort",
@@ -90456,15 +90456,15 @@
     },
     "24647": {
       "title": "Journey in Fog",
-      "level": 0
+      "level": 18
     },
     "24648": {
       "title": "Kaleidoscopic Route",
-      "level": 0
+      "level": 19
     },
     "24649": {
       "title": "Letters Q and F",
-      "level": 8
+      "level": 9
     },
     "24650": {
       "title": "Multithreaded Program",
@@ -93480,7 +93480,7 @@
     },
     "25432": {
       "title": "각성제",
-      "level": 22
+      "level": 23
     },
     "25433": {
       "title": "PLCS",
@@ -93916,7 +93916,7 @@
     },
     "25551": {
       "title": "멋쟁이 포닉스",
-      "level": 5
+      "level": 4
     },
     "25552": {
       "title": "잔디 예측하기",
@@ -95140,7 +95140,7 @@
     },
     "25884": {
       "title": "Editor Navigation",
-      "level": 0
+      "level": 11
     },
     "25885": {
       "title": "Simple Darts",
@@ -95148,11 +95148,11 @@
     },
     "25886": {
       "title": "Multimodal Transport",
-      "level": 0
+      "level": 13
     },
     "25887": {
       "title": "Videogame Probability",
-      "level": 13
+      "level": 12
     },
     "25888": {
       "title": "Maximum Non-Overlapping Increasing Subsequences",
@@ -95368,7 +95368,7 @@
     },
     "25941": {
       "title": "You Shall Pass",
-      "level": 0
+      "level": 19
     },
     "25942": {
       "title": "Turing’s Challenge",
