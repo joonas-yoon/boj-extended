@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-11 19:14:33.810476",
+  "last_updated": "2022-11-12 19:14:18.029632",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3872,7 +3872,7 @@
     },
     "1981": {
       "title": "배열에서 이동",
-      "level": 15
+      "level": 16
     },
     "1982": {
       "title": "호텔예약",
@@ -6556,7 +6556,7 @@
     },
     "2671": {
       "title": "잠수함식별",
-      "level": 10
+      "level": 11
     },
     "2672": {
       "title": "여러 직사각형의 전체 면적 구하기",
@@ -9416,7 +9416,7 @@
     },
     "3410": {
       "title": "Farm and factory",
-      "level": 24
+      "level": 25
     },
     "3411": {
       "title": "Jewel heist",
@@ -12416,7 +12416,7 @@
     },
     "4181": {
       "title": "Convex Hull",
-      "level": 16
+      "level": 17
     },
     "4182": {
       "title": "Slalom",
@@ -17764,7 +17764,7 @@
     },
     "5649": {
       "title": "Line of Best Fit",
-      "level": 11
+      "level": 12
     },
     "5650": {
       "title": "Software Licenses",
@@ -21304,7 +21304,7 @@
     },
     "6576": {
       "title": "쿼드 트리",
-      "level": 8
+      "level": 9
     },
     "6577": {
       "title": "From Dusk till Dawn (or Vladimir the Vampire)",
@@ -21720,7 +21720,7 @@
     },
     "6680": {
       "title": "Building a New Depot",
-      "level": 11
+      "level": 12
     },
     "6681": {
       "title": "Truck History",
@@ -36360,7 +36360,7 @@
     },
     "10875": {
       "title": "뱀",
-      "level": 17
+      "level": 16
     },
     "10876": {
       "title": "사전 조사",
@@ -43684,7 +43684,7 @@
     },
     "12755": {
       "title": "수면 장애",
-      "level": 6
+      "level": 7
     },
     "12756": {
       "title": "고급 여관",
@@ -44724,7 +44724,7 @@
     },
     "13015": {
       "title": "별 찍기 - 23",
-      "level": 6
+      "level": 7
     },
     "13016": {
       "title": "내 왼손에는 흑염룡이 잠들어 있다",
@@ -46284,7 +46284,7 @@
     },
     "13417": {
       "title": "카드 문자열",
-      "level": 7
+      "level": 8
     },
     "13418": {
       "title": "학교 탐방하기",
@@ -50956,7 +50956,7 @@
     },
     "14606": {
       "title": "피자 (Small)",
-      "level": 6
+      "level": 7
     },
     "14607": {
       "title": "피자 (Large)",
@@ -52572,7 +52572,7 @@
     },
     "15022": {
       "title": "Galactic Collegiate Programming Contest",
-      "level": 15
+      "level": 16
     },
     "15023": {
       "title": "Hubtown",
@@ -61316,7 +61316,7 @@
     },
     "17237": {
       "title": "Conquering A Castle",
-      "level": 11
+      "level": 12
     },
     "17238": {
       "title": "Delicious Pineapple Pizza",
@@ -61764,7 +61764,7 @@
     },
     "17349": {
       "title": "1루수가 누구야",
-      "level": 12
+      "level": 13
     },
     "17350": {
       "title": "2루수 이름이 뭐야",
@@ -74892,7 +74892,7 @@
     },
     "20663": {
       "title": "Janjetina",
-      "level": 21
+      "level": 22
     },
     "20664": {
       "title": "Patkice II",
@@ -75884,7 +75884,7 @@
     },
     "20911": {
       "title": "Knightly Knowledge",
-      "level": 13
+      "level": 12
     },
     "20912": {
       "title": "Lexicographical Lecturing",
@@ -85068,7 +85068,7 @@
     },
     "23253": {
       "title": "자료구조는 정말 최고야",
-      "level": 7
+      "level": 6
     },
     "23254": {
       "title": "나는 기말고사형 인간이야",
@@ -89572,7 +89572,7 @@
     },
     "24418": {
       "title": "알고리즘 수업 - 행렬 경로 문제 1",
-      "level": 7
+      "level": 8
     },
     "24419": {
       "title": "알고리즘 수업 - 행렬 경로 문제 2",
@@ -89624,7 +89624,7 @@
     },
     "24439": {
       "title": "바리스타의 힘",
-      "level": 15
+      "level": 16
     },
     "24440": {
       "title": "괄호 문자열 표기법 (Small)",
@@ -95100,7 +95100,7 @@
     },
     "25874": {
       "title": "Rounding Many Ways",
-      "level": 0
+      "level": 8
     },
     "25875": {
       "title": "World Cup Fever",
@@ -95108,7 +95108,7 @@
     },
     "25876": {
       "title": "First Last Sorting",
-      "level": 0
+      "level": 11
     },
     "25877": {
       "title": "Team Shirts/Jerseys",
@@ -95308,7 +95308,7 @@
     },
     "25926": {
       "title": "기러기 토마토 스위스 인도인 별똥별",
-      "level": 19
+      "level": 18
     },
     "25927": {
       "title": "Parity Constraint Maximum Flow",
