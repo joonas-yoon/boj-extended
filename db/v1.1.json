@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-13 19:14:37.067405",
+  "last_updated": "2022-11-14 19:14:23.256558",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -14176,7 +14176,7 @@
     },
     "4626": {
       "title": "가글",
-      "level": 9
+      "level": 8
     },
     "4627": {
       "title": "뛰어라 도마뱀",
@@ -21256,7 +21256,7 @@
     },
     "6564": {
       "title": "Global Roaming",
-      "level": 10
+      "level": 0
     },
     "6565": {
       "title": "Hard to Believe, but True!",
@@ -24364,7 +24364,7 @@
     },
     "7671": {
       "title": "Baking Cakes",
-      "level": 15
+      "level": 14
     },
     "7672": {
       "title": "Pool",
@@ -28320,7 +28320,7 @@
     },
     "8712": {
       "title": "Wężyk",
-      "level": 4
+      "level": 5
     },
     "8713": {
       "title": "Znak działania",
@@ -28336,7 +28336,7 @@
     },
     "8716": {
       "title": "Pole",
-      "level": 4
+      "level": 3
     },
     "8717": {
       "title": "Taśma",
@@ -31856,7 +31856,7 @@
     },
     "9639": {
       "title": "Omar Loves Candies",
-      "level": 10
+      "level": 0
     },
     "9640": {
       "title": "Modified LCS",
@@ -32196,7 +32196,7 @@
     },
     "9725": {
       "title": "Mod-3 Permutation",
-      "level": 10
+      "level": 9
     },
     "9726": {
       "title": "Negative Binary",
@@ -41648,11 +41648,11 @@
     },
     "12238": {
       "title": "Don't Break The Nile (Small)",
-      "level": 0
+      "level": 13
     },
     "12239": {
       "title": "Don't Break The Nile (Large)",
-      "level": 0
+      "level": 21
     },
     "12240": {
       "title": "Trie Sharding (Small)",
@@ -42136,7 +42136,7 @@
     },
     "12367": {
       "title": "Perfect Game (Large)",
-      "level": 11
+      "level": 12
     },
     "12368": {
       "title": "Havannah (Small)",
@@ -43820,7 +43820,7 @@
     },
     "12789": {
       "title": "도키도키 간식드리미",
-      "level": 7
+      "level": 8
     },
     "12790": {
       "title": "Mini Fantasy War",
@@ -44080,7 +44080,7 @@
     },
     "12854": {
       "title": "홍준이는 물리를 좋아해",
-      "level": 13
+      "level": 14
     },
     "12855": {
       "title": "홍준이는 FFT를 좋아해",
@@ -56308,7 +56308,7 @@
     },
     "15972": {
       "title": "물탱크",
-      "level": 19
+      "level": 18
     },
     "15973": {
       "title": "두 박스",
@@ -58876,7 +58876,7 @@
     },
     "16614": {
       "title": "Collecting Stars",
-      "level": 10
+      "level": 0
     },
     "16615": {
       "title": "Dropping Blocks",
@@ -63676,7 +63676,7 @@
     },
     "17837": {
       "title": "새로운 게임 2",
-      "level": 13
+      "level": 14
     },
     "17838": {
       "title": "커맨드",
@@ -65184,7 +65184,7 @@
     },
     "18214": {
       "title": "Reordering the Documents",
-      "level": 19
+      "level": 20
     },
     "18215": {
       "title": "Halting Problem",
@@ -67484,7 +67484,7 @@
     },
     "18792": {
       "title": "N의 배수 (3)",
-      "level": 25
+      "level": 26
     },
     "18793": {
       "title": "팰린드롬 덧셈",
@@ -82172,7 +82172,7 @@
     },
     "22522": {
       "title": "Set-constructing Witch",
-      "level": 0
+      "level": 18
     },
     "22523": {
       "title": "Soul Gem Game",
@@ -82532,7 +82532,7 @@
     },
     "22612": {
       "title": "Mirror Cave",
-      "level": 13
+      "level": 14
     },
     "22613": {
       "title": "Shore Erosion",
@@ -87164,7 +87164,7 @@
     },
     "23778": {
       "title": "Lucky Shirt",
-      "level": 0
+      "level": 20
     },
     "23779": {
       "title": "Silver Star Stands Alone",
@@ -89716,7 +89716,7 @@
     },
     "24462": {
       "title": "일어나... 코딩해야지...",
-      "level": 10
+      "level": 11
     },
     "24463": {
       "title": "미로",
@@ -90348,7 +90348,7 @@
     },
     "24620": {
       "title": "Sleeping in Class",
-      "level": 12
+      "level": 13
     },
     "24621": {
       "title": "Photoshoot 2",
@@ -90372,7 +90372,7 @@
     },
     "24626": {
       "title": "Градусы, радианы, грады",
-      "level": 6
+      "level": 0
     },
     "24627": {
       "title": "Подстроки и подпоследовательности",
@@ -91432,7 +91432,7 @@
     },
     "24892": {
       "title": "이차 함수",
-      "level": 14
+      "level": 15
     },
     "24893": {
       "title": "캐슬 디펜스",
@@ -91800,7 +91800,7 @@
     },
     "24987": {
       "title": "Expedition Plans",
-      "level": 0
+      "level": 22
     },
     "24988": {
       "title": "Fields Division",
@@ -91828,7 +91828,7 @@
     },
     "24994": {
       "title": "Leaving Yharnam",
-      "level": 0
+      "level": 20
     },
     "24995": {
       "title": "Most Ordered Way",
@@ -94704,11 +94704,11 @@
     },
     "25775": {
       "title": "Letter Frequency",
-      "level": 6
+      "level": 5
     },
     "25776": {
       "title": "Pseudo Pseudo Random Numbers",
-      "level": 6
+      "level": 7
     },
     "25777": {
       "title": "Word Tree",
@@ -95312,7 +95312,7 @@
     },
     "25927": {
       "title": "Parity Constraint Maximum Flow",
-      "level": 23
+      "level": 22
     },
     "25928": {
       "title": "Lightbulbs",
@@ -95384,7 +95384,7 @@
     },
     "25946": {
       "title": "Flags",
-      "level": 0
+      "level": 21
     },
     "25947": {
       "title": "선물할인",
@@ -95416,23 +95416,23 @@
     },
     "25959": {
       "title": "계단 만들기 (Large)",
-      "level": 20
+      "level": 19
     },
     "25960": {
       "title": "폰의 각성",
-      "level": 0
+      "level": 17
     },
     "25961": {
       "title": "스코어보드 보기 귀찮아",
-      "level": 19
+      "level": 17
     },
     "25962": {
       "title": "선우의 셋리스트",
-      "level": 0
+      "level": 15
     },
     "25963": {
       "title": "계단 만들기 (Small)",
-      "level": 0
+      "level": 14
     },
     "25964": {
       "title": "헨젤과 그레텔",
@@ -95444,31 +95444,31 @@
     },
     "25966": {
       "title": "배찬우는 배열을 좋아해",
-      "level": 0
+      "level": 6
     },
     "25967": {
       "title": "교수님 서운해 잉잉",
-      "level": 0
+      "level": 15
     },
     "25968": {
       "title": "구분구적",
-      "level": 0
+      "level": 14
     },
     "25969": {
       "title": "현대 모비스 자율 주행 시스템",
-      "level": 0
+      "level": 14
     },
     "25970": {
       "title": "현대 모비스 에어 서스펜션",
-      "level": 0
+      "level": 13
     },
     "25971": {
       "title": "태풍 예보",
-      "level": 16
+      "level": 15
     },
     "25972": {
       "title": "도미노 무너트리기",
-      "level": 0
+      "level": 7
     },
     "25973": {
       "title": "어지러운 트리",
