@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-14 19:14:23.256558",
+  "last_updated": "2022-11-15 19:13:38.904143",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3244,7 +3244,7 @@
     },
     "1819": {
       "title": "불끄기",
-      "level": 0
+      "level": 16
     },
     "1820": {
       "title": "Partitioning for fun and profit",
@@ -6820,7 +6820,7 @@
     },
     "2737": {
       "title": "연속 합",
-      "level": 12
+      "level": 13
     },
     "2738": {
       "title": "행렬 덧셈",
@@ -12416,7 +12416,7 @@
     },
     "4181": {
       "title": "Convex Hull",
-      "level": 17
+      "level": 16
     },
     "4182": {
       "title": "Slalom",
@@ -16860,7 +16860,7 @@
     },
     "5405": {
       "title": "프랙탈 거리",
-      "level": 18
+      "level": 16
     },
     "5406": {
       "title": "No Smoking, Please",
@@ -24364,7 +24364,7 @@
     },
     "7671": {
       "title": "Baking Cakes",
-      "level": 14
+      "level": 15
     },
     "7672": {
       "title": "Pool",
@@ -24460,7 +24460,7 @@
     },
     "7695": {
       "title": "Brackets",
-      "level": 11
+      "level": 13
     },
     "7696": {
       "title": "반복하지 않는 수",
@@ -28208,7 +28208,7 @@
     },
     "8684": {
       "title": "Losy",
-      "level": 10
+      "level": 11
     },
     "8685": {
       "title": "Zapałki",
@@ -30628,7 +30628,7 @@
     },
     "9319": {
       "title": "도청 장치",
-      "level": 9
+      "level": 10
     },
     "9320": {
       "title": "금고 열기",
@@ -30640,7 +30640,7 @@
     },
     "9322": {
       "title": "철벽 보안 알고리즘",
-      "level": 6
+      "level": 7
     },
     "9323": {
       "title": "무임승차",
@@ -49768,7 +49768,7 @@
     },
     "14308": {
       "title": "Safe Squares (Small)",
-      "level": 6
+      "level": 5
     },
     "14309": {
       "title": "Safe Squares (Large)",
@@ -49776,11 +49776,11 @@
     },
     "14310": {
       "title": "Evaluation (Small)",
-      "level": 6
+      "level": 9
     },
     "14311": {
       "title": "Evaluation (Large)",
-      "level": 6
+      "level": 9
     },
     "14312": {
       "title": "Soldiers (Small)",
@@ -50856,7 +50856,7 @@
     },
     "14581": {
       "title": "팬들에게 둘러싸인 홍준",
-      "level": 2
+      "level": 1
     },
     "14582": {
       "title": "오늘도 졌다",
@@ -55112,7 +55112,7 @@
     },
     "15661": {
       "title": "링크와 스타트",
-      "level": 11
+      "level": 10
     },
     "15662": {
       "title": "톱니바퀴 (2)",
@@ -60220,7 +60220,7 @@
     },
     "16950": {
       "title": "레드 블루 스패닝 트리 2",
-      "level": 20
+      "level": 19
     },
     "16951": {
       "title": "블록 놀이",
@@ -62324,7 +62324,7 @@
     },
     "17490": {
       "title": "일감호에 다리 놓기",
-      "level": 12
+      "level": 13
     },
     "17491": {
       "title": "고양이 밥주기",
@@ -68448,7 +68448,7 @@
     },
     "19034": {
       "title": "Form the Maximal Set",
-      "level": 0
+      "level": 17
     },
     "19035": {
       "title": "Game With Triangles",
@@ -81264,7 +81264,7 @@
     },
     "22276": {
       "title": "May I Add a Letter?",
-      "level": 0
+      "level": 25
     },
     "22277": {
       "title": "Non-Integer Donuts",
@@ -85492,7 +85492,7 @@
     },
     "23360": {
       "title": "QuackQuack (Easy)",
-      "level": 16
+      "level": 17
     },
     "23361": {
       "title": "QuackQuack (Hard)",
@@ -86332,7 +86332,7 @@
     },
     "23570": {
       "title": "Grid Triangle",
-      "level": 17
+      "level": 18
     },
     "23571": {
       "title": "John’s Gift",
@@ -87148,7 +87148,7 @@
     },
     "23774": {
       "title": "Heating Up",
-      "level": 18
+      "level": 19
     },
     "23775": {
       "title": "IXth Problem",
@@ -87164,7 +87164,7 @@
     },
     "23778": {
       "title": "Lucky Shirt",
-      "level": 20
+      "level": 21
     },
     "23779": {
       "title": "Silver Star Stands Alone",
@@ -87568,7 +87568,7 @@
     },
     "23879": {
       "title": "Air Cownditioning",
-      "level": 12
+      "level": 13
     },
     "23880": {
       "title": "Walking Home",
@@ -90172,7 +90172,7 @@
     },
     "24576": {
       "title": "Good Influencers",
-      "level": 17
+      "level": 19
     },
     "24577": {
       "title": "Espresso!",
@@ -90492,7 +90492,7 @@
     },
     "24656": {
       "title": "Destructive Game",
-      "level": 17
+      "level": 18
     },
     "24657": {
       "title": "Edges, Colors and MST",
@@ -91784,7 +91784,7 @@
     },
     "24983": {
       "title": "Ancient Towers",
-      "level": 0
+      "level": 23
     },
     "24984": {
       "title": "Because, Art!",
@@ -93688,7 +93688,7 @@
     },
     "25492": {
       "title": "전깃줄 연결",
-      "level": 19
+      "level": 20
     },
     "25493": {
       "title": "까다로운 형제",
@@ -93960,7 +93960,7 @@
     },
     "25562": {
       "title": "차의 개수",
-      "level": 7
+      "level": 8
     },
     "25563": {
       "title": "AND, OR, XOR",
@@ -95156,7 +95156,7 @@
     },
     "25888": {
       "title": "Maximum Non-Overlapping Increasing Subsequences",
-      "level": 14
+      "level": 15
     },
     "25889": {
       "title": "Rotating Cards",
@@ -95312,7 +95312,7 @@
     },
     "25927": {
       "title": "Parity Constraint Maximum Flow",
-      "level": 22
+      "level": 23
     },
     "25928": {
       "title": "Lightbulbs",
@@ -95424,7 +95424,7 @@
     },
     "25961": {
       "title": "스코어보드 보기 귀찮아",
-      "level": 17
+      "level": 18
     },
     "25962": {
       "title": "선우의 셋리스트",
@@ -95497,6 +95497,66 @@
     "25979": {
       "title": "시간 구간 다중 업데이트 최대 합",
       "level": 10
+    },
+    "25980": {
+      "title": "Abbreviated Aliases",
+      "level": 6
+    },
+    "25981": {
+      "title": "Bubble-bubble Sort",
+      "level": 5
+    },
+    "25982": {
+      "title": "Cookbook Composition",
+      "level": 0
+    },
+    "25983": {
+      "title": "Dimensional Debugging",
+      "level": 0
+    },
+    "25984": {
+      "title": "Extended Braille",
+      "level": 7
+    },
+    "25985": {
+      "title": "Fastestest Function",
+      "level": 0
+    },
+    "25986": {
+      "title": "Guessing Primes",
+      "level": 0
+    },
+    "25987": {
+      "title": "Heavy Hauling",
+      "level": 0
+    },
+    "25988": {
+      "title": "Inked Inscriptions",
+      "level": 0
+    },
+    "25989": {
+      "title": "Jabbing Jets",
+      "level": 8
+    },
+    "25990": {
+      "title": "Knitting Patterns",
+      "level": 0
+    },
+    "25991": {
+      "title": "Lots of Liquid",
+      "level": 2
+    },
+    "25992": {
+      "title": "Adjusted Average",
+      "level": 0
+    },
+    "25993": {
+      "title": "Bellevue",
+      "level": 0
+    },
+    "25994": {
+      "title": "Crashing Competition Computer",
+      "level": 0
     }
   }
 }
