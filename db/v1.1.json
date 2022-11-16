@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-15 19:13:38.904143",
+  "last_updated": "2022-11-16 19:14:25.938767",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -188,7 +188,7 @@
     },
     "1046": {
       "title": "그림자",
-      "level": 24
+      "level": 23
     },
     "1047": {
       "title": "울타리",
@@ -1140,7 +1140,7 @@
     },
     "1285": {
       "title": "동전 뒤집기",
-      "level": 14
+      "level": 15
     },
     "1286": {
       "title": "부분 직사각형",
@@ -2604,7 +2604,7 @@
     },
     "1656": {
       "title": "덜컹덜컹",
-      "level": 11
+      "level": 12
     },
     "1657": {
       "title": "두부장수 장홍준",
@@ -7976,7 +7976,7 @@
     },
     "3030": {
       "title": "테니스",
-      "level": 15
+      "level": 14
     },
     "3031": {
       "title": "리그",
@@ -10152,7 +10152,7 @@
     },
     "3596": {
       "title": "크로스와 크로스",
-      "level": 19
+      "level": 18
     },
     "3597": {
       "title": "Domestic Networks",
@@ -11512,11 +11512,11 @@
     },
     "3952": {
       "title": "Mystery",
-      "level": 6
+      "level": 8
     },
     "3953": {
       "title": "Battleship",
-      "level": 0
+      "level": 11
     },
     "3954": {
       "title": "Brainf**k 인터프리터",
@@ -13008,7 +13008,7 @@
     },
     "4329": {
       "title": "Genealogical Research",
-      "level": 0
+      "level": 12
     },
     "4330": {
       "title": "Treasure Map",
@@ -13072,7 +13072,7 @@
     },
     "4345": {
       "title": "Time Zones",
-      "level": 8
+      "level": 9
     },
     "4346": {
       "title": "Trains",
@@ -14204,7 +14204,7 @@
     },
     "4633": {
       "title": "Permutation Code",
-      "level": 0
+      "level": 10
     },
     "4634": {
       "title": "Ink Blots",
@@ -21364,7 +21364,7 @@
     },
     "6591": {
       "title": "이항 쇼다운",
-      "level": 7
+      "level": 8
     },
     "6592": {
       "title": "Compromise",
@@ -21652,7 +21652,7 @@
     },
     "6663": {
       "title": "Emag eht htiw Em Pleh",
-      "level": 0
+      "level": 6
     },
     "6664": {
       "title": "Failing Roads",
@@ -30472,7 +30472,7 @@
     },
     "9280": {
       "title": "False Sense of Security",
-      "level": 0
+      "level": 7
     },
     "9281": {
       "title": "전차",
@@ -30684,7 +30684,7 @@
     },
     "9333": {
       "title": "돈 갚기",
-      "level": 9
+      "level": 10
     },
     "9334": {
       "title": "IQ 테스트",
@@ -33060,7 +33060,7 @@
     },
     "10019": {
       "title": "Sabotage",
-      "level": 17
+      "level": 18
     },
     "10020": {
       "title": "Counting Friends",
@@ -34280,7 +34280,7 @@
     },
     "10341": {
       "title": "(More) Multiplication",
-      "level": 0
+      "level": 10
     },
     "10342": {
       "title": "Fun House",
@@ -34296,7 +34296,7 @@
     },
     "10345": {
       "title": "Word Cloud",
-      "level": 0
+      "level": 8
     },
     "10346": {
       "title": "The Maze Makers",
@@ -35324,7 +35324,7 @@
     },
     "10614": {
       "title": "SABOR",
-      "level": 0
+      "level": 16
     },
     "10615": {
       "title": "STANOVI",
@@ -40840,7 +40840,7 @@
     },
     "12036": {
       "title": "Dance Around The Clock (Large)",
-      "level": 9
+      "level": 10
     },
     "12037": {
       "title": "Polynesiaglot (Small1)",
@@ -50120,7 +50120,7 @@
     },
     "14396": {
       "title": "수열 순열",
-      "level": 16
+      "level": 17
     },
     "14397": {
       "title": "해변",
@@ -64256,7 +64256,7 @@
     },
     "17982": {
       "title": "Climbing Stairs",
-      "level": 0
+      "level": 9
     },
     "17983": {
       "title": "Drive Safely",
@@ -74488,7 +74488,7 @@
     },
     "20562": {
       "title": "휴식",
-      "level": 18
+      "level": 19
     },
     "20563": {
       "title": "Counting Stars",
@@ -87980,7 +87980,7 @@
     },
     "23983": {
       "title": "Product Triplets",
-      "level": 11
+      "level": 12
     },
     "23984": {
       "title": "Combining Classes",
@@ -90448,7 +90448,7 @@
     },
     "24645": {
       "title": "Halfway There",
-      "level": 16
+      "level": 17
     },
     "24646": {
       "title": "Imprecise Permutation Sort",
@@ -95424,7 +95424,7 @@
     },
     "25961": {
       "title": "스코어보드 보기 귀찮아",
-      "level": 18
+      "level": 17
     },
     "25962": {
       "title": "선우의 셋리스트",
@@ -95472,7 +95472,7 @@
     },
     "25973": {
       "title": "어지러운 트리",
-      "level": 18
+      "level": 19
     },
     "25974": {
       "title": "거듭제곱의 합 1",
@@ -95508,11 +95508,11 @@
     },
     "25982": {
       "title": "Cookbook Composition",
-      "level": 0
+      "level": 14
     },
     "25983": {
       "title": "Dimensional Debugging",
-      "level": 0
+      "level": 11
     },
     "25984": {
       "title": "Extended Braille",
@@ -95520,11 +95520,11 @@
     },
     "25985": {
       "title": "Fastestest Function",
-      "level": 0
+      "level": 2
     },
     "25986": {
       "title": "Guessing Primes",
-      "level": 0
+      "level": 15
     },
     "25987": {
       "title": "Heavy Hauling",
@@ -95532,7 +95532,7 @@
     },
     "25988": {
       "title": "Inked Inscriptions",
-      "level": 0
+      "level": 19
     },
     "25989": {
       "title": "Jabbing Jets",
@@ -95548,14 +95548,50 @@
     },
     "25992": {
       "title": "Adjusted Average",
-      "level": 0
+      "level": 15
     },
     "25993": {
       "title": "Bellevue",
-      "level": 0
+      "level": 9
     },
     "25994": {
       "title": "Crashing Competition Computer",
+      "level": 0
+    },
+    "25995": {
+      "title": "Dividing DNA",
+      "level": 15
+    },
+    "25996": {
+      "title": "Equalising Audio",
+      "level": 7
+    },
+    "25997": {
+      "title": "Failing Flagship",
+      "level": 8
+    },
+    "25998": {
+      "title": "Grinding Gravel",
+      "level": 0
+    },
+    "25999": {
+      "title": "House Numbering",
+      "level": 0
+    },
+    "26000": {
+      "title": "Imperfect Imperial Units",
+      "level": 0
+    },
+    "26001": {
+      "title": "Jagged Skyline",
+      "level": 17
+    },
+    "26002": {
+      "title": "Kiosk Construction",
+      "level": 13
+    },
+    "26003": {
+      "title": "Lowest Latency",
       "level": 0
     }
   }
