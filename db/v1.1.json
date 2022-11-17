@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-16 19:14:25.938767",
+  "last_updated": "2022-11-17 19:13:56.800402",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5168,7 +5168,7 @@
     },
     "2313": {
       "title": "보석 구매하기",
-      "level": 11
+      "level": 10
     },
     "2314": {
       "title": "이세계 게임",
@@ -9220,7 +9220,7 @@
     },
     "3354": {
       "title": "Matching Bins",
-      "level": 17
+      "level": 16
     },
     "3355": {
       "title": "Candies",
@@ -13808,7 +13808,7 @@
     },
     "4534": {
       "title": "The Sidewinder Sleeps Tonite",
-      "level": 11
+      "level": 12
     },
     "4535": {
       "title": "Rout 66",
@@ -14108,7 +14108,7 @@
     },
     "4609": {
       "title": "Here We Go(relians) Again",
-      "level": 11
+      "level": 12
     },
     "4610": {
       "title": "Electronic Document Security",
@@ -33960,7 +33960,7 @@
     },
     "10261": {
       "title": "Catalan Square",
-      "level": 6
+      "level": 7
     },
     "10262": {
       "title": "주사위 게임",
@@ -35288,7 +35288,7 @@
     },
     "10605": {
       "title": "드래곤 죽이기",
-      "level": 17
+      "level": 16
     },
     "10606": {
       "title": "Toll",
@@ -41520,7 +41520,7 @@
     },
     "12206": {
       "title": "Seven-segment Display (Small)",
-      "level": 11
+      "level": 12
     },
     "12207": {
       "title": "Seven-segment Display (Large)",
@@ -42132,11 +42132,11 @@
     },
     "12366": {
       "title": "Perfect Game (Small)",
-      "level": 5
+      "level": 6
     },
     "12367": {
       "title": "Perfect Game (Large)",
-      "level": 12
+      "level": 13
     },
     "12368": {
       "title": "Havannah (Small)",
@@ -49776,11 +49776,11 @@
     },
     "14310": {
       "title": "Evaluation (Small)",
-      "level": 9
+      "level": 11
     },
     "14311": {
       "title": "Evaluation (Large)",
-      "level": 9
+      "level": 11
     },
     "14312": {
       "title": "Soldiers (Small)",
@@ -51416,7 +51416,7 @@
     },
     "14731": {
       "title": "謎紛芥索紀 (Large)",
-      "level": 9
+      "level": 10
     },
     "14732": {
       "title": "행사장 대여 (Small)",
@@ -59956,7 +59956,7 @@
     },
     "16884": {
       "title": "나이트 게임",
-      "level": 12
+      "level": 13
     },
     "16885": {
       "title": "벡터의 합",
@@ -68448,7 +68448,7 @@
     },
     "19034": {
       "title": "Form the Maximal Set",
-      "level": 17
+      "level": 18
     },
     "19035": {
       "title": "Game With Triangles",
@@ -73468,7 +73468,7 @@
     },
     "20299": {
       "title": "3대 측정",
-      "level": 3
+      "level": 4
     },
     "20300": {
       "title": "서강근육맨",
@@ -76648,7 +76648,7 @@
     },
     "21102": {
       "title": "Local Maxima",
-      "level": 23
+      "level": 22
     },
     "21103": {
       "title": "Maximum Subsequence",
@@ -84440,7 +84440,7 @@
     },
     "23096": {
       "title": "Tobacco Growing",
-      "level": 0
+      "level": 22
     },
     "23097": {
       "title": "Rescue Mission",
@@ -93484,7 +93484,7 @@
     },
     "25433": {
       "title": "PLCS",
-      "level": 25
+      "level": 26
     },
     "25434": {
       "title": "Magic Cards",
@@ -93640,7 +93640,7 @@
     },
     "25478": {
       "title": "Marinada",
-      "level": 17
+      "level": 16
     },
     "25479": {
       "title": "Watt",
@@ -95472,7 +95472,7 @@
     },
     "25973": {
       "title": "어지러운 트리",
-      "level": 19
+      "level": 18
     },
     "25974": {
       "title": "거듭제곱의 합 1",
@@ -95520,7 +95520,7 @@
     },
     "25985": {
       "title": "Fastestest Function",
-      "level": 2
+      "level": 3
     },
     "25986": {
       "title": "Guessing Primes",
@@ -95548,7 +95548,7 @@
     },
     "25992": {
       "title": "Adjusted Average",
-      "level": 15
+      "level": 16
     },
     "25993": {
       "title": "Bellevue",
@@ -95556,15 +95556,15 @@
     },
     "25994": {
       "title": "Crashing Competition Computer",
-      "level": 0
+      "level": 16
     },
     "25995": {
       "title": "Dividing DNA",
-      "level": 15
+      "level": 13
     },
     "25996": {
       "title": "Equalising Audio",
-      "level": 7
+      "level": 8
     },
     "25997": {
       "title": "Failing Flagship",
@@ -95576,22 +95576,74 @@
     },
     "25999": {
       "title": "House Numbering",
-      "level": 0
+      "level": 18
     },
     "26000": {
       "title": "Imperfect Imperial Units",
-      "level": 0
+      "level": 13
     },
     "26001": {
       "title": "Jagged Skyline",
-      "level": 17
+      "level": 18
     },
     "26002": {
       "title": "Kiosk Construction",
-      "level": 13
+      "level": 14
     },
     "26003": {
       "title": "Lowest Latency",
+      "level": 0
+    },
+    "26011": {
+      "title": "Alternative Architecture",
+      "level": 7
+    },
+    "26012": {
+      "title": "Breeding Bugs",
+      "level": 18
+    },
+    "26013": {
+      "title": "Chaotic Construction",
+      "level": 0
+    },
+    "26014": {
+      "title": "Diabolic Doofenshmirtz",
+      "level": 0
+    },
+    "26015": {
+      "title": "Enjoyable Entree",
+      "level": 0
+    },
+    "26016": {
+      "title": "Formula Flatland",
+      "level": 0
+    },
+    "26017": {
+      "title": "Guessing Game",
+      "level": 19
+    },
+    "26018": {
+      "title": "Hardcore Hangman",
+      "level": 15
+    },
+    "26019": {
+      "title": "Improving IT",
+      "level": 0
+    },
+    "26020": {
+      "title": "Jesting Jabberwocky",
+      "level": 0
+    },
+    "26021": {
+      "title": "K.O. Kids",
+      "level": 0
+    },
+    "26022": {
+      "title": "Lots of Land",
+      "level": 0
+    },
+    "26023": {
+      "title": "Mirror Madness",
       "level": 0
     }
   }
