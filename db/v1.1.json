@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-17 19:13:56.800402",
+  "last_updated": "2022-11-18 19:14:23.653186",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4084,7 +4084,7 @@
     },
     "2036": {
       "title": "수열의 점수",
-      "level": 11
+      "level": 12
     },
     "2037": {
       "title": "문자메시지",
@@ -14180,7 +14180,7 @@
     },
     "4627": {
       "title": "뛰어라 도마뱀",
-      "level": 18
+      "level": 19
     },
     "4628": {
       "title": "Netiquette",
@@ -17876,7 +17876,7 @@
     },
     "5689": {
       "title": "Jupiter Attacks!",
-      "level": 19
+      "level": 18
     },
     "5690": {
       "title": "King’s Poker",
@@ -18108,7 +18108,7 @@
     },
     "5747": {
       "title": "Odd or Even",
-      "level": 5
+      "level": 6
     },
     "5748": {
       "title": "Power Generation",
@@ -21992,7 +21992,7 @@
     },
     "6748": {
       "title": "Odd Loving Bakers",
-      "level": 0
+      "level": 18
     },
     "6749": {
       "title": "Next in line",
@@ -31004,7 +31004,7 @@
     },
     "9423": {
       "title": "레슬링 팀 선발",
-      "level": 14
+      "level": 15
     },
     "9426": {
       "title": "중앙값 측정",
@@ -37572,7 +37572,7 @@
     },
     "11179": {
       "title": "2진수 뒤집기",
-      "level": 4
+      "level": 5
     },
     "11180": {
       "title": "Paintball",
@@ -41268,7 +41268,7 @@
     },
     "12143": {
       "title": "영어와 프랑스어 (Small)",
-      "level": 11
+      "level": 14
     },
     "12144": {
       "title": "영어와 프랑스어 (Large)",
@@ -44096,7 +44096,7 @@
     },
     "12858": {
       "title": "Range GCD",
-      "level": 20
+      "level": 21
     },
     "12859": {
       "title": "점프하는 민호",
@@ -50080,7 +50080,7 @@
     },
     "14386": {
       "title": "Coin Jam (Large)",
-      "level": 13
+      "level": 14
     },
     "14387": {
       "title": "Fractiles (Small)",
@@ -57112,7 +57112,7 @@
     },
     "16173": {
       "title": "점프왕 쩰리 (Small)",
-      "level": 6
+      "level": 7
     },
     "16174": {
       "title": "점프왕 쩰리 (Large)",
@@ -57320,7 +57320,7 @@
     },
     "16225": {
       "title": "제271회 웰노운컵",
-      "level": 20
+      "level": 21
     },
     "16226": {
       "title": "거울냥이는 죽어서 거울을 남긴다",
@@ -58164,7 +58164,7 @@
     },
     "16436": {
       "title": "얼룩말 아트",
-      "level": 19
+      "level": 18
     },
     "16437": {
       "title": "양 구출 작전",
@@ -66212,7 +66212,7 @@
     },
     "18473": {
       "title": "Fast Spanning Tree",
-      "level": 26
+      "level": 27
     },
     "18474": {
       "title": "Grammarly",
@@ -70680,7 +70680,7 @@
     },
     "19595": {
       "title": "소수 게임",
-      "level": 14
+      "level": 13
     },
     "19596": {
       "title": "선물 교환",
@@ -73072,7 +73072,7 @@
     },
     "20200": {
       "title": "Crtanje",
-      "level": 5
+      "level": 6
     },
     "20201": {
       "title": "Odašiljači",
@@ -76116,7 +76116,7 @@
     },
     "20969": {
       "title": "Dance Mooves",
-      "level": 18
+      "level": 19
     },
     "20970": {
       "title": "Dance Mooves",
@@ -78500,7 +78500,7 @@
     },
     "21565": {
       "title": "논리의 돌",
-      "level": 19
+      "level": 20
     },
     "21566": {
       "title": "트리 정리하기",
@@ -95432,7 +95432,7 @@
     },
     "25963": {
       "title": "계단 만들기 (Small)",
-      "level": 14
+      "level": 15
     },
     "25964": {
       "title": "헨젤과 그레텔",
@@ -95644,6 +95644,134 @@
     },
     "26023": {
       "title": "Mirror Madness",
+      "level": 0
+    },
+    "26024": {
+      "title": "Ace Arbiter",
+      "level": 0
+    },
+    "26025": {
+      "title": "Berry Battle",
+      "level": 0
+    },
+    "26026": {
+      "title": "Coffee Cup Combo",
+      "level": 4
+    },
+    "26027": {
+      "title": "Disc District",
+      "level": 4
+    },
+    "26028": {
+      "title": "Enigmatic Enumeration",
+      "level": 0
+    },
+    "26029": {
+      "title": "Foreign Football",
+      "level": 0
+    },
+    "26030": {
+      "title": "Graduation Guarantee",
+      "level": 0
+    },
+    "26031": {
+      "title": "Highest Hill",
+      "level": 7
+    },
+    "26032": {
+      "title": "Icy Itinerary",
+      "level": 0
+    },
+    "26033": {
+      "title": "Junk Journey",
+      "level": 17
+    },
+    "26034": {
+      "title": "Keyboard Queries",
+      "level": 0
+    },
+    "26035": {
+      "title": "$0101$",
+      "level": 13
+    },
+    "26036": {
+      "title": "제곱 ㄱㄱ",
+      "level": 18
+    },
+    "26037": {
+      "title": "지수 · 로그와 테일러 다항식(Large)",
+      "level": 25
+    },
+    "26038": {
+      "title": "지수 · 로그와 테일러 다항식(Small)",
+      "level": 0
+    },
+    "26039": {
+      "title": "Kapr2kar's r0utine",
+      "level": 17
+    },
+    "26040": {
+      "title": "특정 대문자를 소문자로 바꾸기",
+      "level": 3
+    },
+    "26041": {
+      "title": "비슷한 전화번호 표시",
+      "level": 4
+    },
+    "26042": {
+      "title": "식당 입구 대기 줄",
+      "level": 6
+    },
+    "26043": {
+      "title": "식당 메뉴",
+      "level": 8
+    },
+    "26044": {
+      "title": "Array",
+      "level": 13
+    },
+    "26045": {
+      "title": "Canoes",
+      "level": 0
+    },
+    "26046": {
+      "title": "Earthquake",
+      "level": 0
+    },
+    "26047": {
+      "title": "Journals",
+      "level": 9
+    },
+    "26048": {
+      "title": "Mower",
+      "level": 0
+    },
+    "26049": {
+      "title": "Needle",
+      "level": 0
+    },
+    "26050": {
+      "title": "Patio",
+      "level": 10
+    },
+    "26051": {
+      "title": "Robots",
+      "level": 0
+    },
+    "26052": {
+      "title": "Shamans",
+      "level": 0
+    },
+    "26053": {
+      "title": "Transmitter",
+      "level": 0
+    },
+    "26054": {
+      "title": "Volcanoes",
+      "level": 0
+    },
+    "26055": {
+      "title": "Wagon",
       "level": 0
     }
   }
