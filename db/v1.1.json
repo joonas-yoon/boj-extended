@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-18 19:14:23.653186",
+  "last_updated": "2022-11-19 19:13:49.042540",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4004,7 +4004,7 @@
     },
     "2016": {
       "title": "미팅 주선하기",
-      "level": 10
+      "level": 11
     },
     "2017": {
       "title": "울타리",
@@ -5880,7 +5880,7 @@
     },
     "2502": {
       "title": "떡 먹는 호랑이",
-      "level": 9
+      "level": 10
     },
     "2503": {
       "title": "숫자 야구",
@@ -16860,7 +16860,7 @@
     },
     "5405": {
       "title": "프랙탈 거리",
-      "level": 16
+      "level": 15
     },
     "5406": {
       "title": "No Smoking, Please",
@@ -21824,7 +21824,7 @@
     },
     "6706": {
       "title": "Budget",
-      "level": 0
+      "level": 19
     },
     "6707": {
       "title": "Frogger",
@@ -21980,7 +21980,7 @@
     },
     "6745": {
       "title": "Software Company",
-      "level": 0
+      "level": 15
     },
     "6746": {
       "title": "The Happy Worm",
@@ -21992,7 +21992,7 @@
     },
     "6748": {
       "title": "Odd Loving Bakers",
-      "level": 18
+      "level": 17
     },
     "6749": {
       "title": "Next in line",
@@ -27164,7 +27164,7 @@
     },
     "8421": {
       "title": "Suma",
-      "level": 12
+      "level": 13
     },
     "8422": {
       "title": "Autostrady",
@@ -32160,7 +32160,7 @@
     },
     "9715": {
       "title": "면적 구하기",
-      "level": 6
+      "level": 7
     },
     "9716": {
       "title": "Table",
@@ -37628,7 +37628,7 @@
     },
     "11193": {
       "title": "Three Digits",
-      "level": 11
+      "level": 10
     },
     "11194": {
       "title": "Car Game",
@@ -38268,7 +38268,7 @@
     },
     "11371": {
       "title": "The Big Eye in the Sky",
-      "level": 6
+      "level": 7
     },
     "11372": {
       "title": "Gimli’s Gullet",
@@ -41764,7 +41764,7 @@
     },
     "12268": {
       "title": "Meet and party (Small)",
-      "level": 6
+      "level": 7
     },
     "12269": {
       "title": "Meet and party (Large)",
@@ -49768,7 +49768,7 @@
     },
     "14308": {
       "title": "Safe Squares (Small)",
-      "level": 5
+      "level": 6
     },
     "14309": {
       "title": "Safe Squares (Large)",
@@ -51676,11 +51676,11 @@
     },
     "14797": {
       "title": "Alphabet Cake (Small)",
-      "level": 8
+      "level": 10
     },
     "14798": {
       "title": "Alphabet Cake (Large)",
-      "level": 11
+      "level": 12
     },
     "14799": {
       "title": "Ratatouille (Small)",
@@ -59016,7 +59016,7 @@
     },
     "16649": {
       "title": "Building a Stair",
-      "level": 11
+      "level": 10
     },
     "16650": {
       "title": "Counting Stairs",
@@ -59952,7 +59952,7 @@
     },
     "16883": {
       "title": "대각 게임",
-      "level": 19
+      "level": 20
     },
     "16884": {
       "title": "나이트 게임",
@@ -62036,7 +62036,7 @@
     },
     "17417": {
       "title": "Optimization is Freaky Fun",
-      "level": 19
+      "level": 18
     },
     "17418": {
       "title": "G++ Language",
@@ -65332,7 +65332,7 @@
     },
     "18251": {
       "title": "내 생각에 A번인 단순 dfs 문제가 이 대회에서 E번이 되어버린 건에 관하여 (Easy)",
-      "level": 18
+      "level": 17
     },
     "18252": {
       "title": "별이 빛나는 밤에",
@@ -86288,7 +86288,7 @@
     },
     "23559": {
       "title": "밥",
-      "level": 10
+      "level": 11
     },
     "23560": {
       "title": "약",
@@ -87592,7 +87592,7 @@
     },
     "23885": {
       "title": "비숍 투어",
-      "level": 4
+      "level": 5
     },
     "23886": {
       "title": "알프수",
@@ -90980,7 +90980,7 @@
     },
     "24778": {
       "title": "Cracking The Safe",
-      "level": 13
+      "level": 14
     },
     "24779": {
       "title": "Triangle Ornaments",
@@ -95720,15 +95720,15 @@
     },
     "26042": {
       "title": "식당 입구 대기 줄",
-      "level": 6
+      "level": 7
     },
     "26043": {
       "title": "식당 메뉴",
-      "level": 8
+      "level": 7
     },
     "26044": {
       "title": "Array",
-      "level": 13
+      "level": 14
     },
     "26045": {
       "title": "Canoes",
@@ -95744,7 +95744,7 @@
     },
     "26048": {
       "title": "Mower",
-      "level": 0
+      "level": 15
     },
     "26049": {
       "title": "Needle",
@@ -95768,11 +95768,15 @@
     },
     "26054": {
       "title": "Volcanoes",
-      "level": 0
+      "level": 13
     },
     "26055": {
       "title": "Wagon",
-      "level": 0
+      "level": 13
+    },
+    "26056": {
+      "title": "수열의 합 2",
+      "level": 15
     }
   }
 }
