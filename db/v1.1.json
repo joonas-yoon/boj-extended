@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-19 19:13:49.042540",
+  "last_updated": "2022-11-20 19:13:41.173563",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -10440,7 +10440,7 @@
     },
     "3668": {
       "title": "Stock Prices",
-      "level": 0
+      "level": 9
     },
     "3669": {
       "title": "Telephone Network",
@@ -11532,7 +11532,7 @@
     },
     "3957": {
       "title": "Pizza Hawaii",
-      "level": 0
+      "level": 10
     },
     "3958": {
       "title": "롤러코스터 타기",
@@ -12196,7 +12196,7 @@
     },
     "4126": {
       "title": "Course Scheduling",
-      "level": 0
+      "level": 6
     },
     "4127": {
       "title": "Tetrahedron Inequality",
@@ -12880,7 +12880,7 @@
     },
     "4297": {
       "title": "Ultra-QuickSort",
-      "level": 17
+      "level": 16
     },
     "4298": {
       "title": "Up the Ante",
@@ -15812,7 +15812,7 @@
     },
     "5050": {
       "title": "Introspective Caching",
-      "level": 0
+      "level": 17
     },
     "5051": {
       "title": "피타고라스의 정리",
@@ -19920,7 +19920,7 @@
     },
     "6209": {
       "title": "제자리 멀리뛰기",
-      "level": 14
+      "level": 13
     },
     "6210": {
       "title": "Wonderprime Brands",
@@ -20800,7 +20800,7 @@
     },
     "6443": {
       "title": "애너그램",
-      "level": 10
+      "level": 11
     },
     "6444": {
       "title": "스프레드시트",
@@ -21820,7 +21820,7 @@
     },
     "6705": {
       "title": "Hardware",
-      "level": 0
+      "level": 8
     },
     "6706": {
       "title": "Budget",
@@ -31808,7 +31808,7 @@
     },
     "9627": {
       "title": "문장",
-      "level": 7
+      "level": 8
     },
     "9628": {
       "title": "KOLINJE",
@@ -37692,7 +37692,7 @@
     },
     "11209": {
       "title": "Intercept",
-      "level": 0
+      "level": 14
     },
     "11210": {
       "title": "Radar",
@@ -37944,7 +37944,7 @@
     },
     "11272": {
       "title": "Floppy Music",
-      "level": 0
+      "level": 11
     },
     "11273": {
       "title": "Goblin Garden Guards",
@@ -38612,7 +38612,7 @@
     },
     "11457": {
       "title": "Falcon Dive",
-      "level": 0
+      "level": 10
     },
     "11458": {
       "title": "The Fox and the Owl",
@@ -39164,7 +39164,7 @@
     },
     "11595": {
       "title": "Classy",
-      "level": 0
+      "level": 8
     },
     "11596": {
       "title": "Triangle",
@@ -39360,7 +39360,7 @@
     },
     "11644": {
       "title": "Matrix Keypad",
-      "level": 10
+      "level": 11
     },
     "11645": {
       "title": "I’ve Been Everywhere, Man",
@@ -43684,7 +43684,7 @@
     },
     "12755": {
       "title": "수면 장애",
-      "level": 7
+      "level": 6
     },
     "12756": {
       "title": "고급 여관",
@@ -48128,7 +48128,7 @@
     },
     "13879": {
       "title": "m-ary Partitions",
-      "level": 11
+      "level": 10
     },
     "13880": {
       "title": "A Rational Sequence (Take 3)",
@@ -51552,11 +51552,11 @@
     },
     "14766": {
       "title": "Bumper-To-Bumper Traffic",
-      "level": 0
+      "level": 9
     },
     "14767": {
       "title": "Flow Shop",
-      "level": 0
+      "level": 7
     },
     "14768": {
       "title": "Nice Numbers",
@@ -52764,7 +52764,7 @@
     },
     "15070": {
       "title": "Foosball Dynasty",
-      "level": 0
+      "level": 10
     },
     "15071": {
       "title": "The Key to Cryptography",
@@ -56592,7 +56592,7 @@
     },
     "16043": {
       "title": "Missing Gnomes",
-      "level": 15
+      "level": 11
     },
     "16044": {
       "title": "Prefix Free Code",
@@ -58476,7 +58476,7 @@
     },
     "16514": {
       "title": "Travel the Skies",
-      "level": 0
+      "level": 9
     },
     "16515": {
       "title": "Euler’s Number",
@@ -59868,7 +59868,7 @@
     },
     "16862": {
       "title": "An I for an Eye",
-      "level": 0
+      "level": 8
     },
     "16863": {
       "title": "Score!",
@@ -64028,7 +64028,7 @@
     },
     "17925": {
       "title": "Problem Classification",
-      "level": 6
+      "level": 7
     },
     "17926": {
       "title": "Mixing Drinks",
@@ -64248,7 +64248,7 @@
     },
     "17980": {
       "title": "Alehouse",
-      "level": 0
+      "level": 10
     },
     "17981": {
       "title": "Bus Ticket",
@@ -64816,7 +64816,7 @@
     },
     "18122": {
       "title": "색깔 하노이 탑",
-      "level": 16
+      "level": 17
     },
     "18123": {
       "title": "평행우주",
@@ -67124,7 +67124,7 @@
     },
     "18702": {
       "title": "Array Queries",
-      "level": 25
+      "level": 26
     },
     "18703": {
       "title": "Duplicate Files",
@@ -73232,7 +73232,7 @@
     },
     "20240": {
       "title": "Integer Square",
-      "level": 4
+      "level": 5
     },
     "20241": {
       "title": "Joint Password Storage",
@@ -75924,7 +75924,7 @@
     },
     "20921": {
       "title": "그렇고 그런 사이",
-      "level": 10
+      "level": 9
     },
     "20922": {
       "title": "겹치는 건 싫어",
@@ -76940,7 +76940,7 @@
     },
     "21175": {
       "title": "Painted Corridors",
-      "level": 19
+      "level": 20
     },
     "21176": {
       "title": "Smoothie Stand",
@@ -80652,7 +80652,7 @@
     },
     "22118": {
       "title": "Депозит",
-      "level": 14
+      "level": 16
     },
     "22119": {
       "title": "Кеплер",
@@ -81156,7 +81156,7 @@
     },
     "22245": {
       "title": "Boats",
-      "level": 9
+      "level": 10
     },
     "22246": {
       "title": "Chairs",
@@ -89096,7 +89096,7 @@
     },
     "24298": {
       "title": "МАКСИМАЛНА СУМА",
-      "level": 11
+      "level": 12
     },
     "24299": {
       "title": "ОТГАТНИ ЦИФРАТA",
@@ -89104,7 +89104,7 @@
     },
     "24300": {
       "title": "НАЙ-ГОЛЯМ ОСТАТЪК",
-      "level": 6
+      "level": 7
     },
     "24301": {
       "title": "АВТОБУСИ",
@@ -89740,7 +89740,7 @@
     },
     "24468": {
       "title": "충돌의 수",
-      "level": 7
+      "level": 8
     },
     "24469": {
       "title": "Autići",
@@ -91100,7 +91100,7 @@
     },
     "24808": {
       "title": "Pharmacy",
-      "level": 0
+      "level": 11
     },
     "24809": {
       "title": "Broken Swords",
@@ -95172,7 +95172,7 @@
     },
     "25892": {
       "title": "Zero AAMP Currents",
-      "level": 11
+      "level": 14
     },
     "25893": {
       "title": "Majestic 10",
@@ -95378,21 +95378,45 @@
       "title": "양팔저울",
       "level": 7
     },
+    "25944": {
+      "title": "Bar Magnet",
+      "level": 0
+    },
     "25945": {
       "title": "컨테이너 재배치",
       "level": 8
     },
     "25946": {
       "title": "Flags",
-      "level": 21
+      "level": 22
     },
     "25947": {
       "title": "선물할인",
       "level": 9
     },
+    "25948": {
+      "title": "Islands Tour",
+      "level": 16
+    },
     "25949": {
       "title": "Jar Game",
       "level": 14
+    },
+    "25950": {
+      "title": "Longest Shortest Paths",
+      "level": 0
+    },
+    "25951": {
+      "title": "Magic Potion",
+      "level": 0
+    },
+    "25952": {
+      "title": "Rectangles",
+      "level": 0
+    },
+    "25953": {
+      "title": "템포럴 그래프",
+      "level": 0
     },
     "25954": {
       "title": "LCS 9",
@@ -95594,6 +95618,34 @@
       "title": "Lowest Latency",
       "level": 0
     },
+    "26004": {
+      "title": "HI-ARC",
+      "level": 3
+    },
+    "26005": {
+      "title": "나뭇잎 학회",
+      "level": 7
+    },
+    "26006": {
+      "title": "K-Queen",
+      "level": 8
+    },
+    "26007": {
+      "title": "Codepowers",
+      "level": 9
+    },
+    "26008": {
+      "title": "해시 해킹",
+      "level": 12
+    },
+    "26009": {
+      "title": "험난한 등굣길",
+      "level": 13
+    },
+    "26010": {
+      "title": "돈 피하지 않기 게임",
+      "level": 19
+    },
     "26011": {
       "title": "Alternative Architecture",
       "level": 7
@@ -95777,6 +95829,106 @@
     "26056": {
       "title": "수열의 합 2",
       "level": 15
+    },
+    "26057": {
+      "title": "Большой удой",
+      "level": 2
+    },
+    "26058": {
+      "title": "Сделай 100",
+      "level": 9
+    },
+    "26059": {
+      "title": "Вендомат",
+      "level": 0
+    },
+    "26060": {
+      "title": "На планете Иворил...",
+      "level": 7
+    },
+    "26061": {
+      "title": "История версий",
+      "level": 8
+    },
+    "26062": {
+      "title": "Туристы, достопримечательности и телескопы",
+      "level": 11
+    },
+    "26063": {
+      "title": "Сапёр 1D",
+      "level": 0
+    },
+    "26064": {
+      "title": "Матч тысячелетия",
+      "level": 0
+    },
+    "26065": {
+      "title": "Кусочно-линейные функции",
+      "level": 0
+    },
+    "26066": {
+      "title": "Мой дед",
+      "level": 0
+    },
+    "26067": {
+      "title": "Старобарский рэп",
+      "level": 0
+    },
+    "26100": {
+      "title": "스타트와 링크 2",
+      "level": 21
+    },
+    "26101": {
+      "title": "링크와 스타트 2",
+      "level": 21
+    },
+    "26102": {
+      "title": "Card Game",
+      "level": 22
+    },
+    "26103": {
+      "title": "Castle Design",
+      "level": 25
+    },
+    "26104": {
+      "title": "Empty Quadrilaterals",
+      "level": 22
+    },
+    "26105": {
+      "title": "Folding Stick",
+      "level": 18
+    },
+    "26106": {
+      "title": "Forbidden Turns",
+      "level": 15
+    },
+    "26107": {
+      "title": "Frog Jump",
+      "level": 12
+    },
+    "26108": {
+      "title": "Linear Regression",
+      "level": 0
+    },
+    "26109": {
+      "title": "Longest Substring",
+      "level": 0
+    },
+    "26110": {
+      "title": "Palindrome Type",
+      "level": 15
+    },
+    "26111": {
+      "title": "Parentheses Tree",
+      "level": 11
+    },
+    "26112": {
+      "title": "Shuffle Game",
+      "level": 14
+    },
+    "26113": {
+      "title": "Two Choreographies",
+      "level": 20
     }
   }
 }
