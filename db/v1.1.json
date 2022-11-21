@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-20 19:13:41.173563",
+  "last_updated": "2022-11-21 19:14:00.237931",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -12624,7 +12624,7 @@
     },
     "4233": {
       "title": "가짜소수",
-      "level": 11
+      "level": 12
     },
     "4234": {
       "title": "Carpool",
@@ -21820,7 +21820,7 @@
     },
     "6705": {
       "title": "Hardware",
-      "level": 8
+      "level": 7
     },
     "6706": {
       "title": "Budget",
@@ -21992,7 +21992,7 @@
     },
     "6748": {
       "title": "Odd Loving Bakers",
-      "level": 17
+      "level": 19
     },
     "6749": {
       "title": "Next in line",
@@ -29956,7 +29956,7 @@
     },
     "9139": {
       "title": "Algebra",
-      "level": 15
+      "level": 13
     },
     "9140": {
       "title": "Přeprava materiálu",
@@ -30408,7 +30408,7 @@
     },
     "9264": {
       "title": "Intercity",
-      "level": 20
+      "level": 21
     },
     "9265": {
       "title": "Count",
@@ -34728,7 +34728,7 @@
     },
     "10453": {
       "title": "문자열 변환",
-      "level": 10
+      "level": 11
     },
     "10454": {
       "title": "세 네모",
@@ -38904,7 +38904,7 @@
     },
     "11530": {
       "title": "RATS",
-      "level": 11
+      "level": 12
     },
     "11531": {
       "title": "ACM 대회 채점",
@@ -42840,7 +42840,7 @@
     },
     "12543": {
       "title": "Letter Stamper (Small)",
-      "level": 20
+      "level": 19
     },
     "12544": {
       "title": "Letter Stamper (Large)",
@@ -51552,7 +51552,7 @@
     },
     "14766": {
       "title": "Bumper-To-Bumper Traffic",
-      "level": 9
+      "level": 8
     },
     "14767": {
       "title": "Flow Shop",
@@ -58316,7 +58316,7 @@
     },
     "16474": {
       "title": "이상한 전깃줄",
-      "level": 15
+      "level": 16
     },
     "16475": {
       "title": "수학 미로",
@@ -67092,7 +67092,7 @@
     },
     "18694": {
       "title": "Game of Nim Everywhere",
-      "level": 19
+      "level": 20
     },
     "18695": {
       "title": "FIFA World Cup",
@@ -67124,7 +67124,7 @@
     },
     "18702": {
       "title": "Array Queries",
-      "level": 26
+      "level": 25
     },
     "18703": {
       "title": "Duplicate Files",
@@ -69112,7 +69112,7 @@
     },
     "19200": {
       "title": "Catalan Combinatorial Objects",
-      "level": 19
+      "level": 0
     },
     "19201": {
       "title": "Decomposable Single Word Languages",
@@ -78376,7 +78376,7 @@
     },
     "21534": {
       "title": "Имена",
-      "level": 12
+      "level": 11
     },
     "21535": {
       "title": "Две окружности",
@@ -95412,11 +95412,11 @@
     },
     "25952": {
       "title": "Rectangles",
-      "level": 0
+      "level": 18
     },
     "25953": {
       "title": "템포럴 그래프",
-      "level": 0
+      "level": 13
     },
     "25954": {
       "title": "LCS 9",
@@ -95448,7 +95448,7 @@
     },
     "25961": {
       "title": "스코어보드 보기 귀찮아",
-      "level": 17
+      "level": 18
     },
     "25962": {
       "title": "선우의 셋리스트",
@@ -95876,15 +95876,15 @@
     },
     "26100": {
       "title": "스타트와 링크 2",
-      "level": 21
+      "level": 22
     },
     "26101": {
       "title": "링크와 스타트 2",
-      "level": 21
+      "level": 22
     },
     "26102": {
       "title": "Card Game",
-      "level": 22
+      "level": 21
     },
     "26103": {
       "title": "Castle Design",
@@ -95900,11 +95900,11 @@
     },
     "26106": {
       "title": "Forbidden Turns",
-      "level": 15
+      "level": 16
     },
     "26107": {
       "title": "Frog Jump",
-      "level": 12
+      "level": 11
     },
     "26108": {
       "title": "Linear Regression",
@@ -95912,23 +95912,23 @@
     },
     "26109": {
       "title": "Longest Substring",
-      "level": 0
+      "level": 22
     },
     "26110": {
       "title": "Palindrome Type",
-      "level": 15
+      "level": 13
     },
     "26111": {
       "title": "Parentheses Tree",
-      "level": 11
+      "level": 9
     },
     "26112": {
       "title": "Shuffle Game",
-      "level": 14
+      "level": 13
     },
     "26113": {
       "title": "Two Choreographies",
-      "level": 20
+      "level": 19
     }
   }
 }
