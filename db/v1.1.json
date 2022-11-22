@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-21 19:14:00.237931",
+  "last_updated": "2022-11-22 19:14:36.792270",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5456,7 +5456,7 @@
     },
     "2395": {
       "title": "순열의 개수",
-      "level": 15
+      "level": 16
     },
     "2396": {
       "title": "같은 길이 막대기 만들기",
@@ -8440,7 +8440,7 @@
     },
     "3151": {
       "title": "합이 0",
-      "level": 11
+      "level": 12
     },
     "3152": {
       "title": "예쁜 숫자",
@@ -24296,7 +24296,7 @@
     },
     "7654": {
       "title": "Number Game",
-      "level": 12
+      "level": 13
     },
     "7655": {
       "title": "Leap Frog",
@@ -38800,7 +38800,7 @@
     },
     "11504": {
       "title": "돌려 돌려 돌림판!",
-      "level": 5
+      "level": 6
     },
     "11505": {
       "title": "구간 곱 구하기",
@@ -43684,7 +43684,7 @@
     },
     "12755": {
       "title": "수면 장애",
-      "level": 6
+      "level": 7
     },
     "12756": {
       "title": "고급 여관",
@@ -54864,7 +54864,7 @@
     },
     "15599": {
       "title": "Ascending Photo",
-      "level": 22
+      "level": 21
     },
     "15600": {
       "title": "Boss Battle",
@@ -59952,7 +59952,7 @@
     },
     "16883": {
       "title": "대각 게임",
-      "level": 20
+      "level": 21
     },
     "16884": {
       "title": "나이트 게임",
@@ -60520,7 +60520,7 @@
     },
     "17027": {
       "title": "Shell Game",
-      "level": 4
+      "level": 3
     },
     "17028": {
       "title": "Sleepy Cow Sorting",
@@ -62836,7 +62836,7 @@
     },
     "17619": {
       "title": "개구리 점프",
-      "level": 14
+      "level": 13
     },
     "17620": {
       "title": "드론",
@@ -66688,7 +66688,7 @@
     },
     "18593": {
       "title": "TDL",
-      "level": 15
+      "level": 16
     },
     "18594": {
       "title": "Three Investigators",
@@ -72156,7 +72156,7 @@
     },
     "19969": {
       "title": "Сборка компьютеров",
-      "level": 5
+      "level": 4
     },
     "19970": {
       "title": "Куб",
@@ -95464,7 +95464,7 @@
     },
     "25965": {
       "title": "미션 도네이션",
-      "level": 2
+      "level": 3
     },
     "25966": {
       "title": "배찬우는 배열을 좋아해",
@@ -95524,7 +95524,7 @@
     },
     "25980": {
       "title": "Abbreviated Aliases",
-      "level": 6
+      "level": 7
     },
     "25981": {
       "title": "Bubble-bubble Sort",
@@ -95756,7 +95756,7 @@
     },
     "26038": {
       "title": "지수 · 로그와 테일러 다항식(Small)",
-      "level": 0
+      "level": 20
     },
     "26039": {
       "title": "Kapr2kar's r0utine",
@@ -95880,7 +95880,7 @@
     },
     "26101": {
       "title": "링크와 스타트 2",
-      "level": 22
+      "level": 21
     },
     "26102": {
       "title": "Card Game",
@@ -95888,7 +95888,7 @@
     },
     "26103": {
       "title": "Castle Design",
-      "level": 25
+      "level": 24
     },
     "26104": {
       "title": "Empty Quadrilaterals",
@@ -95904,7 +95904,7 @@
     },
     "26107": {
       "title": "Frog Jump",
-      "level": 11
+      "level": 12
     },
     "26108": {
       "title": "Linear Regression",
