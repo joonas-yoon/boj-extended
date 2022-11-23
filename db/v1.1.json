@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-22 19:14:36.792270",
+  "last_updated": "2022-11-23 19:13:26.452592",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -216,7 +216,7 @@
     },
     "1053": {
       "title": "팰린드롬 공장",
-      "level": 14
+      "level": 15
     },
     "1054": {
       "title": "팰린드롬 문장",
@@ -5456,7 +5456,7 @@
     },
     "2395": {
       "title": "순열의 개수",
-      "level": 16
+      "level": 15
     },
     "2396": {
       "title": "같은 길이 막대기 만들기",
@@ -11300,7 +11300,7 @@
     },
     "3896": {
       "title": "소수 사이 수열",
-      "level": 9
+      "level": 10
     },
     "3897": {
       "title": "Minimal Backgammon",
@@ -12640,7 +12640,7 @@
     },
     "4237": {
       "title": "비 단조성",
-      "level": 10
+      "level": 9
     },
     "4238": {
       "title": "Humidex",
@@ -13172,7 +13172,7 @@
     },
     "4370": {
       "title": "곱셈 게임",
-      "level": 11
+      "level": 12
     },
     "4371": {
       "title": "No Tipping",
@@ -24424,7 +24424,7 @@
     },
     "7686": {
       "title": "Dropping tests",
-      "level": 14
+      "level": 15
     },
     "7687": {
       "title": "지구 직육면체설",
@@ -32336,7 +32336,7 @@
     },
     "9816": {
       "title": "Number of Locks",
-      "level": 7
+      "level": 10
     },
     "9817": {
       "title": "Necklace of Beads",
@@ -34656,7 +34656,7 @@
     },
     "10435": {
       "title": "만칼라",
-      "level": 18
+      "level": 17
     },
     "10436": {
       "title": "무한 유리수 트리",
@@ -35144,7 +35144,7 @@
     },
     "10557": {
       "title": "Runes",
-      "level": 9
+      "level": 10
     },
     "10558": {
       "title": "Alchemy",
@@ -43876,7 +43876,7 @@
     },
     "12803": {
       "title": "Peter and the Textbook",
-      "level": 9
+      "level": 8
     },
     "12804": {
       "title": "Gregory and Bank",
@@ -44736,7 +44736,7 @@
     },
     "13018": {
       "title": "특이한 수열",
-      "level": 12
+      "level": 13
     },
     "13019": {
       "title": "A를 B로",
@@ -45496,7 +45496,7 @@
     },
     "13220": {
       "title": "Secret",
-      "level": 10
+      "level": 9
     },
     "13221": {
       "title": "Manhattan",
@@ -49412,7 +49412,7 @@
     },
     "14219": {
       "title": "막대과자 포장",
-      "level": 4
+      "level": 3
     },
     "14220": {
       "title": "양아치 집배원",
@@ -54932,7 +54932,7 @@
     },
     "15616": {
       "title": "Divisors",
-      "level": 7
+      "level": 8
     },
     "15617": {
       "title": "Euclidean Nim",
@@ -58624,7 +58624,7 @@
     },
     "16551": {
       "title": "Potato Sacks",
-      "level": 9
+      "level": 8
     },
     "16552": {
       "title": "Moving Buildings",
@@ -61808,7 +61808,7 @@
     },
     "17360": {
       "title": "팰린드롬과 관련된 수열의 개수",
-      "level": 12
+      "level": 11
     },
     "17361": {
       "title": "배열 A 찾기",
@@ -64712,7 +64712,7 @@
     },
     "18096": {
       "title": "Арифметическая магия",
-      "level": 2
+      "level": 1
     },
     "18097": {
       "title": "Большие перемены",
@@ -69088,7 +69088,7 @@
     },
     "19194": {
       "title": "Yet Another Problem About Permutations",
-      "level": 0
+      "level": 22
     },
     "19195": {
       "title": "Strange Sequence",
@@ -70644,7 +70644,7 @@
     },
     "19586": {
       "title": "울타리",
-      "level": 21
+      "level": 22
     },
     "19587": {
       "title": "객실 배치",
@@ -70920,7 +70920,7 @@
     },
     "19656": {
       "title": "Landlords",
-      "level": 0
+      "level": 26
     },
     "19657": {
       "title": "Explore",
@@ -76408,7 +76408,7 @@
     },
     "21042": {
       "title": "Triangle of Safety",
-      "level": 8
+      "level": 9
     },
     "21043": {
       "title": "Domino Line",
@@ -78668,7 +78668,7 @@
     },
     "21607": {
       "title": "Polynomial and Easy Queries",
-      "level": 21
+      "level": 20
     },
     "21608": {
       "title": "상어 초등학교",
@@ -81696,7 +81696,7 @@
     },
     "22403": {
       "title": "阿吽の呼吸",
-      "level": 5
+      "level": 6
     },
     "22404": {
       "title": "豪邸と宅配便",
@@ -85088,7 +85088,7 @@
     },
     "23258": {
       "title": "밤편지",
-      "level": 15
+      "level": 16
     },
     "23259": {
       "title": "Celebrity",
@@ -95412,7 +95412,7 @@
     },
     "25952": {
       "title": "Rectangles",
-      "level": 18
+      "level": 20
     },
     "25953": {
       "title": "템포럴 그래프",
@@ -95740,7 +95740,7 @@
     },
     "26034": {
       "title": "Keyboard Queries",
-      "level": 0
+      "level": 21
     },
     "26035": {
       "title": "$0101$",
@@ -95884,7 +95884,7 @@
     },
     "26102": {
       "title": "Card Game",
-      "level": 21
+      "level": 20
     },
     "26103": {
       "title": "Castle Design",
@@ -95912,7 +95912,7 @@
     },
     "26109": {
       "title": "Longest Substring",
-      "level": 22
+      "level": 23
     },
     "26110": {
       "title": "Palindrome Type",
