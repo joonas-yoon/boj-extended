@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-23 19:13:26.452592",
+  "last_updated": "2022-11-24 19:13:47.667738",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2512,7 +2512,7 @@
     },
     "1633": {
       "title": "최고의 팀 만들기",
-      "level": 11
+      "level": 12
     },
     "1634": {
       "title": "완전 이진트리",
@@ -6052,7 +6052,7 @@
     },
     "2545": {
       "title": "팬케익 먹기",
-      "level": 5
+      "level": 6
     },
     "2546": {
       "title": "경제학과 정원영",
@@ -7812,7 +7812,7 @@
     },
     "2989": {
       "title": "개구리 왕눈이",
-      "level": 17
+      "level": 18
     },
     "2990": {
       "title": "단어 검색",
@@ -7904,7 +7904,7 @@
     },
     "3012": {
       "title": "올바른 괄호 문자열",
-      "level": 18
+      "level": 19
     },
     "3013": {
       "title": "부분 수열의 중앙값",
@@ -12196,7 +12196,7 @@
     },
     "4126": {
       "title": "Course Scheduling",
-      "level": 6
+      "level": 7
     },
     "4127": {
       "title": "Tetrahedron Inequality",
@@ -12720,7 +12720,7 @@
     },
     "4257": {
       "title": "프리오더 포스트오더",
-      "level": 12
+      "level": 13
     },
     "4258": {
       "title": "Knockout Tournament",
@@ -13208,7 +13208,7 @@
     },
     "4379": {
       "title": "나누기",
-      "level": 11
+      "level": 12
     },
     "4380": {
       "title": "Hotter Colder",
@@ -13832,7 +13832,7 @@
     },
     "4540": {
       "title": "Q",
-      "level": 6
+      "level": 7
     },
     "4541": {
       "title": "Enigmatologically Cruciverbalistic",
@@ -15468,7 +15468,7 @@
     },
     "4964": {
       "title": "단어 덧셈",
-      "level": 12
+      "level": 11
     },
     "4965": {
       "title": "Discrete Speed",
@@ -24420,7 +24420,7 @@
     },
     "7685": {
       "title": "Nim",
-      "level": 14
+      "level": 13
     },
     "7686": {
       "title": "Dropping tests",
@@ -30316,7 +30316,7 @@
     },
     "9239": {
       "title": "스티브 잡숭",
-      "level": 7
+      "level": 8
     },
     "9240": {
       "title": "로버트 후드",
@@ -35144,7 +35144,7 @@
     },
     "10557": {
       "title": "Runes",
-      "level": 10
+      "level": 11
     },
     "10558": {
       "title": "Alchemy",
@@ -38144,7 +38144,7 @@
     },
     "11322": {
       "title": "Numbers are Easy",
-      "level": 6
+      "level": 7
     },
     "11323": {
       "title": "Solitaire",
@@ -43484,7 +43484,7 @@
     },
     "12704": {
       "title": "Cheating a Boolean Tree (Large)",
-      "level": 14
+      "level": 15
     },
     "12705": {
       "title": "Triangle Areas (Small)",
@@ -47132,7 +47132,7 @@
     },
     "13630": {
       "title": "Buses",
-      "level": 10
+      "level": 14
     },
     "13631": {
       "title": "Patches",
@@ -68220,7 +68220,7 @@
     },
     "18977": {
       "title": "Maximum Multiple",
-      "level": 9
+      "level": 12
     },
     "18978": {
       "title": "Balanced Sequence",
@@ -83236,7 +83236,7 @@
     },
     "22788": {
       "title": "Prime Digital Roots",
-      "level": 6
+      "level": 7
     },
     "22789": {
       "title": "Ski Slopes",
@@ -88936,7 +88936,7 @@
     },
     "24258": {
       "title": "Sum and product",
-      "level": 26
+      "level": 27
     },
     "24259": {
       "title": "Monopoly",
@@ -93704,7 +93704,7 @@
     },
     "25496": {
       "title": "장신구 명장 임스",
-      "level": 5
+      "level": 6
     },
     "25497": {
       "title": "기술 연계마스터 임스",
@@ -94244,7 +94244,7 @@
     },
     "25639": {
       "title": "수열과 최대 상승 쿼리",
-      "level": 20
+      "level": 19
     },
     "25640": {
       "title": "MBTI",
@@ -95452,7 +95452,7 @@
     },
     "25962": {
       "title": "선우의 셋리스트",
-      "level": 15
+      "level": 16
     },
     "25963": {
       "title": "계단 만들기 (Small)",
@@ -95712,7 +95712,7 @@
     },
     "26027": {
       "title": "Disc District",
-      "level": 4
+      "level": 3
     },
     "26028": {
       "title": "Enigmatic Enumeration",
@@ -95772,7 +95772,7 @@
     },
     "26042": {
       "title": "식당 입구 대기 줄",
-      "level": 7
+      "level": 6
     },
     "26043": {
       "title": "식당 메뉴",
@@ -95840,7 +95840,7 @@
     },
     "26059": {
       "title": "Вендомат",
-      "level": 0
+      "level": 5
     },
     "26060": {
       "title": "На планете Иворил...",
@@ -95884,7 +95884,7 @@
     },
     "26102": {
       "title": "Card Game",
-      "level": 20
+      "level": 21
     },
     "26103": {
       "title": "Castle Design",
@@ -95929,6 +95929,50 @@
     "26113": {
       "title": "Two Choreographies",
       "level": 19
+    },
+    "26130": {
+      "title": "Crystal Crosswind",
+      "level": 0
+    },
+    "26131": {
+      "title": "Dungeon Crawler",
+      "level": 0
+    },
+    "26132": {
+      "title": "Fair Division",
+      "level": 14
+    },
+    "26133": {
+      "title": "Guardians of the Gallery",
+      "level": 0
+    },
+    "26134": {
+      "title": "Hand of the Free Marked",
+      "level": 0
+    },
+    "26135": {
+      "title": "Islands from the Sky",
+      "level": 0
+    },
+    "26136": {
+      "title": "Mosaic Browsing",
+      "level": 0
+    },
+    "26137": {
+      "title": "Prehistoric Programs",
+      "level": 14
+    },
+    "26138": {
+      "title": "Spider Walk",
+      "level": 0
+    },
+    "26139": {
+      "title": "Splitstream",
+      "level": 15
+    },
+    "26140": {
+      "title": "Take On Meme",
+      "level": 0
     }
   }
 }
