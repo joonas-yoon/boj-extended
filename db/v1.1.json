@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-24 19:13:47.667738",
+  "last_updated": "2022-11-25 19:13:18.560766",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7412,7 +7412,7 @@
     },
     "2889": {
       "title": "레스토랑",
-      "level": 22
+      "level": 21
     },
     "2890": {
       "title": "카약",
@@ -13032,7 +13032,7 @@
     },
     "4335": {
       "title": "숫자 맞추기",
-      "level": 5
+      "level": 6
     },
     "4336": {
       "title": "Temple of Dune",
@@ -17788,7 +17788,7 @@
     },
     "5667": {
       "title": "Tornado!",
-      "level": 6
+      "level": 7
     },
     "5668": {
       "title": "Arranging Heaps",
@@ -17872,7 +17872,7 @@
     },
     "5688": {
       "title": "In Braille",
-      "level": 6
+      "level": 7
     },
     "5689": {
       "title": "Jupiter Attacks!",
@@ -22240,7 +22240,7 @@
     },
     "6810": {
       "title": "ISBN",
-      "level": 1
+      "level": 2
     },
     "6811": {
       "title": "Old Fishin’ Hole",
@@ -30656,7 +30656,7 @@
     },
     "9326": {
       "title": "MI6",
-      "level": 12
+      "level": 13
     },
     "9327": {
       "title": "용량 확보",
@@ -36060,7 +36060,7 @@
     },
     "10799": {
       "title": "쇠막대기",
-      "level": 9
+      "level": 8
     },
     "10800": {
       "title": "컬러볼",
@@ -39164,7 +39164,7 @@
     },
     "11595": {
       "title": "Classy",
-      "level": 8
+      "level": 9
     },
     "11596": {
       "title": "Triangle",
@@ -39224,7 +39224,7 @@
     },
     "11610": {
       "title": "Surf",
-      "level": 12
+      "level": 11
     },
     "11611": {
       "title": "Blur",
@@ -46304,7 +46304,7 @@
     },
     "13422": {
       "title": "도둑",
-      "level": 11
+      "level": 12
     },
     "13423": {
       "title": "Three Dots",
@@ -48112,7 +48112,7 @@
     },
     "13875": {
       "title": "Just in Time",
-      "level": 14
+      "level": 13
     },
     "13876": {
       "title": "Kill the Werewolf",
@@ -55108,7 +55108,7 @@
     },
     "15660": {
       "title": "테트로미노 (2)",
-      "level": 13
+      "level": 14
     },
     "15661": {
       "title": "링크와 스타트",
@@ -68412,7 +68412,7 @@
     },
     "19025": {
       "title": "Time to get up!",
-      "level": 6
+      "level": 7
     },
     "19026": {
       "title": "Jump Jump Jump",
@@ -73208,7 +73208,7 @@
     },
     "20234": {
       "title": "Corrupted Sort",
-      "level": 15
+      "level": 16
     },
     "20235": {
       "title": "Display",
@@ -84744,7 +84744,7 @@
     },
     "23172": {
       "title": "Equivalent Pipelines",
-      "level": 19
+      "level": 20
     },
     "23173": {
       "title": "Flowerbed Redecoration",
@@ -86468,7 +86468,7 @@
     },
     "23604": {
       "title": "Chinese Remainder Theorem",
-      "level": 7
+      "level": 8
     },
     "23605": {
       "title": "Road",
@@ -86976,7 +86976,7 @@
     },
     "23731": {
       "title": "Physics Experiment",
-      "level": 6
+      "level": 7
     },
     "23732": {
       "title": "Successful String",
@@ -90372,7 +90372,7 @@
     },
     "24626": {
       "title": "Градусы, радианы, грады",
-      "level": 0
+      "level": 6
     },
     "24627": {
       "title": "Подстроки и подпоследовательности",
@@ -94196,7 +94196,7 @@
     },
     "25627": {
       "title": "칼자국",
-      "level": 24
+      "level": 23
     },
     "25628": {
       "title": "햄버거 만들기",
@@ -95596,7 +95596,7 @@
     },
     "25998": {
       "title": "Grinding Gravel",
-      "level": 0
+      "level": 21
     },
     "25999": {
       "title": "House Numbering",
@@ -95716,15 +95716,15 @@
     },
     "26028": {
       "title": "Enigmatic Enumeration",
-      "level": 0
+      "level": 19
     },
     "26029": {
       "title": "Foreign Football",
-      "level": 0
+      "level": 18
     },
     "26030": {
       "title": "Graduation Guarantee",
-      "level": 0
+      "level": 14
     },
     "26031": {
       "title": "Highest Hill",
@@ -95930,6 +95930,10 @@
       "title": "Two Choreographies",
       "level": 19
     },
+    "26114": {
+      "title": "SubsetMex",
+      "level": 0
+    },
     "26130": {
       "title": "Crystal Crosswind",
       "level": 0
@@ -95960,11 +95964,11 @@
     },
     "26137": {
       "title": "Prehistoric Programs",
-      "level": 14
+      "level": 15
     },
     "26138": {
       "title": "Spider Walk",
-      "level": 0
+      "level": 22
     },
     "26139": {
       "title": "Splitstream",
@@ -95972,6 +95976,10 @@
     },
     "26140": {
       "title": "Take On Meme",
+      "level": 0
+    },
+    "26141": {
+      "title": "Where Am I?",
       "level": 0
     }
   }
