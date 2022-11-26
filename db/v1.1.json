@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-25 19:13:18.560766",
+  "last_updated": "2022-11-26 19:12:42.607579",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -236,7 +236,7 @@
     },
     "1058": {
       "title": "친구",
-      "level": 8
+      "level": 9
     },
     "1059": {
       "title": "좋은 구간",
@@ -2884,7 +2884,7 @@
     },
     "1727": {
       "title": "커플 만들기",
-      "level": 14
+      "level": 13
     },
     "1728": {
       "title": "구슬 굴리기",
@@ -6528,7 +6528,7 @@
     },
     "2664": {
       "title": "다각형의 확장",
-      "level": 21
+      "level": 22
     },
     "2665": {
       "title": "미로만들기",
@@ -10056,7 +10056,7 @@
     },
     "3572": {
       "title": "Billboard",
-      "level": 11
+      "level": 15
     },
     "3573": {
       "title": "Class",
@@ -18772,7 +18772,7 @@
     },
     "5913": {
       "title": "준규와 사과",
-      "level": 11
+      "level": 12
     },
     "5914": {
       "title": "Cow Photography",
@@ -23196,7 +23196,7 @@
     },
     "7368": {
       "title": "Untidy Desktops",
-      "level": 4
+      "level": 5
     },
     "7369": {
       "title": "Maya Calendar",
@@ -25064,7 +25064,7 @@
     },
     "7890": {
       "title": "가까운 점 찾기",
-      "level": 24
+      "level": 25
     },
     "7891": {
       "title": "Can you add this?",
@@ -29496,7 +29496,7 @@
     },
     "9007": {
       "title": "카누 선수",
-      "level": 13
+      "level": 14
     },
     "9008": {
       "title": "Castle",
@@ -32276,7 +32276,7 @@
     },
     "9763": {
       "title": "마을의 친밀도",
-      "level": 9
+      "level": 10
     },
     "9764": {
       "title": "서로 다른 자연수의 합",
@@ -40648,7 +40648,7 @@
     },
     "11982": {
       "title": "Angry Cows (Gold)",
-      "level": 19
+      "level": 20
     },
     "11983": {
       "title": "Radio Contact",
@@ -43856,7 +43856,7 @@
     },
     "12798": {
       "title": "게나디는 머리가 좋습니다",
-      "level": 21
+      "level": 20
     },
     "12799": {
       "title": "Dijamant",
@@ -69932,7 +69932,7 @@
     },
     "19408": {
       "title": "Highly Composite Permutations",
-      "level": 7
+      "level": 8
     },
     "19409": {
       "title": "Inversions in Lexicographical Order",
@@ -81504,7 +81504,7 @@
     },
     "22355": {
       "title": "말뚝",
-      "level": 19
+      "level": 20
     },
     "22356": {
       "title": "종이, 펜, 삼각형",
@@ -83140,7 +83140,7 @@
     },
     "22764": {
       "title": "Keitai Message",
-      "level": 5
+      "level": 6
     },
     "22765": {
       "title": "Make Purse Light",
@@ -83596,7 +83596,7 @@
     },
     "22878": {
       "title": "간단한 문제",
-      "level": 19
+      "level": 20
     },
     "22879": {
       "title": "돌 가져가기 2",
@@ -85708,7 +85708,7 @@
     },
     "23414": {
       "title": "Removing Pairs",
-      "level": 6
+      "level": 9
     },
     "23415": {
       "title": "Boxes on a Shelf",
@@ -86092,7 +86092,7 @@
     },
     "23510": {
       "title": "Wise man",
-      "level": 21
+      "level": 22
     },
     "23511": {
       "title": "Cakes",
@@ -89688,7 +89688,7 @@
     },
     "24455": {
       "title": "암호화 행렬",
-      "level": 16
+      "level": 18
     },
     "24456": {
       "title": "초콜릿 훔쳐 먹기",
@@ -91752,7 +91752,7 @@
     },
     "24975": {
       "title": "Pair Programming",
-      "level": 18
+      "level": 19
     },
     "24976": {
       "title": "Balancing a Tree",
@@ -95932,6 +95932,22 @@
     },
     "26114": {
       "title": "SubsetMex",
+      "level": 8
+    },
+    "26115": {
+      "title": "Lego Wall",
+      "level": 0
+    },
+    "26117": {
+      "title": "Tourists",
+      "level": 0
+    },
+    "26118": {
+      "title": "Data Centers",
+      "level": 0
+    },
+    "26119": {
+      "title": "Superpiece",
       "level": 0
     },
     "26130": {
@@ -95976,11 +95992,23 @@
     },
     "26140": {
       "title": "Take On Meme",
-      "level": 0
+      "level": 25
     },
     "26141": {
       "title": "Where Am I?",
       "level": 0
+    },
+    "26142": {
+      "title": "꺾이지 않는 마음 1",
+      "level": 12
+    },
+    "26143": {
+      "title": "꺾이지 않는 마음 2",
+      "level": 24
+    },
+    "26144": {
+      "title": "꺾이지 않는 마음 3",
+      "level": 28
     }
   }
 }
