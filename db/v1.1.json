@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-28 19:13:30.474864",
+  "last_updated": "2022-11-29 19:13:41.683607",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2404,7 +2404,7 @@
     },
     "1606": {
       "title": "침투 계획 세우기",
-      "level": 7
+      "level": 8
     },
     "1607": {
       "title": "원숭이 타워",
@@ -16140,7 +16140,7 @@
     },
     "5132": {
       "title": "Exotic Foods",
-      "level": 11
+      "level": 10
     },
     "5133": {
       "title": "Recipes",
@@ -39164,7 +39164,7 @@
     },
     "11595": {
       "title": "Classy",
-      "level": 9
+      "level": 8
     },
     "11596": {
       "title": "Triangle",
@@ -50868,7 +50868,7 @@
     },
     "14584": {
       "title": "암호 해독",
-      "level": 6
+      "level": 7
     },
     "14585": {
       "title": "사수빈탕",
@@ -51020,7 +51020,7 @@
     },
     "14622": {
       "title": "소수 게임",
-      "level": 12
+      "level": 13
     },
     "14623": {
       "title": "감정이입",
@@ -67260,7 +67260,7 @@
     },
     "18736": {
       "title": "Football Match",
-      "level": 18
+      "level": 19
     },
     "18737": {
       "title": "Hill",
@@ -76136,7 +76136,7 @@
     },
     "20974": {
       "title": "Even More Odd Photos",
-      "level": 7
+      "level": 8
     },
     "20975": {
       "title": "Just Stalling",
@@ -94932,7 +94932,7 @@
     },
     "25832": {
       "title": "Making Connections",
-      "level": 15
+      "level": 13
     },
     "25833": {
       "title": "Boxing Books",
@@ -95240,7 +95240,7 @@
     },
     "25909": {
       "title": "수확의 계절이다!",
-      "level": 13
+      "level": 14
     },
     "25910": {
       "title": "게이트웨이 정하기",
@@ -95956,7 +95956,7 @@
     },
     "26088": {
       "title": "트리 다듬기",
-      "level": 17
+      "level": 18
     },
     "26089": {
       "title": "완전한 수열 리버스",
@@ -95976,7 +95976,7 @@
     },
     "26093": {
       "title": "고양이 목에 리본 달기",
-      "level": 12
+      "level": 13
     },
     "26094": {
       "title": "더 어려운 스케줄링",
@@ -96100,7 +96100,7 @@
     },
     "26128": {
       "title": "행성간 스터디 모임",
-      "level": 17
+      "level": 18
     },
     "26129": {
       "title": "과속카메라",
@@ -96124,7 +96124,7 @@
     },
     "26134": {
       "title": "Hand of the Free Marked",
-      "level": 0
+      "level": 24
     },
     "26135": {
       "title": "Islands from the Sky",
@@ -96136,7 +96136,7 @@
     },
     "26137": {
       "title": "Prehistoric Programs",
-      "level": 15
+      "level": 16
     },
     "26138": {
       "title": "Spider Walk",
