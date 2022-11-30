@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-29 19:13:41.683607",
+  "last_updated": "2022-11-30 19:14:17.010440",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3088,7 +3088,7 @@
     },
     "1778": {
       "title": "Ubiquitous Religions",
-      "level": 9
+      "level": 10
     },
     "1779": {
       "title": "Text Formalization",
@@ -3464,7 +3464,7 @@
     },
     "1874": {
       "title": "스택 수열",
-      "level": 9
+      "level": 8
     },
     "1875": {
       "title": "테트리스",
@@ -10272,7 +10272,7 @@
     },
     "3626": {
       "title": "Guards",
-      "level": 11
+      "level": 16
     },
     "3627": {
       "title": "Hardwood Cutting",
@@ -22240,7 +22240,7 @@
     },
     "6810": {
       "title": "ISBN",
-      "level": 2
+      "level": 1
     },
     "6811": {
       "title": "Old Fishin’ Hole",
@@ -37708,7 +37708,7 @@
     },
     "11213": {
       "title": "Black Friday",
-      "level": 3
+      "level": 4
     },
     "11214": {
       "title": "Absurdistan Roads III",
@@ -40784,7 +40784,7 @@
     },
     "12016": {
       "title": "라운드 로빈 스케줄러",
-      "level": 18
+      "level": 17
     },
     "12017": {
       "title": "CIRCUS",
@@ -50924,7 +50924,7 @@
     },
     "14598": {
       "title": "인공지능 테트리스 (Small)",
-      "level": 0
+      "level": 13
     },
     "14599": {
       "title": "인공지능 테트리스 (Large)",
@@ -57444,7 +57444,7 @@
     },
     "16256": {
       "title": "Painting the Wall",
-      "level": 0
+      "level": 9
     },
     "16257": {
       "title": "Magic Artifact",
@@ -60944,7 +60944,7 @@
     },
     "17142": {
       "title": "연구소 3",
-      "level": 12
+      "level": 13
     },
     "17143": {
       "title": "낚시왕",
@@ -72084,7 +72084,7 @@
     },
     "19951": {
       "title": "태상이의 훈련소 생활",
-      "level": 10
+      "level": 11
     },
     "19952": {
       "title": "인성 문제 있어??",
@@ -77692,7 +77692,7 @@
     },
     "21363": {
       "title": "Kontringsattack",
-      "level": 11
+      "level": 10
     },
     "21364": {
       "title": "Köpa tavlor",
@@ -80792,7 +80792,7 @@
     },
     "22153": {
       "title": "ГАС «Очередь»",
-      "level": 0
+      "level": 12
     },
     "22154": {
       "title": "Помехи",
@@ -82092,7 +82092,7 @@
     },
     "22502": {
       "title": "Starting Line",
-      "level": 12
+      "level": 13
     },
     "22503": {
       "title": "Tiles are Colorful",
@@ -95408,7 +95408,7 @@
     },
     "25951": {
       "title": "Magic Potion",
-      "level": 0
+      "level": 24
     },
     "25952": {
       "title": "Rectangles",
@@ -95448,7 +95448,7 @@
     },
     "25961": {
       "title": "스코어보드 보기 귀찮아",
-      "level": 18
+      "level": 17
     },
     "25962": {
       "title": "선우의 셋리스트",
@@ -96165,6 +96165,34 @@
     "26144": {
       "title": "꺾이지 않는 마음 3",
       "level": 27
+    },
+    "26164": {
+      "title": "싱싱미역",
+      "level": 30
+    },
+    "26165": {
+      "title": "용암 점프 2",
+      "level": 18
+    },
+    "26166": {
+      "title": "끝말잇기 하실 분!!",
+      "level": 0
+    },
+    "26167": {
+      "title": "헥소미노",
+      "level": 14
+    },
+    "26168": {
+      "title": "배열 전체 탐색하기",
+      "level": 7
+    },
+    "26169": {
+      "title": "세 번 이내에 사과를 먹자",
+      "level": 8
+    },
+    "26170": {
+      "title": "사과 빨리 먹기",
+      "level": 8
     }
   }
 }
