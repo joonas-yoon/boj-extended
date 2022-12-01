@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-11-30 19:14:17.010440",
+  "last_updated": "2022-12-01 19:13:39.502364",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2576,7 +2576,7 @@
     },
     "1649": {
       "title": "택시",
-      "level": 17
+      "level": 0
     },
     "1650": {
       "title": "지민이의 테러 Season II",
@@ -3932,7 +3932,7 @@
     },
     "1997": {
       "title": "박스포장",
-      "level": 10
+      "level": 11
     },
     "1998": {
       "title": "이미지 압축",
@@ -6908,7 +6908,7 @@
     },
     "2760": {
       "title": "마술사 현우",
-      "level": 8
+      "level": 0
     },
     "2761": {
       "title": "모형 로켓의 높이",
@@ -9328,7 +9328,7 @@
     },
     "3381": {
       "title": "Barrel",
-      "level": 10
+      "level": 0
     },
     "3382": {
       "title": "Gems",
@@ -15420,7 +15420,7 @@
     },
     "4948": {
       "title": "베르트랑 공준",
-      "level": 8
+      "level": 9
     },
     "4949": {
       "title": "균형잡힌 세상",
@@ -17092,7 +17092,7 @@
     },
     "5463": {
       "title": "건포도",
-      "level": 14
+      "level": 15
     },
     "5464": {
       "title": "주차장",
@@ -23776,7 +23776,7 @@
     },
     "7523": {
       "title": "Gauß",
-      "level": 4
+      "level": 3
     },
     "7524": {
       "title": "Kick-Tipp",
@@ -36868,7 +36868,7 @@
     },
     "11003": {
       "title": "최솟값 찾기",
-      "level": 15
+      "level": 16
     },
     "11004": {
       "title": "K번째 수",
@@ -38144,7 +38144,7 @@
     },
     "11322": {
       "title": "Numbers are Easy",
-      "level": 7
+      "level": 8
     },
     "11323": {
       "title": "Solitaire",
@@ -39660,7 +39660,7 @@
     },
     "11719": {
       "title": "그대로 출력하기 2",
-      "level": 3
+      "level": 4
     },
     "11720": {
       "title": "숫자의 합",
@@ -43956,7 +43956,7 @@
     },
     "12823": {
       "title": "Critical Projects",
-      "level": 22
+      "level": 21
     },
     "12824": {
       "title": "Connect Highways",
@@ -48120,7 +48120,7 @@
     },
     "13877": {
       "title": "이건 무슨 진법이지?",
-      "level": 3
+      "level": 4
     },
     "13878": {
       "title": "FBI Universal Control Numbers",
@@ -50500,7 +50500,7 @@
     },
     "14491": {
       "title": "9진수",
-      "level": 3
+      "level": 4
     },
     "14492": {
       "title": "부울행렬의 부울곱",
@@ -51024,7 +51024,7 @@
     },
     "14623": {
       "title": "감정이입",
-      "level": 2
+      "level": 4
     },
     "14624": {
       "title": "전북대학교",
@@ -53076,7 +53076,7 @@
     },
     "15148": {
       "title": "Front Nine",
-      "level": 0
+      "level": 14
     },
     "15149": {
       "title": "Greedy Generosity",
@@ -59952,7 +59952,7 @@
     },
     "16883": {
       "title": "대각 게임",
-      "level": 21
+      "level": 20
     },
     "16884": {
       "title": "나이트 게임",
@@ -64988,7 +64988,7 @@
     },
     "18165": {
       "title": "Dao Robot",
-      "level": 16
+      "level": 0
     },
     "18166": {
       "title": "Evaluation",
@@ -65248,7 +65248,7 @@
     },
     "18230": {
       "title": "2xN 예쁜 타일링",
-      "level": 9
+      "level": 10
     },
     "18231": {
       "title": "파괴된 도시",
@@ -71396,7 +71396,7 @@
     },
     "19779": {
       "title": "НОД и НОК",
-      "level": 14
+      "level": 0
     },
     "19780": {
       "title": "Мерлин",
@@ -72936,7 +72936,7 @@
     },
     "20166": {
       "title": "문자열 지옥에 빠진 호석",
-      "level": 12
+      "level": 11
     },
     "20167": {
       "title": "꿈틀꿈틀 호석 애벌레 - 기능성",
@@ -78884,7 +78884,7 @@
     },
     "21661": {
       "title": "Соревнование картингистов",
-      "level": 4
+      "level": 0
     },
     "21662": {
       "title": "Дипломы",
@@ -84428,7 +84428,7 @@
     },
     "23093": {
       "title": "Bank Robbery",
-      "level": 22
+      "level": 23
     },
     "23094": {
       "title": "Pizzo Collectors",
@@ -84440,7 +84440,7 @@
     },
     "23096": {
       "title": "Tobacco Growing",
-      "level": 22
+      "level": 21
     },
     "23097": {
       "title": "Rescue Mission",
@@ -86592,7 +86592,7 @@
     },
     "23635": {
       "title": "산타로부터의 선물",
-      "level": 13
+      "level": 0
     },
     "23636": {
       "title": "배열 알아맞히기",
@@ -89272,7 +89272,7 @@
     },
     "24343": {
       "title": "РАБОТИЛНИЦА",
-      "level": 13
+      "level": 0
     },
     "24344": {
       "title": "СКРИЙ МОЛИВА",
@@ -92740,7 +92740,7 @@
     },
     "25233": {
       "title": "Reset",
-      "level": 18
+      "level": 19
     },
     "25234": {
       "title": "Tic Tac Toe Counting",
@@ -94516,7 +94516,7 @@
     },
     "25718": {
       "title": "Poker Game: Decision",
-      "level": 18
+      "level": 20
     },
     "25719": {
       "title": "Poker Game: Construction",
@@ -94972,7 +94972,7 @@
     },
     "25842": {
       "title": "Tetrooj Box",
-      "level": 6
+      "level": 7
     },
     "25843": {
       "title": "Judging Assistant for Contest",
@@ -95624,7 +95624,7 @@
     },
     "26005": {
       "title": "나뭇잎 학회",
-      "level": 7
+      "level": 6
     },
     "26006": {
       "title": "K-Queen",
@@ -95912,7 +95912,7 @@
     },
     "26077": {
       "title": "서커스 나이트",
-      "level": 14
+      "level": 15
     },
     "26078": {
       "title": "곰곰이와 토너먼트",
@@ -96032,7 +96032,7 @@
     },
     "26108": {
       "title": "Linear Regression",
-      "level": 0
+      "level": 29
     },
     "26109": {
       "title": "Longest Substring",
@@ -96080,7 +96080,7 @@
     },
     "26123": {
       "title": "외계 침략자 윤이",
-      "level": 7
+      "level": 0
     },
     "26124": {
       "title": "조명 배치",
@@ -96176,7 +96176,7 @@
     },
     "26166": {
       "title": "끝말잇기 하실 분!!",
-      "level": 0
+      "level": 13
     },
     "26167": {
       "title": "헥소미노",
@@ -96193,6 +96193,66 @@
     "26170": {
       "title": "사과 빨리 먹기",
       "level": 8
+    },
+    "26171": {
+      "title": "An Interactive Problem",
+      "level": 5
+    },
+    "26172": {
+      "title": "Brothers in Arms",
+      "level": 0
+    },
+    "26173": {
+      "title": "Cup Covering",
+      "level": 0
+    },
+    "26174": {
+      "title": "Alternating Algorithm",
+      "level": 0
+    },
+    "26175": {
+      "title": "Bottle Flip",
+      "level": 12
+    },
+    "26176": {
+      "title": "Circular Caramel Cookie",
+      "level": 0
+    },
+    "26177": {
+      "title": "Delft Distance",
+      "level": 0
+    },
+    "26178": {
+      "title": "ETA",
+      "level": 0
+    },
+    "26179": {
+      "title": "Faster Than Light",
+      "level": 0
+    },
+    "26180": {
+      "title": "Going in Circles",
+      "level": 0
+    },
+    "26181": {
+      "title": "High-quality Tree",
+      "level": 0
+    },
+    "26182": {
+      "title": "Interview Question",
+      "level": 9
+    },
+    "26183": {
+      "title": "Justice Served",
+      "level": 0
+    },
+    "26184": {
+      "title": "Kebab Pizza",
+      "level": 0
+    },
+    "26185": {
+      "title": "Last Guess",
+      "level": 0
     }
   }
 }
