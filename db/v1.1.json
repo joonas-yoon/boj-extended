@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-01 19:13:39.502364",
+  "last_updated": "2022-12-03 19:12:07.756747",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2884,7 +2884,7 @@
     },
     "1727": {
       "title": "커플 만들기",
-      "level": 13
+      "level": 14
     },
     "1728": {
       "title": "구슬 굴리기",
@@ -12684,7 +12684,7 @@
     },
     "4248": {
       "title": "Chat Rooms",
-      "level": 11
+      "level": 9
     },
     "4249": {
       "title": "Hermes' Colony",
@@ -18688,7 +18688,7 @@
     },
     "5892": {
       "title": "Landscaping",
-      "level": 16
+      "level": 17
     },
     "5893": {
       "title": "17배",
@@ -30412,7 +30412,7 @@
     },
     "9265": {
       "title": "Count",
-      "level": 6
+      "level": 8
     },
     "9266": {
       "title": "체스 게임",
@@ -33092,7 +33092,7 @@
     },
     "10027": {
       "title": "CSS",
-      "level": 22
+      "level": 21
     },
     "10028": {
       "title": "HISTOGRAMI",
@@ -33184,7 +33184,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 26
+      "level": 25
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -36668,7 +36668,7 @@
     },
     "10953": {
       "title": "A+B - 6",
-      "level": 3
+      "level": 4
     },
     "10954": {
       "title": "테트리스 2",
@@ -42980,7 +42980,7 @@
     },
     "12578": {
       "title": "File Fix-it (Large)",
-      "level": 0
+      "level": 11
     },
     "12579": {
       "title": "Picking Up Chicks (Small)",
@@ -43628,7 +43628,7 @@
     },
     "12741": {
       "title": "쓰담쓰담",
-      "level": 16
+      "level": 17
     },
     "12742": {
       "title": "혼합물 (Small)",
@@ -48164,7 +48164,7 @@
     },
     "13889": {
       "title": "Average",
-      "level": 18
+      "level": 17
     },
     "13890": {
       "title": "Big Bang",
@@ -50976,7 +50976,7 @@
     },
     "14611": {
       "title": "월요병",
-      "level": 18
+      "level": 17
     },
     "14612": {
       "title": "김식당",
@@ -52280,7 +52280,7 @@
     },
     "14949": {
       "title": "외계 미생물",
-      "level": 16
+      "level": 15
     },
     "14950": {
       "title": "정복자",
@@ -53380,7 +53380,7 @@
     },
     "15224": {
       "title": "EvenOdd",
-      "level": 13
+      "level": 15
     },
     "15225": {
       "title": "Islands",
@@ -63100,7 +63100,7 @@
     },
     "17685": {
       "title": "Worst Reporter 3",
-      "level": 18
+      "level": 19
     },
     "17686": {
       "title": "Airline Route Map",
@@ -64320,7 +64320,7 @@
     },
     "17998": {
       "title": "Levenshtein Distance",
-      "level": 8
+      "level": 7
     },
     "17999": {
       "title": "Maze Connect",
@@ -66440,7 +66440,7 @@
     },
     "18531": {
       "title": "Letter Wheels",
-      "level": 16
+      "level": 17
     },
     "18532": {
       "title": "Editing Explosion",
@@ -70680,7 +70680,7 @@
     },
     "19595": {
       "title": "소수 게임",
-      "level": 13
+      "level": 14
     },
     "19596": {
       "title": "선물 교환",
@@ -74088,7 +74088,7 @@
     },
     "20462": {
       "title": "Программирование квадрокоптеров",
-      "level": 0
+      "level": 14
     },
     "20463": {
       "title": "Иллюзия сортировки",
@@ -76564,7 +76564,7 @@
     },
     "21081": {
       "title": "Wandering",
-      "level": 15
+      "level": 16
     },
     "21082": {
       "title": "Assignment Problem",
@@ -77180,7 +77180,7 @@
     },
     "21235": {
       "title": "Year of the Cow",
-      "level": 10
+      "level": 11
     },
     "21236": {
       "title": "Comfortable Cows",
@@ -84124,7 +84124,7 @@
     },
     "23015": {
       "title": "Shuffled Anagrams",
-      "level": 15
+      "level": 14
     },
     "23016": {
       "title": "Birthday Cake",
@@ -93636,7 +93636,7 @@
     },
     "25477": {
       "title": "Insemove",
-      "level": 9
+      "level": 10
     },
     "25478": {
       "title": "Marinada",
@@ -94244,7 +94244,7 @@
     },
     "25639": {
       "title": "수열과 최대 상승 쿼리",
-      "level": 19
+      "level": 20
     },
     "25640": {
       "title": "MBTI",
@@ -94532,7 +94532,7 @@
     },
     "25722": {
       "title": "Expression Evaluation",
-      "level": 22
+      "level": 23
     },
     "25723": {
       "title": "Equivalence in Connectivity",
@@ -95728,11 +95728,11 @@
     },
     "26031": {
       "title": "Highest Hill",
-      "level": 7
+      "level": 6
     },
     "26032": {
       "title": "Icy Itinerary",
-      "level": 0
+      "level": 19
     },
     "26033": {
       "title": "Junk Journey",
@@ -95928,7 +95928,7 @@
     },
     "26081": {
       "title": "곰곰이와 GGANALi",
-      "level": 16
+      "level": 17
     },
     "26082": {
       "title": "WARBOY",
@@ -95964,7 +95964,7 @@
     },
     "26090": {
       "title": "완전한 수열",
-      "level": 9
+      "level": 8
     },
     "26091": {
       "title": "현대모비스 소프트웨어 아카데미",
@@ -96000,7 +96000,7 @@
     },
     "26100": {
       "title": "스타트와 링크 2",
-      "level": 22
+      "level": 21
     },
     "26101": {
       "title": "링크와 스타트 2",
@@ -96196,7 +96196,7 @@
     },
     "26171": {
       "title": "An Interactive Problem",
-      "level": 5
+      "level": 4
     },
     "26172": {
       "title": "Brothers in Arms",
@@ -96252,6 +96252,118 @@
     },
     "26185": {
       "title": "Last Guess",
+      "level": 0
+    },
+    "26186": {
+      "title": "Bandits",
+      "level": 0
+    },
+    "26187": {
+      "title": "Combination Locks",
+      "level": 0
+    },
+    "26188": {
+      "title": "Constellations",
+      "level": 0
+    },
+    "26189": {
+      "title": "Deforestation",
+      "level": 0
+    },
+    "26190": {
+      "title": "Denormalization",
+      "level": 10
+    },
+    "26191": {
+      "title": "Differences",
+      "level": 0
+    },
+    "26193": {
+      "title": "Insertions",
+      "level": 0
+    },
+    "26194": {
+      "title": "Money Laundering",
+      "level": 0
+    },
+    "26195": {
+      "title": "Mortgage",
+      "level": 0
+    },
+    "26196": {
+      "title": "Skills in Pills",
+      "level": 0
+    },
+    "26197": {
+      "title": "The Game",
+      "level": 0
+    },
+    "26198": {
+      "title": "Chronogram",
+      "level": 3
+    },
+    "26199": {
+      "title": "Permutations",
+      "level": 0
+    },
+    "26200": {
+      "title": "Sokoban",
+      "level": 0
+    },
+    "26201": {
+      "title": "Finding Maximal Non-Trivial Monotones",
+      "level": 5
+    },
+    "26202": {
+      "title": "Fun with Stones",
+      "level": 0
+    },
+    "26203": {
+      "title": "Cutting with Lasers",
+      "level": 0
+    },
+    "26204": {
+      "title": "Displacing Particles",
+      "level": 11
+    },
+    "26205": {
+      "title": "Eliminating Ballons",
+      "level": 9
+    },
+    "26206": {
+      "title": "Multidimensional Hangman",
+      "level": 0
+    },
+    "26207": {
+      "title": "Geometry of Triangles",
+      "level": 0
+    },
+    "26208": {
+      "title": "Helping the Transit",
+      "level": 0
+    },
+    "26209": {
+      "title": "Intercepting Information",
+      "level": 2
+    },
+    "26210": {
+      "title": "Playing 23",
+      "level": 0
+    },
+    "26211": {
+      "title": "Kalel, the Jumping Frog",
+      "level": 0
+    },
+    "26212": {
+      "title": "Listing Tedious Paths",
+      "level": 0
+    },
+    "26213": {
+      "title": "Hopscotch Marathon",
+      "level": 0
+    },
+    "26214": {
+      "title": "Numbers on both Sides",
       "level": 0
     }
   }
