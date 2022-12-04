@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-03 19:12:07.756747",
+  "last_updated": "2022-12-04 19:12:24.071581",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6332,7 +6332,7 @@
     },
     "2615": {
       "title": "오목",
-      "level": 9
+      "level": 10
     },
     "2616": {
       "title": "소형기관차",
@@ -18548,7 +18548,7 @@
     },
     "5857": {
       "title": "Mirrors",
-      "level": 13
+      "level": 14
     },
     "5858": {
       "title": "Painting the Fence",
@@ -42012,7 +42012,7 @@
     },
     "12332": {
       "title": "Manage your Energy (Large)",
-      "level": 0
+      "level": 11
     },
     "12333": {
       "title": "Good Luck (Small1)",
@@ -53380,7 +53380,7 @@
     },
     "15224": {
       "title": "EvenOdd",
-      "level": 15
+      "level": 16
     },
     "15225": {
       "title": "Islands",
@@ -64880,7 +64880,7 @@
     },
     "18138": {
       "title": "리유나는 세일러복을 좋아해",
-      "level": 17
+      "level": 16
     },
     "18139": {
       "title": "Rush Hour Puzzle",
@@ -66212,7 +66212,7 @@
     },
     "18473": {
       "title": "Fast Spanning Tree",
-      "level": 27
+      "level": 26
     },
     "18474": {
       "title": "Grammarly",
@@ -70872,7 +70872,7 @@
     },
     "19644": {
       "title": "좀비 떼가 기관총 진지에도 오다니",
-      "level": 13
+      "level": 12
     },
     "19645": {
       "title": "햄최몇?",
@@ -95416,7 +95416,7 @@
     },
     "25953": {
       "title": "템포럴 그래프",
-      "level": 12
+      "level": 13
     },
     "25954": {
       "title": "LCS 9",
@@ -95728,7 +95728,7 @@
     },
     "26031": {
       "title": "Highest Hill",
-      "level": 6
+      "level": 7
     },
     "26032": {
       "title": "Icy Itinerary",
@@ -96056,7 +96056,7 @@
     },
     "26114": {
       "title": "SubsetMex",
-      "level": 8
+      "level": 10
     },
     "26115": {
       "title": "Lego Wall",
@@ -96166,6 +96166,82 @@
       "title": "꺾이지 않는 마음 3",
       "level": 27
     },
+    "26145": {
+      "title": "출제비 재분배",
+      "level": 3
+    },
+    "26146": {
+      "title": "즉흥 여행 (Easy)",
+      "level": 15
+    },
+    "26147": {
+      "title": "Wordle 찍기",
+      "level": 12
+    },
+    "26148": {
+      "title": "세로 달력",
+      "level": 5
+    },
+    "26149": {
+      "title": "선물의 재분배",
+      "level": 15
+    },
+    "26150": {
+      "title": "Identify, Sort, Index, Solve",
+      "level": 6
+    },
+    "26151": {
+      "title": "NATO 음성 기호와 쿼리",
+      "level": 18
+    },
+    "26152": {
+      "title": "플래피 버드 스코어링",
+      "level": 9
+    },
+    "26153": {
+      "title": "로하의 농사",
+      "level": 12
+    },
+    "26154": {
+      "title": "한양 가왕",
+      "level": 0
+    },
+    "26155": {
+      "title": "배수관 미스터리",
+      "level": 0
+    },
+    "26156": {
+      "title": "나락도 락이다",
+      "level": 0
+    },
+    "26157": {
+      "title": "즉흥 여행 (Hard)",
+      "level": 17
+    },
+    "26158": {
+      "title": "All Solve를 향해!",
+      "level": 0
+    },
+    "26159": {
+      "title": "트리와 수열",
+      "level": 0
+    },
+    "26160": {
+      "title": "보물 찾기",
+      "level": 0
+    },
+    "26161": {
+      "title": "트리의 팔",
+      "level": 20
+    },
+    "26162": {
+      "title": "인공 원소",
+      "level": 0
+    },
+    "26163": {
+      "title": "문제 출제",
+      "level": 8
+    },
     "26164": {
       "title": "싱싱미역",
       "level": 30
@@ -96200,11 +96276,11 @@
     },
     "26172": {
       "title": "Brothers in Arms",
-      "level": 0
+      "level": 14
     },
     "26173": {
       "title": "Cup Covering",
-      "level": 0
+      "level": 4
     },
     "26174": {
       "title": "Alternating Algorithm",
@@ -96328,7 +96404,7 @@
     },
     "26205": {
       "title": "Eliminating Ballons",
-      "level": 9
+      "level": 10
     },
     "26206": {
       "title": "Multidimensional Hangman",
@@ -96344,7 +96420,7 @@
     },
     "26209": {
       "title": "Intercepting Information",
-      "level": 2
+      "level": 1
     },
     "26210": {
       "title": "Playing 23",
