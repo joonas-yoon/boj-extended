@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-05 19:13:10.930113",
+  "last_updated": "2022-12-06 19:13:15.179287",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8268,7 +8268,7 @@
     },
     "3108": {
       "title": "로고",
-      "level": 13
+      "level": 14
     },
     "3109": {
       "title": "빵집",
@@ -20928,7 +20928,7 @@
     },
     "6482": {
       "title": "Evaluating Simple C Expressions",
-      "level": 13
+      "level": 14
     },
     "6483": {
       "title": "The Finite State Text-Processing Machine",
@@ -22240,7 +22240,7 @@
     },
     "6810": {
       "title": "ISBN",
-      "level": 1
+      "level": 2
     },
     "6811": {
       "title": "Old Fishin’ Hole",
@@ -23140,7 +23140,7 @@
     },
     "7354": {
       "title": "트리의 순서",
-      "level": 15
+      "level": 16
     },
     "7355": {
       "title": "Space Station Shielding",
@@ -45544,7 +45544,7 @@
     },
     "13232": {
       "title": "Domain clusters",
-      "level": 15
+      "level": 16
     },
     "13233": {
       "title": "Celtic Symmetry",
@@ -54696,7 +54696,7 @@
     },
     "15555": {
       "title": "Dango Maker",
-      "level": 20
+      "level": 21
     },
     "15556": {
       "title": "Commuter Pass",
@@ -64880,7 +64880,7 @@
     },
     "18138": {
       "title": "리유나는 세일러복을 좋아해",
-      "level": 16
+      "level": 17
     },
     "18139": {
       "title": "Rush Hour Puzzle",
@@ -65084,7 +65084,7 @@
     },
     "18189": {
       "title": "참 어려운 문제",
-      "level": 21
+      "level": 22
     },
     "18190": {
       "title": "촛불과 그림자",
@@ -72732,7 +72732,7 @@
     },
     "20114": {
       "title": "미아 노트",
-      "level": 7
+      "level": 6
     },
     "20115": {
       "title": "에너지 드링크",
@@ -83960,7 +83960,7 @@
     },
     "22974": {
       "title": "2D 큐브",
-      "level": 17
+      "level": 18
     },
     "22975": {
       "title": "도시 계획",
@@ -83976,7 +83976,7 @@
     },
     "22978": {
       "title": "압축 프로그램",
-      "level": 19
+      "level": 20
     },
     "22979": {
       "title": "색종이 붙이기",
@@ -87788,7 +87788,7 @@
     },
     "23934": {
       "title": "Diverse Subarray",
-      "level": 19
+      "level": 20
     },
     "23935": {
       "title": "Wiggle Walk",
@@ -95088,7 +95088,7 @@
     },
     "25871": {
       "title": "Historical TV Remote Control",
-      "level": 4
+      "level": 5
     },
     "25872": {
       "title": "Circle Meets Square",
@@ -95464,7 +95464,7 @@
     },
     "25965": {
       "title": "미션 도네이션",
-      "level": 3
+      "level": 2
     },
     "25966": {
       "title": "배찬우는 배열을 좋아해",
@@ -96388,7 +96388,7 @@
     },
     "26201": {
       "title": "Finding Maximal Non-Trivial Monotones",
-      "level": 5
+      "level": 4
     },
     "26202": {
       "title": "Fun with Stones",
