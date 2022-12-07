@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-06 19:13:15.179287",
+  "last_updated": "2022-12-07 19:12:43.092987",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -616,7 +616,7 @@
     },
     "1153": {
       "title": "네 개의 소수",
-      "level": 12
+      "level": 13
     },
     "1154": {
       "title": "팀 편성",
@@ -7272,7 +7272,7 @@
     },
     "2854": {
       "title": "문제 출제",
-      "level": 12
+      "level": 13
     },
     "2855": {
       "title": "흥미로운 수열",
@@ -9580,7 +9580,7 @@
     },
     "3451": {
       "title": "Easy Task",
-      "level": 6
+      "level": 7
     },
     "3452": {
       "title": "Bundling",
@@ -13600,7 +13600,7 @@
     },
     "4482": {
       "title": "Tetrahedral Stacks of Cannonballs",
-      "level": 4
+      "level": 5
     },
     "4483": {
       "title": "“Robot Roll Call – Cambot...Servo...Gypsy...Croooow”",
@@ -18624,7 +18624,7 @@
     },
     "5876": {
       "title": "Horseshoes",
-      "level": 9
+      "level": 10
     },
     "5877": {
       "title": "Tied Down",
@@ -22256,7 +22256,7 @@
     },
     "6814": {
       "title": "Degrees of Separation",
-      "level": 0
+      "level": 11
     },
     "6820": {
       "title": "Dinner",
@@ -26400,7 +26400,7 @@
     },
     "8230": {
       "title": "Squarks",
-      "level": 17
+      "level": 18
     },
     "8231": {
       "title": "Salaries",
@@ -39044,7 +39044,7 @@
     },
     "11565": {
       "title": "바이너리 게임",
-      "level": 13
+      "level": 14
     },
     "11566": {
       "title": "킥",
@@ -59388,7 +59388,7 @@
     },
     "16742": {
       "title": "Shortest Common Non-Subsequence",
-      "level": 18
+      "level": 17
     },
     "16743": {
       "title": "Eulerian Flight Tour",
@@ -71092,7 +71092,7 @@
     },
     "19699": {
       "title": "소-난다!",
-      "level": 10
+      "level": 9
     },
     "19700": {
       "title": "수업",
@@ -71388,7 +71388,7 @@
     },
     "19777": {
       "title": "Дюны",
-      "level": 5
+      "level": 6
     },
     "19778": {
       "title": "Игра",
@@ -94628,7 +94628,7 @@
     },
     "25756": {
       "title": "방어율 무시 계산하기",
-      "level": 3
+      "level": 2
     },
     "25757": {
       "title": "임스와 함께하는 미니게임",
@@ -95464,7 +95464,7 @@
     },
     "25965": {
       "title": "미션 도네이션",
-      "level": 2
+      "level": 3
     },
     "25966": {
       "title": "배찬우는 배열을 좋아해",
@@ -96032,7 +96032,7 @@
     },
     "26108": {
       "title": "Linear Regression",
-      "level": 29
+      "level": 30
     },
     "26109": {
       "title": "Longest Substring",
@@ -96056,7 +96056,7 @@
     },
     "26114": {
       "title": "SubsetMex",
-      "level": 10
+      "level": 11
     },
     "26115": {
       "title": "Lego Wall",
@@ -96396,7 +96396,7 @@
     },
     "26203": {
       "title": "Cutting with Lasers",
-      "level": 0
+      "level": 18
     },
     "26204": {
       "title": "Displacing Particles",
@@ -96440,6 +96440,34 @@
     },
     "26214": {
       "title": "Numbers on both Sides",
+      "level": 0
+    },
+    "26257": {
+      "title": "std::shared_ptr",
+      "level": 7
+    },
+    "26258": {
+      "title": "다중 일차 함수",
+      "level": 8
+    },
+    "26259": {
+      "title": "백룸",
+      "level": 13
+    },
+    "26260": {
+      "title": "이가 빠진 이진 트리",
+      "level": 12
+    },
+    "26261": {
+      "title": "악보 만들기",
+      "level": 17
+    },
+    "26262": {
+      "title": "트리 더하기 1",
+      "level": 17
+    },
+    "26263": {
+      "title": "룬 숲",
       "level": 0
     }
   }
