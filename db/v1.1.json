@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-07 19:12:43.092987",
+  "last_updated": "2022-12-08 19:13:10.897353",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6904,7 +6904,7 @@
     },
     "2759": {
       "title": "팬케이크 뒤집기",
-      "level": 11
+      "level": 12
     },
     "2760": {
       "title": "마술사 현우",
@@ -7044,7 +7044,7 @@
     },
     "2797": {
       "title": "트램폴린",
-      "level": 16
+      "level": 17
     },
     "2798": {
       "title": "블랙잭",
@@ -20804,7 +20804,7 @@
     },
     "6444": {
       "title": "스프레드시트",
-      "level": 17
+      "level": 18
     },
     "6446": {
       "title": "Peter's Calculator",
@@ -33892,7 +33892,7 @@
     },
     "10244": {
       "title": "최대공약수들",
-      "level": 16
+      "level": 15
     },
     "10245": {
       "title": "Gold Bandits",
@@ -60256,7 +60256,7 @@
     },
     "16959": {
       "title": "체스판 여행 1",
-      "level": 15
+      "level": 16
     },
     "16960": {
       "title": "스위치와 램프",
@@ -87840,7 +87840,7 @@
     },
     "23947": {
       "title": "Book Reading",
-      "level": 7
+      "level": 8
     },
     "23948": {
       "title": "The Equation",
@@ -93068,7 +93068,7 @@
     },
     "25323": {
       "title": "수 정렬하기, 근데 이제 제곱수를 곁들인",
-      "level": 15
+      "level": 16
     },
     "25324": {
       "title": "로지텍 MX Mechanical",
@@ -95968,11 +95968,11 @@
     },
     "26091": {
       "title": "현대모비스 소프트웨어 아카데미",
-      "level": 9
+      "level": 10
     },
     "26092": {
       "title": "수학적인 최소 공통 조상",
-      "level": 12
+      "level": 11
     },
     "26093": {
       "title": "고양이 목에 리본 달기",
@@ -96292,15 +96292,15 @@
     },
     "26176": {
       "title": "Circular Caramel Cookie",
-      "level": 0
+      "level": 12
     },
     "26177": {
       "title": "Delft Distance",
-      "level": 0
+      "level": 14
     },
     "26178": {
       "title": "ETA",
-      "level": 0
+      "level": 15
     },
     "26179": {
       "title": "Faster Than Light",
@@ -96308,11 +96308,11 @@
     },
     "26180": {
       "title": "Going in Circles",
-      "level": 0
+      "level": 18
     },
     "26181": {
       "title": "High-quality Tree",
-      "level": 0
+      "level": 17
     },
     "26182": {
       "title": "Interview Question",
@@ -96320,15 +96320,15 @@
     },
     "26183": {
       "title": "Justice Served",
-      "level": 0
+      "level": 17
     },
     "26184": {
       "title": "Kebab Pizza",
-      "level": 0
+      "level": 19
     },
     "26185": {
       "title": "Last Guess",
-      "level": 0
+      "level": 20
     },
     "26186": {
       "title": "Bandits",
@@ -96452,11 +96452,11 @@
     },
     "26259": {
       "title": "백룸",
-      "level": 13
+      "level": 12
     },
     "26260": {
       "title": "이가 빠진 이진 트리",
-      "level": 12
+      "level": 11
     },
     "26261": {
       "title": "악보 만들기",
@@ -96468,7 +96468,7 @@
     },
     "26263": {
       "title": "룬 숲",
-      "level": 0
+      "level": 22
     }
   }
 }
