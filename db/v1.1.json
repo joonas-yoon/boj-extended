@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-08 19:13:10.897353",
+  "last_updated": "2022-12-09 19:13:50.485199",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7292,7 +7292,7 @@
     },
     "2859": {
       "title": "별 관찰",
-      "level": 7
+      "level": 8
     },
     "2860": {
       "title": "종이에 숫자 쓰기",
@@ -8836,7 +8836,7 @@
     },
     "3253": {
       "title": "TRAM",
-      "level": 9
+      "level": 8
     },
     "3254": {
       "title": "김밥 21개",
@@ -14696,7 +14696,7 @@
     },
     "4757": {
       "title": "A Contesting Decision",
-      "level": 4
+      "level": 5
     },
     "4758": {
       "title": "Filling Out the Team",
@@ -19616,11 +19616,11 @@
     },
     "6128": {
       "title": "Bessie's Secret Pasture",
-      "level": 9
+      "level": 8
     },
     "6129": {
       "title": "Obstacle Course",
-      "level": 11
+      "level": 12
     },
     "6130": {
       "title": "Privileged Cows",
@@ -21264,7 +21264,7 @@
     },
     "6566": {
       "title": "애너그램 그룹",
-      "level": 9
+      "level": 10
     },
     "6567": {
       "title": "Let it Bead",
@@ -26064,7 +26064,7 @@
     },
     "8146": {
       "title": "Tetris Attack",
-      "level": 22
+      "level": 21
     },
     "8147": {
       "title": "Railway",
@@ -32132,7 +32132,7 @@
     },
     "9708": {
       "title": "Charles Babbage's Difference Engine",
-      "level": 5
+      "level": 6
     },
     "9709": {
       "title": "Lights",
@@ -39012,7 +39012,7 @@
     },
     "11557": {
       "title": "Yangjojang of The Year",
-      "level": 4
+      "level": 5
     },
     "11558": {
       "title": "The Game of Death",
@@ -53888,7 +53888,7 @@
     },
     "15353": {
       "title": "큰 수 A+B (2)",
-      "level": 7
+      "level": 8
     },
     "15354": {
       "title": "Aron",
@@ -56096,7 +56096,7 @@
     },
     "15911": {
       "title": "동전",
-      "level": 17
+      "level": 18
     },
     "15912": {
       "title": "우주선 만들기",
@@ -56152,7 +56152,7 @@
     },
     "15926": {
       "title": "현욱은 괄호왕이야!!",
-      "level": 12
+      "level": 13
     },
     "15927": {
       "title": "회문은 회문아니야!!",
@@ -62000,7 +62000,7 @@
     },
     "17408": {
       "title": "수열과 쿼리 24",
-      "level": 17
+      "level": 18
     },
     "17409": {
       "title": "증가 수열의 개수",
@@ -79884,7 +79884,7 @@
     },
     "21917": {
       "title": "Mistake",
-      "level": 9
+      "level": 10
     },
     "21918": {
       "title": "전구",
@@ -84440,7 +84440,7 @@
     },
     "23096": {
       "title": "Tobacco Growing",
-      "level": 21
+      "level": 22
     },
     "23097": {
       "title": "Rescue Mission",
@@ -86380,7 +86380,7 @@
     },
     "23582": {
       "title": "Distance in Crosses",
-      "level": 0
+      "level": 13
     },
     "23583": {
       "title": "Lui and Lines",
@@ -91444,7 +91444,7 @@
     },
     "24895": {
       "title": "다트",
-      "level": 21
+      "level": 22
     },
     "24896": {
       "title": "르블랑의 트리 순회",
@@ -93916,7 +93916,7 @@
     },
     "25551": {
       "title": "멋쟁이 포닉스",
-      "level": 4
+      "level": 5
     },
     "25552": {
       "title": "잔디 예측하기",
@@ -95484,7 +95484,7 @@
     },
     "25970": {
       "title": "현대 모비스 에어 서스펜션",
-      "level": 13
+      "level": 14
     },
     "25971": {
       "title": "태풍 예보",
@@ -96172,7 +96172,7 @@
     },
     "26146": {
       "title": "즉흥 여행 (Easy)",
-      "level": 16
+      "level": 15
     },
     "26147": {
       "title": "Wordle 찍기",
@@ -96328,7 +96328,7 @@
     },
     "26185": {
       "title": "Last Guess",
-      "level": 20
+      "level": 21
     },
     "26186": {
       "title": "Bandits",
