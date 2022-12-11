@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-09 19:13:50.485199",
+  "last_updated": "2022-12-11 19:12:44.075503",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2552,7 +2552,7 @@
     },
     "1643": {
       "title": "쿠폰",
-      "level": 9
+      "level": 10
     },
     "1644": {
       "title": "소수의 연속합",
@@ -3272,7 +3272,7 @@
     },
     "1826": {
       "title": "연료 채우기",
-      "level": 13
+      "level": 14
     },
     "1827": {
       "title": "여행가이드",
@@ -7008,7 +7008,7 @@
     },
     "2788": {
       "title": "스타트업",
-      "level": 20
+      "level": 21
     },
     "2789": {
       "title": "유학 금지",
@@ -14020,7 +14020,7 @@
     },
     "4587": {
       "title": "이집트 분수",
-      "level": 10
+      "level": 11
     },
     "4588": {
       "title": "Up and Down",
@@ -14484,7 +14484,7 @@
     },
     "4703": {
       "title": "그림의 추측",
-      "level": 19
+      "level": 16
     },
     "4704": {
       "title": "Tsunami",
@@ -14948,7 +14948,7 @@
     },
     "4826": {
       "title": "Range",
-      "level": 4
+      "level": 5
     },
     "4827": {
       "title": "Coverage",
@@ -17084,7 +17084,7 @@
     },
     "5461": {
       "title": "고용",
-      "level": 17
+      "level": 18
     },
     "5462": {
       "title": "POI",
@@ -21568,7 +21568,7 @@
     },
     "6642": {
       "title": "On-Line Banking",
-      "level": 5
+      "level": 6
     },
     "6643": {
       "title": "International Collegiate Programming Contest",
@@ -22324,7 +22324,7 @@
     },
     "6977": {
       "title": "Pattern Generator",
-      "level": 7
+      "level": 8
     },
     "6978": {
       "title": "When in Rome...",
@@ -24204,7 +24204,7 @@
     },
     "7630": {
       "title": "City Driving",
-      "level": 21
+      "level": 20
     },
     "7631": {
       "title": "Drunken Walk",
@@ -24420,7 +24420,7 @@
     },
     "7685": {
       "title": "Nim",
-      "level": 13
+      "level": 14
     },
     "7686": {
       "title": "Dropping tests",
@@ -28656,7 +28656,7 @@
     },
     "8796": {
       "title": "Indiana Jones wśród zombie",
-      "level": 10
+      "level": 11
     },
     "8797": {
       "title": "Konkotenacja",
@@ -28700,7 +28700,7 @@
     },
     "8807": {
       "title": "Przedziały",
-      "level": 9
+      "level": 10
     },
     "8808": {
       "title": "Malowane liczby",
@@ -30400,7 +30400,7 @@
     },
     "9260": {
       "title": "E-Mail Snooping",
-      "level": 5
+      "level": 6
     },
     "9263": {
       "title": "Russian Dolls",
@@ -46452,7 +46452,7 @@
     },
     "13459": {
       "title": "구슬 탈출",
-      "level": 14
+      "level": 15
     },
     "13460": {
       "title": "구슬 탈출 2",
@@ -49412,7 +49412,7 @@
     },
     "14219": {
       "title": "막대과자 포장",
-      "level": 3
+      "level": 4
     },
     "14220": {
       "title": "양아치 집배원",
@@ -54460,7 +54460,7 @@
     },
     "15496": {
       "title": "Mate",
-      "level": 17
+      "level": 18
     },
     "15497": {
       "title": "Cover",
@@ -54988,7 +54988,7 @@
     },
     "15630": {
       "title": "Binary Game",
-      "level": 0
+      "level": 13
     },
     "15631": {
       "title": "BOJeopardy",
@@ -58848,7 +58848,7 @@
     },
     "16607": {
       "title": "Game Design",
-      "level": 19
+      "level": 18
     },
     "16608": {
       "title": "Hard Drive",
@@ -60572,7 +60572,7 @@
     },
     "17040": {
       "title": "The Great Revegetation (Bronze)",
-      "level": 7
+      "level": 8
     },
     "17041": {
       "title": "Measuring Traffic",
@@ -66868,7 +66868,7 @@
     },
     "18638": {
       "title": "The Older We Are, The Worse It Hurts",
-      "level": 20
+      "level": 21
     },
     "18639": {
       "title": "Three Vectors",
@@ -72684,7 +72684,7 @@
     },
     "20102": {
       "title": "Sudoku 9",
-      "level": 17
+      "level": 18
     },
     "20103": {
       "title": "Sudoku 10",
@@ -77180,11 +77180,11 @@
     },
     "21235": {
       "title": "Year of the Cow",
-      "level": 11
+      "level": 10
     },
     "21236": {
       "title": "Comfortable Cows",
-      "level": 7
+      "level": 8
     },
     "21237": {
       "title": "Clockwise Fence",
@@ -80260,7 +80260,7 @@
     },
     "22020": {
       "title": "デジタルアート (Digital Art)",
-      "level": 19
+      "level": 18
     },
     "22021": {
       "title": "자동분무기",
@@ -80792,7 +80792,7 @@
     },
     "22153": {
       "title": "ГАС «Очередь»",
-      "level": 12
+      "level": 13
     },
     "22154": {
       "title": "Помехи",
@@ -85508,7 +85508,7 @@
     },
     "23364": {
       "title": "Almost Always",
-      "level": 12
+      "level": 13
     },
     "23365": {
       "title": "Buffered Buffet",
@@ -87404,7 +87404,7 @@
     },
     "23838": {
       "title": "웜뱃",
-      "level": 25
+      "level": 26
     },
     "23839": {
       "title": "바자와 샤자",
@@ -91772,7 +91772,7 @@
     },
     "24980": {
       "title": "Photoshoot",
-      "level": 12
+      "level": 13
     },
     "24981": {
       "title": "Counting Liars",
@@ -94644,7 +94644,7 @@
     },
     "25760": {
       "title": "귀경길 교통상황을 알려드립니다",
-      "level": 15
+      "level": 14
     },
     "25761": {
       "title": "축사 건설",
@@ -95624,7 +95624,7 @@
     },
     "26005": {
       "title": "나뭇잎 학회",
-      "level": 7
+      "level": 6
     },
     "26006": {
       "title": "K-Queen",
@@ -95944,7 +95944,7 @@
     },
     "26085": {
       "title": "효구와 호규 (Easy)",
-      "level": 11
+      "level": 10
     },
     "26086": {
       "title": "어려운 스케줄링",
@@ -96442,6 +96442,38 @@
       "title": "Numbers on both Sides",
       "level": 0
     },
+    "26215": {
+      "title": "눈 치우기",
+      "level": 8
+    },
+    "26216": {
+      "title": "은나무",
+      "level": 13
+    },
+    "26217": {
+      "title": "별꽃의 세레나데 (Easy)",
+      "level": 10
+    },
+    "26218": {
+      "title": "생산 시스템 관리",
+      "level": 15
+    },
+    "26219": {
+      "title": "별꽃의 세레나데 (Hard)",
+      "level": 17
+    },
+    "26220": {
+      "title": "겨울 숲의 썰매 트랙",
+      "level": 22
+    },
+    "26221": {
+      "title": "겨울 숲과 마법 불꽃",
+      "level": 21
+    },
+    "26248": {
+      "title": "겨울 숲의 수호자",
+      "level": 0
+    },
     "26257": {
       "title": "std::shared_ptr",
       "level": 7
@@ -96464,11 +96496,63 @@
     },
     "26262": {
       "title": "트리 더하기 1",
-      "level": 17
+      "level": 18
     },
     "26263": {
       "title": "룬 숲",
       "level": 22
+    },
+    "26276": {
+      "title": "Point in Triangle",
+      "level": 20
+    },
+    "26281": {
+      "title": "Amazing Trick",
+      "level": 14
+    },
+    "26282": {
+      "title": "BinCoin",
+      "level": 0
+    },
+    "26283": {
+      "title": "Cactus Meets Torus",
+      "level": 0
+    },
+    "26284": {
+      "title": "Dominoes",
+      "level": 0
+    },
+    "26285": {
+      "title": "Easy Assembly",
+      "level": 11
+    },
+    "26286": {
+      "title": "Football",
+      "level": 8
+    },
+    "26287": {
+      "title": "Game of Questions",
+      "level": 0
+    },
+    "26288": {
+      "title": "Hot and Cold",
+      "level": 0
+    },
+    "26289": {
+      "title": "Interactive Factorial Guessing",
+      "level": 0
+    },
+    "26290": {
+      "title": "Jumbled Trees",
+      "level": 0
+    },
+    "26291": {
+      "title": "King's Puzzle",
+      "level": 0
+    },
+    "26292": {
+      "title": "Lisa's Sequences",
+      "level": 0
     }
   }
 }
