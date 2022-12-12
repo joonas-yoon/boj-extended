@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-11 19:12:44.075503",
+  "last_updated": "2022-12-12 19:16:56.792877",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4400,7 +4400,7 @@
     },
     "2117": {
       "title": "원형 댄스",
-      "level": 7
+      "level": 9
     },
     "2118": {
       "title": "두 개의 탑",
@@ -5464,7 +5464,7 @@
     },
     "2397": {
       "title": "보이는 정사각형",
-      "level": 19
+      "level": 18
     },
     "2398": {
       "title": "3인통화",
@@ -6284,7 +6284,7 @@
     },
     "2603": {
       "title": "고속버스 노선",
-      "level": 15
+      "level": 17
     },
     "2604": {
       "title": "농지 정리",
@@ -6568,7 +6568,7 @@
     },
     "2674": {
       "title": "삼각퍼즐",
-      "level": 20
+      "level": 19
     },
     "2675": {
       "title": "문자열 반복",
@@ -7584,7 +7584,7 @@
     },
     "2932": {
       "title": "표 회전",
-      "level": 8
+      "level": 9
     },
     "2933": {
       "title": "미네랄",
@@ -34932,7 +34932,7 @@
     },
     "10504": {
       "title": "덧셈",
-      "level": 13
+      "level": 12
     },
     "10505": {
       "title": "Wheels",
@@ -36060,7 +36060,7 @@
     },
     "10799": {
       "title": "쇠막대기",
-      "level": 8
+      "level": 9
     },
     "10800": {
       "title": "컬러볼",
@@ -39852,7 +39852,7 @@
     },
     "11767": {
       "title": "Squawk Virus",
-      "level": 15
+      "level": 16
     },
     "11768": {
       "title": "Transportation Delegation",
@@ -42652,7 +42652,7 @@
     },
     "12496": {
       "title": "Perfect Harmony (Large)",
-      "level": 19
+      "level": 20
     },
     "12497": {
       "title": "RPI (Small)",
@@ -55240,7 +55240,7 @@
     },
     "15693": {
       "title": "Getting a Jump on Crime",
-      "level": 22
+      "level": 21
     },
     "15694": {
       "title": "Go with the Flow",
@@ -56496,7 +56496,7 @@
     },
     "16019": {
       "title": "Are we there yet?",
-      "level": 5
+      "level": 4
     },
     "16020": {
       "title": "Sunflowers",
@@ -59012,7 +59012,7 @@
     },
     "16648": {
       "title": "Accumulator Battery",
-      "level": 3
+      "level": 4
     },
     "16649": {
       "title": "Building a Stair",
@@ -73400,7 +73400,7 @@
     },
     "20282": {
       "title": "Game Show!",
-      "level": 4
+      "level": 3
     },
     "20283": {
       "title": "Hangar do SBC",
@@ -83276,7 +83276,7 @@
     },
     "22798": {
       "title": "Permutation",
-      "level": 17
+      "level": 16
     },
     "22799": {
       "title": "Get out!",
@@ -95668,7 +95668,7 @@
     },
     "26016": {
       "title": "Formula Flatland",
-      "level": 0
+      "level": 23
     },
     "26017": {
       "title": "Guessing Game",
@@ -96520,23 +96520,23 @@
     },
     "26284": {
       "title": "Dominoes",
-      "level": 0
+      "level": 22
     },
     "26285": {
       "title": "Easy Assembly",
-      "level": 11
+      "level": 10
     },
     "26286": {
       "title": "Football",
-      "level": 8
+      "level": 10
     },
     "26287": {
       "title": "Game of Questions",
-      "level": 0
+      "level": 23
     },
     "26288": {
       "title": "Hot and Cold",
-      "level": 0
+      "level": 20
     },
     "26289": {
       "title": "Interactive Factorial Guessing",
@@ -96552,6 +96552,274 @@
     },
     "26292": {
       "title": "Lisa's Sequences",
+      "level": 0
+    },
+    "26293": {
+      "title": "Avangardni Autocorrect",
+      "level": 0
+    },
+    "26294": {
+      "title": "Brutalna Birtija",
+      "level": 0
+    },
+    "26295": {
+      "title": "Cirkularni Cirkus",
+      "level": 0
+    },
+    "26296": {
+      "title": "Dihotomna Dioba",
+      "level": 0
+    },
+    "26297": {
+      "title": "Egzotična Elegancija",
+      "level": 0
+    },
+    "26298": {
+      "title": "Famozni Faraon",
+      "level": 0
+    },
+    "26299": {
+      "title": "Glomazna Gužva",
+      "level": 0
+    },
+    "26300": {
+      "title": "Hrabro Hvalisanje",
+      "level": 0
+    },
+    "26301": {
+      "title": "Inteligentna Igra",
+      "level": 0
+    },
+    "26302": {
+      "title": "Japanski Junak",
+      "level": 0
+    },
+    "26303": {
+      "title": "Komični Kvadrat",
+      "level": 0
+    },
+    "26304": {
+      "title": "Letargični Lumen",
+      "level": 0
+    },
+    "26305": {
+      "title": "AibohphobiA",
+      "level": 0
+    },
+    "26306": {
+      "title": "Balanced Seesaw Array",
+      "level": 0
+    },
+    "26307": {
+      "title": "Correct",
+      "level": 1
+    },
+    "26308": {
+      "title": "Distance and Tree",
+      "level": 0
+    },
+    "26309": {
+      "title": "Etched Emerald Orbs",
+      "level": 0
+    },
+    "26310": {
+      "title": "Finalists",
+      "level": 0
+    },
+    "26311": {
+      "title": "Geekflix",
+      "level": 0
+    },
+    "26312": {
+      "title": "Heximal",
+      "level": 12
+    },
+    "26313": {
+      "title": "Invitation",
+      "level": 0
+    },
+    "26314": {
+      "title": "Vowel Count",
+      "level": 3
+    },
+    "26315": {
+      "title": "Soccer Standings",
+      "level": 0
+    },
+    "26316": {
+      "title": "Jumping Frog",
+      "level": 0
+    },
+    "26317": {
+      "title": "Fujiyama Thursday",
+      "level": 0
+    },
+    "26318": {
+      "title": "Chain Email",
+      "level": 0
+    },
+    "26319": {
+      "title": "Faster Microwaving",
+      "level": 0
+    },
+    "26320": {
+      "title": "Dirty Plates",
+      "level": 0
+    },
+    "26321": {
+      "title": "Chocolate Fix",
+      "level": 0
+    },
+    "26322": {
+      "title": "Shopping Spree",
+      "level": 0
+    },
+    "26323": {
+      "title": "Factorial Products",
+      "level": 0
+    },
+    "26324": {
+      "title": "Super Lucky Palindromes",
+      "level": 0
+    },
+    "26325": {
+      "title": "Under Construction Forever",
+      "level": 0
+    },
+    "26326": {
+      "title": "Circles Inside a Square",
+      "level": 0
+    },
+    "26327": {
+      "title": "Knightmare",
+      "level": 0
+    },
+    "26328": {
+      "title": "Fixing Traffic",
+      "level": 0
+    },
+    "26329": {
+      "title": "Come Minion!",
+      "level": 0
+    },
+    "26330": {
+      "title": "Jumping Frog",
+      "level": 0
+    },
+    "26331": {
+      "title": "Gold Rush",
+      "level": 0
+    },
+    "26332": {
+      "title": "Buying in Bulk",
+      "level": 0
+    },
+    "26333": {
+      "title": "Knights Airways",
+      "level": 0
+    },
+    "26334": {
+      "title": "LIS Number",
+      "level": 0
+    },
+    "26335": {
+      "title": "Blackout",
+      "level": 0
+    },
+    "26336": {
+      "title": "Are We Stopping Again?",
+      "level": 0
+    },
+    "26337": {
+      "title": "Sub Matrix Sum",
+      "level": 0
+    },
+    "26338": {
+      "title": "Exact Change",
+      "level": 0
+    },
+    "26339": {
+      "title": "Hanging Nests",
+      "level": 0
+    },
+    "26340": {
+      "title": "Fold the Paper Nicely",
+      "level": 0
+    },
+    "26341": {
+      "title": "Happy Hiking Grounds",
+      "level": 0
+    },
+    "26342": {
+      "title": "Palindrome Maker",
+      "level": 0
+    },
+    "26343": {
+      "title": "Call Me Maybe",
+      "level": 0
+    },
+    "26344": {
+      "title": "Spaces, the Final Frontier",
+      "level": 0
+    },
+    "26345": {
+      "title": "Rummy Score",
+      "level": 0
+    },
+    "26346": {
+      "title": "Simi Circles",
+      "level": 0
+    },
+    "26347": {
+      "title": "Dungeon Trouble!",
+      "level": 0
+    },
+    "26348": {
+      "title": "Safely Stacking Leftover Pizzas",
+      "level": 0
+    },
+    "26349": {
+      "title": "An (Almost) Perfect Match",
+      "level": 0
+    },
+    "26350": {
+      "title": "Good Coin Denomination",
+      "level": 0
+    },
+    "26351": {
+      "title": "Cameron’s Crazy Circles",
+      "level": 0
+    },
+    "26352": {
+      "title": "Matrix Transformation",
+      "level": 0
+    },
+    "26353": {
+      "title": "Cut the Cake!",
+      "level": 0
+    },
+    "26354": {
+      "title": "Camp Out",
+      "level": 0
+    },
+    "26355": {
+      "title": "Sorry About That, Chief!",
+      "level": 0
+    },
+    "26356": {
+      "title": "Knight Moves – Gold Edition",
+      "level": 0
+    },
+    "26357": {
+      "title": "Knight Moves – Black Edition",
+      "level": 0
+    },
+    "26358": {
+      "title": "A Prickly Problem – Gold Edition",
+      "level": 0
+    },
+    "26359": {
+      "title": "A Prickly Problem – Black Edition",
       "level": 0
     }
   }
