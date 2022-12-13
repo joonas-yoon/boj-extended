@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-12 19:16:56.792877",
+  "last_updated": "2022-12-13 19:13:34.521387",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3356,7 +3356,7 @@
     },
     "1847": {
       "title": "볼록다각형 만들기",
-      "level": 0
+      "level": 15
     },
     "1848": {
       "title": "동굴 탐험",
@@ -5880,7 +5880,7 @@
     },
     "2502": {
       "title": "떡 먹는 호랑이",
-      "level": 10
+      "level": 9
     },
     "2503": {
       "title": "숫자 야구",
@@ -7496,7 +7496,7 @@
     },
     "2910": {
       "title": "빈도 정렬",
-      "level": 8
+      "level": 9
     },
     "2911": {
       "title": "전화 복구",
@@ -21980,7 +21980,7 @@
     },
     "6745": {
       "title": "Software Company",
-      "level": 15
+      "level": 16
     },
     "6746": {
       "title": "The Happy Worm",
@@ -32196,7 +32196,7 @@
     },
     "9725": {
       "title": "Mod-3 Permutation",
-      "level": 9
+      "level": 10
     },
     "9726": {
       "title": "Negative Binary",
@@ -37564,7 +37564,7 @@
     },
     "11177": {
       "title": "Join My Team",
-      "level": 26
+      "level": 25
     },
     "11178": {
       "title": "Krusty’s Burger",
@@ -45032,7 +45032,7 @@
     },
     "13092": {
       "title": "Optimal Tournament",
-      "level": 21
+      "level": 22
     },
     "13093": {
       "title": "North North West",
@@ -49420,7 +49420,7 @@
     },
     "14221": {
       "title": "편의점",
-      "level": 12
+      "level": 13
     },
     "14222": {
       "title": "배열과 연산",
@@ -58864,7 +58864,7 @@
     },
     "16611": {
       "title": "Kleptography",
-      "level": 7
+      "level": 6
     },
     "16612": {
       "title": "Aligned Typesetting",
@@ -63724,7 +63724,7 @@
     },
     "17849": {
       "title": "Hardware Sales",
-      "level": 5
+      "level": 6
     },
     "17850": {
       "title": "Make America Grade Again",
@@ -72580,7 +72580,7 @@
     },
     "20076": {
       "title": "Nowruz 10",
-      "level": 24
+      "level": 22
     },
     "20077": {
       "title": "Wiring",
@@ -79668,7 +79668,7 @@
     },
     "21863": {
       "title": "__builtout_popcount",
-      "level": 20
+      "level": 19
     },
     "21864": {
       "title": "이산로그가 장난이냐?",
@@ -85004,7 +85004,7 @@
     },
     "23237": {
       "title": "How Many Subtrees?",
-      "level": 12
+      "level": 13
     },
     "23238": {
       "title": "Best Student",
@@ -96472,7 +96472,7 @@
     },
     "26248": {
       "title": "겨울 숲의 수호자",
-      "level": 0
+      "level": 29
     },
     "26257": {
       "title": "std::shared_ptr",
@@ -96688,7 +96688,7 @@
     },
     "26326": {
       "title": "Circles Inside a Square",
-      "level": 0
+      "level": 7
     },
     "26327": {
       "title": "Knightmare",
@@ -96736,7 +96736,7 @@
     },
     "26338": {
       "title": "Exact Change",
-      "level": 0
+      "level": 10
     },
     "26339": {
       "title": "Hanging Nests",
@@ -96752,7 +96752,7 @@
     },
     "26342": {
       "title": "Palindrome Maker",
-      "level": 0
+      "level": 14
     },
     "26343": {
       "title": "Call Me Maybe",
@@ -96784,7 +96784,7 @@
     },
     "26350": {
       "title": "Good Coin Denomination",
-      "level": 0
+      "level": 2
     },
     "26351": {
       "title": "Cameron’s Crazy Circles",
@@ -96808,7 +96808,7 @@
     },
     "26356": {
       "title": "Knight Moves – Gold Edition",
-      "level": 0
+      "level": 10
     },
     "26357": {
       "title": "Knight Moves – Black Edition",
@@ -96820,6 +96820,170 @@
     },
     "26359": {
       "title": "A Prickly Problem – Black Edition",
+      "level": 0
+    },
+    "26360": {
+      "title": "Basket",
+      "level": 0
+    },
+    "26361": {
+      "title": "XO",
+      "level": 6
+    },
+    "26362": {
+      "title": "Adria",
+      "level": 0
+    },
+    "26363": {
+      "title": "Papiri",
+      "level": 0
+    },
+    "26364": {
+      "title": "KVADRATI",
+      "level": 0
+    },
+    "26365": {
+      "title": "DOMINE",
+      "level": 0
+    },
+    "26366": {
+      "title": "KRASTAVAC",
+      "level": 0
+    },
+    "26367": {
+      "title": "Histogram",
+      "level": 0
+    },
+    "26368": {
+      "title": "Zapatak",
+      "level": 0
+    },
+    "26369": {
+      "title": "Arbitraža",
+      "level": 0
+    },
+    "26370": {
+      "title": "Bijeg",
+      "level": 0
+    },
+    "26371": {
+      "title": "Adrian",
+      "level": 0
+    },
+    "26372": {
+      "title": "Suncokret",
+      "level": 0
+    },
+    "26373": {
+      "title": "Bliži",
+      "level": 0
+    },
+    "26374": {
+      "title": "Frizura",
+      "level": 0
+    },
+    "26375": {
+      "title": "Ciklusi",
+      "level": 0
+    },
+    "26376": {
+      "title": "Krimošten",
+      "level": 0
+    },
+    "26377": {
+      "title": "Utjecaj",
+      "level": 0
+    },
+    "26378": {
+      "title": "Z1",
+      "level": 0
+    },
+    "26379": {
+      "title": "DeCSS 1",
+      "level": 0
+    },
+    "26380": {
+      "title": "DeCSS 2",
+      "level": 0
+    },
+    "26381": {
+      "title": "DeCSS 3",
+      "level": 0
+    },
+    "26382": {
+      "title": "DeCSS 4",
+      "level": 0
+    },
+    "26383": {
+      "title": "DeCSS 5",
+      "level": 0
+    },
+    "26384": {
+      "title": "DeCSS 6",
+      "level": 0
+    },
+    "26385": {
+      "title": "DeCSS 7",
+      "level": 0
+    },
+    "26386": {
+      "title": "DeCSS 8",
+      "level": 0
+    },
+    "26387": {
+      "title": "DeCSS 9",
+      "level": 0
+    },
+    "26388": {
+      "title": "DeCSS 10",
+      "level": 0
+    },
+    "26389": {
+      "title": "Brisanje",
+      "level": 0
+    },
+    "26390": {
+      "title": "Jelka",
+      "level": 0
+    },
+    "26391": {
+      "title": "Pristojba",
+      "level": 0
+    },
+    "26392": {
+      "title": "Desni klik",
+      "level": 3
+    },
+    "26393": {
+      "title": "Čokolade",
+      "level": 0
+    },
+    "26394": {
+      "title": "Berilij",
+      "level": 0
+    },
+    "26395": {
+      "title": "Iksevi",
+      "level": 0
+    },
+    "26396": {
+      "title": "Neboderi",
+      "level": 0
+    },
+    "26397": {
+      "title": "Tramvaji",
+      "level": 9
+    },
+    "26398": {
+      "title": "Ekspert",
+      "level": 12
+    },
+    "26399": {
+      "title": "Lampice",
+      "level": 0
+    },
+    "26400": {
+      "title": "Prijateljice",
       "level": 0
     }
   }
