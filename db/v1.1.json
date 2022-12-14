@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-13 19:13:34.521387",
+  "last_updated": "2022-12-14 19:13:44.829737",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7260,7 +7260,7 @@
     },
     "2851": {
       "title": "슈퍼 마리오",
-      "level": 4
+      "level": 5
     },
     "2852": {
       "title": "NBA 농구",
@@ -8100,7 +8100,7 @@
     },
     "3061": {
       "title": "사다리",
-      "level": 8
+      "level": 9
     },
     "3062": {
       "title": "수 뒤집기",
@@ -15457,6 +15457,22 @@
     "4957": {
       "title": "Pollock's conjecture",
       "level": 10
+    },
+    "4958": {
+      "title": "Off Balance",
+      "level": 0
+    },
+    "4959": {
+      "title": "The Most Powerful Spell",
+      "level": 0
+    },
+    "4960": {
+      "title": "Old Memories",
+      "level": 0
+    },
+    "4961": {
+      "title": "Laser Beam Reflections",
+      "level": 0
     },
     "4962": {
       "title": "Next Mayor",
@@ -24576,7 +24592,7 @@
     },
     "7744": {
       "title": "Cakes",
-      "level": 17
+      "level": 18
     },
     "7745": {
       "title": "Coloring maps",
@@ -30162,9 +30178,25 @@
       "title": "정수 직사각형",
       "level": 6
     },
+    "9197": {
+      "title": "ICPC Ranking",
+      "level": 0
+    },
     "9198": {
       "title": "Hierarchical Democracy",
       "level": 10
+    },
+    "9199": {
+      "title": "Prime Caves",
+      "level": 0
+    },
+    "9200": {
+      "title": "Anchored Balloon",
+      "level": 0
+    },
+    "9201": {
+      "title": "Rotate and Rewrite",
+      "level": 0
     },
     "9202": {
       "title": "Boggle",
@@ -33184,7 +33216,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 25
+      "level": 26
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -33874,6 +33906,34 @@
       "title": "Saveit",
       "level": 24
     },
+    "10233": {
+      "title": "Tax Rate Changed",
+      "level": 0
+    },
+    "10234": {
+      "title": "Chain Disappearance Puzzle",
+      "level": 0
+    },
+    "10235": {
+      "title": "Vampire",
+      "level": 0
+    },
+    "10236": {
+      "title": "Encryption System",
+      "level": 0
+    },
+    "10237": {
+      "title": "Bridge Removal",
+      "level": 0
+    },
+    "10238": {
+      "title": "A Die Maker",
+      "level": 0
+    },
+    "10239": {
+      "title": "Don't Cross the Circles!",
+      "level": 0
+    },
     "10240": {
       "title": "Banjo",
       "level": 0
@@ -34020,7 +34080,7 @@
     },
     "10276": {
       "title": "Jewelry Exhibition",
-      "level": 17
+      "level": 18
     },
     "10277": {
       "title": "JuQueen",
@@ -53880,7 +53940,7 @@
     },
     "15351": {
       "title": "인생 점수",
-      "level": 3
+      "level": 4
     },
     "15352": {
       "title": "욱제와 그의 팬들",
@@ -62697,6 +62757,10 @@
     "17583": {
       "title": "Let's Move Tiles!",
       "level": 22
+    },
+    "17584": {
+      "title": "Addition on Convex Polygons",
+      "level": 0
     },
     "17585": {
       "title": "Circuit Math",
@@ -72580,7 +72644,7 @@
     },
     "20076": {
       "title": "Nowruz 10",
-      "level": 22
+      "level": 25
     },
     "20077": {
       "title": "Wiring",
@@ -73448,7 +73512,7 @@
     },
     "20294": {
       "title": "에어컨 설치",
-      "level": 19
+      "level": 20
     },
     "20295": {
       "title": "사탕 배달",
@@ -76484,7 +76548,7 @@
     },
     "21061": {
       "title": "Beautiful Permutation",
-      "level": 24
+      "level": 23
     },
     "21062": {
       "title": "Cartesian MST",
@@ -80276,7 +80340,7 @@
     },
     "22024": {
       "title": "Keys",
-      "level": 25
+      "level": 26
     },
     "22025": {
       "title": "Fountain Parks",
@@ -86340,7 +86404,7 @@
     },
     "23572": {
       "title": "Logistical Warehouse 2",
-      "level": 18
+      "level": 19
     },
     "23573": {
       "title": "Postman",
@@ -88740,7 +88804,7 @@
     },
     "24187": {
       "title": "Korta vokaler",
-      "level": 9
+      "level": 10
     },
     "24188": {
       "title": "Bergskedja",
@@ -93324,7 +93388,7 @@
     },
     "25390": {
       "title": "Traveling Junkman Problem",
-      "level": 21
+      "level": 22
     },
     "25391": {
       "title": "특별상",
@@ -96452,7 +96516,7 @@
     },
     "26217": {
       "title": "별꽃의 세레나데 (Easy)",
-      "level": 10
+      "level": 11
     },
     "26218": {
       "title": "생산 시스템 관리",
@@ -96470,9 +96534,145 @@
       "title": "겨울 숲과 마법 불꽃",
       "level": 21
     },
+    "26222": {
+      "title": "Maximum sum with swaps",
+      "level": 0
+    },
+    "26223": {
+      "title": "Inspection",
+      "level": 0
+    },
+    "26224": {
+      "title": "Karmon go",
+      "level": 0
+    },
+    "26225": {
+      "title": "Park trails",
+      "level": 0
+    },
+    "26226": {
+      "title": "Autocomplete",
+      "level": 0
+    },
+    "26227": {
+      "title": "Amazing Divisibility",
+      "level": 9
+    },
+    "26228": {
+      "title": "Group tournament",
+      "level": 0
+    },
+    "26229": {
+      "title": "Multiplier",
+      "level": 0
+    },
+    "26230": {
+      "title": "Guess the modulo",
+      "level": 0
+    },
+    "26231": {
+      "title": "Carts",
+      "level": 0
+    },
+    "26232": {
+      "title": "School informatics",
+      "level": 0
+    },
+    "26233": {
+      "title": "Give the Parabellum away",
+      "level": 0
+    },
+    "26234": {
+      "title": "Ski race",
+      "level": 0
+    },
+    "26235": {
+      "title": "Chairs",
+      "level": 8
+    },
+    "26236": {
+      "title": "Triangle",
+      "level": 0
+    },
+    "26237": {
+      "title": "Wires",
+      "level": 0
+    },
+    "26238": {
+      "title": "Voting",
+      "level": 0
+    },
+    "26239": {
+      "title": "Finite automaton",
+      "level": 0
+    },
+    "26240": {
+      "title": "Scene management",
+      "level": 0
+    },
+    "26241": {
+      "title": "A system of balance scales",
+      "level": 0
+    },
+    "26242": {
+      "title": "Karmon be ill",
+      "level": 0
+    },
+    "26243": {
+      "title": "Battle City Online",
+      "level": 0
+    },
+    "26244": {
+      "title": "Test generation",
+      "level": 0
+    },
+    "26245": {
+      "title": "Virus",
+      "level": 0
+    },
+    "26246": {
+      "title": "Expected length of the minimum cycle",
+      "level": 0
+    },
+    "26247": {
+      "title": "Antipalindrome",
+      "level": 0
+    },
     "26248": {
       "title": "겨울 숲의 수호자",
       "level": 29
+    },
+    "26249": {
+      "title": "Long Nim",
+      "level": 0
+    },
+    "26250": {
+      "title": "Guess Table",
+      "level": 0
+    },
+    "26251": {
+      "title": "Restrooms",
+      "level": 0
+    },
+    "26252": {
+      "title": "Flying Doors",
+      "level": 0
+    },
+    "26253": {
+      "title": "MIPT Campus",
+      "level": 0
+    },
+    "26254": {
+      "title": "Tickets",
+      "level": 0
+    },
+    "26255": {
+      "title": "Total control",
+      "level": 0
+    },
+    "26256": {
+      "title": "Möbius",
+      "level": 0
     },
     "26257": {
       "title": "std::shared_ptr",
@@ -96564,11 +96764,11 @@
     },
     "26295": {
       "title": "Cirkularni Cirkus",
-      "level": 0
+      "level": 8
     },
     "26296": {
       "title": "Dihotomna Dioba",
-      "level": 0
+      "level": 21
     },
     "26297": {
       "title": "Egzotična Elegancija",
@@ -96644,15 +96844,15 @@
     },
     "26315": {
       "title": "Soccer Standings",
-      "level": 0
+      "level": 6
     },
     "26316": {
       "title": "Jumping Frog",
-      "level": 0
+      "level": 6
     },
     "26317": {
       "title": "Fujiyama Thursday",
-      "level": 0
+      "level": 7
     },
     "26318": {
       "title": "Chain Email",
@@ -96744,7 +96944,7 @@
     },
     "26340": {
       "title": "Fold the Paper Nicely",
-      "level": 0
+      "level": 2
     },
     "26341": {
       "title": "Happy Hiking Grounds",
@@ -96788,7 +96988,7 @@
     },
     "26351": {
       "title": "Cameron’s Crazy Circles",
-      "level": 0
+      "level": 10
     },
     "26352": {
       "title": "Matrix Transformation",
@@ -96812,7 +97012,7 @@
     },
     "26357": {
       "title": "Knight Moves – Black Edition",
-      "level": 0
+      "level": 17
     },
     "26358": {
       "title": "A Prickly Problem – Gold Edition",
@@ -96820,7 +97020,7 @@
     },
     "26359": {
       "title": "A Prickly Problem – Black Edition",
-      "level": 0
+      "level": 16
     },
     "26360": {
       "title": "Basket",
@@ -96984,6 +97184,194 @@
     },
     "26400": {
       "title": "Prijateljice",
+      "level": 0
+    },
+    "26402": {
+      "title": "Aho-Parasick",
+      "level": 0
+    },
+    "26403": {
+      "title": "Big Numbers",
+      "level": 0
+    },
+    "26404": {
+      "title": "Cactus Revisited",
+      "level": 0
+    },
+    "26405": {
+      "title": "Decent Sequence",
+      "level": 0
+    },
+    "26406": {
+      "title": "Expected Cycle Size",
+      "level": 0
+    },
+    "26407": {
+      "title": "Folding",
+      "level": 0
+    },
+    "26408": {
+      "title": "Game",
+      "level": 0
+    },
+    "26409": {
+      "title": "Hidden Pool",
+      "level": 0
+    },
+    "26410": {
+      "title": "Intersection Of Tangents",
+      "level": 0
+    },
+    "26411": {
+      "title": "Just Another Edge",
+      "level": 0
+    },
+    "26412": {
+      "title": "Khalin Graph",
+      "level": 0
+    },
+    "26413": {
+      "title": "Lysergic Acid Diethylamide",
+      "level": 0
+    },
+    "26414": {
+      "title": "Moving Randomly",
+      "level": 0
+    },
+    "26415": {
+      "title": "Ghost",
+      "level": 22
+    },
+    "26416": {
+      "title": "New Password",
+      "level": 0
+    },
+    "26417": {
+      "title": "Range Partition",
+      "level": 0
+    },
+    "26418": {
+      "title": "Ants on a Stick",
+      "level": 0
+    },
+    "26419": {
+      "title": "Palindromic Deletions",
+      "level": 0
+    },
+    "26420": {
+      "title": "Image Labeler",
+      "level": 0
+    },
+    "26421": {
+      "title": "Maximum Gain",
+      "level": 0
+    },
+    "26422": {
+      "title": "Touchbar Typing",
+      "level": 0
+    },
+    "26423": {
+      "title": "Suspects and Witnesses",
+      "level": 0
+    },
+    "26424": {
+      "title": "Coloring Game",
+      "level": 0
+    },
+    "26425": {
+      "title": "Students and Mentors",
+      "level": 0
+    },
+    "26426": {
+      "title": "Matching Palindrome",
+      "level": 0
+    },
+    "26427": {
+      "title": "Pizza Delivery",
+      "level": 0
+    },
+    "26428": {
+      "title": "Sort the Fabrics",
+      "level": 0
+    },
+    "26429": {
+      "title": "Water Container System",
+      "level": 10
+    },
+    "26430": {
+      "title": "Story of Seasons",
+      "level": 0
+    },
+    "26431": {
+      "title": "Scheduling a Meeting",
+      "level": 0
+    },
+    "26432": {
+      "title": "Walktober",
+      "level": 0
+    },
+    "26433": {
+      "title": "Curling",
+      "level": 0
+    },
+    "26434": {
+      "title": "Happy Subarrays",
+      "level": 0
+    },
+    "26435": {
+      "title": "Cute Little Butterfly",
+      "level": 0
+    },
+    "26436": {
+      "title": "Running in Circles",
+      "level": 0
+    },
+    "26437": {
+      "title": "Magical Well Of Lilies",
+      "level": 0
+    },
+    "26438": {
+      "title": "Electricity",
+      "level": 0
+    },
+    "26439": {
+      "title": "Level Design",
+      "level": 0
+    },
+    "26440": {
+      "title": "Where's Your Robot?",
+      "level": 0
+    },
+    "26441": {
+      "title": "Unable Count",
+      "level": 0
+    },
+    "26442": {
+      "title": "Factorization of Quadratic Formula",
+      "level": 0
+    },
+    "26443": {
+      "title": "Spiral Footrace",
+      "level": 0
+    },
+    "26444": {
+      "title": "A Long Ride on a Railway",
+      "level": 0
+    },
+    "26445": {
+      "title": "Area of Polygons",
+      "level": 0
+    },
+    "26446": {
+      "title": "A Simple Offline Text Editor",
+      "level": 0
+    },
+    "26447": {
+      "title": "Calculation of Expressions",
+      "level": 0
+    },
+    "26448": {
+      "title": "Board Arrangements for Concentration Games",
       "level": 0
     }
   }
