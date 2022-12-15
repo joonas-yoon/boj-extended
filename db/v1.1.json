@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-14 19:13:44.829737",
+  "last_updated": "2022-12-15 19:13:07.970987",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1288,7 +1288,7 @@
     },
     "1324": {
       "title": "젠장",
-      "level": 14
+      "level": 0
     },
     "1325": {
       "title": "효율적인 해킹",
@@ -5320,7 +5320,7 @@
     },
     "2353": {
       "title": "오타",
-      "level": 11
+      "level": 0
     },
     "2354": {
       "title": "비교교환",
@@ -5880,7 +5880,7 @@
     },
     "2502": {
       "title": "떡 먹는 호랑이",
-      "level": 9
+      "level": 10
     },
     "2503": {
       "title": "숫자 야구",
@@ -17572,11 +17572,11 @@
     },
     "5593": {
       "title": "最古の遺跡",
-      "level": 14
+      "level": 12
     },
     "5594": {
       "title": "最悪の記者",
-      "level": 17
+      "level": 13
     },
     "5595": {
       "title": "最軽量のモビール",
@@ -22274,8 +22274,140 @@
       "title": "Degrees of Separation",
       "level": 11
     },
+    "6815": {
+      "title": "Cool Numbers",
+      "level": 0
+    },
+    "6816": {
+      "title": "The Lights Going On and Off",
+      "level": 0
+    },
+    "6817": {
+      "title": "Shop and Ship",
+      "level": 0
+    },
+    "6818": {
+      "title": "Wireless",
+      "level": 0
+    },
+    "6819": {
+      "title": "Invasion of the Boxes",
+      "level": 0
+    },
     "6820": {
       "title": "Dinner",
+      "level": 0
+    },
+    "6821": {
+      "title": "Beware the Geoducks",
+      "level": 0
+    },
+    "6823": {
+      "title": "Parade",
+      "level": 0
+    },
+    "6824": {
+      "title": "A Weighty Problem",
+      "level": 0
+    },
+    "6825": {
+      "title": "Body Mass Index",
+      "level": 0
+    },
+    "6826": {
+      "title": "Do the Shuffle",
+      "level": 0
+    },
+    "6827": {
+      "title": "GPS Text Entry",
+      "level": 0
+    },
+    "6828": {
+      "title": "From Prefix to Postfix",
+      "level": 0
+    },
+    "6829": {
+      "title": "Nukit",
+      "level": 0
+    },
+    "6830": {
+      "title": "It’s Cold Here!",
+      "level": 0
+    },
+    "6831": {
+      "title": "Pennies in the Ring",
+      "level": 0
+    },
+    "6832": {
+      "title": "Maze",
+      "level": 0
+    },
+    "6833": {
+      "title": "Twenty-four",
+      "level": 0
+    },
+    "6834": {
+      "title": "Moving Day",
+      "level": 0
+    },
+    "6835": {
+      "title": "King & Weber",
+      "level": 0
+    },
+    "6836": {
+      "title": "Mobile",
+      "level": 0
+    },
+    "6837": {
+      "title": "Herding",
+      "level": 0
+    },
+    "6838": {
+      "title": "Candy",
+      "level": 0
+    },
+    "6839": {
+      "title": "Landing",
+      "level": 0
+    },
+    "6840": {
+      "title": "Who is in the middle?",
+      "level": 1
+    },
+    "6841": {
+      "title": "I Speak TXTMSG",
+      "level": 0
+    },
+    "6842": {
+      "title": "Deal or No Deal Calculator",
+      "level": 0
+    },
+    "6843": {
+      "title": "Anagram Checker",
+      "level": 4
+    },
+    "6844": {
+      "title": "Keep on Truckin’",
+      "level": 0
+    },
+    "6845": {
+      "title": "Federal Voting Age",
+      "level": 3
+    },
+    "6846": {
+      "title": "Boxes",
+      "level": 0
+    },
+    "6847": {
+      "title": "Friends",
+      "level": 0
+    },
+    "6848": {
+      "title": "Waterpark",
+      "level": 0
+    },
+    "6849": {
+      "title": "Bowling for Numbers",
       "level": 0
     },
     "6850": {
@@ -22288,6 +22420,90 @@
     },
     "6852": {
       "title": "Bowling for Numbers++",
+      "level": 0
+    },
+    "6853": {
+      "title": "Gerrymandering",
+      "level": 0
+    },
+    "6854": {
+      "title": "Road Construction",
+      "level": 0
+    },
+    "6855": {
+      "title": "The New CCC (Canadian Calorie Counting)",
+      "level": 0
+    },
+    "6856": {
+      "title": "Roll the Dice",
+      "level": 0
+    },
+    "6857": {
+      "title": "Cell-Phone Messaging",
+      "level": 0
+    },
+    "6858": {
+      "title": "It’s tough being a teen!",
+      "level": 0
+    },
+    "6859": {
+      "title": "CCC Othello",
+      "level": 0
+    },
+    "6860": {
+      "title": "Maternity",
+      "level": 0
+    },
+    "6861": {
+      "title": "Attack of the CipherTexts",
+      "level": 6
+    },
+    "6862": {
+      "title": "Tin Can Telephone",
+      "level": 0
+    },
+    "6863": {
+      "title": "Groups",
+      "level": 0
+    },
+    "6864": {
+      "title": "Origin of Life",
+      "level": 0
+    },
+    "6865": {
+      "title": "CN Tower",
+      "level": 0
+    },
+    "6866": {
+      "title": "R & J",
+      "level": 0
+    },
+    "6871": {
+      "title": "The Cell Sell",
+      "level": 0
+    },
+    "6872": {
+      "title": "RSA Numbers",
+      "level": 0
+    },
+    "6873": {
+      "title": "Returning Home",
+      "level": 0
+    },
+    "6874": {
+      "title": "Cross Spiral",
+      "level": 0
+    },
+    "6875": {
+      "title": "Bananas",
+      "level": 0
+    },
+    "6876": {
+      "title": "Snow Calls",
+      "level": 0
+    },
+    "6877": {
+      "title": "Mouse Move",
       "level": 0
     },
     "6881": {
@@ -30180,7 +30396,7 @@
     },
     "9197": {
       "title": "ICPC Ranking",
-      "level": 0
+      "level": 10
     },
     "9198": {
       "title": "Hierarchical Democracy",
@@ -30188,11 +30404,11 @@
     },
     "9199": {
       "title": "Prime Caves",
-      "level": 0
+      "level": 13
     },
     "9200": {
       "title": "Anchored Balloon",
-      "level": 0
+      "level": 18
     },
     "9201": {
       "title": "Rotate and Rewrite",
@@ -31428,7 +31644,7 @@
     },
     "9523": {
       "title": "Arithmetic with Morse",
-      "level": 7
+      "level": 8
     },
     "9524": {
       "title": "Beautiful Yekaterinburg",
@@ -32260,7 +32476,7 @@
     },
     "9733": {
       "title": "꿀벌",
-      "level": 6
+      "level": 0
     },
     "9734": {
       "title": "순환 소수",
@@ -33216,7 +33432,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 26
+      "level": 25
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -33660,7 +33876,7 @@
     },
     "10162": {
       "title": "전자레인지",
-      "level": 3
+      "level": 2
     },
     "10163": {
       "title": "색종이",
@@ -33908,11 +34124,11 @@
     },
     "10233": {
       "title": "Tax Rate Changed",
-      "level": 0
+      "level": 7
     },
     "10234": {
       "title": "Chain Disappearance Puzzle",
-      "level": 0
+      "level": 12
     },
     "10235": {
       "title": "Vampire",
@@ -37628,7 +37844,7 @@
     },
     "11178": {
       "title": "Krusty’s Burger",
-      "level": 0
+      "level": 15
     },
     "11179": {
       "title": "2진수 뒤집기",
@@ -51180,7 +51396,7 @@
     },
     "14647": {
       "title": "준오는 조류혐오야!!",
-      "level": 6
+      "level": 5
     },
     "14648": {
       "title": "쿼리 맛보기",
@@ -51824,11 +52040,11 @@
     },
     "14819": {
       "title": "Beaming With Joy (Small)",
-      "level": 11
+      "level": 0
     },
     "14820": {
       "title": "Beaming With Joy (Large)",
-      "level": 19
+      "level": 0
     },
     "14821": {
       "title": "Shoot the Turrets (Small)",
@@ -59256,7 +59472,7 @@
     },
     "16694": {
       "title": "The ABCD Murderer",
-      "level": 21
+      "level": 22
     },
     "16695": {
       "title": "The Bridge on the River Kawaii",
@@ -77796,7 +78012,7 @@
     },
     "21373": {
       "title": "Känd klartext",
-      "level": 15
+      "level": 0
     },
     "21374": {
       "title": "Xorxorxor",
@@ -83444,7 +83660,7 @@
     },
     "22824": {
       "title": "Nets of Dice",
-      "level": 0
+      "level": 16
     },
     "22825": {
       "title": "Fermat's Last Theorem",
@@ -94016,7 +94232,7 @@
     },
     "25560": {
       "title": "포탈",
-      "level": 22
+      "level": 0
     },
     "25561": {
       "title": "1-3 트리",
@@ -95752,7 +95968,7 @@
     },
     "26021": {
       "title": "K.O. Kids",
-      "level": 0
+      "level": 6
     },
     "26022": {
       "title": "Lots of Land",
@@ -96584,7 +96800,7 @@
     },
     "26234": {
       "title": "Ski race",
-      "level": 0
+      "level": 11
     },
     "26235": {
       "title": "Chairs",
@@ -96640,7 +96856,7 @@
     },
     "26248": {
       "title": "겨울 숲의 수호자",
-      "level": 29
+      "level": 0
     },
     "26249": {
       "title": "Long Nim",
@@ -96748,7 +96964,7 @@
     },
     "26291": {
       "title": "King's Puzzle",
-      "level": 0
+      "level": 14
     },
     "26292": {
       "title": "Lisa's Sequences",
@@ -96756,7 +96972,7 @@
     },
     "26293": {
       "title": "Avangardni Autocorrect",
-      "level": 0
+      "level": 19
     },
     "26294": {
       "title": "Brutalna Birtija",
@@ -96764,7 +96980,7 @@
     },
     "26295": {
       "title": "Cirkularni Cirkus",
-      "level": 8
+      "level": 7
     },
     "26296": {
       "title": "Dihotomna Dioba",
@@ -96912,7 +97128,7 @@
     },
     "26332": {
       "title": "Buying in Bulk",
-      "level": 0
+      "level": 2
     },
     "26333": {
       "title": "Knights Airways",
@@ -97372,6 +97588,158 @@
     },
     "26448": {
       "title": "Board Arrangements for Concentration Games",
+      "level": 0
+    },
+    "26449": {
+      "title": "Harvest",
+      "level": 0
+    },
+    "26450": {
+      "title": "Parse the Syntax Tree",
+      "level": 0
+    },
+    "26451": {
+      "title": "Permutation Magic",
+      "level": 0
+    },
+    "26452": {
+      "title": "MFP: Most Fluctuated Player",
+      "level": 0
+    },
+    "26453": {
+      "title": "Underground's SUNDAY",
+      "level": 0
+    },
+    "26454": {
+      "title": "qarentheziz zepuence",
+      "level": 0
+    },
+    "26455": {
+      "title": "Pizza delivery",
+      "level": 0
+    },
+    "26456": {
+      "title": "include",
+      "level": 0
+    },
+    "26457": {
+      "title": "(N+1)-legged race",
+      "level": 0
+    },
+    "26458": {
+      "title": "Isomorphic?",
+      "level": 0
+    },
+    "26459": {
+      "title": "Zombie Land 2",
+      "level": 0
+    },
+    "26460": {
+      "title": "수열과 쿼리 41",
+      "level": 28
+    },
+    "26461": {
+      "title": "Stop & Go",
+      "level": 0
+    },
+    "26462": {
+      "title": "1-Player Concentration",
+      "level": 0
+    },
+    "26463": {
+      "title": "Track Train Trail",
+      "level": 0
+    },
+    "26464": {
+      "title": "2-LIS",
+      "level": 0
+    },
+    "26465": {
+      "title": "Sharp 2-SAT",
+      "level": 0
+    },
+    "26466": {
+      "title": "Seimei Handan 999.0",
+      "level": 0
+    },
+    "26467": {
+      "title": "Avoid bombings",
+      "level": 0
+    },
+    "26468": {
+      "title": "Sloppy city planning",
+      "level": 0
+    },
+    "26469": {
+      "title": "$N-1$ Truths and a Lie",
+      "level": 0
+    },
+    "26470": {
+      "title": "Most distant point from the stations",
+      "level": 0
+    },
+    "26471": {
+      "title": "Sort Compressed Strings",
+      "level": 0
+    },
+    "26472": {
+      "title": "Tree Automorphism",
+      "level": 0
+    },
+    "26473": {
+      "title": "連番",
+      "level": 5
+    },
+    "26474": {
+      "title": "お小遣いの最大化",
+      "level": 0
+    },
+    "26475": {
+      "title": "i18n",
+      "level": 0
+    },
+    "26476": {
+      "title": "動く点 P と愉快な仲間たち Q, R",
+      "level": 0
+    },
+    "26477": {
+      "title": "最大公約数",
+      "level": 0
+    },
+    "26478": {
+      "title": "N 階ダンジョンと K 人の勇者たち",
+      "level": 0
+    },
+    "26479": {
+      "title": "巡回勇者問題",
+      "level": 0
+    },
+    "26480": {
+      "title": "パレード",
+      "level": 0
+    },
+    "26481": {
+      "title": "수열과 쿼리 42",
+      "level": 30
+    },
+    "26482": {
+      "title": "Subarray Sort",
+      "level": 0
+    },
+    "26483": {
+      "title": "Fiboxor",
+      "level": 0
+    },
+    "26485": {
+      "title": "Jumpy",
+      "level": 0
+    },
+    "26487": {
+      "title": "Palindrome",
+      "level": 0
+    },
+    "26488": {
+      "title": "SubsetCheating",
       "level": 0
     }
   }
