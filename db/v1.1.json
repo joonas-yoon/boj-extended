@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-17 19:12:10.163753",
+  "last_updated": "2022-12-18 19:12:37.635055",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3276,7 +3276,7 @@
     },
     "1826": {
       "title": "연료 채우기",
-      "level": 14
+      "level": 13
     },
     "1827": {
       "title": "여행가이드",
@@ -5208,7 +5208,7 @@
     },
     "2321": {
       "title": "Crowing",
-      "level": 0
+      "level": 2
     },
     "2322": {
       "title": "아령",
@@ -5400,7 +5400,7 @@
     },
     "2372": {
       "title": "Livestock Count",
-      "level": 0
+      "level": 1
     },
     "2373": {
       "title": "Fibonacci Game",
@@ -5418,6 +5418,10 @@
       "title": "단말 정점들의 거리",
       "level": 16
     },
+    "2377": {
+      "title": "Pottery",
+      "level": 1
+    },
     "2378": {
       "title": "불필요한 수",
       "level": 13
@@ -5425,6 +5429,10 @@
     "2379": {
       "title": "트리 탐색하기",
       "level": 16
+    },
+    "2380": {
+      "title": "Star",
+      "level": 8
     },
     "2381": {
       "title": "최대 거리",
@@ -5450,6 +5458,10 @@
       "title": "도비의 영어 공부",
       "level": 4
     },
+    "2387": {
+      "title": "Howl",
+      "level": 3
+    },
     "2388": {
       "title": "블록 쌓기",
       "level": 16
@@ -5465,6 +5477,10 @@
     "2392": {
       "title": "다각형의 분할",
       "level": 19
+    },
+    "2393": {
+      "title": "Rook",
+      "level": 1
     },
     "2394": {
       "title": "드라이브 투어",
@@ -6544,7 +6560,7 @@
     },
     "2664": {
       "title": "다각형의 확장",
-      "level": 22
+      "level": 21
     },
     "2665": {
       "title": "미로만들기",
@@ -9256,7 +9272,7 @@
     },
     "3359": {
       "title": "사각 사각",
-      "level": 9
+      "level": 10
     },
     "3360": {
       "title": "깡총깡총",
@@ -9284,7 +9300,7 @@
     },
     "3366": {
       "title": "수열 줄이기",
-      "level": 14
+      "level": 15
     },
     "3367": {
       "title": "Bitwise Expressions",
@@ -15828,7 +15844,7 @@
     },
     "5046": {
       "title": "전국 대학생 프로그래밍 대회 동아리 연합",
-      "level": 5
+      "level": 6
     },
     "5047": {
       "title": "Fixing the Bugs",
@@ -16764,7 +16780,7 @@
     },
     "5340": {
       "title": "Secret Location",
-      "level": 4
+      "level": 3
     },
     "5341": {
       "title": "Pyramids",
@@ -16880,7 +16896,7 @@
     },
     "5369": {
       "title": "Asteroid Field",
-      "level": 9
+      "level": 10
     },
     "5370": {
       "title": "Which Way",
@@ -20084,7 +20100,7 @@
     },
     "6209": {
       "title": "제자리 멀리뛰기",
-      "level": 13
+      "level": 14
     },
     "6210": {
       "title": "Wonderprime Brands",
@@ -22720,7 +22736,7 @@
     },
     "6892": {
       "title": "Fix",
-      "level": 0
+      "level": 4
     },
     "6893": {
       "title": "TopYodeller",
@@ -26792,7 +26808,7 @@
     },
     "8149": {
       "title": "Weights",
-      "level": 19
+      "level": 18
     },
     "8150": {
       "title": "Driving Exam",
@@ -31924,7 +31940,7 @@
     },
     "9472": {
       "title": "알고리즘 기말고사",
-      "level": 13
+      "level": 14
     },
     "9473": {
       "title": "Chomp",
@@ -46504,7 +46520,7 @@
     },
     "13273": {
       "title": "로마숫자",
-      "level": 10
+      "level": 11
     },
     "13274": {
       "title": "수열",
@@ -50679,8 +50695,8 @@
       "level": 0
     },
     "14337": {
-      "title": "Sums of Sums (Large)",
-      "level": 0
+      "title": "Helicopter",
+      "level": 1
     },
     "14338": {
       "title": "Integeregex (Small)",
@@ -52740,7 +52756,7 @@
     },
     "14864": {
       "title": "줄서기",
-      "level": 13
+      "level": 14
     },
     "14865": {
       "title": "곡선 자르기",
@@ -54624,7 +54640,7 @@
     },
     "15338": {
       "title": "String Puzzle",
-      "level": 22
+      "level": 23
     },
     "15339": {
       "title": "Counting Cycles",
@@ -55252,7 +55268,7 @@
     },
     "15495": {
       "title": "Alkemija",
-      "level": 13
+      "level": 14
     },
     "15496": {
       "title": "Mate",
@@ -55784,7 +55800,7 @@
     },
     "15630": {
       "title": "Binary Game",
-      "level": 13
+      "level": 14
     },
     "15631": {
       "title": "BOJeopardy",
@@ -65616,7 +65632,7 @@
     },
     "18122": {
       "title": "색깔 하노이 탑",
-      "level": 17
+      "level": 16
     },
     "18123": {
       "title": "평행우주",
@@ -87852,7 +87868,7 @@
     },
     "23750": {
       "title": "Leader-based Team Distribution",
-      "level": 19
+      "level": 20
     },
     "23751": {
       "title": "던전 릴레이",
@@ -96924,7 +96940,7 @@
     },
     "26133": {
       "title": "Guardians of the Gallery",
-      "level": 27
+      "level": 0
     },
     "26134": {
       "title": "Hand of the Free Marked",
@@ -97204,7 +97220,7 @@
     },
     "26204": {
       "title": "Displacing Particles",
-      "level": 11
+      "level": 10
     },
     "26205": {
       "title": "Eliminating Ballons",
@@ -97464,7 +97480,7 @@
     },
     "26269": {
       "title": "간단한 수학 문제",
-      "level": 18
+      "level": 17
     },
     "26270": {
       "title": "최빈값과 쿼리",
@@ -97476,11 +97492,11 @@
     },
     "26272": {
       "title": "점호",
-      "level": 0
+      "level": 22
     },
     "26273": {
       "title": "모모의 아지트에 잠입하자!",
-      "level": 0
+      "level": 28
     },
     "26274": {
       "title": "레이무의 순간이동 연습",
@@ -97488,7 +97504,7 @@
     },
     "26275": {
       "title": "Picture",
-      "level": 10
+      "level": 8
     },
     "26276": {
       "title": "Point in Triangle",
@@ -98000,15 +98016,15 @@
     },
     "26408": {
       "title": "Game",
-      "level": 0
+      "level": 26
     },
     "26409": {
       "title": "Hidden Pool",
-      "level": 0
+      "level": 23
     },
     "26410": {
       "title": "Intersection Of Tangents",
-      "level": 10
+      "level": 8
     },
     "26411": {
       "title": "Just Another Edge",
@@ -98020,11 +98036,11 @@
     },
     "26413": {
       "title": "Lysergic Acid Diethylamide",
-      "level": 17
+      "level": 18
     },
     "26414": {
       "title": "Moving Randomly",
-      "level": 0
+      "level": 21
     },
     "26415": {
       "title": "Ghost",
@@ -98356,7 +98372,7 @@
     },
     "26499": {
       "title": "PLU Logo",
-      "level": 0
+      "level": 9
     },
     "26500": {
       "title": "Absolutely",
@@ -98364,7 +98380,7 @@
     },
     "26501": {
       "title": "C3PO",
-      "level": 0
+      "level": 6
     },
     "26502": {
       "title": "Decoder",
@@ -98376,11 +98392,11 @@
     },
     "26504": {
       "title": "Episodes",
-      "level": 0
+      "level": 10
     },
     "26505": {
       "title": "O Fortuna",
-      "level": 3
+      "level": 4
     },
     "26506": {
       "title": "Pilot Rating",
@@ -98412,7 +98428,7 @@
     },
     "26513": {
       "title": "Egg Drop",
-      "level": 3
+      "level": 4
     },
     "26514": {
       "title": "HangMan",
@@ -98489,6 +98505,202 @@
     "26544": {
       "title": "Histogram Fencing",
       "level": 5
+    },
+    "26545": {
+      "title": "Mathematics",
+      "level": 1
+    },
+    "26546": {
+      "title": "Reverse",
+      "level": 2
+    },
+    "26547": {
+      "title": "Square",
+      "level": 3
+    },
+    "26548": {
+      "title": "Quadratics",
+      "level": 3
+    },
+    "26549": {
+      "title": "Holes",
+      "level": 10
+    },
+    "26550": {
+      "title": "Ornaments",
+      "level": 0
+    },
+    "26551": {
+      "title": "Family",
+      "level": 0
+    },
+    "26552": {
+      "title": "Zero",
+      "level": 4
+    },
+    "26553": {
+      "title": "Work",
+      "level": 0
+    },
+    "26554": {
+      "title": "Draw",
+      "level": 0
+    },
+    "26555": {
+      "title": "Checkpoint",
+      "level": 0
+    },
+    "26556": {
+      "title": "Bags",
+      "level": 0
+    },
+    "26557": {
+      "title": "Bomb",
+      "level": 0
+    },
+    "26558": {
+      "title": "Clothes",
+      "level": 0
+    },
+    "26559": {
+      "title": "Friends",
+      "level": 6
+    },
+    "26560": {
+      "title": "Periods",
+      "level": 3
+    },
+    "26561": {
+      "title": "Population",
+      "level": 2
+    },
+    "26562": {
+      "title": "Presidents",
+      "level": 0
+    },
+    "26563": {
+      "title": "Exam",
+      "level": 0
+    },
+    "26564": {
+      "title": "Poker Hand",
+      "level": 0
+    },
+    "26565": {
+      "title": "Time Limits",
+      "level": 4
+    },
+    "26566": {
+      "title": "Pizza",
+      "level": 2
+    },
+    "26567": {
+      "title": "Greedy Scheduler",
+      "level": 8
+    },
+    "26568": {
+      "title": "ReWord-wrap",
+      "level": 0
+    },
+    "26569": {
+      "title": "Seasons",
+      "level": 0
+    },
+    "26570": {
+      "title": "Semiperfect",
+      "level": 9
+    },
+    "26571": {
+      "title": "Spaces",
+      "level": 10
+    },
+    "26572": {
+      "title": "Stacker",
+      "level": 0
+    },
+    "26573": {
+      "title": "Trail",
+      "level": 0
+    },
+    "26574": {
+      "title": "Copier",
+      "level": 1
+    },
+    "26575": {
+      "title": "Pups",
+      "level": 1
+    },
+    "26576": {
+      "title": "Date",
+      "level": 5
+    },
+    "26577": {
+      "title": "Math",
+      "level": 5
+    },
+    "26578": {
+      "title": "Word",
+      "level": 9
+    },
+    "26579": {
+      "title": "Bomb",
+      "level": 5
+    },
+    "26580": {
+      "title": "Rain",
+      "level": 11
+    },
+    "26581": {
+      "title": "Repeat",
+      "level": 10
+    },
+    "26582": {
+      "title": "Treasure",
+      "level": 10
+    },
+    "26583": {
+      "title": "Scale",
+      "level": 3
+    },
+    "26584": {
+      "title": "Playtime",
+      "level": 5
+    },
+    "26585": {
+      "title": "Floor Cleaner",
+      "level": 0
+    },
+    "26586": {
+      "title": "Feed Store",
+      "level": 0
+    },
+    "26587": {
+      "title": "Reverse",
+      "level": 7
+    },
+    "26588": {
+      "title": "Pegs",
+      "level": 0
+    },
+    "26589": {
+      "title": "Demo Clean Up",
+      "level": 10
+    },
+    "26590": {
+      "title": "Word Mix",
+      "level": 4
+    },
+    "26591": {
+      "title": "Rain Boots",
+      "level": 0
+    },
+    "26592": {
+      "title": "Triangle Height",
+      "level": 2
+    },
+    "26593": {
+      "title": "Best Seller",
+      "level": 6
     }
   }
 }
