@@ -17,11 +17,14 @@ function extendProblemPage() {
   const dropdown = createTimerDropdown();
   menu.appendChild(dropdown);
 
-  // the number of questions
-  const searchMenu = document.querySelector(
-    'ul.problem-menu li a[href^="/board/search/"]'
-  );
-  if (searchMenu) {
+  showQuestionsCount();
+
+  function showQuestionsCount() {
+    // the number of questions
+    const searchMenu = document.querySelector(
+      'ul.problem-menu li a[href^="/board/search/"]'
+    );
+    if (!searchMenu) return;
     (async () => {
       if (pid == null) {
         console.log('pid is null');
