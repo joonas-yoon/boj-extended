@@ -1,1 +1,330 @@
-function extendGlobal(){function a(a){const b=JSON.parse(localStorage.getItem(Constants.STORAGE_STATUS_HISTORY)||"{}");delete b[a],localStorage.setItem(Constants.STORAGE_STATUS_HISTORY,JSON.stringify(b)),window.bojextStatusHistories=b}function b(a){return a.classList.contains("result-ac")}extendTheme(),extendWide(),function(){Config.load(Constants.CONFIG_FONT_STYLE,function(a){const b=JSON.parse(a||"{}");b.enabled&&document.head.appendChild(createFontStyleElement(b))})}(),function(){function c(c,d){const g=e(c);if(f(c)){const a=parseInt(c.innerText.match(/\d+/))||null;d&&null!==a&&k(g,a)}else b(c)&&a(g)}function d(a){return a.querySelector("span")||a}function e(a){return a.closest("tr").id}function f(a){return a.classList.contains("result-judging")&&!a.innerText.includes("\uB7F0\uD0C0\uC784 \uC5D0\uB7EC \uC774\uC720\uB97C \uCC3E\uB294 \uC911")}function g(a,b){const c=new MutationObserver(function(a){a.forEach(function(a){b(a.target)})});c.observe(a,{attributes:!0,childList:!0,characterData:!0,subtree:!0})}function h(a,b){a.parentNode.appendChild(b);const c=Utils.createElement("span",{class:"result-latest",style:"float: right;color: #dd4124;"});a.parentNode.appendChild(c)}function i(a,b){Utils.isElement(a.firstChild)&&a.firstChild.getAttribute("href")&&(a=a.firstChild),a.innerHTML=b}function j(a,c){let d=(a.getAttribute("class")||"").split(" ");if(d=d.filter(function(a){return"result-text"!=a&&a.startsWith("result-")}),1>d.length)return;const e=d[0],f=a.innerText,g=a.closest("td");Config.load(e,function(b){if(!b)g&&g.setAttribute("class","result"),a.style.display="",c.style.display="none";else{g&&g.setAttribute("class","result has-fake"),a.style.display="none",c.style.display="";const d=a.innerText.replaceAll(l[e],"");b=b.replace(/<span (.+)?>(.*)<\/span>/gi,"<span $1>$2 "+d+"</span>");a.innerText.replaceAll(l[e],b);i(c,b)}});const h=a.closest("tr").id,j=g.querySelector(".result-latest");j.innerText=!b(a)&&window.bojextStatusHistories&&void 0!==window.bojextStatusHistories[h]?"("+window.bojextStatusHistories[h]+"%)":""}function k(a,b){const c=JSON.parse(localStorage.getItem(Constants.STORAGE_STATUS_HISTORY)||"{}"),d=c[a]!=b;c[a]=Math.max(c[a]||0,b),d&&(localStorage.setItem(Constants.STORAGE_STATUS_HISTORY,JSON.stringify(c)),window.bojextStatusHistories=c)}const l={"result-ac":"\uB9DE\uC558\uC2B5\uB2C8\uB2E4!!","result-pac":"\uB9DE\uC558\uC2B5\uB2C8\uB2E4!!","result-wa":"\uD2C0\uB838\uC2B5\uB2C8\uB2E4","result-ce":"\uCEF4\uD30C\uC77C \uC5D0\uB7EC","result-rte":"\uB7F0\uD0C0\uC784 \uC5D0\uB7EC","result-tle":"\uC2DC\uAC04 \uCD08\uACFC","result-mle":"\uBA54\uBAA8\uB9AC \uCD08\uACFC","result-ole":"\uCD9C\uB825 \uCD08\uACFC","result-pe":"\uCD9C\uB825 \uD615\uC2DD\uC774 \uC798\uBABB\uB418\uC5C8\uC2B5\uB2C8\uB2E4","result-wait":"\uAE30\uB2E4\uB9AC\uB294 \uC911","result-compile":"\uCC44\uC810 \uC900\uBE44 \uC911","result-judging":"\uCC44\uC810 \uC911","result-del":"\uCC44\uC810 \uBD88\uAC00"};Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY,function(a){a=!1!==a,a&&(window.bojextStatusHistories=JSON.parse(localStorage.getItem(Constants.STORAGE_STATUS_HISTORY)||"{}")),Config.load(Constants.CONFIG_SHOW_FAKE_RESULT,function(b){const e=function(a,c){!1!==b&&j(a,c)};document.querySelectorAll("span[class^=result-]").forEach(function(b){if("result-text"===b.getAttribute("class"))return;const f=Utils.createElement("span",{class:"result-fake-text",style:"display: none",children:[b.firstChild.cloneNode(!0)]}),i=b.closest(".result-text");null===i?h(b,f):(h(i,f),g(i,function(b){const g=d(b);c(g,a),e(g,f)})),e(b,f)})})})}(),extendProblemPage(),extendQuickSearch(),async function(){const a=await fetchProblemsByUser(getMyUsername());a&&document.querySelectorAll("a[href]").forEach(function(b){const c=b.getAttribute("href");if("#"==c)return;const d=getProblemID(c),e=b.className.includes("result-");null!==d&&!e&&a[d]&&b.classList.add(a[d]||"")})}(),function(){function a(a){if(!a)return!1;try{const b=JSON.parse(a);return b.href!=window.location.href&&c-b.timestamp>=Constants.CONFIG_LOCATION_EXPIRE_MS}catch(a){return!1}}function b(a){const b=JSON.parse(a),c=Utils.createElement("div",{class:"boj-ext-alert alert-default"}),d=Utils.createElement("div",{class:"title"}),e=Utils.createElement("div",{class:"close"});d.innerHTML="\uB9C8\uC9C0\uB9C9\uC73C\uB85C \uBCF8 \uD398\uC774\uC9C0 : ",d.innerHTML+=`<a href="${b.href}">${b.title}</a>`,e.innerHTML="<i class=\"fa fa-close\"></i>",e.addEventListener("click",function(){document.body.removeChild(c)}),c.appendChild(d),c.appendChild(e),document.body.appendChild(c)}const c=new Date;Config.load(Constants.CONFIG_LOCATION_HISTORY,function(c){a(c)&&b(c)}),setTimeout(function(){const a={title:document.title,href:window.location.href,timestamp:c.toISOString()};Config.save(Constants.CONFIG_LOCATION_HISTORY,JSON.stringify(a))},100)}(),function(){if(!isLoggedIn())return;const a=async function(a){const b=`user:${a}`,c=LocalCache.get(b);if(null===c)return 0;if(void 0!==c)return c.tier;const d=await fetch(`https://solved.ac/api/v3/user/show?handle=${a}`).then(function(a){return a.json()}).catch(function(){return null});return LocalCache.add(b,d),null===d?0:d.tier};Config.load(Constants.CONFIG_SHOW_USER_TIER,function(b){if(!1!==b){const b=document.querySelectorAll("a[href^=\"/user/\"");b.forEach(async function(b){const c=await a(b.innerText);b.innerHTML=`<img src="https://static.solved.ac/tier_small/${c}.svg" class="solvedac-tier"/> ${b.innerHTML}`})}})}()}
+function extendGlobal() {
+  extendTheme();
+  extendWide();
+  extendFontStyle();
+  extendReformatMessage();
+  extendProblemPage();
+  extendQuickSearch();
+  extendProblemColor();
+  extendLastViewPopup();
+  extendUserBadge();
+
+  async function extendProblemColor() {
+    const problemInfo = await fetchProblemsByUser(getMyUsername());
+    if (!problemInfo) return;
+    // apply colors
+    document.querySelectorAll('a[href]').forEach((el) => {
+      const href = el.getAttribute('href');
+      if (href == '#') return;
+      const pid = getProblemID(href);
+      const alreadyHavingColor = el.className.includes('result-');
+      if (pid !== null && !alreadyHavingColor && problemInfo[pid]) {
+        el.classList.add(problemInfo[pid] || '');
+      }
+    });
+  }
+
+  function extendReformatMessage() {
+    const resultPattern = {
+      'result-ac': '맞았습니다!!',
+      'result-pac': '맞았습니다!!',
+      'result-wa': '틀렸습니다',
+      'result-ce': '컴파일 에러',
+      'result-rte': '런타임 에러',
+      'result-tle': '시간 초과',
+      'result-mle': '메모리 초과',
+      'result-ole': '출력 초과',
+      'result-pe': '출력 형식이 잘못되었습니다',
+      'result-wait': '기다리는 중',
+      'result-compile': '채점 준비 중',
+      'result-judging': '채점 중',
+      'result-del': '채점 불가',
+    };
+
+    Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
+      // load history from localStorage
+      showHistory = showHistory !== false; // true or null (default)
+      console.log('showHistory', showHistory);
+      if (showHistory) {
+        window.bojextStatusHistories = JSON.parse(
+          localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+        );
+      }
+      console.log('load', window.bojextStatusHistories);
+      Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
+        console.log('showFakeResult (default: true)', showFakeResult);
+        const formattingIfHasFake = (element, fakeText) => {
+          // true or null (default)
+          if (showFakeResult !== false) {
+            formatting(element, fakeText);
+          }
+        };
+        // add fake result for each texts
+        document.querySelectorAll('span[class^=result-]').forEach((element) => {
+          if (element.getAttribute('class') === 'result-text') return;
+          const fakeText = Utils.createElement('span', {
+            class: 'result-fake-text',
+            style: 'display: none',
+            children: [element.firstChild.cloneNode(true)],
+          });
+          const box = element.closest('.result-text');
+          if (box !== null) {
+            addFakeResult(box, fakeText);
+            addObserver(box, (resultText) => {
+              const statusElement = getStatusElement(resultText);
+              onStatusElementUpdated(statusElement, showHistory);
+              formattingIfHasFake(statusElement, fakeText);
+            });
+          } else {
+            // /source, /share
+            addFakeResult(element, fakeText);
+          }
+          formattingIfHasFake(element, fakeText);
+        });
+      });
+    });
+
+    function onStatusElementUpdated(statusElement, showHistory) {
+      const statusId = getStatusId(statusElement);
+      // save current percentage
+      if (isUpdatable(statusElement)) {
+        const percent = parseInt(statusElement.innerText.match(/\d+/)) || null;
+        if (showHistory && percent !== null) {
+          updateHistory(statusId, percent);
+        }
+      } else if (isAcceptResult(statusElement)) {
+        deleteHistory(statusId);
+      }
+    }
+
+    function getStatusElement(el) {
+      return el.querySelector('span') || el;
+    }
+
+    function getStatusId(el) {
+      return el.closest('tr').id;
+    }
+
+    function isUpdatable(el) {
+      return (
+        el.classList.contains('result-judging') &&
+        !el.innerText.includes('런타임 에러 이유를 찾는 중')
+      );
+    }
+
+    function addObserver(target, callback) {
+      const observer = new MutationObserver(function (mutations) {
+        mutations.forEach(function (mutation) {
+          callback(mutation.target);
+        });
+      });
+      const config = {
+        attributes: true,
+        childList: true,
+        characterData: true,
+        subtree: true,
+      };
+      observer.observe(target, config);
+    }
+
+    function addFakeResult(appendTo, element) {
+      appendTo.parentNode.appendChild(element);
+      const latestPercentage = Utils.createElement('span', {
+        class: 'result-latest',
+        style: 'float: right;color: #dd4124;',
+      });
+      appendTo.parentNode.appendChild(latestPercentage);
+    }
+
+    function outputAsHtml(output, html) {
+      if (
+        Utils.isElement(output.firstChild) &&
+        output.firstChild.getAttribute('href')
+      ) {
+        output = output.firstChild;
+      }
+      output.innerHTML = html;
+    }
+
+    function formatting(input, output) {
+      let classes = (input.getAttribute('class') || '').split(' ');
+      classes = classes.filter(
+        (c) => c != 'result-text' && c.startsWith('result-')
+      );
+      if (classes.length < 1) return;
+      const type = classes[0];
+      const inputText = input.innerText;
+      const td = input.closest('td');
+      // replace text by user's format
+      Config.load(type, (format) => {
+        if (!format) {
+          if (td) td.setAttribute('class', 'result');
+          input.style.display = '';
+          output.style.display = 'none';
+        } else {
+          if (td) td.setAttribute('class', 'result has-fake');
+          input.style.display = 'none';
+          output.style.display = '';
+          const outputText1 = input.innerText.replaceAll(
+            resultPattern[type],
+            ''
+          );
+          format = format.replace(
+            /<span (.+)?>(.*)<\/span>/gi,
+            '<span $1>$2 ' + outputText1 + '</span>'
+          );
+          const outputText2 = input.innerText.replaceAll(
+            resultPattern[type],
+            format
+          );
+          outputAsHtml(output, format);
+        }
+      });
+      // display latest percentage when it is not accept
+      const id = input.closest('tr').id;
+      const ptext = td.querySelector('.result-latest');
+      if (
+        !isAcceptResult(input) &&
+        window.bojextStatusHistories &&
+        window.bojextStatusHistories[id] !== undefined
+      ) {
+        ptext.innerText = '(' + window.bojextStatusHistories[id] + '%)';
+      } else {
+        ptext.innerText = '';
+      }
+    }
+
+    // ISSUE: synchronization not guaranteed with multiple tabs
+    function updateHistory(id, percent) {
+      // load history from localStorage
+      const histories = JSON.parse(
+        localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+      );
+      const needsUpdate = histories[id] != percent;
+      histories[id] = Math.max(histories[id] || 0, percent);
+      if (needsUpdate) {
+        localStorage.setItem(
+          Constants.STORAGE_STATUS_HISTORY,
+          JSON.stringify(histories)
+        );
+        window.bojextStatusHistories = histories;
+      }
+    }
+  }
+
+  function deleteHistory(id) {
+    // load history from localStorage
+    const histories = JSON.parse(
+      localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
+    );
+    delete histories[id];
+    localStorage.setItem(
+      Constants.STORAGE_STATUS_HISTORY,
+      JSON.stringify(histories)
+    );
+    window.bojextStatusHistories = histories;
+  }
+
+  function isAcceptResult(el) {
+    return el.classList.contains('result-ac');
+  }
+
+  function extendLastViewPopup() {
+    const NOW = new Date();
+
+    // load and display message pop up
+    Config.load(Constants.CONFIG_LOCATION_HISTORY, (location) => {
+      console.log('location from config', location);
+      if (isSoLong(location)) {
+        displayMessage(location);
+      }
+    });
+
+    // save
+    setTimeout(() => {
+      const currentLocation = {
+        title: document.title,
+        href: window.location.href,
+        timestamp: NOW.toISOString(),
+      };
+      console.log('location', currentLocation);
+      // for global sync
+      Config.save(
+        Constants.CONFIG_LOCATION_HISTORY,
+        JSON.stringify(currentLocation)
+      );
+    }, 100);
+
+    function isSoLong(location) {
+      if (!location) return false;
+      try {
+        const loc = JSON.parse(location);
+        if (loc.href == window.location.href) return false;
+        return NOW - loc.timestamp >= Constants.CONFIG_LOCATION_EXPIRE_MS;
+      } catch (error) {
+        console.log('so long', error);
+        return false;
+      }
+    }
+
+    function displayMessage(location) {
+      const loc = JSON.parse(location);
+      const messageBox = Utils.createElement('div', {
+        class: 'boj-ext-alert alert-default',
+      });
+      const title = Utils.createElement('div', {
+        class: 'title',
+      });
+      const close = Utils.createElement('div', {
+        class: 'close',
+      });
+      title.innerHTML = '마지막으로 본 페이지 : ';
+      title.innerHTML += `<a href="${loc.href}">${loc.title}</a>`;
+      close.innerHTML = '<i class="fa fa-close"></i>';
+      close.addEventListener('click', () => {
+        document.body.removeChild(messageBox);
+      });
+      messageBox.appendChild(title);
+      messageBox.appendChild(close);
+      document.body.appendChild(messageBox);
+    }
+  }
+
+  function extendFontStyle() {
+    Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+      const rules = JSON.parse(rulesStr || '{}');
+      if (rules['enabled']) {
+        document.head.appendChild(createFontStyleElement(rules));
+      }
+    });
+  }
+
+  function extendUserBadge() {
+    if (!isLoggedIn()) return;
+
+    const getTier = async (handle) => {
+      const cacheKey = `user:${handle}`;
+      const cacheValue = LocalCache.get(cacheKey);
+      if (cacheValue === null) return 0;
+      if (cacheValue !== undefined) return cacheValue.tier;
+      const info = await fetch(
+        `https://solved.ac/api/v3/user/show?handle=${handle}`
+      )
+        .then((res) => res.json())
+        .catch(() => null);
+      LocalCache.add(cacheKey, info);
+      console.log('cache updated', cacheKey, info);
+      return info === null ? 0 : info.tier;
+    };
+
+    Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+      // default as true
+      if (showUserTier === false) return;
+      const userTags = document.querySelectorAll('a[href^="/user/"');
+      userTags.forEach(async (tag) => {
+        const tier = await getTier(tag.innerText);
+        tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;
+      });
+    });
+  }
+}

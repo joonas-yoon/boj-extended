@@ -1,1 +1,267 @@
-function getMyUsername(){const a=document.querySelector("ul.loginbar a.username");return a?a.innerText:null}function isLoggedIn(){return null!==getMyUsername()}function progressTimer(){function a(a){let b="";return a=parseInt(a/1e3),0<a%60&&(b=a%60+"\uCD08 "+b),a=parseInt(a/60),0<a%60&&(b=a%60+"\uBD84 "+b),a=parseInt(a/60),0<a%24&&(b=a%24+"\uC2DC\uAC04 "+b),a=parseInt(a/24),0<a&&(b=a+"\uC77C "),b?b:"1\uCD08 \uBBF8\uB9CC"}function b(f,g,h){const i=g-new Date().getTime()+1,j=new Date().getTime()-f,k=100*i/(g-f);if(0>i)d.setAttribute("style","display: none;"),e.setAttribute("style","float:left; transition-duration: .2s; width: 100%; background-color:#dc3545;"),e.innerText=a(-i)+" \uC9C0\uB0A8";else{let b="";50>=k?b="background-color:#ffc107;":10>=k&&(b="background-color:#dc3545;"),d.setAttribute("style","float:left; transition-duration: .2s; width:"+(100-k)+"%;  background-color:transparent; color: inherit;"),d.innerText=a(j)+" \uC9C0\uB0A8",e.setAttribute("style","float:right; transition-duration: .2s; width:"+k+"%;"+b),e.innerText=a(i)+" \uB0A8\uC74C"}"running"===c.getAttribute("state")?window.requestAnimationFrame(b.bind(null,f,g,h)):h()}const c=document.createElement("div");c.setAttribute("class","progress");const d=document.createElement("div");d.setAttribute("class","progress-bar"),c.appendChild(d);const e=document.createElement("div");return e.setAttribute("class","progress-bar"),e.innerText="Loading...",c.appendChild(e),{element:function(){return c},start:function(a,d,e){return"running"===c.getAttribute("state")?void console.error("already started"):void(c.setAttribute("state","running"),b(a,d,e))},stop:function(){c.setAttribute("state","stop")},text:function(a){return a&&(e.innerText=a),a},show:function(){c.style.display="block"},hide:function(){c.style.display="none"}}}function createVsForm(a,b){const c=Utils.createElement("div",{class:"vs",style:"margin-bottom: 10px"}),d=Utils.createElement("div",{class:"row"}),e=Utils.createElement("div",{class:"col col-md-2"}),f=Utils.createElement("div",{class:"col col-md-5"}),g=f.cloneNode();d.appendChild(f),d.appendChild(e),d.appendChild(g),c.appendChild(d);const h=Utils.createElement("input",{type:"text",class:"form-control text-right",value:a||"",placeholder:"Username"}),i=Utils.createElement("input",{type:"text",class:"form-control",value:b||"",placeholder:"Username"});f.appendChild(h),g.appendChild(i);const j=Utils.createElement("button",{type:"button",class:"btn btn-primary btn-vs btn-block"});return j.innerText="VS",j.addEventListener("click",function(a){a.preventDefault();const b=h.value,c=i.value;h.setAttribute("class","form-control text-right"+(b?"":" text-border-red bg-color-red")),i.setAttribute("class","form-control"+(c?"":" text-border-red bg-color-red")),b&&c&&(window.location=`https://www.acmicpc.net/vs/${b}/${c}`)}),e.appendChild(j),c}function addElementToBar(a){const b=document.querySelector("ul.loginbar"),c=Utils.createElement("li",{class:"topbar-devider"});b.appendChild(c),b.appendChild(a)}async function fetchProblemsByUser(a){function b(a){const b=new DOMParser,c=b.parseFromString(a,"text/html"),d=c.querySelectorAll("a[href^=\"/problem/\"][class^=\"result-\"]"),e={};for(const b of d){const a=getLastNumberFromHref(b.href),c=b.getAttribute("class");e[a]=c}return e}if(!a)return null;const c=Constants.STORAGE_PREFIX+"problems_"+a,d=LocalCache.get(c,{expired:300000}),e=d||{},f={};if(!e.problems||null===d){const d=await fetch(`/user/${a}`);return 200===d.status&&(f.problems=await b(await d.text())),LocalCache.add(c,f),f.problems}return e.problems}function getLastNumberFromHref(a){return parseInt(a.substr(a.lastIndexOf("/")+1))}function getPathname(a){try{return a=/^http(s)?:\/\//.test(a)?new URL(a):new URL(location.protocol+location.hostname+a),a.pathname}catch(a){return null}}function getProblemID(a){if(a=getPathname(a),!a||!/^\/problem\/[0-9]{4,}$/.test(a))return null;const b=getLastNumberFromHref(a);return null==b||isNaN(b)?null:b}function createProblemLinkElement(b,c,d){const e=b.cloneNode();let a=`(가져오기 실패)`;try{a=c[d].title}catch(a){}return e.classList.add("problem-link-style-box"),e.innerHTML="<span class=\"pid\">"+d+"</span> <span class=\"pname\">"+a+"</span>",e}function createFontStyleElement({url:a,family:b}){const c=(a?"@import url('"+a+"');":"")+(b?"body, input, button, select, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .purchase span { font-family: "+b+", "+"'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans CJK KR', 'Noto Sans KR', '\uB098\uB214\uBC14\uB978\uACE0\uB515', '\uB098\uB214\uACE0\uB515', '\uB9D1\uC740\uACE0\uB515', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"+" !important; }":""),d=document.createElement("style");return d.innerText=c,d}
+function getMyUsername() {
+  const username = document.querySelector('ul.loginbar a.username');
+  if (username) return username.innerText;
+  else return null;
+}
+
+function isLoggedIn() {
+  return getMyUsername() !== null;
+}
+
+// progress bar for timer
+function progressTimer() {
+  const progress = document.createElement('div');
+  progress.setAttribute('class', 'progress');
+
+  const barLeft = document.createElement('div');
+  barLeft.setAttribute('class', 'progress-bar');
+  progress.appendChild(barLeft);
+  const barRight = document.createElement('div');
+  barRight.setAttribute('class', 'progress-bar');
+  barRight.innerText = 'Loading...';
+  progress.appendChild(barRight);
+
+  function timeHumanize(ms) {
+    let txt = '';
+    ms = parseInt(ms / 1000); // ms -> sec
+    if (ms % 60 > 0) txt = (ms % 60) + '초 ' + txt;
+    ms = parseInt(ms / 60); // sec -> min
+    if (ms % 60 > 0) txt = (ms % 60) + '분 ' + txt;
+    ms = parseInt(ms / 60); // min -> hour
+    if (ms % 24 > 0) txt = (ms % 24) + '시간 ' + txt;
+    ms = parseInt(ms / 24); // hour -> day
+    if (ms > 0) txt = ms + '일 '; // n일부터는 시간 생략
+    return txt ? txt : '1초 미만';
+  }
+
+  function updateProgress(startTime, endTime, callback) {
+    const remainTime = endTime - new Date().getTime() + 1;
+    const passedTime = new Date().getTime() - startTime;
+    const percentage = (100 * remainTime) / (endTime - startTime);
+    // overdue
+    if (remainTime < 0) {
+      barLeft.setAttribute('style', 'display: none;');
+      barRight.setAttribute(
+        'style',
+        'float:left; transition-duration: .2s; width: 100%; background-color:#dc3545;'
+      );
+      barRight.innerText = timeHumanize(-remainTime) + ' 지남';
+    } else {
+      let bg = '';
+      if (percentage <= 50) bg = 'background-color:#ffc107;';
+      else if (percentage <= 10) bg = 'background-color:#dc3545;';
+      barLeft.setAttribute(
+        'style',
+        'float:left; transition-duration: .2s; width:' +
+          (100 - percentage) +
+          '%;  background-color:transparent; color: inherit;'
+      );
+      barLeft.innerText = timeHumanize(passedTime) + ' 지남';
+      barRight.setAttribute(
+        'style',
+        'float:right; transition-duration: .2s; width:' + percentage + '%;' + bg
+      );
+      barRight.innerText = timeHumanize(remainTime) + ' 남음';
+    }
+    if (progress.getAttribute('state') === 'running') {
+      window.requestAnimationFrame(
+        updateProgress.bind(null, startTime, endTime, callback)
+      );
+    } else {
+      callback();
+    }
+  }
+
+  return {
+    element: function () {
+      return progress;
+    },
+    start: function (startTime, endTime, callback) {
+      if (progress.getAttribute('state') === 'running') {
+        console.error('already started');
+        return;
+      }
+      progress.setAttribute('state', 'running');
+      updateProgress(startTime, endTime, callback);
+    },
+    stop: function () {
+      progress.setAttribute('state', 'stop');
+    },
+    text: function (text) {
+      // like jquery style
+      if (text) barRight.innerText = text;
+      return text;
+    },
+    show: function () {
+      progress.style.display = 'block';
+    },
+    hide: function () {
+      progress.style.display = 'none';
+    },
+  };
+}
+
+function createVsForm(name1, name2) {
+  const div = Utils.createElement('div', {
+    class: 'vs',
+    style: 'margin-bottom: 10px',
+  });
+  const row = Utils.createElement('div', { class: 'row' });
+  const colbtn = Utils.createElement('div', { class: 'col col-md-2' });
+  const col1 = Utils.createElement('div', { class: 'col col-md-5' });
+  const col2 = col1.cloneNode();
+  row.appendChild(col1);
+  row.appendChild(colbtn);
+  row.appendChild(col2);
+  div.appendChild(row);
+  const input1 = Utils.createElement('input', {
+    type: 'text',
+    class: 'form-control text-right',
+    value: name1 || '',
+    placeholder: 'Username',
+  });
+  const input2 = Utils.createElement('input', {
+    type: 'text',
+    class: 'form-control',
+    value: name2 || '',
+    placeholder: 'Username',
+  });
+  col1.appendChild(input1);
+  col2.appendChild(input2);
+  const btn = Utils.createElement('button', {
+    type: 'button',
+    class: 'btn btn-primary btn-vs btn-block',
+  });
+  btn.innerText = 'VS';
+  btn.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    const v1 = input1.value;
+    const v2 = input2.value;
+    input1.setAttribute(
+      'class',
+      'form-control text-right' + (v1 ? '' : ' text-border-red bg-color-red')
+    );
+    input2.setAttribute(
+      'class',
+      'form-control' + (v2 ? '' : ' text-border-red bg-color-red')
+    );
+    if (v1 && v2) window.location = `https://www.acmicpc.net/vs/${v1}/${v2}`;
+  });
+  colbtn.appendChild(btn);
+  return div;
+}
+
+function addElementToBar(element) {
+  const bar = document.querySelector('ul.loginbar');
+  const divider = Utils.createElement('li', { class: 'topbar-devider' });
+  bar.appendChild(divider);
+  bar.appendChild(element);
+}
+
+/**
+ * fetch information for problems from user profile
+ *
+ * @param {string} id username
+ * @return {Array} classes for problem color { pid: className, 1001: 'result-ac', ... }
+ */
+async function fetchProblemsByUser(id) {
+  if (!id) return null;
+
+  // parse user information
+  function parse(htmlText) {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(htmlText, 'text/html');
+    const problems = doc.querySelectorAll(
+      'a[href^="/problem/"][class^="result-"]'
+    );
+    const results = {};
+    for (const a of problems) {
+      const pid = getLastNumberFromHref(a.href);
+      const cls = a.getAttribute('class');
+      results[pid] = cls;
+    }
+    return results;
+  }
+
+  const storageKey = Constants.STORAGE_PREFIX + 'problems_' + id;
+  const storedValue = LocalCache.get(storageKey, { expired: 5 * 60 * 1000 });
+  console.groupCollapsed('fetch from storage');
+  console.log(storageKey, storedValue);
+  const cacheData = storedValue || {};
+  console.log('cacheData', cacheData);
+  console.groupEnd();
+  const result = {};
+  const isDateExpired = storedValue === null;
+  if (!cacheData.problems || isDateExpired) {
+    // run request and parse
+    const response = await fetch(`/user/${id}`);
+    console.group(`request new problems solved by ${id}`);
+    // on succeed
+    if (response.status === 200) {
+      result.problems = await parse(await response.text());
+    }
+    LocalCache.add(storageKey, result);
+    console.log('saved to localStorage', result);
+    console.groupEnd();
+    return result.problems;
+  }
+  return cacheData.problems;
+}
+
+function getLastNumberFromHref(href) {
+  return parseInt(href.substr(href.lastIndexOf('/') + 1));
+}
+
+function getPathname(url) {
+  try {
+    if (/^http(s)?:\/\//.test(url)) url = new URL(url);
+    else url = new URL(location.protocol + location.hostname + url);
+    return url.pathname;
+  } catch (error) {
+    return null;
+  }
+}
+
+function getProblemID(url) {
+  url = getPathname(url);
+  if (!url || !/^\/problem\/[0-9]{4,}$/.test(url)) return null;
+  const pid = getLastNumberFromHref(url);
+  return pid == null || isNaN(pid) ? null : pid;
+}
+
+function createProblemLinkElement(baseElement, problemsLookup, pid) {
+  const a = baseElement.cloneNode();
+  let pname = `(가져오기 실패)`;
+  try {
+    pname = problemsLookup[pid]['title'];
+  } catch (err) {
+    console.info(`No problem title for ${pid} yet`);
+  }
+  a.classList.add('problem-link-style-box');
+  a.innerHTML =
+    '<span class="pid">' +
+    pid +
+    '</span> <span class="pname">' +
+    pname +
+    '</span>';
+  return a;
+}
+
+function createFontStyleElement({ url, family }) {
+  const TAGS =
+    'body, input, button, select, textarea, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .purchase span';
+  const INHERITED_FONTS =
+    "'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans CJK KR', 'Noto Sans KR', '나눔바른고딕', '나눔고딕', '맑은고딕', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'";
+  const importUrl = "@import url('" + url + "');";
+  const overrideRule =
+    TAGS +
+    ' { font-family: ' +
+    family +
+    ', ' +
+    INHERITED_FONTS +
+    ' !important; }';
+  const ruleString = (url ? importUrl : '') + (family ? overrideRule : '');
+  const styleTag = document.createElement('style');
+  styleTag.innerText = ruleString;
+  return styleTag;
+}

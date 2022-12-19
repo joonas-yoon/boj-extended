@@ -1,1 +1,37 @@
-function extendBoardPage(){function a(a,b,c){a.forEach(function(a){if(b)a.innerText=a.getAttribute("data-original-id");else{const b=a.getAttribute("data-original-title");a.innerText=b.length>c?b.substr(0,c-3)+"\u2026":b}})}const b=window.location.pathname;if(b.startsWith("/board/list/")||b.startsWith("/board/search/")){const b=document.querySelectorAll("a[href].problem_title");b.forEach(function(a){a.getAttribute("data-original-id")==null&&a.setAttribute("data-original-id",a.innerText)});const c=document.querySelectorAll("table.table tr th");c[1].style.width="auto",c[2].style.width="auto",Config.load("show-status-pid",function(c){setTimeout(function(){return a(b,!!c,10)},10)})}}
+function extendBoardPage() {
+  const pathname = window.location.pathname;
+  if (
+    pathname.startsWith('/board/list/') ||
+    pathname.startsWith('/board/search/')
+  ) {
+    // pre-update to rows
+    const titles = document.querySelectorAll('a[href].problem_title');
+    titles.forEach((e) => {
+      if (e.getAttribute('data-original-id') == undefined) {
+        e.setAttribute('data-original-id', e.innerText);
+      }
+    });
+
+    // width to fit-content
+    const theads = document.querySelectorAll('table.table tr th');
+    theads[1].style.width = 'auto';
+    theads[2].style.width = 'auto';
+
+    // load and apply to display pid/pname
+    Config.load('show-status-pid', (showPid) => {
+      setTimeout(() => display(titles, !!showPid, 10), 10);
+    });
+  }
+
+  function display(titles, showPid, maxLength) {
+    titles.forEach((e) => {
+      if (showPid) {
+        e.innerText = e.getAttribute('data-original-id');
+      } else {
+        const text = e.getAttribute('data-original-title');
+        e.innerText =
+          text.length > maxLength ? text.substr(0, maxLength - 3) + '…' : text;
+      }
+    });
+  }
+}
