@@ -19,6 +19,8 @@ function extendProblemPage() {
 
   showQuestionsCount();
 
+  /** ******* end of main code in this function ******* **/
+
   function showQuestionsCount() {
     // the number of questions
     const searchMenu = document.querySelector(
@@ -30,7 +32,7 @@ function extendProblemPage() {
         console.log('pid is null');
         return;
       }
-      const qc = await getQuestionCount();
+      const qc = await getQuestionCountInStorage();
       const qcount = qc ? qc[pid] : null;
       const currentTime = new Date().getTime();
       console.group('problem.js');
@@ -44,41 +46,47 @@ function extendProblemPage() {
         // use cache
         estimates = qcount.count || 0;
       } else {
-        const doc = await fetch(
-          `https://www.acmicpc.net/board/search/all/problem/${pid}`
-        )
-          .then((res) => res.text())
-          .then((html) => new DOMParser().parseFromString(html, 'text/html'))
-          .catch((err) => {
-            console.error(err);
-            return null;
-          });
-        if (doc !== null) {
-          const pages = doc.querySelectorAll('ul.pagination li').length - 2;
-          const rows = doc.querySelectorAll(
-            '.table > tbody > tr:not(.success)'
-          ).length;
-          // count questions
-          estimates = rows;
-          if (pages > 1) {
-            estimates = (pages - 1) * rows + '+';
-          }
-          // store this result
-          setQuestionCount(estimates);
-        }
+        // or not, parse real document and get from it
+        const qDocument = await getProblemQuestionDoc();
+        estimates = getEstimateQuestions(qDocument);
+        setQuestionCount(estimates);
       }
       // update UI
       searchMenu.innerText += ' (' + estimates + ')';
     })();
   }
 
-  async function getQuestionCount() {
+  async function getProblemQuestionDoc() {
+    return fetch(`https://www.acmicpc.net/board/search/all/problem/${pid}`)
+      .then((res) => res.text())
+      .then((html) => new DOMParser().parseFromString(html, 'text/html'))
+      .catch((err) => {
+        console.error(err);
+        return null;
+      });
+  }
+
+  function getEstimateQuestions(doc) {
+    if (doc === null) return;
+    const pages = doc.querySelectorAll('ul.pagination li').length - 2;
+    const rows = doc.querySelectorAll(
+      '.table > tbody > tr:not(.success)'
+    ).length;
+    // count questions
+    let estimates = rows;
+    if (pages > 1) {
+      estimates = (pages - 1) * rows + '+';
+    }
+    return estimates;
+  }
+
+  async function getQuestionCountInStorage() {
     return JSON.parse(await localStorage.getItem(STORAGE_PROBLEM_BOARD));
   }
 
   async function setQuestionCount(val) {
     const data = {
-      ...(await getQuestionCount()),
+      ...(await getQuestionCountInStorage()),
       [pid]: {
         count: val,
         last_updated: new Date().getTime(),
