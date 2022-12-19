@@ -4,7 +4,7 @@
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "chmod +x build.sh && bash -c 'source build.sh'",
+    "build": "chmod +x util/build.sh && bash -c 'source util/build.sh'",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix && prettier src --write"
   },
