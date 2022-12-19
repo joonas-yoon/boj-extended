@@ -6,3 +6,6 @@ dist/
 versions/
 _metadata
 *.diff
+.vs
+.env
+.venv

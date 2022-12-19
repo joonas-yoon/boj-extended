@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/style.css?version=20210105"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Open+Sans:400,400i,700,700i|Source+Code+Pro&subset=korean"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/connect.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/result.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/custom.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/theme-colors/blue.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/pace.css"
+    />
+
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/theme-dark.css" />
+
+    <style>
+      td.result-msg-code {
+        padding: 0 !important;
+      }
+      td.result-msg-code > input {
+        border: 0 !important;
+        outline: 0 !important;
+      }
+    </style>
+
+    <title>설정 - BOJ Extended</title>
+  </head>
+  <body>
+    <div class="header no-print">
+      <div class="topbar">
+        <div class="container">
+          <ul class="loginbar pull-right">
+            <li><a href="#" class="btn-close-window">현재 창 닫기</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="topbar">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/options/option.html">
+              <img
+                id="logo-header"
+                src="/icons/icon-wide.png"
+                alt="Logo"
+                style="width: 180px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container content">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item">
+              <a href="/options/option.html">BOJ Extended</a>
+            </li>
+            <li class="list-group-item active"><a href="#">문제 타이머</a></li>
+          </ul>
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended/issues"
+                target="_blank"
+                >기능 요청</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended/issues"
+                target="_blank"
+                >버그 제보</a
+              >
+            </li>
+          </ul>
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item btn-close-window">
+              <a href="#">현재 창 닫기</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <legend>문제 타이머 설정</legend>
+              <div id="problem-timer-list"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/js/constants.js"></script>
+    <script src="/js/utils/config.js"></script>
+    <script src="/js/utils/helpers.js"></script>
+    <script src="/js/utils/index.js"></script>
+    <script src="option-timer.js"></script>
+  </body>
+</html>

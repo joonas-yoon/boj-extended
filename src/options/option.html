@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/style.css?version=20210105"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:400,700|Open+Sans:400,400i,700,700i|Source+Code+Pro&subset=korean"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/connect.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/result.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/custom.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/unify/css/theme-colors/blue.css?version=20210105"
+    />
+    <link
+      rel="stylesheet"
+      href="https://ddo7jzca0m2vt.cloudfront.net/css/pace.css"
+    />
+
+    <link rel="stylesheet" href="/css/common.css" />
+    <link rel="stylesheet" href="/css/theme-dark.css" />
+    <link rel="stylesheet" href="/css/theme-rigel.css" />
+    <link rel="stylesheet" href="/css/status.css" />
+    <link rel="stylesheet" href="/css/user.css" />
+
+    <style>
+      td.result-msg-code {
+        padding: 0 !important;
+      }
+      td.result-msg-code > input {
+        border: 0 !important;
+        outline: 0 !important;
+      }
+      input.form-control::placeholder {
+        color: rgba(128, 128, 128, 0.4);
+      }
+      .form-group .control-label,
+      .form-group .col-xs-4,
+      .form-group .col-xs-8:not(:last-child) {
+        padding-bottom: 10px;
+      }
+      #global-font-setting {
+        margin-top: 5px;
+        display: none;
+      }
+      .problem-list a.problem-example-tag-color {
+        color: white;
+        background-color: #ec9a00;
+      }
+      html[theme='dark'] .problem-list a.problem-example-tag {
+        background-color: #3c3c3c;
+      }
+    </style>
+
+    <title>설정 - BOJ Extended</title>
+  </head>
+  <body>
+    <div class="header no-print">
+      <div class="topbar">
+        <div class="container">
+          <ul class="loginbar pull-right">
+            <li><a href="#" class="btn-close-window">현재 창 닫기</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="topbar">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/options/option.html">
+              <img
+                id="logo-header"
+                src="/icons/icon-wide.png"
+                alt="Logo"
+                style="width: 180px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container content">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item active"><a href="#">BOJ Extended</a></li>
+            <li class="list-group-item">
+              <a href="/options/option-timer.html">문제 타이머</a>
+            </li>
+          </ul>
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended/issues"
+                target="_blank"
+                >기능 요청</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended/issues"
+                target="_blank"
+                >버그 제보</a
+              >
+            </li>
+            <li class="list-group-item">
+              <a
+                href="https://github.com/joonas-yoon/boj-extended"
+                target="_blank"
+                >도움이 되셨나요?</a
+              >
+            </li>
+          </ul>
+          <ul class="list-group sidebar-nav-v1">
+            <li class="list-group-item btn-close-window">
+              <a href="#">현재 창 닫기</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-9">
+          <div class="row">
+            <div class="col-md-12">
+              <form class="form-horizontal" id="form" novalidate="novalidate">
+                <legend>확장 프로그램 옵션 설정</legend>
+                <div class="alert alert-info">
+                  <p>
+                    설정은 자동으로 저장됩니다. 페이지를 <b>새로고침</b>하시면
+                    <b>변경 사항이 적용</b>됩니다.
+                  </p>
+                </div>
+                <div class="form-group">
+                  <!-- theme -->
+                  <label class="col-sm-2 col-xs-4 control-label" for="theme"
+                    >테마</label
+                  >
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-theme"
+                          name="theme"
+                          value="light"
+                          checked
+                        />
+                        밝은 테마
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-theme"
+                          name="theme"
+                          value="dark"
+                        />
+                        어두운 테마
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-theme"
+                          name="theme"
+                          value="rigel"
+                        />
+                        Rigel
+                        <a href="https://rigel.netlify.com/" target="_blank">
+                          <i class="fa fa-adjust fa-external-link"></i>
+                        </a>
+                      </label>
+                    </div>
+                  </div>
+                  <label class="col-sm-2 col-xs-4 control-label" for="wide"
+                    >화면 크기</label
+                  >
+                  <!-- wide -->
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-wide"
+                          name="wide"
+                          value="0"
+                          checked
+                        />
+                        기본 보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-wide"
+                          name="wide"
+                          value="1"
+                        />
+                        넓게 보기
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="status-pid"
+                    >채점 현황</label
+                  >
+                  <!-- status:pid/pname -->
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-status-pid"
+                          class="option-status-pid"
+                        />
+                        문제 번호 보기
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-status-ptitle"
+                          class="option-status-ptitle"
+                          checked
+                        />
+                        문제 제목 보기
+                      </label>
+                    </div>
+                  </div>
+                  <!-- status:history -->
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="status-pid"
+                    >채점 현황<br />퍼센트(%) 기록</label
+                  >
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-history"
+                          name="status-history"
+                          value="1"
+                          checked
+                        />
+                        사용함
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-xs margin-left-5"
+                          data-toggle="modal"
+                          data-target="#helpHistoryModal"
+                        >
+                          미리 보기
+                        </button>
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-history"
+                          name="status-history"
+                          value="0"
+                        />
+                        사용 안 함
+                      </label>
+                    </div>
+                    <!-- <div class="margin-top-5">
+                      <button
+                        id="btn-status-history-clear"
+                        class="btn btn-danger btn-xs"
+                      >
+                        저장 기록 비우기
+                      </button>
+                    </div> -->
+                  </div>
+                </div>
+                <!-- solved.ac -->
+                <div class="form-group">
+                  <!-- solved.ac:problem-tier -->
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="group-link"
+                    >문제 난이도<br /><img
+                      src="https://static.solved.ac/res/logo-blacktext.svg"
+                      style="height: 1em"
+                    />
+                  </label>
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-problem-tier"
+                          class="option-problem-tier"
+                        />
+                        <div
+                          class="problem-list"
+                          show-id="true"
+                          show-name="true"
+                          show-tier="true"
+                        >
+                          <a
+                            class="problem-link-style-box problem-example-tag"
+                            data-problem-id="1000"
+                            data-problem-title="A+B"
+                            data-tier="14"
+                            style="user-select: none"
+                            >1000</a
+                          >
+                          아이콘 표시
+                        </div>
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input
+                          type="checkbox"
+                          id="option-problem-tier-color"
+                          class="option-problem-tier-color"
+                        />
+                        <div
+                          class="problem-list"
+                          show-id="true"
+                          show-name="true"
+                          tier-color="true"
+                        >
+                          <a
+                            class="problem-link-style-box problem-example-tag-color"
+                            data-problem-id="1000"
+                            data-problem-title="A+B"
+                            data-tier="10"
+                            style="user-select: none"
+                            >1000</a
+                          >
+                          색상 표시
+                        </div>
+                      </label>
+                    </div>
+                  </div>
+                  <!-- global:user-tier-->
+                  <label class="col-sm-2 col-xs-4 control-label" for="user-tier"
+                    >유저 티어<br /><img
+                      src="https://static.solved.ac/res/logo-blacktext.svg"
+                      style="height: 1em"
+                  /></label>
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
+                          value="1"
+                          checked
+                        />
+                        보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-user-tier"
+                          name="user-tier"
+                          value="0"
+                        />
+                        보지 않기
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- status:group-link -->
+                <div class="form-group">
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="group-link"
+                    >그룹 목록의 링크</label
+                  >
+                  <div class="col-sm-4 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-group-link"
+                          name="group-link"
+                          value="1"
+                          checked
+                        />
+                        보기
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-group-link"
+                          name="group-link"
+                          value="0"
+                        />
+                        보지 않기
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- global:font -->
+                <div class="form-group">
+                  <label
+                    class="col-sm-2 col-xs-4 control-label"
+                    for="global-font"
+                    >외부 폰트 사용</label
+                  >
+                  <div class="col-sm-10 col-xs-8">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          id="option-global-font-enable"
+                          name="global-font"
+                          value="1"
+                        />
+                        사용함
+                        <button
+                          type="button"
+                          class="btn btn-primary btn-xs margin-left-5"
+                          data-toggle="modal"
+                          data-target="#helpFontModal"
+                        >
+                          도움말 보기
+                        </button>
+                      </label>
+                    </div>
+                    <div class="row" id="global-font-setting">
+                      <div class="col-sm-6">
+                        <label for="font-url">URL</label>
+                        <input
+                          id="font-url"
+                          class="form-control"
+                          placeholder="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
+                        />
+                      </div>
+                      <div class="col-sm-6">
+                        <label for="font-family">font-family</label>
+                        <input
+                          id="font-family"
+                          class="form-control"
+                          placeholder="Nanum Gothic"
+                        />
+                      </div>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          id="option-global-font-disable"
+                          name="global-font"
+                          value="0"
+                          checked
+                        />
+                        사용 안 함
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <!-- status:resultText -->
+                <div class="form-group">
+                  <label class="col-md-2 control-label">결과 바꾸기</label>
+                  <div class="col-md-10">
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-result"
+                          name="status-result"
+                          value="1"
+                          checked
+                        />
+                        사용함
+                        <span class="label label-light margin-left-5"
+                          >기본값</span
+                        >
+                      </label>
+                    </div>
+                    <div class="radio">
+                      <label>
+                        <input
+                          type="radio"
+                          class="option-status-result"
+                          name="status-result"
+                          value="0"
+                        />
+                        사용 안 함
+                      </label>
+                    </div>
+                    <p class="text-right">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-xs"
+                        data-toggle="modal"
+                        data-target="#helpFormattingModal"
+                      >
+                        도움말 보기
+                      </button>
+                    </p>
+                    <table class="table table-bordered" style="width: 100%">
+                      <thead>
+                        <tr>
+                          <th>바꾸기 전 결과</th>
+                          <th>적용할 포맷</th>
+                          <th>미리보기</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><span class="result-ac">맞았습니다!!</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<ac>맞았습니다!!</ac>"
+                              name="result-ac"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-ac"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-ac"
+                          >
+                            <span class="result-ac">맞았습니다!!</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-pac">맞았습니다!!</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<pac>맞았습니다!!</pac>"
+                              name="result-pac"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-pac"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-pac"
+                          >
+                            <span class="result-pac">맞았습니다!!</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-wa">틀렸습니다</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<wa>틀렸습니다</wa>"
+                              name="result-wa"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-wa"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-wa"
+                          >
+                            <span class="result-wa">틀렸습니다</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-ce">컴파일 에러</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<ce>컴파일 에러</ce>"
+                              name="result-ce"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-ce"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-ce"
+                          >
+                            <span class="result-ce">컴파일 에러</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-rte">런타임 에러</span>
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<rte>런타임 에러</rte>"
+                              name="result-rte"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-rte"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-rte"
+                          >
+                            <span class="result-rte">런타임 에러</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-tle">시간 초과</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<tle>시간 초과</tle>"
+                              name="result-tle"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-tle"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-tle"
+                          >
+                            <span class="result-tle">시간 초과</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-mle">메모리 초과</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<mle>메모리 초과</mle>"
+                              name="result-mle"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-mle"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-mle"
+                          >
+                            <span class="result-mle">메모리 초과</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-ole">출력 초과</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<ole>출력 초과</ole>"
+                              name="result-ole"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-ole"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-ole"
+                          >
+                            <span class="result-ole">출력 초과</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-pe"
+                              >출력 형식이 잘못되었습니다</span
+                            >
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<pe>출력 형식이 잘못되었습니다</pe>"
+                              name="result-pe"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-pe"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-pe"
+                          >
+                            <span class="result-pe"
+                              >출력 형식이 잘못되었습니다</span
+                            >
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-wait">기다리는 중</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<wait>기다리는 중</wait>"
+                              name="result-wait"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-wait"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-wait"
+                          >
+                            <span class="result-wait">기다리는 중</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-compile">채점 준비 중</span>
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<compile>채점 준비 중</compile>"
+                              name="result-compile"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-compile"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-compile"
+                          >
+                            <span class="result-compile">채점 준비 중</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <span class="result-judging">채점 중</span>
+                          </td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<judging>채점 중</judging>"
+                              name="result-judging"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-judging"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-judging"
+                          >
+                            <span class="result-judging">채점 중</span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="result-del">채점 불가</span></td>
+                          <td class="result-msg-code">
+                            <input
+                              type="text"
+                              placeholder="<del>채점 불가</del>"
+                              name="result-del"
+                              class="form-control msg-code"
+                              value=""
+                              data-preview="preview-del"
+                            />
+                          </td>
+                          <td
+                            class="result-msg-preview result-fake-text"
+                            id="preview-del"
+                          >
+                            <span class="result-del">채점 불가</span>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: how to get css link for external font -->
+    <div
+      class="modal fade"
+      id="helpFontModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="helpFontModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="helpFontModalLabel">
+              외부 폰트 사용 :: 도움말
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-warning">
+              폰트 변경 시, 사이트의 일부 레이아웃에 일그러짐이 있을 수
+              있습니다.
+            </div>
+            <p>
+              <a href="https://fonts.google.com/">Google Fonts</a>에서 폰트를
+              선택하신 후,
+            </p>
+            <p>
+              "Use on the web" 섹션에서 &lt;link&gt; 또는 @import 구문을
+              선택하시면 나오는 폰트의 CSS 링크를 복사한 후 붙여넣어 주세요.
+              <br />
+              해당 폰트의 CSS font-family 이름도 함께 적어주세요.
+            </p>
+            <p>
+              반드시 <a href="https://fonts.google.com/">Google Fonts</a>가
+              아니어도 됩니다. 폰트의 CSS 링크와 font-family 이름만 정확히
+              작성해주세요.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: preview history (%) -->
+    <div
+      class="modal fade"
+      id="helpHistoryModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="helpHistoryModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="helpHistoryModalLabel">
+              채점 현황 퍼센트 기록 :: 미리 보기
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="alert alert-warning">
+              &#8251; <b>페이지에 마지막으로 표시된 내용을 기록</b>하는 것으로,
+              실제 퍼센트와 다를 수 있습니다. <br />
+            </div>
+            <img
+              class="center-block"
+              src="https://user-images.githubusercontent.com/9527681/128722599-c2dc230d-47f9-406e-a697-13682a87ad79.gif"
+              alt="preview-1"
+            />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal: formatting result text -->
+    <div
+      class="modal fade"
+      id="helpFormattingModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="helpFormattingModalLabel"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="helpFormattingModalLabel">
+              결과 바꾸기 :: 도움말
+            </h4>
+          </div>
+          <div class="modal-body">
+            <div class="headline">
+              <h3>작성해보기</h3>
+            </div>
+
+            <p>
+              <code>&lt;type&gt;</code> 태그를 활용하여 글자의 스타일을 지정할
+              수 있습니다.
+            </p>
+            <p>
+              지정하고 싶은 텍스트를
+              <code>&lt;type&gt;텍스트&lt;/type&gt;</code> 와 같이 태그로
+              감싸주세요.
+            </p>
+            <p>숫자는 :number:로 대치할 수 있습니다.</p>
+
+            <table class="table table-bordered">
+              <tr>
+                <th>여기에 태그를 적어보세요</th>
+                <th>결과</th>
+              </tr>
+              <tr>
+                <td class="result-msg-code" width="50%">
+                  <input
+                    type="text"
+                    placeholder="<ac>여기</ac>에 <wa>태그</wa>를 <pac>적어보세요</pac>"
+                    name="preview-help-modal"
+                    class="form-control msg-code"
+                    value="<ac>여기</ac>에 <wa>태그</wa>를 <pac>적어보세요</pac>"
+                    id="reformat-practice"
+                    data-preview="preview-help-modal"
+                  />
+                </td>
+                <td
+                  class="result-msg-preview result-fake-text"
+                  id="preview-help-modal"
+                  width="50%"
+                ></td>
+              </tr>
+            </table>
+
+            <br />
+            <div class="headline">
+              <h3>태그 목록</h3>
+            </div>
+
+            <table class="table table-bordered" id="reformat-tag-table">
+              <thread>
+                <tr>
+                  <th>태그</th>
+                  <th>적용되는 스타일</th>
+                </tr>
+              </thread>
+              <tbody></tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-3.3.7.min.js"></script>
+
+    <script src="/js/constants.js"></script>
+    <script src="/js/utils/config.js"></script>
+    <script src="/js/utils/helpers.js"></script>
+    <script src="/js/utils/index.js"></script>
+    <script src="/js/features/theme.js"></script>
+    <script src="/js/features/wide.js"></script>
+    <script src="option.js"></script>
+  </body>
+</html>

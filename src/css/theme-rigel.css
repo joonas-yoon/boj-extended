@@ -1,0 +1,1140 @@
+/*
+Colorscheme from Rigellute/rigel theme
+
+--backgroundDark: #001a25;
+--foreground: #e6e6dc;
+--background: #002635;
+--color0: #00384d;
+--color1: #c43060;
+--color2: #7fc06e;
+--color3: #f08e48;
+--color4: #1c8db2;
+--color5: #c694ff;
+--color6: #00cccc;
+--color7: #77929e;
+--color8: #517f8d;
+--color9: #ff5a67;
+--color10: #9cf087;
+--color11: #ffcc1b;
+--color12: #7eb2dd;
+--color13: #fb94ff;
+--color14: #00ffff;
+--color15: #b7cff9;
+*/
+
+html[theme='rigel'] ::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/* Default CSS */
+html[theme='rigel'] ::-webkit-scrollbar {
+  width: auto;
+}
+html[theme='rigel'] ::-webkit-scrollbar-track {
+  background: #002635;
+}
+html[theme='rigel'] ::-webkit-scrollbar-thumb {
+  background: #6a6a6a;
+}
+html[theme='rigel'] ::-webkit-scrollbar-thumb:hover {
+  background: #5a5a5a;
+}
+html[theme='rigel'] ::-webkit-scrollbar-button {
+  background: no-repeat #2f2f2f;
+  background-size: 0.75em;
+}
+html[theme='rigel'] ::-webkit-scrollbar-button:vertical:decrement {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%235a6268'><polygon points='0,50 100,50 50,0'/></svg>");
+  background-position: center bottom;
+}
+html[theme='rigel'] ::-webkit-scrollbar-button:vertical:increment {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%235a6268'><polygon points='0,0 100,0 50,50'/></svg>");
+  background-position: center bottom;
+}
+html[theme='rigel'] ::-webkit-scrollbar-button:horizontal:decrement {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%235a6268'><polygon points='0,50 40,10 40,90'/></svg>");
+  background-position: right center;
+}
+html[theme='rigel'] ::-webkit-scrollbar-button:horizontal:increment {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%235a6268'><polygon points='20,10 20,90 70,50'/></svg>");
+  background-position: right center;
+}
+html[theme='rigel'],
+html[theme='rigel'] body {
+  color: #e6e6dc;
+  background-color: #002635;
+}
+html[theme='rigel'] p,
+html[theme='rigel'] li {
+  color: #e6e6dc;
+}
+html[theme='rigel'] a {
+  color: #70b2e1;
+}
+html[theme='rigel'] h1,
+html[theme='rigel'] h2,
+html[theme='rigel'] h3,
+html[theme='rigel'] h4,
+html[theme='rigel'] h5,
+html[theme='rigel'] h6 {
+  color: #cfcfd0;
+}
+html[theme='rigel'] legend {
+  color: #eaeaea;
+}
+html[theme='rigel'] blockquote {
+  border-left-color: #3f3f3f;
+}
+html[theme='rigel'] blockquote:hover,
+html[theme='rigel'] blockquote.text-right:hover {
+  border-color: #6eacd4;
+}
+html[theme='rigel'] hr {
+  border-top: 1px solid #4c4c4c;
+}
+/* Site */
+html[theme='rigel'],
+html[theme='rigel'] .wrapper {
+  background: #002635;
+}
+html[theme='rigel'] .header {
+  background-color: #002635;
+  color: white;
+  border-bottom: solid 2px #3c3c3c;
+}
+html[theme='rigel'] .header .navbar-default .navbar-nav > li > a {
+  color: #a2a4a5;
+}
+html[theme='rigel'] .header .navbar-default .navbar-nav > li:hover > a {
+  color: #c9c9c9;
+  border-bottom-color: #8a8a8a;
+}
+html[theme='rigel'] .header .navbar-default .navbar-nav > .active > a {
+  color: white;
+  border-color: #eeeeee;
+}
+html[theme='rigel'] .header .mega-menu .mega-menu-content {
+  background: #001a25;
+}
+html[theme='rigel'] .header .mega-menu .equal-height-list a {
+  color: #a7a79c;
+}
+html[theme='rigel'] .header .mega-menu .equal-height-list a:hover {
+  color: #e6e6dc;
+  background-color: #00394f !important;
+}
+html[theme='rigel'] .header .dropdown-menu {
+  border-top: 2px solid #3c3c3c;
+  border-bottom: 2px solid #343b3e;
+}
+@media (min-width: 992px) {
+  html[theme='rigel'] .header .mega-menu .equal-height-in {
+    border-left-color: #202020;
+  }
+}
+html[theme='rigel'] .page-header {
+  border-bottom-color: #4a4a4a;
+}
+html[theme='rigel'] .headline {
+  border-bottom-color: #757575;
+}
+html[theme='rigel'] .headline h2,
+html[theme='rigel'] .headline h3,
+html[theme='rigel'] .headline h4 {
+  border-bottom-color: #b5b5b5;
+}
+html[theme='rigel'] .modal-content {
+  background-color: #202020;
+}
+html[theme='rigel'] .table-striped > tbody > tr:nth-child(odd) > td,
+html[theme='rigel'] .table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #002635;
+  border-color: #333;
+}
+html[theme='rigel'] .table-bordered {
+  border-color: #333;
+}
+html[theme='rigel'] .table-bordered > tbody > tr.striped > td {
+  background-color: #002635;
+}
+html[theme='rigel'] .table-bordered > thead > tr > th,
+html[theme='rigel'] .table-bordered > tbody > tr > th,
+html[theme='rigel'] .table-bordered > tfoot > tr > th,
+html[theme='rigel'] .table-bordered > thead > tr > td,
+html[theme='rigel'] .table-bordered > tbody > tr > td,
+html[theme='rigel'] .table-bordered > tfoot > tr > td {
+  border-color: #333;
+}
+html[theme='rigel'] .table-hover > tbody > tr:hover > td,
+html[theme='rigel'] .table-hover > tbody > tr:hover > th {
+  background-color: #232323;
+}
+html[theme='rigel'] .table > thead > tr > th,
+html[theme='rigel'] .table > tbody > tr > th,
+html[theme='rigel'] .table > tfoot > tr > th,
+html[theme='rigel'] .table > thead > tr > td,
+html[theme='rigel'] .table > tbody > tr > td,
+html[theme='rigel'] .table > tfoot > tr > td {
+  border-color: #2d2d2d;
+}
+html[theme='rigel'] .table > thead > tr > td.success,
+html[theme='rigel'] .table > tbody > tr > td.success,
+html[theme='rigel'] .table > tfoot > tr > td.success,
+html[theme='rigel'] .table > thead > tr > th.success,
+html[theme='rigel'] .table > tbody > tr > th.success,
+html[theme='rigel'] .table > tfoot > tr > th.success,
+html[theme='rigel'] .table > thead > tr.success > td,
+html[theme='rigel'] .table > tbody > tr.success > td,
+html[theme='rigel'] .table > tfoot > tr.success > td,
+html[theme='rigel'] .table > thead > tr.success > th,
+html[theme='rigel'] .table > tbody > tr.success > th,
+html[theme='rigel'] .table > tfoot > tr.success > th,
+html[theme='rigel'] td.accepted {
+  color: #9cf087;
+  border-color: #427634;
+  background-color: #1b493e;
+}
+html[theme='rigel'] .table > thead > tr > td.success a,
+html[theme='rigel'] .table > tbody > tr > td.success a,
+html[theme='rigel'] .table > tfoot > tr > td.success a,
+html[theme='rigel'] .table > thead > tr > th.success a,
+html[theme='rigel'] .table > tbody > tr > th.success a,
+html[theme='rigel'] .table > tfoot > tr > th.success a,
+html[theme='rigel'] .table > thead > tr.success > td a,
+html[theme='rigel'] .table > tbody > tr.success > td a,
+html[theme='rigel'] .table > tfoot > tr.success > td a,
+html[theme='rigel'] .table > thead > tr.success > th a,
+html[theme='rigel'] .table > tbody > tr.success > th a,
+html[theme='rigel'] .table > tfoot > tr.success > th a,
+html[theme='rigel'] td.accepted {
+  color: #ebf5e7;
+}
+html[theme='rigel'] .table > thead > tr.result-mine > td:first-child,
+html[theme='rigel'] .table > tbody > tr.result-mine > td:first-child,
+html[theme='rigel'] .table > tfoot > tr.result-mine > td:first-child {
+  border-left: 4px solid #6284a7;
+}
+html[theme='rigel'] .table > thead > tr > td.info,
+html[theme='rigel'] .table > tbody > tr > td.info,
+html[theme='rigel'] .table > tfoot > tr > td.info,
+html[theme='rigel'] .table > thead > tr > th.info,
+html[theme='rigel'] .table > tbody > tr > th.info,
+html[theme='rigel'] .table > tfoot > tr > th.info,
+html[theme='rigel'] .table > thead > tr.info > td,
+html[theme='rigel'] .table > tbody > tr.info > td,
+html[theme='rigel'] .table > tfoot > tr.info > td,
+html[theme='rigel'] .table > thead > tr.info > th,
+html[theme='rigel'] .table > tbody > tr.info > th,
+html[theme='rigel'] .table > tfoot > tr.info > th {
+  background-color: #137393;
+  border-color: #1c8db2;
+}
+html[theme='rigel'] .thumbnail {
+  background-color: #001a26;
+  border-color: #185366;
+  color: #e6e6dc;
+}
+html[theme='rigel'] .thumbnail h3 a,
+html[theme='rigel'] .thumbnail-style h3 a {
+  color: #c5c5c5;
+}
+html[theme='rigel'] .footer-v3 .footer {
+  border-top: 5px solid #0b3546;
+}
+html[theme='rigel'] .footer-v3 .footer,
+html[theme='rigel'] .footer-v3 .copyright {
+  background: #222;
+  background-color: #03222e;
+}
+html[theme='rigel'] .form-control {
+  color: #e6e6dc;
+  background-color: #00384d;
+  border-color: #146078;
+}
+html[theme='rigel'] .form-control input::placeholder {
+  color: #e6e6dc;
+}
+html[theme='rigel'] .form-control[disabled],
+html[theme='rigel'] .form-control[readonly],
+html[theme='rigel'] fieldset[disabled] .form-control {
+  color: #919183;
+  background-color: #022a38;
+}
+html[theme='rigel'] .pagination > li > a,
+html[theme='rigel'] .pagination > li > span {
+  color: #eeeeee;
+  background-color: #00384d;
+  border-color: #154e60;
+}
+html[theme='rigel'] .pagination li a:hover {
+  background-color: #1c8db2;
+}
+html[theme='rigel'] .pagination > .active > a,
+html[theme='rigel'] .pagination > .active > span,
+html[theme='rigel'] .pagination > .active > a:hover,
+html[theme='rigel'] .pagination > .active > span:hover,
+html[theme='rigel'] .pagination > .active > a:focus,
+html[theme='rigel'] .pagination > .active > span:focus {
+  background-color: #7eb2dd;
+  border-color: #146078;
+}
+html[theme='rigel'] .nav .open > a,
+html[theme='rigel'] .nav .open > a:hover,
+html[theme='rigel'] .nav .open > a:focus {
+  background-color: #008eb6;
+  color: #e6e6dc;
+}
+html[theme='rigel'] .nav > li > a:hover,
+html[theme='rigel'] .nav > li > a:focus {
+  background-color: #3c739a;
+  color: #e6e6dc;
+}
+html[theme='rigel'] .nav-pills > li.active > a,
+html[theme='rigel'] .nav-pills > li.active > a:hover,
+html[theme='rigel'] .nav-pills > li.active > a:focus {
+  background-color: #70b2e1;
+  color: #fff;
+}
+html[theme='rigel'] .reg-page {
+  color: #efefef;
+  padding: 30px;
+  background: #252525;
+  border: solid 1px #2f2f2f;
+  box-shadow: 0 0 3px #282828;
+}
+html[theme='rigel'] .reg-header h2 {
+  color: #f5f5f5;
+}
+html[theme='rigel'] .input-group-addon {
+  color: #e6e6dc;
+  background: #2e2e2e;
+  border-color: #2c2c2c;
+}
+html[theme='rigel'] .breadcrumbs {
+  background: #001a26;
+  border-color: #001a26;
+}
+html[theme='rigel'] .sky-form {
+  border-color: #333;
+}
+html[theme='rigel'] .sky-form,
+html[theme='rigel'] .sky-form fieldset,
+html[theme='rigel'] .sky-form footer {
+  background: #001a26;
+  color: white;
+}
+html[theme='rigel'] .sky-form .radio,
+html[theme='rigel'] .sky-form .checkbox {
+  color: #9a9a9a;
+}
+html[theme='rigel'] .sky-form .radio i,
+html[theme='rigel'] .sky-form .checkbox i {
+  background: #002635;
+}
+html[theme='rigel'] .sky-form .radio input + i:after {
+  background-color: #fff;
+}
+html[theme='rigel'] .selectize-input {
+  border-color: #222;
+}
+html[theme='rigel'] .selectize-control.single .selectize-input.input-active,
+html[theme='rigel'] .selectize-input {
+  background: #3a3a3a;
+}
+html[theme='rigel'] .selectize-dropdown,
+html[theme='rigel'] .selectize-dropdown.form-control {
+  background: #2f2f2f;
+}
+html[theme='rigel'] .selectize-dropdown-content {
+  color: #e6e6dc;
+}
+html[theme='rigel'] .selectize-dropdown .active {
+  background-color: #dcdcdc;
+  color: #000000;
+}
+html[theme='rigel'] .selectize-control.multi .selectize-input > div {
+  background: #002635;
+  color: #fff;
+}
+html[theme='rigel'] .chosen-container-single .chosen-single {
+  color: #eeeeee;
+  border-color: #333333;
+  background-color: #292929;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(20%, #292929),
+    color-stop(50%, #222222),
+    color-stop(52%, #002635),
+    to(#292929)
+  );
+  background: linear-gradient(
+    #292929 20%,
+    #222222 50%,
+    #002635 52%,
+    #292929 100%
+  );
+  -webkit-box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
+  box-shadow: 0 0 3px #222 inset, 0 1px 1px rgb(21, 21, 21, 0.1);
+}
+html[theme='rigel'] .chosen-container .chosen-drop {
+  border-color: #333333;
+  background: #292929;
+  -webkit-box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
+  box-shadow: 0 4px 5px rgb(21, 21, 21, 0.15);
+}
+html[theme='rigel'] .chosen-container .chosen-results li.highlighted {
+  background-color: #2353a0;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(20%, #2353a0),
+    color-stop(90%, #1b4586)
+  );
+  background-image: linear-gradient(#2353a0 20%, #1b4586 90%);
+  color: #fff;
+}
+html[theme='rigel'] .chosen-container-single .chosen-search input[type='text'] {
+  border-color: #3f3f3f;
+}
+html[theme='rigel'] .dropdown-menu {
+  background-color: #008eb6;
+}
+html[theme='rigel'] .dropdown-menu > li > a {
+  color: #c1c1b4;
+}
+html[theme='rigel'] .dropdown-menu .divider {
+  background-color: #70b2e1;
+}
+html[theme='rigel'] .dropdown-menu > li > a:hover,
+html[theme='rigel'] .dropdown-menu > li > a:focus {
+  color: #e6e6dc;
+  background-color: #70b2e1 !important;
+}
+html[theme='rigel'] .funny-boxes {
+  background: #001a26;
+}
+html[theme='rigel'] .funny-boxes h2 a {
+  color: #89c4e8;
+}
+html[theme='rigel'] .funny-boxes-top-sea {
+  border-top-color: #146078;
+}
+html[theme='rigel'] .funny-boxes-top-sea:hover {
+  border-top-color: #e6e6dc;
+}
+html[theme='rigel'] .search-block-v2 {
+  background: transparent;
+}
+html[theme='rigel'] .list-group-item {
+  color: #e6e6dc;
+  background-color: #00384d;
+  border-color: #146078;
+}
+html[theme='rigel'] .sidebar-nav-v1 > li.active > a {
+  color: white;
+}
+html[theme='rigel'] .sidebar-nav-v1 > li.active,
+html[theme='rigel'] .sidebar-nav-v1 > li.active:hover {
+  background: #3c739a;
+  border-color: #146078;
+}
+html[theme='rigel'] .sidebar-nav-v1 li a:hover,
+html[theme='rigel'] .sidebar-nav-v1 li a:active {
+  color: #fafafa;
+}
+html[theme='rigel'] .progress {
+  background: rgb(128, 128, 128, 0.1);
+}
+html[theme='rigel'] .progress-bar {
+  background-color: #0f4676;
+}
+html[theme='rigel'] .progress-bar-success {
+  background-color: #136a13;
+}
+html[theme='rigel'] .panel-default {
+  border-color: #146078;
+}
+html[theme='rigel'] .panel-default > .panel-heading,
+html[theme='rigel'] .panel-default > .panel-footer {
+  color: #fff;
+  background-color: #00384d;
+  border-color: #146078;
+}
+html[theme='rigel'] .panel-info {
+  border-color: #124c69;
+}
+html[theme='rigel'] .panel-info > .panel-heading {
+  color: #fff;
+  background-color: #13587b;
+  border-color: #124c69;
+}
+html[theme='rigel'] .panel-body {
+  background-color: #002635;
+}
+html[theme='rigel'] .page-header > h1 {
+  color: white;
+}
+html[theme='rigel'] .blog-twitter .blog-twitter-inner {
+  background: #0b3546;
+}
+html[theme='rigel'] .blog-twitter .blog-twitter-inner:after {
+  border-top: 15px solid #1c8db2;
+}
+html[theme='rigel'] .blog-twitter .blog-twitter-inner:before {
+  border-bottom-color: #002635;
+}
+html[theme='rigel'] .blog-twitter .blog-twitter-inner a.article-subject {
+  color: #c5c5c5;
+}
+html[theme='rigel'] .blog-twitter .blog-twitter-inner a {
+  color: #1e86c7;
+}
+html[theme='rigel'] .posts .dl-horizontal a {
+  color: #c5c5c5;
+}
+html[theme='rigel'] .result-ac {
+  color: #9cf087;
+}
+html[theme='rigel'] .result-pac {
+  color: #7fc06e;
+}
+html[theme='rigel'] .result-wa {
+  color: #c43060;
+}
+html[theme='rigel'] .result-rte {
+  color: #fb94ff;
+}
+html[theme='rigel'] .result-ce {
+  color: #7eb2dd;
+}
+html[theme='rigel'] .result-pe,
+html[theme='rigel'] .result-tle,
+html[theme='rigel'] .result-mle,
+html[theme='rigel'] .result-ole {
+  color: #ff5a67;
+}
+html[theme='rigel'] .result-co,
+html[theme='rigel'] .result-del {
+  color: #505050;
+}
+html[theme='rigel'] .close {
+  color: white;
+  opacity: 0.5;
+}
+html[theme='rigel'] .close:hover,
+html[theme='rigel'] .close:focus {
+  color: white;
+  opacity: 0.85;
+}
+html[theme='rigel'] .alert-success {
+  color: #3c763d;
+  background-color: rgb(182, 226, 145, 0.1);
+  border-color: #b6e291;
+}
+html[theme='rigel'] .alert-info {
+  color: #31708f;
+  background-color: rgb(121, 205, 222, 0.1);
+  border-color: #79cdde;
+}
+html[theme='rigel'] .alert-danger {
+  color: #ebccd1;
+  background-color: rgb(221, 65, 36, 0.1);
+  border-color: #8b3b2c;
+}
+html[theme='rigel'] .alert-warning {
+  color: #e1c48a;
+  background-color: rgb(252, 248, 227, 0.1);
+  border-color: #faebcc;
+}
+html[theme='rigel'] .btn {
+  color: #e6e6dc;
+  background-color: #00384d;
+  border-color: #146078;
+}
+html[theme='rigel'] .btn-default,
+html[theme='rigel'] #favorite_button {
+  color: #e6e6dc;
+  background-color: #001a26;
+  border-color: #146078;
+}
+html[theme='rigel'] .btn-danger {
+  background-color: #ed5565;
+  border-color: #ed5565;
+  color: #fff;
+}
+html[theme='rigel'] .btn-danger:hover,
+html[theme='rigel'] .btn-danger:focus,
+html[theme='rigel'] .btn-danger:active,
+html[theme='rigel'] .btn-danger.active,
+html[theme='rigel'] .open .dropdown-toggle.btn-danger,
+html[theme='rigel'] .btn-danger:active:focus,
+html[theme='rigel'] .btn-danger:active:hover,
+html[theme='rigel'] .btn-danger.active:hover,
+html[theme='rigel'] .btn-danger.active:focus {
+  background-color: #ec4758;
+  border-color: #ec4758;
+  color: #fff;
+}
+html[theme='rigel'] .btn-danger.btn-outline {
+  background-color: transparent;
+  color: #ed5565;
+}
+html[theme='rigel'] .btn-default:hover,
+html[theme='rigel'] #favorite_button:hover {
+  background-color: #2f2f2f;
+}
+html[theme='rigel'] .btn-primary {
+  color: #fff;
+  background-color: #20649e;
+  border-color: #28689e;
+}
+html[theme='rigel'] .btn-u.btn-u-default {
+  background: #3b4b4c;
+}
+html[theme='rigel'] #contest_scoreboard a {
+  color: #ffffff;
+}
+html[theme='rigel'] #contest_statistics a {
+  color: #a0a0a0;
+}
+/* start: /user/.+ */
+html[theme='rigel'] .tab-v2 .nav-tabs li.active a {
+  background: #222;
+  border: solid 1px #333;
+  color: #f0f0f0;
+}
+html[theme='rigel'] .page-header .fa {
+  color: inherit;
+}
+/* end: /user/.+ */
+/* start: /contest/board */
+html[theme='rigel'] .top-navigation #page-wrapper {
+  background-color: #222222;
+}
+html[theme='rigel'] .top-navigation .nav > li > a {
+  color: #95989b;
+}
+html[theme='rigel'] #page-wrapper .navbar-collapse.collapse {
+  background-color: #2a2a2a;
+}
+html[theme='rigel'] #page-wrapper .border-bottom {
+  border-bottom: 1px solid #2f2f2f !important;
+}
+html[theme='rigel'] #page-wrapper .footer {
+  background: #303030;
+  border-top: 1px solid #4f5356;
+}
+html[theme='rigel'] #right-sidebar {
+  background-color: #222;
+  border-left: 1px solid #323232;
+  border-top: 1px solid #323232;
+}
+html[theme='rigel'] .sidebar-container ul.sidebar-list li {
+  border-bottom: 1px solid #535556;
+}
+html[theme='rigel'] .sidebar-container .sidebar-title {
+  border-bottom: 1px solid #505456;
+}
+html[theme='rigel'] .ibox-content {
+  background-color: #282828;
+  color: #fff;
+  border-color: #535454;
+}
+html[theme='rigel'] .widget.style1 h2 {
+  color: #fcfcfc;
+}
+html[theme='rigel'] .navy-bg {
+  background-color: #1e816c;
+}
+html[theme='rigel'] .lazur-bg {
+  background-color: #239c9d;
+}
+html[theme='rigel'] .yellow-bg {
+  background-color: #d59550;
+}
+html[theme='rigel'] .red-bg {
+  background-color: #bc4955;
+}
+html[theme='rigel'] .sidebar-success {
+  background-color: #204d44;
+  border-bottom-color: #12342d !important;
+}
+html[theme='rigel'] .sidebar-fail {
+  background-color: #633136;
+  border-bottom-color: #5a2329 !important;
+}
+html[theme='rigel'] .sidebar-pending {
+  background-color: #373a3a;
+}
+html[theme='rigel'] .sidebar-pending h4 {
+  color: #999999;
+}
+html[theme='rigel'] .inmodal .modal-body {
+  background: #242424;
+}
+html[theme='rigel'] .modal-header {
+  border-bottom: 1px solid #363636;
+}
+html[theme='rigel'] .modal-footer {
+  border-top: 1px solid #363636;
+}
+html[theme='rigel'] .tabs-container .nav-tabs {
+  border-bottom: none;
+}
+html[theme='rigel'] .tabs-container .panel-body {
+  border: 1px solid #393a3a;
+}
+html[theme='rigel'] .top-navigation .nav > li.active {
+  background: transparent;
+}
+html[theme='rigel'] .tabs-container .nav-tabs > li.active > a,
+html[theme='rigel'] .tabs-container .nav-tabs > li.active > a:hover,
+html[theme='rigel'] .tabs-container .nav-tabs > li.active > a:focus {
+  border: 1px solid #393a3a;
+  border-bottom-color: transparent;
+  background-color: #292929;
+}
+/* end: /contest/board */
+html[theme='rigel'] a.list-group-item.active > .badge,
+html[theme='rigel'] .nav-pills > .active > a > .badge {
+  color: #3c739a;
+  background-color: #ffffff;
+}
+html[theme='rigel'] .label-success,
+html[theme='rigel'] .problem-label-ac {
+  background-color: transparent;
+  border: 1px solid #5cb85c;
+  color: #5cb85c;
+}
+html[theme='rigel'] .problem-label-pac {
+  background-color: transparent;
+  border: 1px solid #efc050;
+  color: #efc050;
+}
+html[theme='rigel'] .label-light-green,
+html[theme='rigel'] .problem-label-debug,
+html[theme='rigel'] .badge-light-green {
+  background-color: transparent;
+  border: 1px solid #79d5b3;
+  color: #79d5b3 !important;
+}
+html[theme='rigel'] .label-default,
+html[theme='rigel'] .label-light,
+html[theme='rigel'] .badge-light,
+html[theme='rigel'] .problem-label-multilang,
+html[theme='rigel'] .problem-label-bookmark {
+  background-color: transparent;
+  border: 1px solid #777;
+  color: #777 !important;
+}
+html[theme='rigel'] .label-purple,
+html[theme='rigel'] .badge-purple,
+html[theme='rigel'] .problem-label-tag {
+  background-color: transparent;
+  border: 1px solid #9b6bcc;
+  color: #9b6bcc !important;
+}
+html[theme='rigel'] .label-info {
+  background-color: transparent;
+  border: 1px solid #5bc0de;
+  color: #5bc0de !important;
+}
+html[theme='rigel'] .label-danger,
+html[theme='rigel'] .problem-label-wa {
+  background-color: transparent;
+  border: 1px solid #d9534f;
+  color: #d9534f !important;
+}
+html[theme='rigel'] .label-primary {
+  background-color: transparent;
+  border: 1px solid #428bca;
+  color: #428bca !important;
+}
+html[theme='rigel'] .label-warning {
+  background-color: transparent;
+  border: 1px solid #f0ad4e;
+  color: #f0ad4e !important;
+}
+html[theme='rigel'] .label-dark,
+html[theme='rigel'] .badge-dark {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #555 !important;
+}
+html[theme='rigel'] .label-aqua,
+html[theme='rigel'] .badge-aqua,
+html[theme='rigel'] .problem-label-two-steps,
+html[theme='rigel'] .problem-label-class,
+html[theme='rigel'] .problem-label-feedback,
+html[theme='rigel'] .problem-label-full {
+  background-color: transparent;
+  border: 1px solid #27d7e7;
+  color: #27d7e7 !important;
+}
+html[theme='rigel'] .label-sea,
+html[theme='rigel'] .badge-sea,
+html[theme='rigel'] .problem-label-unofficial {
+  background-color: transparent;
+  border: 1px solid #1abc9c;
+  color: #1abc9c !important;
+}
+html[theme='rigel'] .label-yellow,
+html[theme='rigel'] .badge-yellow {
+  background-color: transparent;
+  border: 1px solid #f1c40f;
+  color: #f1c40f !important;
+}
+html[theme='rigel'] .label-dark-blue,
+html[theme='rigel'] .badge-dark-blue {
+  background-color: transparent;
+  border: 1px solid #4765a0;
+  color: #4765a0 !important;
+}
+html[theme='rigel'] .problem-label-spj {
+  background-color: transparent;
+  border: 1px solid #5bc0de;
+  color: #5bc0de !important;
+}
+html[theme='rigel'] .problem-label-source {
+  background-color: transparent;
+  border: 1px solid #428bca;
+  color: #428bca !important;
+}
+html[theme='rigel'] .problem-label-preparing {
+  background-color: transparent;
+  border: 1px solid #f0ad4e;
+  color: #f0ad4e !important;
+}
+html[theme='rigel'] .problem-label-interactive {
+  background-color: transparent;
+  border: 1px solid #27d7e7;
+  color: #27d7e7 !important;
+}
+html[theme='rigel'] .problem-label-partial {
+  background-color: transparent;
+  border: 1px solid #5bc0de;
+  color: #5bc0de !important;
+}
+html[theme='rigel'] .problem-label-subtask {
+  background-color: transparent;
+  border: 1px solid #555;
+  color: #555 !important;
+}
+html[theme='rigel'] .problem-label-func {
+  background-color: transparent;
+  border: 1px solid #27d7e7;
+  color: #27d7e7 !important;
+}
+html[theme='rigel'] .problem-label-language-restrict {
+  background-color: transparent;
+  border: 1px solid #4765a0;
+  color: #4765a0 !important;
+}
+html[theme='rigel'] pre:not(.CodeMirror-line),
+html[theme='rigel'] .sampledata {
+  color: inherit;
+  background-color: rgba(128, 128, 128, 0.05);
+  border-color: #3c3c3c;
+}
+html[theme='rigel'] .space-highlight {
+  background-color: rgba(123, 103, 24, 0.3);
+}
+html[theme='rigel'] .s-results .inner-results h3 a {
+  color: #fff;
+}
+html[theme='rigel'] #problem-timer .dropdown-menu input.timer-number {
+  color: white;
+  background-color: #3f3f3f;
+  border-color: #6a6a6a;
+}
+html[theme='rigel'] .panel img,
+html[theme='rigel'] .redactor-modal,
+html[theme='rigel'] .redactor-dropdown,
+html[theme='rigel'] .redactor-styles figure,
+html[theme='rigel'] .redactor-box.redactor-styles-on,
+html[theme='rigel'] #logo-header,
+html[theme='rigel'] #problem-body img:not(.level_badge) {
+  filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
+  -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%)
+    contrast(72.5%);
+  -moz-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
+  transition: 0.2s ease-out;
+}
+html[theme='rigel'] .panel img:hover,
+html[theme='rigel'] #problem-body img:not(.level_badge):hover {
+  filter: none;
+  transition: 0.3s;
+}
+html[theme='rigel'] .redactor-styles p,
+html[theme='rigel'] .redactor-styles li,
+html[theme='rigel'] .redactor-styles blockquote,
+html[theme='rigel'] .redactor-styles pre,
+html[theme='rigel'] .redactor-styles table,
+html[theme='rigel'] .redactor-statusbar li {
+  color: #000;
+}
+html[theme='rigel'] .redactor-styles table th,
+html[theme='rigel'] .redactor-styles table td {
+  border: 1px solid #ccc;
+}
+/* Code */
+html[theme='rigel'] .hljs {
+  color: #bfbfbf;
+}
+html[theme='rigel'] .bash .hljs-variable,
+html[theme='rigel'] .cs .hljs-preprocessor,
+html[theme='rigel'] .cs .hljs-preprocessor .hljs-keyword,
+html[theme='rigel'] .css .hljs-attr_selector,
+html[theme='rigel'] .css .hljs-value,
+html[theme='rigel'] .ini .hljs-value,
+html[theme='rigel'] .ini .hljs-keyword,
+html[theme='rigel'] .javascript .hljs-tag .hljs-title,
+html[theme='rigel'] .makefile .hljs-constant,
+html[theme='rigel'] .nginx .hljs-variable,
+html[theme='rigel'] .xml .hljs-tag,
+html[theme='rigel'] .scss .hljs-variable {
+  color: #787878;
+}
+/* Notifications */
+html[theme='rigel'] .noty_theme__mint.noty_type__success {
+  background-color: #839a3e;
+  border-bottom: 1px solid #616f34;
+  color: #f1f1f1;
+}
+/* User colors */
+html[theme='rigel'] .user-admin {
+  color: white !important;
+}
+html[theme='rigel'] .user-legendary-first-letter {
+  color: white !important;
+}
+html[theme='rigel'] .user-red {
+  color: #ff1010 !important;
+}
+html[theme='rigel'] .user-blue {
+  color: #5454ff !important;
+}
+html[theme='rigel'] .user-violet {
+  color: #bd0bbd !important;
+}
+/* Editor */
+html[theme='rigel'] .editor-toolbar {
+  border-top: 1px solid #333 !important;
+  border-left: 1px solid #333 !important;
+  border-right: 1px solid #333 !important;
+  border-bottom: none;
+}
+html[theme='rigel'] .editor-toolbar a:before {
+  color: #ffffff !important;
+}
+html[theme='rigel'] .editor-toolbar a.active,
+html[theme='rigel'] .editor-toolbar a:hover {
+  background: #979797 !important;
+  border-color: transparent !important;
+}
+html[theme='rigel'] .CodeMirror {
+  border: 1px solid #333 !important;
+}
+/*
+  Name:       lucario
+  Author:     Raphael Amorim
+
+  Original Lucario color scheme (https://github.com/raphamorim/lucario)
+*/
+html[theme='rigel'] .cm-s-default.CodeMirror,
+html[theme='rigel'] .cm-s-default .CodeMirror-gutters {
+  background-color: #2b3e50 !important;
+  color: #f8f8f2 !important;
+  border: none;
+}
+html[theme='rigel'] .cm-s-default .CodeMirror-gutters {
+  color: #2b3e50;
+}
+html[theme='rigel'] .cm-s-default .CodeMirror-cursor {
+  border-left: solid thin #e6c845;
+}
+html[theme='rigel'] .cm-s-default .CodeMirror-linenumber {
+  color: #f8f8f2;
+}
+html[theme='rigel'] .cm-s-default .CodeMirror-selected {
+  background: #243443;
+}
+html[theme='rigel'] .cm-s-default .CodeMirror-line::selection,
+html[theme='rigel'] .cm-s-default .CodeMirror-line > span::selection,
+html[theme='rigel'] .cm-s-default .CodeMirror-line > span > span::selection {
+  background: #243443;
+}
+html[theme='rigel'] .cm-s-default .CodeMirror-line::-moz-selection,
+html[theme='rigel'] .cm-s-default .CodeMirror-line > span::-moz-selection,
+html[theme='rigel']
+  .cm-s-default
+  .CodeMirror-line
+  > span
+  > span::-moz-selection {
+  background: #243443;
+}
+html[theme='rigel'] .cm-s-default span.cm-comment {
+  color: #5c98cd;
+}
+html[theme='rigel'] .cm-s-default span.cm-string,
+html[theme='rigel'] .cm-s-default span.cm-string-2 {
+  color: #e6db74;
+}
+html[theme='rigel'] .cm-s-default span.cm-number {
+  color: #ca94ff;
+}
+html[theme='rigel'] .cm-s-default span.cm-variable {
+  color: #f8f8f2;
+}
+html[theme='rigel'] .cm-s-default span.cm-variable-2 {
+  color: #f8f8f2;
+}
+html[theme='rigel'] .cm-s-default span.cm-def {
+  color: #72c05d;
+}
+html[theme='rigel'] .cm-s-default span.cm-operator {
+  color: #66d9ef;
+}
+html[theme='rigel'] .cm-s-default span.cm-keyword {
+  color: #ff6541;
+}
+html[theme='rigel'] .cm-s-default span.cm-atom {
+  color: #bd93f9;
+}
+html[theme='rigel'] .cm-s-default span.cm-meta {
+  color: #f8f8f2;
+}
+html[theme='rigel'] .cm-s-default span.cm-tag {
+  color: #ff6541;
+}
+html[theme='rigel'] .cm-s-default span.cm-attribute {
+  color: #66d9ef;
+}
+html[theme='rigel'] .cm-s-default span.cm-qualifier {
+  color: #72c05d;
+}
+html[theme='rigel'] .cm-s-default span.cm-property {
+  color: #f8f8f2;
+}
+html[theme='rigel'] .cm-s-default span.cm-builtin {
+  color: #72c05d;
+}
+html[theme='rigel'] .cm-s-default span.cm-variable-3,
+html[theme='rigel'] .cm-s-default span.cm-type {
+  color: #ffb86c;
+}
+
+html[theme='rigel'] .cm-s-default .CodeMirror-activeline-background {
+  background: #243443;
+}
+html[theme='rigel'] .cm-s-default .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
+/* Search Page */
+html[theme='rigel'] .s-results .related-search {
+  border-right: 1px solid #3e3e3e;
+}
+/* Quick Search */
+html[theme='rigel'] #quick-search {
+  background: rgba(0, 0, 0, 0.15);
+}
+html[theme='rigel'] #quick-search .results {
+  background-color: #002635;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+}
+html[theme='rigel'] #quick-search .results::-webkit-scrollbar-track {
+  background: #002635;
+}
+html[theme='rigel'] #quick-search .results::-webkit-scrollbar-thumb {
+  background: #008eb6;
+}
+html[theme='rigel'] #quick-search .results::-webkit-scrollbar-thumb:hover {
+  background: #70b2e1;
+}
+html[theme='rigel'] #quick-search .results .quick-search-item {
+  border-bottom: 1px solid #00394f;
+}
+html[theme='rigel'] #quick-search .results .quick-search-item b,
+html[theme='rigel'] #quick-search .results .quick-search-item em,
+html[theme='rigel'] #quick-search .results .quick-search-item strong {
+  background-color: rgb(112, 178, 225, 0.75);
+  color: #e6e6dc;
+}
+html[theme='rigel'] #quick-search .results .quick-search-item > .meta {
+  color: #999;
+}
+html[theme='rigel'] #quick-search .tabs .tab {
+  color: #8f8f8f;
+}
+html[theme='rigel'] #quick-search .tabs .tab:hover,
+html[theme='rigel'] #quick-search .tabs .tab:active {
+  background-color: #146078;
+  border-color: #00394f;
+  color: #efefef;
+}
+html[theme='rigel'] #quick-search .tabs .tab.active {
+  border-color: #262626;
+  background-color: #202020;
+  color: #ffffff;
+}
+/* Theme Selector */
+html[theme='rigel'] .theme-dropdown {
+  background-color: #008eb6;
+}
+html[theme='rigel'] .theme-dropdown ul.theme-ul li.theme-li {
+  background: #008eb6;
+  color: #e6e6dc;
+}
+html[theme='rigel'] .theme-dropdown ul.theme-ul li.theme-li:hover {
+  background-color: #70b2e1;
+}
+
+/* Problem Links */
+html[theme='rigel'] a[href^='/problem'].problem-link-style-box {
+  background-color: #00384d;
+}
+
+html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-ac {
+  background-color: #016951;
+  color: #e7e7e7;
+}
+
+html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-pac {
+  background-color: #d5a32d;
+  color: #fcfcfc;
+}
+
+html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-wa {
+  background-color: #a72811;
+  color: #dadada;
+}
+
+html[theme='rigel'] a[href^='/problem'].problem-link-style-box:hover {
+  background-color: transparent;
+  border-color: #e2e2e2;
+  text-decoration: none;
+}
+
+html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-ac:hover {
+  background-color: transparent;
+  border-color: #00dba8;
+  color: #00dba8;
+}
+
+html[theme='rigel']
+  a[href^='/problem'].problem-link-style-box.result-pac:hover {
+  background-color: transparent;
+  border-color: #f1b936;
+  color: #f1b936;
+}
+
+html[theme='rigel'] a[href^='/problem'].problem-link-style-box.result-wa:hover {
+  background-color: transparent;
+  border-color: #f7573b;
+  color: #f7573b;
+}
