@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-22 09:29:29.873333",
+  "last_updated": "2022-12-22 19:27:36.797031",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7632,7 +7632,7 @@
     },
     "2936": {
       "title": "채식주의자",
-      "level": 6
+      "level": 5
     },
     "2937": {
       "title": "블록 정리",
@@ -18020,7 +18020,7 @@
     },
     "5680": {
       "title": "Army buddies",
-      "level": 0
+      "level": 6
     },
     "5681": {
       "title": "공 쌓기",
@@ -22524,7 +22524,7 @@
     },
     "6837": {
       "title": "Herding",
-      "level": 17
+      "level": 14
     },
     "6838": {
       "title": "Candy",
@@ -22780,7 +22780,7 @@
     },
     "6903": {
       "title": "Trident",
-      "level": 4
+      "level": 3
     },
     "6904": {
       "title": "Picture Perfect",
@@ -22936,7 +22936,7 @@
     },
     "6945": {
       "title": "Surfing",
-      "level": 0
+      "level": 13
     },
     "6946": {
       "title": "Golf",
@@ -32128,7 +32128,7 @@
     },
     "9519": {
       "title": "졸려",
-      "level": 10
+      "level": 11
     },
     "9520": {
       "title": "NP-hard",
@@ -36888,7 +36888,7 @@
     },
     "10803": {
       "title": "정사각형 만들기",
-      "level": 18
+      "level": 17
     },
     "10804": {
       "title": "카드 역배치",
@@ -47644,7 +47644,7 @@
     },
     "13555": {
       "title": "증가하는 부분 수열",
-      "level": 18
+      "level": 17
     },
     "13556": {
       "title": "증가하는 부분 수열 2",
@@ -98052,7 +98052,7 @@
     },
     "26416": {
       "title": "New Password",
-      "level": 0
+      "level": 4
     },
     "26417": {
       "title": "Range Partition",
@@ -98706,6 +98706,58 @@
       "title": "Best Seller",
       "level": 6
     },
+    "26594": {
+      "title": "ZOAC 5",
+      "level": 3
+    },
+    "26595": {
+      "title": "전투의 신",
+      "level": 7
+    },
+    "26596": {
+      "title": "황금 칵테일",
+      "level": 7
+    },
+    "26597": {
+      "title": "이 사람 왜 이렇게 1122를 좋아함?",
+      "level": 9
+    },
+    "26598": {
+      "title": "색종이와 공예",
+      "level": 10
+    },
+    "26599": {
+      "title": "용 조련사 룰루",
+      "level": 14
+    },
+    "26600": {
+      "title": "map, filter",
+      "level": 18
+    },
+    "26601": {
+      "title": "가장 작은 수",
+      "level": 17
+    },
+    "26602": {
+      "title": "인생은 B와 D 사이의 C다.",
+      "level": 19
+    },
+    "26603": {
+      "title": "사기 주사위",
+      "level": 13
+    },
+    "26604": {
+      "title": "순열 구하기",
+      "level": 15
+    },
+    "26605": {
+      "title": "형광펜 강민우",
+      "level": 20
+    },
+    "26606": {
+      "title": "이게 게임이냐?",
+      "level": 0
+    },
     "26619": {
       "title": "Gra w karty",
       "level": 0
@@ -99049,6 +99101,46 @@
     "26730": {
       "title": "Wieczór gier",
       "level": 0
+    },
+    "26731": {
+      "title": "Zagubiona litera",
+      "level": 2
+    },
+    "26732": {
+      "title": "Agar.io",
+      "level": 11
+    },
+    "26733": {
+      "title": "Ciężarówki II",
+      "level": 0
+    },
+    "26734": {
+      "title": "Stabilny ciąg",
+      "level": 0
+    },
+    "26735": {
+      "title": "Rysowanie trójkątów",
+      "level": 0
+    },
+    "26736": {
+      "title": "Wynik meczu",
+      "level": 1
+    },
+    "26737": {
+      "title": "Praca zdalna",
+      "level": 11
+    },
+    "26738": {
+      "title": "Lizak",
+      "level": 10
+    },
+    "26739": {
+      "title": "Najmniejsza suma",
+      "level": 0
+    },
+    "26740": {
+      "title": "Nawiasowania",
+      "level": 12
     }
   }
 }
