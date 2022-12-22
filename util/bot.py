@@ -6,9 +6,21 @@ import os
 import json
 import requests
 import traceback
+import logging
+
 
 INTERVAL = 100
 API_HOST = 'https://solved.ac/api/v3'
+
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.INFO)
+
+formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(message)s')
+
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(formatter)
+logger.addHandler(stream_handler)
 
 
 def sleep_rand(min_ms, max_ms):
@@ -27,14 +39,15 @@ def get_problem_details(ids):
             response = requests.get(f'{API_HOST}/problem/lookup?problemIds={pids}')
             status_code = response.status_code
             if status_code == 429:
-                print(datetime.now(), '[Awating next retry....]')
+                logger.info('[Awating next retry....]')
                 sleep(5 * 60)
                 continue
             else:
                 return response.json()
         return None
     except Exception as err:
-        traceback.print_exception(err)
+        logger.error(err)
+        traceback.logger.info_exception(err)
         return None
 
 
@@ -49,12 +62,12 @@ prev_count = -10 ** 10
 start_date = datetime.now()
 total_tries = max(5, int(total_count / INTERVAL * 1.2))
 
-print('total problems:', total_count)
-print('total tries:', total_tries)
+logger.info(f'total problems: {total_count}')
+logger.info(f'total tries: {total_tries}')
 
 for tries in range(total_tries):
     if is_time_over(start_date):
-        print('It takes too long')
+        logger.error('It takes too long')
         exit(1)
 
     rows = get_problem_details(range(offset, offset + INTERVAL))
@@ -69,9 +82,10 @@ for tries in range(total_tries):
     is_print = is_last or (count - prev_count > (total_count // 20))
 
     if is_print:
-        print('=' * 80 + '\n')
-        print('# Collect {} items ... ({:.2f}%)\n'.format(
-            count, count / total_count * 100))
+        logger.info('=' * 80 + '\n')
+        logger.info('# Collect {} items ... ({:.2f}%)\n'.format(
+            count, count / total_count * 100)
+        )
 
     result = {}
     for i, row in enumerate(rows):
@@ -83,9 +97,9 @@ for tries in range(total_tries):
         )
         if is_print:
             if i < 5 or rows_count - 5 <= i:
-                print(pid, title)
+                logger.info(f'{pid} {title}')
             elif i == 5:
-                print('...')
+                logger.info('...')
 
     problems.update(result)
 
