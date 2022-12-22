@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-18 19:12:37.635055",
+  "last_updated": "2022-12-22 09:29:29.873333",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2136,7 +2136,7 @@
     },
     "1539": {
       "title": "이진 검색 트리",
-      "level": 17
+      "level": 16
     },
     "1540": {
       "title": "정사각형의 개수",
@@ -2576,7 +2576,7 @@
     },
     "1649": {
       "title": "택시",
-      "level": 0
+      "level": 17
     },
     "1650": {
       "title": "지민이의 테러 Season II",
@@ -5208,7 +5208,7 @@
     },
     "2321": {
       "title": "Crowing",
-      "level": 2
+      "level": 3
     },
     "2322": {
       "title": "아령",
@@ -5480,7 +5480,7 @@
     },
     "2393": {
       "title": "Rook",
-      "level": 1
+      "level": 2
     },
     "2394": {
       "title": "드라이브 투어",
@@ -5856,7 +5856,7 @@
     },
     "2488": {
       "title": "줄다리기",
-      "level": 0
+      "level": 18
     },
     "2489": {
       "title": "응급센터",
@@ -6008,7 +6008,7 @@
     },
     "2526": {
       "title": "싸이클",
-      "level": 4
+      "level": 5
     },
     "2527": {
       "title": "직사각형",
@@ -6948,7 +6948,7 @@
     },
     "2762": {
       "title": "구역 채우기",
-      "level": 0
+      "level": 19
     },
     "2763": {
       "title": "Histology Assistant",
@@ -7024,7 +7024,7 @@
     },
     "2784": {
       "title": "가로 세로 퍼즐",
-      "level": 8
+      "level": 9
     },
     "2785": {
       "title": "체인",
@@ -7056,7 +7056,7 @@
     },
     "2792": {
       "title": "보석 상자",
-      "level": 9
+      "level": 10
     },
     "2793": {
       "title": "숫자의 힘",
@@ -7220,7 +7220,7 @@
     },
     "2833": {
       "title": "나이트",
-      "level": 0
+      "level": 21
     },
     "2834": {
       "title": "박스 정렬",
@@ -13300,7 +13300,7 @@
     },
     "4394": {
       "title": "Snap",
-      "level": 0
+      "level": 7
     },
     "4395": {
       "title": "Steps",
@@ -14432,7 +14432,7 @@
     },
     "4682": {
       "title": "Polynomial Showdown",
-      "level": 5
+      "level": 6
     },
     "4683": {
       "title": "The Doors",
@@ -16744,7 +16744,7 @@
     },
     "5293": {
       "title": "Dividing the Pirate Hoard",
-      "level": 0
+      "level": 4
     },
     "5294": {
       "title": "Pirates On Parade",
@@ -17916,7 +17916,7 @@
     },
     "5642": {
       "title": "퀸 게임",
-      "level": 0
+      "level": 22
     },
     "5643": {
       "title": "Spelling Suggestion",
@@ -17928,7 +17928,7 @@
     },
     "5645": {
       "title": "Fence Making",
-      "level": 11
+      "level": 12
     },
     "5646": {
       "title": "트리 경로",
@@ -18068,7 +18068,7 @@
     },
     "5692": {
       "title": "팩토리얼 진법",
-      "level": 4
+      "level": 3
     },
     "5693": {
       "title": "Ants Colony",
@@ -22504,7 +22504,7 @@
     },
     "6832": {
       "title": "Maze",
-      "level": 10
+      "level": 11
     },
     "6833": {
       "title": "Twenty-four",
@@ -22920,7 +22920,7 @@
     },
     "6941": {
       "title": "Calendar",
-      "level": 5
+      "level": 4
     },
     "6942": {
       "title": "9966",
@@ -23292,7 +23292,7 @@
     },
     "7043": {
       "title": "Cleaning Shifts",
-      "level": 10
+      "level": 11
     },
     "7044": {
       "title": "Bad Cowtractors",
@@ -24772,7 +24772,7 @@
     },
     "7589": {
       "title": "Balanced Change",
-      "level": 8
+      "level": 9
     },
     "7590": {
       "title": "Expressions",
@@ -25388,7 +25388,7 @@
     },
     "7772": {
       "title": "구조 이성질체",
-      "level": 21
+      "level": 22
     },
     "7773": {
       "title": "Deepest Station",
@@ -26136,7 +26136,7 @@
     },
     "7976": {
       "title": "수열",
-      "level": 15
+      "level": 14
     },
     "7977": {
       "title": "크리스 마틴",
@@ -29684,7 +29684,7 @@
     },
     "8870": {
       "title": "Zadanie próbne",
-      "level": 9
+      "level": 10
     },
     "8871": {
       "title": "Zadanie próbne 2",
@@ -31524,7 +31524,7 @@
     },
     "9356": {
       "title": "Skill",
-      "level": 13
+      "level": 12
     },
     "9357": {
       "title": "Eligibility",
@@ -31752,7 +31752,7 @@
     },
     "9423": {
       "title": "레슬링 팀 선발",
-      "level": 15
+      "level": 14
     },
     "9426": {
       "title": "중앙값 측정",
@@ -32976,7 +32976,7 @@
     },
     "9733": {
       "title": "꿀벌",
-      "level": 0
+      "level": 6
     },
     "9734": {
       "title": "순환 소수",
@@ -33196,7 +33196,7 @@
     },
     "9844": {
       "title": "Gecko",
-      "level": 7
+      "level": 8
     },
     "9845": {
       "title": "Housing",
@@ -33932,7 +33932,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 26
+      "level": 25
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -34468,7 +34468,7 @@
     },
     "10185": {
       "title": "Focus",
-      "level": 4
+      "level": 3
     },
     "10186": {
       "title": "Rummikub",
@@ -34660,7 +34660,7 @@
     },
     "10233": {
       "title": "Tax Rate Changed",
-      "level": 7
+      "level": 8
     },
     "10234": {
       "title": "Chain Disappearance Puzzle",
@@ -35240,7 +35240,7 @@
     },
     "10378": {
       "title": "Grave",
-      "level": 8
+      "level": 7
     },
     "10379": {
       "title": "Hiking in the Hills",
@@ -39388,7 +39388,7 @@
     },
     "11448": {
       "title": "Ga",
-      "level": 8
+      "level": 9
     },
     "11449": {
       "title": "Icelandic Motorclubs",
@@ -40068,7 +40068,7 @@
     },
     "11618": {
       "title": "Frightful Formula",
-      "level": 21
+      "level": 22
     },
     "11619": {
       "title": "Greenhouse Growth",
@@ -43516,7 +43516,7 @@
     },
     "12509": {
       "title": "Bot Trust (Small)",
-      "level": 5
+      "level": 6
     },
     "12510": {
       "title": "Bot Trust (Large)",
@@ -45120,7 +45120,7 @@
     },
     "12911": {
       "title": "좋아하는 배열",
-      "level": 14
+      "level": 13
     },
     "12912": {
       "title": "트리 수정",
@@ -45508,7 +45508,7 @@
     },
     "13008": {
       "title": "특수 능력",
-      "level": 15
+      "level": 14
     },
     "13009": {
       "title": "특수 능력 2",
@@ -45536,7 +45536,7 @@
     },
     "13015": {
       "title": "별 찍기 - 23",
-      "level": 7
+      "level": 6
     },
     "13016": {
       "title": "내 왼손에는 흑염룡이 잠들어 있다",
@@ -46460,7 +46460,7 @@
     },
     "13258": {
       "title": "복권 + 은행",
-      "level": 12
+      "level": 11
     },
     "13259": {
       "title": "강호의 초대",
@@ -51152,7 +51152,7 @@
     },
     "14451": {
       "title": "안대 낀 스피드러너",
-      "level": 15
+      "level": 16
     },
     "14452": {
       "title": "Cow Dance Show",
@@ -51476,7 +51476,7 @@
     },
     "14532": {
       "title": "Modern Art (Bronze)",
-      "level": 11
+      "level": 12
     },
     "14533": {
       "title": "Financial Tsunami",
@@ -51744,7 +51744,7 @@
     },
     "14600": {
       "title": "샤워실 바닥 깔기 (Small)",
-      "level": 11
+      "level": 10
     },
     "14601": {
       "title": "샤워실 바닥 깔기 (Large)",
@@ -52152,7 +52152,7 @@
     },
     "14712": {
       "title": "넴모넴모 (Easy)",
-      "level": 10
+      "level": 11
     },
     "14713": {
       "title": "앵무새",
@@ -55148,7 +55148,7 @@
     },
     "15465": {
       "title": "Milk Measurement",
-      "level": 9
+      "level": 8
     },
     "15466": {
       "title": "Similarity Computation",
@@ -56332,7 +56332,7 @@
     },
     "15764": {
       "title": "Milking Order",
-      "level": 10
+      "level": 11
     },
     "15765": {
       "title": "Family Tree",
@@ -56908,7 +56908,7 @@
     },
     "15911": {
       "title": "동전",
-      "level": 18
+      "level": 17
     },
     "15912": {
       "title": "우주선 만들기",
@@ -59876,7 +59876,7 @@
     },
     "16661": {
       "title": "Bimatching",
-      "level": 26
+      "level": 27
     },
     "16662": {
       "title": "Cactus Search",
@@ -60236,11 +60236,11 @@
     },
     "16751": {
       "title": "Kocka",
-      "level": 0
+      "level": 6
     },
     "16752": {
       "title": "Deblo",
-      "level": 0
+      "level": 19
     },
     "16753": {
       "title": "Maja",
@@ -61332,7 +61332,7 @@
     },
     "17027": {
       "title": "Shell Game",
-      "level": 3
+      "level": 4
     },
     "17028": {
       "title": "Sleepy Cow Sorting",
@@ -64220,6 +64220,10 @@
     },
     "17767": {
       "title": "Siłownia",
+      "level": 0
+    },
+    "17768": {
+      "title": "Słowo",
       "level": 0
     },
     "17769": {
@@ -71248,7 +71252,7 @@
     },
     "19533": {
       "title": "길이 문자열",
-      "level": 22
+      "level": 23
     },
     "19534": {
       "title": "삼항 연산자",
@@ -71324,7 +71328,7 @@
     },
     "19552": {
       "title": "데이터 제작",
-      "level": 22
+      "level": 23
     },
     "19553": {
       "title": "피자 배틀",
@@ -71444,7 +71448,7 @@
     },
     "19582": {
       "title": "200년간 폐관수련했더니 PS 최강자가 된 건에 대하여",
-      "level": 12
+      "level": 13
     },
     "19583": {
       "title": "싸이버개강총회",
@@ -71588,7 +71592,7 @@
     },
     "19618": {
       "title": "벽 칠하기",
-      "level": 19
+      "level": 20
     },
     "19619": {
       "title": "자매 도시",
@@ -72544,7 +72548,7 @@
     },
     "19862": {
       "title": "Koosaga's problem",
-      "level": 25
+      "level": 26
     },
     "19863": {
       "title": "Расшифровка ДНК",
@@ -72724,7 +72728,7 @@
     },
     "19907": {
       "title": "Беспилотное такси",
-      "level": 18
+      "level": 19
     },
     "19908": {
       "title": "Экспресс 20/19",
@@ -72900,7 +72904,7 @@
     },
     "19951": {
       "title": "태상이의 훈련소 생활",
-      "level": 11
+      "level": 10
     },
     "19952": {
       "title": "인성 문제 있어??",
@@ -73504,7 +73508,7 @@
     },
     "20103": {
       "title": "Sudoku 10",
-      "level": 17
+      "level": 18
     },
     "20104": {
       "title": "Timecard",
@@ -74768,7 +74772,7 @@
     },
     "20428": {
       "title": "Улучшение успеваемости",
-      "level": 7
+      "level": 6
     },
     "20429": {
       "title": "Квадраты и кубы",
@@ -75684,7 +75688,7 @@
     },
     "20657": {
       "title": "가챠를 돌려 동료를 늘리고 최강의 PS 군단을 만들자.",
-      "level": 28
+      "level": 29
     },
     "20658": {
       "title": "파이썬은 너무 느려",
@@ -78240,7 +78244,7 @@
     },
     "21296": {
       "title": "팩토리얼",
-      "level": 0
+      "level": 28
     },
     "21297": {
       "title": "댓글, 구독, 크리에이터와의 교류",
@@ -80700,7 +80704,7 @@
     },
     "21917": {
       "title": "Mistake",
-      "level": 10
+      "level": 9
     },
     "21918": {
       "title": "전구",
@@ -90296,7 +90300,7 @@
     },
     "24394": {
       "title": "123456789점",
-      "level": 12
+      "level": 13
     },
     "24395": {
       "title": "명진이의 신년계획",
@@ -94152,7 +94156,7 @@
     },
     "25392": {
       "title": "사건의 지평선",
-      "level": 22
+      "level": 23
     },
     "25393": {
       "title": "교집합 만들기",
@@ -96232,7 +96236,7 @@
     },
     "25952": {
       "title": "Rectangles",
-      "level": 20
+      "level": 21
     },
     "25953": {
       "title": "템포럴 그래프",
@@ -96568,7 +96572,7 @@
     },
     "26036": {
       "title": "제곱 ㄱㄱ",
-      "level": 18
+      "level": 20
     },
     "26037": {
       "title": "지수 · 로그와 테일러 다항식(Large)",
@@ -97492,7 +97496,7 @@
     },
     "26272": {
       "title": "점호",
-      "level": 22
+      "level": 23
     },
     "26273": {
       "title": "모모의 아지트에 잠입하자!",
@@ -97500,11 +97504,11 @@
     },
     "26274": {
       "title": "레이무의 순간이동 연습",
-      "level": 0
+      "level": 24
     },
     "26275": {
       "title": "Picture",
-      "level": 8
+      "level": 10
     },
     "26276": {
       "title": "Point in Triangle",
@@ -97636,7 +97640,7 @@
     },
     "26312": {
       "title": "Heximal",
-      "level": 12
+      "level": 11
     },
     "26313": {
       "title": "Invitation",
@@ -98060,7 +98064,7 @@
     },
     "26419": {
       "title": "Palindromic Deletions",
-      "level": 0
+      "level": 19
     },
     "26420": {
       "title": "Image Labeler",
@@ -98076,7 +98080,7 @@
     },
     "26423": {
       "title": "Suspects and Witnesses",
-      "level": 0
+      "level": 15
     },
     "26424": {
       "title": "Coloring Game",
@@ -98184,7 +98188,7 @@
     },
     "26450": {
       "title": "Parse the Syntax Tree",
-      "level": 0
+      "level": 8
     },
     "26451": {
       "title": "Permutation Magic",
@@ -98280,7 +98284,7 @@
     },
     "26474": {
       "title": "お小遣いの最大化",
-      "level": 0
+      "level": 9
     },
     "26475": {
       "title": "i18n",
@@ -98368,7 +98372,7 @@
     },
     "26498": {
       "title": "Snowflakes",
-      "level": 6
+      "level": 5
     },
     "26499": {
       "title": "PLU Logo",
@@ -98444,7 +98448,7 @@
     },
     "26529": {
       "title": "Bunnies",
-      "level": 3
+      "level": 4
     },
     "26530": {
       "title": "Shipping",
@@ -98540,7 +98544,7 @@
     },
     "26553": {
       "title": "Work",
-      "level": 0
+      "level": 5
     },
     "26554": {
       "title": "Draw",
@@ -98552,15 +98556,15 @@
     },
     "26556": {
       "title": "Bags",
-      "level": 0
+      "level": 9
     },
     "26557": {
       "title": "Bomb",
-      "level": 0
+      "level": 12
     },
     "26558": {
       "title": "Clothes",
-      "level": 0
+      "level": 6
     },
     "26559": {
       "title": "Friends",
@@ -98576,15 +98580,15 @@
     },
     "26562": {
       "title": "Presidents",
-      "level": 0
+      "level": 5
     },
     "26563": {
       "title": "Exam",
-      "level": 0
+      "level": 7
     },
     "26564": {
       "title": "Poker Hand",
-      "level": 0
+      "level": 3
     },
     "26565": {
       "title": "Time Limits",
@@ -98684,7 +98688,7 @@
     },
     "26589": {
       "title": "Demo Clean Up",
-      "level": 10
+      "level": 9
     },
     "26590": {
       "title": "Word Mix",
@@ -98701,6 +98705,350 @@
     "26593": {
       "title": "Best Seller",
       "level": 6
+    },
+    "26619": {
+      "title": "Gra w karty",
+      "level": 0
+    },
+    "26620": {
+      "title": "Reorganizacja",
+      "level": 0
+    },
+    "26621": {
+      "title": "Grzyby po deszczu 2",
+      "level": 0
+    },
+    "26622": {
+      "title": "CNF-SAT",
+      "level": 0
+    },
+    "26623": {
+      "title": "Bilard Hilberta",
+      "level": 0
+    },
+    "26624": {
+      "title": "Szeregowanie zadań",
+      "level": 0
+    },
+    "26625": {
+      "title": "Ciepło-zimno",
+      "level": 0
+    },
+    "26626": {
+      "title": "Liczby drugie",
+      "level": 0
+    },
+    "26627": {
+      "title": "Permutacja",
+      "level": 0
+    },
+    "26628": {
+      "title": "Skarbonka",
+      "level": 0
+    },
+    "26629": {
+      "title": "Mozaika",
+      "level": 0
+    },
+    "26630": {
+      "title": "Banany",
+      "level": 0
+    },
+    "26631": {
+      "title": "Carcassonne",
+      "level": 0
+    },
+    "26632": {
+      "title": "Giewont",
+      "level": 0
+    },
+    "26634": {
+      "title": "PIN",
+      "level": 0
+    },
+    "26635": {
+      "title": "Poddrzewo",
+      "level": 0
+    },
+    "26636": {
+      "title": "Język polski",
+      "level": 0
+    },
+    "26637": {
+      "title": "Heros",
+      "level": 0
+    },
+    "26638": {
+      "title": "Nowy kontrakt",
+      "level": 0
+    },
+    "26639": {
+      "title": "Magiczne wieże",
+      "level": 0
+    },
+    "26640": {
+      "title": "Palindrom",
+      "level": 16
+    },
+    "26642": {
+      "title": "Ryki",
+      "level": 0
+    },
+    "26643": {
+      "title": "Skwarki",
+      "level": 0
+    },
+    "26644": {
+      "title": "Wielokąty",
+      "level": 0
+    },
+    "26660": {
+      "title": "A + B",
+      "level": 11
+    },
+    "26661": {
+      "title": "Muzyka pop",
+      "level": 0
+    },
+    "26662": {
+      "title": "Wina",
+      "level": 0
+    },
+    "26663": {
+      "title": "Desant",
+      "level": 0
+    },
+    "26664": {
+      "title": "Herbata",
+      "level": 0
+    },
+    "26665": {
+      "title": "Iloczyny Fibonacciego",
+      "level": 0
+    },
+    "26666": {
+      "title": "Terytoria",
+      "level": 0
+    },
+    "26667": {
+      "title": "Szprotki i szczupaki",
+      "level": 0
+    },
+    "26668": {
+      "title": "Wyspa",
+      "level": 0
+    },
+    "26669": {
+      "title": "Trzy kule",
+      "level": 0
+    },
+    "26670": {
+      "title": "Osady i warownie 2",
+      "level": 0
+    },
+    "26671": {
+      "title": "Podatki drogowe",
+      "level": 0
+    },
+    "26673": {
+      "title": "Liczba Potyczkowa",
+      "level": 0
+    },
+    "26674": {
+      "title": "Mieszanie kolorów",
+      "level": 11
+    },
+    "26676": {
+      "title": "Wybór zadań",
+      "level": 0
+    },
+    "26677": {
+      "title": "Elektrownie i fabryki",
+      "level": 0
+    },
+    "26678": {
+      "title": "Sen o podboju",
+      "level": 0
+    },
+    "26679": {
+      "title": "Zabawki",
+      "level": 0
+    },
+    "26680": {
+      "title": "Miny",
+      "level": 0
+    },
+    "26681": {
+      "title": "Ogromne drzewo",
+      "level": 0
+    },
+    "26682": {
+      "title": "Samochody dostawcze",
+      "level": 0
+    },
+    "26683": {
+      "title": "Malowanie płotu",
+      "level": 0
+    },
+    "26684": {
+      "title": "Tekstówka",
+      "level": 0
+    },
+    "26685": {
+      "title": "Wycieczka górska",
+      "level": 0
+    },
+    "26686": {
+      "title": "Królewski bal",
+      "level": 0
+    },
+    "26687": {
+      "title": "Bardzo skomplikowany test",
+      "level": 0
+    },
+    "26688": {
+      "title": "Cukierki",
+      "level": 0
+    },
+    "26690": {
+      "title": "Programowanie współbieżne",
+      "level": 0
+    },
+    "26691": {
+      "title": "Trzy drogi",
+      "level": 0
+    },
+    "26692": {
+      "title": "Zbalansowane słowa",
+      "level": 0
+    },
+    "26693": {
+      "title": "Koszulki",
+      "level": 0
+    },
+    "26694": {
+      "title": "Od deski do deski",
+      "level": 0
+    },
+    "26695": {
+      "title": "Oranżada",
+      "level": 0
+    },
+    "26696": {
+      "title": "Pandemia",
+      "level": 0
+    },
+    "26697": {
+      "title": "Poborcy podatkowi",
+      "level": 0
+    },
+    "26699": {
+      "title": "Mopadulo",
+      "level": 0
+    },
+    "26700": {
+      "title": "Sumy",
+      "level": 0
+    },
+    "26702": {
+      "title": "Areny",
+      "level": 0
+    },
+    "26703": {
+      "title": "Ranking sklepów internetowych",
+      "level": 0
+    },
+    "26705": {
+      "title": "Autostrada",
+      "level": 0
+    },
+    "26706": {
+      "title": "Butelki",
+      "level": 0
+    },
+    "26707": {
+      "title": "Drzewo czerwono-czarne",
+      "level": 0
+    },
+    "26708": {
+      "title": "Desant 2",
+      "level": 0
+    },
+    "26709": {
+      "title": "Fiolki 2",
+      "level": 0
+    },
+    "26710": {
+      "title": "Zbiory niezależne",
+      "level": 0
+    },
+    "26711": {
+      "title": "A+B",
+      "level": 1
+    },
+    "26712": {
+      "title": "Palindrom",
+      "level": 11
+    },
+    "26713": {
+      "title": "Ornitolog 2",
+      "level": 0
+    },
+    "26714": {
+      "title": "Liczenie punktów",
+      "level": 0
+    },
+    "26715": {
+      "title": "Wielki Zderzacz Termionów",
+      "level": 0
+    },
+    "26716": {
+      "title": "Muzyka pop 2",
+      "level": 0
+    },
+    "26719": {
+      "title": "Drybling Bajtessiego",
+      "level": 0
+    },
+    "26721": {
+      "title": "Mędrcy",
+      "level": 0
+    },
+    "26722": {
+      "title": "Łamigłówka",
+      "level": 0
+    },
+    "26723": {
+      "title": "Miny",
+      "level": 0
+    },
+    "26724": {
+      "title": "Płótno",
+      "level": 0
+    },
+    "26725": {
+      "title": "Bakterie",
+      "level": 0
+    },
+    "26726": {
+      "title": "Drzewa rozpinające",
+      "level": 0
+    },
+    "26727": {
+      "title": "Chodzenie po linie",
+      "level": 0
+    },
+    "26728": {
+      "title": "Nawiasowe podziały",
+      "level": 0
+    },
+    "26729": {
+      "title": "Walizki",
+      "level": 0
+    },
+    "26730": {
+      "title": "Wieczór gier",
+      "level": 0
     }
   }
 }
