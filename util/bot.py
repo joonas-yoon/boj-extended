@@ -5,6 +5,7 @@ from datetime import datetime
 import os
 import json
 import requests
+import traceback
 
 INTERVAL = 100
 API_HOST = 'https://solved.ac/api/v3'
@@ -22,9 +23,18 @@ def get_problems_count():
 def get_problem_details(ids):
     pids = '%2C'.join(list(map(str, ids)))
     try:
-        return requests.get(f'{API_HOST}/problem/lookup?problemIds={pids}').json()
-    except err:
-        print(err)
+        for err in range(5):
+            response = requests.get(f'{API_HOST}/problem/lookup?problemIds={pids}')
+            status_code = response.status_code
+            if status_code == 429:
+                print(datetime.now(), '[Awating next retry....]')
+                sleep(5 * 60)
+                continue
+            else:
+                return response.json()
+        return None
+    except Exception as err:
+        traceback.print_exception(err)
         return None
 
 
@@ -48,13 +58,6 @@ for tries in range(total_tries):
         exit(1)
 
     rows = get_problem_details(range(offset, offset + INTERVAL))
-
-    for err in range(5):
-        if rows != None:
-            break
-        print('[Awating next retry....]')
-        sleep(5 * 60 * 1000)
-        rows = get_problem_details(range(offset, offset + INTERVAL))
 
     if rows == None:
         exit(1)
