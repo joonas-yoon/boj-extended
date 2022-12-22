@@ -1,1 +1,35 @@
-function extendWide(){const a=document.createElement("li"),b=document.createElement("a");b.innerText="\uD654\uBA74 \uD06C\uAE30",a.appendChild(b),b.addEventListener("click",function(a){a.preventDefault();const c="true"==b.getAttribute("wide");Config.save("wide",!c,function(a){applyWide(b,a)})}),addElementToBar(a),Config.load("wide",function(a){applyWide(b,a)})}function applyWide(a,b){const c=document.getElementsByClassName("content")[0];b?(c.classList.remove("container"),c.classList.add("container-fluid")):(c.classList.remove("container-fluid"),c.classList.add("container")),a&&(a.setAttribute("wide",!!b),a.innerText=b?"\uAE30\uBCF8 \uD06C\uAE30":"\uB113\uC740 \uD06C\uAE30")}
+function extendWide() {
+  const li = document.createElement('li');
+  const btn = document.createElement('a');
+  btn.innerText = '화면 크기';
+  li.appendChild(btn);
+  btn.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    const wide = btn.getAttribute('wide') == 'true';
+    Config.save('wide', !wide, (result) => {
+      applyWide(btn, result);
+    });
+  });
+  addElementToBar(li);
+
+  // after page loaded
+  Config.load('wide', (wide) => {
+    applyWide(btn, wide);
+  });
+}
+
+// TODO: /search 페이지에서는 안됨 (구조가 다름)
+function applyWide(btn, wide) {
+  const container = document.getElementsByClassName('content')[0];
+  if (wide) {
+    container.classList.remove('container');
+    container.classList.add('container-fluid');
+  } else {
+    container.classList.remove('container-fluid');
+    container.classList.add('container');
+  }
+  if (btn) {
+    btn.setAttribute('wide', !!wide);
+    btn.innerText = wide ? '기본 크기' : '넓은 크기';
+  }
+}

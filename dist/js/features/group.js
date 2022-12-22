@@ -1,1 +1,59 @@
-function extendGroupListPage(){Config.load("show-group-link",function(a){function b(a){const b=c(a);f.forEach(function(c){if(null!==b){const d=document.createElement("td");d.innerHTML=`<a href="${c.url}${b}">${c.text}</a>`,a.appendChild(d)}else{const b=document.createElement("th");b.innerText=c.text,a.appendChild(b)}})}function c(b){const c=b.firstElementChild,d=c.getElementsByTagName("a");return 0===d.length?null:parseInt(d[0].pathname.replace("/group/",""))}if(!1===a)return;const d=document.querySelector(".table"),e=-1===window.location.pathname.indexOf("all");let f=[],g=[];e?(f=[{text:"\uBB38\uC81C\uC9D1",url:"/group/workbook/"},{text:"\uCC44\uC810 \uD604\uD669",url:"/status?group_id="},{text:"\uC5F0\uC2B5",url:"/group/practice/"},{text:"\uB7AD\uD0B9",url:"/group/ranklist/"},{text:"\uAC8C\uC2DC\uD310",url:"/group/board/list/"},{text:"\uD30C\uC77C",url:"/group/files/"}],g=[40,16,5,8,10,5,5,6,5]):(f=[{text:"\uAC00\uC785 \uC2E0\uCCAD",url:"/group/join/"}],g=[70,15,5,10]),d.querySelectorAll("tr").forEach(b);const h=d.getElementsByTagName("th");g.forEach(function(a,b){return h[b].style.width=`${a}%`})})}
+function extendGroupListPage() {
+  Config.load('show-group-link', (showGroupLink) => {
+    console.log('show-group-link', showGroupLink);
+    if (showGroupLink === false) return; // pass if it is null
+
+    const table = document.querySelector('.table');
+    const isMyList = window.location.pathname.indexOf('all') === -1;
+    let colNames = [];
+    let colWidths = [];
+
+    // /group/list (only for logged user)
+    if (isMyList) {
+      colNames = [
+        { text: '문제집', url: '/group/workbook/' },
+        { text: '채점 현황', url: '/status?group_id=' },
+        { text: '연습', url: '/group/practice/' },
+        { text: '랭킹', url: '/group/ranklist/' },
+        { text: '게시판', url: '/group/board/list/' },
+        { text: '파일', url: '/group/files/' },
+      ];
+      colWidths = [40, 16, 5, 8, 10, 5, 5, 6, 5];
+    } else {
+      // /group/list/all
+      colNames = [{ text: '가입 신청', url: '/group/join/' }];
+      colWidths = [70, 15, 5, 10];
+    }
+
+    // add links for each all rows
+    table.querySelectorAll('tr').forEach(addColumns);
+
+    // re-balance columns width
+    const headCols = table.getElementsByTagName('th');
+    colWidths.forEach(
+      (width, index) => (headCols[index].style.width = `${width}%`)
+    );
+
+    function addColumns(tr) {
+      const gid = getGidFromRow(tr);
+      colNames.forEach((info) => {
+        if (gid !== null) {
+          const td = document.createElement('td');
+          td.innerHTML = `<a href="${info.url}${gid}">${info.text}</a>`;
+          tr.appendChild(td);
+        } else {
+          const th = document.createElement('th');
+          th.innerText = info.text;
+          tr.appendChild(th);
+        }
+      });
+    }
+
+    function getGidFromRow(row) {
+      const td = row.firstElementChild;
+      const a = td.getElementsByTagName('a');
+      if (a.length !== 0) return parseInt(a[0].pathname.replace('/group/', ''));
+      else return null;
+    }
+  });
+}

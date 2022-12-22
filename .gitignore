@@ -1,7 +1,11 @@
 node_modules
 dist/
+.DS_Store
 **/build/*
 *.err
 versions/
 _metadata
 *.diff
+.vs
+.env
+.venv
