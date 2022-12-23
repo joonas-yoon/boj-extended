@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-22 19:27:36.797031",
+  "last_updated": "2022-12-23 19:28:10.711052",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3276,7 +3276,7 @@
     },
     "1826": {
       "title": "연료 채우기",
-      "level": 13
+      "level": 14
     },
     "1827": {
       "title": "여행가이드",
@@ -7632,7 +7632,7 @@
     },
     "2936": {
       "title": "채식주의자",
-      "level": 5
+      "level": 6
     },
     "2937": {
       "title": "블록 정리",
@@ -22440,7 +22440,7 @@
     },
     "6815": {
       "title": "Cool Numbers",
-      "level": 5
+      "level": 4
     },
     "6816": {
       "title": "The Lights Going On and Off",
@@ -32860,7 +32860,7 @@
     },
     "9703": {
       "title": "Anti-Arithmetic Permutation",
-      "level": 4
+      "level": 5
     },
     "9704": {
       "title": "Longest Balanced Sub-Sequence",
@@ -34244,7 +34244,7 @@
     },
     "10129": {
       "title": "작은 새",
-      "level": 20
+      "level": 21
     },
     "10130": {
       "title": "Rally",
@@ -35468,7 +35468,7 @@
     },
     "10435": {
       "title": "만칼라",
-      "level": 17
+      "level": 18
     },
     "10436": {
       "title": "무한 유리수 트리",
@@ -41472,7 +41472,7 @@
     },
     "11985": {
       "title": "오렌지 출하",
-      "level": 11
+      "level": 12
     },
     "11986": {
       "title": "スタンプラリー ２ (Collecting Stamps 2)",
@@ -52764,7 +52764,7 @@
     },
     "14866": {
       "title": "산만한 고양이",
-      "level": 20
+      "level": 21
     },
     "14867": {
       "title": "물통",
@@ -53340,7 +53340,7 @@
     },
     "15011": {
       "title": "Irrational Division",
-      "level": 13
+      "level": 14
     },
     "15012": {
       "title": "Jumping Choreography",
@@ -54952,7 +54952,7 @@
     },
     "15416": {
       "title": "Cordon Bleu",
-      "level": 21
+      "level": 22
     },
     "15417": {
       "title": "Kabobs",
@@ -85260,7 +85260,7 @@
     },
     "23096": {
       "title": "Tobacco Growing",
-      "level": 22
+      "level": 21
     },
     "23097": {
       "title": "Rescue Mission",
@@ -85364,7 +85364,7 @@
     },
     "23122": {
       "title": "Glory Graph",
-      "level": 0
+      "level": 25
     },
     "23123": {
       "title": "Hamiltonian",
@@ -89548,7 +89548,7 @@
     },
     "24184": {
       "title": "Arabiska",
-      "level": 4
+      "level": 5
     },
     "24185": {
       "title": "Grönt kort",
@@ -92180,7 +92180,7 @@
     },
     "24873": {
       "title": "Хорошие раскраски",
-      "level": 0
+      "level": 18
     },
     "24874": {
       "title": "A+B",
@@ -98720,11 +98720,11 @@
     },
     "26597": {
       "title": "이 사람 왜 이렇게 1122를 좋아함?",
-      "level": 9
+      "level": 10
     },
     "26598": {
       "title": "색종이와 공예",
-      "level": 10
+      "level": 11
     },
     "26599": {
       "title": "용 조련사 룰루",
@@ -98732,7 +98732,7 @@
     },
     "26600": {
       "title": "map, filter",
-      "level": 18
+      "level": 17
     },
     "26601": {
       "title": "가장 작은 수",
@@ -98756,7 +98756,7 @@
     },
     "26606": {
       "title": "이게 게임이냐?",
-      "level": 0
+      "level": 16
     },
     "26619": {
       "title": "Gra w karty",
@@ -98853,6 +98853,66 @@
     "26644": {
       "title": "Wielokąty",
       "level": 0
+    },
+    "26645": {
+      "title": "성장의 비약 선택권",
+      "level": 3
+    },
+    "26646": {
+      "title": "알프스 케이블카",
+      "level": 9
+    },
+    "26647": {
+      "title": "알프스 케이블카 2",
+      "level": 25
+    },
+    "26648": {
+      "title": "물정수열",
+      "level": 10
+    },
+    "26649": {
+      "title": "물정수열 2",
+      "level": 23
+    },
+    "26650": {
+      "title": "그램팬",
+      "level": 10
+    },
+    "26651": {
+      "title": "팬램그",
+      "level": 11
+    },
+    "26652": {
+      "title": "성향 성장의 비약",
+      "level": 12
+    },
+    "26653": {
+      "title": "XOR Hashing",
+      "level": 15
+    },
+    "26654": {
+      "title": "원점",
+      "level": 15
+    },
+    "26655": {
+      "title": "바벨탑",
+      "level": 14
+    },
+    "26656": {
+      "title": "점프킹",
+      "level": 14
+    },
+    "26657": {
+      "title": "진단 0 : 1",
+      "level": 17
+    },
+    "26658": {
+      "title": "소떡소떡",
+      "level": 16
+    },
+    "26659": {
+      "title": "소떡소떡 2",
+      "level": 21
     },
     "26660": {
       "title": "A + B",
@@ -99048,7 +99108,7 @@
     },
     "26714": {
       "title": "Liczenie punktów",
-      "level": 0
+      "level": 3
     },
     "26715": {
       "title": "Wielki Zderzacz Termionów",
@@ -99116,7 +99176,7 @@
     },
     "26734": {
       "title": "Stabilny ciąg",
-      "level": 0
+      "level": 15
     },
     "26735": {
       "title": "Rysowanie trójkątów",
@@ -99140,7 +99200,75 @@
     },
     "26740": {
       "title": "Nawiasowania",
-      "level": 12
+      "level": 13
+    },
+    "26741": {
+      "title": "Farma",
+      "level": 3
+    },
+    "26742": {
+      "title": "Skarpetki",
+      "level": 2
+    },
+    "26743": {
+      "title": "Oczko",
+      "level": 6
+    },
+    "26744": {
+      "title": "Pinezki",
+      "level": 0
+    },
+    "26746": {
+      "title": "Prezenty",
+      "level": 0
+    },
+    "26747": {
+      "title": "Klapki na obcasach",
+      "level": 0
+    },
+    "26748": {
+      "title": "Antypalindrom",
+      "level": 0
+    },
+    "26750": {
+      "title": "Puzzle",
+      "level": 0
+    },
+    "26751": {
+      "title": "Najmniejsza liczba",
+      "level": 0
+    },
+    "26752": {
+      "title": "Zegarek",
+      "level": 0
+    },
+    "26753": {
+      "title": "OIJ",
+      "level": 0
+    },
+    "26754": {
+      "title": "Programy",
+      "level": 0
+    },
+    "26755": {
+      "title": "... albo psikus!",
+      "level": 0
+    },
+    "26756": {
+      "title": "Dwukrotność sumy cyfr",
+      "level": 0
+    },
+    "26757": {
+      "title": "Optymalizacja mandatów",
+      "level": 0
+    },
+    "26758": {
+      "title": "Liczby słownie",
+      "level": 0
+    },
+    "26760": {
+      "title": "Zmiennoliterowe słowo II",
+      "level": 0
     }
   }
 }
