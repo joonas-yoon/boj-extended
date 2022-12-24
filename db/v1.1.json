@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-23 19:28:10.711052",
+  "last_updated": "2022-12-24 19:27:23.564276",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -19024,7 +19024,7 @@
     },
     "5931": {
       "title": "Cow Beauty Pageant",
-      "level": 10
+      "level": 11
     },
     "5932": {
       "title": "Cow Photographs",
@@ -23532,7 +23532,7 @@
     },
     "7146": {
       "title": "데이터 만들기 7",
-      "level": 13
+      "level": 12
     },
     "7147": {
       "title": "데이터 만들기 8",
@@ -32064,7 +32064,7 @@
     },
     "9503": {
       "title": "Crusher’s Code",
-      "level": 19
+      "level": 20
     },
     "9504": {
       "title": "Delta Quadrant",
@@ -36860,7 +36860,7 @@
     },
     "10796": {
       "title": "Window Manager",
-      "level": 23
+      "level": 22
     },
     "10797": {
       "title": "10부제",
@@ -40472,7 +40472,7 @@
     },
     "11719": {
       "title": "그대로 출력하기 2",
-      "level": 4
+      "level": 3
     },
     "11720": {
       "title": "숫자의 합",
@@ -41332,7 +41332,7 @@
     },
     "11950": {
       "title": "2016 IOI",
-      "level": 8
+      "level": 9
     },
     "11951": {
       "title": "JOI国のお散歩事情 (Walking in JOI Kingdom)",
@@ -50691,8 +50691,8 @@
       "level": 0
     },
     "14336": {
-      "title": "Sums of Sums (Small)",
-      "level": 0
+      "title": "Coggle",
+      "level": 14
     },
     "14337": {
       "title": "Helicopter",
@@ -56164,7 +56164,7 @@
     },
     "15721": {
       "title": "번데기",
-      "level": 5
+      "level": 6
     },
     "15722": {
       "title": "빙글빙글 스네일",
@@ -74540,7 +74540,7 @@
     },
     "20364": {
       "title": "부동산 다툼",
-      "level": 9
+      "level": 10
     },
     "20365": {
       "title": "블로그2",
@@ -74640,7 +74640,7 @@
     },
     "20390": {
       "title": "완전그래프의 최소 스패닝 트리",
-      "level": 15
+      "level": 14
     },
     "20391": {
       "title": "Treasure Hunt",
@@ -80692,7 +80692,7 @@
     },
     "21914": {
       "title": "One Piece",
-      "level": 0
+      "level": 23
     },
     "21915": {
       "title": "Codenames",
@@ -89036,7 +89036,7 @@
     },
     "24043": {
       "title": "XOR 기계",
-      "level": 17
+      "level": 18
     },
     "24044": {
       "title": "미로 설계",
@@ -91176,7 +91176,7 @@
     },
     "24621": {
       "title": "Photoshoot 2",
-      "level": 13
+      "level": 12
     },
     "24622": {
       "title": "Blocks",
@@ -98446,6 +98446,54 @@
       "title": "Mutint",
       "level": 4
     },
+    "26517": {
+      "title": "연속인가? ?",
+      "level": 4
+    },
+    "26518": {
+      "title": "수열의 극한값",
+      "level": 8
+    },
+    "26519": {
+      "title": "함수와 최소 스패닝 트리",
+      "level": 17
+    },
+    "26520": {
+      "title": "다항함수의 적분과 쿼리",
+      "level": 20
+    },
+    "26521": {
+      "title": "연립방정식",
+      "level": 20
+    },
+    "26522": {
+      "title": "이차함수와 직선",
+      "level": 24
+    },
+    "26523": {
+      "title": "균등분포와 정규분포",
+      "level": 9
+    },
+    "26524": {
+      "title": "방향 정하기",
+      "level": 10
+    },
+    "26525": {
+      "title": "빙고",
+      "level": 14
+    },
+    "26526": {
+      "title": "살얼음판 걷기",
+      "level": 18
+    },
+    "26527": {
+      "title": "당근과 채찍",
+      "level": 19
+    },
+    "26528": {
+      "title": "이항분포에서 가장 큰 직사각형",
+      "level": 20
+    },
     "26529": {
       "title": "Bunnies",
       "level": 4
@@ -98720,7 +98768,7 @@
     },
     "26597": {
       "title": "이 사람 왜 이렇게 1122를 좋아함?",
-      "level": 10
+      "level": 9
     },
     "26598": {
       "title": "색종이와 공예",
@@ -98748,7 +98796,7 @@
     },
     "26604": {
       "title": "순열 구하기",
-      "level": 15
+      "level": 14
     },
     "26605": {
       "title": "형광펜 강민우",
@@ -98884,7 +98932,7 @@
     },
     "26652": {
       "title": "성향 성장의 비약",
-      "level": 12
+      "level": 13
     },
     "26653": {
       "title": "XOR Hashing",
@@ -98900,7 +98948,7 @@
     },
     "26656": {
       "title": "점프킹",
-      "level": 14
+      "level": 15
     },
     "26657": {
       "title": "진단 0 : 1",
@@ -99236,38 +99284,310 @@
     },
     "26751": {
       "title": "Najmniejsza liczba",
-      "level": 0
+      "level": 4
     },
     "26752": {
       "title": "Zegarek",
-      "level": 0
+      "level": 3
     },
     "26753": {
       "title": "OIJ",
-      "level": 0
+      "level": 7
     },
     "26754": {
       "title": "Programy",
-      "level": 0
+      "level": 10
     },
     "26755": {
       "title": "... albo psikus!",
-      "level": 0
+      "level": 10
     },
     "26756": {
       "title": "Dwukrotność sumy cyfr",
-      "level": 0
+      "level": 11
     },
     "26757": {
       "title": "Optymalizacja mandatów",
-      "level": 0
+      "level": 11
     },
     "26758": {
       "title": "Liczby słownie",
-      "level": 0
+      "level": 11
     },
     "26760": {
       "title": "Zmiennoliterowe słowo II",
+      "level": 13
+    },
+    "26761": {
+      "title": "Kulki",
+      "level": 0
+    },
+    "26762": {
+      "title": "Pionki",
+      "level": 0
+    },
+    "26763": {
+      "title": "Liczby silne",
+      "level": 13
+    },
+    "26764": {
+      "title": "Pudełko antytrójkątowe",
+      "level": 0
+    },
+    "26765": {
+      "title": "Ciężarówki",
+      "level": 0
+    },
+    "26766": {
+      "title": "Serca",
+      "level": 1
+    },
+    "26767": {
+      "title": "Hurra!",
+      "level": 2
+    },
+    "26768": {
+      "title": "H4x0r",
+      "level": 0
+    },
+    "26769": {
+      "title": "Deski",
+      "level": 7
+    },
+    "26770": {
+      "title": "Basen",
+      "level": 0
+    },
+    "26771": {
+      "title": "Liczby parzystocyfrowe",
+      "level": 7
+    },
+    "26772": {
+      "title": "Poziome serca",
+      "level": 2
+    },
+    "26773": {
+      "title": "Deski kontratakują",
+      "level": 9
+    },
+    "26774": {
+      "title": "Minusy",
+      "level": 0
+    },
+    "26775": {
+      "title": "Liczbowy proces",
+      "level": 10
+    },
+    "26776": {
+      "title": "Próg kwalifikacyjny",
+      "level": 11
+    },
+    "26777": {
+      "title": "Liczby pechowe",
+      "level": 10
+    },
+    "26778": {
+      "title": "Zmiennoliterowe słowo",
+      "level": 0
+    },
+    "26779": {
+      "title": "Zygzak",
+      "level": 0
+    },
+    "26780": {
+      "title": "Speedrun",
+      "level": 0
+    },
+    "26781": {
+      "title": "Usuwanka",
+      "level": 0
+    },
+    "26782": {
+      "title": "Notowania akcji",
+      "level": 0
+    },
+    "26783": {
+      "title": "Posiadłość",
+      "level": 0
+    },
+    "26784": {
+      "title": "Spacery po drzewie binarnym",
+      "level": 0
+    },
+    "26785": {
+      "title": "Kolorowy wąż",
+      "level": 0
+    },
+    "26786": {
+      "title": "Płytkie nawiasowania",
+      "level": 0
+    },
+    "26787": {
+      "title": "Pociąg towarowy",
+      "level": 0
+    },
+    "26788": {
+      "title": "Wyprzedzanie",
+      "level": 0
+    },
+    "26789": {
+      "title": "Zboże",
+      "level": 0
+    },
+    "26790": {
+      "title": "Armia klonów",
+      "level": 0
+    },
+    "26791": {
+      "title": "Agenci",
+      "level": 0
+    },
+    "26792": {
+      "title": "Liczby względnie pierwsze",
+      "level": 0
+    },
+    "26793": {
+      "title": "Bomberman",
+      "level": 0
+    },
+    "26794": {
+      "title": "Konkurs tańca towarzyskiego",
+      "level": 0
+    },
+    "26795": {
+      "title": "Domino",
+      "level": 0
+    },
+    "26796": {
+      "title": "Druk",
+      "level": 0
+    },
+    "26797": {
+      "title": "Impreza krasnali",
+      "level": 0
+    },
+    "26798": {
+      "title": "Montażysta",
+      "level": 0
+    },
+    "26799": {
+      "title": "Układanie kart",
+      "level": 0
+    },
+    "26800": {
+      "title": "Kolekcjoner Bajtemonów 2",
+      "level": 0
+    },
+    "26801": {
+      "title": "Droga do domu",
+      "level": 0
+    },
+    "26802": {
+      "title": "Les Bitérables",
+      "level": 0
+    },
+    "26803": {
+      "title": "Surowa zima",
+      "level": 0
+    },
+    "26804": {
+      "title": "Komunikacja międzyplanetarna",
+      "level": 0
+    },
+    "26805": {
+      "title": "Nawiasowania",
+      "level": 0
+    },
+    "26806": {
+      "title": "Suma liczb pierwszych",
+      "level": 0
+    },
+    "26807": {
+      "title": "Cukiernia",
+      "level": 0
+    },
+    "26808": {
+      "title": "Gang Biciaków",
+      "level": 0
+    },
+    "26809": {
+      "title": "Gra platformowa",
+      "level": 0
+    },
+    "26810": {
+      "title": "Licznik długu",
+      "level": 0
+    },
+    "26811": {
+      "title": "Tablica binarna",
+      "level": 0
+    },
+    "26812": {
+      "title": "Kinomani",
+      "level": 0
+    },
+    "26813": {
+      "title": "Przelewy",
+      "level": 0
+    },
+    "26814": {
+      "title": "Szarlotka",
+      "level": 0
+    },
+    "26815": {
+      "title": "Krzyżówka",
+      "level": 0
+    },
+    "26816": {
+      "title": "Łańcuchy górskie",
+      "level": 0
+    },
+    "26817": {
+      "title": "Zdjęcia",
+      "level": 0
+    },
+    "26818": {
+      "title": "Najdłuższe ścieżki",
+      "level": 0
+    },
+    "26819": {
+      "title": "Samochody",
+      "level": 0
+    },
+    "26820": {
+      "title": "Wycieczki",
+      "level": 0
+    },
+    "26821": {
+      "title": "Kodowanie",
+      "level": 0
+    },
+    "26822": {
+      "title": "Kopiec",
+      "level": 0
+    },
+    "26823": {
+      "title": "Wyliczanka",
+      "level": 0
+    },
+    "26824": {
+      "title": "Najmniejsza wspólna wielokrotność",
+      "level": 0
+    },
+    "26825": {
+      "title": "Pisarze",
+      "level": 0
+    },
+    "26826": {
+      "title": "Pomniejszenie",
+      "level": 0
+    },
+    "26827": {
+      "title": "Przedszkole",
+      "level": 0
+    },
+    "26828": {
+      "title": "Układ scalony",
       "level": 0
     }
   }
