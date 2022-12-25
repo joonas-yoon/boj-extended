@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-24 19:27:23.564276",
+  "last_updated": "2022-12-25 19:28:10.647193",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1784,7 +1784,7 @@
     },
     "1451": {
       "title": "직사각형으로 나누기",
-      "level": 11
+      "level": 12
     },
     "1452": {
       "title": "숌 크로스워드",
@@ -5812,7 +5812,7 @@
     },
     "2477": {
       "title": "참외밭",
-      "level": 9
+      "level": 8
     },
     "2478": {
       "title": "자물쇠",
@@ -21504,7 +21504,7 @@
     },
     "6581": {
       "title": "HTML",
-      "level": 11
+      "level": 10
     },
     "6582": {
       "title": "Artificial Intelligence?",
@@ -24246,6 +24246,10 @@
       "title": "Bin Packing",
       "level": 11
     },
+    "7451": {
+      "title": "On Storing Clothes",
+      "level": 0
+    },
     "7452": {
       "title": "Buy or Build",
       "level": 0
@@ -24253,6 +24257,26 @@
     "7453": {
       "title": "합이 0인 네 정수",
       "level": 14
+    },
+    "7454": {
+      "title": "Keep the Customer Satisfied",
+      "level": 0
+    },
+    "7455": {
+      "title": "UFO Cubes in Roswell",
+      "level": 0
+    },
+    "7456": {
+      "title": "Black Box",
+      "level": 0
+    },
+    "7457": {
+      "title": "Pixel Shuffle",
+      "level": 0
+    },
+    "7458": {
+      "title": "Consecutive ones",
+      "level": 0
     },
     "7459": {
       "title": "Angry Teacher",
@@ -43864,7 +43888,7 @@
     },
     "12596": {
       "title": "Odd Man Out (Large)",
-      "level": 5
+      "level": 6
     },
     "12597": {
       "title": "Get to Work (Small)",
@@ -50687,8 +50711,8 @@
       "level": 0
     },
     "14335": {
-      "title": "Not So Random (Large)",
-      "level": 0
+      "title": "서로 다른 부분 수열의 개수",
+      "level": 11
     },
     "14336": {
       "title": "Coggle",
@@ -52304,7 +52328,7 @@
     },
     "14751": {
       "title": "Leftmost Segment",
-      "level": 20
+      "level": 21
     },
     "14752": {
       "title": "Map Labeling",
@@ -55504,7 +55528,7 @@
     },
     "15554": {
       "title": "전시회",
-      "level": 15
+      "level": 16
     },
     "15555": {
       "title": "Dango Maker",
@@ -55536,7 +55560,7 @@
     },
     "15562": {
       "title": "네트워크",
-      "level": 15
+      "level": 16
     },
     "15563": {
       "title": "Äventyr 1",
@@ -61120,7 +61144,7 @@
     },
     "16974": {
       "title": "레벨 햄버거",
-      "level": 9
+      "level": 10
     },
     "16975": {
       "title": "수열과 쿼리 21",
@@ -61548,7 +61572,7 @@
     },
     "17089": {
       "title": "세 친구",
-      "level": 10
+      "level": 11
     },
     "17090": {
       "title": "미로 탈출하기",
@@ -61960,7 +61984,7 @@
     },
     "17195": {
       "title": "Left Out",
-      "level": 15
+      "level": 14
     },
     "17196": {
       "title": "Cow Steeplechase II",
@@ -69944,7 +69968,7 @@
     },
     "19203": {
       "title": "Four Colors",
-      "level": 18
+      "level": 19
     },
     "19204": {
       "title": "Greater Number Wins",
@@ -80656,7 +80680,7 @@
     },
     "21905": {
       "title": "Archeologists",
-      "level": 21
+      "level": 22
     },
     "21906": {
       "title": "Reverse Game",
@@ -95420,7 +95444,7 @@
     },
     "25738": {
       "title": "Village Planning",
-      "level": 26
+      "level": 27
     },
     "25739": {
       "title": "Window Arrangement",
@@ -95444,6 +95468,46 @@
     },
     "25744": {
       "title": "Drinking Water",
+      "level": 0
+    },
+    "25745": {
+      "title": "Computation - Task 1",
+      "level": 5
+    },
+    "25746": {
+      "title": "Computation - Task 2",
+      "level": 6
+    },
+    "25747": {
+      "title": "Computation - Task 3",
+      "level": 12
+    },
+    "25748": {
+      "title": "Computation - Task 4",
+      "level": 17
+    },
+    "25749": {
+      "title": "Computation - Task 5",
+      "level": 11
+    },
+    "25750": {
+      "title": "Computation - Task 6",
+      "level": 18
+    },
+    "25751": {
+      "title": "Computation - Task 7",
+      "level": 0
+    },
+    "25752": {
+      "title": "Computation - Task 8",
+      "level": 17
+    },
+    "25753": {
+      "title": "Computation - Task 9",
+      "level": 0
+    },
+    "25754": {
+      "title": "Computation - Task 10",
       "level": 0
     },
     "25755": {
@@ -98448,11 +98512,11 @@
     },
     "26517": {
       "title": "연속인가? ?",
-      "level": 4
+      "level": 6
     },
     "26518": {
       "title": "수열의 극한값",
-      "level": 8
+      "level": 9
     },
     "26519": {
       "title": "함수와 최소 스패닝 트리",
@@ -98928,7 +98992,7 @@
     },
     "26651": {
       "title": "팬램그",
-      "level": 11
+      "level": 10
     },
     "26652": {
       "title": "성향 성장의 비약",
@@ -99148,7 +99212,7 @@
     },
     "26712": {
       "title": "Palindrom",
-      "level": 11
+      "level": 12
     },
     "26713": {
       "title": "Ornitolog 2",
@@ -99232,7 +99296,7 @@
     },
     "26736": {
       "title": "Wynik meczu",
-      "level": 1
+      "level": 2
     },
     "26737": {
       "title": "Praca zdalna",
@@ -99300,7 +99364,7 @@
     },
     "26755": {
       "title": "... albo psikus!",
-      "level": 10
+      "level": 11
     },
     "26756": {
       "title": "Dwukrotność sumy cyfr",
@@ -99348,7 +99412,7 @@
     },
     "26768": {
       "title": "H4x0r",
-      "level": 0
+      "level": 2
     },
     "26769": {
       "title": "Deski",
@@ -99356,11 +99420,11 @@
     },
     "26770": {
       "title": "Basen",
-      "level": 0
+      "level": 6
     },
     "26771": {
       "title": "Liczby parzystocyfrowe",
-      "level": 7
+      "level": 9
     },
     "26772": {
       "title": "Poziome serca",
@@ -99388,7 +99452,7 @@
     },
     "26778": {
       "title": "Zmiennoliterowe słowo",
-      "level": 0
+      "level": 7
     },
     "26779": {
       "title": "Zygzak",
@@ -99412,7 +99476,7 @@
     },
     "26784": {
       "title": "Spacery po drzewie binarnym",
-      "level": 0
+      "level": 10
     },
     "26785": {
       "title": "Kolorowy wąż",
@@ -99572,7 +99636,7 @@
     },
     "26824": {
       "title": "Najmniejsza wspólna wielokrotność",
-      "level": 0
+      "level": 18
     },
     "26825": {
       "title": "Pisarze",
@@ -99588,6 +99652,218 @@
     },
     "26828": {
       "title": "Układ scalony",
+      "level": 0
+    },
+    "26829": {
+      "title": "Klubowicze 2",
+      "level": 0
+    },
+    "26830": {
+      "title": "Niedbałość",
+      "level": 0
+    },
+    "26831": {
+      "title": "Para naszyjników",
+      "level": 0
+    },
+    "26832": {
+      "title": "Podciągi",
+      "level": 0
+    },
+    "26833": {
+      "title": "Robocik",
+      "level": 0
+    },
+    "26834": {
+      "title": "Pionek",
+      "level": 0
+    },
+    "26835": {
+      "title": "Plan metra",
+      "level": 0
+    },
+    "26836": {
+      "title": "Powódź",
+      "level": 0
+    },
+    "26837": {
+      "title": "Prawnicy",
+      "level": 0
+    },
+    "26838": {
+      "title": "Różnorodność",
+      "level": 0
+    },
+    "26839": {
+      "title": "Flappy Bird",
+      "level": 0
+    },
+    "26840": {
+      "title": "Podzielność",
+      "level": 0
+    },
+    "26841": {
+      "title": "Reprezentacje różnicowe",
+      "level": 0
+    },
+    "26842": {
+      "title": "Sabotaż",
+      "level": 0
+    },
+    "26844": {
+      "title": "Hydrorozgrywka",
+      "level": 0
+    },
+    "26845": {
+      "title": "Korale",
+      "level": 0
+    },
+    "26846": {
+      "title": "Nadajniki",
+      "level": 0
+    },
+    "26847": {
+      "title": "Nim z utrudnieniem",
+      "level": 0
+    },
+    "26848": {
+      "title": "Park wodny",
+      "level": 0
+    },
+    "26849": {
+      "title": "Non Classical Problem",
+      "level": 3
+    },
+    "26850": {
+      "title": "XOR Pairs",
+      "level": 16
+    },
+    "26851": {
+      "title": "Bicycle Tour",
+      "level": 21
+    },
+    "26852": {
+      "title": "Energy Generation",
+      "level": 0
+    },
+    "26853": {
+      "title": "Uniform Maker",
+      "level": 8
+    },
+    "26854": {
+      "title": "Concerto de Pandemic",
+      "level": 22
+    },
+    "26855": {
+      "title": "Not One",
+      "level": 17
+    },
+    "26856": {
+      "title": "Greedy Knapsack",
+      "level": 0
+    },
+    "26857": {
+      "title": "Cell Game",
+      "level": 19
+    },
+    "26858": {
+      "title": "Stable Planetary System",
+      "level": 20
+    },
+    "26859": {
+      "title": "Feeder Robot",
+      "level": 0
+    },
+    "26860": {
+      "title": "White-Black Tree",
+      "level": 20
+    },
+    "26861": {
+      "title": "Happy Travelling",
+      "level": 0
+    },
+    "26862": {
+      "title": "Maxdifficent Group",
+      "level": 11
+    },
+    "26863": {
+      "title": "Absolutely Flat",
+      "level": 3
+    },
+    "26864": {
+      "title": "Bricks in the Wall",
+      "level": 0
+    },
+    "26865": {
+      "title": "Computer Network",
+      "level": 0
+    },
+    "26866": {
+      "title": "Dice Grid",
+      "level": 0
+    },
+    "26867": {
+      "title": "Easily Distinguishable Triangles",
+      "level": 0
+    },
+    "26868": {
+      "title": "Focusing on Costs",
+      "level": 0
+    },
+    "26869": {
+      "title": "Greatest Common Divisor",
+      "level": 0
+    },
+    "26870": {
+      "title": "Hidden Digits",
+      "level": 0
+    },
+    "26871": {
+      "title": "IQ Game",
+      "level": 0
+    },
+    "26872": {
+      "title": "Joking?",
+      "level": 0
+    },
+    "26873": {
+      "title": "K-Shaped Figures",
+      "level": 0
+    },
+    "26874": {
+      "title": "Limited Swaps",
+      "level": 0
+    },
+    "26875": {
+      "title": "Mex and Cards",
+      "level": 0
+    },
+    "26876": {
+      "title": "New Time",
+      "level": 0
+    },
+    "26877": {
+      "title": "Badstrand",
+      "level": 0
+    },
+    "26878": {
+      "title": "Kortlek",
+      "level": 0
+    },
+    "26879": {
+      "title": "Laserschack",
+      "level": 0
+    },
+    "26880": {
+      "title": "Triangeltal",
+      "level": 0
+    },
+    "26881": {
+      "title": "Monopol",
+      "level": 0
+    },
+    "26882": {
+      "title": "Legobyggartävlingen",
       "level": 0
     }
   }
