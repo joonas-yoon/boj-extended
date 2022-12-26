@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-25 19:28:10.647193",
+  "last_updated": "2022-12-26 19:27:25.491319",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3216,7 +3216,7 @@
     },
     "1811": {
       "title": "Adjacent Mastermind",
-      "level": 5
+      "level": 6
     },
     "1812": {
       "title": "사탕",
@@ -3396,7 +3396,7 @@
     },
     "1856": {
       "title": "단어 게임",
-      "level": 14
+      "level": 15
     },
     "1857": {
       "title": "발레리노",
@@ -9232,7 +9232,7 @@
     },
     "3349": {
       "title": "Melody",
-      "level": 20
+      "level": 19
     },
     "3350": {
       "title": "Candy Machine",
@@ -17744,7 +17744,7 @@
     },
     "5595": {
       "title": "最軽量のモビール",
-      "level": 17
+      "level": 15
     },
     "5596": {
       "title": "시험 점수",
@@ -19920,7 +19920,7 @@
     },
     "6161": {
       "title": "iCow",
-      "level": 5
+      "level": 6
     },
     "6162": {
       "title": "Superlatives",
@@ -20100,7 +20100,7 @@
     },
     "6209": {
       "title": "제자리 멀리뛰기",
-      "level": 14
+      "level": 13
     },
     "6210": {
       "title": "Wonderprime Brands",
@@ -26564,7 +26564,7 @@
     },
     "8081": {
       "title": "The Lightest Language",
-      "level": 24
+      "level": 25
     },
     "8082": {
       "title": "Flat Broken Lines",
@@ -29352,7 +29352,7 @@
     },
     "8781": {
       "title": "Handel",
-      "level": 22
+      "level": 21
     },
     "8782": {
       "title": "Eurozwrotnica",
@@ -33792,7 +33792,7 @@
     },
     "10009": {
       "title": "Loteria 2",
-      "level": 0
+      "level": 8
     },
     "10010": {
       "title": "Bajtokrąg",
@@ -45424,7 +45424,7 @@
     },
     "12981": {
       "title": "공 포장하기",
-      "level": 7
+      "level": 6
     },
     "12982": {
       "title": "공 포장하기 2",
@@ -51828,7 +51828,7 @@
     },
     "14615": {
       "title": "Defend the CTP!!!",
-      "level": 11
+      "level": 12
     },
     "14616": {
       "title": "Explore space",
@@ -55704,7 +55704,7 @@
     },
     "15600": {
       "title": "Boss Battle",
-      "level": 4
+      "level": 5
     },
     "15601": {
       "title": "Connect the Dots",
@@ -61512,7 +61512,7 @@
     },
     "17074": {
       "title": "정렬",
-      "level": 9
+      "level": 10
     },
     "17075": {
       "title": "유물 복원",
@@ -64900,7 +64900,7 @@
     },
     "17932": {
       "title": "Haiku",
-      "level": 13
+      "level": 12
     },
     "17933": {
       "title": "Logland",
@@ -73660,7 +73660,7 @@
     },
     "20135": {
       "title": "연세 마스크 공장",
-      "level": 21
+      "level": 22
     },
     "20136": {
       "title": "멀티탭 스케줄링 2",
@@ -89618,6 +89618,34 @@
       "title": "Solsystem",
       "level": 0
     },
+    "24196": {
+      "title": "Gömda ord",
+      "level": 2
+    },
+    "24197": {
+      "title": "Tabbtabbande",
+      "level": 4
+    },
+    "24198": {
+      "title": "Muffinspelet",
+      "level": 0
+    },
+    "24199": {
+      "title": "Kaninhål",
+      "level": 0
+    },
+    "24200": {
+      "title": "Plocka Äpplen",
+      "level": 0
+    },
+    "24201": {
+      "title": "Tankeläsning",
+      "level": 0
+    },
+    "24202": {
+      "title": "Regering",
+      "level": 0
+    },
     "24218": {
       "title": "Double Crypt  1",
       "level": 0
@@ -98520,7 +98548,7 @@
     },
     "26519": {
       "title": "함수와 최소 스패닝 트리",
-      "level": 17
+      "level": 18
     },
     "26520": {
       "title": "다항함수의 적분과 쿼리",
@@ -98824,7 +98852,7 @@
     },
     "26595": {
       "title": "전투의 신",
-      "level": 7
+      "level": 6
     },
     "26596": {
       "title": "황금 칵테일",
@@ -98860,7 +98888,7 @@
     },
     "26604": {
       "title": "순열 구하기",
-      "level": 14
+      "level": 13
     },
     "26605": {
       "title": "형광펜 강민우",
@@ -99760,7 +99788,7 @@
     },
     "26856": {
       "title": "Greedy Knapsack",
-      "level": 0
+      "level": 21
     },
     "26857": {
       "title": "Cell Game",
@@ -99776,11 +99804,11 @@
     },
     "26860": {
       "title": "White-Black Tree",
-      "level": 20
+      "level": 19
     },
     "26861": {
       "title": "Happy Travelling",
-      "level": 0
+      "level": 21
     },
     "26862": {
       "title": "Maxdifficent Group",
@@ -99796,7 +99824,7 @@
     },
     "26865": {
       "title": "Computer Network",
-      "level": 0
+      "level": 9
     },
     "26866": {
       "title": "Dice Grid",
@@ -99840,15 +99868,15 @@
     },
     "26876": {
       "title": "New Time",
-      "level": 0
+      "level": 7
     },
     "26877": {
       "title": "Badstrand",
-      "level": 0
+      "level": 9
     },
     "26878": {
       "title": "Kortlek",
-      "level": 0
+      "level": 10
     },
     "26879": {
       "title": "Laserschack",
@@ -99864,6 +99892,274 @@
     },
     "26882": {
       "title": "Legobyggartävlingen",
+      "level": 0
+    },
+    "26883": {
+      "title": "Spotify Connect",
+      "level": 0
+    },
+    "26884": {
+      "title": "Kent-buggen",
+      "level": 0
+    },
+    "26885": {
+      "title": "Hesthoppning",
+      "level": 11
+    },
+    "26886": {
+      "title": "Plocka Äpplen",
+      "level": 0
+    },
+    "26887": {
+      "title": "Skridskor",
+      "level": 0
+    },
+    "26888": {
+      "title": "Portaler",
+      "level": 0
+    },
+    "26889": {
+      "title": "Bergskedja",
+      "level": 0
+    },
+    "26890": {
+      "title": "Vandrarhem",
+      "level": 7
+    },
+    "26891": {
+      "title": "Tävlingssal",
+      "level": 0
+    },
+    "26892": {
+      "title": "Felskrivning",
+      "level": 0
+    },
+    "26893": {
+      "title": "Tågstationer",
+      "level": 0
+    },
+    "26894": {
+      "title": "Godiskross",
+      "level": 0
+    },
+    "26895": {
+      "title": "Bergsvandring",
+      "level": 0
+    },
+    "26896": {
+      "title": "Pokemonturnering",
+      "level": 0
+    },
+    "26897": {
+      "title": "Räkneuttrycket",
+      "level": 0
+    },
+    "26899": {
+      "title": "Kohagen",
+      "level": 0
+    },
+    "26900": {
+      "title": "Flygbussen",
+      "level": 0
+    },
+    "26901": {
+      "title": "Grottflykt",
+      "level": 0
+    },
+    "26902": {
+      "title": "IP-adresser",
+      "level": 0
+    },
+    "26903": {
+      "title": "Ståskrivbordet",
+      "level": 0
+    },
+    "26904": {
+      "title": "Tågväxeln",
+      "level": 0
+    },
+    "26905": {
+      "title": "Sortera spellistan",
+      "level": 5
+    },
+    "26906": {
+      "title": "Vikingahackare",
+      "level": 4
+    },
+    "26907": {
+      "title": "TV-tittande",
+      "level": 0
+    },
+    "26908": {
+      "title": "Dansmatta",
+      "level": 0
+    },
+    "26909": {
+      "title": "Rövarspråket",
+      "level": 0
+    },
+    "26910": {
+      "title": "Pixelproblem",
+      "level": 0
+    },
+    "26911": {
+      "title": "Limousinen",
+      "level": 0
+    },
+    "26912": {
+      "title": "Översättning",
+      "level": 0
+    },
+    "26913": {
+      "title": "Fotografen",
+      "level": 0
+    },
+    "26914": {
+      "title": "Trevliga tal",
+      "level": 0
+    },
+    "26915": {
+      "title": "Orientering",
+      "level": 0
+    },
+    "26916": {
+      "title": "Fiskspelet",
+      "level": 0
+    },
+    "26917": {
+      "title": "Strumpmatchning 2",
+      "level": 0
+    },
+    "26918": {
+      "title": "Brädspelet",
+      "level": 0
+    },
+    "26919": {
+      "title": "Bokrecesioner",
+      "level": 0
+    },
+    "26920": {
+      "title": "Låttexter",
+      "level": 0
+    },
+    "26921": {
+      "title": "Lasta färjan",
+      "level": 0
+    },
+    "26922": {
+      "title": "Skolvägen",
+      "level": 8
+    },
+    "26923": {
+      "title": "Springoalla",
+      "level": 0
+    },
+    "26924": {
+      "title": "Summa Summarum",
+      "level": 11
+    },
+    "26925": {
+      "title": "Miniröj",
+      "level": 0
+    },
+    "26926": {
+      "title": "Kötid",
+      "level": 0
+    },
+    "26927": {
+      "title": "Orkesteroptimering",
+      "level": 0
+    },
+    "26928": {
+      "title": "Udda mullvadar",
+      "level": 0
+    },
+    "26929": {
+      "title": "Bokhyllor",
+      "level": 0
+    },
+    "26930": {
+      "title": "Börsen",
+      "level": 0
+    },
+    "26931": {
+      "title": "Tivoli",
+      "level": 0
+    },
+    "26932": {
+      "title": "Gridvolleyboll",
+      "level": 0
+    },
+    "26933": {
+      "title": "Receptet",
+      "level": 0
+    },
+    "26934": {
+      "title": "The Bus Card",
+      "level": 8
+    },
+    "26935": {
+      "title": "Släktträffen",
+      "level": 0
+    },
+    "26936": {
+      "title": "Gourmeten",
+      "level": 0
+    },
+    "26937": {
+      "title": "Köpa Böcker",
+      "level": 0
+    },
+    "26938": {
+      "title": "Lamps",
+      "level": 0
+    },
+    "26939": {
+      "title": "Biblioteket",
+      "level": 0
+    },
+    "26940": {
+      "title": "Chokladkartongen",
+      "level": 0
+    },
+    "26941": {
+      "title": "Pyramidbygge",
+      "level": 0
+    },
+    "26942": {
+      "title": "Gruppindelning",
+      "level": 12
+    },
+    "26943": {
+      "title": "Turnering",
+      "level": 0
+    },
+    "26944": {
+      "title": "Uppställning",
+      "level": 0
+    },
+    "26945": {
+      "title": "Will Rogers fenomen",
+      "level": 0
+    },
+    "26946": {
+      "title": "Tomater",
+      "level": 0
+    },
+    "26947": {
+      "title": "Klockan",
+      "level": 0
+    },
+    "26948": {
+      "title": "Plankan",
+      "level": 0
+    },
+    "26949": {
+      "title": "Kylskåpstransport",
+      "level": 0
+    },
+    "26953": {
+      "title": "일차합동식",
       "level": 0
     }
   }
