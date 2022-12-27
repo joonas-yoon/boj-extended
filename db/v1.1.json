@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-26 19:27:25.491319",
+  "last_updated": "2022-12-27 19:28:13.892462",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -756,7 +756,7 @@
     },
     "1188": {
       "title": "음식 평론가",
-      "level": 11
+      "level": 12
     },
     "1189": {
       "title": "컴백홈",
@@ -16520,7 +16520,7 @@
     },
     "5215": {
       "title": "로테이트",
-      "level": 0
+      "level": 16
     },
     "5216": {
       "title": "축구",
@@ -20680,7 +20680,7 @@
     },
     "6361": {
       "title": "Number Base Conversion",
-      "level": 4
+      "level": 5
     },
     "6362": {
       "title": "Unimodal Palindromic Decompositions",
@@ -29732,7 +29732,7 @@
     },
     "8876": {
       "title": "바자와 샤자",
-      "level": 21
+      "level": 22
     },
     "8877": {
       "title": "Self-Assembly",
@@ -35860,7 +35860,7 @@
     },
     "10527": {
       "title": "Judging Troubles",
-      "level": 7
+      "level": 6
     },
     "10528": {
       "title": "Knapsack Collection",
@@ -42240,7 +42240,7 @@
     },
     "12177": {
       "title": "Dreary Design (Large2)",
-      "level": 10
+      "level": 11
     },
     "12178": {
       "title": "Power Levels (Small)",
@@ -50712,7 +50712,7 @@
     },
     "14335": {
       "title": "서로 다른 부분 수열의 개수",
-      "level": 11
+      "level": 12
     },
     "14336": {
       "title": "Coggle",
@@ -51656,7 +51656,7 @@
     },
     "14571": {
       "title": "모래시계",
-      "level": 18
+      "level": 17
     },
     "14572": {
       "title": "스터디 그룹",
@@ -57576,7 +57576,7 @@
     },
     "16080": {
       "title": "And",
-      "level": 7
+      "level": 10
     },
     "16081": {
       "title": "Жагсаал",
@@ -61076,7 +61076,7 @@
     },
     "16955": {
       "title": "오목, 이길 수 있을까?",
-      "level": 7
+      "level": 8
     },
     "16956": {
       "title": "늑대와 양",
@@ -89628,7 +89628,7 @@
     },
     "24198": {
       "title": "Muffinspelet",
-      "level": 0
+      "level": 3
     },
     "24199": {
       "title": "Kaninhål",
@@ -93384,7 +93384,7 @@
     },
     "25170": {
       "title": "명랑한 아리의 외출",
-      "level": 10
+      "level": 11
     },
     "25171": {
       "title": "긴장한 아리와 쿠기의 카드게임",
@@ -95504,7 +95504,7 @@
     },
     "25746": {
       "title": "Computation - Task 2",
-      "level": 6
+      "level": 7
     },
     "25747": {
       "title": "Computation - Task 3",
@@ -95512,19 +95512,19 @@
     },
     "25748": {
       "title": "Computation - Task 4",
-      "level": 17
+      "level": 18
     },
     "25749": {
       "title": "Computation - Task 5",
-      "level": 11
+      "level": 10
     },
     "25750": {
       "title": "Computation - Task 6",
-      "level": 18
+      "level": 17
     },
     "25751": {
       "title": "Computation - Task 7",
-      "level": 0
+      "level": 17
     },
     "25752": {
       "title": "Computation - Task 8",
@@ -95532,7 +95532,7 @@
     },
     "25753": {
       "title": "Computation - Task 9",
-      "level": 0
+      "level": 19
     },
     "25754": {
       "title": "Computation - Task 10",
@@ -97036,7 +97036,7 @@
     },
     "26133": {
       "title": "Guardians of the Gallery",
-      "level": 0
+      "level": 25
     },
     "26134": {
       "title": "Hand of the Free Marked",
@@ -97576,7 +97576,7 @@
     },
     "26269": {
       "title": "간단한 수학 문제",
-      "level": 17
+      "level": 18
     },
     "26270": {
       "title": "최빈값과 쿼리",
@@ -99176,7 +99176,7 @@
     },
     "26693": {
       "title": "Koszulki",
-      "level": 0
+      "level": 5
     },
     "26694": {
       "title": "Od deski do deski",
@@ -99184,7 +99184,7 @@
     },
     "26695": {
       "title": "Oranżada",
-      "level": 0
+      "level": 8
     },
     "26696": {
       "title": "Pandemia",
@@ -99256,7 +99256,7 @@
     },
     "26716": {
       "title": "Muzyka pop 2",
-      "level": 0
+      "level": 9
     },
     "26719": {
       "title": "Drybling Bajtessiego",
@@ -99836,7 +99836,7 @@
     },
     "26868": {
       "title": "Focusing on Costs",
-      "level": 0
+      "level": 17
     },
     "26869": {
       "title": "Greatest Common Divisor",
@@ -99984,7 +99984,7 @@
     },
     "26906": {
       "title": "Vikingahackare",
-      "level": 4
+      "level": 3
     },
     "26907": {
       "title": "TV-tittande",
@@ -100116,19 +100116,19 @@
     },
     "26939": {
       "title": "Biblioteket",
-      "level": 0
+      "level": 8
     },
     "26940": {
       "title": "Chokladkartongen",
-      "level": 0
+      "level": 3
     },
     "26941": {
       "title": "Pyramidbygge",
-      "level": 0
+      "level": 3
     },
     "26942": {
       "title": "Gruppindelning",
-      "level": 12
+      "level": 9
     },
     "26943": {
       "title": "Turnering",
@@ -100136,30 +100136,90 @@
     },
     "26944": {
       "title": "Uppställning",
-      "level": 0
+      "level": 10
     },
     "26945": {
       "title": "Will Rogers fenomen",
-      "level": 0
+      "level": 6
     },
     "26946": {
       "title": "Tomater",
-      "level": 0
+      "level": 5
     },
     "26947": {
       "title": "Klockan",
-      "level": 0
+      "level": 5
     },
     "26948": {
       "title": "Plankan",
-      "level": 0
+      "level": 7
     },
     "26949": {
       "title": "Kylskåpstransport",
       "level": 0
     },
+    "26950": {
+      "title": "Rymdpatrullen",
+      "level": 0
+    },
+    "26951": {
+      "title": "Stulen Sträng",
+      "level": 0
+    },
+    "26952": {
+      "title": "Tunnelbana",
+      "level": 0
+    },
     "26953": {
       "title": "일차합동식",
+      "level": 17
+    },
+    "26954": {
+      "title": "Blomsymmetri",
+      "level": 0
+    },
+    "26955": {
+      "title": "Gruppindelning",
+      "level": 0
+    },
+    "26956": {
+      "title": "Krokodiler",
+      "level": 0
+    },
+    "26957": {
+      "title": "Bybana",
+      "level": 0
+    },
+    "26958": {
+      "title": "Mötesplats",
+      "level": 0
+    },
+    "26959": {
+      "title": "Baka bullar",
+      "level": 0
+    },
+    "26960": {
+      "title": "Myrkolonin",
+      "level": 0
+    },
+    "26961": {
+      "title": "Longest increasing pub-sequence",
+      "level": 0
+    },
+    "26962": {
+      "title": "Xorcisten",
+      "level": 0
+    },
+    "26963": {
+      "title": "Beslutsångest",
+      "level": 0
+    },
+    "26964": {
+      "title": "Dammsugare",
+      "level": 0
+    },
+    "26965": {
+      "title": "Tågresan",
       "level": 0
     }
   }
