@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-27 19:28:13.892462",
+  "last_updated": "2022-12-28 19:28:37.121842",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -19514,6 +19514,10 @@
       "title": "Relay race",
       "level": 11
     },
+    "6055": {
+      "title": "Cow Typing",
+      "level": 0
+    },
     "6056": {
       "title": "Darts",
       "level": 6
@@ -19641,6 +19645,10 @@
     "6087": {
       "title": "레이저 통신",
       "level": 13
+    },
+    "6088": {
+      "title": "Scrabble",
+      "level": 0
     },
     "6089": {
       "title": "Pumps and Pipes",
@@ -20078,6 +20086,10 @@
       "title": "New Cow Brands",
       "level": 9
     },
+    "6202": {
+      "title": "Word Games",
+      "level": 0
+    },
     "6203": {
       "title": "Serious Cow Tag",
       "level": 7
@@ -20185,6 +20197,10 @@
     "6233": {
       "title": "Face The Right Way",
       "level": 14
+    },
+    "6234": {
+      "title": "Cow Traffic",
+      "level": 0
     },
     "6235": {
       "title": "Argus",
@@ -22368,7 +22384,7 @@
     },
     "6797": {
       "title": "Global Warming",
-      "level": 7
+      "level": 8
     },
     "6798": {
       "title": "Knight Hop",
@@ -23269,6 +23285,10 @@
     "7036": {
       "title": "Grazing on the Run",
       "level": 18
+    },
+    "7037": {
+      "title": "Walk the Talk",
+      "level": 0
     },
     "7038": {
       "title": "Cow Patterns",
@@ -25436,7 +25456,7 @@
     },
     "7778": {
       "title": "Intelligent Design",
-      "level": 23
+      "level": 24
     },
     "7779": {
       "title": "Juggle with Criteria",
@@ -26160,7 +26180,7 @@
     },
     "7976": {
       "title": "수열",
-      "level": 14
+      "level": 15
     },
     "7977": {
       "title": "크리스 마틴",
@@ -32720,7 +32740,7 @@
     },
     "9662": {
       "title": "돌 게임 8",
-      "level": 20
+      "level": 19
     },
     "9663": {
       "title": "N-Queen",
@@ -33888,7 +33908,7 @@
     },
     "10033": {
       "title": "Fair Photography",
-      "level": 16
+      "level": 17
     },
     "10034": {
       "title": "Odometer",
@@ -34568,7 +34588,7 @@
     },
     "10204": {
       "title": "Neighborhoods in Graphs",
-      "level": 8
+      "level": 9
     },
     "10205": {
       "title": "헤라클레스와 히드라",
@@ -35432,7 +35452,7 @@
     },
     "10420": {
       "title": "기념일 1",
-      "level": 5
+      "level": 4
     },
     "10421": {
       "title": "수식 완성하기",
@@ -35500,7 +35520,7 @@
     },
     "10437": {
       "title": "자라나는 직교 나선",
-      "level": 11
+      "level": 12
     },
     "10438": {
       "title": "페리 수열의 합",
@@ -36160,7 +36180,7 @@
     },
     "10614": {
       "title": "SABOR",
-      "level": 16
+      "level": 17
     },
     "10615": {
       "title": "STANOVI",
@@ -36912,7 +36932,7 @@
     },
     "10803": {
       "title": "정사각형 만들기",
-      "level": 17
+      "level": 18
     },
     "10804": {
       "title": "카드 역배치",
@@ -42472,7 +42492,7 @@
     },
     "12235": {
       "title": "Data Packing (Large)",
-      "level": 7
+      "level": 8
     },
     "12236": {
       "title": "Up and Down (Small)",
@@ -48288,7 +48308,7 @@
     },
     "13710": {
       "title": "XOR 합 3",
-      "level": 15
+      "level": 16
     },
     "13711": {
       "title": "LCS 4",
@@ -48432,7 +48452,7 @@
     },
     "13746": {
       "title": "Islands",
-      "level": 9
+      "level": 10
     },
     "13747": {
       "title": "Paint",
@@ -51356,7 +51376,7 @@
     },
     "14496": {
       "title": "그대, 그머가 되어",
-      "level": 10
+      "level": 9
     },
     "14497": {
       "title": "주난의 난(難)",
@@ -89852,7 +89872,7 @@
     },
     "24269": {
       "title": "랜드마크 건설",
-      "level": 14
+      "level": 15
     },
     "24270": {
       "title": "미니 버킷 리스트",
@@ -92628,7 +92648,7 @@
     },
     "24975": {
       "title": "Pair Programming",
-      "level": 19
+      "level": 18
     },
     "24976": {
       "title": "Balancing a Tree",
@@ -94764,7 +94784,7 @@
     },
     "25544": {
       "title": "X 만들기 (Hard)",
-      "level": 16
+      "level": 17
     },
     "25545": {
       "title": "MMST",
@@ -95072,7 +95092,7 @@
     },
     "25627": {
       "title": "칼자국",
-      "level": 23
+      "level": 24
     },
     "25628": {
       "title": "햄버거 만들기",
@@ -98056,19 +98076,19 @@
     },
     "26393": {
       "title": "Čokolade",
-      "level": 0
+      "level": 15
     },
     "26394": {
       "title": "Berilij",
-      "level": 0
+      "level": 19
     },
     "26395": {
       "title": "Iksevi",
-      "level": 0
+      "level": 17
     },
     "26396": {
       "title": "Neboderi",
-      "level": 0
+      "level": 18
     },
     "26397": {
       "title": "Tramvaji",
@@ -99020,7 +99040,7 @@
     },
     "26651": {
       "title": "팬램그",
-      "level": 10
+      "level": 11
     },
     "26652": {
       "title": "성향 성장의 비약",
@@ -99928,7 +99948,7 @@
     },
     "26891": {
       "title": "Tävlingssal",
-      "level": 0
+      "level": 5
     },
     "26892": {
       "title": "Felskrivning",
@@ -100220,6 +100240,186 @@
     },
     "26965": {
       "title": "Tågresan",
+      "level": 0
+    },
+    "26966": {
+      "title": "Breakdown",
+      "level": 0
+    },
+    "26967": {
+      "title": "Making Friends",
+      "level": 0
+    },
+    "26968": {
+      "title": "Palindromes",
+      "level": 0
+    },
+    "26969": {
+      "title": "Bribing Friends",
+      "level": 19
+    },
+    "26970": {
+      "title": "Mountains",
+      "level": 19
+    },
+    "26971": {
+      "title": "Strongest Friendship Group",
+      "level": 18
+    },
+    "26972": {
+      "title": "Barn Tree",
+      "level": 16
+    },
+    "26973": {
+      "title": "Circular Barn",
+      "level": 18
+    },
+    "26974": {
+      "title": "Range Reconstruction",
+      "level": 14
+    },
+    "26975": {
+      "title": "Cow College",
+      "level": 7
+    },
+    "26976": {
+      "title": "Feeding the Cows",
+      "level": 12
+    },
+    "26977": {
+      "title": "Reverse Engineering",
+      "level": 0
+    },
+    "26978": {
+      "title": "Cellphones",
+      "level": 0
+    },
+    "26979": {
+      "title": "Steady Cow Assignment",
+      "level": 0
+    },
+    "26980": {
+      "title": "Treats for the Cows",
+      "level": 12
+    },
+    "26981": {
+      "title": "Backward Digit Sums",
+      "level": 9
+    },
+    "26982": {
+      "title": "Stall Reservations",
+      "level": 0
+    },
+    "26983": {
+      "title": "DNA Assembly",
+      "level": 8
+    },
+    "26984": {
+      "title": "Cow Phrasebook",
+      "level": 5
+    },
+    "26985": {
+      "title": "Redundant Paths",
+      "level": 0
+    },
+    "26986": {
+      "title": "Corral the Cows",
+      "level": 0
+    },
+    "26987": {
+      "title": "The Cow Prom",
+      "level": 0
+    },
+    "26988": {
+      "title": "Dollar Dayz",
+      "level": 12
+    },
+    "26989": {
+      "title": "The Grove",
+      "level": 0
+    },
+    "26990": {
+      "title": "Stump Removal",
+      "level": 6
+    },
+    "26991": {
+      "title": "Finicky Grazers",
+      "level": 0
+    },
+    "26992": {
+      "title": "The Water Bowls",
+      "level": 10
+    },
+    "26993": {
+      "title": "Knights of Ni",
+      "level": 0
+    },
+    "26994": {
+      "title": "Cleaning Shifts",
+      "level": 0
+    },
+    "26995": {
+      "title": "Scales",
+      "level": 0
+    },
+    "26996": {
+      "title": "Alignment of the Planets",
+      "level": 0
+    },
+    "26997": {
+      "title": "Finding Bovine Roots",
+      "level": 0
+    },
+    "26998": {
+      "title": "City Skyline",
+      "level": 0
+    },
+    "26999": {
+      "title": "Satellite Photographs",
+      "level": 0
+    },
+    "27000": {
+      "title": "Skiing",
+      "level": 0
+    },
+    "27001": {
+      "title": "Bovine Birthday",
+      "level": 0
+    },
+    "27002": {
+      "title": "Max Factor",
+      "level": 0
+    },
+    "27003": {
+      "title": "Around the world",
+      "level": 0
+    },
+    "27004": {
+      "title": "Waves",
+      "level": 0
+    },
+    "27005": {
+      "title": "Navigating the City",
+      "level": 0
+    },
+    "27006": {
+      "title": "Space Elevator",
+      "level": 0
+    },
+    "27007": {
+      "title": "Yogurt factory",
+      "level": 0
+    },
+    "27008": {
+      "title": "Checking an Alibi",
+      "level": 0
+    },
+    "27009": {
+      "title": "Out of Hay",
+      "level": 0
+    },
+    "27010": {
+      "title": "Secret Milking Machine",
       "level": 0
     }
   }
