@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-28 19:28:37.121842",
+  "last_updated": "2022-12-29 19:28:03.116525",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2416,7 +2416,7 @@
     },
     "1609": {
       "title": "차의 공격",
-      "level": 18
+      "level": 17
     },
     "1610": {
       "title": "프로게이머 영식",
@@ -6628,7 +6628,7 @@
     },
     "2681": {
       "title": "목장 주인 백승환의 선물",
-      "level": 14
+      "level": 15
     },
     "2682": {
       "title": "최대 사이클 1",
@@ -8228,7 +8228,7 @@
     },
     "3090": {
       "title": "차이를 최소로",
-      "level": 18
+      "level": 19
     },
     "3091": {
       "title": "PEKAR",
@@ -10808,7 +10808,7 @@
     },
     "3752": {
       "title": "최대공약수 행렬식",
-      "level": 23
+      "level": 22
     },
     "3753": {
       "title": "Internet Service Providers",
@@ -17508,7 +17508,7 @@
     },
     "5536": {
       "title": "물고기의 서식 범위",
-      "level": 12
+      "level": 13
     },
     "5537": {
       "title": "お土産購入計画 (Gifts)",
@@ -20088,7 +20088,7 @@
     },
     "6202": {
       "title": "Word Games",
-      "level": 0
+      "level": 6
     },
     "6203": {
       "title": "Serious Cow Tag",
@@ -20120,7 +20120,7 @@
     },
     "6211": {
       "title": "The Eating Puzzle",
-      "level": 8
+      "level": 9
     },
     "6212": {
       "title": "Dream Counting",
@@ -20200,7 +20200,7 @@
     },
     "6234": {
       "title": "Cow Traffic",
-      "level": 0
+      "level": 13
     },
     "6235": {
       "title": "Argus",
@@ -23580,7 +23580,7 @@
     },
     "7153": {
       "title": "Goat Ropes",
-      "level": 22
+      "level": 23
     },
     "7154": {
       "title": "Job Postings",
@@ -29728,7 +29728,7 @@
     },
     "8870": {
       "title": "Zadanie próbne",
-      "level": 10
+      "level": 11
     },
     "8871": {
       "title": "Zadanie próbne 2",
@@ -41600,11 +41600,11 @@
     },
     "12006": {
       "title": "Bull in a China Shop (Bronze)",
-      "level": 12
+      "level": 13
     },
     "12007": {
       "title": "Field Reduction (Bronze)",
-      "level": 10
+      "level": 9
     },
     "12008": {
       "title": "262144",
@@ -42532,7 +42532,7 @@
     },
     "12245": {
       "title": "Reordering Train Cars (Large)",
-      "level": 0
+      "level": 17
     },
     "12246": {
       "title": "Enclosure (Small)",
@@ -45448,7 +45448,7 @@
     },
     "12982": {
       "title": "공 포장하기 2",
-      "level": 14
+      "level": 15
     },
     "12983": {
       "title": "Set Definition",
@@ -48308,7 +48308,7 @@
     },
     "13710": {
       "title": "XOR 합 3",
-      "level": 16
+      "level": 15
     },
     "13711": {
       "title": "LCS 4",
@@ -55312,7 +55312,7 @@
     },
     "15495": {
       "title": "Alkemija",
-      "level": 14
+      "level": 15
     },
     "15496": {
       "title": "Mate",
@@ -69432,7 +69432,7 @@
     },
     "19064": {
       "title": "Readability",
-      "level": 0
+      "level": 22
     },
     "19065": {
       "title": "Robotobor",
@@ -71332,7 +71332,7 @@
     },
     "19542": {
       "title": "전단지 돌리기",
-      "level": 12
+      "level": 13
     },
     "19543": {
       "title": "던전 지도",
@@ -89868,7 +89868,7 @@
     },
     "24268": {
       "title": "2022는 무엇이 특별할까?",
-      "level": 9
+      "level": 10
     },
     "24269": {
       "title": "랜드마크 건설",
@@ -98688,7 +98688,7 @@
     },
     "26549": {
       "title": "Holes",
-      "level": 10
+      "level": 9
     },
     "26550": {
       "title": "Ornaments",
@@ -99948,7 +99948,7 @@
     },
     "26891": {
       "title": "Tävlingssal",
-      "level": 5
+      "level": 4
     },
     "26892": {
       "title": "Felskrivning",
@@ -100268,15 +100268,15 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 16
+      "level": 17
     },
     "26973": {
       "title": "Circular Barn",
-      "level": 18
+      "level": 19
     },
     "26974": {
       "title": "Range Reconstruction",
-      "level": 14
+      "level": 13
     },
     "26975": {
       "title": "Cow College",
@@ -100288,7 +100288,7 @@
     },
     "26977": {
       "title": "Reverse Engineering",
-      "level": 0
+      "level": 12
     },
     "26978": {
       "title": "Cellphones",
@@ -100332,7 +100332,7 @@
     },
     "26988": {
       "title": "Dollar Dayz",
-      "level": 12
+      "level": 11
     },
     "26989": {
       "title": "The Grove",
@@ -100364,11 +100364,11 @@
     },
     "26996": {
       "title": "Alignment of the Planets",
-      "level": 0
+      "level": 5
     },
     "26997": {
       "title": "Finding Bovine Roots",
-      "level": 0
+      "level": 15
     },
     "26998": {
       "title": "City Skyline",
@@ -100376,7 +100376,7 @@
     },
     "26999": {
       "title": "Satellite Photographs",
-      "level": 0
+      "level": 8
     },
     "27000": {
       "title": "Skiing",
@@ -100384,11 +100384,11 @@
     },
     "27001": {
       "title": "Bovine Birthday",
-      "level": 0
+      "level": 5
     },
     "27002": {
       "title": "Max Factor",
-      "level": 0
+      "level": 6
     },
     "27003": {
       "title": "Around the world",
@@ -100412,14 +100412,74 @@
     },
     "27008": {
       "title": "Checking an Alibi",
-      "level": 0
+      "level": 11
     },
     "27009": {
       "title": "Out of Hay",
-      "level": 0
+      "level": 12
     },
     "27010": {
       "title": "Secret Milking Machine",
+      "level": 0
+    },
+    "27011": {
+      "title": "Part Acquisition",
+      "level": 12
+    },
+    "27012": {
+      "title": "Feed Accounting",
+      "level": 0
+    },
+    "27013": {
+      "title": "Watchcow",
+      "level": 17
+    },
+    "27014": {
+      "title": "Cube Stacking",
+      "level": 0
+    },
+    "27015": {
+      "title": "Turning in Homework",
+      "level": 0
+    },
+    "27016": {
+      "title": "Moo University - Team Tryouts",
+      "level": 0
+    },
+    "27017": {
+      "title": "Moo University - Emergency Pizza Order",
+      "level": 0
+    },
+    "27018": {
+      "title": "Moo University - Financial Aid",
+      "level": 0
+    },
+    "27019": {
+      "title": "Lying Livestock",
+      "level": 0
+    },
+    "27020": {
+      "title": "Special Serial Numbers",
+      "level": 0
+    },
+    "27021": {
+      "title": "Paranoid Cows",
+      "level": 0
+    },
+    "27022": {
+      "title": "Cow Parade",
+      "level": 0
+    },
+    "27023": {
+      "title": "Exploration Teams",
+      "level": 0
+    },
+    "27024": {
+      "title": "Fence Height",
+      "level": 0
+    },
+    "27025": {
+      "title": "Morning Exercises",
       "level": 0
     }
   }
