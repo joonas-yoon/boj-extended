@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-29 19:28:03.116525",
+  "last_updated": "2022-12-30 19:28:22.429832",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4104,7 +4104,7 @@
     },
     "2040": {
       "title": "수 게임",
-      "level": 10
+      "level": 11
     },
     "2041": {
       "title": "숫자채우기",
@@ -4156,7 +4156,7 @@
     },
     "2054": {
       "title": "계산 문제",
-      "level": 16
+      "level": 15
     },
     "2055": {
       "title": "삼각형 찾기",
@@ -9952,7 +9952,7 @@
     },
     "3538": {
       "title": "Journey",
-      "level": 26
+      "level": 0
     },
     "3539": {
       "title": "Kitchen Robot",
@@ -30972,7 +30972,7 @@
     },
     "9205": {
       "title": "맥주 마시면서 걸어가기",
-      "level": 10
+      "level": 11
     },
     "9206": {
       "title": "나무 말고 꽃",
@@ -43836,7 +43836,7 @@
     },
     "12578": {
       "title": "File Fix-it (Large)",
-      "level": 11
+      "level": 12
     },
     "12579": {
       "title": "Picking Up Chicks (Small)",
@@ -45460,7 +45460,7 @@
     },
     "12985": {
       "title": "비밀 회선",
-      "level": 0
+      "level": 9
     },
     "12986": {
       "title": "화려한 마을2",
@@ -61900,7 +61900,7 @@
     },
     "17167": {
       "title": "A Plus Equals B",
-      "level": 18
+      "level": 19
     },
     "17168": {
       "title": "Water Knows The Answers",
@@ -64264,7 +64264,7 @@
     },
     "17767": {
       "title": "Siłownia",
-      "level": 0
+      "level": 26
     },
     "17768": {
       "title": "Słowo",
@@ -71136,7 +71136,7 @@
     },
     "19493": {
       "title": "Gym",
-      "level": 0
+      "level": 26
     },
     "19494": {
       "title": "Triangles",
@@ -71524,7 +71524,7 @@
     },
     "19590": {
       "title": "비드맨",
-      "level": 14
+      "level": 15
     },
     "19591": {
       "title": "독특한 계산기",
@@ -73568,7 +73568,7 @@
     },
     "20107": {
       "title": "Pebbling odometer 1",
-      "level": 8
+      "level": 9
     },
     "20108": {
       "title": "Pebbling odometer 2",
@@ -76856,7 +76856,7 @@
     },
     "20938": {
       "title": "반짝반짝",
-      "level": 15
+      "level": 16
     },
     "20939": {
       "title": "달고나",
@@ -78372,7 +78372,7 @@
     },
     "21317": {
       "title": "징검다리 건너기",
-      "level": 9
+      "level": 10
     },
     "21318": {
       "title": "피아노 체조",
@@ -83632,7 +83632,7 @@
     },
     "22671": {
       "title": "Tile Puzzle",
-      "level": 0
+      "level": 18
     },
     "22672": {
       "title": "Girls' Party",
@@ -95556,7 +95556,7 @@
     },
     "25754": {
       "title": "Computation - Task 10",
-      "level": 0
+      "level": 20
     },
     "25755": {
       "title": "거울반사",
@@ -95712,7 +95712,7 @@
     },
     "25793": {
       "title": "초콜릿 피라미드",
-      "level": 10
+      "level": 11
     },
     "25794": {
       "title": "초콜릿과 나이트 게임",
@@ -99840,7 +99840,7 @@
     },
     "26864": {
       "title": "Bricks in the Wall",
-      "level": 0
+      "level": 16
     },
     "26865": {
       "title": "Computer Network",
@@ -100268,7 +100268,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 17
+      "level": 18
     },
     "26973": {
       "title": "Circular Barn",
@@ -100288,7 +100288,7 @@
     },
     "26977": {
       "title": "Reverse Engineering",
-      "level": 12
+      "level": 13
     },
     "26978": {
       "title": "Cellphones",
@@ -100376,7 +100376,7 @@
     },
     "26999": {
       "title": "Satellite Photographs",
-      "level": 8
+      "level": 9
     },
     "27000": {
       "title": "Skiing",
@@ -100480,6 +100480,162 @@
     },
     "27025": {
       "title": "Morning Exercises",
+      "level": 0
+    },
+    "27026": {
+      "title": "Navigation Nightmare",
+      "level": 0
+    },
+    "27027": {
+      "title": "Cow Marathon",
+      "level": 0
+    },
+    "27028": {
+      "title": "Distance Queries",
+      "level": 0
+    },
+    "27029": {
+      "title": "Distance Statistics",
+      "level": 0
+    },
+    "27030": {
+      "title": "Breeding",
+      "level": 0
+    },
+    "27031": {
+      "title": "The Big Game",
+      "level": 0
+    },
+    "27032": {
+      "title": "Farmer John's View",
+      "level": 0
+    },
+    "27033": {
+      "title": "Pesky Parentheses",
+      "level": 0
+    },
+    "27034": {
+      "title": "Cow Word Games",
+      "level": 0
+    },
+    "27035": {
+      "title": "Bovine Ballroom Dancing",
+      "level": 6
+    },
+    "27036": {
+      "title": "Automatic Fence Gate",
+      "level": 0
+    },
+    "27037": {
+      "title": "The Middle Squares",
+      "level": 5
+    },
+    "27038": {
+      "title": "Elite Eating",
+      "level": 0
+    },
+    "27039": {
+      "title": "Sweet Butter",
+      "level": 0
+    },
+    "27040": {
+      "title": "Golf",
+      "level": 0
+    },
+    "27041": {
+      "title": "Leapcow",
+      "level": 5
+    },
+    "27042": {
+      "title": "Bonbons",
+      "level": 0
+    },
+    "27043": {
+      "title": "Cow Exhibition",
+      "level": 0
+    },
+    "27044": {
+      "title": "Milking Grid",
+      "level": 0
+    },
+    "27045": {
+      "title": "Popular Cows",
+      "level": 0
+    },
+    "27046": {
+      "title": "Beauty Contest",
+      "level": 18
+    },
+    "27047": {
+      "title": "Cow Laundry",
+      "level": 0
+    },
+    "27048": {
+      "title": "Romeo Meets Juliet",
+      "level": 6
+    },
+    "27049": {
+      "title": "ISBN",
+      "level": 5
+    },
+    "27050": {
+      "title": "Millenium Leapcow",
+      "level": 0
+    },
+    "27051": {
+      "title": "Optimal Milking",
+      "level": 0
+    },
+    "27052": {
+      "title": "Bale Figures",
+      "level": 0
+    },
+    "27053": {
+      "title": "Jumping Cows",
+      "level": 10
+    },
+    "27054": {
+      "title": "Lost Cows",
+      "level": 0
+    },
+    "27055": {
+      "title": "Bovine Math Geniuses",
+      "level": 0
+    },
+    "27056": {
+      "title": "TwoFour",
+      "level": 0
+    },
+    "27057": {
+      "title": "Six Degrees of Cowvin Bacon",
+      "level": 0
+    },
+    "27058": {
+      "title": "Message Decowding",
+      "level": 0
+    },
+    "27059": {
+      "title": "Traffic Lights",
+      "level": 0
+    },
+    "27060": {
+      "title": "Vertical Histogram",
+      "level": 6
+    },
+    "27061": {
+      "title": "Cowties",
+      "level": 0
+    },
+    "27062": {
+      "title": "Nextree",
+      "level": 0
+    },
+    "27063": {
+      "title": "The Bovine Journal",
+      "level": 0
+    },
+    "27064": {
+      "title": "Bovine Tennis Professionals",
       "level": 0
     }
   }
