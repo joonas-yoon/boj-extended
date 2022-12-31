@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-30 19:28:22.429832",
+  "last_updated": "2022-12-31 19:27:37.919507",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5736,7 +5736,7 @@
     },
     "2458": {
       "title": "키 순서",
-      "level": 12
+      "level": 13
     },
     "2459": {
       "title": "철사 자르기",
@@ -13412,7 +13412,7 @@
     },
     "4422": {
       "title": "Crypt Kicker II",
-      "level": 11
+      "level": 12
     },
     "4423": {
       "title": "Watching Watches",
@@ -39332,7 +39332,7 @@
     },
     "11423": {
       "title": "Primes",
-      "level": 9
+      "level": 10
     },
     "11424": {
       "title": "Longest Prefix Match",
@@ -43564,7 +43564,7 @@
     },
     "12510": {
       "title": "Bot Trust (Large)",
-      "level": 5
+      "level": 6
     },
     "12511": {
       "title": "Magicka (Small)",
@@ -43832,7 +43832,7 @@
     },
     "12577": {
       "title": "File Fix-it (Small)",
-      "level": 0
+      "level": 11
     },
     "12578": {
       "title": "File Fix-it (Large)",
@@ -46288,7 +46288,7 @@
     },
     "13204": {
       "title": "표본의 수 구하기",
-      "level": 11
+      "level": 12
     },
     "13205": {
       "title": "비밀번호",
@@ -58132,7 +58132,7 @@
     },
     "16214": {
       "title": "N과 M",
-      "level": 20
+      "level": 21
     },
     "16215": {
       "title": "Build a Wall!",
@@ -65024,7 +65024,7 @@
     },
     "17958": {
       "title": "Cycle String?",
-      "level": 17
+      "level": 16
     },
     "17959": {
       "title": "Life Transfer",
@@ -68132,7 +68132,7 @@
     },
     "18738": {
       "title": "Special Game",
-      "level": 27
+      "level": 28
     },
     "18739": {
       "title": "Even More Exciting Game",
@@ -74872,7 +74872,7 @@
     },
     "20442": {
       "title": "ㅋㅋ루ㅋㅋ",
-      "level": 14
+      "level": 13
     },
     "20443": {
       "title": "배드민턴 대회",
@@ -76920,7 +76920,7 @@
     },
     "20954": {
       "title": "택배 기사 민서",
-      "level": 8
+      "level": 9
     },
     "20955": {
       "title": "민서의 응급 수술",
@@ -76928,7 +76928,7 @@
     },
     "20956": {
       "title": "아이스크림 도둑 지호",
-      "level": 11
+      "level": 12
     },
     "20957": {
       "title": "농부 비니",
@@ -90524,7 +90524,7 @@
     },
     "24440": {
       "title": "괄호 문자열 표기법 (Small)",
-      "level": 16
+      "level": 17
     },
     "24441": {
       "title": "행운 수 판정",
@@ -95536,7 +95536,7 @@
     },
     "25749": {
       "title": "Computation - Task 5",
-      "level": 10
+      "level": 11
     },
     "25750": {
       "title": "Computation - Task 6",
@@ -96908,7 +96908,7 @@
     },
     "26092": {
       "title": "수학적인 최소 공통 조상",
-      "level": 11
+      "level": 12
     },
     "26093": {
       "title": "고양이 목에 리본 달기",
@@ -97048,7 +97048,7 @@
     },
     "26131": {
       "title": "Dungeon Crawler",
-      "level": 21
+      "level": 20
     },
     "26132": {
       "title": "Fair Division",
@@ -100272,7 +100272,7 @@
     },
     "26973": {
       "title": "Circular Barn",
-      "level": 19
+      "level": 18
     },
     "26974": {
       "title": "Range Reconstruction",
@@ -100288,7 +100288,7 @@
     },
     "26977": {
       "title": "Reverse Engineering",
-      "level": 13
+      "level": 15
     },
     "26978": {
       "title": "Cellphones",
@@ -100476,7 +100476,7 @@
     },
     "27024": {
       "title": "Fence Height",
-      "level": 0
+      "level": 7
     },
     "27025": {
       "title": "Morning Exercises",
@@ -100544,7 +100544,7 @@
     },
     "27041": {
       "title": "Leapcow",
-      "level": 5
+      "level": 6
     },
     "27042": {
       "title": "Bonbons",
@@ -100596,7 +100596,7 @@
     },
     "27054": {
       "title": "Lost Cows",
-      "level": 0
+      "level": 7
     },
     "27055": {
       "title": "Bovine Math Geniuses",
@@ -100636,6 +100636,78 @@
     },
     "27064": {
       "title": "Bovine Tennis Professionals",
+      "level": 0
+    },
+    "27065": {
+      "title": "2022년이 아름다웠던 이유",
+      "level": 5
+    },
+    "27066": {
+      "title": "나무 블럭 게임",
+      "level": 11
+    },
+    "27067": {
+      "title": "데이터 순서 복원",
+      "level": 14
+    },
+    "27068": {
+      "title": "이미지 보정 작업",
+      "level": 16
+    },
+    "27069": {
+      "title": "리그전",
+      "level": 17
+    },
+    "27070": {
+      "title": "전설의 고대 광산 탈출",
+      "level": 17
+    },
+    "27071": {
+      "title": "크루스칼 알고리즘",
+      "level": 22
+    },
+    "27072": {
+      "title": "Maxtrix",
+      "level": 22
+    },
+    "27073": {
+      "title": "Pasture Fences",
+      "level": 0
+    },
+    "27074": {
+      "title": "Strolling Cows",
+      "level": 15
+    },
+    "27075": {
+      "title": "Secret Milk Pipes",
+      "level": 0
+    },
+    "27077": {
+      "title": "16강과 쿼리",
+      "level": 9
+    },
+    "27078": {
+      "title": "Wiggle Numbers",
+      "level": 0
+    },
+    "27079": {
+      "title": "Superwords",
+      "level": 0
+    },
+    "27080": {
+      "title": "Cow Brainiacs",
+      "level": 0
+    },
+    "27081": {
+      "title": "Dessert",
+      "level": 0
+    },
+    "27082": {
+      "title": "Extra Krunch",
+      "level": 0
+    },
+    "27083": {
+      "title": "BUY LOW, BUY LOWER",
       "level": 0
     }
   }
