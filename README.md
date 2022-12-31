@@ -1,4 +1,4 @@
-# BOJ-extended <img align="right" src="icons/icon48.png"/>
+# BOJ-extended <img align="right" src="src/icons/icon48.png"/>
 
 [![build](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml/badge.svg?branch=release)](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml) ![GitHub issues](https://img.shields.io/github/issues-raw/joonas-yoon/boj-extended) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/mfcaadoifdifdnigjmfbekjbhehibfel?label=users%40chrome) ![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome Web Store Ratings](https://img.shields.io/chrome-web-store/rating/mfcaadoifdifdnigjmfbekjbhehibfel) ![GitHub all releases](https://img.shields.io/github/downloads/joonas-yoon/boj-extended/total)
 ![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green?logo=googlechrome) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green?logo=googlechrome) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial-orange?logo=safari) ![FireFox 91.0.2](https://img.shields.io/badge/firefox-91.0.2%20partial%20%7C%20v1.7.5.1-orange?logo=firefox) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjoonas-yoon%2Fboj-extended)](#)
@@ -44,7 +44,7 @@ Google Chrome의 경우, 웹 스토어에서 최신 버전을 설치할 수 있�
             </li>
             <li>
                (NOTE) Safari의 정책으로 1.5.3 버전까지만 지원됩니다. <br/>
-               <a href="https://github.com/joonas-yoon/boj-extended/releases/download/v1.5.8/boj-extended-for-safari-1.15.3.dmg" target="_blank">dmg 파일</a>을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행<br/>
+               <a href="https://github.com/joonas-yoon/boj-extended/releases/download/v1.5.8/boj-extended-for-safari-1.5.3.dmg" target="_blank">dmg 파일</a>을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행<br/>
                (애플리케이션 폴더 내부로 복사한 파일을 실행해야 합니다.)
             </li>
             <li>
