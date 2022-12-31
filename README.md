@@ -39,18 +39,19 @@ Google Chrome의 경우, 웹 스토어에서 최신 버전을 설치할 수 있�
          <summary><strong>직접 설치하기 (Safari)</strong></summary>
          <ol>
             <li>
-               '개발자용' 메뉴에서 '서명되지 않은 확장프로그램 허용' 옵션 체크</br>
+               '개발자용' 메뉴에서 '서명되지 않은 확장프로그램 허용' 옵션 체크<br/>
                (개발자용 메뉴 활성화: 환경설정 - 고급 - 메뉴 막대에서 개발자용 메뉴 보기)
             </li>
             <li>
-               extension.dmg 파일을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행</br>
+               (NOTE) Safari의 정책으로 1.5.3 버전까지만 지원됩니다. <br/>
+               <a href="https://github.com/joonas-yoon/boj-extended/releases/download/v1.5.8/boj-extended-for-safari-1.15.3.dmg" target="_blank">dmg 파일</a>을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행<br/>
                (애플리케이션 폴더 내부로 복사한 파일을 실행해야 합니다.)
             </li>
             <li>
                사파리 확장프로그램 설정에 추가된 BOJ extension 체크
             </li>
             <li>
-               <a href="https://www.acmicpc.net" target="_blank">백준 온라인 저지 사이트</a>에 접속 후 주소창 왼쪽에 나타난 BOJ extension 클릭 후<br>
+               <a href="https://www.acmicpc.net" target="_blank">백준 온라인 저지 사이트</a>에 접속 후 주소창 왼쪽에 나타난 BOJ extension 클릭 후<br/>
                <i>'이 웹페이지에서 항상 허용'</i> 선택
             </li>
          </ol>
