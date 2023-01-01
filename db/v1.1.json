@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2022-12-31 19:27:37.919507",
+  "last_updated": "2023-01-01 19:27:35.881928",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3400,7 +3400,7 @@
     },
     "1857": {
       "title": "발레리노",
-      "level": 20
+      "level": 21
     },
     "1858": {
       "title": "기울기가 가장 큰 두 점",
@@ -10496,7 +10496,7 @@
     },
     "3674": {
       "title": "Fractal",
-      "level": 0
+      "level": 19
     },
     "3675": {
       "title": "Mountain Road",
@@ -33620,7 +33620,7 @@
     },
     "9952": {
       "title": "Bree's pantry",
-      "level": 8
+      "level": 9
     },
     "9953": {
       "title": "Paula's search",
@@ -35224,7 +35224,7 @@
     },
     "10363": {
       "title": "Circle and Marble",
-      "level": 0
+      "level": 18
     },
     "10364": {
       "title": "Group of Strangers",
@@ -35240,7 +35240,7 @@
     },
     "10367": {
       "title": "Túnel de Rata",
-      "level": 0
+      "level": 16
     },
     "10368": {
       "title": "Best Position",
@@ -35252,7 +35252,7 @@
     },
     "10370": {
       "title": "Ball",
-      "level": 18
+      "level": 19
     },
     "10371": {
       "title": "Irrigation Lines",
@@ -56752,7 +56752,7 @@
     },
     "15859": {
       "title": "Citations",
-      "level": 0
+      "level": 15
     },
     "15860": {
       "title": "Ninety-nine",
@@ -59268,7 +59268,7 @@
     },
     "16498": {
       "title": "작은 벌점",
-      "level": 10
+      "level": 11
     },
     "16499": {
       "title": "동일한 단어 그룹화하기",
@@ -76932,7 +76932,7 @@
     },
     "20957": {
       "title": "농부 비니",
-      "level": 12
+      "level": 13
     },
     "20958": {
       "title": "아린과 슬롯머신",
@@ -92512,7 +92512,7 @@
     },
     "24939": {
       "title": "Boardle",
-      "level": 7
+      "level": 8
     },
     "24940": {
       "title": "Split the GSHS",
@@ -92600,7 +92600,7 @@
     },
     "24961": {
       "title": "Planning Railroad Discontinuation",
-      "level": 0
+      "level": 24
     },
     "24962": {
       "title": "It’s Surely Complex",
@@ -94596,7 +94596,7 @@
     },
     "25495": {
       "title": "에어팟",
-      "level": 4
+      "level": 3
     },
     "25496": {
       "title": "장신구 명장 임스",
@@ -95564,7 +95564,7 @@
     },
     "25756": {
       "title": "방어율 무시 계산하기",
-      "level": 2
+      "level": 3
     },
     "25757": {
       "title": "임스와 함께하는 미니게임",
@@ -96692,7 +96692,7 @@
     },
     "26038": {
       "title": "지수 · 로그와 테일러 다항식(Small)",
-      "level": 20
+      "level": 19
     },
     "26039": {
       "title": "Kapr2kar's r0utine",
@@ -98918,6 +98918,54 @@
       "title": "이게 게임이냐?",
       "level": 16
     },
+    "26607": {
+      "title": "시로코와 은행털기",
+      "level": 12
+    },
+    "26608": {
+      "title": "캠핑하기",
+      "level": 20
+    },
+    "26609": {
+      "title": "합의 곱의 절댓값의 최댓값",
+      "level": 21
+    },
+    "26610": {
+      "title": "돌게임과 쿼리",
+      "level": 21
+    },
+    "26611": {
+      "title": "겨울 축제",
+      "level": 18
+    },
+    "26612": {
+      "title": "infinite XYZ",
+      "level": 18
+    },
+    "26613": {
+      "title": "수열과 구간과 구간과 구간과 쿼리",
+      "level": 21
+    },
+    "26614": {
+      "title": "주고받기",
+      "level": 20
+    },
+    "26615": {
+      "title": "다오의 행사 계획하기",
+      "level": 17
+    },
+    "26616": {
+      "title": "통역사",
+      "level": 21
+    },
+    "26617": {
+      "title": "선물교류",
+      "level": 24
+    },
+    "26618": {
+      "title": "정기 모임 4",
+      "level": 22
+    },
     "26619": {
       "title": "Gra w karty",
       "level": 0
@@ -100532,11 +100580,11 @@
     },
     "27038": {
       "title": "Elite Eating",
-      "level": 0
+      "level": 13
     },
     "27039": {
       "title": "Sweet Butter",
-      "level": 0
+      "level": 12
     },
     "27040": {
       "title": "Golf",
@@ -100548,7 +100596,7 @@
     },
     "27042": {
       "title": "Bonbons",
-      "level": 0
+      "level": 11
     },
     "27043": {
       "title": "Cow Exhibition",
@@ -100560,7 +100608,7 @@
     },
     "27045": {
       "title": "Popular Cows",
-      "level": 0
+      "level": 17
     },
     "27046": {
       "title": "Beauty Contest",
@@ -100612,7 +100660,7 @@
     },
     "27058": {
       "title": "Message Decowding",
-      "level": 0
+      "level": 4
     },
     "27059": {
       "title": "Traffic Lights",
@@ -100648,7 +100696,7 @@
     },
     "27067": {
       "title": "데이터 순서 복원",
-      "level": 14
+      "level": 13
     },
     "27068": {
       "title": "이미지 보정 작업",
@@ -100696,7 +100744,7 @@
     },
     "27080": {
       "title": "Cow Brainiacs",
-      "level": 0
+      "level": 9
     },
     "27081": {
       "title": "Dessert",
@@ -100708,6 +100756,54 @@
     },
     "27083": {
       "title": "BUY LOW, BUY LOWER",
+      "level": 0
+    },
+    "27084": {
+      "title": "카드 뽑기",
+      "level": 10
+    },
+    "27085": {
+      "title": "최대 점수",
+      "level": 14
+    },
+    "27086": {
+      "title": "점수 내기",
+      "level": 14
+    },
+    "27087": {
+      "title": "직육면체",
+      "level": 11
+    },
+    "27088": {
+      "title": "앤디 공격하기",
+      "level": 18
+    },
+    "27089": {
+      "title": "공격 릴레이",
+      "level": 0
+    },
+    "27090": {
+      "title": "지뢰 피하기",
+      "level": 18
+    },
+    "27091": {
+      "title": "영어 시간",
+      "level": 22
+    },
+    "27092": {
+      "title": "생물 연구",
+      "level": 21
+    },
+    "27093": {
+      "title": "비밀 기지",
+      "level": 24
+    },
+    "27094": {
+      "title": "Ski Cows",
+      "level": 0
+    },
+    "27095": {
+      "title": "Cowtography",
       "level": 0
     }
   }
