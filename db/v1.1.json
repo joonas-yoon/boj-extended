@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-01 19:27:35.881928",
+  "last_updated": "2023-01-02 19:28:05.034087",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3940,7 +3940,7 @@
     },
     "1998": {
       "title": "이미지 압축",
-      "level": 16
+      "level": 15
     },
     "1999": {
       "title": "최대최소",
@@ -12672,7 +12672,7 @@
     },
     "4237": {
       "title": "비 단조성",
-      "level": 9
+      "level": 11
     },
     "4238": {
       "title": "Humidex",
@@ -29112,7 +29112,7 @@
     },
     "8716": {
       "title": "Pole",
-      "level": 3
+      "level": 4
     },
     "8717": {
       "title": "Taśma",
@@ -36724,7 +36724,7 @@
     },
     "10750": {
       "title": "Censoring",
-      "level": 11
+      "level": 12
     },
     "10751": {
       "title": "COW",
@@ -41304,7 +41304,7 @@
     },
     "11932": {
       "title": "트리와 K번째 수",
-      "level": 21
+      "level": 22
     },
     "11933": {
       "title": "공장들",
@@ -42372,7 +42372,7 @@
     },
     "12205": {
       "title": "Parentheses Order (Large)",
-      "level": 15
+      "level": 16
     },
     "12206": {
       "title": "Seven-segment Display (Small)",
@@ -44044,7 +44044,7 @@
     },
     "12630": {
       "title": "Crazy Rows (Large)",
-      "level": 15
+      "level": 16
     },
     "12631": {
       "title": "A Digging Problem (Small)",
@@ -48176,7 +48176,7 @@
     },
     "13677": {
       "title": "Apagando e Ganhando",
-      "level": 11
+      "level": 12
     },
     "13678": {
       "title": "Babel",
@@ -49748,7 +49748,7 @@
     },
     "14089": {
       "title": "Prosjek",
-      "level": 0
+      "level": 12
     },
     "14090": {
       "title": "RAM",
@@ -49756,15 +49756,15 @@
     },
     "14091": {
       "title": "Šetnja",
-      "level": 0
+      "level": 13
     },
     "14092": {
       "title": "Jabuka",
-      "level": 0
+      "level": 11
     },
     "14093": {
       "title": "Lektire",
-      "level": 0
+      "level": 17
     },
     "14094": {
       "title": "Magija",
@@ -49784,7 +49784,7 @@
     },
     "14098": {
       "title": "Tunel",
-      "level": 0
+      "level": 10
     },
     "14099": {
       "title": "Velika Tablica",
@@ -49824,7 +49824,7 @@
     },
     "14108": {
       "title": "Umnozak",
-      "level": 0
+      "level": 12
     },
     "14109": {
       "title": "Zvonimir",
@@ -51136,7 +51136,7 @@
     },
     "14436": {
       "title": "서로 다른 부분 문자열 쿼리",
-      "level": 26
+      "level": 27
     },
     "14437": {
       "title": "준오는 심술쟁이!!",
@@ -51420,7 +51420,7 @@
     },
     "14507": {
       "title": "Stars in a Can",
-      "level": 25
+      "level": 26
     },
     "14508": {
       "title": "Stretching Streamers",
@@ -52196,7 +52196,7 @@
     },
     "14712": {
       "title": "넴모넴모 (Easy)",
-      "level": 11
+      "level": 10
     },
     "14713": {
       "title": "앵무새",
@@ -67356,7 +67356,7 @@
     },
     "18544": {
       "title": "Incomparable Pairs",
-      "level": 26
+      "level": 27
     },
     "18545": {
       "title": "The Zong of the Zee",
@@ -69424,7 +69424,7 @@
     },
     "19062": {
       "title": "Mikhail's Problem",
-      "level": 0
+      "level": 27
     },
     "19063": {
       "title": "Rat-O-Matic",
@@ -79652,7 +79652,7 @@
     },
     "21637": {
       "title": "Prank at IKEA",
-      "level": 17
+      "level": 18
     },
     "21638": {
       "title": "SMS from MCHS",
@@ -84912,7 +84912,7 @@
     },
     "22996": {
       "title": "유니온 파인드 복원",
-      "level": 13
+      "level": 14
     },
     "22997": {
       "title": "미사일 폭격",
@@ -97936,7 +97936,7 @@
     },
     "26358": {
       "title": "A Prickly Problem – Gold Edition",
-      "level": 0
+      "level": 16
     },
     "26359": {
       "title": "A Prickly Problem – Black Edition",
@@ -99460,7 +99460,7 @@
     },
     "26755": {
       "title": "... albo psikus!",
-      "level": 11
+      "level": 10
     },
     "26756": {
       "title": "Dwukrotność sumy cyfr",
@@ -100760,7 +100760,7 @@
     },
     "27084": {
       "title": "카드 뽑기",
-      "level": 10
+      "level": 11
     },
     "27085": {
       "title": "최대 점수",
@@ -100780,7 +100780,7 @@
     },
     "27089": {
       "title": "공격 릴레이",
-      "level": 0
+      "level": 23
     },
     "27090": {
       "title": "지뢰 피하기",
@@ -100792,7 +100792,7 @@
     },
     "27092": {
       "title": "생물 연구",
-      "level": 21
+      "level": 22
     },
     "27093": {
       "title": "비밀 기지",
@@ -100804,6 +100804,62 @@
     },
     "27095": {
       "title": "Cowtography",
+      "level": 0
+    },
+    "27096": {
+      "title": "Cow Routes",
+      "level": 0
+    },
+    "27097": {
+      "title": "Largest Matrix Subsequences",
+      "level": 0
+    },
+    "27098": {
+      "title": "Double Smoothly Undulating Numbers",
+      "level": 0
+    },
+    "27099": {
+      "title": "Trapped",
+      "level": 12
+    },
+    "27100": {
+      "title": "Stamps",
+      "level": 6
+    },
+    "27101": {
+      "title": "Metric Matrices",
+      "level": 3
+    },
+    "27102": {
+      "title": "Gift Giving",
+      "level": 0
+    },
+    "27103": {
+      "title": "Building Blocks",
+      "level": 0
+    },
+    "27104": {
+      "title": "Cow Calisthenics",
+      "level": 0
+    },
+    "27105": {
+      "title": "Equal Summed Subsets",
+      "level": 10
+    },
+    "27106": {
+      "title": "Making Change",
+      "level": 3
+    },
+    "27107": {
+      "title": "Garage Sailing",
+      "level": 0
+    },
+    "27108": {
+      "title": "Ordered Fractions",
+      "level": 0
+    },
+    "27109": {
+      "title": "Spinning Wheels",
       "level": 0
     }
   }
