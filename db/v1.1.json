@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-02 19:28:05.034087",
+  "last_updated": "2023-01-03 19:28:06.012049",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7772,7 +7772,7 @@
     },
     "2971": {
       "title": "GLASNICI",
-      "level": 0
+      "level": 10
     },
     "2972": {
       "title": "KOLEKCIJA",
@@ -8388,7 +8388,7 @@
     },
     "3130": {
       "title": "붙인드롬",
-      "level": 11
+      "level": 12
     },
     "3131": {
       "title": "크리스마스 선물",
@@ -11372,7 +11372,7 @@
     },
     "3906": {
       "title": "How I Mathematician Wonder What You Are!",
-      "level": 22
+      "level": 23
     },
     "3907": {
       "title": "정육면체 8퍼즐",
@@ -15592,7 +15592,7 @@
     },
     "4983": {
       "title": "Curling 2.0",
-      "level": 11
+      "level": 12
     },
     "4984": {
       "title": "The Genome Database of All Space Life",
@@ -17868,7 +17868,7 @@
     },
     "5626": {
       "title": "제단",
-      "level": 16
+      "level": 17
     },
     "5627": {
       "title": "박테리아",
@@ -28996,7 +28996,7 @@
     },
     "8687": {
       "title": "Pasy Ruchu",
-      "level": 9
+      "level": 10
     },
     "8688": {
       "title": "Wycinek",
@@ -33560,7 +33560,7 @@
     },
     "9937": {
       "title": "직선으로 만드는 삼각형",
-      "level": 15
+      "level": 16
     },
     "9938": {
       "title": "방 청소",
@@ -37168,7 +37168,7 @@
     },
     "10863": {
       "title": "NAFTA",
-      "level": 21
+      "level": 22
     },
     "10864": {
       "title": "친구",
@@ -39508,7 +39508,7 @@
     },
     "11467": {
       "title": "Black and White",
-      "level": 13
+      "level": 12
     },
     "11468": {
       "title": "Concatenation",
@@ -39744,7 +39744,7 @@
     },
     "11526": {
       "title": "A Rational Sequence",
-      "level": 11
+      "level": 10
     },
     "11527": {
       "title": "Robots",
@@ -42664,7 +42664,7 @@
     },
     "12279": {
       "title": "Rational Number Tree (Large)",
-      "level": 13
+      "level": 12
     },
     "12280": {
       "title": "Sorting (Small)",
@@ -64120,7 +64120,7 @@
     },
     "17728": {
       "title": "Walls",
-      "level": 24
+      "level": 23
     },
     "17729": {
       "title": "Bus",
@@ -64736,7 +64736,7 @@
     },
     "17886": {
       "title": "Cars",
-      "level": 0
+      "level": 19
     },
     "17887": {
       "title": "Color Codes",
@@ -72076,7 +72076,7 @@
     },
     "19733": {
       "title": "Difficult Problems",
-      "level": 4
+      "level": 5
     },
     "19734": {
       "title": "Race of robots",
@@ -85696,7 +85696,7 @@
     },
     "23194": {
       "title": "Domes",
-      "level": 22
+      "level": 23
     },
     "23195": {
       "title": "Gene Folding",
@@ -86348,7 +86348,7 @@
     },
     "23358": {
       "title": "Quack Strikes Back (Easy)",
-      "level": 13
+      "level": 14
     },
     "23359": {
       "title": "Quack Strikes Back (Hard)",
@@ -91820,7 +91820,7 @@
     },
     "24764": {
       "title": "Wordle with Friends",
-      "level": 11
+      "level": 12
     },
     "24765": {
       "title": "Mia",
@@ -92656,7 +92656,7 @@
     },
     "24977": {
       "title": "Visits",
-      "level": 13
+      "level": 14
     },
     "24978": {
       "title": "Subset Equality",
@@ -98956,7 +98956,7 @@
     },
     "26616": {
       "title": "통역사",
-      "level": 21
+      "level": 20
     },
     "26617": {
       "title": "선물교류",
@@ -100296,15 +100296,15 @@
     },
     "26967": {
       "title": "Making Friends",
-      "level": 0
+      "level": 21
     },
     "26968": {
       "title": "Palindromes",
-      "level": 0
+      "level": 23
     },
     "26969": {
       "title": "Bribing Friends",
-      "level": 19
+      "level": 20
     },
     "26970": {
       "title": "Mountains",
@@ -100324,7 +100324,7 @@
     },
     "26974": {
       "title": "Range Reconstruction",
-      "level": 13
+      "level": 14
     },
     "26975": {
       "title": "Cow College",
@@ -100812,11 +100812,11 @@
     },
     "27097": {
       "title": "Largest Matrix Subsequences",
-      "level": 0
+      "level": 9
     },
     "27098": {
       "title": "Double Smoothly Undulating Numbers",
-      "level": 0
+      "level": 11
     },
     "27099": {
       "title": "Trapped",
@@ -100824,7 +100824,7 @@
     },
     "27100": {
       "title": "Stamps",
-      "level": 6
+      "level": 7
     },
     "27101": {
       "title": "Metric Matrices",
@@ -100856,7 +100856,7 @@
     },
     "27108": {
       "title": "Ordered Fractions",
-      "level": 0
+      "level": 5
     },
     "27109": {
       "title": "Spinning Wheels",
