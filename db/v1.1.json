@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-03 19:28:06.012049",
+  "last_updated": "2023-01-04 19:30:11.880453",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -772,7 +772,7 @@
     },
     "1192": {
       "title": "장갑",
-      "level": 23
+      "level": 22
     },
     "1193": {
       "title": "분수찾기",
@@ -5052,7 +5052,7 @@
     },
     "2281": {
       "title": "데스노트",
-      "level": 12
+      "level": 13
     },
     "2282": {
       "title": "산맥 그리기",
@@ -8904,7 +8904,7 @@
     },
     "3262": {
       "title": "BUHA",
-      "level": 7
+      "level": 9
     },
     "3263": {
       "title": "LIGNJA",
@@ -10184,7 +10184,7 @@
     },
     "3596": {
       "title": "크로스와 크로스",
-      "level": 18
+      "level": 19
     },
     "3597": {
       "title": "Domestic Networks",
@@ -15460,7 +15460,7 @@
     },
     "4950": {
       "title": "Identically Colored Panels Connection",
-      "level": 12
+      "level": 14
     },
     "4951": {
       "title": "And Then, How Many Are There?",
@@ -22568,7 +22568,7 @@
     },
     "6844": {
       "title": "Keep on Truckin’",
-      "level": 0
+      "level": 8
     },
     "6845": {
       "title": "Federal Voting Age",
@@ -28888,7 +28888,7 @@
     },
     "8660": {
       "title": "Sumy i różnice",
-      "level": 4
+      "level": 5
     },
     "8661": {
       "title": "Stopki",
@@ -40624,7 +40624,7 @@
     },
     "11746": {
       "title": "Landscape Improved",
-      "level": 18
+      "level": 19
     },
     "11747": {
       "title": "수열",
@@ -55708,7 +55708,7 @@
     },
     "15594": {
       "title": "Out of Place",
-      "level": 7
+      "level": 8
     },
     "15595": {
       "title": "정답 비율 계산하기",
@@ -55816,7 +55816,7 @@
     },
     "15623": {
       "title": "The Captain",
-      "level": 18
+      "level": 19
     },
     "15624": {
       "title": "피보나치 수 7",
@@ -56588,7 +56588,7 @@
     },
     "15817": {
       "title": "배수 공사",
-      "level": 10
+      "level": 11
     },
     "15818": {
       "title": "오버플로우와 모듈러",
@@ -57264,7 +57264,7 @@
     },
     "15997": {
       "title": "승부 예측",
-      "level": 13
+      "level": 14
     },
     "15998": {
       "title": "카카오머니",
@@ -57440,7 +57440,7 @@
     },
     "16041": {
       "title": "Double Clique",
-      "level": 23
+      "level": 22
     },
     "16042": {
       "title": "Flashing Fluorescents",
@@ -63884,11 +63884,11 @@
     },
     "17666": {
       "title": "Remittance",
-      "level": 22
+      "level": 21
     },
     "17667": {
       "title": "Virus Experiment",
-      "level": 25
+      "level": 26
     },
     "17668": {
       "title": "시험",
@@ -64080,7 +64080,7 @@
     },
     "17716": {
       "title": "Copy and Paste 2",
-      "level": 19
+      "level": 18
     },
     "17717": {
       "title": "En-JOI-able Logo Design",
@@ -65048,7 +65048,7 @@
     },
     "17964": {
       "title": "Tree Permutations",
-      "level": 24
+      "level": 25
     },
     "17965": {
       "title": "Absolute Game",
@@ -67512,7 +67512,7 @@
     },
     "18583": {
       "title": "Pawn’s Revenge",
-      "level": 11
+      "level": 10
     },
     "18584": {
       "title": "Deliveries",
@@ -70324,7 +70324,7 @@
     },
     "19290": {
       "title": "Hiding a Tree",
-      "level": 17
+      "level": 18
     },
     "19291": {
       "title": "Donut-shaped Enclosure",
@@ -94336,7 +94336,7 @@
     },
     "25422": {
       "title": "Seesaw",
-      "level": 21
+      "level": 22
     },
     "25423": {
       "title": "Giraffes",
@@ -98076,7 +98076,7 @@
     },
     "26393": {
       "title": "Čokolade",
-      "level": 15
+      "level": 16
     },
     "26394": {
       "title": "Berilij",
@@ -98948,7 +98948,7 @@
     },
     "26614": {
       "title": "주고받기",
-      "level": 20
+      "level": 21
     },
     "26615": {
       "title": "다오의 행사 계획하기",
@@ -100304,11 +100304,11 @@
     },
     "26969": {
       "title": "Bribing Friends",
-      "level": 20
+      "level": 19
     },
     "26970": {
       "title": "Mountains",
-      "level": 19
+      "level": 20
     },
     "26971": {
       "title": "Strongest Friendship Group",
@@ -100860,6 +100860,162 @@
     },
     "27109": {
       "title": "Spinning Wheels",
+      "level": 0
+    },
+    "27118": {
+      "title": "Bessie Come Home",
+      "level": 0
+    },
+    "27119": {
+      "title": "Milk Measuring",
+      "level": 0
+    },
+    "27120": {
+      "title": "Healthy Holsteins",
+      "level": 0
+    },
+    "27121": {
+      "title": "Big Barn",
+      "level": 0
+    },
+    "27122": {
+      "title": "Cow Tours",
+      "level": 0
+    },
+    "27123": {
+      "title": "Electric Fence",
+      "level": 0
+    },
+    "27124": {
+      "title": "Cow Scans",
+      "level": 0
+    },
+    "27125": {
+      "title": "Agri-Net",
+      "level": 0
+    },
+    "27126": {
+      "title": "Cryptcowgraphy",
+      "level": 0
+    },
+    "27127": {
+      "title": "Unique Quotients",
+      "level": 5
+    },
+    "27128": {
+      "title": "Reciprocal Omissions",
+      "level": 0
+    },
+    "27129": {
+      "title": "Checks",
+      "level": 0
+    },
+    "27130": {
+      "title": "Long Multiplication",
+      "level": 3
+    },
+    "27131": {
+      "title": "Different Dice",
+      "level": 0
+    },
+    "27132": {
+      "title": "Feed Ratios",
+      "level": 0
+    },
+    "27133": {
+      "title": "The Tamworth Two",
+      "level": 0
+    },
+    "27134": {
+      "title": "Subset Sums",
+      "level": 11
+    },
+    "27135": {
+      "title": "Traveling Cows",
+      "level": 0
+    },
+    "27136": {
+      "title": "Krunch",
+      "level": 0
+    },
+    "27137": {
+      "title": "Square Designs",
+      "level": 5
+    },
+    "27138": {
+      "title": "Runaround Numbers",
+      "level": 0
+    },
+    "27139": {
+      "title": "Score Inflation",
+      "level": 0
+    },
+    "27140": {
+      "title": "Ice Cream",
+      "level": 0
+    },
+    "27141": {
+      "title": "Counting Cows",
+      "level": 0
+    },
+    "27142": {
+      "title": "Herd Splitting",
+      "level": 0
+    },
+    "27143": {
+      "title": "Treasure Hunting",
+      "level": 0
+    },
+    "27144": {
+      "title": "Cow Pool",
+      "level": 0
+    },
+    "27145": {
+      "title": "Cows in Bed",
+      "level": 0
+    },
+    "27146": {
+      "title": "Word Diamonds",
+      "level": 0
+    },
+    "27147": {
+      "title": "Factorial Power",
+      "level": 0
+    },
+    "27148": {
+      "title": "Sum25",
+      "level": 0
+    },
+    "27149": {
+      "title": "Cows in Bed",
+      "level": 0
+    },
+    "27150": {
+      "title": "Highest Mountain",
+      "level": 0
+    },
+    "27151": {
+      "title": "COPS--Cows On Pogo Sticks",
+      "level": 0
+    },
+    "27152": {
+      "title": "Cow Sorting",
+      "level": 0
+    },
+    "27153": {
+      "title": "Achluphobic Angus",
+      "level": 0
+    },
+    "27154": {
+      "title": "Negative Number Bases",
+      "level": 0
+    },
+    "27155": {
+      "title": "Crossword Puzzle Words",
+      "level": 0
+    },
+    "27156": {
+      "title": "Cows on Parade",
       "level": 0
     }
   }
