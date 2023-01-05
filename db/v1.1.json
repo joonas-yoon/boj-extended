@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-04 19:30:11.880453",
+  "last_updated": "2023-01-05 19:28:33.959582",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6484,7 +6484,7 @@
     },
     "2645": {
       "title": "회로배치",
-      "level": 17
+      "level": 16
     },
     "2646": {
       "title": "같은 길이 막대기 만들기",
@@ -6756,7 +6756,7 @@
     },
     "2713": {
       "title": "규현이의 사랑을 담은 문자메시지",
-      "level": 8
+      "level": 9
     },
     "2714": {
       "title": "문자를 받은 승환이",
@@ -11956,7 +11956,7 @@
     },
     "4055": {
       "title": "파티가 좋아 파티가 좋아",
-      "level": 10
+      "level": 11
     },
     "4056": {
       "title": "스-스-스도쿠",
@@ -14052,7 +14052,7 @@
     },
     "4587": {
       "title": "이집트 분수",
-      "level": 11
+      "level": 10
     },
     "4588": {
       "title": "Up and Down",
@@ -16008,7 +16008,7 @@
     },
     "5087": {
       "title": "Card Cutting",
-      "level": 3
+      "level": 4
     },
     "5088": {
       "title": "Archaeological Digs",
@@ -17836,7 +17836,7 @@
     },
     "5618": {
       "title": "공약수",
-      "level": 4
+      "level": 3
     },
     "5619": {
       "title": "세 번째",
@@ -36352,7 +36352,7 @@
     },
     "10657": {
       "title": "Cow Jog",
-      "level": 6
+      "level": 7
     },
     "10658": {
       "title": "Learning by Example",
@@ -40840,7 +40840,7 @@
     },
     "11800": {
       "title": "Tawla",
-      "level": 4
+      "level": 3
     },
     "11801": {
       "title": "Feast Coins",
@@ -72216,7 +72216,7 @@
     },
     "19768": {
       "title": "Милый общий делитель",
-      "level": 6
+      "level": 7
     },
     "19769": {
       "title": "Робот",
@@ -77936,7 +77936,7 @@
     },
     "21208": {
       "title": "Gratitude",
-      "level": 8
+      "level": 9
     },
     "21209": {
       "title": "Rule 110",
@@ -78728,7 +78728,7 @@
     },
     "21406": {
       "title": "Строка",
-      "level": 0
+      "level": 4
     },
     "21407": {
       "title": "Театр",
@@ -84740,7 +84740,7 @@
     },
     "22953": {
       "title": "도도의 음식 준비",
-      "level": 11
+      "level": 12
     },
     "22954": {
       "title": "그래프 트리 분할",
@@ -96316,7 +96316,7 @@
     },
     "25944": {
       "title": "Bar Magnet",
-      "level": 0
+      "level": 21
     },
     "25945": {
       "title": "컨테이너 재배치",
@@ -96460,7 +96460,7 @@
     },
     "25980": {
       "title": "Abbreviated Aliases",
-      "level": 7
+      "level": 8
     },
     "25981": {
       "title": "Bubble-bubble Sort",
@@ -98588,7 +98588,7 @@
     },
     "26524": {
       "title": "방향 정하기",
-      "level": 10
+      "level": 11
     },
     "26525": {
       "title": "빙고",
@@ -98948,7 +98948,7 @@
     },
     "26614": {
       "title": "주고받기",
-      "level": 21
+      "level": 20
     },
     "26615": {
       "title": "다오의 행사 계획하기",
@@ -98956,7 +98956,7 @@
     },
     "26616": {
       "title": "통역사",
-      "level": 20
+      "level": 21
     },
     "26617": {
       "title": "선물교류",
@@ -100072,7 +100072,7 @@
     },
     "26911": {
       "title": "Limousinen",
-      "level": 0
+      "level": 8
     },
     "26912": {
       "title": "Översättning",
@@ -100212,7 +100212,7 @@
     },
     "26946": {
       "title": "Tomater",
-      "level": 5
+      "level": 4
     },
     "26947": {
       "title": "Klockan",
@@ -100412,7 +100412,7 @@
     },
     "26996": {
       "title": "Alignment of the Planets",
-      "level": 5
+      "level": 6
     },
     "26997": {
       "title": "Finding Bovine Roots",
@@ -100448,7 +100448,7 @@
     },
     "27005": {
       "title": "Navigating the City",
-      "level": 0
+      "level": 10
     },
     "27006": {
       "title": "Space Elevator",
@@ -100884,7 +100884,7 @@
     },
     "27123": {
       "title": "Electric Fence",
-      "level": 0
+      "level": 7
     },
     "27124": {
       "title": "Cow Scans",
