@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-06 19:28:16.772156",
+  "last_updated": "2023-01-07 19:27:31.016806",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2588,7 +2588,7 @@
     },
     "1652": {
       "title": "누울 자리를 찾아라",
-      "level": 5
+      "level": 6
     },
     "1653": {
       "title": "양팔 저울",
@@ -4860,7 +4860,7 @@
     },
     "2233": {
       "title": "사과나무",
-      "level": 15
+      "level": 14
     },
     "2234": {
       "title": "성곽",
@@ -4984,7 +4984,7 @@
     },
     "2264": {
       "title": "대칭 그림",
-      "level": 14
+      "level": 12
     },
     "2265": {
       "title": "거짓말쟁이",
@@ -5352,7 +5352,7 @@
     },
     "2359": {
       "title": "드라이브",
-      "level": 16
+      "level": 17
     },
     "2360": {
       "title": "Teleport",
@@ -7224,7 +7224,7 @@
     },
     "2834": {
       "title": "박스 정렬",
-      "level": 14
+      "level": 16
     },
     "2835": {
       "title": "인기도 조사",
@@ -8228,7 +8228,7 @@
     },
     "3090": {
       "title": "차이를 최소로",
-      "level": 19
+      "level": 18
     },
     "3091": {
       "title": "PEKAR",
@@ -9952,7 +9952,7 @@
     },
     "3538": {
       "title": "Journey",
-      "level": 0
+      "level": 25
     },
     "3539": {
       "title": "Kitchen Robot",
@@ -22624,7 +22624,7 @@
     },
     "6858": {
       "title": "It’s tough being a teen!",
-      "level": 10
+      "level": 11
     },
     "6859": {
       "title": "CCC Othello",
@@ -41744,7 +41744,7 @@
     },
     "12048": {
       "title": "Sums of Sums (Small)",
-      "level": 0
+      "level": 5
     },
     "12049": {
       "title": "Sums of Sums (Large)",
@@ -50476,7 +50476,7 @@
     },
     "14271": {
       "title": "그리드 게임",
-      "level": 10
+      "level": 11
     },
     "14272": {
       "title": "f(X) = A + X + B + X + C",
@@ -59132,7 +59132,7 @@
     },
     "16464": {
       "title": "가주아",
-      "level": 8
+      "level": 9
     },
     "16465": {
       "title": "Bookend",
@@ -65456,7 +65456,7 @@
     },
     "18066": {
       "title": "Move & Meet",
-      "level": 7
+      "level": 8
     },
     "18067": {
       "title": "Accurate Movement",
@@ -74420,7 +74420,7 @@
     },
     "20321": {
       "title": "Fenomenalni Fenjer",
-      "level": 0
+      "level": 12
     },
     "20322": {
       "title": "Gospodar Gljiva",
@@ -89724,7 +89724,7 @@
     },
     "24232": {
       "title": "망가진 나무",
-      "level": 14
+      "level": 15
     },
     "24233": {
       "title": "낚시",
@@ -93164,7 +93164,7 @@
     },
     "25107": {
       "title": "Letters",
-      "level": 7
+      "level": 8
     },
     "25108": {
       "title": "Lines in a grid",
@@ -95784,7 +95784,7 @@
     },
     "25811": {
       "title": "Really Nerdy Game",
-      "level": 16
+      "level": 18
     },
     "25812": {
       "title": "Nice Raises",
@@ -96252,7 +96252,7 @@
     },
     "25928": {
       "title": "Lightbulbs",
-      "level": 17
+      "level": 18
     },
     "25929": {
       "title": "Squaring the Triangle",
@@ -97808,7 +97808,7 @@
     },
     "26326": {
       "title": "Circles Inside a Square",
-      "level": 7
+      "level": 8
     },
     "26327": {
       "title": "Knightmare",
@@ -98236,7 +98236,7 @@
     },
     "26434": {
       "title": "Happy Subarrays",
-      "level": 16
+      "level": 17
     },
     "26435": {
       "title": "Cute Little Butterfly",
@@ -100292,11 +100292,11 @@
     },
     "26966": {
       "title": "Breakdown",
-      "level": 0
+      "level": 20
     },
     "26967": {
       "title": "Making Friends",
-      "level": 21
+      "level": 20
     },
     "26968": {
       "title": "Palindromes",
