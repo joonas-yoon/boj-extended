@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-07 19:27:31.016806",
+  "last_updated": "2023-01-08 19:28:23.560821",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -336,7 +336,7 @@
     },
     "1083": {
       "title": "소트",
-      "level": 12
+      "level": 11
     },
     "1084": {
       "title": "방 번호 2",
@@ -4248,7 +4248,7 @@
     },
     "2078": {
       "title": "무한이진트리",
-      "level": 8
+      "level": 9
     },
     "2079": {
       "title": "팰린드롬",
@@ -6408,7 +6408,7 @@
     },
     "2626": {
       "title": "헬기착륙장",
-      "level": 21
+      "level": 20
     },
     "2627": {
       "title": "트리회전",
@@ -15820,7 +15820,7 @@
     },
     "5040": {
       "title": "Playfair Cipher",
-      "level": 7
+      "level": 8
     },
     "5041": {
       "title": "Code Permutations",
@@ -17836,7 +17836,7 @@
     },
     "5618": {
       "title": "공약수",
-      "level": 3
+      "level": 4
     },
     "5619": {
       "title": "세 번째",
@@ -19360,7 +19360,7 @@
     },
     "6015": {
       "title": "Taking Turns",
-      "level": 0
+      "level": 13
     },
     "6016": {
       "title": "Shipping Around an Island",
@@ -30572,7 +30572,7 @@
     },
     "9082": {
       "title": "지뢰찾기",
-      "level": 11
+      "level": 12
     },
     "9083": {
       "title": "셔틀버스",
@@ -31460,7 +31460,7 @@
     },
     "9329": {
       "title": "패스트 푸드 상금",
-      "level": 5
+      "level": 6
     },
     "9330": {
       "title": "Seven Kingdoms",
@@ -34744,7 +34744,7 @@
     },
     "10243": {
       "title": "Fantastic Problem",
-      "level": 23
+      "level": 22
     },
     "10244": {
       "title": "최대공약수들",
@@ -34804,7 +34804,7 @@
     },
     "10258": {
       "title": "스위치 배열",
-      "level": 15
+      "level": 16
     },
     "10259": {
       "title": "Amanda Lounges",
@@ -45580,7 +45580,7 @@
     },
     "13015": {
       "title": "별 찍기 - 23",
-      "level": 6
+      "level": 7
     },
     "13016": {
       "title": "내 왼손에는 흑염룡이 잠들어 있다",
@@ -49372,7 +49372,7 @@
     },
     "13977": {
       "title": "이항 계수와 쿼리",
-      "level": 15
+      "level": 16
     },
     "13978": {
       "title": "Cameras",
@@ -50400,7 +50400,7 @@
     },
     "14252": {
       "title": "공약수열",
-      "level": 16
+      "level": 17
     },
     "14253": {
       "title": "문자열 배열",
@@ -54640,7 +54640,7 @@
     },
     "15327": {
       "title": "Garaža",
-      "level": 24
+      "level": 23
     },
     "15328": {
       "title": "산타의 선물",
@@ -54788,7 +54788,7 @@
     },
     "15364": {
       "title": "Krov",
-      "level": 21
+      "level": 22
     },
     "15365": {
       "title": "Ceste",
@@ -59924,7 +59924,7 @@
     },
     "16662": {
       "title": "Cactus Search",
-      "level": 21
+      "level": 22
     },
     "16663": {
       "title": "Distance Sum",
@@ -60104,7 +60104,7 @@
     },
     "16707": {
       "title": "American Tour",
-      "level": 18
+      "level": 19
     },
     "16708": {
       "title": "Bob's Rummikub",
@@ -62796,7 +62796,7 @@
     },
     "17393": {
       "title": "다이나믹 롤러",
-      "level": 7
+      "level": 8
     },
     "17394": {
       "title": "핑거 스냅",
@@ -70096,7 +70096,7 @@
     },
     "19230": {
       "title": "Datum",
-      "level": 7
+      "level": 8
     },
     "19231": {
       "title": "Birmingham",
@@ -70104,7 +70104,7 @@
     },
     "19234": {
       "title": "Trener",
-      "level": 0
+      "level": 16
     },
     "19235": {
       "title": "모노미노도미노",
@@ -74684,7 +74684,7 @@
     },
     "20390": {
       "title": "완전그래프의 최소 스패닝 트리",
-      "level": 14
+      "level": 15
     },
     "20391": {
       "title": "Treasure Hunt",
@@ -93128,7 +93128,7 @@
     },
     "25097": {
       "title": "Controlled Inflation",
-      "level": 13
+      "level": 14
     },
     "25099": {
       "title": "Anagram",
@@ -100124,7 +100124,7 @@
     },
     "26924": {
       "title": "Summa Summarum",
-      "level": 11
+      "level": 12
     },
     "26925": {
       "title": "Miniröj",
@@ -100168,11 +100168,11 @@
     },
     "26935": {
       "title": "Släktträffen",
-      "level": 0
+      "level": 7
     },
     "26936": {
       "title": "Gourmeten",
-      "level": 0
+      "level": 8
     },
     "26937": {
       "title": "Köpa Böcker",
@@ -100180,7 +100180,7 @@
     },
     "26938": {
       "title": "Lamps",
-      "level": 0
+      "level": 3
     },
     "26939": {
       "title": "Biblioteket",
@@ -100200,7 +100200,7 @@
     },
     "26943": {
       "title": "Turnering",
-      "level": 0
+      "level": 4
     },
     "26944": {
       "title": "Uppställning",
@@ -100224,7 +100224,7 @@
     },
     "26949": {
       "title": "Kylskåpstransport",
-      "level": 0
+      "level": 3
     },
     "26950": {
       "title": "Rymdpatrullen",
@@ -100596,7 +100596,7 @@
     },
     "27042": {
       "title": "Bonbons",
-      "level": 11
+      "level": 9
     },
     "27043": {
       "title": "Cow Exhibition",
@@ -100940,7 +100940,7 @@
     },
     "27137": {
       "title": "Square Designs",
-      "level": 5
+      "level": 6
     },
     "27138": {
       "title": "Runaround Numbers",
