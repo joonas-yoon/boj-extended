@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-08 19:28:23.560821",
+  "last_updated": "2023-01-09 19:28:46.386468",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -232,7 +232,7 @@
     },
     "1057": {
       "title": "토너먼트",
-      "level": 8
+      "level": 7
     },
     "1058": {
       "title": "친구",
@@ -3584,7 +3584,7 @@
     },
     "1905": {
       "title": "상자 쌓기",
-      "level": 13
+      "level": 12
     },
     "1906": {
       "title": "자리 바꾸기",
@@ -15720,7 +15720,7 @@
     },
     "5015": {
       "title": "ls",
-      "level": 14
+      "level": 13
     },
     "5016": {
       "title": "Knigs of the Forest",
@@ -30276,7 +30276,7 @@
     },
     "9008": {
       "title": "Castle",
-      "level": 19
+      "level": 20
     },
     "9009": {
       "title": "피보나치",
@@ -45544,7 +45544,7 @@
     },
     "13006": {
       "title": "키위쥬스",
-      "level": 19
+      "level": 20
     },
     "13007": {
       "title": "ntopia",
@@ -50824,7 +50824,7 @@
     },
     "14358": {
       "title": "Red Tape Committee (Large)",
-      "level": 18
+      "level": 19
     },
     "14359": {
       "title": "The Gardener of Seville (Small)",
@@ -52248,7 +52248,7 @@
     },
     "14725": {
       "title": "개미굴",
-      "level": 14
+      "level": 13
     },
     "14726": {
       "title": "신용카드 판별",
@@ -58152,7 +58152,7 @@
     },
     "16219": {
       "title": "정렬하기",
-      "level": 12
+      "level": 11
     },
     "16220": {
       "title": "회의",
@@ -75180,7 +75180,7 @@
     },
     "20519": {
       "title": "Гармоничная последовательность",
-      "level": 0
+      "level": 18
     },
     "20520": {
       "title": "Оборона крепости",
@@ -89532,7 +89532,7 @@
     },
     "24164": {
       "title": "光ファイバー網の整備 (Fiber)",
-      "level": 9
+      "level": 10
     },
     "24165": {
       "title": "直線 (Lines)",
@@ -97084,7 +97084,7 @@
     },
     "26140": {
       "title": "Take On Meme",
-      "level": 25
+      "level": 26
     },
     "26141": {
       "title": "Where Am I?",
@@ -98944,7 +98944,7 @@
     },
     "26613": {
       "title": "수열과 구간과 구간과 구간과 쿼리",
-      "level": 21
+      "level": 22
     },
     "26614": {
       "title": "주고받기",
@@ -99996,7 +99996,7 @@
     },
     "26891": {
       "title": "Tävlingssal",
-      "level": 4
+      "level": 5
     },
     "26892": {
       "title": "Felskrivning",
@@ -100160,7 +100160,7 @@
     },
     "26933": {
       "title": "Receptet",
-      "level": 0
+      "level": 3
     },
     "26934": {
       "title": "The Bus Card",
@@ -100176,11 +100176,11 @@
     },
     "26937": {
       "title": "Köpa Böcker",
-      "level": 0
+      "level": 15
     },
     "26938": {
       "title": "Lamps",
-      "level": 3
+      "level": 4
     },
     "26939": {
       "title": "Biblioteket",
@@ -100224,7 +100224,7 @@
     },
     "26949": {
       "title": "Kylskåpstransport",
-      "level": 3
+      "level": 4
     },
     "26950": {
       "title": "Rymdpatrullen",
@@ -100862,6 +100862,38 @@
       "title": "Spinning Wheels",
       "level": 0
     },
+    "27110": {
+      "title": "특식 배부",
+      "level": 2
+    },
+    "27111": {
+      "title": "출입 기록",
+      "level": 6
+    },
+    "27112": {
+      "title": "시간 외 근무 멈춰!",
+      "level": 9
+    },
+    "27113": {
+      "title": "잠입",
+      "level": 11
+    },
+    "27114": {
+      "title": "조교의 맹연습",
+      "level": 12
+    },
+    "27115": {
+      "title": "통신소",
+      "level": 14
+    },
+    "27116": {
+      "title": "전투기 출격",
+      "level": 15
+    },
+    "27117": {
+      "title": "위문공연",
+      "level": 16
+    },
     "27118": {
       "title": "Bessie Come Home",
       "level": 0
@@ -101017,6 +101049,14 @@
     "27156": {
       "title": "Cows on Parade",
       "level": 0
+    },
+    "27157": {
+      "title": "GGANALi",
+      "level": 17
+    },
+    "27158": {
+      "title": "펜토미노",
+      "level": 24
     }
   }
 }
