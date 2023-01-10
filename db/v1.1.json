@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-09 19:28:46.386468",
+  "last_updated": "2023-01-10 19:28:32.002614",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7488,7 +7488,7 @@
     },
     "2900": {
       "title": "프로그램",
-      "level": 13
+      "level": 14
     },
     "2901": {
       "title": "CHUCK",
@@ -27264,7 +27264,7 @@
     },
     "8252": {
       "title": "Renowacja dróg",
-      "level": 22
+      "level": 23
     },
     "8253": {
       "title": "Nożyczki",
@@ -30084,7 +30084,7 @@
     },
     "8959": {
       "title": "Stuttering Strings",
-      "level": 8
+      "level": 9
     },
     "8960": {
       "title": "PushPush",
@@ -32956,7 +32956,7 @@
     },
     "9716": {
       "title": "Table",
-      "level": 12
+      "level": 13
     },
     "9717": {
       "title": "Huge Knight",
@@ -41236,7 +41236,7 @@
     },
     "11914": {
       "title": "배낭 문제 준비하기",
-      "level": 0
+      "level": 20
     },
     "11915": {
       "title": "전선 연결하기",
@@ -41532,7 +41532,7 @@
     },
     "11989": {
       "title": "단층",
-      "level": 22
+      "level": 23
     },
     "11990": {
       "title": "Load Balancing (Platinum)",
@@ -44432,7 +44432,7 @@
     },
     "12727": {
       "title": "Numbers (Small)",
-      "level": 12
+      "level": 13
     },
     "12728": {
       "title": "n제곱 계산",
@@ -46700,7 +46700,7 @@
     },
     "13307": {
       "title": "레이저 센서",
-      "level": 23
+      "level": 24
     },
     "13308": {
       "title": "주유소",
@@ -47140,7 +47140,7 @@
     },
     "13417": {
       "title": "카드 문자열",
-      "level": 8
+      "level": 7
     },
     "13418": {
       "title": "학교 탐방하기",
@@ -48964,7 +48964,7 @@
     },
     "13874": {
       "title": "Internet Trouble",
-      "level": 0
+      "level": 22
     },
     "13875": {
       "title": "Just in Time",
@@ -57400,7 +57400,7 @@
     },
     "16031": {
       "title": "Triangles",
-      "level": 0
+      "level": 19
     },
     "16032": {
       "title": "Income Inequality",
@@ -61284,7 +61284,7 @@
     },
     "17004": {
       "title": "Subsequences in Substrings",
-      "level": 15
+      "level": 14
     },
     "17005": {
       "title": "Knight of the Tarot Cards",
@@ -62340,7 +62340,7 @@
     },
     "17279": {
       "title": "홀수 부분열",
-      "level": 14
+      "level": 15
     },
     "17280": {
       "title": "카풀 매칭",
@@ -65560,7 +65560,7 @@
     },
     "18092": {
       "title": "Slagalica",
-      "level": 11
+      "level": 13
     },
     "18093": {
       "title": "Checker",
@@ -75180,7 +75180,7 @@
     },
     "20519": {
       "title": "Гармоничная последовательность",
-      "level": 18
+      "level": 17
     },
     "20520": {
       "title": "Оборона крепости",
@@ -85188,7 +85188,7 @@
     },
     "23067": {
       "title": "Tortoise",
-      "level": 0
+      "level": 24
     },
     "23068": {
       "title": "Wells",
@@ -86576,7 +86576,7 @@
     },
     "23415": {
       "title": "Boxes on a Shelf",
-      "level": 7
+      "level": 8
     },
     "23416": {
       "title": "Two Slicers",
@@ -97268,7 +97268,7 @@
     },
     "26186": {
       "title": "Bandits",
-      "level": 0
+      "level": 25
     },
     "26187": {
       "title": "Combination Locks",
@@ -100856,7 +100856,7 @@
     },
     "27108": {
       "title": "Ordered Fractions",
-      "level": 5
+      "level": 6
     },
     "27109": {
       "title": "Spinning Wheels",
@@ -101057,6 +101057,10 @@
     "27158": {
       "title": "펜토미노",
       "level": 24
+    },
+    "27173": {
+      "title": "수열과 쿼리 43",
+      "level": 22
     }
   }
 }
