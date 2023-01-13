@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-11 19:29:24.945925",
+  "last_updated": "2023-01-13 02:03:30.663874",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2240,7 +2240,7 @@
     },
     "1565": {
       "title": "수학",
-      "level": 13
+      "level": 12
     },
     "1566": {
       "title": "P배열",
@@ -3468,7 +3468,7 @@
     },
     "1874": {
       "title": "스택 수열",
-      "level": 8
+      "level": 9
     },
     "1875": {
       "title": "테트리스",
@@ -5832,7 +5832,7 @@
     },
     "2482": {
       "title": "색상환",
-      "level": 12
+      "level": 13
     },
     "2483": {
       "title": "병원",
@@ -24980,7 +24980,7 @@
     },
     "7630": {
       "title": "City Driving",
-      "level": 20
+      "level": 19
     },
     "7631": {
       "title": "Drunken Walk",
@@ -59528,7 +59528,7 @@
     },
     "16563": {
       "title": "어려운 소인수분해",
-      "level": 13
+      "level": 12
     },
     "16564": {
       "title": "히오스 프로게이머",
@@ -60772,7 +60772,7 @@
     },
     "16874": {
       "title": "Tours de Sales Force",
-      "level": 21
+      "level": 23
     },
     "16875": {
       "title": "Watch Where You Step",
@@ -63764,7 +63764,7 @@
     },
     "17636": {
       "title": "가로등",
-      "level": 24
+      "level": 23
     },
     "17637": {
       "title": "Count Squares",
@@ -65680,7 +65680,7 @@
     },
     "18122": {
       "title": "색깔 하노이 탑",
-      "level": 16
+      "level": 17
     },
     "18123": {
       "title": "평행우주",
@@ -68344,7 +68344,7 @@
     },
     "18791": {
       "title": "N의 배수 (2)",
-      "level": 22
+      "level": 23
     },
     "18792": {
       "title": "N의 배수 (3)",
@@ -83560,7 +83560,7 @@
     },
     "22653": {
       "title": "Strange Currency System",
-      "level": 9
+      "level": 12
     },
     "22654": {
       "title": "Tangram",
@@ -98640,7 +98640,7 @@
     },
     "26537": {
       "title": "Animal Conference",
-      "level": 0
+      "level": 5
     },
     "26538": {
       "title": "Scarecrows",
@@ -100316,7 +100316,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 18
+      "level": 17
     },
     "26973": {
       "title": "Circular Barn",
@@ -100368,7 +100368,7 @@
     },
     "26985": {
       "title": "Redundant Paths",
-      "level": 0
+      "level": 19
     },
     "26986": {
       "title": "Corral the Cows",
@@ -100856,7 +100856,7 @@
     },
     "27108": {
       "title": "Ordered Fractions",
-      "level": 6
+      "level": 7
     },
     "27109": {
       "title": "Spinning Wheels",
@@ -100916,7 +100916,7 @@
     },
     "27123": {
       "title": "Electric Fence",
-      "level": 8
+      "level": 9
     },
     "27124": {
       "title": "Cow Scans",
@@ -101060,7 +101060,151 @@
     },
     "27173": {
       "title": "수열과 쿼리 43",
-      "level": 22
+      "level": 23
+    },
+    "27174": {
+      "title": "Урок физкультуры",
+      "level": 0
+    },
+    "27175": {
+      "title": "Оптимизация закупок",
+      "level": 0
+    },
+    "27176": {
+      "title": "Интересные выходные",
+      "level": 0
+    },
+    "27177": {
+      "title": "Прожекторы",
+      "level": 0
+    },
+    "27178": {
+      "title": "Максимизация выигрыша",
+      "level": 0
+    },
+    "27179": {
+      "title": "Экспедиция на Сириус",
+      "level": 0
+    },
+    "27180": {
+      "title": "Тяжелый груз",
+      "level": 0
+    },
+    "27181": {
+      "title": "Большие вызовы",
+      "level": 0
+    },
+    "27182": {
+      "title": "Rain Diary",
+      "level": 0
+    },
+    "27183": {
+      "title": "Magnetic Games",
+      "level": 0
+    },
+    "27184": {
+      "title": "Campfire Riddle",
+      "level": 0
+    },
+    "27185": {
+      "title": "The Tree",
+      "level": 0
+    },
+    "27186": {
+      "title": "Just like pickle",
+      "level": 0
+    },
+    "27187": {
+      "title": "Lazy to Win",
+      "level": 0
+    },
+    "27188": {
+      "title": "The Length of the Sequence",
+      "level": 0
+    },
+    "27189": {
+      "title": "Pines",
+      "level": 0
+    },
+    "27190": {
+      "title": "Circus Performance",
+      "level": 0
+    },
+    "27191": {
+      "title": "Square Running",
+      "level": 0
+    },
+    "27192": {
+      "title": "Pick a Pair",
+      "level": 0
+    },
+    "27193": {
+      "title": "Shifting Roads",
+      "level": 0
+    },
+    "27194": {
+      "title": "Meeting Near the Fountain",
+      "level": 0
+    },
+    "27195": {
+      "title": "GPS Hack",
+      "level": 0
+    },
+    "27196": {
+      "title": "Tournament",
+      "level": 0
+    },
+    "27197": {
+      "title": "Gas Stations",
+      "level": 0
+    },
+    "27198": {
+      "title": "kex",
+      "level": 8
+    },
+    "27199": {
+      "title": "Bob's Average",
+      "level": 0
+    },
+    "27200": {
+      "title": "Loop around Lake",
+      "level": 0
+    },
+    "27201": {
+      "title": "One-dimensional Game",
+      "level": 0
+    },
+    "27202": {
+      "title": "Soviet Kindergarden",
+      "level": 0
+    },
+    "27203": {
+      "title": "Pyramid Construction",
+      "level": 0
+    },
+    "27204": {
+      "title": "The Fortress Defense",
+      "level": 0
+    },
+    "27205": {
+      "title": "Wires Puzzle",
+      "level": 14
+    },
+    "27206": {
+      "title": "Relay",
+      "level": 0
+    },
+    "27207": {
+      "title": "JOIG Tour",
+      "level": 0
+    },
+    "27208": {
+      "title": "Melons",
+      "level": 0
+    },
+    "27209": {
+      "title": "Airport",
+      "level": 0
     }
   }
 }
