@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-18 19:28:06.739817",
+  "last_updated": "2023-01-19 19:28:48.927890",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1456,7 +1456,7 @@
     },
     "1366": {
       "title": "기타 코드",
-      "level": 0
+      "level": 8
     },
     "1367": {
       "title": "타브 악보",
@@ -2136,7 +2136,7 @@
     },
     "1539": {
       "title": "이진 검색 트리",
-      "level": 16
+      "level": 17
     },
     "1540": {
       "title": "정사각형의 개수",
@@ -5736,7 +5736,7 @@
     },
     "2458": {
       "title": "키 순서",
-      "level": 13
+      "level": 12
     },
     "2459": {
       "title": "철사 자르기",
@@ -10944,7 +10944,7 @@
     },
     "3788": {
       "title": "Delta Encoding and Decoding",
-      "level": 0
+      "level": 8
     },
     "3789": {
       "title": "Hidden Password",
@@ -18452,7 +18452,7 @@
     },
     "5788": {
       "title": "Supermarket",
-      "level": 10
+      "level": 14
     },
     "5789": {
       "title": "한다 안한다",
@@ -21552,7 +21552,7 @@
     },
     "6589": {
       "title": "Heavy Cargo",
-      "level": 11
+      "level": 12
     },
     "6590": {
       "title": "덧셈 체인",
@@ -21984,7 +21984,7 @@
     },
     "6697": {
       "title": "Pizza delivery",
-      "level": 0
+      "level": 10
     },
     "6698": {
       "title": "Ball bearings",
@@ -21992,7 +21992,7 @@
     },
     "6699": {
       "title": "S-Nim",
-      "level": 0
+      "level": 17
     },
     "6700": {
       "title": "Sylvester construction",
@@ -30552,7 +30552,7 @@
     },
     "9077": {
       "title": "지뢰제거",
-      "level": 14
+      "level": 13
     },
     "9078": {
       "title": "정렬",
@@ -35692,7 +35692,7 @@
     },
     "10480": {
       "title": "Oddities",
-      "level": 3
+      "level": 2
     },
     "10481": {
       "title": "Ternarian Weights",
@@ -41640,7 +41640,7 @@
     },
     "12016": {
       "title": "라운드 로빈 스케줄러",
-      "level": 17
+      "level": 18
     },
     "12017": {
       "title": "CIRCUS",
@@ -42248,7 +42248,7 @@
     },
     "12174": {
       "title": "#include <Google I/O.h>",
-      "level": 5
+      "level": 4
     },
     "12175": {
       "title": "Dreary Design (Small)",
@@ -45756,7 +45756,7 @@
     },
     "13059": {
       "title": "Tourists",
-      "level": 16
+      "level": 17
     },
     "13060": {
       "title": "Whiteboard",
@@ -54592,7 +54592,7 @@
     },
     "15315": {
       "title": "태풍의 아들 KDH",
-      "level": 21
+      "level": 20
     },
     "15316": {
       "title": "현수시티",
@@ -61216,7 +61216,7 @@
     },
     "16987": {
       "title": "계란으로 계란치기",
-      "level": 10
+      "level": 11
     },
     "16988": {
       "title": "Baaaaaaaaaduk2 (Easy)",
@@ -61900,7 +61900,7 @@
     },
     "17167": {
       "title": "A Plus Equals B",
-      "level": 19
+      "level": 18
     },
     "17168": {
       "title": "Water Knows The Answers",
@@ -90520,7 +90520,7 @@
     },
     "24431": {
       "title": "유사 라임 게임",
-      "level": 6
+      "level": 7
     },
     "24432": {
       "title": "카드 놀이",
@@ -90528,7 +90528,7 @@
     },
     "24433": {
       "title": "정수 그래프",
-      "level": 17
+      "level": 18
     },
     "24434": {
       "title": "전력공급",
@@ -92144,7 +92144,7 @@
     },
     "24838": {
       "title": "배열 구간합 놀이",
-      "level": 11
+      "level": 12
     },
     "24839": {
       "title": "Speed Typing",
@@ -94460,7 +94460,7 @@
     },
     "25437": {
       "title": "Connected Towns",
-      "level": 21
+      "level": 22
     },
     "25438": {
       "title": "메기 농장",
@@ -97468,7 +97468,7 @@
     },
     "26217": {
       "title": "별꽃의 세레나데 (Easy)",
-      "level": 11
+      "level": 10
     },
     "26218": {
       "title": "생산 시스템 관리",
@@ -98532,7 +98532,7 @@
     },
     "26490": {
       "title": "Sumex",
-      "level": 0
+      "level": 22
     },
     "26491": {
       "title": "NiceSet",
@@ -98976,7 +98976,7 @@
     },
     "26601": {
       "title": "가장 작은 수",
-      "level": 17
+      "level": 16
     },
     "26602": {
       "title": "인생은 B와 D 사이의 C다.",
@@ -101256,7 +101256,7 @@
     },
     "27188": {
       "title": "The Length of the Sequence",
-      "level": 0
+      "level": 11
     },
     "27189": {
       "title": "Pines",
@@ -101408,7 +101408,7 @@
     },
     "27226": {
       "title": "Лестница из чисел",
-      "level": 3
+      "level": 4
     },
     "27227": {
       "title": "Дивизионы",
@@ -101496,7 +101496,7 @@
     },
     "27248": {
       "title": "Без неподвижных точек",
-      "level": 0
+      "level": 9
     },
     "27249": {
       "title": "Наибольший общий делитель",
@@ -101520,7 +101520,7 @@
     },
     "27254": {
       "title": "Фибоначчиевы суммы",
-      "level": 11
+      "level": 10
     },
     "27255": {
       "title": "Призы",
