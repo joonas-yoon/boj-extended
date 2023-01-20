@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-19 19:28:48.927890",
+  "last_updated": "2023-01-20 19:27:58.492596",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3036,7 +3036,7 @@
     },
     "1765": {
       "title": "닭싸움 팀 정하기",
-      "level": 15
+      "level": 14
     },
     "1766": {
       "title": "문제집",
@@ -4840,7 +4840,7 @@
     },
     "2228": {
       "title": "구간 나누기",
-      "level": 12
+      "level": 13
     },
     "2229": {
       "title": "조 짜기",
@@ -5476,7 +5476,7 @@
     },
     "2392": {
       "title": "다각형의 분할",
-      "level": 19
+      "level": 18
     },
     "2393": {
       "title": "Rook",
@@ -15900,7 +15900,7 @@
     },
     "5060": {
       "title": "무글 맵스",
-      "level": 13
+      "level": 14
     },
     "5061": {
       "title": "Amphiphilic Carbon Molecules",
@@ -18452,7 +18452,7 @@
     },
     "5788": {
       "title": "Supermarket",
-      "level": 14
+      "level": 16
     },
     "5789": {
       "title": "한다 안한다",
@@ -19016,7 +19016,7 @@
     },
     "5929": {
       "title": "Awkward Digits",
-      "level": 5
+      "level": 6
     },
     "5930": {
       "title": "Moo Sick",
@@ -19124,7 +19124,7 @@
     },
     "5956": {
       "title": "Symmetry",
-      "level": 4
+      "level": 5
     },
     "5957": {
       "title": "Cleaning the Dishes",
@@ -32044,7 +32044,7 @@
     },
     "9487": {
       "title": "Cut the Cake",
-      "level": 0
+      "level": 16
     },
     "9488": {
       "title": "The n Days of Christmas",
@@ -36368,7 +36368,7 @@
     },
     "10661": {
       "title": "Median Tree",
-      "level": 14
+      "level": 15
     },
     "10662": {
       "title": "Billiard",
@@ -43584,7 +43584,7 @@
     },
     "12515": {
       "title": "챔피언소트 (Small)",
-      "level": 17
+      "level": 18
     },
     "12516": {
       "title": "챔피언소트 (Large)",
@@ -44520,7 +44520,7 @@
     },
     "12750": {
       "title": "Park",
-      "level": 22
+      "level": 21
     },
     "12751": {
       "title": "Spiral",
@@ -45876,7 +45876,7 @@
     },
     "13089": {
       "title": "Donut Decoration",
-      "level": 17
+      "level": 18
     },
     "13090": {
       "title": "Shortest Bridge",
@@ -50208,7 +50208,7 @@
     },
     "14204": {
       "title": "표 정렬",
-      "level": 12
+      "level": 11
     },
     "14205": {
       "title": "함수",
@@ -51076,7 +51076,7 @@
     },
     "14421": {
       "title": "The Kingdom of JOIOI",
-      "level": 20
+      "level": 19
     },
     "14422": {
       "title": "Soccer",
@@ -54804,7 +54804,7 @@
     },
     "15368": {
       "title": "Birokracija",
-      "level": 11
+      "level": 12
     },
     "15369": {
       "title": "Karte",
@@ -55272,7 +55272,7 @@
     },
     "15485": {
       "title": "\\(a^ib^jc^k\\)",
-      "level": 13
+      "level": 14
     },
     "15486": {
       "title": "퇴사 2",
@@ -56944,7 +56944,7 @@
     },
     "15909": {
       "title": "토르의 여행",
-      "level": 17
+      "level": 18
     },
     "15910": {
       "title": "바나나나빠나나",
@@ -56956,7 +56956,7 @@
     },
     "15912": {
       "title": "우주선 만들기",
-      "level": 14
+      "level": 13
     },
     "15913": {
       "title": "가위 바위 보 999",
@@ -70564,7 +70564,7 @@
     },
     "19350": {
       "title": "Endgame",
-      "level": 0
+      "level": 21
     },
     "19351": {
       "title": "Evacuation",
@@ -71452,7 +71452,7 @@
     },
     "19572": {
       "title": "가뭄(Small)",
-      "level": 4
+      "level": 3
     },
     "19573": {
       "title": "꿀벌",
@@ -74228,7 +74228,7 @@
     },
     "20273": {
       "title": "You’ve goat me stumped",
-      "level": 0
+      "level": 7
     },
     "20274": {
       "title": "256 shades of Gray",
@@ -74516,7 +74516,7 @@
     },
     "20345": {
       "title": "XOR Sort",
-      "level": 0
+      "level": 22
     },
     "20346": {
       "title": "Card Trick",
@@ -77416,7 +77416,7 @@
     },
     "21078": {
       "title": "Minimum Spanning Tree",
-      "level": 23
+      "level": 21
     },
     "21079": {
       "title": "Horses",
@@ -89864,7 +89864,7 @@
     },
     "24267": {
       "title": "알고리즘 수업 - 알고리즘의 수행 시간 6",
-      "level": 3
+      "level": 4
     },
     "24268": {
       "title": "2022는 무엇이 특별할까?",
@@ -90544,7 +90544,7 @@
     },
     "24437": {
       "title": "사탕 골고루 먹기",
-      "level": 12
+      "level": 17
     },
     "24439": {
       "title": "바리스타의 힘",
@@ -96936,7 +96936,7 @@
     },
     "26079": {
       "title": "곰곰이의 벼락치기",
-      "level": 16
+      "level": 17
     },
     "26080": {
       "title": "곰곰이와 하카타",
@@ -98308,7 +98308,7 @@
     },
     "26432": {
       "title": "Walktober",
-      "level": 0
+      "level": 3
     },
     "26433": {
       "title": "Curling",
