@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-20 19:27:58.492596",
+  "last_updated": "2023-01-21 19:27:28.157049",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1000,7 +1000,7 @@
     },
     "1250": {
       "title": "색칠된 공들",
-      "level": 24
+      "level": 25
     },
     "1251": {
       "title": "단어 나누기",
@@ -13472,7 +13472,7 @@
     },
     "4441": {
       "title": "Saruman’s Level Up",
-      "level": 11
+      "level": 12
     },
     "4442": {
       "title": "빌보의 생일",
@@ -13480,7 +13480,7 @@
     },
     "4443": {
       "title": "Spellcasting",
-      "level": 0
+      "level": 12
     },
     "4444": {
       "title": "Temple Build",
@@ -13812,7 +13812,7 @@
     },
     "4527": {
       "title": "Patterns and Pictures",
-      "level": 0
+      "level": 8
     },
     "4528": {
       "title": "No Wormholes Were Harmed...",
@@ -14952,7 +14952,7 @@
     },
     "4819": {
       "title": "Chain Code",
-      "level": 0
+      "level": 8
     },
     "4820": {
       "title": "Task",
@@ -17000,7 +17000,7 @@
     },
     "5395": {
       "title": "Snooker",
-      "level": 0
+      "level": 10
     },
     "5396": {
       "title": "Pie Division",
@@ -19668,7 +19668,7 @@
     },
     "6093": {
       "title": "Competition",
-      "level": 0
+      "level": 12
     },
     "6094": {
       "title": "The Leprechaun",
@@ -31428,7 +31428,7 @@
     },
     "9321": {
       "title": "Dreaded Alternating Game",
-      "level": 0
+      "level": 12
     },
     "9322": {
       "title": "철벽 보안 알고리즘",
@@ -31820,7 +31820,7 @@
     },
     "9431": {
       "title": "Virology",
-      "level": 0
+      "level": 10
     },
     "9432": {
       "title": "Worst Case Scenario",
@@ -32132,7 +32132,7 @@
     },
     "9509": {
       "title": "Interstellar Trade",
-      "level": 0
+      "level": 9
     },
     "9510": {
       "title": "Janeway’s Journey",
@@ -34116,7 +34116,7 @@
     },
     "10085": {
       "title": "Tickets",
-      "level": 0
+      "level": 7
     },
     "10086": {
       "title": "Andres Iniesta",
@@ -36072,7 +36072,7 @@
     },
     "10575": {
       "title": "Top 25",
-      "level": 0
+      "level": 9
     },
     "10576": {
       "title": "Wrench",
@@ -36144,7 +36144,7 @@
     },
     "10605": {
       "title": "드래곤 죽이기",
-      "level": 16
+      "level": 17
     },
     "10606": {
       "title": "Toll",
@@ -41520,7 +41520,7 @@
     },
     "11986": {
       "title": "スタンプラリー ２ (Collecting Stamps 2)",
-      "level": 14
+      "level": 13
     },
     "11987": {
       "title": "鉄道運賃 (Train Fare)",
@@ -49380,7 +49380,7 @@
     },
     "13979": {
       "title": "Contest Strategy",
-      "level": 0
+      "level": 13
     },
     "13980": {
       "title": "Maximum Islands",
@@ -55552,7 +55552,7 @@
     },
     "15555": {
       "title": "Dango Maker",
-      "level": 21
+      "level": 20
     },
     "15556": {
       "title": "Commuter Pass",
@@ -64684,7 +64684,7 @@
     },
     "17873": {
       "title": "Regional Team Names",
-      "level": 0
+      "level": 6
     },
     "17874": {
       "title": "Piece of Cake!",
@@ -65712,7 +65712,7 @@
     },
     "18130": {
       "title": "여름나기",
-      "level": 4
+      "level": 5
     },
     "18131": {
       "title": "치삼이의 플레이리스트",
@@ -68572,27 +68572,27 @@
     },
     "18849": {
       "title": "Legendary Dango Maker 1",
-      "level": 19
+      "level": 20
     },
     "18850": {
       "title": "Legendary Dango Maker 2",
-      "level": 19
+      "level": 20
     },
     "18851": {
       "title": "Legendary Dango Maker 3",
-      "level": 19
+      "level": 20
     },
     "18852": {
       "title": "Legendary Dango Maker 4",
-      "level": 0
+      "level": 20
     },
     "18853": {
       "title": "Legendary Dango Maker 5",
-      "level": 0
+      "level": 21
     },
     "18854": {
       "title": "Legendary Dango Maker 6",
-      "level": 19
+      "level": 20
     },
     "18855": {
       "title": "Treatment Project",
@@ -72392,7 +72392,7 @@
     },
     "19812": {
       "title": "Planet Nine",
-      "level": 11
+      "level": 12
     },
     "19813": {
       "title": "Dates",
@@ -73148,7 +73148,7 @@
     },
     "20001": {
       "title": "고무오리 디버깅",
-      "level": 5
+      "level": 4
     },
     "20002": {
       "title": "사과나무",
@@ -78880,7 +78880,7 @@
     },
     "21444": {
       "title": "Космические захватчики",
-      "level": 5
+      "level": 4
     },
     "21445": {
       "title": "Пробежки по Манхэттену",
@@ -79220,7 +79220,7 @@
     },
     "21529": {
       "title": "Кастинг",
-      "level": 5
+      "level": 4
     },
     "21530": {
       "title": "Города",
@@ -84572,7 +84572,7 @@
     },
     "22910": {
       "title": "Matrygons",
-      "level": 16
+      "level": 17
     },
     "22911": {
       "title": "Hidden Pancakes",
@@ -85316,7 +85316,7 @@
     },
     "23099": {
       "title": "Pickpockets",
-      "level": 0
+      "level": 20
     },
     "23100": {
       "title": "Storage Problems",
@@ -89012,7 +89012,7 @@
     },
     "24026": {
       "title": "기차 여행",
-      "level": 19
+      "level": 20
     },
     "24027": {
       "title": "두 트리",
@@ -89372,11 +89372,11 @@
     },
     "24118": {
       "title": "シムロード (SimRoad) 1",
-      "level": 0
+      "level": 19
     },
     "24119": {
       "title": "シムロード (SimRoad) 2",
-      "level": 0
+      "level": 19
     },
     "24120": {
       "title": "シムロード (SimRoad) 3",
@@ -93264,7 +93264,7 @@
     },
     "25123": {
       "title": "좋은 단순 경로",
-      "level": 14
+      "level": 15
     },
     "25124": {
       "title": "Letter Blocks",
@@ -93588,7 +93588,7 @@
     },
     "25207": {
       "title": "바벨탑의 저주",
-      "level": 19
+      "level": 20
     },
     "25208": {
       "title": "새벽의 탐정 게임",
@@ -93628,7 +93628,7 @@
     },
     "25218": {
       "title": "케이크 자르기",
-      "level": 0
+      "level": 15
     },
     "25219": {
       "title": "Alternating Heights",
@@ -94256,7 +94256,7 @@
     },
     "25383": {
       "title": "주사위",
-      "level": 0
+      "level": 17
     },
     "25384": {
       "title": "니은숲 예술가",
@@ -99028,7 +99028,7 @@
     },
     "26614": {
       "title": "주고받기",
-      "level": 20
+      "level": 21
     },
     "26615": {
       "title": "다오의 행사 계획하기",
@@ -100116,7 +100116,7 @@
     },
     "26902": {
       "title": "IP-adresser",
-      "level": 0
+      "level": 10
     },
     "26903": {
       "title": "Ståskrivbordet",
@@ -101368,7 +101368,7 @@
     },
     "27216": {
       "title": "Хаотические разбиения",
-      "level": 0
+      "level": 10
     },
     "27217": {
       "title": "Кратные отрезки",
@@ -101472,7 +101472,7 @@
     },
     "27242": {
       "title": "Против постулата Бертрана",
-      "level": 0
+      "level": 10
     },
     "27243": {
       "title": "Двоичные единицы",
@@ -101536,7 +101536,7 @@
     },
     "27258": {
       "title": "Дроби",
-      "level": 0
+      "level": 5
     },
     "27259": {
       "title": "Разноцветные диагонали",
