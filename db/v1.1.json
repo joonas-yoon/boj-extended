@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-21 19:27:28.157049",
+  "last_updated": "2023-01-22 19:28:01.293981",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3660,7 +3660,7 @@
     },
     "1925": {
       "title": "삼각형",
-      "level": 6
+      "level": 7
     },
     "1926": {
       "title": "그림",
@@ -12096,7 +12096,7 @@
     },
     "4090": {
       "title": "뱀파이어 숫자",
-      "level": 12
+      "level": 11
     },
     "4091": {
       "title": "Balloons",
@@ -13032,7 +13032,7 @@
     },
     "4327": {
       "title": "Combination Lock",
-      "level": 3
+      "level": 4
     },
     "4328": {
       "title": "기초 나머지 계산",
@@ -21044,7 +21044,7 @@
     },
     "6458": {
       "title": "Circle Through Three Points",
-      "level": 15
+      "level": 12
     },
     "6460": {
       "title": "Pizza Anyone?",
@@ -32768,7 +32768,7 @@
     },
     "9669": {
       "title": "UTRKA",
-      "level": 21
+      "level": 22
     },
     "9670": {
       "title": "Movie",
@@ -41564,7 +41564,7 @@
     },
     "11997": {
       "title": "Load Balancing (Silver)",
-      "level": 12
+      "level": 13
     },
     "11998": {
       "title": "Milk Pails (Silver)",
@@ -51172,7 +51172,7 @@
     },
     "14445": {
       "title": "케이크(?) 자르기",
-      "level": 9
+      "level": 10
     },
     "14446": {
       "title": "Promotion Counting",
@@ -51192,7 +51192,7 @@
     },
     "14450": {
       "title": "Hoof, Paper, Scissors (Gold)",
-      "level": 14
+      "level": 13
     },
     "14451": {
       "title": "안대 낀 스피드러너",
@@ -69788,7 +69788,7 @@
     },
     "19153": {
       "title": "Jordan",
-      "level": 21
+      "level": 22
     },
     "19154": {
       "title": "Kolmogorov",
@@ -77488,7 +77488,7 @@
     },
     "21096": {
       "title": "Binary Search Tree",
-      "level": 0
+      "level": 28
     },
     "21097": {
       "title": "Circle",
@@ -78768,7 +78768,7 @@
     },
     "21416": {
       "title": "Гонки",
-      "level": 0
+      "level": 11
     },
     "21417": {
       "title": "Перемешивание",
@@ -86404,7 +86404,7 @@
     },
     "23372": {
       "title": "Ice Growth",
-      "level": 11
+      "level": 10
     },
     "23373": {
       "title": "Jack the Mole",
@@ -92840,7 +92840,7 @@
     },
     "25014": {
       "title": "열차의 이동",
-      "level": 25
+      "level": 24
     },
     "25015": {
       "title": "아이싱",
@@ -94256,7 +94256,7 @@
     },
     "25383": {
       "title": "주사위",
-      "level": 17
+      "level": 19
     },
     "25384": {
       "title": "니은숲 예술가",
@@ -100972,7 +100972,7 @@
     },
     "27117": {
       "title": "위문공연",
-      "level": 16
+      "level": 17
     },
     "27118": {
       "title": "Bessie Come Home",
@@ -101609,6 +101609,38 @@
     "27276": {
       "title": "Робот",
       "level": 0
+    },
+    "27277": {
+      "title": "장기자랑",
+      "level": 7
+    },
+    "27278": {
+      "title": "영내순환버스",
+      "level": 10
+    },
+    "27279": {
+      "title": "조사전달",
+      "level": 11
+    },
+    "27280": {
+      "title": "이기적인 목봉 체조 (Easy)",
+      "level": 12
+    },
+    "27281": {
+      "title": "운전병의 딜레마",
+      "level": 14
+    },
+    "27282": {
+      "title": "체육 대회",
+      "level": 0
+    },
+    "27283": {
+      "title": "MVP 투표",
+      "level": 0
+    },
+    "27284": {
+      "title": "이기적인 목봉 체조 (Hard)",
+      "level": 19
     },
     "27285": {
       "title": "L-Board",
