@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-22 19:28:01.293981",
+  "last_updated": "2023-01-24 19:13:27.377116",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4324,7 +4324,7 @@
     },
     "2097": {
       "title": "조약돌",
-      "level": 5
+      "level": 6
     },
     "2098": {
       "title": "외판원 순회",
@@ -6200,7 +6200,7 @@
     },
     "2574": {
       "title": "마법색종이",
-      "level": 22
+      "level": 23
     },
     "2575": {
       "title": "수열",
@@ -10088,7 +10088,7 @@
     },
     "3572": {
       "title": "Billboard",
-      "level": 15
+      "level": 16
     },
     "3573": {
       "title": "Class",
@@ -11592,7 +11592,7 @@
     },
     "3964": {
       "title": "팩토리얼과 거듭제곱",
-      "level": 13
+      "level": 14
     },
     "3965": {
       "title": "Genetic Fraud",
@@ -11640,7 +11640,7 @@
     },
     "3976": {
       "title": "역습",
-      "level": 8
+      "level": 9
     },
     "3977": {
       "title": "축구 전술",
@@ -17552,7 +17552,7 @@
     },
     "5547": {
       "title": "일루미네이션",
-      "level": 11
+      "level": 12
     },
     "5548": {
       "title": "지그재그 숫자",
@@ -19748,7 +19748,7 @@
     },
     "6114": {
       "title": "Ski Lessons",
-      "level": 11
+      "level": 12
     },
     "6115": {
       "title": "Work Scheduling",
@@ -25908,7 +25908,7 @@
     },
     "7907": {
       "title": "Bytean Road Race",
-      "level": 23
+      "level": 24
     },
     "7908": {
       "title": "Will It Stop?",
@@ -33960,7 +33960,7 @@
     },
     "10046": {
       "title": "IOI 饅頭 (IOI Manju)",
-      "level": 15
+      "level": 14
     },
     "10047": {
       "title": "バームクーヘン (Baumkuchen)",
@@ -35112,7 +35112,7 @@
     },
     "10335": {
       "title": "There is No Alternative",
-      "level": 17
+      "level": 16
     },
     "10336": {
       "title": "Flipping Parentheses",
@@ -37084,7 +37084,7 @@
     },
     "10842": {
       "title": "여왕벌",
-      "level": 26
+      "level": 27
     },
     "10843": {
       "title": "가위 바위 보",
@@ -38760,7 +38760,7 @@
     },
     "11262": {
       "title": "Minions’ Master",
-      "level": 3
+      "level": 4
     },
     "11263": {
       "title": "PIN Code Possibilities",
@@ -42656,7 +42656,7 @@
     },
     "12277": {
       "title": "Read Phone Number (Large)",
-      "level": 8
+      "level": 9
     },
     "12278": {
       "title": "Rational Number Tree (Small)",
@@ -46156,7 +46156,7 @@
     },
     "13171": {
       "title": "A",
-      "level": 7
+      "level": 8
     },
     "13172": {
       "title": "Σ",
@@ -51152,7 +51152,7 @@
     },
     "14440": {
       "title": "정수 수열",
-      "level": 12
+      "level": 13
     },
     "14441": {
       "title": "사이클의 개수",
@@ -51188,7 +51188,7 @@
     },
     "14449": {
       "title": "Balanced Photo",
-      "level": 17
+      "level": 16
     },
     "14450": {
       "title": "Hoof, Paper, Scissors (Gold)",
@@ -52380,7 +52380,7 @@
     },
     "14759": {
       "title": "Party Games",
-      "level": 18
+      "level": 13
     },
     "14760": {
       "title": "Reverse Nonogram",
@@ -57820,7 +57820,7 @@
     },
     "16136": {
       "title": "준하의 정수론 과제 (Divmaster)",
-      "level": 18
+      "level": 19
     },
     "16137": {
       "title": "견우와 직녀",
@@ -68388,11 +68388,11 @@
     },
     "18803": {
       "title": "방역",
-      "level": 26
+      "level": 27
     },
     "18804": {
       "title": "대안적 사실",
-      "level": 26
+      "level": 27
     },
     "18805": {
       "title": "Tree and Easy Queries",
@@ -68732,7 +68732,7 @@
     },
     "18889": {
       "title": "New Year and Social Network",
-      "level": 26
+      "level": 27
     },
     "18890": {
       "title": "Seollal",
@@ -69788,7 +69788,7 @@
     },
     "19153": {
       "title": "Jordan",
-      "level": 22
+      "level": 21
     },
     "19154": {
       "title": "Kolmogorov",
@@ -72852,7 +72852,7 @@
     },
     "19927": {
       "title": "Vision Program",
-      "level": 21
+      "level": 22
     },
     "19928": {
       "title": "Sky Walking",
@@ -74872,7 +74872,7 @@
     },
     "20442": {
       "title": "ㅋㅋ루ㅋㅋ",
-      "level": 13
+      "level": 14
     },
     "20443": {
       "title": "배드민턴 대회",
@@ -74952,7 +74952,7 @@
     },
     "20462": {
       "title": "Программирование квадрокоптеров",
-      "level": 14
+      "level": 15
     },
     "20463": {
       "title": "Иллюзия сортировки",
@@ -75108,7 +75108,7 @@
     },
     "20501": {
       "title": "Facebook",
-      "level": 15
+      "level": 14
     },
     "20502": {
       "title": "Gum색",
@@ -80272,23 +80272,23 @@
     },
     "21796": {
       "title": "Road Service 2",
-      "level": 20
+      "level": 21
     },
     "21797": {
       "title": "Road Service 3",
-      "level": 20
+      "level": 21
     },
     "21798": {
       "title": "Road Service 4",
-      "level": 20
+      "level": 21
     },
     "21799": {
       "title": "Road Service 5",
-      "level": 20
+      "level": 21
     },
     "21800": {
       "title": "Road Service 6",
-      "level": 20
+      "level": 21
     },
     "21801": {
       "title": "Праздники",
@@ -90540,7 +90540,7 @@
     },
     "24436": {
       "title": "K번째 최단 경로",
-      "level": 14
+      "level": 15
     },
     "24437": {
       "title": "사탕 골고루 먹기",
@@ -91772,7 +91772,7 @@
     },
     "24745": {
       "title": "Morse Code Palindromes",
-      "level": 4
+      "level": 5
     },
     "24746": {
       "title": "Pooling PCR Tests",
@@ -92844,7 +92844,7 @@
     },
     "25015": {
       "title": "아이싱",
-      "level": 25
+      "level": 26
     },
     "25016": {
       "title": "진화",
@@ -95404,7 +95404,7 @@
     },
     "25696": {
       "title": "Smaller LCA",
-      "level": 0
+      "level": 29
     },
     "25697": {
       "title": "Noodle",
@@ -95844,7 +95844,7 @@
     },
     "25806": {
       "title": "Food Poisoning",
-      "level": 15
+      "level": 16
     },
     "25807": {
       "title": "Toboggan Ride",
@@ -95904,7 +95904,7 @@
     },
     "25821": {
       "title": "Palindromic Primes",
-      "level": 15
+      "level": 16
     },
     "25822": {
       "title": "2000문제 푼 임스",
@@ -100232,7 +100232,7 @@
     },
     "26931": {
       "title": "Tivoli",
-      "level": 0
+      "level": 16
     },
     "26932": {
       "title": "Gridvolleyboll",
@@ -101612,7 +101612,7 @@
     },
     "27277": {
       "title": "장기자랑",
-      "level": 7
+      "level": 10
     },
     "27278": {
       "title": "영내순환버스",
@@ -101620,7 +101620,7 @@
     },
     "27279": {
       "title": "조사전달",
-      "level": 11
+      "level": 12
     },
     "27280": {
       "title": "이기적인 목봉 체조 (Easy)",
@@ -101628,11 +101628,11 @@
     },
     "27281": {
       "title": "운전병의 딜레마",
-      "level": 14
+      "level": 16
     },
     "27282": {
       "title": "체육 대회",
-      "level": 0
+      "level": 16
     },
     "27283": {
       "title": "MVP 투표",
@@ -101640,7 +101640,7 @@
     },
     "27284": {
       "title": "이기적인 목봉 체조 (Hard)",
-      "level": 19
+      "level": 20
     },
     "27285": {
       "title": "L-Board",
