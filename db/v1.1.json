@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-24 19:13:27.377116",
+  "last_updated": "2023-01-25 19:13:34.260491",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8848,7 +8848,7 @@
     },
     "3247": {
       "title": "A1",
-      "level": 0
+      "level": 18
     },
     "3248": {
       "title": "JOZO",
@@ -13276,7 +13276,7 @@
     },
     "4388": {
       "title": "받아올림",
-      "level": 4
+      "level": 3
     },
     "4389": {
       "title": "Demerit Points",
@@ -17696,7 +17696,7 @@
     },
     "5583": {
       "title": "ぴょんぴょん川渡り",
-      "level": 17
+      "level": 15
     },
     "5584": {
       "title": "ペンキの色",
@@ -33976,7 +33976,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 25
+      "level": 26
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -57628,7 +57628,7 @@
     },
     "16088": {
       "title": "Finding Your Coach",
-      "level": 0
+      "level": 3
     },
     "16089": {
       "title": "Pipe Hype",
@@ -62796,7 +62796,7 @@
     },
     "17393": {
       "title": "다이나믹 롤러",
-      "level": 8
+      "level": 7
     },
     "17394": {
       "title": "핑거 스냅",
@@ -73688,7 +73688,7 @@
     },
     "20137": {
       "title": "Parrots",
-      "level": 21
+      "level": 20
     },
     "20138": {
       "title": "Vista 1",
@@ -73964,7 +73964,7 @@
     },
     "20207": {
       "title": "달력",
-      "level": 10
+      "level": 11
     },
     "20208": {
       "title": "진우의 민트초코우유",
@@ -80192,7 +80192,7 @@
     },
     "21776": {
       "title": "가희와 읽기 쓰기 놀이",
-      "level": 12
+      "level": 13
     },
     "21777": {
       "title": "리버스 가희와 프로세스 1",
@@ -86372,7 +86372,7 @@
     },
     "23364": {
       "title": "Almost Always",
-      "level": 13
+      "level": 12
     },
     "23365": {
       "title": "Buffered Buffet",
@@ -93044,7 +93044,7 @@
     },
     "25065": {
       "title": "Light Heavy Edges",
-      "level": 0
+      "level": 25
     },
     "25066": {
       "title": "Intersecting Paths",
@@ -101636,11 +101636,11 @@
     },
     "27283": {
       "title": "MVP 투표",
-      "level": 0
+      "level": 21
     },
     "27284": {
       "title": "이기적인 목봉 체조 (Hard)",
-      "level": 20
+      "level": 21
     },
     "27285": {
       "title": "L-Board",
