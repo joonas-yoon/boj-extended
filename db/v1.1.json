@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-25 19:13:34.260491",
+  "last_updated": "2023-01-27 19:13:11.178143",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -776,7 +776,7 @@
     },
     "1193": {
       "title": "분수찾기",
-      "level": 5
+      "level": 6
     },
     "1194": {
       "title": "달이 차오른다, 가자.",
@@ -2516,7 +2516,7 @@
     },
     "1634": {
       "title": "완전 이진트리",
-      "level": 12
+      "level": 14
     },
     "1635": {
       "title": "1 또는 -1",
@@ -3204,7 +3204,7 @@
     },
     "1808": {
       "title": "숌작업",
-      "level": 10
+      "level": 12
     },
     "1809": {
       "title": "Moo",
@@ -4648,7 +4648,7 @@
     },
     "2179": {
       "title": "비슷한 단어",
-      "level": 11
+      "level": 12
     },
     "2180": {
       "title": "소방서의 고민",
@@ -6796,7 +6796,7 @@
     },
     "2723": {
       "title": "눌러서 잠금 해제",
-      "level": 12
+      "level": 13
     },
     "2724": {
       "title": "메시지 변환기",
@@ -7772,7 +7772,7 @@
     },
     "2971": {
       "title": "GLASNICI",
-      "level": 10
+      "level": 12
     },
     "2972": {
       "title": "KOLEKCIJA",
@@ -7780,7 +7780,7 @@
     },
     "2973": {
       "title": "TAMNICA",
-      "level": 0
+      "level": 17
     },
     "2974": {
       "title": "자기곱",
@@ -8228,7 +8228,7 @@
     },
     "3090": {
       "title": "차이를 최소로",
-      "level": 18
+      "level": 19
     },
     "3091": {
       "title": "PEKAR",
@@ -12984,7 +12984,7 @@
     },
     "4315": {
       "title": "나무 위의 구슬",
-      "level": 15
+      "level": 16
     },
     "4316": {
       "title": "Tango Tango Insurrection",
@@ -17932,7 +17932,7 @@
     },
     "5646": {
       "title": "트리 경로",
-      "level": 0
+      "level": 17
     },
     "5647": {
       "title": "연속 합",
@@ -19220,7 +19220,7 @@
     },
     "5980": {
       "title": "Corn Maze",
-      "level": 11
+      "level": 12
     },
     "5981": {
       "title": "Cow Checkers",
@@ -19256,7 +19256,7 @@
     },
     "5989": {
       "title": "The Robot Plow",
-      "level": 5
+      "level": 4
     },
     "5990": {
       "title": "Barn Echoes",
@@ -19356,7 +19356,7 @@
     },
     "6014": {
       "title": "Shorter Musical Notes",
-      "level": 5
+      "level": 4
     },
     "6015": {
       "title": "Taking Turns",
@@ -21688,7 +21688,7 @@
     },
     "6623": {
       "title": "Arbitrage?",
-      "level": 0
+      "level": 14
     },
     "6624": {
       "title": "Bus Schedules",
@@ -22744,7 +22744,7 @@
     },
     "6890": {
       "title": "Simple Encryption",
-      "level": 4
+      "level": 5
     },
     "6891": {
       "title": "Fractals",
@@ -23860,7 +23860,7 @@
     },
     "7346": {
       "title": "유전자 함수",
-      "level": 13
+      "level": 14
     },
     "7347": {
       "title": "플립과 시프트",
@@ -33032,7 +33032,7 @@
     },
     "9736": {
       "title": "정이면체군",
-      "level": 12
+      "level": 0
     },
     "9737": {
       "title": "Area Between Outer Hull and Inner Hull",
@@ -36224,7 +36224,7 @@
     },
     "10625": {
       "title": "Decoding Ancient Messages",
-      "level": 0
+      "level": 23
     },
     "10626": {
       "title": "LR",
@@ -40684,7 +40684,7 @@
     },
     "11761": {
       "title": "Shuffling Along",
-      "level": 10
+      "level": 11
     },
     "11762": {
       "title": "A Towering Problem",
@@ -44812,7 +44812,7 @@
     },
     "12823": {
       "title": "Critical Projects",
-      "level": 21
+      "level": 22
     },
     "12824": {
       "title": "Connect Highways",
@@ -46300,7 +46300,7 @@
     },
     "13207": {
       "title": "Torres del Paine",
-      "level": 21
+      "level": 22
     },
     "13208": {
       "title": "승현이와 승현이",
@@ -47140,7 +47140,7 @@
     },
     "13417": {
       "title": "카드 문자열",
-      "level": 7
+      "level": 8
     },
     "13418": {
       "title": "학교 탐방하기",
@@ -52008,7 +52008,7 @@
     },
     "14655": {
       "title": "욱제는 도박쟁이야!!",
-      "level": 5
+      "level": 6
     },
     "14656": {
       "title": "조교는 새디스트야!!",
@@ -56652,7 +56652,7 @@
     },
     "15833": {
       "title": "Cheap Deliveries",
-      "level": 20
+      "level": 19
     },
     "15834": {
       "title": "Eli's Curious Mind",
@@ -71352,7 +71352,7 @@
     },
     "19547": {
       "title": "애완 트리",
-      "level": 22
+      "level": 23
     },
     "19548": {
       "title": "그건 망고가 아니라 고양이예요",
@@ -72480,7 +72480,7 @@
     },
     "19834": {
       "title": "School Olympiad",
-      "level": 0
+      "level": 9
     },
     "19835": {
       "title": "Pandemic 2",
@@ -76680,7 +76680,7 @@
     },
     "20894": {
       "title": "Brobygge",
-      "level": 18
+      "level": 17
     },
     "20895": {
       "title": "Hemkör",
@@ -78408,7 +78408,7 @@
     },
     "21326": {
       "title": "Lab planning",
-      "level": 0
+      "level": 11
     },
     "21327": {
       "title": "Quiz",
@@ -80232,7 +80232,7 @@
     },
     "21786": {
       "title": "Food Court",
-      "level": 22
+      "level": 23
     },
     "21787": {
       "title": "Escape Route",
@@ -80360,7 +80360,7 @@
     },
     "21819": {
       "title": "Acowdemia",
-      "level": 13
+      "level": 14
     },
     "21820": {
       "title": "Acowdemia I",
@@ -83568,7 +83568,7 @@
     },
     "22655": {
       "title": "Trading Ship",
-      "level": 12
+      "level": 14
     },
     "22656": {
       "title": "Princess' Gamble",
@@ -86416,7 +86416,7 @@
     },
     "23375": {
       "title": "Arm Coordination",
-      "level": 2
+      "level": 3
     },
     "23376": {
       "title": "BnPC",
@@ -95904,7 +95904,7 @@
     },
     "25821": {
       "title": "Palindromic Primes",
-      "level": 16
+      "level": 18
     },
     "25822": {
       "title": "2000문제 푼 임스",
@@ -96576,7 +96576,7 @@
     },
     "25989": {
       "title": "Jabbing Jets",
-      "level": 8
+      "level": 9
     },
     "25990": {
       "title": "Knitting Patterns",
@@ -97180,7 +97180,7 @@
     },
     "26144": {
       "title": "꺾이지 않는 마음 3",
-      "level": 28
+      "level": 27
     },
     "26145": {
       "title": "출제비 재분배",
@@ -98968,7 +98968,7 @@
     },
     "26599": {
       "title": "용 조련사 룰루",
-      "level": 14
+      "level": 15
     },
     "26600": {
       "title": "map, filter",
@@ -100048,7 +100048,7 @@
     },
     "26884": {
       "title": "Kent-buggen",
-      "level": 0
+      "level": 5
     },
     "26885": {
       "title": "Hesthoppning",
@@ -100100,7 +100100,7 @@
     },
     "26897": {
       "title": "Räkneuttrycket",
-      "level": 0
+      "level": 14
     },
     "26899": {
       "title": "Kohagen",
@@ -100628,7 +100628,7 @@
     },
     "27030": {
       "title": "Breeding",
-      "level": 0
+      "level": 11
     },
     "27031": {
       "title": "The Big Game",
@@ -101400,7 +101400,7 @@
     },
     "27224": {
       "title": "Викторина",
-      "level": 0
+      "level": 12
     },
     "27225": {
       "title": "Класс",
@@ -101628,15 +101628,15 @@
     },
     "27281": {
       "title": "운전병의 딜레마",
-      "level": 16
+      "level": 15
     },
     "27282": {
       "title": "체육 대회",
-      "level": 16
+      "level": 17
     },
     "27283": {
       "title": "MVP 투표",
-      "level": 21
+      "level": 20
     },
     "27284": {
       "title": "이기적인 목봉 체조 (Hard)",
@@ -101656,23 +101656,27 @@
     },
     "27288": {
       "title": "Voting Cities",
-      "level": 0
+      "level": 17
     },
     "27289": {
       "title": "Gym Badges",
-      "level": 0
+      "level": 22
     },
     "27290": {
       "title": "Towers",
-      "level": 0
+      "level": 23
     },
     "27291": {
       "title": "Grapevine",
-      "level": 0
+      "level": 23
     },
     "27292": {
       "title": "Fruits",
       "level": 0
+    },
+    "27293": {
+      "title": "거듭제곱의 합 2",
+      "level": 22
     }
   }
 }
