@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-27 19:13:11.178143",
+  "last_updated": "2023-01-28 19:12:42.832453",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7712,7 +7712,7 @@
     },
     "2956": {
       "title": "대칭 행렬",
-      "level": 21
+      "level": 22
     },
     "2957": {
       "title": "이진 탐색 트리",
@@ -9344,7 +9344,7 @@
     },
     "3377": {
       "title": "Ancient Manuscript",
-      "level": 0
+      "level": 16
     },
     "3378": {
       "title": "Bus Trip",
@@ -9916,7 +9916,7 @@
     },
     "3529": {
       "title": "Alien Communication Masterclass",
-      "level": 9
+      "level": 12
     },
     "3530": {
       "title": "Bug2",
@@ -9944,7 +9944,7 @@
     },
     "3536": {
       "title": "Horrible Truth",
-      "level": 0
+      "level": 11
     },
     "3537": {
       "title": "Ideal Contest",
@@ -17948,7 +17948,7 @@
     },
     "5650": {
       "title": "Software Licenses",
-      "level": 0
+      "level": 9
     },
     "5651": {
       "title": "완전 중요한 간선",
@@ -22744,7 +22744,7 @@
     },
     "6890": {
       "title": "Simple Encryption",
-      "level": 5
+      "level": 4
     },
     "6891": {
       "title": "Fractals",
@@ -36024,7 +36024,7 @@
     },
     "10563": {
       "title": "정수 게임",
-      "level": 16
+      "level": 17
     },
     "10564": {
       "title": "팔굽혀펴기",
@@ -44316,7 +44316,7 @@
     },
     "12698": {
       "title": "Portal (Large)",
-      "level": 17
+      "level": 16
     },
     "12699": {
       "title": "Igra",
@@ -52808,7 +52808,7 @@
     },
     "14866": {
       "title": "산만한 고양이",
-      "level": 21
+      "level": 20
     },
     "14867": {
       "title": "물통",
@@ -66240,7 +66240,7 @@
     },
     "18262": {
       "title": "Milk Pumping",
-      "level": 15
+      "level": 16
     },
     "18263": {
       "title": "Milk Visits",
@@ -79100,19 +79100,19 @@
     },
     "21499": {
       "title": "Автоматические друзья",
-      "level": 0
+      "level": 15
     },
     "21500": {
       "title": "Памятник",
-      "level": 0
+      "level": 17
     },
     "21501": {
       "title": "Вышивка жемчугом",
-      "level": 0
+      "level": 16
     },
     "21502": {
       "title": "Пингвиноведение",
-      "level": 0
+      "level": 23
     },
     "21503": {
       "title": "Поможем дикой природе",
@@ -80232,7 +80232,7 @@
     },
     "21786": {
       "title": "Food Court",
-      "level": 23
+      "level": 22
     },
     "21787": {
       "title": "Escape Route",
@@ -99184,7 +99184,7 @@
     },
     "26655": {
       "title": "바벨탑",
-      "level": 14
+      "level": 15
     },
     "26656": {
       "title": "점프킹",
@@ -99716,7 +99716,7 @@
     },
     "26800": {
       "title": "Kolekcjoner Bajtemonów 2",
-      "level": 0
+      "level": 22
     },
     "26801": {
       "title": "Droga do domu",
@@ -99736,7 +99736,7 @@
     },
     "26805": {
       "title": "Nawiasowania",
-      "level": 0
+      "level": 22
     },
     "26806": {
       "title": "Suma liczb pierwszych",
@@ -99892,7 +99892,7 @@
     },
     "26845": {
       "title": "Korale",
-      "level": 0
+      "level": 25
     },
     "26846": {
       "title": "Nadajniki",
