@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-01-28 19:12:42.832453",
+  "last_updated": "2023-01-29 19:13:13.570853",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3468,7 +3468,7 @@
     },
     "1874": {
       "title": "스택 수열",
-      "level": 9
+      "level": 8
     },
     "1875": {
       "title": "테트리스",
@@ -24384,7 +24384,7 @@
     },
     "7480": {
       "title": "Key Insertion",
-      "level": 19
+      "level": 20
     },
     "7481": {
       "title": "ATM놀이",
@@ -29728,7 +29728,7 @@
     },
     "8870": {
       "title": "Zadanie próbne",
-      "level": 11
+      "level": 10
     },
     "8871": {
       "title": "Zadanie próbne 2",
@@ -34636,7 +34636,7 @@
     },
     "10216": {
       "title": "Count Circle Groups",
-      "level": 11
+      "level": 12
     },
     "10217": {
       "title": "KCM Travel",
@@ -40412,7 +40412,7 @@
     },
     "11693": {
       "title": "n^m의 약수의 합",
-      "level": 14
+      "level": 15
     },
     "11694": {
       "title": "님 게임",
@@ -56892,7 +56892,7 @@
     },
     "15896": {
       "title": "&+ +&",
-      "level": 21
+      "level": 20
     },
     "15897": {
       "title": "잘못 구현한 에라토스테네스의 체",
@@ -59240,7 +59240,7 @@
     },
     "16491": {
       "title": "대피소 찾기",
-      "level": 16
+      "level": 15
     },
     "16492": {
       "title": "패턴 코드 진위",
@@ -63600,7 +63600,7 @@
     },
     "17595": {
       "title": "Summer Trip",
-      "level": 9
+      "level": 10
     },
     "17596": {
       "title": "Traveling Merchant",
@@ -65680,7 +65680,7 @@
     },
     "18122": {
       "title": "색깔 하노이 탑",
-      "level": 17
+      "level": 16
     },
     "18123": {
       "title": "평행우주",
@@ -73964,7 +73964,7 @@
     },
     "20207": {
       "title": "달력",
-      "level": 11
+      "level": 10
     },
     "20208": {
       "title": "진우의 민트초코우유",
@@ -80336,7 +80336,7 @@
     },
     "21813": {
       "title": "Balanced Subsets",
-      "level": 22
+      "level": 21
     },
     "21814": {
       "title": "United Cows of Farmer John",
@@ -81208,7 +81208,7 @@
     },
     "22041": {
       "title": "Alphabet Contest",
-      "level": 0
+      "level": 12
     },
     "22042": {
       "title": "Need More T-shirts!",
@@ -89540,7 +89540,7 @@
     },
     "24171": {
       "title": "복소수",
-      "level": 13
+      "level": 14
     },
     "24172": {
       "title": "Coloring",
@@ -93264,7 +93264,7 @@
     },
     "25123": {
       "title": "좋은 단순 경로",
-      "level": 15
+      "level": 16
     },
     "25124": {
       "title": "Letter Blocks",
@@ -93984,7 +93984,7 @@
     },
     "25315": {
       "title": "N수매화검법",
-      "level": 14
+      "level": 15
     },
     "25316": {
       "title": "수소철도 충전 시스템",
@@ -94256,7 +94256,7 @@
     },
     "25383": {
       "title": "주사위",
-      "level": 19
+      "level": 20
     },
     "25384": {
       "title": "니은숲 예술가",
@@ -97468,7 +97468,7 @@
     },
     "26217": {
       "title": "별꽃의 세레나데 (Easy)",
-      "level": 10
+      "level": 11
     },
     "26218": {
       "title": "생산 시스템 관리",
@@ -100668,7 +100668,7 @@
     },
     "27040": {
       "title": "Golf",
-      "level": 0
+      "level": 13
     },
     "27041": {
       "title": "Leapcow",
@@ -100800,7 +100800,7 @@
     },
     "27073": {
       "title": "Pasture Fences",
-      "level": 0
+      "level": 7
     },
     "27074": {
       "title": "Strolling Cows",
