@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-04 19:12:41.942412",
+  "last_updated": "2023-02-05 21:17:24.188694",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -688,7 +688,7 @@
     },
     "1171": {
       "title": "사오정",
-      "level": 20
+      "level": 19
     },
     "1172": {
       "title": "선인장 Automorphisms",
@@ -1744,7 +1744,7 @@
     },
     "1441": {
       "title": "나누어 질까",
-      "level": 16
+      "level": 15
     },
     "1442": {
       "title": "멋진 수",
@@ -2960,7 +2960,7 @@
     },
     "1746": {
       "title": "Cow Relays",
-      "level": 19
+      "level": 18
     },
     "1747": {
       "title": "소수&팰린드롬",
@@ -6624,7 +6624,7 @@
     },
     "2680": {
       "title": "QR",
-      "level": 13
+      "level": 14
     },
     "2681": {
       "title": "목장 주인 백승환의 선물",
@@ -8536,7 +8536,7 @@
     },
     "3167": {
       "title": "기차표 검사",
-      "level": 12
+      "level": 13
     },
     "3168": {
       "title": "stolni",
@@ -9036,7 +9036,7 @@
     },
     "3297": {
       "title": "POLYGON",
-      "level": 19
+      "level": 18
     },
     "3298": {
       "title": "WEDDING",
@@ -20328,11 +20328,11 @@
     },
     "6269": {
       "title": "Team Arrangement",
-      "level": 0
+      "level": 6
     },
     "6270": {
       "title": "Barbara Bennett's Wild Numbers",
-      "level": 0
+      "level": 7
     },
     "6271": {
       "title": "Calculating Taxi Fare",
@@ -28028,7 +28028,7 @@
     },
     "8443": {
       "title": "Superliczby w permutacji",
-      "level": 0
+      "level": 17
     },
     "8444": {
       "title": "Tomki",
@@ -30268,7 +30268,7 @@
     },
     "9006": {
       "title": "다리",
-      "level": 16
+      "level": 17
     },
     "9007": {
       "title": "카누 선수",
@@ -37736,7 +37736,7 @@
     },
     "10982": {
       "title": "행운쿠키 제작소",
-      "level": 17
+      "level": 16
     },
     "10983": {
       "title": "히기카드",
@@ -49996,7 +49996,7 @@
     },
     "14127": {
       "title": "Zone",
-      "level": 0
+      "level": 11
     },
     "14128": {
       "title": "Duzžine",
@@ -80588,7 +80588,7 @@
     },
     "21852": {
       "title": "밀림 점프",
-      "level": 21
+      "level": 22
     },
     "21853": {
       "title": "도로 폐쇄",
@@ -85101,6 +85101,10 @@
     "23019": {
       "title": "소용돌이",
       "level": 12
+    },
+    "23020": {
+      "title": "Climbers",
+      "level": 0
     },
     "23021": {
       "title": "등산로",
@@ -90642,6 +90646,10 @@
       "title": "사탕 골고루 먹기",
       "level": 17
     },
+    "24438": {
+      "title": "Password",
+      "level": 0
+    },
     "24439": {
       "title": "바리스타의 힘",
       "level": 16
@@ -92758,6 +92766,10 @@
       "title": "트리의 간선 바꾸기",
       "level": 21
     },
+    "24969": {
+      "title": "Traffickers",
+      "level": 0
+    },
     "24970": {
       "title": "균형 수",
       "level": 17
@@ -92780,11 +92792,11 @@
     },
     "24975": {
       "title": "Pair Programming",
-      "level": 18
+      "level": 19
     },
     "24976": {
       "title": "Balancing a Tree",
-      "level": 18
+      "level": 19
     },
     "24977": {
       "title": "Visits",
@@ -93670,6 +93682,14 @@
       "title": "보드 뒤집기 게임",
       "level": 16
     },
+    "25202": {
+      "title": "Colors",
+      "level": 0
+    },
+    "25203": {
+      "title": "Squirrel",
+      "level": 0
+    },
     "25204": {
       "title": "문자열 정렬",
       "level": 7
@@ -93721,6 +93741,10 @@
     "25216": {
       "title": "파밍 루트",
       "level": 15
+    },
+    "25217": {
+      "title": "W",
+      "level": 0
     },
     "25218": {
       "title": "케이크 자르기",
@@ -94936,7 +94960,7 @@
     },
     "25542": {
       "title": "약속 장소",
-      "level": 9
+      "level": 10
     },
     "25543": {
       "title": "X 만들기",
@@ -94956,7 +94980,7 @@
     },
     "25547": {
       "title": "신기한 숫자",
-      "level": 12
+      "level": 13
     },
     "25548": {
       "title": "신기한 숫자 2",
@@ -95452,7 +95476,7 @@
     },
     "25674": {
       "title": "Message Made of Noise",
-      "level": 8
+      "level": 11
     },
     "25682": {
       "title": "체스판 다시 칠하기 2",
@@ -98284,7 +98308,7 @@
     },
     "26399": {
       "title": "Lampice",
-      "level": 0
+      "level": 19
     },
     "26400": {
       "title": "Prijateljice",
