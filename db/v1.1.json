@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-09 19:14:46.073357",
+  "last_updated": "2023-02-10 19:14:24.797753",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2136,7 +2136,7 @@
     },
     "1539": {
       "title": "이진 검색 트리",
-      "level": 17
+      "level": 16
     },
     "1540": {
       "title": "정사각형의 개수",
@@ -10524,7 +10524,7 @@
     },
     "3681": {
       "title": "모빌",
-      "level": 15
+      "level": 16
     },
     "3682": {
       "title": "동치 증명",
@@ -14576,7 +14576,7 @@
     },
     "4718": {
       "title": "Not One Bit More",
-      "level": 18
+      "level": 17
     },
     "4719": {
       "title": "Abstract Extract",
@@ -15116,7 +15116,7 @@
     },
     "4861": {
       "title": "Faulty Odometer",
-      "level": 7
+      "level": 8
     },
     "4862": {
       "title": "마지막 자리",
@@ -23092,7 +23092,7 @@
     },
     "6982": {
       "title": "Quadtrees",
-      "level": 0
+      "level": 13
     },
     "6983": {
       "title": "Where's Waldorf?",
@@ -26128,7 +26128,7 @@
     },
     "7962": {
       "title": "A Journey to Mars",
-      "level": 16
+      "level": 17
     },
     "7963": {
       "title": "Bank Notes",
@@ -37164,7 +37164,7 @@
     },
     "10838": {
       "title": "트리",
-      "level": 15
+      "level": 16
     },
     "10839": {
       "title": "미술관",
@@ -44032,7 +44032,7 @@
     },
     "12601": {
       "title": "Polygraph (Small)",
-      "level": 11
+      "level": 12
     },
     "12602": {
       "title": "Polygraph (Large)",
@@ -45012,7 +45012,7 @@
     },
     "12847": {
       "title": "꿀 아르바이트",
-      "level": 7
+      "level": 8
     },
     "12848": {
       "title": "막대기 게임",
@@ -45700,7 +45700,7 @@
     },
     "13019": {
       "title": "A를 B로",
-      "level": 11
+      "level": 12
     },
     "13020": {
       "title": "좋은 집합",
@@ -57964,7 +57964,7 @@
     },
     "16144": {
       "title": "드로잉",
-      "level": 12
+      "level": 13
     },
     "16145": {
       "title": "Tide Pods",
@@ -65796,7 +65796,7 @@
     },
     "18122": {
       "title": "색깔 하노이 탑",
-      "level": 16
+      "level": 17
     },
     "18123": {
       "title": "평행우주",
@@ -66480,7 +66480,7 @@
     },
     "18293": {
       "title": "Environment-Friendly Travel",
-      "level": 17
+      "level": 16
     },
     "18294": {
       "title": "Biodiversity",
@@ -73640,7 +73640,7 @@
     },
     "20095": {
       "title": "Sudoku 2",
-      "level": 7
+      "level": 8
     },
     "20096": {
       "title": "Sudoku 3",
@@ -83072,7 +83072,7 @@
     },
     "22501": {
       "title": "Rectangular Stamps",
-      "level": 17
+      "level": 19
     },
     "22502": {
       "title": "Starting Line",
@@ -86440,7 +86440,7 @@
     },
     "23349": {
       "title": "졸업 사진",
-      "level": 9
+      "level": 10
     },
     "23350": {
       "title": "K 물류창고",
@@ -91436,7 +91436,7 @@
     },
     "24628": {
       "title": "Если сложить...",
-      "level": 9
+      "level": 10
     },
     "24629": {
       "title": "Генерация ключей",
@@ -91552,7 +91552,7 @@
     },
     "24657": {
       "title": "Edges, Colors and MST",
-      "level": 19
+      "level": 20
     },
     "24658": {
       "title": "Flatland Currency",
@@ -100236,7 +100236,7 @@
     },
     "26887": {
       "title": "Skridskor",
-      "level": 0
+      "level": 13
     },
     "26888": {
       "title": "Portaler",
