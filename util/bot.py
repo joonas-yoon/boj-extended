@@ -5,7 +5,6 @@ from datetime import datetime
 import os
 import json
 import requests
-import traceback
 import logging
 
 
@@ -47,7 +46,6 @@ def get_problem_details(ids):
         return None
     except Exception as err:
         logger.error(err)
-        traceback.logger.info_exception(err)
         return None
 
 

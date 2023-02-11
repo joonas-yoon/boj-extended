@@ -1,7 +1,7 @@
-# BOJ-extended <img align="right" src="icons/icon48.png"/>
+# BOJ-extended <img align="right" src="src/icons/icon48.png"/>
 
 [![build](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml/badge.svg?branch=release)](https://github.com/joonas-yoon/boj-extended/actions/workflows/build.yml) ![GitHub issues](https://img.shields.io/github/issues-raw/joonas-yoon/boj-extended) [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfcaadoifdifdnigjmfbekjbhehibfel)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/mfcaadoifdifdnigjmfbekjbhehibfel?label=users%40chrome) ![Chrome Web Store Rating Count](https://img.shields.io/chrome-web-store/rating-count/mfcaadoifdifdnigjmfbekjbhehibfel) ![Chrome Web Store Ratings](https://img.shields.io/chrome-web-store/rating/mfcaadoifdifdnigjmfbekjbhehibfel) ![GitHub all releases](https://img.shields.io/github/downloads/joonas-yoon/boj-extended/total)
-![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green?logo=googlechrome) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green?logo=googlechrome) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial-orange?logo=safari) ![FireFox 91.0.2](https://img.shields.io/badge/firefox-91.0.2%20partial%20%7C%20v1.7.5.1-orange?logo=firefox) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjoonas-yoon%2Fboj-extended)](#)
+![Chrome 55+](https://img.shields.io/badge/chrome-55%2B-green?logo=googlechrome) ![Whale 1.4+](https://img.shields.io/badge/whale-1.4%2B-green?logo=googlechrome) ![Safari 14.0](https://img.shields.io/badge/safari-14.0+%20partial%20%7C%20v1.5.3-orange?logo=safari) ![FireFox 91.0.2](https://img.shields.io/badge/firefox-91.0.2%20partial%20%7C%20v1.7.5.1-orange?logo=firefox) [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fjoonas-yoon%2Fboj-extended)](#)
 
 [![Chrome Web Store](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/UV4C4ybeBTsZt43U4xis.png)](https://chrome.google.com/webstore/detail/boj-%ED%94%84%EB%A1%9C%ED%95%84-%EB%AC%B8%EC%A0%9C-%EB%B3%B4%EA%B8%B0/mfcaadoifdifdnigjmfbekjbhehibfel) [![Naver Whale Store](docs/images/whalestore-sm.png)](https://store.whale.naver.com/detail/epdpeloboklojnaelckeihkghcgebhnp) [![FireFox Add-ONS](docs/images/firefox-sm.png)](https://addons.mozilla.org/ko/firefox/addon/boj-extended/)
 
@@ -39,18 +39,19 @@ Google Chrome의 경우, 웹 스토어에서 최신 버전을 설치할 수 있�
          <summary><strong>직접 설치하기 (Safari)</strong></summary>
          <ol>
             <li>
-               '개발자용' 메뉴에서 '서명되지 않은 확장프로그램 허용' 옵션 체크</br>
+               '개발자용' 메뉴에서 '서명되지 않은 확장프로그램 허용' 옵션 체크<br/>
                (개발자용 메뉴 활성화: 환경설정 - 고급 - 메뉴 막대에서 개발자용 메뉴 보기)
             </li>
             <li>
-               extension.dmg 파일을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행</br>
+               (NOTE) Safari의 정책으로 1.5.3 버전까지만 지원됩니다. <br/>
+               <a href="https://github.com/joonas-yoon/boj-extended/releases/download/v1.5.8/boj-extended-for-safari-1.5.3.dmg" target="_blank">dmg 파일</a>을 다운 받아 실행 후 boj extension을 애플리케이션 폴더로 복사 및 실행<br/>
                (애플리케이션 폴더 내부로 복사한 파일을 실행해야 합니다.)
             </li>
             <li>
                사파리 확장프로그램 설정에 추가된 BOJ extension 체크
             </li>
             <li>
-               <a href="https://www.acmicpc.net" target="_blank">백준 온라인 저지 사이트</a>에 접속 후 주소창 왼쪽에 나타난 BOJ extension 클릭 후<br>
+               <a href="https://www.acmicpc.net" target="_blank">백준 온라인 저지 사이트</a>에 접속 후 주소창 왼쪽에 나타난 BOJ extension 클릭 후<br/>
                <i>'이 웹페이지에서 항상 허용'</i> 선택
             </li>
          </ol>
