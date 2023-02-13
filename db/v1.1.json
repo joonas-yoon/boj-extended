@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-10 19:14:24.797753",
+  "last_updated": "2023-02-13 19:14:02.613433",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1276,7 +1276,7 @@
     },
     "1321": {
       "title": "군인",
-      "level": 17
+      "level": 16
     },
     "1322": {
       "title": "X와 K",
@@ -4452,7 +4452,7 @@
     },
     "2129": {
       "title": "드라이브 파이널",
-      "level": 14
+      "level": 15
     },
     "2130": {
       "title": "수조",
@@ -5316,7 +5316,7 @@
     },
     "2349": {
       "title": "무선 통신 기지국",
-      "level": 9
+      "level": 11
     },
     "2350": {
       "title": "대운하",
@@ -6808,7 +6808,7 @@
     },
     "2726": {
       "title": "삼각 N-Queen",
-      "level": 15
+      "level": 16
     },
     "2727": {
       "title": "2,3 거듭제곱의 합",
@@ -8624,7 +8624,7 @@
     },
     "3189": {
       "title": "tomo",
-      "level": 7
+      "level": 8
     },
     "3190": {
       "title": "뱀",
@@ -9864,7 +9864,7 @@
     },
     "3515": {
       "title": "Immediate Delivery",
-      "level": 24
+      "level": 22
     },
     "3516": {
       "title": "John’s Inversions",
@@ -10064,7 +10064,7 @@
     },
     "3566": {
       "title": "대형 스크린",
-      "level": 4
+      "level": 5
     },
     "3567": {
       "title": "Hell on the Markets",
@@ -10304,7 +10304,7 @@
     },
     "3626": {
       "title": "Guards",
-      "level": 16
+      "level": 17
     },
     "3627": {
       "title": "Hardwood Cutting",
@@ -12436,7 +12436,7 @@
     },
     "4178": {
       "title": "Tic Tac Toe",
-      "level": 16
+      "level": 17
     },
     "4179": {
       "title": "불!",
@@ -17878,6 +17878,14 @@
       "title": "바이너리 행렬",
       "level": 0
     },
+    "5629": {
+      "title": "Probability Through experiment",
+      "level": 0
+    },
+    "5630": {
+      "title": "Optimal Space Way",
+      "level": 0
+    },
     "5631": {
       "title": "방사능",
       "level": 12
@@ -17885,6 +17893,14 @@
     "5632": {
       "title": "버젼 관리 IDE",
       "level": 20
+    },
+    "5633": {
+      "title": "Ultimate Device",
+      "level": 0
+    },
+    "5634": {
+      "title": "Warp Speed II",
+      "level": 0
     },
     "5635": {
       "title": "생일",
@@ -17954,6 +17970,18 @@
       "title": "완전 중요한 간선",
       "level": 20
     },
+    "5652": {
+      "title": "Airplane Parking",
+      "level": 0
+    },
+    "5653": {
+      "title": "Elias Omega Coding",
+      "level": 0
+    },
+    "5654": {
+      "title": "In-circles Again",
+      "level": 0
+    },
     "5655": {
       "title": "평점",
       "level": 0
@@ -17961,6 +17989,30 @@
     "5656": {
       "title": "비교 연산자",
       "level": 4
+    },
+    "5657": {
+      "title": "Your Ways",
+      "level": 0
+    },
+    "5658": {
+      "title": "Hexagonal Sticks",
+      "level": 0
+    },
+    "5659": {
+      "title": "Buy Your House",
+      "level": 0
+    },
+    "5660": {
+      "title": "Synnerg Lifeform",
+      "level": 0
+    },
+    "5661": {
+      "title": "Nowhere Money",
+      "level": 0
+    },
+    "5662": {
+      "title": "Highway Patrol",
+      "level": 0
     },
     "5666": {
       "title": "Hot Dogs",
@@ -20476,7 +20528,7 @@
     },
     "6306": {
       "title": "Reflections",
-      "level": 0
+      "level": 18
     },
     "6307": {
       "title": "Going in circles on Alpha Centauri",
@@ -20992,7 +21044,7 @@
     },
     "6442": {
       "title": "Triangle",
-      "level": 0
+      "level": 16
     },
     "6443": {
       "title": "애너그램",
@@ -24612,7 +24664,7 @@
     },
     "7538": {
       "title": "Incomplete chess boards",
-      "level": 12
+      "level": 11
     },
     "7539": {
       "title": "Military Recruit",
@@ -25844,7 +25896,7 @@
     },
     "7891": {
       "title": "Can you add this?",
-      "level": 2
+      "level": 1
     },
     "7892": {
       "title": "Johnny and the Quadratic Equation",
@@ -26216,7 +26268,7 @@
     },
     "7987": {
       "title": "Spies",
-      "level": 20
+      "level": 21
     },
     "7989": {
       "title": "The Bridge",
@@ -31104,7 +31156,7 @@
     },
     "9238": {
       "title": "당근 볶기",
-      "level": 18
+      "level": 19
     },
     "9239": {
       "title": "스티브 잡숭",
@@ -33088,7 +33140,7 @@
     },
     "9760": {
       "title": "Search Suggestion",
-      "level": 0
+      "level": 17
     },
     "9761": {
       "title": "2D Max Filter",
@@ -33122,6 +33174,22 @@
       "title": "ถุงพลาสติก (Plastic)",
       "level": 0
     },
+    "9770": {
+      "title": "GCD",
+      "level": 7
+    },
+    "9771": {
+      "title": "Word Searching",
+      "level": 3
+    },
+    "9772": {
+      "title": "Quadrants",
+      "level": 3
+    },
+    "9773": {
+      "title": "ID Key",
+      "level": 3
+    },
     "9774": {
       "title": "Unlock My Safe",
       "level": 0
@@ -33153,6 +33221,70 @@
     "9781": {
       "title": "Knight Moves",
       "level": 10
+    },
+    "9782": {
+      "title": "Median",
+      "level": 2
+    },
+    "9783": {
+      "title": "Easy Encryption",
+      "level": 3
+    },
+    "9784": {
+      "title": "Boiled Eggs",
+      "level": 4
+    },
+    "9785": {
+      "title": "Damage Over Time",
+      "level": 5
+    },
+    "9786": {
+      "title": "Common Fraction",
+      "level": 5
+    },
+    "9787": {
+      "title": "Olympic Games Ranking",
+      "level": 8
+    },
+    "9788": {
+      "title": "Cut The List",
+      "level": 0
+    },
+    "9789": {
+      "title": "Friendship Graph",
+      "level": 15
+    },
+    "9790": {
+      "title": "Elephant Show",
+      "level": 0
+    },
+    "9791": {
+      "title": "Encoding Binary Numbers",
+      "level": 0
+    },
+    "9792": {
+      "title": "Chorus",
+      "level": 0
+    },
+    "9793": {
+      "title": "Length and Frequency of Sentences",
+      "level": 0
+    },
+    "9794": {
+      "title": "Another Word Sorting",
+      "level": 0
+    },
+    "9795": {
+      "title": "Form Guide",
+      "level": 0
+    },
+    "9796": {
+      "title": "Cracking Tree Codes",
+      "level": 0
+    },
+    "9797": {
+      "title": "uHunt",
+      "level": 0
     },
     "9798": {
       "title": "Cartesian Tree",
@@ -34384,7 +34516,7 @@
     },
     "10129": {
       "title": "작은 새",
-      "level": 21
+      "level": 20
     },
     "10130": {
       "title": "Rally",
@@ -34516,7 +34648,7 @@
     },
     "10162": {
       "title": "전자레인지",
-      "level": 2
+      "level": 3
     },
     "10163": {
       "title": "색종이",
@@ -34652,7 +34784,7 @@
     },
     "10196": {
       "title": "Minion Walk",
-      "level": 9
+      "level": 10
     },
     "10197": {
       "title": "Word Ladder",
@@ -39736,7 +39868,7 @@
     },
     "11500": {
       "title": "Polynomial",
-      "level": 17
+      "level": 18
     },
     "11501": {
       "title": "주식",
@@ -50612,7 +50744,7 @@
     },
     "14279": {
       "title": "두 수의 곱",
-      "level": 12
+      "level": 13
     },
     "14280": {
       "title": "두 수의 곱 2",
@@ -66488,7 +66620,7 @@
     },
     "18295": {
       "title": "Ants",
-      "level": 8
+      "level": 7
     },
     "18296": {
       "title": "Gnalcats",
@@ -66868,7 +67000,7 @@
     },
     "18392": {
       "title": "SHOP",
-      "level": 9
+      "level": 8
     },
     "18393": {
       "title": "TRIP",
@@ -69172,7 +69304,7 @@
     },
     "18970": {
       "title": "Emerging Tree",
-      "level": 24
+      "level": 23
     },
     "18971": {
       "title": "Fast Travel Coloring",
@@ -73192,7 +73324,7 @@
     },
     "19982": {
       "title": "Генератор паролей",
-      "level": 4
+      "level": 5
     },
     "19983": {
       "title": "Уборка снега",
@@ -75300,7 +75432,7 @@
     },
     "20519": {
       "title": "Гармоничная последовательность",
-      "level": 17
+      "level": 18
     },
     "20520": {
       "title": "Оборона крепости",
@@ -82840,7 +82972,7 @@
     },
     "22443": {
       "title": "Minus One",
-      "level": 14
+      "level": 13
     },
     "22444": {
       "title": "Wave Attack",
@@ -83176,7 +83308,7 @@
     },
     "22527": {
       "title": "6÷2(1+2)",
-      "level": 16
+      "level": 17
     },
     "22528": {
       "title": "Divide the Cake",
@@ -83392,7 +83524,7 @@
     },
     "22581": {
       "title": "IkaNumber",
-      "level": 18
+      "level": 19
     },
     "22582": {
       "title": "HullMarathon",
@@ -86284,11 +86416,11 @@
     },
     "23309": {
       "title": "철도 공사",
-      "level": 11
+      "level": 12
     },
     "23310": {
       "title": "즐거운 과제 라이프",
-      "level": 15
+      "level": 14
     },
     "23311": {
       "title": "세포 분열",
@@ -89468,7 +89600,7 @@
     },
     "24110": {
       "title": "JOI ポスター (JOI Poster)",
-      "level": 8
+      "level": 9
     },
     "24111": {
       "title": "戦国時代 (Sengoku)",
@@ -89552,7 +89684,7 @@
     },
     "24131": {
       "title": "宣伝 (Advertisement)",
-      "level": 16
+      "level": 17
     },
     "24132": {
       "title": "コンテスト (Contest)",
@@ -91412,7 +91544,7 @@
     },
     "24622": {
       "title": "Blocks",
-      "level": 7
+      "level": 8
     },
     "24623": {
       "title": "Изгороди",
@@ -91560,11 +91692,11 @@
     },
     "24659": {
       "title": "Game with Balls and Boxes",
-      "level": 16
+      "level": 17
     },
     "24660": {
       "title": "High Powers",
-      "level": 17
+      "level": 18
     },
     "24661": {
       "title": "Items and Heroes",
@@ -93580,7 +93712,7 @@
     },
     "25169": {
       "title": "피곤한 아리의 현생 살기",
-      "level": 18
+      "level": 17
     },
     "25170": {
       "title": "명랑한 아리의 외출",
@@ -94476,7 +94608,7 @@
     },
     "25401": {
       "title": "카드 바꾸기",
-      "level": 10
+      "level": 11
     },
     "25402": {
       "title": "트리와 쿼리",
