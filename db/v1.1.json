@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-13 19:14:02.613433",
+  "last_updated": "2023-02-14 19:14:15.371116",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1748,7 +1748,7 @@
     },
     "1442": {
       "title": "멋진 수",
-      "level": 18
+      "level": 19
     },
     "1443": {
       "title": "망가진 계산기",
@@ -3252,7 +3252,7 @@
     },
     "1820": {
       "title": "Partitioning for fun and profit",
-      "level": 13
+      "level": 14
     },
     "1821": {
       "title": "수들의 합 6",
@@ -6052,7 +6052,7 @@
     },
     "2537": {
       "title": "점핑 사다리",
-      "level": 0
+      "level": 21
     },
     "2538": {
       "title": "모눈종이 자르기",
@@ -12268,7 +12268,7 @@
     },
     "4136": {
       "title": "Pousse",
-      "level": 6
+      "level": 7
     },
     "4137": {
       "title": "487-3279",
@@ -20528,7 +20528,7 @@
     },
     "6306": {
       "title": "Reflections",
-      "level": 18
+      "level": 19
     },
     "6307": {
       "title": "Going in circles on Alpha Centauri",
@@ -30736,7 +30736,7 @@
     },
     "9125": {
       "title": "Contest",
-      "level": 0
+      "level": 12
     },
     "9126": {
       "title": "Cycling",
@@ -33256,11 +33256,11 @@
     },
     "9790": {
       "title": "Elephant Show",
-      "level": 0
+      "level": 9
     },
     "9791": {
       "title": "Encoding Binary Numbers",
-      "level": 0
+      "level": 6
     },
     "9792": {
       "title": "Chorus",
@@ -33268,7 +33268,7 @@
     },
     "9793": {
       "title": "Length and Frequency of Sentences",
-      "level": 0
+      "level": 4
     },
     "9794": {
       "title": "Another Word Sorting",
@@ -33284,7 +33284,7 @@
     },
     "9797": {
       "title": "uHunt",
-      "level": 0
+      "level": 7
     },
     "9798": {
       "title": "Cartesian Tree",
@@ -35048,7 +35048,7 @@
     },
     "10262": {
       "title": "주사위 게임",
-      "level": 4
+      "level": 3
     },
     "10263": {
       "title": "Opening Ceremony",
@@ -38760,7 +38760,7 @@
     },
     "11205": {
       "title": "Cow Crane",
-      "level": 10
+      "level": 12
     },
     "11206": {
       "title": "Tomosynthesis",
@@ -48284,7 +48284,7 @@
     },
     "13645": {
       "title": "Ciclo de Rubik",
-      "level": 16
+      "level": 17
     },
     "13646": {
       "title": "Estrela",
@@ -48552,7 +48552,7 @@
     },
     "13712": {
       "title": "키르히호프의 법칙",
-      "level": 17
+      "level": 0
     },
     "13713": {
       "title": "문자열과 쿼리",
@@ -57840,7 +57840,7 @@
     },
     "16080": {
       "title": "And",
-      "level": 10
+      "level": 11
     },
     "16081": {
       "title": "Жагсаал",
@@ -61632,7 +61632,7 @@
     },
     "17030": {
       "title": "Cow Dating",
-      "level": 21
+      "level": 20
     },
     "17031": {
       "title": "Moorio Kart",
@@ -73268,7 +73268,7 @@
     },
     "19968": {
       "title": "Impossible",
-      "level": 8
+      "level": 11
     },
     "19969": {
       "title": "Сборка компьютеров",
@@ -74124,7 +74124,7 @@
     },
     "20184": {
       "title": "BOJ 대회 스코어보드",
-      "level": 19
+      "level": 20
     },
     "20185": {
       "title": "814 - 3",
@@ -91820,7 +91820,7 @@
     },
     "24691": {
       "title": "Gross LCS",
-      "level": 0
+      "level": 23
     },
     "24692": {
       "title": "Hundred Thousand Points",
@@ -92764,7 +92764,7 @@
     },
     "24928": {
       "title": "Magical Runes",
-      "level": 6
+      "level": 7
     },
     "24929": {
       "title": "Number Colosseum",
@@ -93108,7 +93108,7 @@
     },
     "25014": {
       "title": "열차의 이동",
-      "level": 24
+      "level": 25
     },
     "25015": {
       "title": "아이싱",
@@ -94608,7 +94608,7 @@
     },
     "25401": {
       "title": "카드 바꾸기",
-      "level": 11
+      "level": 10
     },
     "25402": {
       "title": "트리와 쿼리",
@@ -95380,7 +95380,7 @@
     },
     "25607": {
       "title": "Shooting Game",
-      "level": 0
+      "level": 16
     },
     "25608": {
       "title": "장난감 섞기",
@@ -98640,7 +98640,7 @@
     },
     "26438": {
       "title": "Electricity",
-      "level": 0
+      "level": 12
     },
     "26439": {
       "title": "Level Design",
@@ -100484,7 +100484,7 @@
     },
     "26917": {
       "title": "Strumpmatchning 2",
-      "level": 0
+      "level": 22
     },
     "26918": {
       "title": "Brädspelet",
@@ -101212,7 +101212,7 @@
     },
     "27100": {
       "title": "Stamps",
-      "level": 7
+      "level": 8
     },
     "27101": {
       "title": "Metric Matrices",
