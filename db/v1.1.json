@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-14 19:14:15.371116",
+  "last_updated": "2023-02-17 19:13:48.581779",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -452,7 +452,7 @@
     },
     "1112": {
       "title": "진법 변환",
-      "level": 15
+      "level": 14
     },
     "1113": {
       "title": "수영장 만들기",
@@ -5316,7 +5316,7 @@
     },
     "2349": {
       "title": "무선 통신 기지국",
-      "level": 11
+      "level": 0
     },
     "2350": {
       "title": "대운하",
@@ -5740,7 +5740,7 @@
     },
     "2459": {
       "title": "철사 자르기",
-      "level": 11
+      "level": 12
     },
     "2460": {
       "title": "지능형 기차 2",
@@ -6484,7 +6484,7 @@
     },
     "2645": {
       "title": "회로배치",
-      "level": 17
+      "level": 16
     },
     "2646": {
       "title": "같은 길이 막대기 만들기",
@@ -8252,7 +8252,7 @@
     },
     "3096": {
       "title": "영화제",
-      "level": 15
+      "level": 12
     },
     "3097": {
       "title": "산책 경로",
@@ -8636,7 +8636,7 @@
     },
     "3192": {
       "title": "매직 스퀘어",
-      "level": 11
+      "level": 0
     },
     "3193": {
       "title": "공",
@@ -9056,7 +9056,7 @@
     },
     "3302": {
       "title": "Job Scheduling",
-      "level": 0
+      "level": 15
     },
     "3303": {
       "title": "Printed Circuit Board",
@@ -9288,7 +9288,7 @@
     },
     "3363": {
       "title": "동전",
-      "level": 11
+      "level": 10
     },
     "3364": {
       "title": "Escape",
@@ -10448,7 +10448,7 @@
     },
     "3662": {
       "title": "보석 분배",
-      "level": 18
+      "level": 19
     },
     "3663": {
       "title": "고득점",
@@ -10816,7 +10816,7 @@
     },
     "3754": {
       "title": "John",
-      "level": 18
+      "level": 19
     },
     "3755": {
       "title": "Double Queue",
@@ -12840,7 +12840,7 @@
     },
     "4279": {
       "title": "Medals",
-      "level": 6
+      "level": 7
     },
     "4280": {
       "title": "Flipping colors",
@@ -13568,7 +13568,7 @@
     },
     "4466": {
       "title": "A Smart Brain is a Tasty Brain",
-      "level": 6
+      "level": 7
     },
     "4467": {
       "title": "Building Zombie Fences",
@@ -14520,7 +14520,7 @@
     },
     "4704": {
       "title": "Tsunami",
-      "level": 0
+      "level": 14
     },
     "4705": {
       "title": "Roaming Romans",
@@ -14880,7 +14880,7 @@
     },
     "4801": {
       "title": "Nine",
-      "level": 6
+      "level": 7
     },
     "4802": {
       "title": "함수 오버로딩",
@@ -18132,7 +18132,7 @@
     },
     "5695": {
       "title": "공원점",
-      "level": 0
+      "level": 17
     },
     "5696": {
       "title": "숫자 세기",
@@ -19144,7 +19144,7 @@
     },
     "5948": {
       "title": "Bad Random Numbers",
-      "level": 5
+      "level": 4
     },
     "5949": {
       "title": "Adding Commas",
@@ -20264,7 +20264,7 @@
     },
     "6240": {
       "title": "Cheapest Palindrome",
-      "level": 15
+      "level": 16
     },
     "6241": {
       "title": "Dining",
@@ -25640,7 +25640,7 @@
     },
     "7811": {
       "title": "Sultan's Land",
-      "level": 0
+      "level": 10
     },
     "7812": {
       "title": "중앙 트리",
@@ -28684,7 +28684,7 @@
     },
     "8596": {
       "title": "Wąż",
-      "level": 12
+      "level": 10
     },
     "8597": {
       "title": "Wieżyczki",
@@ -30072,7 +30072,7 @@
     },
     "8943": {
       "title": "PHONE",
-      "level": 9
+      "level": 10
     },
     "8944": {
       "title": "이진 검색 트리 2",
@@ -30868,7 +30868,7 @@
     },
     "9160": {
       "title": "The Brave Sir Robin’s cAsE cOrReCtOr",
-      "level": 4
+      "level": 5
     },
     "9161": {
       "title": "Sir Bedavere’s Bogus Division Solutions",
@@ -31184,7 +31184,7 @@
     },
     "9245": {
       "title": "댄스",
-      "level": 0
+      "level": 22
     },
     "9246": {
       "title": "다트판",
@@ -32220,7 +32220,7 @@
     },
     "9518": {
       "title": "로마 카톨릭 미사",
-      "level": 8
+      "level": 9
     },
     "9519": {
       "title": "졸려",
@@ -33184,7 +33184,7 @@
     },
     "9772": {
       "title": "Quadrants",
-      "level": 3
+      "level": 2
     },
     "9773": {
       "title": "ID Key",
@@ -33260,11 +33260,11 @@
     },
     "9791": {
       "title": "Encoding Binary Numbers",
-      "level": 6
+      "level": 4
     },
     "9792": {
       "title": "Chorus",
-      "level": 0
+      "level": 14
     },
     "9793": {
       "title": "Length and Frequency of Sentences",
@@ -33532,7 +33532,7 @@
     },
     "9865": {
       "title": "Undercut",
-      "level": 0
+      "level": 4
     },
     "9866": {
       "title": "Vacation Planning",
@@ -33580,7 +33580,7 @@
     },
     "9877": {
       "title": "Ski Course Rating",
-      "level": 20
+      "level": 21
     },
     "9878": {
       "title": "Bessie Slows Down",
@@ -33596,7 +33596,7 @@
     },
     "9881": {
       "title": "Ski Course Design",
-      "level": 6
+      "level": 5
     },
     "9882": {
       "title": "Balanced Teams",
@@ -35048,7 +35048,7 @@
     },
     "10262": {
       "title": "주사위 게임",
-      "level": 3
+      "level": 4
     },
     "10263": {
       "title": "Opening Ceremony",
@@ -40320,7 +40320,7 @@
     },
     "11613": {
       "title": "ASCII Addition",
-      "level": 11
+      "level": 10
     },
     "11614": {
       "title": "Book Borders",
@@ -41676,7 +41676,7 @@
     },
     "11968": {
       "title": "High Card Wins",
-      "level": 10
+      "level": 9
     },
     "11969": {
       "title": "Breed Counting",
@@ -44600,7 +44600,7 @@
     },
     "12710": {
       "title": "PermRLE (Large)",
-      "level": 17
+      "level": 18
     },
     "12711": {
       "title": "Text Messaging Outrage (Small)",
@@ -45448,7 +45448,7 @@
     },
     "12923": {
       "title": "별 모으기",
-      "level": 0
+      "level": 13
     },
     "12924": {
       "title": "멋진 쌍",
@@ -46044,7 +46044,7 @@
     },
     "13072": {
       "title": "Fence",
-      "level": 0
+      "level": 16
     },
     "13073": {
       "title": "Sums",
@@ -46696,7 +46696,7 @@
     },
     "13247": {
       "title": "토끼의 이동",
-      "level": 14
+      "level": 13
     },
     "13248": {
       "title": "수업 거절",
@@ -51332,7 +51332,7 @@
     },
     "14426": {
       "title": "접두사 찾기",
-      "level": 9
+      "level": 10
     },
     "14427": {
       "title": "수열과 쿼리 15",
@@ -51812,7 +51812,7 @@
     },
     "14546": {
       "title": "Prison Break",
-      "level": 9
+      "level": 10
     },
     "14547": {
       "title": "X X glued",
@@ -54104,7 +54104,7 @@
     },
     "15132": {
       "title": "Boolean Satisfiability",
-      "level": 7
+      "level": 8
     },
     "15133": {
       "title": "Consonant Fencity",
@@ -54888,7 +54888,7 @@
     },
     "15330": {
       "title": "Parallel Lines",
-      "level": 13
+      "level": 14
     },
     "15331": {
       "title": "Medical Checkup",
@@ -55348,7 +55348,7 @@
     },
     "15445": {
       "title": "Vera and Banquet",
-      "level": 0
+      "level": 17
     },
     "15446": {
       "title": "Vera and Canada Day",
@@ -58960,7 +58960,7 @@
     },
     "16360": {
       "title": "Go Latin",
-      "level": 6
+      "level": 5
     },
     "16361": {
       "title": "LED",
@@ -61256,7 +61256,7 @@
     },
     "16934": {
       "title": "게임 닉네임",
-      "level": 13
+      "level": 14
     },
     "16935": {
       "title": "배열 돌리기 3",
@@ -61868,7 +61868,7 @@
     },
     "17097": {
       "title": "Truth Tellers",
-      "level": 18
+      "level": 19
     },
     "17098": {
       "title": "Boomerangs",
@@ -63548,7 +63548,7 @@
     },
     "17520": {
       "title": "Balanced String",
-      "level": 6
+      "level": 5
     },
     "17521": {
       "title": "Byte Coin",
@@ -65928,7 +65928,7 @@
     },
     "18122": {
       "title": "색깔 하노이 탑",
-      "level": 17
+      "level": 16
     },
     "18123": {
       "title": "평행우주",
@@ -69476,7 +69476,7 @@
     },
     "19013": {
       "title": "Binary String",
-      "level": 0
+      "level": 20
     },
     "19014": {
       "title": "Fair Competition",
@@ -69716,7 +69716,7 @@
     },
     "19073": {
       "title": "Subsequence Sums",
-      "level": 0
+      "level": 18
     },
     "19074": {
       "title": "Nice Numbers",
@@ -72056,7 +72056,7 @@
     },
     "19661": {
       "title": "Arcade",
-      "level": 13
+      "level": 15
     },
     "19662": {
       "title": "Aesthetic",
@@ -72108,7 +72108,7 @@
     },
     "19674": {
       "title": "Shuffle",
-      "level": 18
+      "level": 22
     },
     "19675": {
       "title": "Sudoku Variant",
@@ -76912,7 +76912,7 @@
     },
     "20889": {
       "title": "Bitryssland",
-      "level": 0
+      "level": 14
     },
     "20890": {
       "title": "Bastubad",
@@ -77360,7 +77360,7 @@
     },
     "21001": {
       "title": "A Very Different Word",
-      "level": 10
+      "level": 11
     },
     "21002": {
       "title": "Cactus",
@@ -80380,7 +80380,7 @@
     },
     "21760": {
       "title": "야구 시즌",
-      "level": 5
+      "level": 6
     },
     "21761": {
       "title": "초직사각형",
@@ -80872,11 +80872,11 @@
     },
     "21885": {
       "title": "New Puzzle",
-      "level": 0
+      "level": 6
     },
     "21886": {
       "title": "Countdown",
-      "level": 0
+      "level": 13
     },
     "21887": {
       "title": "Railroad",
@@ -84976,7 +84976,7 @@
     },
     "22949": {
       "title": "회전 미로 탐색",
-      "level": 15
+      "level": 16
     },
     "22950": {
       "title": "이진수 나눗셈",
@@ -85284,7 +85284,7 @@
     },
     "23026": {
       "title": "물건 포장하기",
-      "level": 16
+      "level": 15
     },
     "23027": {
       "title": "1번부터 문제의 상태가…?",
@@ -90860,7 +90860,7 @@
     },
     "24451": {
       "title": "飴 2 (Candies 2)",
-      "level": 13
+      "level": 14
     },
     "24452": {
       "title": "交易計画 (Trade Plan)",
@@ -90996,7 +90996,7 @@
     },
     "24485": {
       "title": "Minimizing Haybales",
-      "level": 21
+      "level": 22
     },
     "24486": {
       "title": "Counting Haybales",
@@ -93256,7 +93256,7 @@
     },
     "25051": {
       "title": "천체 관측",
-      "level": 17
+      "level": 18
     },
     "25052": {
       "title": "뉴턴의 사과나무",
@@ -93872,7 +93872,7 @@
     },
     "25209": {
       "title": "샤카샤카",
-      "level": 16
+      "level": 17
     },
     "25210": {
       "title": "정사각형 세기",
@@ -94776,7 +94776,7 @@
     },
     "25447": {
       "title": "Vinjete",
-      "level": 18
+      "level": 19
     },
     "25448": {
       "title": "N의 배수 (4)",
@@ -95272,7 +95272,7 @@
     },
     "25580": {
       "title": "Next Level",
-      "level": 0
+      "level": 14
     },
     "25581": {
       "title": "땅 두 배로 따먹기",
@@ -95641,10 +95641,6 @@
     "25672": {
       "title": "Even and Odd Combinations",
       "level": 11
-    },
-    "25673": {
-      "title": "Find the Parts",
-      "level": 0
     },
     "25674": {
       "title": "Message Made of Noise",
@@ -96688,7 +96684,7 @@
     },
     "25941": {
       "title": "You Shall Pass",
-      "level": 19
+      "level": 20
     },
     "25942": {
       "title": "Turing’s Challenge",
@@ -97068,7 +97064,7 @@
     },
     "26036": {
       "title": "제곱 ㄱㄱ",
-      "level": 20
+      "level": 21
     },
     "26037": {
       "title": "지수 · 로그와 테일러 다항식(Large)",
@@ -99076,7 +99072,7 @@
     },
     "26549": {
       "title": "Holes",
-      "level": 9
+      "level": 10
     },
     "26550": {
       "title": "Ornaments",
@@ -101548,7 +101544,7 @@
     },
     "27184": {
       "title": "Campfire Riddle",
-      "level": 0
+      "level": 12
     },
     "27185": {
       "title": "The Tree",
@@ -101580,7 +101576,7 @@
     },
     "27192": {
       "title": "Pick a Pair",
-      "level": 0
+      "level": 13
     },
     "27193": {
       "title": "Shifting Roads",
@@ -101996,7 +101992,7 @@
     },
     "27296": {
       "title": "카탈란 마스터의 선분 그리기 게임",
-      "level": 11
+      "level": 10
     },
     "27297": {
       "title": "맨해튼에서의 모임",
