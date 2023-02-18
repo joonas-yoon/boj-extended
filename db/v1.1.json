@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-17 19:13:48.581779",
+  "last_updated": "2023-02-18 19:12:56.435815",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7632,7 +7632,7 @@
     },
     "2936": {
       "title": "채식주의자",
-      "level": 6
+      "level": 7
     },
     "2937": {
       "title": "블록 정리",
@@ -9632,7 +9632,7 @@
     },
     "3456": {
       "title": "축구공",
-      "level": 18
+      "level": 20
     },
     "3457": {
       "title": "Which is Next",
@@ -9696,7 +9696,7 @@
     },
     "3473": {
       "title": "Complicated Expressions",
-      "level": 15
+      "level": 16
     },
     "3474": {
       "title": "교수가 된 현우",
@@ -15968,7 +15968,7 @@
     },
     "5077": {
       "title": "Maps",
-      "level": 6
+      "level": 5
     },
     "5078": {
       "title": "Shirts",
@@ -16724,7 +16724,7 @@
     },
     "5266": {
       "title": "Strange Dream",
-      "level": 0
+      "level": 16
     },
     "5267": {
       "title": "Points",
@@ -20076,7 +20076,7 @@
     },
     "6186": {
       "title": "Best Grass",
-      "level": 7
+      "level": 6
     },
     "6187": {
       "title": "Going to the Movies",
@@ -33244,7 +33244,7 @@
     },
     "9787": {
       "title": "Olympic Games Ranking",
-      "level": 8
+      "level": 7
     },
     "9788": {
       "title": "Cut The List",
@@ -33264,7 +33264,7 @@
     },
     "9792": {
       "title": "Chorus",
-      "level": 14
+      "level": 15
     },
     "9793": {
       "title": "Length and Frequency of Sentences",
@@ -51876,7 +51876,7 @@
     },
     "14562": {
       "title": "태권왕",
-      "level": 10
+      "level": 9
     },
     "14563": {
       "title": "완전수",
@@ -58248,7 +58248,7 @@
     },
     "16182": {
       "title": "Dumae",
-      "level": 20
+      "level": 21
     },
     "16183": {
       "title": "Electronic Circuit",
@@ -60288,7 +60288,7 @@
     },
     "16692": {
       "title": "Greedy Scheduler",
-      "level": 8
+      "level": 7
     },
     "16693": {
       "title": "Pizza Deal",
@@ -73200,7 +73200,7 @@
     },
     "19951": {
       "title": "태상이의 훈련소 생활",
-      "level": 10
+      "level": 11
     },
     "19952": {
       "title": "인성 문제 있어??",
@@ -73772,7 +73772,7 @@
     },
     "20095": {
       "title": "Sudoku 2",
-      "level": 8
+      "level": 7
     },
     "20096": {
       "title": "Sudoku 3",
@@ -89684,7 +89684,7 @@
     },
     "24131": {
       "title": "宣伝 (Advertisement)",
-      "level": 17
+      "level": 16
     },
     "24132": {
       "title": "コンテスト (Contest)",
@@ -92880,7 +92880,7 @@
     },
     "24957": {
       "title": "Loop of Chocolate",
-      "level": 4
+      "level": 5
     },
     "24958": {
       "title": "Lottery Fun Time",
@@ -96900,7 +96900,7 @@
     },
     "25995": {
       "title": "Dividing DNA",
-      "level": 13
+      "level": 15
     },
     "25996": {
       "title": "Equalising Audio",
@@ -96920,7 +96920,7 @@
     },
     "26000": {
       "title": "Imperfect Imperial Units",
-      "level": 13
+      "level": 12
     },
     "26001": {
       "title": "Jagged Skyline",
@@ -96932,7 +96932,7 @@
     },
     "26003": {
       "title": "Lowest Latency",
-      "level": 0
+      "level": 18
     },
     "26004": {
       "title": "HI-ARC",
@@ -97704,7 +97704,7 @@
     },
     "26200": {
       "title": "Sokoban",
-      "level": 0
+      "level": 18
     },
     "26201": {
       "title": "Finding Maximal Non-Trivial Monotones",
@@ -102005,6 +102005,750 @@
     "27299": {
       "title": "헌내기 현철",
       "level": 17
+    },
+    "27300": {
+      "title": "섯섯시싀 저주",
+      "level": 18
+    },
+    "27301": {
+      "title": "오락 고?",
+      "level": 0
+    },
+    "27302": {
+      "title": "계란을 떨어뜨리면?",
+      "level": 19
+    },
+    "27303": {
+      "title": "계란으로 돈을 벌면?",
+      "level": 18
+    },
+    "27304": {
+      "title": "동우의 마음씨는 착할까 나쁠까",
+      "level": 16
+    },
+    "27305": {
+      "title": "Fuzzing Mutant Test",
+      "level": 21
+    },
+    "27306": {
+      "title": "DAGame",
+      "level": 19
+    },
+    "27307": {
+      "title": "페르마의 마지막 정리",
+      "level": 23
+    },
+    "27308": {
+      "title": "창호의 유학 준비",
+      "level": 22
+    },
+    "27309": {
+      "title": "재우의 F를 막아라",
+      "level": 25
+    },
+    "27310": {
+      "title": ":chino_shock:",
+      "level": 2
+    },
+    "27311": {
+      "title": "치노의 라떼 아트 (Easy)",
+      "level": 10
+    },
+    "27312": {
+      "title": "운영진에게 설정 짜기는 어려워",
+      "level": 10
+    },
+    "27313": {
+      "title": "효율적인 애니메이션 감상",
+      "level": 12
+    },
+    "27314": {
+      "title": "러키☆한별",
+      "level": 12
+    },
+    "27315": {
+      "title": "틀리는 건 싫으니까 쉬운 문제에 올인하려고 합니다",
+      "level": 14
+    },
+    "27316": {
+      "title": "시간은 다시 움직인다",
+      "level": 16
+    },
+    "27317": {
+      "title": "복슬복슬 여우꼬리",
+      "level": 16
+    },
+    "27318": {
+      "title": "세상에서 가장 달달한 디저트 만들기",
+      "level": 18
+    },
+    "27319": {
+      "title": "치노의 라떼 아트 (Hard)",
+      "level": 17
+    },
+    "27320": {
+      "title": "코코아⋯. 이거 아니라고",
+      "level": 16
+    },
+    "27321": {
+      "title": "UMR의 테트리스 플레이 분석하기",
+      "level": 17
+    },
+    "27322": {
+      "title": "한별이의 퍼펙트 수열과 쿼리 교실",
+      "level": 22
+    },
+    "27323": {
+      "title": "長方形 (Rectangle)",
+      "level": 1
+    },
+    "27324": {
+      "title": "ゾロ目 (Same Numbers)",
+      "level": 1
+    },
+    "27325": {
+      "title": "3 つの箱 (Three Boxes)",
+      "level": 3
+    },
+    "27326": {
+      "title": "二人三脚 (Three-Legged Race)",
+      "level": 3
+    },
+    "27327": {
+      "title": "時間 (Hour)",
+      "level": 1
+    },
+    "27328": {
+      "title": "三方比較 (Three-Way Comparison)",
+      "level": 1
+    },
+    "27329": {
+      "title": "繰り返し文字列 (Repeating String)",
+      "level": 3
+    },
+    "27330": {
+      "title": "点数 (Score)",
+      "level": 3
+    },
+    "27331": {
+      "title": "2 桁の整数 (Two-digit Integer)",
+      "level": 1
+    },
+    "27332": {
+      "title": "11 月 (November)",
+      "level": 2
+    },
+    "27333": {
+      "title": "JOI エディタ (JOI Editor)",
+      "level": 3
+    },
+    "27334": {
+      "title": "マラソン大会 (Marathon Race)",
+      "level": 3
+    },
+    "27335": {
+      "title": "年齢の差 (Age Difference)",
+      "level": 4
+    },
+    "27336": {
+      "title": "ジョイ四人組 (JOI04)",
+      "level": 11
+    },
+    "27337": {
+      "title": "塗りつぶし (Painting)",
+      "level": 13
+    },
+    "27338": {
+      "title": "貨物列車 (Freight Train)",
+      "level": 18
+    },
+    "27339": {
+      "title": "日本沈没 2 (Japan Sinks 2)",
+      "level": 0
+    },
+    "27340": {
+      "title": "Estimathon",
+      "level": 5
+    },
+    "27341": {
+      "title": "Dirigent",
+      "level": 0
+    },
+    "27342": {
+      "title": "Baltazar",
+      "level": 0
+    },
+    "27343": {
+      "title": "Bomboni",
+      "level": 0
+    },
+    "27344": {
+      "title": "Skrivača",
+      "level": 0
+    },
+    "27345": {
+      "title": "Potatoes and fertilizers",
+      "level": 0
+    },
+    "27346": {
+      "title": "Wish",
+      "level": 0
+    },
+    "27347": {
+      "title": "Rabbit Carrot",
+      "level": 0
+    },
+    "27348": {
+      "title": "Cards",
+      "level": 17
+    },
+    "27349": {
+      "title": "Coins",
+      "level": 0
+    },
+    "27350": {
+      "title": "Tax Evasion",
+      "level": 0
+    },
+    "27351": {
+      "title": "Gardening",
+      "level": 0
+    },
+    "27352": {
+      "title": "Present",
+      "level": 0
+    },
+    "27353": {
+      "title": "Speedrun",
+      "level": 0
+    },
+    "27354": {
+      "title": "NoM",
+      "level": 0
+    },
+    "27355": {
+      "title": "Paths",
+      "level": 23
+    },
+    "27356": {
+      "title": "Weirdtree",
+      "level": 24
+    },
+    "27364": {
+      "title": "Floppy",
+      "level": 0
+    },
+    "27365": {
+      "title": "Brperm",
+      "level": 0
+    },
+    "27366": {
+      "title": "Peru",
+      "level": 0
+    },
+    "27367": {
+      "title": "Nice Lines",
+      "level": 0
+    },
+    "27368": {
+      "title": "Sum Zero",
+      "level": 19
+    },
+    "27369": {
+      "title": "Arboras",
+      "level": 0
+    },
+    "27375": {
+      "title": "금공강 사수",
+      "level": 10
+    },
+    "27376": {
+      "title": "참살이길",
+      "level": 7
+    },
+    "27377": {
+      "title": "읽씹 멈춰!",
+      "level": 12
+    },
+    "27378": {
+      "title": "아 또 XOR이야?",
+      "level": 17
+    },
+    "27379": {
+      "title": "산유국",
+      "level": 17
+    },
+    "27380": {
+      "title": "단조증가 수열과 OR",
+      "level": 19
+    },
+    "27381": {
+      "title": "순찰 경로",
+      "level": 16
+    },
+    "27382": {
+      "title": "화살표 수집가",
+      "level": 21
+    },
+    "27383": {
+      "title": "알록달록 트리",
+      "level": 22
+    },
+    "27384": {
+      "title": "Beast Bullies",
+      "level": 13
+    },
+    "27385": {
+      "title": "Birthday Gift",
+      "level": 0
+    },
+    "27386": {
+      "title": "Class Field Trip",
+      "level": 4
+    },
+    "27387": {
+      "title": "Ghost Leg",
+      "level": 6
+    },
+    "27388": {
+      "title": "MazeMan",
+      "level": 10
+    },
+    "27389": {
+      "title": "Metronome",
+      "level": 1
+    },
+    "27390": {
+      "title": "Movie Night",
+      "level": 0
+    },
+    "27391": {
+      "title": "Platform Placing",
+      "level": 0
+    },
+    "27392": {
+      "title": "Room Evacuation",
+      "level": 0
+    },
+    "27393": {
+      "title": "Smallest Calculated Value",
+      "level": 4
+    },
+    "27394": {
+      "title": "Spidey Distance",
+      "level": 0
+    },
+    "27395": {
+      "title": "Toll Roads",
+      "level": 0
+    },
+    "27396": {
+      "title": "문자열 변환과 쿼리",
+      "level": 11
+    },
+    "27397": {
+      "title": "문자열 변환과 쿼리 2",
+      "level": 13
+    },
+    "27398": {
+      "title": "Devil's Share",
+      "level": 0
+    },
+    "27399": {
+      "title": "Lucky Numbers",
+      "level": 0
+    },
+    "27400": {
+      "title": "Restore Array",
+      "level": 21
+    },
+    "27401": {
+      "title": "Fishing Game",
+      "level": 0
+    },
+    "27402": {
+      "title": "Secret Permutation",
+      "level": 0
+    },
+    "27403": {
+      "title": "Santa Claus",
+      "level": 0
+    },
+    "27404": {
+      "title": "Image",
+      "level": 0
+    },
+    "27405": {
+      "title": "Galactic Bonus",
+      "level": 0
+    },
+    "27406": {
+      "title": "Metro",
+      "level": 0
+    },
+    "27407": {
+      "title": "CPR (Cut-Paste-Reverse)",
+      "level": 16
+    },
+    "27408": {
+      "title": "Tower Defense",
+      "level": 0
+    },
+    "27409": {
+      "title": "Frequent",
+      "level": 0
+    },
+    "27410": {
+      "title": "Spoiler",
+      "level": 0
+    },
+    "27411": {
+      "title": "Chimichangas",
+      "level": 0
+    },
+    "27412": {
+      "title": "Matrix",
+      "level": 0
+    },
+    "27413": {
+      "title": "Euclid",
+      "level": 0
+    },
+    "27414": {
+      "title": "Infinity War",
+      "level": 0
+    },
+    "27415": {
+      "title": "Password",
+      "level": 0
+    },
+    "27416": {
+      "title": "Hasty Santa Claus",
+      "level": 13
+    },
+    "27417": {
+      "title": "Interactive Number Guessing",
+      "level": 10
+    },
+    "27418": {
+      "title": "Secure the Top Secret",
+      "level": 0
+    },
+    "27419": {
+      "title": "Move One Coin",
+      "level": 0
+    },
+    "27420": {
+      "title": "Incredibly Cute Penguin Chicks",
+      "level": 0
+    },
+    "27421": {
+      "title": "Make a Loop",
+      "level": 0
+    },
+    "27422": {
+      "title": "Remodeling the Dungeon",
+      "level": 0
+    },
+    "27423": {
+      "title": "Cake Decoration",
+      "level": 0
+    },
+    "27424": {
+      "title": "Quiz Contest",
+      "level": 24
+    },
+    "27425": {
+      "title": "Traveling Salesperson in an Island",
+      "level": 0
+    },
+    "27426": {
+      "title": "New Year Festival",
+      "level": 0
+    },
+    "27427": {
+      "title": "Lazy",
+      "level": 0
+    },
+    "27428": {
+      "title": "Light",
+      "level": 0
+    },
+    "27429": {
+      "title": "Walls",
+      "level": 0
+    },
+    "27430": {
+      "title": "Gossips",
+      "level": 0
+    },
+    "27431": {
+      "title": "Pixels",
+      "level": 0
+    },
+    "27432": {
+      "title": "Sorting",
+      "level": 0
+    },
+    "27433": {
+      "title": "팩토리얼 2",
+      "level": 1
+    },
+    "27434": {
+      "title": "팩토리얼 3",
+      "level": 1
+    },
+    "27435": {
+      "title": "파도반 수열 2",
+      "level": 15
+    },
+    "27436": {
+      "title": "벌집 2",
+      "level": 7
+    },
+    "27437": {
+      "title": "분수찾기 2",
+      "level": 10
+    },
+    "27438": {
+      "title": "영화감독 숌 2",
+      "level": 12
+    },
+    "27439": {
+      "title": "팩토리얼 4",
+      "level": 14
+    },
+    "27440": {
+      "title": "1로 만들기 3",
+      "level": 13
+    },
+    "27441": {
+      "title": "영화감독 숌 3",
+      "level": 15
+    },
+    "27442": {
+      "title": "문자열 변환과 쿼리 3",
+      "level": 15
+    },
+    "27443": {
+      "title": "초콜릿 프로그래밍 언어 (Hard)",
+      "level": 24
+    },
+    "27444": {
+      "title": "팝스타뮤직게이트",
+      "level": 7
+    },
+    "27445": {
+      "title": "Gorani Command",
+      "level": 4
+    },
+    "27446": {
+      "title": "랩실에서 잘 자요",
+      "level": 8
+    },
+    "27447": {
+      "title": "주문은 토기입니까?",
+      "level": 11
+    },
+    "27448": {
+      "title": "체인소 맨",
+      "level": 13
+    },
+    "27449": {
+      "title": "한별이 드롭킥!",
+      "level": 17
+    },
+    "27450": {
+      "title": "플래그 대사 그만 좀 말해요",
+      "level": 14
+    },
+    "27451": {
+      "title": "마키마씨가 정해주는 오늘 점심의 맛",
+      "level": 17
+    },
+    "27452": {
+      "title": "(재밌고 웃기고 센스있고 깔끔한 제목)",
+      "level": 16
+    },
+    "27453": {
+      "title": "귀엽기만 한 게 아닌 한별 양",
+      "level": 14
+    },
+    "27454": {
+      "title": "엔드롤이 끝나고",
+      "level": 16
+    },
+    "27455": {
+      "title": "카드캡터 한별",
+      "level": 16
+    },
+    "27456": {
+      "title": "치노와 코코아",
+      "level": 19
+    },
+    "27457": {
+      "title": "THE iDEM@STER",
+      "level": 23
+    },
+    "27458": {
+      "title": "영화감독 숌 4",
+      "level": 15
+    },
+    "27459": {
+      "title": "Adjacent Pairs",
+      "level": 0
+    },
+    "27460": {
+      "title": "Where Is the Root?",
+      "level": 0
+    },
+    "27461": {
+      "title": "Bounded Spanning Tree",
+      "level": 0
+    },
+    "27462": {
+      "title": "Game With Numbers",
+      "level": 0
+    },
+    "27463": {
+      "title": "Longest Unfriendly Subsequence",
+      "level": 0
+    },
+    "27464": {
+      "title": "LCS of Permutations",
+      "level": 0
+    },
+    "27465": {
+      "title": "소수가 아닌 수",
+      "level": 3
+    },
+    "27466": {
+      "title": "그래서 대회 이름 뭐로 하죠",
+      "level": 6
+    },
+    "27467": {
+      "title": "수학 퀴즈",
+      "level": 10
+    },
+    "27468": {
+      "title": "2배 또는 0.5배",
+      "level": 11
+    },
+    "27469": {
+      "title": "퀸 움직이기",
+      "level": 16
+    },
+    "27470": {
+      "title": "멋진 부분집합",
+      "level": 16
+    },
+    "27471": {
+      "title": "시그마 시그마 시그마 시그마",
+      "level": 18
+    },
+    "27472": {
+      "title": "깃발 꽂기",
+      "level": 21
+    },
+    "27473": {
+      "title": "이상한 판 뒤집기 게임",
+      "level": 22
+    },
+    "27474": {
+      "title": "팬케이크 탑",
+      "level": 21
+    },
+    "27475": {
+      "title": "Cancel the Trains",
+      "level": 3
+    },
+    "27476": {
+      "title": "Suffix Operations",
+      "level": 12
+    },
+    "27477": {
+      "title": "Triangles",
+      "level": 14
+    },
+    "27478": {
+      "title": "Checkpoints",
+      "level": 15
+    },
+    "27479": {
+      "title": "Dog Snacks",
+      "level": 19
+    },
+    "27480": {
+      "title": "Even Harder",
+      "level": 22
+    },
+    "27481": {
+      "title": "Hotelier",
+      "level": 3
+    },
+    "27482": {
+      "title": "Block Adventure",
+      "level": 8
+    },
+    "27483": {
+      "title": "Round Corridor",
+      "level": 11
+    },
+    "27484": {
+      "title": "White Lines",
+      "level": 16
+    },
+    "27485": {
+      "title": "Compress Words",
+      "level": 17
+    },
+    "27486": {
+      "title": "Graph Traveler",
+      "level": 19
+    },
+    "27487": {
+      "title": "One and Two",
+      "level": 4
+    },
+    "27488": {
+      "title": "Sum of Two Numbers",
+      "level": 8
+    },
+    "27489": {
+      "title": "Matching Numbers",
+      "level": 14
+    },
+    "27490": {
+      "title": "Moving Dots",
+      "level": 16
+    },
+    "27491": {
+      "title": "Sum Over Zero",
+      "level": 19
+    },
+    "27492": {
+      "title": "XOR, Tree, and Queries",
+      "level": 20
+    },
+    "27493": {
+      "title": "키르히호프의 법칙 2",
+      "level": 17
+    },
+    "27508": {
+      "title": "던전",
+      "level": 18
+    },
+    "27509": {
+      "title": "외곽 순환 도로 2",
+      "level": 22
+    },
+    "27510": {
+      "title": "택시 여행",
+      "level": 23
+    },
+    "27511": {
+      "title": "야유회",
+      "level": 25
     }
   }
 }
