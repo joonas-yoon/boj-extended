@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-18 19:12:56.435815",
+  "last_updated": "2023-02-19 19:13:28.637938",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5396,7 +5396,7 @@
     },
     "2371": {
       "title": "파일 구별하기",
-      "level": 9
+      "level": 8
     },
     "2372": {
       "title": "Livestock Count",
@@ -13368,7 +13368,7 @@
     },
     "4411": {
       "title": "The Trip",
-      "level": 7
+      "level": 6
     },
     "4412": {
       "title": "Doublets",
@@ -19716,7 +19716,7 @@
     },
     "6092": {
       "title": "Strange Towers of Hanoi",
-      "level": 7
+      "level": 6
     },
     "6093": {
       "title": "Competition",
@@ -33272,7 +33272,7 @@
     },
     "9794": {
       "title": "Another Word Sorting",
-      "level": 0
+      "level": 8
     },
     "9795": {
       "title": "Form Guide",
@@ -34060,7 +34060,7 @@
     },
     "10014": {
       "title": "Traveling Saga Problem",
-      "level": 24
+      "level": 25
     },
     "10015": {
       "title": "Śnieżyca",
@@ -35488,7 +35488,7 @@
     },
     "10372": {
       "title": "Alarm Clock",
-      "level": 5
+      "level": 4
     },
     "10373": {
       "title": "Buffcraft",
@@ -42488,7 +42488,7 @@
     },
     "12177": {
       "title": "Dreary Design (Large2)",
-      "level": 11
+      "level": 10
     },
     "12178": {
       "title": "Power Levels (Small)",
@@ -43812,7 +43812,7 @@
     },
     "12513": {
       "title": "Candy Splitting (Small)",
-      "level": 6
+      "level": 7
     },
     "12514": {
       "title": "Candy Splitting (Large)",
@@ -46612,7 +46612,7 @@
     },
     "13226": {
       "title": "Divisors Again",
-      "level": 7
+      "level": 6
     },
     "13227": {
       "title": "TicTacToe",
@@ -46972,7 +46972,7 @@
     },
     "13316": {
       "title": "std::정렬부터 시작하는 디버깅 생활",
-      "level": 14
+      "level": 15
     },
     "13317": {
       "title": "한 번 남았다",
@@ -51300,7 +51300,7 @@
     },
     "14418": {
       "title": "Three Square",
-      "level": 7
+      "level": 6
     },
     "14419": {
       "title": "Foehn Phenomena",
@@ -52136,7 +52136,7 @@
     },
     "14628": {
       "title": "입 챌린저",
-      "level": 12
+      "level": 13
     },
     "14629": {
       "title": "숫자 조각",
@@ -59532,7 +59532,7 @@
     },
     "16503": {
       "title": "괄호 없는 사칙연산",
-      "level": 4
+      "level": 3
     },
     "16504": {
       "title": "종이접기",
@@ -59572,7 +59572,7 @@
     },
     "16513": {
       "title": "Rational Ratio",
-      "level": 7
+      "level": 8
     },
     "16514": {
       "title": "Travel the Skies",
@@ -63256,11 +63256,11 @@
     },
     "17447": {
       "title": "라이언 동상 구하기",
-      "level": 17
+      "level": 16
     },
     "17448": {
       "title": "성냥팔이 소년",
-      "level": 18
+      "level": 17
     },
     "17449": {
       "title": "순위 계산",
@@ -63276,7 +63276,7 @@
     },
     "17452": {
       "title": "Christmalo.win",
-      "level": 11
+      "level": 12
     },
     "17453": {
       "title": "두 개의 문",
@@ -77040,7 +77040,7 @@
     },
     "20921": {
       "title": "그렇고 그런 사이",
-      "level": 9
+      "level": 10
     },
     "20922": {
       "title": "겹치는 건 싫어",
@@ -95644,7 +95644,7 @@
     },
     "25674": {
       "title": "Message Made of Noise",
-      "level": 11
+      "level": 12
     },
     "25682": {
       "title": "체스판 다시 칠하기 2",
@@ -102692,7 +102692,7 @@
     },
     "27483": {
       "title": "Round Corridor",
-      "level": 11
+      "level": 10
     },
     "27484": {
       "title": "White Lines",
