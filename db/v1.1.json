@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-19 19:13:28.637938",
+  "last_updated": "2023-02-21 19:14:47.588984",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -876,7 +876,7 @@
     },
     "1219": {
       "title": "오민식의 고민",
-      "level": 15
+      "level": 16
     },
     "1220": {
       "title": "MEGACITY",
@@ -1936,7 +1936,7 @@
     },
     "1489": {
       "title": "대결",
-      "level": 15
+      "level": 16
     },
     "1490": {
       "title": "자리수로 나누기",
@@ -8208,7 +8208,7 @@
     },
     "3085": {
       "title": "사탕 게임",
-      "level": 8
+      "level": 9
     },
     "3086": {
       "title": "초콜릿 자르기",
@@ -9300,7 +9300,7 @@
     },
     "3366": {
       "title": "수열 줄이기",
-      "level": 15
+      "level": 14
     },
     "3367": {
       "title": "Bitwise Expressions",
@@ -13368,7 +13368,7 @@
     },
     "4411": {
       "title": "The Trip",
-      "level": 6
+      "level": 7
     },
     "4412": {
       "title": "Doublets",
@@ -16416,7 +16416,7 @@
     },
     "5189": {
       "title": "Electrical Engineering",
-      "level": 0
+      "level": 14
     },
     "5190": {
       "title": "Aerospace & Mechanical Engineering",
@@ -20080,7 +20080,7 @@
     },
     "6187": {
       "title": "Going to the Movies",
-      "level": 8
+      "level": 7
     },
     "6188": {
       "title": "Clear Cold Water",
@@ -20796,7 +20796,7 @@
     },
     "6373": {
       "title": "Round and Round We Go",
-      "level": 8
+      "level": 9
     },
     "6374": {
       "title": "To the Max",
@@ -28956,7 +28956,7 @@
     },
     "8664": {
       "title": "Kwadrat",
-      "level": 6
+      "level": 5
     },
     "8665": {
       "title": "Odległość",
@@ -31512,7 +31512,7 @@
     },
     "9329": {
       "title": "패스트 푸드 상금",
-      "level": 6
+      "level": 5
     },
     "9330": {
       "title": "Seven Kingdoms",
@@ -34784,7 +34784,7 @@
     },
     "10196": {
       "title": "Minion Walk",
-      "level": 10
+      "level": 13
     },
     "10197": {
       "title": "Word Ladder",
@@ -37092,7 +37092,7 @@
     },
     "10786": {
       "title": "Catering",
-      "level": 19
+      "level": 20
     },
     "10787": {
       "title": "Cutting Cheese",
@@ -40200,7 +40200,7 @@
     },
     "11583": {
       "title": "인경호의 징검다리",
-      "level": 13
+      "level": 14
     },
     "11584": {
       "title": "저 집합은 해로운 집합이다",
@@ -40528,7 +40528,7 @@
     },
     "11665": {
       "title": "직육면체 교집합",
-      "level": 5
+      "level": 4
     },
     "11666": {
       "title": "워크스테이션 배정",
@@ -47736,7 +47736,7 @@
     },
     "13507": {
       "title": "좋은 부분 문자열의 개수",
-      "level": 13
+      "level": 14
     },
     "13509": {
       "title": "가장 가까운 두 점 2",
@@ -49668,7 +49668,7 @@
     },
     "13992": {
       "title": "Delight for a Cat",
-      "level": 25
+      "level": 26
     },
     "13993": {
       "title": "Expect to Wait",
@@ -49792,7 +49792,7 @@
     },
     "14041": {
       "title": "Arrival Time",
-      "level": 4
+      "level": 3
     },
     "14042": {
       "title": "Tandem Bicycle",
@@ -55668,7 +55668,7 @@
     },
     "15525": {
       "title": "Separate String",
-      "level": 21
+      "level": 22
     },
     "15526": {
       "title": "Revenge of the Endless BFS",
@@ -59340,7 +59340,7 @@
     },
     "16455": {
       "title": "K번째 수 찾는 함수",
-      "level": 11
+      "level": 12
     },
     "16456": {
       "title": "하와와 대학생쨩 하와이로 가는 거시와요~",
@@ -62384,7 +62384,7 @@
     },
     "17229": {
       "title": "아싸 너!",
-      "level": 19
+      "level": 20
     },
     "17230": {
       "title": "문제집 만들기",
@@ -63336,11 +63336,11 @@
     },
     "17467": {
       "title": "N! mod P (2)",
-      "level": 0
+      "level": 26
     },
     "17468": {
       "title": "N! mod P (3)",
-      "level": 0
+      "level": 27
     },
     "17469": {
       "title": "트리의 색깔과 쿼리",
@@ -67452,7 +67452,7 @@
     },
     "18506": {
       "title": "Find a Tree",
-      "level": 22
+      "level": 23
     },
     "18507": {
       "title": "One Root",
@@ -68836,7 +68836,7 @@
     },
     "18853": {
       "title": "Legendary Dango Maker 5",
-      "level": 20
+      "level": 21
     },
     "18854": {
       "title": "Legendary Dango Maker 6",
@@ -77748,7 +77748,7 @@
     },
     "21098": {
       "title": "Composite Sequence",
-      "level": 12
+      "level": 13
     },
     "21099": {
       "title": "Four XOR",
@@ -85360,7 +85360,7 @@
     },
     "23045": {
       "title": "별 보는 교준이",
-      "level": 18
+      "level": 19
     },
     "23046": {
       "title": "큰 수 뒤집기",
@@ -95642,9 +95642,25 @@
       "title": "Even and Odd Combinations",
       "level": 11
     },
+    "25673": {
+      "title": "Find the Parts",
+      "level": 20
+    },
     "25674": {
       "title": "Message Made of Noise",
       "level": 12
+    },
+    "25675": {
+      "title": "Four Plus Four",
+      "level": 0
+    },
+    "25676": {
+      "title": "Mark on a Graph",
+      "level": 0
+    },
+    "25677": {
+      "title": "Transfer of Duty",
+      "level": 0
     },
     "25682": {
       "title": "체스판 다시 칠하기 2",
@@ -96920,7 +96936,7 @@
     },
     "26000": {
       "title": "Imperfect Imperial Units",
-      "level": 12
+      "level": 13
     },
     "26001": {
       "title": "Jagged Skyline",
@@ -96928,7 +96944,7 @@
     },
     "26002": {
       "title": "Kiosk Construction",
-      "level": 14
+      "level": 13
     },
     "26003": {
       "title": "Lowest Latency",
@@ -102012,7 +102028,7 @@
     },
     "27301": {
       "title": "오락 고?",
-      "level": 0
+      "level": 15
     },
     "27302": {
       "title": "계란을 떨어뜨리면?",
@@ -102052,7 +102068,7 @@
     },
     "27311": {
       "title": "치노의 라떼 아트 (Easy)",
-      "level": 10
+      "level": 11
     },
     "27312": {
       "title": "운영진에게 설정 짜기는 어려워",
@@ -102733,6 +102749,62 @@
     "27493": {
       "title": "키르히호프의 법칙 2",
       "level": 17
+    },
+    "27494": {
+      "title": "2023년은 검은 토끼의 해",
+      "level": 4
+    },
+    "27495": {
+      "title": "만다라트 만들기",
+      "level": 8
+    },
+    "27496": {
+      "title": "발머의 피크 이론",
+      "level": 8
+    },
+    "27497": {
+      "title": "알파벳 블록",
+      "level": 9
+    },
+    "27498": {
+      "title": "연애 혁명",
+      "level": 13
+    },
+    "27499": {
+      "title": "레이저 쏘기",
+      "level": 14
+    },
+    "27500": {
+      "title": "이 게임에서 진정한 탑은 누구인가",
+      "level": 15
+    },
+    "27501": {
+      "title": "RGB트리",
+      "level": 15
+    },
+    "27502": {
+      "title": "가난한 고흐와 붓",
+      "level": 13
+    },
+    "27503": {
+      "title": "요가 수업",
+      "level": 17
+    },
+    "27504": {
+      "title": "상대음감의 노래찾기",
+      "level": 16
+    },
+    "27505": {
+      "title": "천국의 계단",
+      "level": 16
+    },
+    "27506": {
+      "title": "함수열과 쿼리",
+      "level": 18
+    },
+    "27507": {
+      "title": "K볼록껍질",
+      "level": 21
     },
     "27508": {
       "title": "던전",
