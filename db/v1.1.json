@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-21 19:14:47.588984",
+  "last_updated": "2023-02-22 19:13:58.067148",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -740,7 +740,7 @@
     },
     "1184": {
       "title": "귀농",
-      "level": 15
+      "level": 16
     },
     "1185": {
       "title": "유럽여행",
@@ -1588,7 +1588,7 @@
     },
     "1401": {
       "title": "요컨대 형택이의 사탕봉지",
-      "level": 0
+      "level": 19
     },
     "1402": {
       "title": "아무래도이문제는A번난이도인것같다",
@@ -2932,7 +2932,7 @@
     },
     "1739": {
       "title": "도로 정비하기",
-      "level": 20
+      "level": 21
     },
     "1740": {
       "title": "거듭제곱",
@@ -6352,7 +6352,7 @@
     },
     "2612": {
       "title": "DNA 유사도",
-      "level": 16
+      "level": 17
     },
     "2613": {
       "title": "숫자구슬",
@@ -16520,7 +16520,7 @@
     },
     "5215": {
       "title": "로테이트",
-      "level": 16
+      "level": 18
     },
     "5216": {
       "title": "축구",
@@ -23164,7 +23164,7 @@
     },
     "6987": {
       "title": "월드컵",
-      "level": 11
+      "level": 12
     },
     "6988": {
       "title": "타일 밟기",
@@ -41224,7 +41224,7 @@
     },
     "11839": {
       "title": "Beautiful row",
-      "level": 0
+      "level": 15
     },
     "11840": {
       "title": "XOR",
@@ -50028,7 +50028,7 @@
     },
     "14100": {
       "title": "XOR",
-      "level": 0
+      "level": 19
     },
     "14101": {
       "title": "Arhimed",
@@ -55668,7 +55668,7 @@
     },
     "15525": {
       "title": "Separate String",
-      "level": 22
+      "level": 21
     },
     "15526": {
       "title": "Revenge of the Endless BFS",
@@ -95662,6 +95662,14 @@
       "title": "Transfer of Duty",
       "level": 0
     },
+    "25678": {
+      "title": "Eager Sorting",
+      "level": 16
+    },
+    "25679": {
+      "title": "Telepathy",
+      "level": 0
+    },
     "25682": {
       "title": "체스판 다시 칠하기 2",
       "level": 11
@@ -101156,7 +101164,7 @@
     },
     "27083": {
       "title": "BUY LOW, BUY LOWER",
-      "level": 0
+      "level": 11
     },
     "27084": {
       "title": "카드 뽑기",
@@ -102821,6 +102829,54 @@
     "27511": {
       "title": "야유회",
       "level": 25
+    },
+    "27535": {
+      "title": "제주 초콜릿 지키기",
+      "level": 7
+    },
+    "27536": {
+      "title": "Stone Arranging 2",
+      "level": 0
+    },
+    "27537": {
+      "title": "Advertisement 2",
+      "level": 0
+    },
+    "27538": {
+      "title": "Maze",
+      "level": 0
+    },
+    "27539": {
+      "title": "Cat Exercise",
+      "level": 0
+    },
+    "27540": {
+      "title": "Modern Machine",
+      "level": 0
+    },
+    "27541": {
+      "title": "末尾の文字 (Last Letter)",
+      "level": 0
+    },
+    "27542": {
+      "title": "絶対階差数列 (Sequence of Absolute Differences)",
+      "level": 0
+    },
+    "27543": {
+      "title": "鐘 (Bell)",
+      "level": 0
+    },
+    "27544": {
+      "title": "コイン集め 2 (Coin Collecting 2)",
+      "level": 0
+    },
+    "27545": {
+      "title": "運河 (Canal)",
+      "level": 0
+    },
+    "27546": {
+      "title": "タイピング大会 (Typing Contest)",
+      "level": 0
     }
   }
 }
