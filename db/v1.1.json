@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-22 19:13:58.067148",
+  "last_updated": "2023-02-23 19:14:02.214861",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4472,7 +4472,7 @@
     },
     "2134": {
       "title": "창고 이전",
-      "level": 7
+      "level": 8
     },
     "2135": {
       "title": "문자열 압축하기",
@@ -14088,7 +14088,7 @@
     },
     "4596": {
       "title": "RIPOFF",
-      "level": 11
+      "level": 12
     },
     "4597": {
       "title": "패리티",
@@ -15260,7 +15260,7 @@
     },
     "4900": {
       "title": "7 더하기",
-      "level": 9
+      "level": 8
     },
     "4901": {
       "title": "Match Maker",
@@ -19864,7 +19864,7 @@
     },
     "6130": {
       "title": "Privileged Cows",
-      "level": 10
+      "level": 11
     },
     "6131": {
       "title": "완전 제곱수",
@@ -23556,7 +23556,7 @@
     },
     "7119": {
       "title": "The Magician",
-      "level": 11
+      "level": 12
     },
     "7120": {
       "title": "String",
@@ -25996,7 +25996,7 @@
     },
     "7916": {
       "title": "Cross Spider",
-      "level": 16
+      "level": 17
     },
     "7917": {
       "title": "Potrójne drzewa",
@@ -51336,7 +51336,7 @@
     },
     "14427": {
       "title": "수열과 쿼리 15",
-      "level": 14
+      "level": 13
     },
     "14428": {
       "title": "수열과 쿼리 16",
@@ -57508,7 +57508,7 @@
     },
     "15997": {
       "title": "승부 예측",
-      "level": 14
+      "level": 13
     },
     "15998": {
       "title": "카카오머니",
@@ -95776,7 +95776,7 @@
     },
     "25708": {
       "title": "만남의 광장",
-      "level": 9
+      "level": 10
     },
     "25709": {
       "title": "1 빼기",
@@ -95932,7 +95932,7 @@
     },
     "25747": {
       "title": "Computation - Task 3",
-      "level": 12
+      "level": 13
     },
     "25748": {
       "title": "Computation - Task 4",
@@ -99352,7 +99352,7 @@
     },
     "26613": {
       "title": "수열과 구간과 구간과 구간과 쿼리",
-      "level": 21
+      "level": 22
     },
     "26614": {
       "title": "주고받기",
@@ -99368,7 +99368,7 @@
     },
     "26617": {
       "title": "선물교류",
-      "level": 25
+      "level": 24
     },
     "26618": {
       "title": "정기 모임 4",
@@ -102836,11 +102836,11 @@
     },
     "27536": {
       "title": "Stone Arranging 2",
-      "level": 0
+      "level": 13
     },
     "27537": {
       "title": "Advertisement 2",
-      "level": 0
+      "level": 15
     },
     "27538": {
       "title": "Maze",
@@ -102856,11 +102856,11 @@
     },
     "27541": {
       "title": "末尾の文字 (Last Letter)",
-      "level": 0
+      "level": 2
     },
     "27542": {
       "title": "絶対階差数列 (Sequence of Absolute Differences)",
-      "level": 0
+      "level": 4
     },
     "27543": {
       "title": "鐘 (Bell)",
@@ -102877,6 +102877,74 @@
     "27546": {
       "title": "タイピング大会 (Typing Contest)",
       "level": 0
+    },
+    "27547": {
+      "title": "7Krokods",
+      "level": 0
+    },
+    "27548": {
+      "title": "Zrinka",
+      "level": 0
+    },
+    "27549": {
+      "title": "Bojanje",
+      "level": 0
+    },
+    "27550": {
+      "title": "Mreža",
+      "level": 0
+    },
+    "27551": {
+      "title": "Vrsta",
+      "level": 0
+    },
+    "27552": {
+      "title": "Tractor Paths",
+      "level": 0
+    },
+    "27553": {
+      "title": "Mana Collection",
+      "level": 0
+    },
+    "27554": {
+      "title": "Subtree Activation",
+      "level": 0
+    },
+    "27555": {
+      "title": "Find and Replace",
+      "level": 0
+    },
+    "27556": {
+      "title": "Lights Off",
+      "level": 0
+    },
+    "27557": {
+      "title": "Moo Route",
+      "level": 18
+    },
+    "27558": {
+      "title": "Find and Replace",
+      "level": 0
+    },
+    "27559": {
+      "title": "Following Directions",
+      "level": 16
+    },
+    "27560": {
+      "title": "Moo Route",
+      "level": 0
+    },
+    "27561": {
+      "title": "Leaders",
+      "level": 10
+    },
+    "27562": {
+      "title": "Air Cownditioning II",
+      "level": 9
+    },
+    "27563": {
+      "title": "Moo Operations",
+      "level": 5
     }
   }
 }
