@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-23 19:14:02.214861",
+  "last_updated": "2023-02-24 19:13:52.897510",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2012,7 +2012,7 @@
     },
     "1508": {
       "title": "레이스",
-      "level": 15
+      "level": 14
     },
     "1509": {
       "title": "팰린드롬 분할",
@@ -2844,7 +2844,7 @@
     },
     "1717": {
       "title": "집합의 표현",
-      "level": 12
+      "level": 11
     },
     "1718": {
       "title": "암호",
@@ -7528,7 +7528,7 @@
     },
     "2910": {
       "title": "빈도 정렬",
-      "level": 9
+      "level": 8
     },
     "2911": {
       "title": "전화 복구",
@@ -8775,7 +8775,7 @@
       "level": 5
     },
     "3228": {
-      "title": "극한 피자 배달",
+      "title": "PIZZA",
       "level": 11
     },
     "3229": {
@@ -10635,7 +10635,7 @@
       "level": 0
     },
     "3709": {
-      "title": "레이저빔은 어디로",
+      "title": "Laserbox",
       "level": 10
     },
     "3710": {
@@ -19584,7 +19584,7 @@
     },
     "6059": {
       "title": "Pasture Walking",
-      "level": 9
+      "level": 10
     },
     "6060": {
       "title": "Wheel Rotation",
@@ -19971,7 +19971,7 @@
       "level": 12
     },
     "6159": {
-      "title": "코스튬 파티",
+      "title": "Costume Party",
       "level": 6
     },
     "6160": {
@@ -24379,7 +24379,7 @@
       "level": 12
     },
     "7466": {
-      "title": "젖과 꿀의 땅",
+      "title": "Honey and Milk Land",
       "level": 5
     },
     "7467": {
@@ -33003,7 +33003,7 @@
       "level": 9
     },
     "9715": {
-      "title": "면적 구하기",
+      "title": "Surface Area",
       "level": 7
     },
     "9716": {
@@ -35399,7 +35399,7 @@
       "level": 0
     },
     "10350": {
-      "title": "은행",
+      "title": "Banks",
       "level": 26
     },
     "10351": {
@@ -37188,7 +37188,7 @@
     },
     "10810": {
       "title": "공 넣기",
-      "level": 4
+      "level": 3
     },
     "10811": {
       "title": "바구니 뒤집기",
@@ -49359,7 +49359,7 @@
       "level": 0
     },
     "13915": {
-      "title": "현수의 열기구 교실",
+      "title": "Hot Air Ballooning",
       "level": 8
     },
     "13916": {
@@ -54028,7 +54028,7 @@
     },
     "15113": {
       "title": "Grid Coloring",
-      "level": 13
+      "level": 14
     },
     "15114": {
       "title": "Spinning Up Palindromes",
@@ -90016,7 +90016,7 @@
     },
     "24240": {
       "title": "Doomsday",
-      "level": 13
+      "level": 14
     },
     "24241": {
       "title": "Elder price robot",
@@ -93932,7 +93932,7 @@
     },
     "25224": {
       "title": "Good Game",
-      "level": 22
+      "level": 23
     },
     "25225": {
       "title": "Contact Tracing",
@@ -94828,7 +94828,7 @@
     },
     "25461": {
       "title": "NMABCD",
-      "level": 19
+      "level": 20
     },
     "25462": {
       "title": "Inverzije",
@@ -95264,7 +95264,7 @@
     },
     "25578": {
       "title": "고장난 통신탑",
-      "level": 14
+      "level": 15
     },
     "25579": {
       "title": "터트려라 풍선",
@@ -101740,7 +101740,7 @@
     },
     "27227": {
       "title": "Дивизионы",
-      "level": 0
+      "level": 4
     },
     "27228": {
       "title": "Пары, свободные от квадратов",
@@ -102452,7 +102452,7 @@
     },
     "27417": {
       "title": "Interactive Number Guessing",
-      "level": 10
+      "level": 11
     },
     "27418": {
       "title": "Secure the Top Secret",
@@ -102840,15 +102840,15 @@
     },
     "27537": {
       "title": "Advertisement 2",
-      "level": 15
+      "level": 14
     },
     "27538": {
       "title": "Maze",
-      "level": 0
+      "level": 23
     },
     "27539": {
       "title": "Cat Exercise",
-      "level": 0
+      "level": 20
     },
     "27540": {
       "title": "Modern Machine",
@@ -102864,7 +102864,7 @@
     },
     "27543": {
       "title": "鐘 (Bell)",
-      "level": 0
+      "level": 8
     },
     "27544": {
       "title": "コイン集め 2 (Coin Collecting 2)",
@@ -102872,7 +102872,7 @@
     },
     "27545": {
       "title": "運河 (Canal)",
-      "level": 0
+      "level": 15
     },
     "27546": {
       "title": "タイピング大会 (Typing Contest)",
@@ -102932,7 +102932,7 @@
     },
     "27560": {
       "title": "Moo Route",
-      "level": 0
+      "level": 13
     },
     "27561": {
       "title": "Leaders",
@@ -102944,7 +102944,7 @@
     },
     "27563": {
       "title": "Moo Operations",
-      "level": 5
+      "level": 6
     }
   }
 }
