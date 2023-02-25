@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-24 19:13:52.897510",
+  "last_updated": "2023-02-25 19:12:56.221560",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -12364,7 +12364,7 @@
     },
     "4160": {
       "title": "이혼",
-      "level": 16
+      "level": 15
     },
     "4161": {
       "title": "나이트의 여행",
@@ -17956,7 +17956,7 @@
     },
     "5648": {
       "title": "역원소 정렬",
-      "level": 7
+      "level": 6
     },
     "5649": {
       "title": "Line of Best Fit",
@@ -35836,7 +35836,7 @@
     },
     "10459": {
       "title": "Compressed Words?",
-      "level": 6
+      "level": 7
     },
     "10460": {
       "title": "Java vs. Scheme Smackdown",
@@ -45860,7 +45860,7 @@
     },
     "13026": {
       "title": "저녁 식사",
-      "level": 0
+      "level": 18
     },
     "13027": {
       "title": "Clique Problem",
@@ -54192,7 +54192,7 @@
     },
     "15154": {
       "title": "Lights in the Morning",
-      "level": 0
+      "level": 6
     },
     "15155": {
       "title": "Analysis of Advanced Analytics",
@@ -66196,7 +66196,7 @@
     },
     "18189": {
       "title": "참 어려운 문제",
-      "level": 22
+      "level": 21
     },
     "18190": {
       "title": "촛불과 그림자",
@@ -73752,7 +73752,7 @@
     },
     "20090": {
       "title": "Aliens",
-      "level": 25
+      "level": 24
     },
     "20091": {
       "title": "Mountains",
@@ -90752,7 +90752,7 @@
     },
     "24424": {
       "title": "エゴイ展 (EGOI Exhibition)",
-      "level": 14
+      "level": 15
     },
     "24425": {
       "title": "タクシー 2 (Taxis 2)",
@@ -96248,7 +96248,7 @@
     },
     "25826": {
       "title": "2차원 배열 다중 업데이트 단일 합",
-      "level": 10
+      "level": 11
     },
     "25827": {
       "title": "시간 구간 다중 업데이트 다중 합",
@@ -97572,7 +97572,7 @@
     },
     "26160": {
       "title": "보물 찾기",
-      "level": 20
+      "level": 21
     },
     "26161": {
       "title": "트리의 팔",
@@ -98064,7 +98064,7 @@
     },
     "26288": {
       "title": "Hot and Cold",
-      "level": 20
+      "level": 21
     },
     "26289": {
       "title": "Interactive Factorial Guessing",
@@ -102736,7 +102736,7 @@
     },
     "27488": {
       "title": "Sum of Two Numbers",
-      "level": 8
+      "level": 9
     },
     "27489": {
       "title": "Matching Numbers",
@@ -102868,7 +102868,7 @@
     },
     "27544": {
       "title": "コイン集め 2 (Coin Collecting 2)",
-      "level": 0
+      "level": 12
     },
     "27545": {
       "title": "運河 (Canal)",
@@ -102900,7 +102900,7 @@
     },
     "27552": {
       "title": "Tractor Paths",
-      "level": 0
+      "level": 21
     },
     "27553": {
       "title": "Mana Collection",
@@ -102908,7 +102908,7 @@
     },
     "27554": {
       "title": "Subtree Activation",
-      "level": 0
+      "level": 19
     },
     "27555": {
       "title": "Find and Replace",
@@ -102920,7 +102920,7 @@
     },
     "27557": {
       "title": "Moo Route",
-      "level": 18
+      "level": 19
     },
     "27558": {
       "title": "Find and Replace",
@@ -102928,7 +102928,7 @@
     },
     "27559": {
       "title": "Following Directions",
-      "level": 16
+      "level": 15
     },
     "27560": {
       "title": "Moo Route",
@@ -102940,11 +102940,11 @@
     },
     "27562": {
       "title": "Air Cownditioning II",
-      "level": 9
+      "level": 8
     },
     "27563": {
       "title": "Moo Operations",
-      "level": 6
+      "level": 5
     }
   }
 }
