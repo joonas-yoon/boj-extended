@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-25 19:12:56.221560",
+  "last_updated": "2023-02-26 19:13:05.986511",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3524,7 +3524,7 @@
     },
     "1889": {
       "title": "선물 교환",
-      "level": 10
+      "level": 11
     },
     "1890": {
       "title": "점프",
@@ -3800,7 +3800,7 @@
     },
     "1960": {
       "title": "행렬만들기",
-      "level": 13
+      "level": 14
     },
     "1963": {
       "title": "소수 경로",
@@ -17588,7 +17588,7 @@
     },
     "5556": {
       "title": "타일",
-      "level": 6
+      "level": 5
     },
     "5557": {
       "title": "1학년",
@@ -20380,7 +20380,7 @@
     },
     "6269": {
       "title": "Team Arrangement",
-      "level": 6
+      "level": 8
     },
     "6270": {
       "title": "Barbara Bennett's Wild Numbers",
@@ -25232,7 +25232,7 @@
     },
     "7681": {
       "title": "Sudoku",
-      "level": 22
+      "level": 23
     },
     "7682": {
       "title": "틱택토",
@@ -46584,7 +46584,7 @@
     },
     "13219": {
       "title": "Trains",
-      "level": 10
+      "level": 11
     },
     "13220": {
       "title": "Secret",
@@ -61836,7 +61836,7 @@
     },
     "17089": {
       "title": "세 친구",
-      "level": 11
+      "level": 10
     },
     "17090": {
       "title": "미로 탈출하기",
@@ -85448,7 +85448,7 @@
     },
     "23067": {
       "title": "Tortoise",
-      "level": 24
+      "level": 26
     },
     "23068": {
       "title": "Wells",
@@ -90908,7 +90908,7 @@
     },
     "24463": {
       "title": "미로",
-      "level": 11
+      "level": 12
     },
     "24464": {
       "title": "득수 밥 먹이기",
@@ -96248,7 +96248,7 @@
     },
     "25826": {
       "title": "2차원 배열 다중 업데이트 단일 합",
-      "level": 11
+      "level": 12
     },
     "25827": {
       "title": "시간 구간 다중 업데이트 다중 합",
@@ -98620,7 +98620,7 @@
     },
     "26428": {
       "title": "Sort the Fabrics",
-      "level": 0
+      "level": 6
     },
     "26429": {
       "title": "Water Container System",
@@ -98628,7 +98628,7 @@
     },
     "26430": {
       "title": "Story of Seasons",
-      "level": 0
+      "level": 13
     },
     "26431": {
       "title": "Scheduling a Meeting",
@@ -100724,7 +100724,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 17
+      "level": 16
     },
     "26973": {
       "title": "Circular Barn",
@@ -102596,7 +102596,7 @@
     },
     "27453": {
       "title": "귀엽기만 한 게 아닌 한별 양",
-      "level": 14
+      "level": 15
     },
     "27454": {
       "title": "엔드롤이 끝나고",
@@ -102830,6 +102830,98 @@
       "title": "야유회",
       "level": 25
     },
+    "27512": {
+      "title": "스네이크",
+      "level": 4
+    },
+    "27513": {
+      "title": "스네이크 그리기",
+      "level": 11
+    },
+    "27514": {
+      "title": "1차원 2048",
+      "level": 9
+    },
+    "27515": {
+      "title": "1차원 2048과 쿼리",
+      "level": 8
+    },
+    "27516": {
+      "title": "과녁 맞추기",
+      "level": 13
+    },
+    "27517": {
+      "title": "구슬 정렬",
+      "level": 13
+    },
+    "27518": {
+      "title": "구슬 정렬 (Hard)",
+      "level": 17
+    },
+    "27519": {
+      "title": "소수의 합",
+      "level": 14
+    },
+    "27520": {
+      "title": "경찰서",
+      "level": 0
+    },
+    "27521": {
+      "title": "공약수 (More Huge)",
+      "level": 16
+    },
+    "27522": {
+      "title": "카트라이더: 드리프트",
+      "level": 4
+    },
+    "27523": {
+      "title": "신촌방위본부 탈출",
+      "level": 21
+    },
+    "27524": {
+      "title": "점수 내기",
+      "level": 18
+    },
+    "27525": {
+      "title": "듣기 평가 연습",
+      "level": 23
+    },
+    "27526": {
+      "title": "슬라이딩 퍼즐 마스터",
+      "level": 23
+    },
+    "27527": {
+      "title": "배너 걸기",
+      "level": 10
+    },
+    "27528": {
+      "title": "Azber is playing at Biou's house",
+      "level": 15
+    },
+    "27529": {
+      "title": "양 가두기",
+      "level": 16
+    },
+    "27530": {
+      "title": "UFO in the Sinchon",
+      "level": 20
+    },
+    "27531": {
+      "title": "치즈",
+      "level": 15
+    },
+    "27532": {
+      "title": "시계 맞추기",
+      "level": 11
+    },
+    "27533": {
+      "title": "따로 걸어가기",
+      "level": 21
+    },
+    "27534": {
+      "title": "좋은 문자열 만들기",
+      "level": 12
+    },
     "27535": {
       "title": "제주 초콜릿 지키기",
       "level": 7
@@ -102945,6 +103037,170 @@
     "27563": {
       "title": "Moo Operations",
       "level": 5
+    },
+    "27564": {
+      "title": "Advertising ICPC",
+      "level": 0
+    },
+    "27565": {
+      "title": "Alchemy",
+      "level": 0
+    },
+    "27566": {
+      "title": "Blueberry Waffle",
+      "level": 0
+    },
+    "27567": {
+      "title": "Bog of Eternal Stench",
+      "level": 0
+    },
+    "27568": {
+      "title": "Branch Manager",
+      "level": 0
+    },
+    "27569": {
+      "title": "Champernowne Count",
+      "level": 0
+    },
+    "27570": {
+      "title": "Chocolate Chip Fabrication",
+      "level": 0
+    },
+    "27571": {
+      "title": "Color Tubes",
+      "level": 0
+    },
+    "27572": {
+      "title": "Counting Satellites",
+      "level": 0
+    },
+    "27573": {
+      "title": "Creative Accounting",
+      "level": 0
+    },
+    "27574": {
+      "title": "Digits of Unity",
+      "level": 0
+    },
+    "27575": {
+      "title": "Distinct Parity Excess",
+      "level": 0
+    },
+    "27576": {
+      "title": "Eroding Pillars",
+      "level": 0
+    },
+    "27577": {
+      "title": "Everything Is A Nail",
+      "level": 0
+    },
+    "27578": {
+      "title": "Exponent Exchange",
+      "level": 0
+    },
+    "27579": {
+      "title": "Fading Wind",
+      "level": 0
+    },
+    "27580": {
+      "title": "Family Visits",
+      "level": 0
+    },
+    "27581": {
+      "title": "Food Processor",
+      "level": 0
+    },
+    "27582": {
+      "title": "Greedy Increasing Subsequences",
+      "level": 16
+    },
+    "27583": {
+      "title": "Hunt the Wumpus",
+      "level": 0
+    },
+    "27584": {
+      "title": "I Could Have Won",
+      "level": 0
+    },
+    "27585": {
+      "title": "Lone Knight",
+      "level": 0
+    },
+    "27586": {
+      "title": "Profitable Trip",
+      "level": 0
+    },
+    "27587": {
+      "title": "Repetitive Song",
+      "level": 0
+    },
+    "27588": {
+      "title": "Restaurant Opening",
+      "level": 0
+    },
+    "27589": {
+      "title": "Streets Ahead",
+      "level": 0
+    },
+    "27590": {
+      "title": "Sun and Moon",
+      "level": 2
+    },
+    "27591": {
+      "title": "Three Dice",
+      "level": 0
+    },
+    "27592": {
+      "title": "Triangle Containment",
+      "level": 0
+    },
+    "27593": {
+      "title": "Walking Boy",
+      "level": 4
+    },
+    "27594": {
+      "title": "Uniform Chemistry",
+      "level": 0
+    },
+    "27595": {
+      "title": "Another Wine Tasting Event",
+      "level": 0
+    },
+    "27596": {
+      "title": "Crossing the Railways",
+      "level": 0
+    },
+    "27597": {
+      "title": "Spinach Pizza",
+      "level": 18
+    },
+    "27598": {
+      "title": "Beppa and SwerChat",
+      "level": 0
+    },
+    "27599": {
+      "title": "Parmigiana With Seafood",
+      "level": 0
+    },
+    "27600": {
+      "title": "Controllers",
+      "level": 0
+    },
+    "27601": {
+      "title": "Library game",
+      "level": 21
+    },
+    "27602": {
+      "title": "Italian Data Centers",
+      "level": 20
+    },
+    "27603": {
+      "title": "Train Splitting",
+      "level": 13
+    },
+    "27604": {
+      "title": "Vittorio Plays with LEGO Bricks",
+      "level": 0
     }
   }
 }
