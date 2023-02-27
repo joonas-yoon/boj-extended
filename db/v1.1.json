@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-26 19:13:05.986511",
+  "last_updated": "2023-02-27 19:13:59.259571",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -736,7 +736,7 @@
     },
     "1183": {
       "title": "약속",
-      "level": 8
+      "level": 9
     },
     "1184": {
       "title": "귀농",
@@ -3828,7 +3828,7 @@
     },
     "1969": {
       "title": "DNA",
-      "level": 6
+      "level": 7
     },
     "1970": {
       "title": "건배",
@@ -6388,7 +6388,7 @@
     },
     "2621": {
       "title": "카드게임",
-      "level": 7
+      "level": 8
     },
     "2622": {
       "title": "삼각형만들기",
@@ -12134,6 +12134,10 @@
       "title": "Skyline",
       "level": 13
     },
+    "4100": {
+      "title": "Underground Cables",
+      "level": 0
+    },
     "4101": {
       "title": "크냐?",
       "level": 1
@@ -16980,7 +16984,7 @@
     },
     "5390": {
       "title": "Gene Shuffle",
-      "level": 6
+      "level": 7
     },
     "5391": {
       "title": "Top 2000",
@@ -25020,7 +25024,7 @@
     },
     "7627": {
       "title": "스패닝 트리",
-      "level": 22
+      "level": 21
     },
     "7628": {
       "title": "Another Rock-Paper-Scissors Problem",
@@ -27936,7 +27940,7 @@
     },
     "8407": {
       "title": "Professor Laugh's Numbers",
-      "level": 15
+      "level": 17
     },
     "8408": {
       "title": "Polygons",
@@ -32608,7 +32612,7 @@
     },
     "9616": {
       "title": "홀수 정사각형",
-      "level": 16
+      "level": 15
     },
     "9617": {
       "title": "SSD",
@@ -51336,7 +51340,7 @@
     },
     "14427": {
       "title": "수열과 쿼리 15",
-      "level": 13
+      "level": 14
     },
     "14428": {
       "title": "수열과 쿼리 16",
@@ -65044,7 +65048,7 @@
     },
     "17901": {
       "title": "Awkward Party",
-      "level": 8
+      "level": 7
     },
     "17902": {
       "title": "Backpack Buddies",
@@ -77944,7 +77948,7 @@
     },
     "21147": {
       "title": "Triangular Collection",
-      "level": 13
+      "level": 12
     },
     "21148": {
       "title": "TripTik",
@@ -79912,7 +79916,7 @@
     },
     "21639": {
       "title": "Cooking",
-      "level": 26
+      "level": 28
     },
     "21640": {
       "title": "Hard Work",
@@ -95932,7 +95936,7 @@
     },
     "25747": {
       "title": "Computation - Task 3",
-      "level": 13
+      "level": 14
     },
     "25748": {
       "title": "Computation - Task 4",
@@ -96856,7 +96860,7 @@
     },
     "25978": {
       "title": "2차원 배열 다중 업데이트 다중 합",
-      "level": 10
+      "level": 11
     },
     "25979": {
       "title": "시간 구간 다중 업데이트 최대 합",
@@ -98632,7 +98636,7 @@
     },
     "26431": {
       "title": "Scheduling a Meeting",
-      "level": 0
+      "level": 16
     },
     "26432": {
       "title": "Walktober",
@@ -100724,7 +100728,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 16
+      "level": 17
     },
     "26973": {
       "title": "Circular Barn",
@@ -101740,7 +101744,7 @@
     },
     "27227": {
       "title": "Дивизионы",
-      "level": 4
+      "level": 3
     },
     "27228": {
       "title": "Пары, свободные от квадратов",
@@ -102604,7 +102608,7 @@
     },
     "27455": {
       "title": "카드캡터 한별",
-      "level": 16
+      "level": 17
     },
     "27456": {
       "title": "치노와 코코아",
@@ -102840,11 +102844,11 @@
     },
     "27514": {
       "title": "1차원 2048",
-      "level": 9
+      "level": 8
     },
     "27515": {
       "title": "1차원 2048과 쿼리",
-      "level": 8
+      "level": 9
     },
     "27516": {
       "title": "과녁 맞추기",
@@ -102868,7 +102872,7 @@
     },
     "27521": {
       "title": "공약수 (More Huge)",
-      "level": 16
+      "level": 17
     },
     "27522": {
       "title": "카트라이더: 드리프트",
@@ -102884,7 +102888,7 @@
     },
     "27525": {
       "title": "듣기 평가 연습",
-      "level": 23
+      "level": 22
     },
     "27526": {
       "title": "슬라이딩 퍼즐 마스터",
@@ -102920,7 +102924,7 @@
     },
     "27534": {
       "title": "좋은 문자열 만들기",
-      "level": 12
+      "level": 13
     },
     "27535": {
       "title": "제주 초콜릿 지키기",
@@ -103164,7 +103168,7 @@
     },
     "27595": {
       "title": "Another Wine Tasting Event",
-      "level": 0
+      "level": 7
     },
     "27596": {
       "title": "Crossing the Railways",
@@ -103200,6 +103204,70 @@
     },
     "27604": {
       "title": "Vittorio Plays with LEGO Bricks",
+      "level": 0
+    },
+    "27605": {
+      "title": "기지 간소화",
+      "level": 22
+    },
+    "27606": {
+      "title": "회의실 2",
+      "level": 24
+    },
+    "27607": {
+      "title": "학생들",
+      "level": 21
+    },
+    "27608": {
+      "title": "팀 만들기",
+      "level": 27
+    },
+    "27609": {
+      "title": "A-Mazing Puzzle",
+      "level": 0
+    },
+    "27610": {
+      "title": "A Musical Question",
+      "level": 0
+    },
+    "27611": {
+      "title": "Cribbage On Steroids",
+      "level": 0
+    },
+    "27612": {
+      "title": "Determining Nucleotide Assortments",
+      "level": 0
+    },
+    "27613": {
+      "title": "Hilbert's Hedge Maze",
+      "level": 0
+    },
+    "27614": {
+      "title": "It's About Time",
+      "level": 0
+    },
+    "27615": {
+      "title": "Pea Pattern",
+      "level": 0
+    },
+    "27616": {
+      "title": "Picking Up Steam",
+      "level": 0
+    },
+    "27617": {
+      "title": "Road To Savings",
+      "level": 0
+    },
+    "27618": {
+      "title": "Simple Solitaire",
+      "level": 0
+    },
+    "27619": {
+      "title": "Two Charts Become One",
+      "level": 0
+    },
+    "27620": {
+      "title": "Which Warehouse?",
       "level": 0
     }
   }
