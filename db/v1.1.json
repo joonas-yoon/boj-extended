@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-27 19:13:59.259571",
+  "last_updated": "2023-02-28 19:13:56.314891",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1000,7 +1000,7 @@
     },
     "1250": {
       "title": "색칠된 공들",
-      "level": 25
+      "level": 26
     },
     "1251": {
       "title": "단어 나누기",
@@ -1844,7 +1844,7 @@
     },
     "1466": {
       "title": "그림 고치기",
-      "level": 0
+      "level": 13
     },
     "1467": {
       "title": "수 지우기",
@@ -12136,7 +12136,7 @@
     },
     "4100": {
       "title": "Underground Cables",
-      "level": 0
+      "level": 13
     },
     "4101": {
       "title": "크냐?",
@@ -12152,7 +12152,7 @@
     },
     "4106": {
       "title": "Museum Guards",
-      "level": 17
+      "level": 18
     },
     "4107": {
       "title": "Knitting",
@@ -21432,7 +21432,7 @@
     },
     "6545": {
       "title": "Drink, on Ice",
-      "level": 6
+      "level": 7
     },
     "6546": {
       "title": "Edge",
@@ -22992,7 +22992,7 @@
     },
     "6941": {
       "title": "Calendar",
-      "level": 4
+      "level": 5
     },
     "6942": {
       "title": "9966",
@@ -31936,7 +31936,7 @@
     },
     "9446": {
       "title": "아이템 제작",
-      "level": 16
+      "level": 17
     },
     "9447": {
       "title": "Energy Tycoon",
@@ -33760,7 +33760,7 @@
     },
     "9926": {
       "title": "Shortest Time Move",
-      "level": 0
+      "level": 1
     },
     "9927": {
       "title": "Rectangles",
@@ -34080,7 +34080,7 @@
     },
     "10018": {
       "title": "The Lazy Cow",
-      "level": 19
+      "level": 18
     },
     "10019": {
       "title": "Sabotage",
@@ -34788,7 +34788,7 @@
     },
     "10196": {
       "title": "Minion Walk",
-      "level": 13
+      "level": 10
     },
     "10197": {
       "title": "Word Ladder",
@@ -35184,7 +35184,7 @@
     },
     "10295": {
       "title": "Hiking",
-      "level": 10
+      "level": 11
     },
     "10296": {
       "title": "IceBucketChallenge",
@@ -46412,7 +46412,7 @@
     },
     "13175": {
       "title": "능력",
-      "level": 22
+      "level": 21
     },
     "13176": {
       "title": "동전",
@@ -47484,7 +47484,7 @@
     },
     "13443": {
       "title": "바둑",
-      "level": 0
+      "level": 22
     },
     "13444": {
       "title": "보드 색칠하기",
@@ -47936,7 +47936,7 @@
     },
     "13557": {
       "title": "수열과 쿼리 10",
-      "level": 20
+      "level": 21
     },
     "13558": {
       "title": "등차수열의 개수",
@@ -55672,7 +55672,7 @@
     },
     "15525": {
       "title": "Separate String",
-      "level": 21
+      "level": 22
     },
     "15526": {
       "title": "Revenge of the Endless BFS",
@@ -80608,7 +80608,7 @@
     },
     "21817": {
       "title": "Maze Tac Toe",
-      "level": 17
+      "level": 18
     },
     "21818": {
       "title": "Do You Know Your ABCs?",
@@ -88556,7 +88556,7 @@
     },
     "23844": {
       "title": "트리 정리하기",
-      "level": 14
+      "level": 15
     },
     "23845": {
       "title": "마트료시카",
@@ -102896,7 +102896,7 @@
     },
     "27527": {
       "title": "배너 걸기",
-      "level": 10
+      "level": 9
     },
     "27528": {
       "title": "Azber is playing at Biou's house",
@@ -102960,7 +102960,7 @@
     },
     "27543": {
       "title": "鐘 (Bell)",
-      "level": 8
+      "level": 9
     },
     "27544": {
       "title": "コイン集め 2 (Coin Collecting 2)",
@@ -103008,11 +103008,11 @@
     },
     "27555": {
       "title": "Find and Replace",
-      "level": 0
+      "level": 17
     },
     "27556": {
       "title": "Lights Off",
-      "level": 0
+      "level": 19
     },
     "27557": {
       "title": "Moo Route",
@@ -103032,7 +103032,7 @@
     },
     "27561": {
       "title": "Leaders",
-      "level": 10
+      "level": 9
     },
     "27562": {
       "title": "Air Cownditioning II",
