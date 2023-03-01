@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-02-28 19:13:56.314891",
+  "last_updated": "2023-03-01 19:14:37.692513",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8500,7 +8500,7 @@
     },
     "3158": {
       "title": "Sierpinski 삼각형",
-      "level": 11
+      "level": 12
     },
     "3159": {
       "title": "전구",
@@ -33760,7 +33760,7 @@
     },
     "9926": {
       "title": "Shortest Time Move",
-      "level": 1
+      "level": 12
     },
     "9927": {
       "title": "Rectangles",
@@ -39424,7 +39424,7 @@
     },
     "11388": {
       "title": "달리는 게임",
-      "level": 17
+      "level": 18
     },
     "11389": {
       "title": "로봇 심판의 님 게임",
@@ -56960,7 +56960,7 @@
     },
     "15850": {
       "title": "Random Number Generator",
-      "level": 17
+      "level": 18
     },
     "15851": {
       "title": "National Disaster: Two Towers",
@@ -61636,7 +61636,7 @@
     },
     "17030": {
       "title": "Cow Dating",
-      "level": 20
+      "level": 21
     },
     "17031": {
       "title": "Moorio Kart",
@@ -64804,7 +64804,7 @@
     },
     "17840": {
       "title": "피보나치 음악",
-      "level": 16
+      "level": 15
     },
     "17841": {
       "title": "UNIST는 무엇의 약자일까?",
@@ -70354,6 +70354,14 @@
       "title": "Birmingham",
       "level": 11
     },
+    "19232": {
+      "title": "Konstrukcija",
+      "level": 0
+    },
+    "19233": {
+      "title": "Skandi",
+      "level": 0
+    },
     "19234": {
       "title": "Trener",
       "level": 16
@@ -71916,7 +71924,7 @@
     },
     "19624": {
       "title": "Human Error",
-      "level": 0
+      "level": 16
     },
     "19625": {
       "title": "Sirtet",
@@ -77464,7 +77472,7 @@
     },
     "21026": {
       "title": "Shortsighted",
-      "level": 20
+      "level": 21
     },
     "21027": {
       "title": "Presidential Game",
@@ -86808,7 +86816,7 @@
     },
     "23407": {
       "title": "Board Trick",
-      "level": 15
+      "level": 16
     },
     "23408": {
       "title": "Connectivity",
@@ -87232,7 +87240,7 @@
     },
     "23513": {
       "title": "Blocking Crosses",
-      "level": 20
+      "level": 21
     },
     "23514": {
       "title": "Exact Number of Calls",
@@ -90312,7 +90320,7 @@
     },
     "24313": {
       "title": "알고리즘 수업 - 점근적 표기 1",
-      "level": 6
+      "level": 7
     },
     "24314": {
       "title": "알고리즘 수업 - 점근적 표기 2",
@@ -94857,6 +94865,10 @@
     "25467": {
       "title": "Putevi",
       "level": 13
+    },
+    "25468": {
+      "title": "Jelo",
+      "level": 0
     },
     "25471": {
       "title": "Cijepise",
@@ -99590,6 +99602,10 @@
       "title": "Mieszanie kolorów",
       "level": 11
     },
+    "26675": {
+      "title": "Punkty rankingowe",
+      "level": 0
+    },
     "26676": {
       "title": "Wybór zadań",
       "level": 0
@@ -99642,6 +99658,10 @@
       "title": "Cukierki",
       "level": 0
     },
+    "26689": {
+      "title": "Skierowany graf acykliczny",
+      "level": 0
+    },
     "26690": {
       "title": "Programowanie współbieżne",
       "level": 0
@@ -99674,12 +99694,20 @@
       "title": "Poborcy podatkowi",
       "level": 0
     },
+    "26698": {
+      "title": "Zakłócenia",
+      "level": 0
+    },
     "26699": {
       "title": "Mopadulo",
       "level": 0
     },
     "26700": {
       "title": "Sumy",
+      "level": 0
+    },
+    "26701": {
+      "title": "Wystawa",
       "level": 0
     },
     "26702": {
@@ -99738,8 +99766,16 @@
       "title": "Muzyka pop 2",
       "level": 9
     },
+    "26717": {
+      "title": "Podwyżki",
+      "level": 0
+    },
     "26719": {
       "title": "Drybling Bajtessiego",
+      "level": 0
+    },
+    "26720": {
+      "title": "Fotografia",
       "level": 0
     },
     "26721": {
@@ -102040,7 +102076,7 @@
     },
     "27301": {
       "title": "오락 고?",
-      "level": 15
+      "level": 16
     },
     "27302": {
       "title": "계란을 떨어뜨리면?",
@@ -103208,7 +103244,7 @@
     },
     "27605": {
       "title": "기지 간소화",
-      "level": 22
+      "level": 21
     },
     "27606": {
       "title": "회의실 2",
@@ -103216,7 +103252,7 @@
     },
     "27607": {
       "title": "학생들",
-      "level": 21
+      "level": 22
     },
     "27608": {
       "title": "팀 만들기",
@@ -103268,6 +103304,194 @@
     },
     "27620": {
       "title": "Which Warehouse?",
+      "level": 0
+    },
+    "27621": {
+      "title": "Sum of Three Cubes",
+      "level": 0
+    },
+    "27622": {
+      "title": "Suspicious Event",
+      "level": 4
+    },
+    "27623": {
+      "title": "Wooden Fence",
+      "level": 0
+    },
+    "27624": {
+      "title": "Card Game",
+      "level": 0
+    },
+    "27625": {
+      "title": "Forming a Team",
+      "level": 0
+    },
+    "27626": {
+      "title": "Quests from the Queen",
+      "level": 0
+    },
+    "27627": {
+      "title": "Splitology",
+      "level": 3
+    },
+    "27628": {
+      "title": "Treasure Hunter",
+      "level": 0
+    },
+    "27629": {
+      "title": "Convex Hull",
+      "level": 0
+    },
+    "27630": {
+      "title": "Unique Ability",
+      "level": 0
+    },
+    "27631": {
+      "title": "Sum Mod Pair of A",
+      "level": 0
+    },
+    "27632": {
+      "title": "Yet Another Sequence Related Problem",
+      "level": 0
+    },
+    "27633": {
+      "title": "Concealed Domino",
+      "level": 0
+    },
+    "27634": {
+      "title": "Tennis Game",
+      "level": 0
+    },
+    "27635": {
+      "title": "Konstrukcija 스페셜 저지",
+      "level": 0
+    },
+    "27636": {
+      "title": "Bishopian paths (Easy)",
+      "level": 0
+    },
+    "27637": {
+      "title": "Bishopian paths (Hard)",
+      "level": 0
+    },
+    "27638": {
+      "title": "Qizz Quzz (Easy)",
+      "level": 0
+    },
+    "27639": {
+      "title": "Qizz Quzz (Hard)",
+      "level": 0
+    },
+    "27640": {
+      "title": "Brain fold (Easy)",
+      "level": 0
+    },
+    "27641": {
+      "title": "Brain fold (Hard)",
+      "level": 0
+    },
+    "27642": {
+      "title": "Flipping and cutting (Easy)",
+      "level": 0
+    },
+    "27643": {
+      "title": "Flipping and cutting (Hard)",
+      "level": 0
+    },
+    "27644": {
+      "title": "Internet problem (Easy)",
+      "level": 0
+    },
+    "27645": {
+      "title": "Internet problem (Hard)",
+      "level": 0
+    },
+    "27646": {
+      "title": "Judicious cuts (Easy)",
+      "level": 0
+    },
+    "27647": {
+      "title": "Judicious cuts (Hard)",
+      "level": 0
+    },
+    "27659": {
+      "title": "Queue skipping (Easy)",
+      "level": 0
+    },
+    "27660": {
+      "title": "Queue skipping (Hard)",
+      "level": 0
+    },
+    "27661": {
+      "title": "Counting swaps (Easy)",
+      "level": 0
+    },
+    "27662": {
+      "title": "Russian roulette (Hard)",
+      "level": 0
+    },
+    "27663": {
+      "title": "Counting swaps (Hard)",
+      "level": 0
+    },
+    "27664": {
+      "title": "Ferries (Easy)",
+      "level": 0
+    },
+    "27665": {
+      "title": "Ferries (Hard)",
+      "level": 0
+    },
+    "27666": {
+      "title": "Greatest number (Easy)",
+      "level": 0
+    },
+    "27667": {
+      "title": "Greatest number (Hard)",
+      "level": 0
+    },
+    "27668": {
+      "title": "Kill switch (Easy)",
+      "level": 0
+    },
+    "27669": {
+      "title": "Kill switch (Hard)",
+      "level": 0
+    },
+    "27670": {
+      "title": "Turning gears (Easy)",
+      "level": 0
+    },
+    "27671": {
+      "title": "Turning gears (Hard)",
+      "level": 0
+    },
+    "27672": {
+      "title": "Ultimate magic rectangles (Easy)",
+      "level": 0
+    },
+    "27673": {
+      "title": "Ultimate magic rectangles (Hard)",
+      "level": 0
+    },
+    "27674": {
+      "title": "A+B",
+      "level": 0
+    },
+    "27675": {
+      "title": "Dijkstra's Nightmare (Hard)",
+      "level": 0
+    },
+    "27676": {
+      "title": "Dijkstra's Nightmare (Easy)",
+      "level": 0
+    },
+    "27677": {
+      "title": "Familiar Couples",
+      "level": 0
+    },
+    "27678": {
+      "title": "Humble Captains",
       "level": 0
     }
   }
