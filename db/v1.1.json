@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-01 19:14:37.692513",
+  "last_updated": "2023-03-02 19:13:29.261087",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2928,7 +2928,7 @@
     },
     "1738": {
       "title": "골목길",
-      "level": 14
+      "level": 15
     },
     "1739": {
       "title": "도로 정비하기",
@@ -21404,7 +21404,7 @@
     },
     "6538": {
       "title": "Run Length Encoding",
-      "level": 6
+      "level": 7
     },
     "6539": {
       "title": "Fractran",
@@ -23492,7 +23492,7 @@
     },
     "7095": {
       "title": "Factorials",
-      "level": 6
+      "level": 7
     },
     "7096": {
       "title": "Street Network",
@@ -23540,7 +23540,7 @@
     },
     "7114": {
       "title": "Numbers",
-      "level": 6
+      "level": 7
     },
     "7115": {
       "title": "Circle",
@@ -35992,7 +35992,7 @@
     },
     "10497": {
       "title": "Hitting the Targets",
-      "level": 5
+      "level": 4
     },
     "10498": {
       "title": "Texas Summers",
@@ -43992,11 +43992,11 @@
     },
     "12557": {
       "title": "Fence (Small)",
-      "level": 15
+      "level": 16
     },
     "12558": {
       "title": "Fence (Large)",
-      "level": 19
+      "level": 20
     },
     "12559": {
       "title": "Hot Dog Proliferation (Small)",
@@ -44792,7 +44792,7 @@
     },
     "12758": {
       "title": "천상용섬",
-      "level": 15
+      "level": 16
     },
     "12759": {
       "title": "틱! 택! 토!",
@@ -53336,7 +53336,7 @@
     },
     "14939": {
       "title": "불 끄기",
-      "level": 16
+      "level": 17
     },
     "14940": {
       "title": "쉬운 최단거리",
@@ -59408,7 +59408,7 @@
     },
     "16471": {
       "title": "작은 수 내기",
-      "level": 7
+      "level": 8
     },
     "16472": {
       "title": "고냥이",
@@ -64008,7 +64008,7 @@
     },
     "17634": {
       "title": "이상한 기계",
-      "level": 18
+      "level": 17
     },
     "17635": {
       "title": "다리",
@@ -84068,7 +84068,7 @@
     },
     "22714": {
       "title": "Finding the Top RPS Player",
-      "level": 0
+      "level": 10
     },
     "22715": {
       "title": "Revenge of Voronoi",
@@ -90428,7 +90428,7 @@
     },
     "24340": {
       "title": "가희와 btd5 2",
-      "level": 20
+      "level": 19
     },
     "24341": {
       "title": "СНОУБОРД",
@@ -92748,7 +92748,7 @@
     },
     "24921": {
       "title": "Interesting Outing",
-      "level": 14
+      "level": 13
     },
     "24922": {
       "title": "Inventor Outlasting",
@@ -96788,7 +96788,7 @@
     },
     "25957": {
       "title": "단어 우월 효과 (캠브릿지 대학의 연구결과)",
-      "level": 8
+      "level": 9
     },
     "25958": {
       "title": "예쁜수",
@@ -102892,7 +102892,7 @@
     },
     "27517": {
       "title": "구슬 정렬",
-      "level": 13
+      "level": 14
     },
     "27518": {
       "title": "구슬 정렬 (Hard)",
@@ -102932,7 +102932,7 @@
     },
     "27527": {
       "title": "배너 걸기",
-      "level": 9
+      "level": 10
     },
     "27528": {
       "title": "Azber is playing at Biou's house",
@@ -103308,7 +103308,7 @@
     },
     "27621": {
       "title": "Sum of Three Cubes",
-      "level": 0
+      "level": 3
     },
     "27622": {
       "title": "Suspicious Event",
@@ -103360,11 +103360,11 @@
     },
     "27634": {
       "title": "Tennis Game",
-      "level": 0
+      "level": 7
     },
     "27635": {
       "title": "Konstrukcija 스페셜 저지",
-      "level": 0
+      "level": 14
     },
     "27636": {
       "title": "Bishopian paths (Easy)",
@@ -103416,7 +103416,7 @@
     },
     "27659": {
       "title": "Queue skipping (Easy)",
-      "level": 0
+      "level": 3
     },
     "27660": {
       "title": "Queue skipping (Hard)",
@@ -103476,7 +103476,7 @@
     },
     "27674": {
       "title": "A+B",
-      "level": 0
+      "level": 5
     },
     "27675": {
       "title": "Dijkstra's Nightmare (Hard)",
@@ -103492,6 +103492,138 @@
     },
     "27678": {
       "title": "Humble Captains",
+      "level": 0
+    },
+    "27679": {
+      "title": "Solitaire",
+      "level": 0
+    },
+    "27680": {
+      "title": "Town",
+      "level": 0
+    },
+    "27681": {
+      "title": "Unusual Game Show",
+      "level": 0
+    },
+    "27682": {
+      "title": "Adjusting passwords",
+      "level": 0
+    },
+    "27683": {
+      "title": "Beating the game (Easy)",
+      "level": 0
+    },
+    "27684": {
+      "title": "Beating the game (Hard)",
+      "level": 0
+    },
+    "27685": {
+      "title": "Copier",
+      "level": 0
+    },
+    "27686": {
+      "title": "Game on a conveyor belt",
+      "level": 0
+    },
+    "27687": {
+      "title": "Intrepid cave explorer",
+      "level": 0
+    },
+    "27688": {
+      "title": "Maximum enjoyment",
+      "level": 0
+    },
+    "27689": {
+      "title": "Two covers",
+      "level": 0
+    },
+    "27690": {
+      "title": "Boredom buster (Easy)",
+      "level": 8
+    },
+    "27691": {
+      "title": "Boredom buster (Hard)",
+      "level": 11
+    },
+    "27692": {
+      "title": "Exploring the cave",
+      "level": 0
+    },
+    "27693": {
+      "title": "Grid travel",
+      "level": 0
+    },
+    "27694": {
+      "title": "Knee problems (Easy)",
+      "level": 0
+    },
+    "27695": {
+      "title": "Knee problems (Hard)",
+      "level": 0
+    },
+    "27696": {
+      "title": "Quite the cheater!",
+      "level": 0
+    },
+    "27697": {
+      "title": "Fair coin toss",
+      "level": 0
+    },
+    "27698": {
+      "title": "Gems in the maze",
+      "level": 0
+    },
+    "27699": {
+      "title": "Harvesting potatoes",
+      "level": 0
+    },
+    "27700": {
+      "title": "Light in a room",
+      "level": 0
+    },
+    "27701": {
+      "title": "Matrix nightmare",
+      "level": 0
+    },
+    "27702": {
+      "title": "Against a rock play Spock",
+      "level": 0
+    },
+    "27703": {
+      "title": "Divide the rectangle (Easy)",
+      "level": 0
+    },
+    "27704": {
+      "title": "Divide the rectangle (Hard)",
+      "level": 0
+    },
+    "27705": {
+      "title": "Elementary math",
+      "level": 0
+    },
+    "27706": {
+      "title": "Keep clicking, keep flipping",
+      "level": 0
+    },
+    "27707": {
+      "title": "Rotate to divide",
+      "level": 0
+    },
+    "27708": {
+      "title": "Antisort",
+      "level": 0
+    },
+    "27709": {
+      "title": "Broadway",
+      "level": 0
+    },
+    "27710": {
+      "title": "Cells",
+      "level": 0
+    },
+    "27711": {
+      "title": "Dragon Slayer",
       "level": 0
     }
   }
