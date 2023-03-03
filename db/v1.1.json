@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-02 19:13:29.261087",
+  "last_updated": "2023-03-03 19:14:06.299575",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7404,7 +7404,7 @@
     },
     "2879": {
       "title": "코딩은 예쁘게",
-      "level": 14
+      "level": 13
     },
     "2880": {
       "title": "ŽABE",
@@ -17968,7 +17968,7 @@
     },
     "5650": {
       "title": "Software Licenses",
-      "level": 9
+      "level": 10
     },
     "5651": {
       "title": "완전 중요한 간선",
@@ -26600,7 +26600,7 @@
     },
     "8071": {
       "title": "One-sequence",
-      "level": 11
+      "level": 13
     },
     "8072": {
       "title": "Polygon",
@@ -42500,7 +42500,7 @@
     },
     "12179": {
       "title": "Power Levels (Large)",
-      "level": 9
+      "level": 10
     },
     "12180": {
       "title": "Googlander (Small)",
@@ -45124,7 +45124,7 @@
     },
     "12841": {
       "title": "정보대 등산",
-      "level": 8
+      "level": 9
     },
     "12842": {
       "title": "튀김 소보루",
@@ -51112,7 +51112,7 @@
     },
     "14370": {
       "title": "전화번호 수수께끼 (Large)",
-      "level": 12
+      "level": 13
     },
     "14371": {
       "title": "Close Match (Small)",
@@ -59132,7 +59132,7 @@
     },
     "16402": {
       "title": "제국",
-      "level": 14
+      "level": 15
     },
     "16403": {
       "title": "놀이동산",
@@ -61640,7 +61640,7 @@
     },
     "17031": {
       "title": "Moorio Kart",
-      "level": 21
+      "level": 22
     },
     "17032": {
       "title": "Mowing Mischief",
@@ -64804,7 +64804,7 @@
     },
     "17840": {
       "title": "피보나치 음악",
-      "level": 15
+      "level": 16
     },
     "17841": {
       "title": "UNIST는 무엇의 약자일까?",
@@ -77336,7 +77336,7 @@
     },
     "20992": {
       "title": "Using Digits",
-      "level": 11
+      "level": 12
     },
     "20993": {
       "title": "Furniture",
@@ -82704,7 +82704,7 @@
     },
     "22373": {
       "title": "Buttons",
-      "level": 15
+      "level": 17
     },
     "22374": {
       "title": "Mountain View",
@@ -94796,7 +94796,7 @@
     },
     "25449": {
       "title": "Eurokulen",
-      "level": 6
+      "level": 7
     },
     "25450": {
       "title": "Izleti",
@@ -95324,7 +95324,7 @@
     },
     "25589": {
       "title": "푸앙이와 코인",
-      "level": 16
+      "level": 17
     },
     "25590": {
       "title": "마트료시카 박스 III",
@@ -96336,7 +96336,7 @@
     },
     "25844": {
       "title": "Thirsty Professors",
-      "level": 16
+      "level": 15
     },
     "25845": {
       "title": "Hidden Message",
@@ -100868,7 +100868,7 @@
     },
     "26998": {
       "title": "City Skyline",
-      "level": 0
+      "level": 12
     },
     "26999": {
       "title": "Satellite Photographs",
@@ -101536,7 +101536,7 @@
     },
     "27166": {
       "title": "테라포밍 마스",
-      "level": 16
+      "level": 17
     },
     "27167": {
       "title": "KPvK 엔드게임",
@@ -103044,11 +103044,11 @@
     },
     "27555": {
       "title": "Find and Replace",
-      "level": 17
+      "level": 18
     },
     "27556": {
       "title": "Lights Off",
-      "level": 19
+      "level": 18
     },
     "27557": {
       "title": "Moo Route",
@@ -103056,7 +103056,7 @@
     },
     "27558": {
       "title": "Find and Replace",
-      "level": 0
+      "level": 14
     },
     "27559": {
       "title": "Following Directions",
@@ -103072,7 +103072,7 @@
     },
     "27562": {
       "title": "Air Cownditioning II",
-      "level": 8
+      "level": 9
     },
     "27563": {
       "title": "Moo Operations",
@@ -103416,11 +103416,11 @@
     },
     "27659": {
       "title": "Queue skipping (Easy)",
-      "level": 3
+      "level": 4
     },
     "27660": {
       "title": "Queue skipping (Hard)",
-      "level": 0
+      "level": 4
     },
     "27661": {
       "title": "Counting swaps (Easy)",
@@ -103476,7 +103476,7 @@
     },
     "27674": {
       "title": "A+B",
-      "level": 5
+      "level": 6
     },
     "27675": {
       "title": "Dijkstra's Nightmare (Hard)",
@@ -103544,7 +103544,7 @@
     },
     "27691": {
       "title": "Boredom buster (Hard)",
-      "level": 11
+      "level": 10
     },
     "27692": {
       "title": "Exploring the cave",
@@ -103556,7 +103556,7 @@
     },
     "27694": {
       "title": "Knee problems (Easy)",
-      "level": 0
+      "level": 10
     },
     "27695": {
       "title": "Knee problems (Hard)",
@@ -103592,7 +103592,7 @@
     },
     "27703": {
       "title": "Divide the rectangle (Easy)",
-      "level": 0
+      "level": 10
     },
     "27704": {
       "title": "Divide the rectangle (Hard)",
@@ -103612,7 +103612,7 @@
     },
     "27708": {
       "title": "Antisort",
-      "level": 0
+      "level": 5
     },
     "27709": {
       "title": "Broadway",
@@ -103624,6 +103624,54 @@
     },
     "27711": {
       "title": "Dragon Slayer",
+      "level": 0
+    },
+    "27712": {
+      "title": "Inside job",
+      "level": 0
+    },
+    "27713": {
+      "title": "Jimmy the Acting Teacher",
+      "level": 0
+    },
+    "27714": {
+      "title": "Klingon High Council Training",
+      "level": 0
+    },
+    "27715": {
+      "title": "우표 구매하기 (Easy)",
+      "level": 12
+    },
+    "27716": {
+      "title": "Quick growth",
+      "level": 0
+    },
+    "27717": {
+      "title": "Quick growth (Additional Challenge)",
+      "level": 0
+    },
+    "27718": {
+      "title": "선분 교차 EX",
+      "level": 16
+    },
+    "27719": {
+      "title": "Round and round it goes",
+      "level": 0
+    },
+    "27720": {
+      "title": "Bouncing balls",
+      "level": 0
+    },
+    "27721": {
+      "title": "Easy representation",
+      "level": 0
+    },
+    "27722": {
+      "title": "Going to the movies",
+      "level": 0
+    },
+    "27723": {
+      "title": "Karl's shopping",
       "level": 0
     }
   }
