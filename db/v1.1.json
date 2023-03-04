@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-03 19:14:06.299575",
+  "last_updated": "2023-03-04 19:13:42.554321",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4196,7 +4196,7 @@
     },
     "2064": {
       "title": "IP 주소",
-      "level": 13
+      "level": 12
     },
     "2065": {
       "title": "나룻배",
@@ -9348,7 +9348,7 @@
     },
     "3378": {
       "title": "Bus Trip",
-      "level": 0
+      "level": 19
     },
     "3379": {
       "title": "Polygon",
@@ -26256,7 +26256,7 @@
     },
     "7981": {
       "title": "장비를 정지합니다",
-      "level": 18
+      "level": 19
     },
     "7982": {
       "title": "순열 그래프의 연결성 판별",
@@ -33812,7 +33812,7 @@
     },
     "9942": {
       "title": "하노이의 네 탑",
-      "level": 13
+      "level": 14
     },
     "9943": {
       "title": "Light Switches",
@@ -36768,7 +36768,7 @@
     },
     "10703": {
       "title": "유성",
-      "level": 9
+      "level": 10
     },
     "10704": {
       "title": "KRATKI",
@@ -38163,7 +38163,7 @@
       "level": 12
     },
     "11055": {
-      "title": "가장 큰 증가 부분 수열",
+      "title": "가장 큰 증가하는 부분 수열",
       "level": 9
     },
     "11056": {
@@ -39104,7 +39104,7 @@
     },
     "11290": {
       "title": "Wonowon",
-      "level": 5
+      "level": 6
     },
     "11291": {
       "title": "Alicia’s Afternoon Amble",
@@ -42813,6 +42813,10 @@
     "12257": {
       "title": "Full Binary Tree (Large)",
       "level": 14
+    },
+    "12258": {
+      "title": "Proper Shuffle (Small)",
+      "level": 0
     },
     "12259": {
       "title": "Magic Trick (Small)",
@@ -47875,7 +47879,7 @@
       "level": 18
     },
     "13542": {
-      "title": "우표 구매하기",
+      "title": "우표 구매하기 (Hard)",
       "level": 20
     },
     "13543": {
@@ -49232,7 +49236,7 @@
     },
     "13881": {
       "title": "Permutation Descent Counts",
-      "level": 13
+      "level": 14
     },
     "13882": {
       "title": "Tight-Fit Sudoku",
@@ -53384,7 +53388,7 @@
     },
     "14951": {
       "title": "Broadcast Stations",
-      "level": 22
+      "level": 23
     },
     "14952": {
       "title": "Connect3",
@@ -59132,7 +59136,7 @@
     },
     "16402": {
       "title": "제국",
-      "level": 15
+      "level": 14
     },
     "16403": {
       "title": "놀이동산",
@@ -73032,7 +73036,7 @@
     },
     "19906": {
       "title": "Постановочное фото",
-      "level": 16
+      "level": 17
     },
     "19907": {
       "title": "Беспилотное такси",
@@ -73288,7 +73292,7 @@
     },
     "19970": {
       "title": "Куб",
-      "level": 0
+      "level": 15
     },
     "19971": {
       "title": "Домашнее задание",
@@ -75124,7 +75128,7 @@
     },
     "20439": {
       "title": "계획왕",
-      "level": 15
+      "level": 16
     },
     "20440": {
       "title": "🎵니가 싫어 싫어 너무 싫어 싫어 오지 마 내게 찝쩍대지마🎵 - 1",
@@ -77536,7 +77540,7 @@
     },
     "21042": {
       "title": "Triangle of Safety",
-      "level": 9
+      "level": 13
     },
     "21043": {
       "title": "Domino Line",
@@ -77948,7 +77952,7 @@
     },
     "21145": {
       "title": "Rainbow Numbers",
-      "level": 18
+      "level": 17
     },
     "21146": {
       "title": "Rating Problems",
@@ -78068,7 +78072,7 @@
     },
     "21175": {
       "title": "Painted Corridors",
-      "level": 20
+      "level": 18
     },
     "21176": {
       "title": "Smoothie Stand",
@@ -84774,6 +84778,10 @@
       "title": "Prime Time",
       "level": 19
     },
+    "22892": {
+      "title": "Hacked Exam",
+      "level": 0
+    },
     "22893": {
       "title": "Broken Clock",
       "level": 17
@@ -84781,6 +84789,10 @@
     "22894": {
       "title": "Subtransmutation",
       "level": 15
+    },
+    "22895": {
+      "title": "Digit Blocks",
+      "level": 0
     },
     "22896": {
       "title": "Closest Pick",
@@ -84834,6 +84846,10 @@
       "title": "브루와 오렌지 나누기",
       "level": 18
     },
+    "22909": {
+      "title": "Minimum Sort",
+      "level": 0
+    },
     "22910": {
       "title": "Matrygons",
       "level": 17
@@ -84869,6 +84885,10 @@
     "22918": {
       "title": "Slide Circuits",
       "level": 22
+    },
+    "22919": {
+      "title": "Ropes",
+      "level": 0
     },
     "22920": {
       "title": "Divisible Divisions",
@@ -88352,11 +88372,11 @@
     },
     "23791": {
       "title": "K번째 음식 찾기 1",
-      "level": 13
+      "level": 14
     },
     "23792": {
       "title": "K번째 음식 찾기 2",
-      "level": 13
+      "level": 14
     },
     "23793": {
       "title": "두 단계 최단 경로 1",
@@ -89014,6 +89034,10 @@
       "title": "No Nine",
       "level": 14
     },
+    "23957": {
+      "title": "Sherlock and the Bit Strings",
+      "level": 0
+    },
     "23958": {
       "title": "King's Circle",
       "level": 0
@@ -89120,6 +89144,10 @@
     },
     "23984": {
       "title": "Combining Classes",
+      "level": 0
+    },
+    "23985": {
+      "title": "Cave Escape",
       "level": 0
     },
     "23986": {
@@ -92040,7 +92068,7 @@
     },
     "24743": {
       "title": "CIDR",
-      "level": 9
+      "level": 8
     },
     "24744": {
       "title": "Three Spheres and a Tetrahedron",
@@ -93430,9 +93458,17 @@
       "title": "Chain Reactions",
       "level": 15
     },
+    "25092": {
+      "title": "Twisty Little Passages",
+      "level": 0
+    },
     "25093": {
       "title": "Double or One Thing",
       "level": 10
+    },
+    "25094": {
+      "title": "Equal Sum",
+      "level": 0
     },
     "25095": {
       "title": "Weightlifting",
@@ -93445,6 +93481,10 @@
     "25097": {
       "title": "Controlled Inflation",
       "level": 14
+    },
+    "25098": {
+      "title": "ASeDatAb",
+      "level": 0
     },
     "25099": {
       "title": "Anagram",
@@ -94218,6 +94258,10 @@
       "title": "달팽이와 쿼리",
       "level": 11
     },
+    "25295": {
+      "title": "Revenge of GoroSort",
+      "level": 0
+    },
     "25296": {
       "title": "Duck, Duck, Geese",
       "level": 20
@@ -94225,6 +94269,10 @@
     "25297": {
       "title": "Mascot Maze",
       "level": 19
+    },
+    "25298": {
+      "title": "Win As Second",
+      "level": 0
     },
     "25303": {
       "title": "Scenery 2",
@@ -103024,7 +103072,7 @@
     },
     "27550": {
       "title": "Mreža",
-      "level": 0
+      "level": 21
     },
     "27551": {
       "title": "Vrsta",
@@ -103414,6 +103462,50 @@
       "title": "Judicious cuts (Hard)",
       "level": 0
     },
+    "27648": {
+      "title": "증가 배열 만들기",
+      "level": 6
+    },
+    "27649": {
+      "title": "토크나이저",
+      "level": 8
+    },
+    "27650": {
+      "title": "마법박스",
+      "level": 12
+    },
+    "27651": {
+      "title": "벌레컷",
+      "level": 13
+    },
+    "27652": {
+      "title": "AB",
+      "level": 15
+    },
+    "27653": {
+      "title": "최소 트리 분할",
+      "level": 16
+    },
+    "27654": {
+      "title": "시험",
+      "level": 16
+    },
+    "27655": {
+      "title": "점프",
+      "level": 18
+    },
+    "27656": {
+      "title": "양궁",
+      "level": 18
+    },
+    "27657": {
+      "title": "정렬",
+      "level": 23
+    },
+    "27658": {
+      "title": "GCD와 K번째 쿼리",
+      "level": 22
+    },
     "27659": {
       "title": "Queue skipping (Easy)",
       "level": 4
@@ -103648,7 +103740,7 @@
     },
     "27717": {
       "title": "Quick growth (Additional Challenge)",
-      "level": 0
+      "level": 16
     },
     "27718": {
       "title": "선분 교차 EX",
@@ -103672,6 +103764,386 @@
     },
     "27723": {
       "title": "Karl's shopping",
+      "level": 0
+    },
+    "27744": {
+      "title": "Saving The Universe Again",
+      "level": 0
+    },
+    "27745": {
+      "title": "Trouble Sort",
+      "level": 0
+    },
+    "27746": {
+      "title": "Go, Gopher!",
+      "level": 0
+    },
+    "27747": {
+      "title": "Cubic UFO",
+      "level": 0
+    },
+    "27748": {
+      "title": "Waffle Choppers",
+      "level": 0
+    },
+    "27749": {
+      "title": "Bit Party",
+      "level": 0
+    },
+    "27750": {
+      "title": "Edgy Baking",
+      "level": 0
+    },
+    "27751": {
+      "title": "Rounding Error",
+      "level": 0
+    },
+    "27752": {
+      "title": "Mysterious Road Signs",
+      "level": 0
+    },
+    "27753": {
+      "title": "Transmutation",
+      "level": 0
+    },
+    "27754": {
+      "title": "A Whole New Word",
+      "level": 0
+    },
+    "27755": {
+      "title": "Lollipop Shop",
+      "level": 0
+    },
+    "27756": {
+      "title": "Ant Stack",
+      "level": 0
+    },
+    "27757": {
+      "title": "Falling Balls",
+      "level": 0
+    },
+    "27758": {
+      "title": "Graceful Chainsaw Jugglers",
+      "level": 0
+    },
+    "27759": {
+      "title": "Costume Change",
+      "level": 0
+    },
+    "27760": {
+      "title": "Gridception",
+      "level": 0
+    },
+    "27761": {
+      "title": "Field Trip",
+      "level": 0
+    },
+    "27762": {
+      "title": "Name-Preserving Network",
+      "level": 0
+    },
+    "27763": {
+      "title": "Raise the Roof",
+      "level": 0
+    },
+    "27764": {
+      "title": "Fence Construction",
+      "level": 0
+    },
+    "27765": {
+      "title": "Jurisdiction Restrictions",
+      "level": 0
+    },
+    "27766": {
+      "title": "Two-Tiling",
+      "level": 0
+    },
+    "27767": {
+      "title": "Go, Gophers!",
+      "level": 0
+    },
+    "27768": {
+      "title": "Swordmaster",
+      "level": 0
+    },
+    "27769": {
+      "title": "The Cartesian Job",
+      "level": 0
+    },
+    "27770": {
+      "title": "Foregone Solution",
+      "level": 0
+    },
+    "27771": {
+      "title": "You Can Go Your Own Way",
+      "level": 0
+    },
+    "27772": {
+      "title": "Cryptopangrams",
+      "level": 0
+    },
+    "27773": {
+      "title": "Dat Bae",
+      "level": 0
+    },
+    "27774": {
+      "title": "Pylons",
+      "level": 0
+    },
+    "27775": {
+      "title": "Golf Gophers",
+      "level": 0
+    },
+    "27776": {
+      "title": "Alien Rhyme",
+      "level": 0
+    },
+    "27777": {
+      "title": "Manhattan Crepe Cart",
+      "level": 0
+    },
+    "27778": {
+      "title": "Draupnir",
+      "level": 0
+    },
+    "27779": {
+      "title": "Fair Fight",
+      "level": 0
+    },
+    "27780": {
+      "title": "Robot Programming Strategy",
+      "level": 0
+    },
+    "27781": {
+      "title": "Power Arrangers",
+      "level": 0
+    },
+    "27782": {
+      "title": "Bacterial Tactics",
+      "level": 0
+    },
+    "27783": {
+      "title": "New Elements: Part 1",
+      "level": 0
+    },
+    "27784": {
+      "title": "Pottery Lottery",
+      "level": 0
+    },
+    "27785": {
+      "title": "New Elements: Part 2",
+      "level": 0
+    },
+    "27786": {
+      "title": "Contransmutation",
+      "level": 0
+    },
+    "27787": {
+      "title": "Zillionim",
+      "level": 0
+    },
+    "27788": {
+      "title": "Pancake Pyramid",
+      "level": 0
+    },
+    "27789": {
+      "title": "Datacenter Duplex",
+      "level": 0
+    },
+    "27790": {
+      "title": "Napkin Folding",
+      "level": 0
+    },
+    "27791": {
+      "title": "Board Meeting",
+      "level": 0
+    },
+    "27792": {
+      "title": "Sorting Permutation Unit",
+      "level": 0
+    },
+    "27793": {
+      "title": "Won't sum? Must now",
+      "level": 0
+    },
+    "27794": {
+      "title": "Juggle Struggle: Part 1",
+      "level": 0
+    },
+    "27795": {
+      "title": "Juggle Struggle: Part 2",
+      "level": 0
+    },
+    "27796": {
+      "title": "Go To Considered Helpful",
+      "level": 0
+    },
+    "27797": {
+      "title": "Vestigium",
+      "level": 0
+    },
+    "27798": {
+      "title": "Nesting Depth",
+      "level": 0
+    },
+    "27799": {
+      "title": "Parenting Partnering Returns",
+      "level": 0
+    },
+    "27800": {
+      "title": "ESAb ATAd",
+      "level": 0
+    },
+    "27801": {
+      "title": "Indicium",
+      "level": 0
+    },
+    "27802": {
+      "title": "Pattern Matching",
+      "level": 0
+    },
+    "27803": {
+      "title": "Pascal Walk",
+      "level": 0
+    },
+    "27804": {
+      "title": "Square Dance",
+      "level": 0
+    },
+    "27805": {
+      "title": "Expogo",
+      "level": 0
+    },
+    "27806": {
+      "title": "Blindfolded Bullseye",
+      "level": 0
+    },
+    "27807": {
+      "title": "Join the Ranks",
+      "level": 0
+    },
+    "27808": {
+      "title": "Overexcited Fan",
+      "level": 0
+    },
+    "27809": {
+      "title": "Overrandomized",
+      "level": 0
+    },
+    "27810": {
+      "title": "Oversized Pancake Choppers",
+      "level": 0
+    },
+    "27811": {
+      "title": "Incremental House of Pancakes",
+      "level": 0
+    },
+    "27812": {
+      "title": "Security Update",
+      "level": 0
+    },
+    "27813": {
+      "title": "Wormhole in One",
+      "level": 0
+    },
+    "27814": {
+      "title": "Emacs++",
+      "level": 0
+    },
+    "27815": {
+      "title": "Naming Compromise",
+      "level": 0
+    },
+    "27816": {
+      "title": "Thermometers",
+      "level": 0
+    },
+    "27817": {
+      "title": "Pen Testing",
+      "level": 0
+    },
+    "27818": {
+      "title": "Recalculating",
+      "level": 0
+    },
+    "27819": {
+      "title": "Pack the Slopes",
+      "level": 0
+    },
+    "27820": {
+      "title": "Adjacent and Consecutive",
+      "level": 0
+    },
+    "27821": {
+      "title": "Hexacoin Jam",
+      "level": 0
+    },
+    "27822": {
+      "title": "Musical Cords",
+      "level": 0
+    },
+    "27823": {
+      "title": "Replace All",
+      "level": 0
+    },
+    "27824": {
+      "title": "Wonderland Chase",
+      "level": 0
+    },
+    "27825": {
+      "title": "Goose, Goose, Ducks?",
+      "level": 0
+    },
+    "27826": {
+      "title": "Slide Parade",
+      "level": 0
+    },
+    "27827": {
+      "title": "Schrödinger and Pavlov",
+      "level": 0
+    },
+    "27828": {
+      "title": "Triangles",
+      "level": 0
+    },
+    "27829": {
+      "title": "Army Strength",
+      "level": 0
+    },
+    "27830": {
+      "title": "Just a Single Lie",
+      "level": 0
+    },
+    "27831": {
+      "title": "K Equal Digits",
+      "level": 0
+    },
+    "27832": {
+      "title": "Large party",
+      "level": 0
+    },
+    "27833": {
+      "title": "Anti-Blot System",
+      "level": 0
+    },
+    "27834": {
+      "title": "Delicious Cake",
+      "level": 0
+    },
+    "27835": {
+      "title": "Little Peter's Tower",
+      "level": 0
+    },
+    "27836": {
+      "title": "Paradox With Averages",
+      "level": 0
+    },
+    "27837": {
+      "title": "Biased Standings",
+      "level": 0
+    },
+    "27838": {
+      "title": "Counting Subsequences",
       "level": 0
     }
   }
