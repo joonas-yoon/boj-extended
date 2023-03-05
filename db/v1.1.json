@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-04 19:13:42.554321",
+  "last_updated": "2023-03-05 19:12:48.535234",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6052,7 +6052,7 @@
     },
     "2537": {
       "title": "점핑 사다리",
-      "level": 21
+      "level": 22
     },
     "2538": {
       "title": "모눈종이 자르기",
@@ -6188,7 +6188,7 @@
     },
     "2571": {
       "title": "색종이 - 3",
-      "level": 13
+      "level": 12
     },
     "2572": {
       "title": "보드게임",
@@ -16896,7 +16896,7 @@
     },
     "5368": {
       "title": "Escape Route",
-      "level": 0
+      "level": 4
     },
     "5369": {
       "title": "Asteroid Field",
@@ -21352,7 +21352,7 @@
     },
     "6525": {
       "title": "동차 수열",
-      "level": 12
+      "level": 13
     },
     "6526": {
       "title": "Ambiguous permutations",
@@ -44840,7 +44840,7 @@
     },
     "12769": {
       "title": "영원한 젊음",
-      "level": 19
+      "level": 20
     },
     "12770": {
       "title": "Longest Rivers",
@@ -45632,7 +45632,7 @@
     },
     "12967": {
       "title": "pqr",
-      "level": 15
+      "level": 16
     },
     "12968": {
       "title": "방문",
@@ -51764,7 +51764,7 @@
     },
     "14532": {
       "title": "Modern Art (Bronze)",
-      "level": 12
+      "level": 11
     },
     "14533": {
       "title": "Financial Tsunami",
@@ -58252,7 +58252,7 @@
     },
     "16181": {
       "title": "Coloring Roads",
-      "level": 22
+      "level": 23
     },
     "16182": {
       "title": "Dumae",
@@ -66464,7 +66464,7 @@
     },
     "18254": {
       "title": "쿼리와 쿼리",
-      "level": 26
+      "level": 25
     },
     "18255": {
       "title": "Visible Lattice",
@@ -73784,7 +73784,7 @@
     },
     "20094": {
       "title": "Sudoku 1",
-      "level": 4
+      "level": 5
     },
     "20095": {
       "title": "Sudoku 2",
@@ -97536,7 +97536,7 @@
     },
     "26135": {
       "title": "Islands from the Sky",
-      "level": 17
+      "level": 18
     },
     "26136": {
       "title": "Mosaic Browsing",
@@ -100864,7 +100864,7 @@
     },
     "26985": {
       "title": "Redundant Paths",
-      "level": 19
+      "level": 18
     },
     "26986": {
       "title": "Corral the Cows",
@@ -101084,7 +101084,7 @@
     },
     "27040": {
       "title": "Golf",
-      "level": 13
+      "level": 12
     },
     "27041": {
       "title": "Leapcow",
@@ -103028,7 +103028,7 @@
     },
     "27539": {
       "title": "Cat Exercise",
-      "level": 20
+      "level": 21
     },
     "27540": {
       "title": "Modern Machine",
@@ -103084,7 +103084,7 @@
     },
     "27553": {
       "title": "Mana Collection",
-      "level": 0
+      "level": 23
     },
     "27554": {
       "title": "Subtree Activation",
@@ -103100,11 +103100,11 @@
     },
     "27557": {
       "title": "Moo Route",
-      "level": 19
+      "level": 18
     },
     "27558": {
       "title": "Find and Replace",
-      "level": 14
+      "level": 16
     },
     "27559": {
       "title": "Following Directions",
@@ -103456,7 +103456,7 @@
     },
     "27646": {
       "title": "Judicious cuts (Easy)",
-      "level": 0
+      "level": 6
     },
     "27647": {
       "title": "Judicious cuts (Hard)",
@@ -103484,11 +103484,11 @@
     },
     "27653": {
       "title": "최소 트리 분할",
-      "level": 16
+      "level": 15
     },
     "27654": {
       "title": "시험",
-      "level": 16
+      "level": 17
     },
     "27655": {
       "title": "점프",
@@ -103500,7 +103500,7 @@
     },
     "27657": {
       "title": "정렬",
-      "level": 23
+      "level": 24
     },
     "27658": {
       "title": "GCD와 K번째 쿼리",
@@ -103688,7 +103688,7 @@
     },
     "27704": {
       "title": "Divide the rectangle (Hard)",
-      "level": 0
+      "level": 17
     },
     "27705": {
       "title": "Elementary math",
@@ -103704,7 +103704,7 @@
     },
     "27708": {
       "title": "Antisort",
-      "level": 5
+      "level": 4
     },
     "27709": {
       "title": "Broadway",
@@ -104124,7 +104124,7 @@
     },
     "27833": {
       "title": "Anti-Blot System",
-      "level": 0
+      "level": 7
     },
     "27834": {
       "title": "Delicious Cake",
@@ -104132,18 +104132,78 @@
     },
     "27835": {
       "title": "Little Peter's Tower",
-      "level": 0
+      "level": 18
     },
     "27836": {
       "title": "Paradox With Averages",
-      "level": 0
+      "level": 6
     },
     "27837": {
       "title": "Biased Standings",
-      "level": 0
+      "level": 11
     },
     "27838": {
       "title": "Counting Subsequences",
+      "level": 13
+    },
+    "27839": {
+      "title": "Digital Calculator",
+      "level": 0
+    },
+    "27840": {
+      "title": "Hungry Cow",
+      "level": 0
+    },
+    "27841": {
+      "title": "Problem Setting",
+      "level": 0
+    },
+    "27842": {
+      "title": "Watching Cowflix",
+      "level": 0
+    },
+    "27843": {
+      "title": "Equal Sum Subarrays",
+      "level": 0
+    },
+    "27844": {
+      "title": "Fertilizing Pastures",
+      "level": 0
+    },
+    "27845": {
+      "title": "Piling Papers",
+      "level": 0
+    },
+    "27846": {
+      "title": "Bakery",
+      "level": 0
+    },
+    "27847": {
+      "title": "Cow-libi",
+      "level": 0
+    },
+    "27848": {
+      "title": "Moo Route II",
+      "level": 0
+    },
+    "27849": {
+      "title": "Hungry Cow",
+      "level": 0
+    },
+    "27850": {
+      "title": "Stamp Grid",
+      "level": 0
+    },
+    "27851": {
+      "title": "Watching Mooloo",
+      "level": 0
+    },
+    "27852": {
+      "title": "Kruskal",
+      "level": 0
+    },
+    "27853": {
+      "title": "Crane Operator",
       "level": 0
     }
   }
