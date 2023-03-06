@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-05 19:12:48.535234",
+  "last_updated": "2023-03-06 19:14:15.628722",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1436,7 +1436,7 @@
     },
     "1361": {
       "title": "두 스트링 마스크",
-      "level": 11
+      "level": 12
     },
     "1362": {
       "title": "펫",
@@ -13640,7 +13640,7 @@
     },
     "4483": {
       "title": "“Robot Roll Call – Cambot...Servo...Gypsy...Croooow”",
-      "level": 5
+      "level": 4
     },
     "4484": {
       "title": "Cave Crisis",
@@ -16524,7 +16524,7 @@
     },
     "5215": {
       "title": "로테이트",
-      "level": 18
+      "level": 22
     },
     "5216": {
       "title": "축구",
@@ -16896,7 +16896,7 @@
     },
     "5368": {
       "title": "Escape Route",
-      "level": 4
+      "level": 3
     },
     "5369": {
       "title": "Asteroid Field",
@@ -20420,7 +20420,7 @@
     },
     "6278": {
       "title": "Zombie’s Treasure Chest",
-      "level": 0
+      "level": 15
     },
     "6279": {
       "title": "삼각형 피자",
@@ -23176,7 +23176,7 @@
     },
     "6989": {
       "title": "채점",
-      "level": 19
+      "level": 18
     },
     "6990": {
       "title": "달팽이",
@@ -26796,7 +26796,7 @@
     },
     "8120": {
       "title": "Coding of Permutations",
-      "level": 15
+      "level": 14
     },
     "8121": {
       "title": "Step Traversing a Tree",
@@ -32612,7 +32612,7 @@
     },
     "9616": {
       "title": "홀수 정사각형",
-      "level": 15
+      "level": 14
     },
     "9617": {
       "title": "SSD",
@@ -39312,7 +39312,7 @@
     },
     "11342": {
       "title": "Frame by Frame",
-      "level": 9
+      "level": 10
     },
     "11343": {
       "title": "Crushing Confections",
@@ -42232,7 +42232,7 @@
     },
     "12112": {
       "title": "Savrsen",
-      "level": 12
+      "level": 11
     },
     "12113": {
       "title": "Sirni",
@@ -53768,7 +53768,7 @@
     },
     "15046": {
       "title": "Hipercampo",
-      "level": 12
+      "level": 13
     },
     "15047": {
       "title": "Imposto Real",
@@ -56276,7 +56276,7 @@
     },
     "15677": {
       "title": "문제 하나 풀어볼래?",
-      "level": 18
+      "level": 19
     },
     "15678": {
       "title": "연세워터파크",
@@ -65148,7 +65148,7 @@
     },
     "17925": {
       "title": "Problem Classification",
-      "level": 7
+      "level": 8
     },
     "17926": {
       "title": "Mixing Drinks",
@@ -66092,7 +66092,7 @@
     },
     "18161": {
       "title": "마스터마인드",
-      "level": 16
+      "level": 17
     },
     "18162": {
       "title": "Adler32",
@@ -68408,7 +68408,7 @@
     },
     "18743": {
       "title": "Bin",
-      "level": 25
+      "level": 26
     },
     "18744": {
       "title": "Cat",
@@ -78376,7 +78376,7 @@
     },
     "21251": {
       "title": "Premove Checkmate",
-      "level": 22
+      "level": 23
     },
     "21252": {
       "title": "Ah, It's Yesterday Once More",
@@ -97552,7 +97552,7 @@
     },
     "26139": {
       "title": "Splitstream",
-      "level": 14
+      "level": 15
     },
     "26140": {
       "title": "Take On Meme",
@@ -103500,7 +103500,7 @@
     },
     "27657": {
       "title": "정렬",
-      "level": 24
+      "level": 23
     },
     "27658": {
       "title": "GCD와 K번째 쿼리",
@@ -103680,7 +103680,7 @@
     },
     "27702": {
       "title": "Against a rock play Spock",
-      "level": 0
+      "level": 7
     },
     "27703": {
       "title": "Divide the rectangle (Easy)",
@@ -103704,7 +103704,7 @@
     },
     "27708": {
       "title": "Antisort",
-      "level": 4
+      "level": 5
     },
     "27709": {
       "title": "Broadway",
@@ -104156,7 +104156,7 @@
     },
     "27841": {
       "title": "Problem Setting",
-      "level": 0
+      "level": 20
     },
     "27842": {
       "title": "Watching Cowflix",
@@ -104176,27 +104176,27 @@
     },
     "27846": {
       "title": "Bakery",
-      "level": 0
+      "level": 16
     },
     "27847": {
       "title": "Cow-libi",
-      "level": 0
+      "level": 10
     },
     "27848": {
       "title": "Moo Route II",
-      "level": 0
+      "level": 16
     },
     "27849": {
       "title": "Hungry Cow",
-      "level": 0
+      "level": 6
     },
     "27850": {
       "title": "Stamp Grid",
-      "level": 0
+      "level": 9
     },
     "27851": {
       "title": "Watching Mooloo",
-      "level": 0
+      "level": 5
     },
     "27852": {
       "title": "Kruskal",
@@ -104204,6 +104204,50 @@
     },
     "27853": {
       "title": "Crane Operator",
+      "level": 0
+    },
+    "27854": {
+      "title": "Exact? Approximate!",
+      "level": 0
+    },
+    "27855": {
+      "title": "Cornhole",
+      "level": 0
+    },
+    "27856": {
+      "title": "Sum of Remainders",
+      "level": 0
+    },
+    "27857": {
+      "title": "Quotdoku",
+      "level": 0
+    },
+    "27858": {
+      "title": "Counting Pythagorean Triples",
+      "level": 0
+    },
+    "27859": {
+      "title": "Clarissa’s Conical Cannolis",
+      "level": 0
+    },
+    "27860": {
+      "title": "Busy As a Bee",
+      "level": 0
+    },
+    "27861": {
+      "title": "Linked Triangles",
+      "level": 0
+    },
+    "27862": {
+      "title": "You You See What?",
+      "level": 0
+    },
+    "27863": {
+      "title": "Caravan Trip Plans",
+      "level": 0
+    },
+    "27864": {
+      "title": "PSET",
       "level": 0
     }
   }
