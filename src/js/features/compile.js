@@ -23,8 +23,12 @@
     button.textContent = '컴파일';
     button.addEventListener('click', (evt) => {
       evt.preventDefault();
-      const codeLines = document.querySelectorAll('.CodeMirror-code .CodeMirror-line[role="presentation"]');
-      const sourceCodeText = Array.from(codeLines).map(e => e.textContent).join('\n');
+      const codeLines = document.querySelectorAll(
+        '.CodeMirror-code .CodeMirror-line[role="presentation"]'
+      );
+      const sourceCodeText = Array.from(codeLines)
+        .map((e) => e.textContent)
+        .join('\n');
       const result = compile(sourceCodeText || '');
       window.alert('컴파일 결과: ' + result);
     });
