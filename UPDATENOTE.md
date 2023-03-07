@@ -3,6 +3,8 @@
 **Changes**
 
 - solved.ac API 업데이트로 인한 사용 불가 안내 [(#138)](https://github.com/joonas-yoon/boj-extended/issues/138)
+- - ![image](https://user-images.githubusercontent.com/9527681/223463527-3e62f76b-d7ba-4e11-9d38-0175afc258a1.png)
+- 코드 에디터 색상의 시인성 개선 [(#135)](https://github.com/joonas-yoon/boj-extended/issues/135)
 
 **Fixes**
 
