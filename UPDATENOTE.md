@@ -1,3 +1,13 @@
+## 1.9.4
+
+**Changes**
+
+- solved.ac API 업데이트로 인한 사용 불가 안내 [(#138)](https://github.com/joonas-yoon/boj-extended/issues/138)
+
+**Fixes**
+
+- 옵션 페이지 버그 수정 [(#140)](https://github.com/joonas-yoon/boj-extended/issues/140)
+
 ## 1.9.3.1
 
 **Changes**
