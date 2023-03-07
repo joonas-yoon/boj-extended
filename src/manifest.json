@@ -42,9 +42,7 @@
     {
       "matches": ["https://www.acmicpc.net/submit/*"],
       "all_frames": true,
-      "js": [
-        "js/features/compile.js"
-      ]
+      "js": ["js/features/compile.js"]
     }
   ],
   "options_ui": {
