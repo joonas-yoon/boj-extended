@@ -38,6 +38,13 @@
         "js/features/global.js",
         "js/main.js"
       ]
+    },
+    {
+      "matches": ["https://www.acmicpc.net/submit/*"],
+      "all_frames": true,
+      "js": [
+        "js/features/compile.js"
+      ]
     }
   ],
   "options_ui": {
@@ -49,7 +56,8 @@
       "resources": [
         "css/status.css",
         "css/user.css",
-        "js/features/status/rte.js"
+        "js/features/status/rte.js",
+        "js/third/pako.js"
       ],
       "matches": ["<all_urls>"]
     }
