@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-06 19:14:15.628722",
+  "last_updated": "2023-03-07 19:14:19.295715",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1492,7 +1492,7 @@
     },
     "1375": {
       "title": "나이",
-      "level": 13
+      "level": 14
     },
     "1376": {
       "title": "민식우선탐색",
@@ -3524,7 +3524,7 @@
     },
     "1889": {
       "title": "선물 교환",
-      "level": 11
+      "level": 12
     },
     "1890": {
       "title": "점프",
@@ -3924,7 +3924,7 @@
     },
     "1994": {
       "title": "등차수열",
-      "level": 16
+      "level": 15
     },
     "1995": {
       "title": "폐쇄회로",
@@ -6188,7 +6188,7 @@
     },
     "2571": {
       "title": "색종이 - 3",
-      "level": 12
+      "level": 13
     },
     "2572": {
       "title": "보드게임",
@@ -10404,7 +10404,7 @@
     },
     "3651": {
       "title": "이항계수",
-      "level": 15
+      "level": 16
     },
     "3652": {
       "title": "새트리",
@@ -21088,7 +21088,7 @@
     },
     "6455": {
       "title": "Transaction Processing",
-      "level": 0
+      "level": 10
     },
     "6456": {
       "title": "Perfect Hash",
@@ -22456,7 +22456,7 @@
     },
     "6801": {
       "title": "Firehose",
-      "level": 0
+      "level": 13
     },
     "6802": {
       "title": "Animal Farm",
@@ -26796,7 +26796,7 @@
     },
     "8120": {
       "title": "Coding of Permutations",
-      "level": 14
+      "level": 13
     },
     "8121": {
       "title": "Step Traversing a Tree",
@@ -27068,7 +27068,7 @@
     },
     "8189": {
       "title": "Antisymmetry",
-      "level": 18
+      "level": 19
     },
     "8190": {
       "title": "Hamsters",
@@ -29208,7 +29208,7 @@
     },
     "8726": {
       "title": "Dziewczynki",
-      "level": 6
+      "level": 7
     },
     "8727": {
       "title": "Farby",
@@ -34208,7 +34208,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 25
+      "level": 26
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -36500,7 +36500,7 @@
     },
     "10636": {
       "title": "Medical Inspection",
-      "level": 0
+      "level": 24
     },
     "10637": {
       "title": "Minimum Spanning Tree",
@@ -55380,7 +55380,7 @@
     },
     "15451": {
       "title": "Computer Science",
-      "level": 12
+      "level": 13
     },
     "15452": {
       "title": "Drama",
@@ -56208,7 +56208,7 @@
     },
     "15660": {
       "title": "테트로미노 (2)",
-      "level": 14
+      "level": 15
     },
     "15661": {
       "title": "링크와 스타트",
@@ -97524,7 +97524,7 @@
     },
     "26132": {
       "title": "Fair Division",
-      "level": 15
+      "level": 16
     },
     "26133": {
       "title": "Guardians of the Gallery",
@@ -99828,7 +99828,7 @@
     },
     "26721": {
       "title": "Mędrcy",
-      "level": 0
+      "level": 24
     },
     "26722": {
       "title": "Łamigłówka",
@@ -102892,7 +102892,7 @@
     },
     "27505": {
       "title": "천국의 계단",
-      "level": 16
+      "level": 15
     },
     "27506": {
       "title": "함수열과 쿼리",
@@ -102952,7 +102952,7 @@
     },
     "27520": {
       "title": "경찰서",
-      "level": 0
+      "level": 24
     },
     "27521": {
       "title": "공약수 (More Huge)",
@@ -102984,7 +102984,7 @@
     },
     "27528": {
       "title": "Azber is playing at Biou's house",
-      "level": 15
+      "level": 14
     },
     "27529": {
       "title": "양 가두기",
@@ -103120,7 +103120,7 @@
     },
     "27562": {
       "title": "Air Cownditioning II",
-      "level": 9
+      "level": 8
     },
     "27563": {
       "title": "Moo Operations",
@@ -104048,7 +104048,7 @@
     },
     "27814": {
       "title": "Emacs++",
-      "level": 0
+      "level": 26
     },
     "27815": {
       "title": "Naming Compromise",
@@ -104136,7 +104136,7 @@
     },
     "27836": {
       "title": "Paradox With Averages",
-      "level": 6
+      "level": 5
     },
     "27837": {
       "title": "Biased Standings",
@@ -104152,19 +104152,19 @@
     },
     "27840": {
       "title": "Hungry Cow",
-      "level": 0
+      "level": 23
     },
     "27841": {
       "title": "Problem Setting",
-      "level": 20
+      "level": 21
     },
     "27842": {
       "title": "Watching Cowflix",
-      "level": 0
+      "level": 23
     },
     "27843": {
       "title": "Equal Sum Subarrays",
-      "level": 0
+      "level": 13
     },
     "27844": {
       "title": "Fertilizing Pastures",
@@ -104176,15 +104176,15 @@
     },
     "27846": {
       "title": "Bakery",
-      "level": 16
+      "level": 17
     },
     "27847": {
       "title": "Cow-libi",
-      "level": 10
+      "level": 11
     },
     "27848": {
       "title": "Moo Route II",
-      "level": 16
+      "level": 18
     },
     "27849": {
       "title": "Hungry Cow",
@@ -104196,7 +104196,7 @@
     },
     "27851": {
       "title": "Watching Mooloo",
-      "level": 5
+      "level": 7
     },
     "27852": {
       "title": "Kruskal",
@@ -104216,7 +104216,7 @@
     },
     "27856": {
       "title": "Sum of Remainders",
-      "level": 0
+      "level": 9
     },
     "27857": {
       "title": "Quotdoku",
