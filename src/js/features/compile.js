@@ -122,6 +122,10 @@
       lang_json[
         document.getElementsByClassName('chosen-single')[0].textContent.trim()
       ];
+    if(lang === 'unsupported') {
+      result = ['ERR', '지원하지 않는 언어입니다.'];
+      return result;
+    }
 
     code = code.replace(
       // eslint-disable-next-line no-control-regex
