@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-08 19:14:06.863490",
+  "last_updated": "2023-03-09 19:13:58.512598",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2108,7 +2108,7 @@
     },
     "1532": {
       "title": "동전 교환",
-      "level": 15
+      "level": 14
     },
     "1533": {
       "title": "길의 개수",
@@ -5828,7 +5828,7 @@
     },
     "2481": {
       "title": "해밍 경로",
-      "level": 14
+      "level": 15
     },
     "2482": {
       "title": "색상환",
@@ -16896,7 +16896,7 @@
     },
     "5368": {
       "title": "Escape Route",
-      "level": 3
+      "level": 4
     },
     "5369": {
       "title": "Asteroid Field",
@@ -18528,7 +18528,7 @@
     },
     "5793": {
       "title": "Movers Problems",
-      "level": 24
+      "level": 23
     },
     "5794": {
       "title": "Monkey Business",
@@ -21640,7 +21640,7 @@
     },
     "6597": {
       "title": "트리 복구",
-      "level": 12
+      "level": 13
     },
     "6598": {
       "title": "Arbitrage",
@@ -28452,7 +28452,7 @@
     },
     "8536": {
       "title": "땅콩의 개수",
-      "level": 0
+      "level": 19
     },
     "8537": {
       "title": "Imiona mrówek",
@@ -30920,7 +30920,7 @@
     },
     "9172": {
       "title": "Consecutive Digits in a Rational Number",
-      "level": 6
+      "level": 7
     },
     "9173": {
       "title": "Constant Irritation",
@@ -31356,7 +31356,7 @@
     },
     "9289": {
       "title": "Morse Code",
-      "level": 6
+      "level": 5
     },
     "9290": {
       "title": "틱택토 이기기",
@@ -32612,7 +32612,7 @@
     },
     "9616": {
       "title": "홀수 정사각형",
-      "level": 14
+      "level": 15
     },
     "9617": {
       "title": "SSD",
@@ -52120,7 +52120,7 @@
     },
     "14622": {
       "title": "소수 게임",
-      "level": 13
+      "level": 12
     },
     "14623": {
       "title": "감정이입",
@@ -64736,7 +64736,7 @@
     },
     "17822": {
       "title": "원판 돌리기",
-      "level": 14
+      "level": 13
     },
     "17823": {
       "title": "수열과 쿼리 33",
@@ -97520,7 +97520,7 @@
     },
     "26131": {
       "title": "Dungeon Crawler",
-      "level": 20
+      "level": 21
     },
     "26132": {
       "title": "Fair Division",
@@ -101244,7 +101244,7 @@
     },
     "27081": {
       "title": "Dessert",
-      "level": 0
+      "level": 13
     },
     "27082": {
       "title": "Extra Krunch",
@@ -102104,7 +102104,7 @@
     },
     "27296": {
       "title": "카탈란 마스터의 선분 그리기 게임",
-      "level": 10
+      "level": 11
     },
     "27297": {
       "title": "맨해튼에서의 모임",
@@ -102540,7 +102540,7 @@
     },
     "27417": {
       "title": "Interactive Number Guessing",
-      "level": 11
+      "level": 12
     },
     "27418": {
       "title": "Secure the Top Secret",
@@ -102980,7 +102980,7 @@
     },
     "27527": {
       "title": "배너 걸기",
-      "level": 10
+      "level": 9
     },
     "27528": {
       "title": "Azber is playing at Biou's house",
@@ -103920,7 +103920,7 @@
     },
     "27782": {
       "title": "Bacterial Tactics",
-      "level": 0
+      "level": 20
     },
     "27783": {
       "title": "New Elements: Part 1",
@@ -104188,7 +104188,7 @@
     },
     "27849": {
       "title": "Hungry Cow",
-      "level": 6
+      "level": 7
     },
     "27850": {
       "title": "Stamp Grid",
@@ -104216,7 +104216,7 @@
     },
     "27856": {
       "title": "Sum of Remainders",
-      "level": 9
+      "level": 11
     },
     "27857": {
       "title": "Quotdoku",
@@ -104260,7 +104260,7 @@
     },
     "27867": {
       "title": "세 개의 닮은꼴 초콜릿",
-      "level": 0
+      "level": 19
     }
   }
 }
