@@ -1,1 +1,40 @@
-(function a(){if(chrome.runtime.lastError)return console.warn(chrome.runtime.lastError.message),void setTimeout(a,1e3);const b=window.location.pathname;b.startsWith("/user/")?extendUserPage():b.startsWith("/status")?extendStatusPage():b.startsWith("/rejudge/")?extendRejudgePage():b.startsWith("/group/list")?extendGroupListPage():b.startsWith("/board/")?extendBoardPage():b.startsWith("/search")?extendSearchPage():b.startsWith("/vs/")?extendVs():function(a){return a.startsWith("/my/files")||a.startsWith("/modify")||a.startsWith("/password/change")||a.startsWith("/setting/")||a.startsWith("/support")}(b)&&extendSettingPage(),extendGlobal()})();
+/* eslint no-undef: "off" */
+(function extend() {
+  if (chrome.runtime.lastError) {
+    console.warn(chrome.runtime.lastError.message);
+    setTimeout(extend, 1000);
+    return;
+  }
+
+  const url = window.location.pathname;
+
+  if (url.startsWith('/user/')) {
+    extendUserPage();
+  } else if (url.startsWith('/status')) {
+    extendStatusPage();
+  } else if (url.startsWith('/rejudge/')) {
+    extendRejudgePage();
+  } else if (url.startsWith('/group/list')) {
+    extendGroupListPage();
+  } else if (url.startsWith('/board/')) {
+    extendBoardPage();
+  } else if (url.startsWith('/search')) {
+    extendSearchPage();
+  } else if (url.startsWith('/vs/')) {
+    extendVs();
+  } else if (isSettingPage(url)) {
+    extendSettingPage();
+  }
+
+  extendGlobal();
+
+  function isSettingPage(path) {
+    return (
+      path.startsWith('/my/files') ||
+      path.startsWith('/modify') ||
+      path.startsWith('/password/change') ||
+      path.startsWith('/setting/') ||
+      path.startsWith('/support')
+    );
+  }
+})();

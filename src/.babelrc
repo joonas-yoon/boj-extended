@@ -19,7 +19,9 @@
   "env": {
     "production": {
       "comments": false,
-      "presets": [["minify"]],
+      "presets": [["minify", {
+        "builtIns": false
+    }]],
       "plugins": [
         [
           "transform-remove-console",

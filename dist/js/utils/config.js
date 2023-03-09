@@ -1,1 +1,75 @@
-const Config={storageKeyPrefix:Constants.CONFIG_PREFIX,getKey:function(a){return this.storageKeyPrefix+a},save:function(a,b,c){return chrome.runtime.lastError?(console.warn(chrome.runtime.lastError.message),void setTimeout(this.save.bind(null,a,b,c),100)):void(chrome.runtime.sendMessage({action:"config.save",data:{key:a,value:b}},c),window.localStorage.setItem(this.getKey(a),b))},load:function(a,b){var c=this;return chrome.runtime.lastError?(console.warn(chrome.runtime.lastError.message),void setTimeout(this.load.bind(null,a,b),100)):void chrome.runtime.sendMessage({action:"config.load",data:{key:a}},function(d){b(d),window.localStorage.setItem(c.getKey(a),d)})},remove:function(a,b){return chrome.runtime.lastError?(console.warn(chrome.runtime.lastError.message),void setTimeout(this.save.remove(null,a,b),100)):void(chrome.runtime.sendMessage({action:"config.remove",data:{key:a}},b),window.localStorage.removeItem(this.getKey(a)))},getProblems:function(a){chrome.runtime.sendMessage({action:"config.load.problems"},a)}};
+const Config = {
+  storageKeyPrefix: Constants.CONFIG_PREFIX,
+
+  getKey: function (key) {
+    return this.storageKeyPrefix + key;
+  },
+
+  // can be bufferred
+  save: function (key, value, callback) {
+    if (chrome.runtime.lastError) {
+      console.warn(chrome.runtime.lastError.message);
+      setTimeout(this.save.bind(null, key, value, callback), 100);
+      return;
+    }
+    chrome.runtime.sendMessage(
+      {
+        action: 'config.save',
+        data: {
+          key: key,
+          value: value,
+        },
+      },
+      callback
+    );
+    // Duplicate for HA (High Availability)
+    window.localStorage.setItem(this.getKey(key), value);
+  },
+
+  load: function (key, callback) {
+    if (chrome.runtime.lastError) {
+      console.warn(chrome.runtime.lastError.message);
+      setTimeout(this.load.bind(null, key, callback), 100);
+      return;
+    }
+    chrome.runtime.sendMessage(
+      {
+        action: 'config.load',
+        data: {
+          key: key,
+        },
+      },
+      (value) => {
+        callback(value);
+        window.localStorage.setItem(this.getKey(key), value);
+      }
+    );
+  },
+
+  remove: function (key, callback) {
+    if (chrome.runtime.lastError) {
+      console.warn(chrome.runtime.lastError.message);
+      setTimeout(this.save.remove(null, key, callback), 100);
+      return;
+    }
+    chrome.runtime.sendMessage(
+      {
+        action: 'config.remove',
+        data: {
+          key: key,
+        },
+      },
+      callback
+    );
+    window.localStorage.removeItem(this.getKey(key));
+  },
+
+  getProblems: function (callback) {
+    chrome.runtime.sendMessage(
+      {
+        action: 'config.load.problems',
+      },
+      callback
+    );
+  },
+};

@@ -1,1 +1,213 @@
-function extendVs(){function a(a,b,c){a.forEach(function(a){c?a.setAttribute(b,!0):a.removeAttribute(b)})}Utils.loadCSS("css/user.css");const{pathname:b}=window.location,c=b.substr("/vs/".length).split("/")||[];return 2===c.length?void Config.getProblems(function(b){function d(a){return createProblemLinkElement(l[a],b,a)}function e(a,b){const c=Utils.createElement("div",{class:"panel panel-default"}),d=Utils.createElement("div",{class:"panel-heading"}),e=Utils.createElement("div",{class:"panel-body"});return d.innerHTML="<h3 class=\"panel-title\">"+a+"</h3>",b.forEach(function(a){return e.appendChild(a)}),c.appendChild(d),c.appendChild(e),c}function f(a,b){fetch("https://www.acmicpc.net/user/"+a).catch(function(){return alert("\uC874\uC7AC\uD558\uC9C0 \uC54A\uAC70\uB098 \uC798\uBABB\uB41C \uC544\uC774\uB514\uC785\uB2C8\uB2E4."),window.history.back(),!1}).then(function(a){return a.text()}).then(function(a){return new DOMParser().parseFromString(a,"text/html")}).then(function(a){const b=a.querySelectorAll(".panel"),c=[];for(let d=1;d<b.length;++d){const e=[],f=b[d].querySelector(".panel-title").innerText;b[d].querySelectorAll("a[href^=\"/problem/\"]").forEach(function(b){const a=parseInt(b.href.substr(b.href.lastIndexOf("/")+1));e.push(a),l[a]=b}),c.push({title:f,tags:e})}return c}).then(b)}const g=document.getElementsByClassName("container content")[0];g.innerHTML="";const h=createVsForm(c[0],c[1]);h.style.marginBottom="20px",g.appendChild(h),document.title=c[0]+" vs "+c[1];const i="\uB9DE\uC740 \uBB38\uC81C",j="\uB9DE\uC558\uC9C0\uB9CC",k="\uC2DC\uB3C4\uD588\uC9C0\uB9CC",l={};f(c[0],async function(b){let l=[],m=[],n=[];await b.forEach(function(a){a.title.startsWith(i)?l=a.tags:a.title.startsWith(j)?m=a.tags:a.title.startsWith(k)&&(n=a.tags)}),f(c[1],async function(b){let f=[],o=[],q=[];await b.forEach(function(a){a.title.startsWith(i)?f=a.tags:a.title.startsWith(j)?o=a.tags:a.title.startsWith(k)&&(q=a.tags)});const r=l.filter(function(a){return f.includes(a)}).map(d),s=l.filter(function(a){return!f.includes(a)}).map(d),t=f.filter(function(a){return!l.includes(a)}).map(d),u=m.filter(function(a){return!f.includes(a)}).map(d),v=o.filter(function(a){return!l.includes(a)}).map(d),w=n.filter(function(a){return q.includes(a)}).map(d),x=Utils.createElement("a",{href:"/user/"+c[0]});x.innerText=c[0];const y=Utils.createElement("a",{href:"/user/"+c[1]});y.innerText=c[1];const z=x.outerHTML,A=y.outerHTML,B=[e(z+"\uC640 "+A+" \uBAA8\uB450 \uD47C \uBB38\uC81C",r),e(z+"\uB9CC \uD47C \uBB38\uC81C",s),e(A+"\uB9CC \uD47C \uBB38\uC81C",t),e(z+"\uB9CC \uB9DE\uC558\uC9C0\uB9CC \uB9CC\uC810\uC744 \uBC1B\uC9C0 \uBABB\uD55C \uBB38\uC81C",u),e(A+"\uB9CC \uB9DE\uC558\uC9C0\uB9CC \uB9CC\uC810\uC744 \uBC1B\uC9C0 \uBABB\uD55C \uBB38\uC81C",v),e("\uB458 \uB2E4 \uC2DC\uB3C4\uD588\uC9C0\uB9CC \uB9DE\uC9C0 \uBABB\uD55C \uBB38\uC81C",w)];for(const a of B)g.appendChild(a);const C=document.createElement("div"),D=document.createElement("input");D.setAttribute("type","checkbox"),D.setAttribute("id","show-pid"),D.addEventListener("change",function(b){Config.save("show-pid",b.target.checked),a(B,"show-id",b.target.checked)});const E=document.createElement("input");E.setAttribute("type","checkbox"),D.setAttribute("id","show-pname"),E.addEventListener("change",function(b){Config.save("show-pname",b.target.checked),a(B,"show-name",b.target.checked)});const F=document.createElement("label");F.setAttribute("for","show-pid"),F.innerText="\uBB38\uC81C \uBC88\uD638";const G=document.createElement("label");G.setAttribute("for","show-pname"),G.innerText="\uBB38\uC81C \uC81C\uBAA9",C.setAttribute("class","problem-toggles"),C.appendChild(D),C.appendChild(F),C.appendChild(E),C.appendChild(G),g.insertBefore(C,h),Config.load("show-pid",function(b){b=!(null!==b&&b!==void 0)||b,D.checked=b,a(B,"show-id",b)}),Config.load("show-pname",function(b){E.checked=b,a(B,"show-name",b)})})})}):(alert("\uBE44\uAD50 \uB300\uC0C1\uC740 2\uBA85\uB9CC \uAC00\uB2A5\uD569\uB2C8\uB2E4."),void window.history.back())}
+function extendVs() {
+  Utils.loadCSS('css/user.css');
+
+  const { pathname } = window.location;
+  const urlPrefix = '/vs/';
+  const users = pathname.substr(urlPrefix.length).split('/') || [];
+  if (users.length !== 2) {
+    alert('비교 대상은 2명만 가능합니다.');
+    window.history.back();
+    return;
+  }
+
+  // main
+  Config.getProblems((problemsLookup) => {
+    // recreate page
+    const container = document.getElementsByClassName('container content')[0];
+    container.innerHTML = '';
+
+    // add vs form
+    const vsform = createVsForm(users[0], users[1]); // eslint-disable-line no-undef
+    vsform.style.marginBottom = '20px';
+    container.appendChild(vsform);
+
+    // change title
+    document.title = users[0] + ' vs ' + users[1];
+
+    // text
+    const TITLE_AC = '맞은 문제';
+    const TITLE_PAC = '맞았지만';
+    const TITLE_WA = '시도했지만';
+
+    const tagByPid = {};
+
+    fetchProblems(users[0], async (p1) => {
+      let solved1 = [];
+      let tried1 = [];
+      let unsolved1 = [];
+      await p1.forEach((p) => {
+        if (p.title.startsWith(TITLE_AC)) solved1 = p.tags;
+        else if (p.title.startsWith(TITLE_PAC)) tried1 = p.tags;
+        else if (p.title.startsWith(TITLE_WA)) unsolved1 = p.tags;
+      });
+      fetchProblems(users[1], async (p2) => {
+        let solved2 = [];
+        let tried2 = [];
+        let unsolved2 = [];
+        await p2.forEach((p) => {
+          if (p.title.startsWith(TITLE_AC)) solved2 = p.tags;
+          else if (p.title.startsWith(TITLE_PAC)) tried2 = p.tags;
+          else if (p.title.startsWith(TITLE_WA)) unsolved2 = p.tags;
+        });
+
+        const solvedBoth = solved1
+          .filter((p) => solved2.includes(p))
+          .map(createProblemLinkMapper);
+        const solved1Only = solved1
+          .filter((p) => !solved2.includes(p))
+          .map(createProblemLinkMapper);
+        const solved2Only = solved2
+          .filter((p) => !solved1.includes(p))
+          .map(createProblemLinkMapper);
+        const tried1Only = tried1
+          .filter((p) => !solved2.includes(p))
+          .map(createProblemLinkMapper);
+        const tried2Only = tried2
+          .filter((p) => !solved1.includes(p))
+          .map(createProblemLinkMapper);
+        const solvedNobody = unsolved1
+          .filter((p) => unsolved2.includes(p))
+          .map(createProblemLinkMapper);
+
+        const userHref1 = Utils.createElement('a', {
+          href: '/user/' + users[0],
+        });
+        userHref1.innerText = users[0];
+        const userHref2 = Utils.createElement('a', {
+          href: '/user/' + users[1],
+        });
+        userHref2.innerText = users[1];
+        const userTag1 = userHref1.outerHTML;
+        const userTag2 = userHref2.outerHTML;
+
+        // create panels
+        const panels = [
+          createPanel(
+            userTag1 + '와 ' + userTag2 + ' 모두 푼 문제',
+            solvedBoth
+          ),
+          createPanel(userTag1 + '만 푼 문제', solved1Only),
+          createPanel(userTag2 + '만 푼 문제', solved2Only),
+          createPanel(
+            userTag1 + '만 맞았지만 만점을 받지 못한 문제',
+            tried1Only
+          ),
+          createPanel(
+            userTag2 + '만 맞았지만 만점을 받지 못한 문제',
+            tried2Only
+          ),
+          createPanel('둘 다 시도했지만 맞지 못한 문제', solvedNobody),
+        ];
+
+        for (const panel of panels) {
+          container.appendChild(panel);
+        }
+
+        // create checkboxes
+        const checkboxes = document.createElement('div');
+        const checkbox1 = document.createElement('input');
+        checkbox1.setAttribute('type', 'checkbox');
+        checkbox1.setAttribute('id', 'show-pid');
+        checkbox1.addEventListener('change', (evt) => {
+          Config.save('show-pid', evt.target.checked);
+          display(panels, 'show-id', evt.target.checked);
+        });
+        const checkbox2 = document.createElement('input');
+        checkbox2.setAttribute('type', 'checkbox');
+        checkbox1.setAttribute('id', 'show-pname');
+        checkbox2.addEventListener('change', (evt) => {
+          Config.save('show-pname', evt.target.checked);
+          display(panels, 'show-name', evt.target.checked);
+        });
+
+        const label1 = document.createElement('label');
+        label1.setAttribute('for', 'show-pid');
+        label1.innerText = '문제 번호';
+        const label2 = document.createElement('label');
+        label2.setAttribute('for', 'show-pname');
+        label2.innerText = '문제 제목';
+
+        checkboxes.setAttribute('class', 'problem-toggles');
+        checkboxes.appendChild(checkbox1);
+        checkboxes.appendChild(label1);
+        checkboxes.appendChild(checkbox2);
+        checkboxes.appendChild(label2);
+
+        // add checkboxes whether problem's id or name
+        container.insertBefore(checkboxes, vsform);
+
+        // sync with configs
+        Config.load('show-pid', (checked) => {
+          checked = checked === null || checked === undefined ? true : checked;
+          checkbox1.checked = checked;
+          display(panels, 'show-id', checked);
+        });
+        Config.load('show-pname', (checked) => {
+          checkbox2.checked = checked;
+          display(panels, 'show-name', checked);
+        });
+      });
+    });
+
+    function createProblemLinkMapper(pid) {
+      return createProblemLinkElement(tagByPid[pid], problemsLookup, pid);
+    }
+
+    // title: string, body: Node
+    function createPanel(title, tags) {
+      const panel = Utils.createElement('div', {
+        class: 'panel panel-default',
+      });
+      const phead = Utils.createElement('div', { class: 'panel-heading' });
+      const pbody = Utils.createElement('div', { class: 'panel-body' });
+      phead.innerHTML = '<h3 class="panel-title">' + title + '</h3>';
+      tags.forEach((t) => pbody.appendChild(t));
+      panel.appendChild(phead);
+      panel.appendChild(pbody);
+      return panel;
+    }
+
+    function fetchProblems(username, response) {
+      fetch('https://www.acmicpc.net/user/' + username)
+        .catch((error) => {
+          console.log(error);
+          alert('존재하지 않거나 잘못된 아이디입니다.');
+          window.history.back();
+          return false;
+        })
+        .then((res) => res.text())
+        .then((html) => new DOMParser().parseFromString(html, 'text/html'))
+        .then((doc) => {
+          const panels = doc.querySelectorAll('.panel');
+          const problems = [];
+          // first is heat chart
+          for (let i = 1; i < panels.length; ++i) {
+            const tags = [];
+            const title = panels[i].querySelector('.panel-title').innerText;
+            panels[i].querySelectorAll('a[href^="/problem/"]').forEach((a) => {
+              const pid = parseInt(a.href.substr(a.href.lastIndexOf('/') + 1));
+              tags.push(pid);
+              tagByPid[pid] = a;
+            });
+            console.log(title);
+            problems.push({
+              title: title,
+              tags: tags,
+            });
+          }
+          return problems;
+        })
+        .then(response);
+    }
+  });
+
+  function display(containers, key, visible) {
+    containers.forEach((panel) => {
+      if (visible) {
+        panel.setAttribute(key, true);
+      } else {
+        panel.removeAttribute(key);
+      }
+    });
+  }
+}

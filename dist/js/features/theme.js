@@ -1,1 +1,104 @@
-(function(){window.addEventListener("DOMContentLoaded",function(){Config.load(Constants.CONFIG_THEME,function(a){applyTheme(null,a)})})})();function extendTheme(){function a(){return d.hasAttribute(h)}function b(a){a?d.setAttribute(h,!0):d.removeAttribute(h)}const c=Utils.createElement("li",{class:"theme-selector"}),d=Utils.createElement("div",{class:"theme-dropdown"}),e=Utils.createElement("ul",{class:"theme-ul"}),f=Object.keys(Constants.THEMES)||[],g=document.createElement("a");g.innerHTML="";for(let a=1;3>=a;++a)g.innerHTML+=`<div class="loading-bar bar-${a}"></div>`;g.addEventListener("click",function(c){c.preventDefault(),b(!a())});for(const a of f){const b=Utils.createElement("li",{class:"theme-li"});b.innerText=Constants.THEMES[a],b.addEventListener("click",function(b){b.preventDefault(),applyTheme(g,a),saveTheme(a)}),e.appendChild(b)}document.addEventListener("click",function(a){a.target.closest(`.${c.className}`)||b(!1)}),d.appendChild(e),c.appendChild(g),c.appendChild(d),addElementToBar(c),Config.load(Constants.CONFIG_THEME,function(a){applyTheme(g,a)});const h="data-dropdown"}function applyTheme(a,b){function c(a){return null==a||"auto"==a}c(b)&&(b=function(a){a=a||window.matchMedia("(prefers-color-scheme: dark)");const b=!!a.matches;return b?"dark":"light"}(),saveTheme(b)),setTimeout(function(){a&&(a.innerText=Constants.THEMES[b])},100),document.body.parentNode.setAttribute("theme",b)}function saveTheme(a,b){Config.save(Constants.CONFIG_THEME,a,b||function(){})}
+(function extendThemePre() {
+  window.addEventListener('DOMContentLoaded', () => {
+    Config.load(Constants.CONFIG_THEME, (theme) => {
+      applyTheme(null, theme);
+    });
+  });
+})();
+
+function extendTheme() {
+  const container = Utils.createElement('li', { class: 'theme-selector' });
+  const dropdown = Utils.createElement('div', { class: 'theme-dropdown' });
+  const ul = Utils.createElement('ul', { class: 'theme-ul' });
+  const themeList = Object.keys(Constants.THEMES) || [];
+
+  // initialize button
+  const themeButton = document.createElement('a');
+  themeButton.innerHTML = '';
+  for (let i = 1; i <= 3; ++i) {
+    themeButton.innerHTML += `<div class="loading-bar bar-${i}"></div>`;
+  }
+  themeButton.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    showDropdown(!isShowDropdown());
+  });
+
+  // intialize theme dropdown
+  for (const theme of themeList) {
+    const li = Utils.createElement('li', {
+      class: 'theme-li',
+    });
+    li.innerText = Constants.THEMES[theme];
+    li.addEventListener('click', (evt) => {
+      evt.preventDefault();
+      applyTheme(themeButton, theme);
+      saveTheme(theme);
+    });
+    ul.appendChild(li);
+  }
+
+  // release dropdown
+  document.addEventListener('click', (evt) => {
+    if (!evt.target.closest(`.${container.className}`)) {
+      showDropdown(false);
+    }
+  });
+
+  // add element to DOM
+  dropdown.appendChild(ul);
+  container.appendChild(themeButton);
+  container.appendChild(dropdown);
+  addElementToBar(container);
+
+  // after page loaded
+  Config.load(Constants.CONFIG_THEME, (storedTheme) => {
+    applyTheme(themeButton, storedTheme);
+  });
+
+  const dAttrKey = 'data-dropdown';
+  function isShowDropdown() {
+    return dropdown.hasAttribute(dAttrKey);
+  }
+
+  function showDropdown(visible) {
+    if (visible) {
+      dropdown.setAttribute(dAttrKey, true);
+    } else {
+      dropdown.removeAttribute(dAttrKey);
+    }
+  }
+}
+
+function applyTheme(button, theme) {
+  console.log('apply theme (requested):', theme);
+
+  if (hasNoPreferedTheme(theme)) {
+    theme = getThemeBySystem();
+    saveTheme(theme);
+  }
+
+  console.log('apply theme (detected):', theme);
+
+  setTimeout(() => {
+    if (button) {
+      button.innerText = Constants.THEMES[theme];
+    }
+  }, 100);
+  document.body.parentNode.setAttribute('theme', theme);
+
+  function hasNoPreferedTheme(theme) {
+    return theme == null || theme == 'auto';
+  }
+
+  function getThemeBySystem(systemMedia) {
+    systemMedia =
+      systemMedia || window.matchMedia('(prefers-color-scheme: dark)');
+    const isDarkMode = !!systemMedia.matches;
+    return isDarkMode ? 'dark' : 'light';
+  }
+}
+
+function saveTheme(theme, callback) {
+  const defaultCallback = () => {};
+  Config.save(Constants.CONFIG_THEME, theme, callback || defaultCallback);
+}

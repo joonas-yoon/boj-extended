@@ -1,1 +1,159 @@
-function extendStatusPage(){Utils.loadCSS("css/status.css"),Utils.loadScript("js/features/status/rte.js");const a=document.getElementById("status-table"),b=document.querySelector("form[action=\"/status\"]");_extendStatusTable(b,a,["7%","12%","9%","24%","9%","9%","12%","9%","9%"],["7%","12%","17%","20%","auto","auto","12%","9%","9%"],[])}function extendRejudgePage(){Utils.loadCSS("css/status.css");const a=document.getElementById("rejudge-table"),b=a.parentNode;Config.getProblems(function(c){_extendStatusTable(b,a,["8%","8%","8%","8%","7%","14%","8%","7%","14%","9%","9%"],["auto","auto","auto","8%","7%","auto","8%","7%","auto","auto","auto"],c)})}function createCheckboxForm(a){const{container:b,input:c}=Utils.createCheckboxElement("\uBB38\uC81C \uBC88\uD638","option-status-pid"),{container:d,input:e}=Utils.createCheckboxElement("\uBB38\uC81C \uC81C\uBAA9","option-status-ptitle"),f=function(){a({inputProblemId:c,inputProblemTitle:e})},g=function(a){return function(b){Config.save(a,!!b.target.checked,f)}};c.addEventListener("change",g(Constants.CONFIG_SHOW_STATUS_PID)),e.addEventListener("change",g(Constants.CONFIG_SHOW_STATUS_PTITLE)),Config.load(Constants.CONFIG_SHOW_STATUS_PID,function(a){c.checked=!1!==a,f()}),Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE,function(a){e.checked=!!a,f()});const h=Utils.createElement("div",{style:"display: inline-block;"});return h.appendChild(b),h.appendChild(d),h}function _extendStatusTable(a,b,c,d,f){const g=b.querySelectorAll("th"),h=b.querySelectorAll("a[href^=\"/problem/\"]");g.forEach(function(a,b){a.style.width=c[b]});const i=getMyUsername();b.querySelectorAll("a[href^=\"/user/\"]").forEach(function(a){const b=a.textContent;i==b&&a.closest("tr").setAttribute("class","result-mine")}),h.forEach(function(a){const b=a.textContent;a.getAttribute("data-original-id")==null&&a.setAttribute("data-original-id",b),a.getAttribute("data-original-title")==null&&a.setAttribute("data-original-title",f[b].title)}),a.insertBefore(createCheckboxForm(function({inputProblemId:a,inputProblemTitle:b}){const c=!!a.checked,e=!!b.checked,f=function(a,b){return c&&e?`${a}번 (${b})`:c?`${a}`:e?`${b}`:""};h.forEach(function(a){const b=a.getAttribute("data-original-id"),c=a.getAttribute("data-original-title"),d=f(b,c);a.textContent=d}),g.forEach(function(a,b){a.style.width=d[b]})}),a.firstChild)}
+/**
+ * location: /status/
+ */
+function extendStatusPage() {
+  Utils.loadCSS('css/status.css');
+  Utils.loadScript('js/features/status/rte.js');
+
+  const table = document.getElementById('status-table');
+  const form = document.querySelector('form[action="/status"]');
+  _extendStatusTable(
+    form,
+    table,
+    ['7%', '12%', '9%', '24%', '9%', '9%', '12%', '9%', '9%'],
+    ['7%', '12%', '17%', '20%', 'auto', 'auto', '12%', '9%', '9%'],
+    []
+  );
+}
+
+/**
+ * location: /rejudge/
+ */
+function extendRejudgePage() {
+  Utils.loadCSS('css/status.css');
+
+  const table = document.getElementById('rejudge-table');
+  const form = table.parentNode;
+  // rejudge has no attribute 'data-original-title'
+  Config.getProblems((problems) => {
+    _extendStatusTable(
+      form,
+      table,
+      ['8%', '8%', '8%', '8%', '7%', '14%', '8%', '7%', '14%', '9%', '9%'],
+      [
+        'auto',
+        'auto',
+        'auto',
+        '8%',
+        '7%',
+        'auto',
+        '8%',
+        '7%',
+        'auto',
+        'auto',
+        'auto',
+      ],
+      problems
+    );
+  });
+}
+
+function createCheckboxForm(dispatchDisplay) {
+  const { container: pidContainer, input: pidInput } =
+    Utils.createCheckboxElement('문제 번호', 'option-status-pid');
+  const { container: ptitleContainer, input: ptitleInput } =
+    Utils.createCheckboxElement('문제 제목', 'option-status-ptitle');
+
+  const dispatchChangeEvent = () => {
+    dispatchDisplay({
+      inputProblemId: pidInput,
+      inputProblemTitle: ptitleInput,
+    });
+  };
+
+  const onChangeCheckbox = (configKey) => (evt) => {
+    Config.save(configKey, Boolean(evt.target.checked), dispatchChangeEvent);
+  };
+
+  pidInput.addEventListener(
+    'change',
+    onChangeCheckbox(Constants.CONFIG_SHOW_STATUS_PID)
+  );
+  ptitleInput.addEventListener(
+    'change',
+    onChangeCheckbox(Constants.CONFIG_SHOW_STATUS_PTITLE)
+  );
+
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showProbId) => {
+    pidInput.checked = !(showProbId === false); // default as true
+    dispatchChangeEvent();
+  });
+
+  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (showProbTitle) => {
+    ptitleInput.checked = Boolean(showProbTitle);
+    dispatchChangeEvent();
+  });
+
+  const container = Utils.createElement('div', {
+    style: 'display: inline-block;',
+  });
+  container.appendChild(pidContainer);
+  container.appendChild(ptitleContainer);
+  return container;
+}
+
+function _extendStatusTable(
+  container,
+  table,
+  beforeWidth,
+  afterWidth,
+  problemsLookup
+) {
+  // width to fit-content
+  const tableHeadCols = table.querySelectorAll('th');
+  const titles = table.querySelectorAll('a[href^="/problem/"]');
+
+  // width to fit-content
+  tableHeadCols.forEach((e, i) => {
+    e.style.width = beforeWidth[i];
+  });
+
+  // highlight my result
+  const username = getMyUsername();
+  table.querySelectorAll('a[href^="/user/"]').forEach((e) => {
+    const text = e.textContent;
+    if (username == text) {
+      e.closest('tr').setAttribute('class', 'result-mine');
+    }
+  });
+  titles.forEach((e) => {
+    const pid = e.textContent;
+    if (e.getAttribute('data-original-id') == undefined) {
+      e.setAttribute('data-original-id', pid);
+    }
+    if (e.getAttribute('data-original-title') == undefined) {
+      e.setAttribute('data-original-title', problemsLookup[pid]['title']);
+    }
+  });
+
+  function display({ inputProblemId, inputProblemTitle }) {
+    const showPid = Boolean(inputProblemId.checked);
+    const showTitle = Boolean(inputProblemTitle.checked);
+    const createProblemText = (id, title) => {
+      if (showPid && showTitle) {
+        return `${id}번 (${title})`;
+      } else if (showPid) {
+        return `${id}`;
+      } else if (showTitle) {
+        return `${title}`;
+      } else {
+        return '';
+      }
+    };
+
+    // apply for each titles
+    titles.forEach((e) => {
+      const pid = e.getAttribute('data-original-id');
+      const ptitle = e.getAttribute('data-original-title');
+      const problemText = createProblemText(pid, ptitle);
+      e.textContent = problemText;
+    });
+
+    // fit column width
+    tableHeadCols.forEach((e, i) => {
+      e.style.width = afterWidth[i];
+    });
+  }
+
+  container.insertBefore(createCheckboxForm(display), container.firstChild);
+}

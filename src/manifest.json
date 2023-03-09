@@ -20,7 +20,8 @@
         "js/utils/helpers.js",
         "js/utils/index.js",
         "js/features/theme.js",
-        "js/features/wide.js"
+        "js/features/wide.js",
+        "js/third/TIO.js"
       ]
     },
     {
@@ -54,8 +55,7 @@
       "resources": [
         "css/status.css",
         "css/user.css",
-        "js/features/status/rte.js",
-        "js/third/pako.js"
+        "js/features/status/rte.js"
       ],
       "matches": ["<all_urls>"]
     }
