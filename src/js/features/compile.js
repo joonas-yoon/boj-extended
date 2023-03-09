@@ -122,6 +122,9 @@
       lang_json[
         document.getElementsByClassName('chosen-single')[0].textContent.trim()
       ];
+    
+    let result;
+
     if(lang === 'unsupported') {
       result = ['ERR', '지원하지 않는 언어입니다.'];
       return result;
@@ -132,8 +135,6 @@
       /[\u000d\u0020\u0085\u1680\u2000-\u200a\u2029\u202f\u205f\u3000]+/g,
       ' '
     );
-
-    let result;
 
     await TIO.run(code, input, lang).then((n) => (result = n));
 
