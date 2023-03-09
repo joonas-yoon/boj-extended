@@ -122,10 +122,10 @@
       lang_json[
         document.getElementsByClassName('chosen-single')[0].textContent.trim()
       ];
-    
+
     let result;
 
-    if(lang === 'unsupported') {
+    if (lang === 'unsupported') {
       result = ['ERR', '지원하지 않는 언어입니다.'];
       return result;
     }
