@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-09 19:13:58.512598",
+  "last_updated": "2023-03-10 19:13:06.879800",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -9508,7 +9508,7 @@
     },
     "3425": {
       "title": "고스택",
-      "level": 13
+      "level": 12
     },
     "3426": {
       "title": "Ardenia",
@@ -12368,7 +12368,7 @@
     },
     "4160": {
       "title": "이혼",
-      "level": 15
+      "level": 16
     },
     "4161": {
       "title": "나이트의 여행",
@@ -17148,7 +17148,7 @@
     },
     "5431": {
       "title": "책 쌓기",
-      "level": 14
+      "level": 13
     },
     "5432": {
       "title": "Stifling the Mutiny",
@@ -27700,7 +27700,7 @@
     },
     "8347": {
       "title": "Bug",
-      "level": 12
+      "level": 13
     },
     "8348": {
       "title": "Paper Clips",
@@ -35032,7 +35032,7 @@
     },
     "10257": {
       "title": "얼룩",
-      "level": 21
+      "level": 22
     },
     "10258": {
       "title": "스위치 배열",
@@ -35172,7 +35172,7 @@
     },
     "10292": {
       "title": "Man in the Middle",
-      "level": 16
+      "level": 17
     },
     "10293": {
       "title": "Ranks in groups",
@@ -35548,7 +35548,7 @@
     },
     "10386": {
       "title": "\\(\\text{Con}+\\cfrac{\\text{tin}}{\\text{ued}+\\cfrac{\\text{Frac}}{\\text{tions}}}\\)",
-      "level": 14
+      "level": 15
     },
     "10387": {
       "title": "A Cure for the Common Code",
@@ -36092,7 +36092,7 @@
     },
     "10522": {
       "title": "Euclidean TSP",
-      "level": 12
+      "level": 13
     },
     "10523": {
       "title": "직선 찾기",
@@ -55260,7 +55260,7 @@
     },
     "15421": {
       "title": "Birthday Cake",
-      "level": 17
+      "level": 18
     },
     "15422": {
       "title": "Bumped!",
@@ -61264,7 +61264,7 @@
     },
     "16934": {
       "title": "게임 닉네임",
-      "level": 14
+      "level": 13
     },
     "16935": {
       "title": "배열 돌리기 3",
@@ -68812,7 +68812,7 @@
     },
     "18845": {
       "title": "Constellation 3",
-      "level": 24
+      "level": 23
     },
     "18846": {
       "title": "Harvest",
@@ -84696,7 +84696,7 @@
     },
     "22870": {
       "title": "산책 (large)",
-      "level": 16
+      "level": 17
     },
     "22871": {
       "title": "징검다리 건너기 (large)",
@@ -86520,7 +86520,7 @@
     },
     "23327": {
       "title": "리그전 오브 레전드",
-      "level": 12
+      "level": 13
     },
     "23328": {
       "title": "마을 구하기",
@@ -91064,7 +91064,7 @@
     },
     "24492": {
       "title": "Cow Frisbee",
-      "level": 14
+      "level": 13
     },
     "24493": {
       "title": "Cereal 2",
@@ -91940,7 +91940,7 @@
     },
     "24711": {
       "title": "Number Guessing",
-      "level": 22
+      "level": 23
     },
     "24712": {
       "title": "Build a City",
@@ -92992,7 +92992,7 @@
     },
     "24975": {
       "title": "Pair Programming",
-      "level": 19
+      "level": 20
     },
     "24976": {
       "title": "Balancing a Tree",
@@ -100812,7 +100812,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 17
+      "level": 16
     },
     "26973": {
       "title": "Circular Barn",
@@ -102540,7 +102540,7 @@
     },
     "27417": {
       "title": "Interactive Number Guessing",
-      "level": 12
+      "level": 13
     },
     "27418": {
       "title": "Secure the Top Secret",
@@ -103488,7 +103488,7 @@
     },
     "27654": {
       "title": "시험",
-      "level": 17
+      "level": 16
     },
     "27655": {
       "title": "점프",
@@ -103896,7 +103896,7 @@
     },
     "27776": {
       "title": "Alien Rhyme",
-      "level": 0
+      "level": 17
     },
     "27777": {
       "title": "Manhattan Crepe Cart",
@@ -104044,7 +104044,7 @@
     },
     "27813": {
       "title": "Wormhole in One",
-      "level": 0
+      "level": 20
     },
     "27814": {
       "title": "Emacs++",
@@ -104164,7 +104164,7 @@
     },
     "27843": {
       "title": "Equal Sum Subarrays",
-      "level": 13
+      "level": 12
     },
     "27844": {
       "title": "Fertilizing Pastures",
@@ -104180,7 +104180,7 @@
     },
     "27847": {
       "title": "Cow-libi",
-      "level": 10
+      "level": 11
     },
     "27848": {
       "title": "Moo Route II",
@@ -104260,7 +104260,7 @@
     },
     "27867": {
       "title": "세 개의 닮은꼴 초콜릿",
-      "level": 19
+      "level": 0
     }
   }
 }
