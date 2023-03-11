@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-10 19:13:06.879800",
+  "last_updated": "2023-03-11 19:13:25.230411",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -13100,7 +13100,7 @@
     },
     "4343": {
       "title": "Arctic Network",
-      "level": 13
+      "level": 14
     },
     "4344": {
       "title": "평균은 넘겠지",
@@ -23628,7 +23628,7 @@
     },
     "7151": {
       "title": "3D Printer",
-      "level": 20
+      "level": 19
     },
     "7152": {
       "title": "Flooding Fields",
@@ -30196,7 +30196,7 @@
     },
     "8973": {
       "title": "수학 공책",
-      "level": 9
+      "level": 11
     },
     "8974": {
       "title": "희주의 수학시험",
@@ -53192,7 +53192,7 @@
     },
     "14901": {
       "title": "좋은 경로의 세 쌍",
-      "level": 0
+      "level": 24
     },
     "14902": {
       "title": "트리 분해",
@@ -65688,7 +65688,7 @@
     },
     "18060": {
       "title": "Game of Falling Blocks",
-      "level": 9
+      "level": 10
     },
     "18061": {
       "title": "Historical Maths",
@@ -66204,7 +66204,7 @@
     },
     "18189": {
       "title": "참 어려운 문제",
-      "level": 21
+      "level": 22
     },
     "18190": {
       "title": "촛불과 그림자",
@@ -71060,7 +71060,7 @@
     },
     "19407": {
       "title": "Greedy Coach",
-      "level": 10
+      "level": 11
     },
     "19408": {
       "title": "Highly Composite Permutations",
@@ -75640,7 +75640,7 @@
     },
     "20567": {
       "title": "Permutations on the Road: Bob",
-      "level": 9
+      "level": 10
     },
     "20568": {
       "title": "Recess Rocks",
@@ -88584,7 +88584,7 @@
     },
     "23844": {
       "title": "트리 정리하기",
-      "level": 15
+      "level": 14
     },
     "23845": {
       "title": "마트료시카",
@@ -95708,7 +95708,7 @@
     },
     "25673": {
       "title": "Find the Parts",
-      "level": 20
+      "level": 21
     },
     "25674": {
       "title": "Message Made of Noise",
@@ -97744,7 +97744,7 @@
     },
     "26187": {
       "title": "Combination Locks",
-      "level": 0
+      "level": 22
     },
     "26188": {
       "title": "Constellations",
@@ -97752,7 +97752,7 @@
     },
     "26189": {
       "title": "Deforestation",
-      "level": 0
+      "level": 15
     },
     "26190": {
       "title": "Denormalization",
@@ -97760,7 +97760,7 @@
     },
     "26191": {
       "title": "Differences",
-      "level": 0
+      "level": 20
     },
     "26193": {
       "title": "Insertions",
@@ -98008,7 +98008,7 @@
     },
     "26254": {
       "title": "Tickets",
-      "level": 0
+      "level": 22
     },
     "26255": {
       "title": "Total control",
@@ -103880,7 +103880,7 @@
     },
     "27772": {
       "title": "Cryptopangrams",
-      "level": 0
+      "level": 15
     },
     "27773": {
       "title": "Dat Bae",
@@ -103900,7 +103900,7 @@
     },
     "27777": {
       "title": "Manhattan Crepe Cart",
-      "level": 0
+      "level": 13
     },
     "27778": {
       "title": "Draupnir",
