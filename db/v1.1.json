@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-11 19:13:25.230411",
+  "last_updated": "2023-03-12 19:12:40.374243",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -516,7 +516,7 @@
     },
     "1128": {
       "title": "피보나치 냅색",
-      "level": 19
+      "level": 20
     },
     "1129": {
       "title": "키",
@@ -3420,7 +3420,7 @@
     },
     "1862": {
       "title": "미터계",
-      "level": 8
+      "level": 7
     },
     "1863": {
       "title": "스카이라인 쉬운거",
@@ -6200,7 +6200,7 @@
     },
     "2574": {
       "title": "마법색종이",
-      "level": 23
+      "level": 22
     },
     "2575": {
       "title": "수열",
@@ -34268,7 +34268,7 @@
     },
     "10065": {
       "title": "KRAVE",
-      "level": 22
+      "level": 21
     },
     "10066": {
       "title": "팰린드롬",
@@ -41628,7 +41628,7 @@
     },
     "11955": {
       "title": "PROZOR",
-      "level": 8
+      "level": 7
     },
     "11956": {
       "title": "OZLJEDA",
@@ -62256,7 +62256,7 @@
     },
     "17195": {
       "title": "Left Out",
-      "level": 14
+      "level": 15
     },
     "17196": {
       "title": "Cow Steeplechase II",
@@ -69876,7 +69876,7 @@
     },
     "19111": {
       "title": "Two Paths",
-      "level": 15
+      "level": 14
     },
     "19112": {
       "title": "Master Zhu and Magic Numbers",
@@ -80804,7 +80804,7 @@
     },
     "21864": {
       "title": "이산로그가 장난이냐?",
-      "level": 23
+      "level": 24
     },
     "21865": {
       "title": "Railroad",
@@ -97648,7 +97648,7 @@
     },
     "26163": {
       "title": "문제 출제",
-      "level": 9
+      "level": 8
     },
     "26164": {
       "title": "싱싱미역",
@@ -103766,6 +103766,86 @@
       "title": "Karl's shopping",
       "level": 0
     },
+    "27724": {
+      "title": "팝핀 소다",
+      "level": 9
+    },
+    "27725": {
+      "title": "지수를 더하자",
+      "level": 11
+    },
+    "27726": {
+      "title": "굉장한 모비스터디",
+      "level": 14
+    },
+    "27727": {
+      "title": "버튼 정렬",
+      "level": 13
+    },
+    "27728": {
+      "title": "개구리와 쿼리",
+      "level": 15
+    },
+    "27729": {
+      "title": "문자 연금술",
+      "level": 15
+    },
+    "27730": {
+      "title": "견우와 직녀",
+      "level": 16
+    },
+    "27731": {
+      "title": "경우의 수",
+      "level": 17
+    },
+    "27732": {
+      "title": "숲 속의 과학자",
+      "level": 16
+    },
+    "27733": {
+      "title": "송유관 I",
+      "level": 21
+    },
+    "27734": {
+      "title": "끝말잇기",
+      "level": 0
+    },
+    "27735": {
+      "title": "송유관 II",
+      "level": 0
+    },
+    "27736": {
+      "title": "찬반투표",
+      "level": 3
+    },
+    "27737": {
+      "title": "버섯 농장",
+      "level": 10
+    },
+    "27738": {
+      "title": "연산자 파티",
+      "level": 10
+    },
+    "27739": {
+      "title": "수열 재배열",
+      "level": 12
+    },
+    "27740": {
+      "title": "시프트 연산",
+      "level": 12
+    },
+    "27741": {
+      "title": "견제 미로찾기",
+      "level": 15
+    },
+    "27742": {
+      "title": "월드컵 조별리그",
+      "level": 13
+    },
+    "27743": {
+      "title": "어려운 하노이 탑",
+      "level": 18
+    },
     "27744": {
       "title": "Saving The Universe Again",
       "level": 0
@@ -104036,7 +104116,7 @@
     },
     "27811": {
       "title": "Incremental House of Pancakes",
-      "level": 0
+      "level": 16
     },
     "27812": {
       "title": "Security Update",
@@ -104108,7 +104188,7 @@
     },
     "27829": {
       "title": "Army Strength",
-      "level": 0
+      "level": 6
     },
     "27830": {
       "title": "Just a Single Lie",
@@ -104152,7 +104232,7 @@
     },
     "27840": {
       "title": "Hungry Cow",
-      "level": 23
+      "level": 22
     },
     "27841": {
       "title": "Problem Setting",
@@ -104164,7 +104244,7 @@
     },
     "27843": {
       "title": "Equal Sum Subarrays",
-      "level": 12
+      "level": 13
     },
     "27844": {
       "title": "Fertilizing Pastures",
@@ -104184,7 +104264,7 @@
     },
     "27848": {
       "title": "Moo Route II",
-      "level": 18
+      "level": 17
     },
     "27849": {
       "title": "Hungry Cow",
@@ -104236,7 +104316,7 @@
     },
     "27861": {
       "title": "Linked Triangles",
-      "level": 0
+      "level": 22
     },
     "27862": {
       "title": "You You See What?",
