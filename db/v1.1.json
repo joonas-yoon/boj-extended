@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-12 19:12:40.374243",
+  "last_updated": "2023-03-13 19:13:34.980605",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1000,7 +1000,7 @@
     },
     "1250": {
       "title": "색칠된 공들",
-      "level": 26
+      "level": 25
     },
     "1251": {
       "title": "단어 나누기",
@@ -4080,7 +4080,7 @@
     },
     "2034": {
       "title": "반음",
-      "level": 6
+      "level": 7
     },
     "2035": {
       "title": "증가수열",
@@ -8584,7 +8584,7 @@
     },
     "3179": {
       "title": "삼각형",
-      "level": 0
+      "level": 20
     },
     "3180": {
       "title": "banana",
@@ -8848,7 +8848,7 @@
     },
     "3247": {
       "title": "A1",
-      "level": 18
+      "level": 16
     },
     "3248": {
       "title": "JOZO",
@@ -42276,7 +42276,7 @@
     },
     "12123": {
       "title": "Taking Over The World (Small)",
-      "level": 14
+      "level": 17
     },
     "12124": {
       "title": "Taking Over The World (Large)",
@@ -45072,7 +45072,7 @@
     },
     "12827": {
       "title": "Posters",
-      "level": 26
+      "level": 27
     },
     "12828": {
       "title": "Sorting",
@@ -49880,7 +49880,7 @@
     },
     "14061": {
       "title": "Tower",
-      "level": 14
+      "level": 13
     },
     "14062": {
       "title": "Cheap Traveling",
@@ -50856,7 +50856,7 @@
     },
     "14305": {
       "title": "Stretch Rope (Large)",
-      "level": 19
+      "level": 18
     },
     "14306": {
       "title": "Monster Path (Small)",
@@ -52420,7 +52420,7 @@
     },
     "14707": {
       "title": "그림 그리기",
-      "level": 21
+      "level": 22
     },
     "14708": {
       "title": "정육면체를 사랑하는 사람",
@@ -66700,7 +66700,7 @@
     },
     "18313": {
       "title": "Cave Paintings",
-      "level": 19
+      "level": 20
     },
     "18314": {
       "title": "Non-Decreasing Subsequences",
@@ -68844,7 +68844,7 @@
     },
     "18853": {
       "title": "Legendary Dango Maker 5",
-      "level": 21
+      "level": 20
     },
     "18854": {
       "title": "Legendary Dango Maker 6",
@@ -70620,7 +70620,7 @@
     },
     "19297": {
       "title": "Logistical Metropolis",
-      "level": 23
+      "level": 24
     },
     "19298": {
       "title": "Number of Cycles",
@@ -82196,7 +82196,7 @@
     },
     "22222": {
       "title": "지애 상수",
-      "level": 0
+      "level": 30
     },
     "22223": {
       "title": "Table 2",
@@ -101380,7 +101380,7 @@
     },
     "27115": {
       "title": "통신소",
-      "level": 14
+      "level": 15
     },
     "27116": {
       "title": "전투기 출격",
@@ -103220,7 +103220,7 @@
     },
     "27587": {
       "title": "Repetitive Song",
-      "level": 0
+      "level": 12
     },
     "27588": {
       "title": "Restaurant Opening",
@@ -104248,7 +104248,7 @@
     },
     "27844": {
       "title": "Fertilizing Pastures",
-      "level": 0
+      "level": 19
     },
     "27845": {
       "title": "Piling Papers",
@@ -104340,6 +104340,34 @@
     },
     "27867": {
       "title": "세 개의 닮은꼴 초콜릿",
+      "level": 0
+    },
+    "27868": {
+      "title": "On My Way Dorm",
+      "level": 8
+    },
+    "27869": {
+      "title": "aFan Event Planning",
+      "level": 12
+    },
+    "27870": {
+      "title": "Appearance of the Runo",
+      "level": 0
+    },
+    "27871": {
+      "title": "Singularity of the Nim",
+      "level": 19
+    },
+    "27872": {
+      "title": "111111111111111",
+      "level": 0
+    },
+    "27873": {
+      "title": "Decision Tree",
+      "level": 0
+    },
+    "27874": {
+      "title": "MiniEgg MiniGame",
       "level": 0
     }
   }
