@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-13 19:13:34.980605",
+  "last_updated": "2023-03-14 19:15:22.935888",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2636,7 +2636,7 @@
     },
     "1664": {
       "title": "주민등록번호",
-      "level": 13
+      "level": 14
     },
     "1665": {
       "title": "화물열차",
@@ -9688,7 +9688,7 @@
     },
     "3471": {
       "title": "Complete the sequence!",
-      "level": 0
+      "level": 12
     },
     "3472": {
       "title": "Direct Visibility",
@@ -12012,7 +12012,7 @@
     },
     "4069": {
       "title": "Hie with the Pie",
-      "level": 0
+      "level": 13
     },
     "4070": {
       "title": "Mahershalalhashbaz, Nebuchadnezzar, and Billy Bob Benjamin Go to the Regionals",
@@ -13636,7 +13636,7 @@
     },
     "4482": {
       "title": "Tetrahedral Stacks of Cannonballs",
-      "level": 5
+      "level": 4
     },
     "4483": {
       "title": "“Robot Roll Call – Cambot...Servo...Gypsy...Croooow”",
@@ -14812,7 +14812,7 @@
     },
     "4782": {
       "title": "분수 뺄셈",
-      "level": 14
+      "level": 15
     },
     "4784": {
       "title": "Unhappy Numbers",
@@ -17932,7 +17932,7 @@
     },
     "5641": {
       "title": "겉보기에 쌍둥이 소수",
-      "level": 12
+      "level": 11
     },
     "5642": {
       "title": "퀸 게임",
@@ -17984,7 +17984,7 @@
     },
     "5654": {
       "title": "In-circles Again",
-      "level": 0
+      "level": 12
     },
     "5655": {
       "title": "평점",
@@ -27048,7 +27048,7 @@
     },
     "8184": {
       "title": "Guilds",
-      "level": 10
+      "level": 11
     },
     "8185": {
       "title": "Railway",
@@ -33020,7 +33020,7 @@
     },
     "9718": {
       "title": "Matrix Transformation",
-      "level": 12
+      "level": 14
     },
     "9719": {
       "title": "Bi‐coloring",
@@ -34208,7 +34208,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 26
+      "level": 25
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -38060,7 +38060,7 @@
     },
     "11029": {
       "title": "ĐỘI MŨ",
-      "level": 6
+      "level": 7
     },
     "11030": {
       "title": "SUPER HATS",
@@ -38088,7 +38088,7 @@
     },
     "11036": {
       "title": "ĐẾM",
-      "level": 0
+      "level": 25
     },
     "11037": {
       "title": "중복 없는 수",
@@ -38780,7 +38780,7 @@
     },
     "11209": {
       "title": "Intercept",
-      "level": 14
+      "level": 17
     },
     "11210": {
       "title": "Radar",
@@ -45836,7 +45836,7 @@
     },
     "13018": {
       "title": "특이한 수열",
-      "level": 13
+      "level": 12
     },
     "13019": {
       "title": "A를 B로",
@@ -60272,7 +60272,7 @@
     },
     "16686": {
       "title": "실시간 내비게이션",
-      "level": 22
+      "level": 23
     },
     "16687": {
       "title": "기묘한 여행계획",
@@ -66180,7 +66180,7 @@
     },
     "18183": {
       "title": "Tiling with T-tetrominoes",
-      "level": 23
+      "level": 24
     },
     "18184": {
       "title": "분할하기",
@@ -72632,7 +72632,7 @@
     },
     "19805": {
       "title": "Attractive Flowers",
-      "level": 6
+      "level": 7
     },
     "19806": {
       "title": "Blocking the View",
@@ -86244,7 +86244,7 @@
     },
     "23258": {
       "title": "밤편지",
-      "level": 16
+      "level": 15
     },
     "23259": {
       "title": "Celebrity",
@@ -86664,7 +86664,7 @@
     },
     "23364": {
       "title": "Almost Always",
-      "level": 12
+      "level": 13
     },
     "23365": {
       "title": "Buffered Buffet",
@@ -90372,7 +90372,7 @@
     },
     "24319": {
       "title": "Cancer",
-      "level": 0
+      "level": 25
     },
     "24320": {
       "title": "Rectpoints",
@@ -95904,7 +95904,7 @@
     },
     "25724": {
       "title": "Symmetry: Tree",
-      "level": 0
+      "level": 23
     },
     "25725": {
       "title": "Symmetry: Convex",
@@ -98384,7 +98384,7 @@
     },
     "26352": {
       "title": "Matrix Transformation",
-      "level": 0
+      "level": 15
     },
     "26353": {
       "title": "Cut the Cake!",
@@ -98604,7 +98604,7 @@
     },
     "26408": {
       "title": "Game",
-      "level": 26
+      "level": 27
     },
     "26409": {
       "title": "Hidden Pool",
@@ -103136,7 +103136,7 @@
     },
     "27566": {
       "title": "Blueberry Waffle",
-      "level": 0
+      "level": 3
     },
     "27567": {
       "title": "Bog of Eternal Stench",
@@ -103780,7 +103780,7 @@
     },
     "27727": {
       "title": "버튼 정렬",
-      "level": 13
+      "level": 14
     },
     "27728": {
       "title": "개구리와 쿼리",
@@ -103788,7 +103788,7 @@
     },
     "27729": {
       "title": "문자 연금술",
-      "level": 15
+      "level": 16
     },
     "27730": {
       "title": "견우와 직녀",
@@ -103808,7 +103808,7 @@
     },
     "27734": {
       "title": "끝말잇기",
-      "level": 0
+      "level": 21
     },
     "27735": {
       "title": "송유관 II",
@@ -103824,7 +103824,7 @@
     },
     "27738": {
       "title": "연산자 파티",
-      "level": 10
+      "level": 11
     },
     "27739": {
       "title": "수열 재배열",
@@ -104244,7 +104244,7 @@
     },
     "27843": {
       "title": "Equal Sum Subarrays",
-      "level": 13
+      "level": 14
     },
     "27844": {
       "title": "Fertilizing Pastures",
@@ -104256,7 +104256,7 @@
     },
     "27846": {
       "title": "Bakery",
-      "level": 17
+      "level": 19
     },
     "27847": {
       "title": "Cow-libi",
@@ -104340,7 +104340,7 @@
     },
     "27867": {
       "title": "세 개의 닮은꼴 초콜릿",
-      "level": 0
+      "level": 23
     },
     "27868": {
       "title": "On My Way Dorm",
@@ -104356,7 +104356,7 @@
     },
     "27871": {
       "title": "Singularity of the Nim",
-      "level": 19
+      "level": 20
     },
     "27872": {
       "title": "111111111111111",
@@ -104368,6 +104368,26 @@
     },
     "27874": {
       "title": "MiniEgg MiniGame",
+      "level": 0
+    },
+    "27875": {
+      "title": "파이파이",
+      "level": 0
+    },
+    "27876": {
+      "title": "제곱수 덱 1",
+      "level": 17
+    },
+    "27877": {
+      "title": "제곱수 덱 2",
+      "level": 20
+    },
+    "27878": {
+      "title": "순열 사이클과 쿼리",
+      "level": 12
+    },
+    "27879": {
+      "title": "누적 합과 쿼리",
       "level": 0
     }
   }
