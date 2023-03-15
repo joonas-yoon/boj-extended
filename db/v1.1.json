@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-14 19:15:22.935888",
+  "last_updated": "2023-03-15 19:14:06.280222",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1588,7 +1588,7 @@
     },
     "1401": {
       "title": "요컨대 형택이의 사탕봉지",
-      "level": 19
+      "level": 18
     },
     "1402": {
       "title": "아무래도이문제는A번난이도인것같다",
@@ -2064,7 +2064,7 @@
     },
     "1521": {
       "title": "랜덤 소트",
-      "level": 17
+      "level": 16
     },
     "1522": {
       "title": "문자열 교환",
@@ -14812,7 +14812,7 @@
     },
     "4782": {
       "title": "분수 뺄셈",
-      "level": 15
+      "level": 14
     },
     "4784": {
       "title": "Unhappy Numbers",
@@ -17080,7 +17080,7 @@
     },
     "5414": {
       "title": "Diamond Dealer",
-      "level": 23
+      "level": 19
     },
     "5415": {
       "title": "ASM – The Abelian Sandpile Model",
@@ -25964,7 +25964,7 @@
     },
     "7907": {
       "title": "Bytean Road Race",
-      "level": 24
+      "level": 23
     },
     "7908": {
       "title": "Will It Stop?",
@@ -29736,7 +29736,7 @@
     },
     "8858": {
       "title": "Bankier",
-      "level": 13
+      "level": 12
     },
     "8859": {
       "title": "Górnicy",
@@ -30932,7 +30932,7 @@
     },
     "9175": {
       "title": "Who needs 8 Queens when you can have N?",
-      "level": 18
+      "level": 19
     },
     "9176": {
       "title": "메르센 합성수",
@@ -37876,7 +37876,7 @@
     },
     "10983": {
       "title": "히기카드",
-      "level": 18
+      "level": 19
     },
     "10984": {
       "title": "내 학점을 구해줘",
@@ -45680,7 +45680,7 @@
     },
     "12979": {
       "title": "종이 접기",
-      "level": 12
+      "level": 11
     },
     "12980": {
       "title": "좋아하는 수열",
@@ -56652,7 +56652,7 @@
     },
     "15772": {
       "title": "Segmentation",
-      "level": 13
+      "level": 12
     },
     "15773": {
       "title": "Touch The Sky",
@@ -57292,7 +57292,7 @@
     },
     "15936": {
       "title": "Hypercube",
-      "level": 13
+      "level": 12
     },
     "15937": {
       "title": "Rooks",
@@ -66348,7 +66348,7 @@
     },
     "18225": {
       "title": "당구공을 넣자",
-      "level": 14
+      "level": 15
     },
     "18226": {
       "title": "안 읽은 사람은 누구?",
@@ -66972,7 +66972,7 @@
     },
     "18383": {
       "title": "TATCK",
-      "level": 18
+      "level": 16
     },
     "18384": {
       "title": "PRIM",
@@ -74340,7 +74340,7 @@
     },
     "20234": {
       "title": "Corrupted Sort",
-      "level": 16
+      "level": 17
     },
     "20235": {
       "title": "Display",
@@ -76568,7 +76568,7 @@
     },
     "20799": {
       "title": "Rikka with Maximum Subsegment Sum",
-      "level": 0
+      "level": 22
     },
     "20800": {
       "title": "Rikka with Random Tree",
@@ -80280,7 +80280,7 @@
     },
     "21731": {
       "title": "메시라이브",
-      "level": 29
+      "level": 28
     },
     "21732": {
       "title": "SAT-2",
@@ -90560,7 +90560,7 @@
     },
     "24366": {
       "title": "КЛЕТКИ",
-      "level": 3
+      "level": 4
     },
     "24367": {
       "title": "АСАНСЬОР",
@@ -91812,7 +91812,7 @@
     },
     "24679": {
       "title": "돌무더기 게임 2",
-      "level": 18
+      "level": 19
     },
     "24680": {
       "title": "Silver-16",
@@ -94148,7 +94148,7 @@
     },
     "25267": {
       "title": "Permutation",
-      "level": 20
+      "level": 21
     },
     "25268": {
       "title": "Name Generation",
@@ -103092,11 +103092,11 @@
     },
     "27555": {
       "title": "Find and Replace",
-      "level": 18
+      "level": 19
     },
     "27556": {
       "title": "Lights Off",
-      "level": 18
+      "level": 19
     },
     "27557": {
       "title": "Moo Route",
@@ -103252,7 +103252,7 @@
     },
     "27595": {
       "title": "Another Wine Tasting Event",
-      "level": 7
+      "level": 9
     },
     "27596": {
       "title": "Crossing the Railways",
@@ -103712,7 +103712,7 @@
     },
     "27710": {
       "title": "Cells",
-      "level": 0
+      "level": 13
     },
     "27711": {
       "title": "Dragon Slayer",
@@ -104292,7 +104292,7 @@
     },
     "27855": {
       "title": "Cornhole",
-      "level": 0
+      "level": 3
     },
     "27856": {
       "title": "Sum of Remainders",
@@ -104352,7 +104352,7 @@
     },
     "27870": {
       "title": "Appearance of the Runo",
-      "level": 0
+      "level": 21
     },
     "27871": {
       "title": "Singularity of the Nim",
@@ -104372,7 +104372,7 @@
     },
     "27875": {
       "title": "파이파이",
-      "level": 0
+      "level": 23
     },
     "27876": {
       "title": "제곱수 덱 1",
@@ -104388,7 +104388,7 @@
     },
     "27879": {
       "title": "누적 합과 쿼리",
-      "level": 0
+      "level": 11
     }
   }
 }
