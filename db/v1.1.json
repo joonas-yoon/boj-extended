@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-15 19:14:06.280222",
+  "last_updated": "2023-03-16 19:13:58.016758",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2616,7 +2616,7 @@
     },
     "1659": {
       "title": "수 (Hard)",
-      "level": 24
+      "level": 25
     },
     "1660": {
       "title": "캡틴 이다솜",
@@ -3872,7 +3872,7 @@
     },
     "1980": {
       "title": "햄버거 사랑",
-      "level": 7
+      "level": 6
     },
     "1981": {
       "title": "배열에서 이동",
@@ -3924,7 +3924,7 @@
     },
     "1994": {
       "title": "등차수열",
-      "level": 15
+      "level": 16
     },
     "1995": {
       "title": "폐쇄회로",
@@ -11692,7 +11692,7 @@
     },
     "3989": {
       "title": "유행성 독감",
-      "level": 17
+      "level": 16
     },
     "3990": {
       "title": "화면 보호기",
@@ -32288,7 +32288,7 @@
     },
     "9534": {
       "title": "Join two kingdoms",
-      "level": 20
+      "level": 19
     },
     "9535": {
       "title": "Rubik's Rectangle",
@@ -32468,7 +32468,7 @@
     },
     "9580": {
       "title": "Bonus Cards",
-      "level": 15
+      "level": 16
     },
     "9581": {
       "title": "Cactus Automorphisms",
@@ -53408,7 +53408,7 @@
     },
     "14956": {
       "title": "Philosopher’s Walk",
-      "level": 14
+      "level": 13
     },
     "14957": {
       "title": "Rectilinear Regions",
@@ -54488,7 +54488,7 @@
     },
     "15226": {
       "title": "House of Cards",
-      "level": 4
+      "level": 5
     },
     "15227": {
       "title": "Global Warming",
@@ -62032,7 +62032,7 @@
     },
     "17137": {
       "title": "사탕 놀이",
-      "level": 15
+      "level": 14
     },
     "17138": {
       "title": "습격자 초라기와 쿼리 (Easy)",
@@ -70724,7 +70724,7 @@
     },
     "19323": {
       "title": "Dogs",
-      "level": 0
+      "level": 26
     },
     "19324": {
       "title": "Three Arrays",
@@ -73972,11 +73972,11 @@
     },
     "20141": {
       "title": "Vista 4",
-      "level": 11
+      "level": 12
     },
     "20142": {
       "title": "Vista 5",
-      "level": 0
+      "level": 13
     },
     "20143": {
       "title": "Vista 6",
@@ -74748,7 +74748,7 @@
     },
     "20336": {
       "title": "Haughty Cuisine",
-      "level": 4
+      "level": 3
     },
     "20337": {
       "title": "Incomplete Sort",
@@ -77912,7 +77912,7 @@
     },
     "21135": {
       "title": "Bad Packing",
-      "level": 15
+      "level": 16
     },
     "21136": {
       "title": "Bitonic Ordering",
@@ -85316,7 +85316,7 @@
     },
     "23026": {
       "title": "물건 포장하기",
-      "level": 15
+      "level": 16
     },
     "23027": {
       "title": "1번부터 문제의 상태가…?",
@@ -98220,7 +98220,7 @@
     },
     "26311": {
       "title": "Geekflix",
-      "level": 14
+      "level": 16
     },
     "26312": {
       "title": "Heximal",
@@ -100944,7 +100944,7 @@
     },
     "27005": {
       "title": "Navigating the City",
-      "level": 10
+      "level": 11
     },
     "27006": {
       "title": "Space Elevator",
@@ -103840,7 +103840,7 @@
     },
     "27742": {
       "title": "월드컵 조별리그",
-      "level": 13
+      "level": 12
     },
     "27743": {
       "title": "어려운 하노이 탑",
@@ -104264,7 +104264,7 @@
     },
     "27848": {
       "title": "Moo Route II",
-      "level": 17
+      "level": 18
     },
     "27849": {
       "title": "Hungry Cow",
@@ -104292,7 +104292,7 @@
     },
     "27855": {
       "title": "Cornhole",
-      "level": 3
+      "level": 2
     },
     "27856": {
       "title": "Sum of Remainders",
@@ -104304,7 +104304,7 @@
     },
     "27858": {
       "title": "Counting Pythagorean Triples",
-      "level": 0
+      "level": 11
     },
     "27859": {
       "title": "Clarissa’s Conical Cannolis",
@@ -104380,7 +104380,7 @@
     },
     "27877": {
       "title": "제곱수 덱 2",
-      "level": 20
+      "level": 21
     },
     "27878": {
       "title": "순열 사이클과 쿼리",
