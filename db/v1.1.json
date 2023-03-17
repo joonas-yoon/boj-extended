@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-16 19:13:58.016758",
+  "last_updated": "2023-03-17 19:12:54.923223",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6336,7 +6336,7 @@
     },
     "2608": {
       "title": "로마 숫자",
-      "level": 10
+      "level": 11
     },
     "2609": {
       "title": "최대공약수와 최소공배수",
@@ -9168,7 +9168,7 @@
     },
     "3332": {
       "title": "Royal treasury",
-      "level": 15
+      "level": 16
     },
     "3333": {
       "title": "Antenna",
@@ -14828,7 +14828,7 @@
     },
     "4787": {
       "title": "Covered Walkway",
-      "level": 0
+      "level": 20
     },
     "4788": {
       "title": "Double Dealing",
@@ -18184,7 +18184,7 @@
     },
     "5707": {
       "title": "Brothers",
-      "level": 11
+      "level": 10
     },
     "5708": {
       "title": "Code Lock",
@@ -24656,7 +24656,7 @@
     },
     "7535": {
       "title": "A Bug’s Life",
-      "level": 14
+      "level": 13
     },
     "7536": {
       "title": "Jamie's Contact Groups",
@@ -26836,7 +26836,7 @@
     },
     "8130": {
       "title": "The Postman",
-      "level": 20
+      "level": 21
     },
     "8131": {
       "title": "Ploughing",
@@ -32140,7 +32140,7 @@
     },
     "9497": {
       "title": "피라미드 수열",
-      "level": 18
+      "level": 17
     },
     "9498": {
       "title": "시험 성적",
@@ -34100,7 +34100,7 @@
     },
     "10023": {
       "title": "Mooo Moo",
-      "level": 11
+      "level": 12
     },
     "10024": {
       "title": "Reordering the Cows",
@@ -54152,7 +54152,7 @@
     },
     "15142": {
       "title": "Little Difference",
-      "level": 15
+      "level": 16
     },
     "15143": {
       "title": "Atomic Mass",
@@ -68644,7 +68644,7 @@
     },
     "18803": {
       "title": "방역",
-      "level": 27
+      "level": 26
     },
     "18804": {
       "title": "대안적 사실",
@@ -71236,7 +71236,7 @@
     },
     "19451": {
       "title": "Guess the Data Structure",
-      "level": 24
+      "level": 25
     },
     "19452": {
       "title": "Hovercraft",
@@ -84592,7 +84592,7 @@
     },
     "22844": {
       "title": "Walking Ant",
-      "level": 12
+      "level": 13
     },
     "22845": {
       "title": "Co-occurrence Search",
@@ -85316,7 +85316,7 @@
     },
     "23026": {
       "title": "물건 포장하기",
-      "level": 16
+      "level": 15
     },
     "23027": {
       "title": "1번부터 문제의 상태가…?",
@@ -88584,7 +88584,7 @@
     },
     "23844": {
       "title": "트리 정리하기",
-      "level": 14
+      "level": 15
     },
     "23845": {
       "title": "마트료시카",
@@ -97580,7 +97580,7 @@
     },
     "26146": {
       "title": "즉흥 여행 (Easy)",
-      "level": 15
+      "level": 16
     },
     "26147": {
       "title": "Wordle 찍기",
@@ -97636,7 +97636,7 @@
     },
     "26160": {
       "title": "보물 찾기",
-      "level": 21
+      "level": 20
     },
     "26161": {
       "title": "트리의 팔",
@@ -102980,7 +102980,7 @@
     },
     "27527": {
       "title": "배너 걸기",
-      "level": 9
+      "level": 10
     },
     "27528": {
       "title": "Azber is playing at Biou's house",
@@ -103148,7 +103148,7 @@
     },
     "27569": {
       "title": "Champernowne Count",
-      "level": 0
+      "level": 7
     },
     "27570": {
       "title": "Chocolate Chip Fabrication",
@@ -103172,7 +103172,7 @@
     },
     "27575": {
       "title": "Distinct Parity Excess",
-      "level": 0
+      "level": 11
     },
     "27576": {
       "title": "Eroding Pillars",
@@ -103188,7 +103188,7 @@
     },
     "27579": {
       "title": "Fading Wind",
-      "level": 0
+      "level": 4
     },
     "27580": {
       "title": "Family Visits",
@@ -103204,11 +103204,11 @@
     },
     "27583": {
       "title": "Hunt the Wumpus",
-      "level": 0
+      "level": 6
     },
     "27584": {
       "title": "I Could Have Won",
-      "level": 0
+      "level": 6
     },
     "27585": {
       "title": "Lone Knight",
@@ -103224,7 +103224,7 @@
     },
     "27588": {
       "title": "Restaurant Opening",
-      "level": 0
+      "level": 4
     },
     "27589": {
       "title": "Streets Ahead",
@@ -103404,7 +103404,7 @@
     },
     "27633": {
       "title": "Concealed Domino",
-      "level": 0
+      "level": 20
     },
     "27634": {
       "title": "Tennis Game",
@@ -104256,7 +104256,7 @@
     },
     "27846": {
       "title": "Bakery",
-      "level": 19
+      "level": 17
     },
     "27847": {
       "title": "Cow-libi",
@@ -104264,7 +104264,7 @@
     },
     "27848": {
       "title": "Moo Route II",
-      "level": 18
+      "level": 16
     },
     "27849": {
       "title": "Hungry Cow",
@@ -104389,6 +104389,46 @@
     "27879": {
       "title": "누적 합과 쿼리",
       "level": 11
+    },
+    "27908": {
+      "title": "Kalendar",
+      "level": 3
+    },
+    "27909": {
+      "title": "Diskurs",
+      "level": 0
+    },
+    "27910": {
+      "title": "Logaritam",
+      "level": 0
+    },
+    "27911": {
+      "title": "Slastičarnica",
+      "level": 0
+    },
+    "27912": {
+      "title": "Zastave",
+      "level": 0
+    },
+    "27913": {
+      "title": "SciComLove (2023)",
+      "level": 4
+    },
+    "27914": {
+      "title": "인터뷰",
+      "level": 9
+    },
+    "27915": {
+      "title": "금광",
+      "level": 12
+    },
+    "27916": {
+      "title": "아파트 단지",
+      "level": 14
+    },
+    "27917": {
+      "title": "보석 감정",
+      "level": 0
     }
   }
 }
