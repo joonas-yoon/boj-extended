@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-17 19:12:54.923223",
+  "last_updated": "2023-03-18 19:12:43.673859",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5460,7 +5460,7 @@
     },
     "2387": {
       "title": "Howl",
-      "level": 3
+      "level": 4
     },
     "2388": {
       "title": "블록 쌓기",
@@ -6068,7 +6068,7 @@
     },
     "2541": {
       "title": "점",
-      "level": 13
+      "level": 14
     },
     "2542": {
       "title": "양팔저울",
@@ -18704,7 +18704,7 @@
     },
     "5837": {
       "title": "Poker Hands",
-      "level": 11
+      "level": 12
     },
     "5838": {
       "title": "Farm Painting",
@@ -19120,7 +19120,7 @@
     },
     "5941": {
       "title": "Cow Calisthenics",
-      "level": 20
+      "level": 18
     },
     "5942": {
       "title": "Big Macs Around the World",
@@ -19324,7 +19324,7 @@
     },
     "5992": {
       "title": "The Leisurely Stroll",
-      "level": 10
+      "level": 9
     },
     "5993": {
       "title": "Invasion of the Milkweed",
@@ -21156,7 +21156,7 @@
     },
     "6476": {
       "title": "Postscript",
-      "level": 16
+      "level": 17
     },
     "6477": {
       "title": "Radar Scopes",
@@ -32980,7 +32980,7 @@
     },
     "9708": {
       "title": "Charles Babbage's Difference Engine",
-      "level": 6
+      "level": 5
     },
     "9709": {
       "title": "Lights",
@@ -34040,7 +34040,7 @@
     },
     "10008": {
       "title": "Polarization",
-      "level": 23
+      "level": 24
     },
     "10009": {
       "title": "Loteria 2",
@@ -35828,7 +35828,7 @@
     },
     "10456": {
       "title": "Travel Card",
-      "level": 15
+      "level": 16
     },
     "10457": {
       "title": "Two Yachts",
@@ -39416,7 +39416,7 @@
     },
     "11386": {
       "title": "괄호 문자열",
-      "level": 0
+      "level": 26
     },
     "11387": {
       "title": "님 무기가 좀 나쁘시네여",
@@ -47496,7 +47496,7 @@
     },
     "13445": {
       "title": "부분 수열 XOR",
-      "level": 18
+      "level": 19
     },
     "13446": {
       "title": "새로운 가게 이름",
@@ -53744,7 +53744,7 @@
     },
     "15040": {
       "title": "Brincadeira",
-      "level": 15
+      "level": 16
     },
     "15041": {
       "title": "Cigarras periódicas",
@@ -55052,7 +55052,7 @@
     },
     "15369": {
       "title": "Karte",
-      "level": 17
+      "level": 15
     },
     "15370": {
       "title": "Pictionary",
@@ -56884,7 +56884,7 @@
     },
     "15830": {
       "title": "싱크홀",
-      "level": 5
+      "level": 6
     },
     "15831": {
       "title": "준표의 조약돌",
@@ -66492,7 +66492,7 @@
     },
     "18261": {
       "title": "Tree Depth",
-      "level": 26
+      "level": 25
     },
     "18262": {
       "title": "Milk Pumping",
@@ -69968,7 +69968,7 @@
     },
     "19134": {
       "title": "$2x + 2$",
-      "level": 17
+      "level": 16
     },
     "19135": {
       "title": "Escape Sequences",
@@ -92968,7 +92968,7 @@
     },
     "24969": {
       "title": "Traffickers",
-      "level": 19
+      "level": 22
     },
     "24970": {
       "title": "균형 수",
@@ -95004,7 +95004,7 @@
     },
     "25495": {
       "title": "에어팟",
-      "level": 3
+      "level": 4
     },
     "25496": {
       "title": "장신구 명장 임스",
@@ -97636,7 +97636,7 @@
     },
     "26160": {
       "title": "보물 찾기",
-      "level": 20
+      "level": 21
     },
     "26161": {
       "title": "트리의 팔",
@@ -98208,7 +98208,7 @@
     },
     "26308": {
       "title": "Distance and Tree",
-      "level": 15
+      "level": 16
     },
     "26309": {
       "title": "Etched Emerald Orbs",
@@ -102640,7 +102640,7 @@
     },
     "27442": {
       "title": "문자열 변환과 쿼리 3",
-      "level": 15
+      "level": 16
     },
     "27443": {
       "title": "초콜릿 프로그래밍 언어 (Hard)",
@@ -103152,7 +103152,7 @@
     },
     "27570": {
       "title": "Chocolate Chip Fabrication",
-      "level": 0
+      "level": 11
     },
     "27571": {
       "title": "Color Tubes",
@@ -103164,7 +103164,7 @@
     },
     "27573": {
       "title": "Creative Accounting",
-      "level": 0
+      "level": 10
     },
     "27574": {
       "title": "Digits of Unity",
@@ -103196,7 +103196,7 @@
     },
     "27581": {
       "title": "Food Processor",
-      "level": 0
+      "level": 12
     },
     "27582": {
       "title": "Greedy Increasing Subsequences",
@@ -103236,7 +103236,7 @@
     },
     "27591": {
       "title": "Three Dice",
-      "level": 0
+      "level": 12
     },
     "27592": {
       "title": "Triangle Containment",
@@ -104360,7 +104360,7 @@
     },
     "27872": {
       "title": "111111111111111",
-      "level": 0
+      "level": 24
     },
     "27873": {
       "title": "Decision Tree",
@@ -104392,15 +104392,15 @@
     },
     "27908": {
       "title": "Kalendar",
-      "level": 3
+      "level": 4
     },
     "27909": {
       "title": "Diskurs",
-      "level": 0
+      "level": 18
     },
     "27910": {
       "title": "Logaritam",
-      "level": 0
+      "level": 13
     },
     "27911": {
       "title": "Slastičarnica",
@@ -104424,11 +104424,11 @@
     },
     "27916": {
       "title": "아파트 단지",
-      "level": 14
+      "level": 15
     },
     "27917": {
       "title": "보석 감정",
-      "level": 0
+      "level": 17
     }
   }
 }
