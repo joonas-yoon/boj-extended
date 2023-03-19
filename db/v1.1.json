@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-18 19:12:43.673859",
+  "last_updated": "2023-03-19 19:13:00.599863",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2872,7 +2872,7 @@
     },
     "1724": {
       "title": "그림판",
-      "level": 15
+      "level": 14
     },
     "1725": {
       "title": "히스토그램",
@@ -9136,7 +9136,7 @@
     },
     "3324": {
       "title": "Dominance",
-      "level": 16
+      "level": 17
     },
     "3325": {
       "title": "Information",
@@ -18920,7 +18920,7 @@
     },
     "5891": {
       "title": "Flowerpot",
-      "level": 15
+      "level": 16
     },
     "5892": {
       "title": "Landscaping",
@@ -24456,7 +24456,7 @@
     },
     "7484": {
       "title": "Bowling",
-      "level": 6
+      "level": 7
     },
     "7485": {
       "title": "Exam",
@@ -29212,7 +29212,7 @@
     },
     "8727": {
       "title": "Farby",
-      "level": 4
+      "level": 5
     },
     "8728": {
       "title": "Grusze i jabłonie",
@@ -35980,7 +35980,7 @@
     },
     "10494": {
       "title": "Unicycle counting",
-      "level": 6
+      "level": 11
     },
     "10495": {
       "title": "Choosing Numbers",
@@ -39596,7 +39596,7 @@
     },
     "11431": {
       "title": "Mr. Gorbachev, Tear Down This Wall!",
-      "level": 4
+      "level": 5
     },
     "11432": {
       "title": "Candy Bombers",
@@ -40532,7 +40532,7 @@
     },
     "11665": {
       "title": "직육면체 교집합",
-      "level": 4
+      "level": 5
     },
     "11666": {
       "title": "워크스테이션 배정",
@@ -41716,7 +41716,7 @@
     },
     "11977": {
       "title": "Angry Cows (Bronze)",
-      "level": 9
+      "level": 8
     },
     "11978": {
       "title": "Mowing the Field (Bronze)",
@@ -52396,11 +52396,11 @@
     },
     "14701": {
       "title": "셔틀버스",
-      "level": 19
+      "level": 18
     },
     "14702": {
       "title": "데굴데굴",
-      "level": 20
+      "level": 19
     },
     "14703": {
       "title": "전자기기",
@@ -76208,7 +76208,7 @@
     },
     "20709": {
       "title": "Kate's 2021 Celebration",
-      "level": 4
+      "level": 5
     },
     "20710": {
       "title": "Lookup Performance",
@@ -82084,7 +82084,7 @@
     },
     "22194": {
       "title": "Museum",
-      "level": 0
+      "level": 24
     },
     "22195": {
       "title": "Necklace 4",
@@ -83132,7 +83132,7 @@
     },
     "22479": {
       "title": "ConvexCut",
-      "level": 15
+      "level": 16
     },
     "22480": {
       "title": "ReverseSort",
@@ -87616,7 +87616,7 @@
     },
     "23602": {
       "title": "Drone With a Camera",
-      "level": 0
+      "level": 16
     },
     "23603": {
       "title": "Fibonaccis’ vouchers",
@@ -97740,7 +97740,7 @@
     },
     "26186": {
       "title": "Bandits",
-      "level": 25
+      "level": 24
     },
     "26187": {
       "title": "Combination Locks",
@@ -103228,7 +103228,7 @@
     },
     "27589": {
       "title": "Streets Ahead",
-      "level": 0
+      "level": 5
     },
     "27590": {
       "title": "Sun and Moon",
@@ -104060,7 +104060,7 @@
     },
     "27797": {
       "title": "Vestigium",
-      "level": 0
+      "level": 4
     },
     "27798": {
       "title": "Nesting Depth",
@@ -104348,7 +104348,7 @@
     },
     "27869": {
       "title": "aFan Event Planning",
-      "level": 12
+      "level": 13
     },
     "27870": {
       "title": "Appearance of the Runo",
@@ -104389,6 +104389,10 @@
     "27879": {
       "title": "누적 합과 쿼리",
       "level": 11
+    },
+    "27899": {
+      "title": "먹었습니다!!",
+      "level": 0
     },
     "27908": {
       "title": "Kalendar",
