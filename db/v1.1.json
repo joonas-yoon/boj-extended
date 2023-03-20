@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-19 19:13:00.599863",
+  "last_updated": "2023-03-20 19:13:43.970281",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1696,7 +1696,7 @@
     },
     "1429": {
       "title": "결혼",
-      "level": 13
+      "level": 14
     },
     "1430": {
       "title": "공격",
@@ -2624,7 +2624,7 @@
     },
     "1661": {
       "title": "다솜이의 신발가게",
-      "level": 13
+      "level": 14
     },
     "1662": {
       "title": "압축",
@@ -3152,7 +3152,7 @@
     },
     "1795": {
       "title": "마알",
-      "level": 12
+      "level": 13
     },
     "1796": {
       "title": "신기한 키보드",
@@ -3520,7 +3520,7 @@
     },
     "1888": {
       "title": "곰팡이",
-      "level": 12
+      "level": 13
     },
     "1889": {
       "title": "선물 교환",
@@ -3872,7 +3872,7 @@
     },
     "1980": {
       "title": "햄버거 사랑",
-      "level": 6
+      "level": 7
     },
     "1981": {
       "title": "배열에서 이동",
@@ -20420,7 +20420,7 @@
     },
     "6278": {
       "title": "Zombie’s Treasure Chest",
-      "level": 15
+      "level": 16
     },
     "6279": {
       "title": "삼각형 피자",
@@ -24808,7 +24808,7 @@
     },
     "7573": {
       "title": "고기잡이",
-      "level": 12
+      "level": 13
     },
     "7574": {
       "title": "개구리",
@@ -27356,7 +27356,7 @@
     },
     "8261": {
       "title": "Niekolejne",
-      "level": 6
+      "level": 7
     },
     "8262": {
       "title": "Dwa torty",
@@ -41228,7 +41228,7 @@
     },
     "11839": {
       "title": "Beautiful row",
-      "level": 15
+      "level": 16
     },
     "11840": {
       "title": "XOR",
@@ -50036,7 +50036,7 @@
     },
     "14100": {
       "title": "XOR",
-      "level": 19
+      "level": 21
     },
     "14101": {
       "title": "Arhimed",
@@ -51116,7 +51116,7 @@
     },
     "14370": {
       "title": "전화번호 수수께끼 (Large)",
-      "level": 13
+      "level": 12
     },
     "14371": {
       "title": "Close Match (Small)",
@@ -53424,7 +53424,7 @@
     },
     "14960": {
       "title": "Strongly Matchable",
-      "level": 23
+      "level": 24
     },
     "14961": {
       "title": "Untangling Chain",
@@ -55184,7 +55184,7 @@
     },
     "15402": {
       "title": "Cunning Friends",
-      "level": 19
+      "level": 18
     },
     "15403": {
       "title": "Escape Room",
@@ -91304,7 +91304,7 @@
     },
     "24552": {
       "title": "올바른 괄호",
-      "level": 11
+      "level": 12
     },
     "24553": {
       "title": "팰린드롬 게임",
@@ -97580,7 +97580,7 @@
     },
     "26146": {
       "title": "즉흥 여행 (Easy)",
-      "level": 16
+      "level": 15
     },
     "26147": {
       "title": "Wordle 찍기",
@@ -97760,19 +97760,19 @@
     },
     "26191": {
       "title": "Differences",
-      "level": 20
+      "level": 21
     },
     "26193": {
       "title": "Insertions",
-      "level": 0
+      "level": 23
     },
     "26194": {
       "title": "Money Laundering",
-      "level": 0
+      "level": 22
     },
     "26195": {
       "title": "Mortgage",
-      "level": 0
+      "level": 22
     },
     "26196": {
       "title": "Skills in Pills",
@@ -102211,7 +102211,7 @@
       "level": 22
     },
     "27323": {
-      "title": "長方形 (Rectangle)",
+      "title": "직사각형",
       "level": 1
     },
     "27324": {
@@ -103156,7 +103156,7 @@
     },
     "27571": {
       "title": "Color Tubes",
-      "level": 0
+      "level": 18
     },
     "27572": {
       "title": "Counting Satellites",
@@ -103180,7 +103180,7 @@
     },
     "27577": {
       "title": "Everything Is A Nail",
-      "level": 0
+      "level": 13
     },
     "27578": {
       "title": "Exponent Exchange",
@@ -104424,7 +104424,7 @@
     },
     "27915": {
       "title": "금광",
-      "level": 12
+      "level": 13
     },
     "27916": {
       "title": "아파트 단지",
