@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-20 19:13:43.970281",
+  "last_updated": "2023-03-21 19:12:57.904391",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4200,7 +4200,7 @@
     },
     "2065": {
       "title": "나룻배",
-      "level": 14
+      "level": 13
     },
     "2066": {
       "title": "카드놀이",
@@ -4764,7 +4764,7 @@
     },
     "2209": {
       "title": "버스 터미널",
-      "level": 19
+      "level": 18
     },
     "2210": {
       "title": "숫자판 점프",
@@ -5240,7 +5240,7 @@
     },
     "2329": {
       "title": "장애물 설계",
-      "level": 16
+      "level": 18
     },
     "2330": {
       "title": "미생물 연구실",
@@ -7488,7 +7488,7 @@
     },
     "2900": {
       "title": "프로그램",
-      "level": 14
+      "level": 13
     },
     "2901": {
       "title": "CHUCK",
@@ -13100,7 +13100,7 @@
     },
     "4343": {
       "title": "Arctic Network",
-      "level": 14
+      "level": 13
     },
     "4344": {
       "title": "평균은 넘겠지",
@@ -14188,7 +14188,7 @@
     },
     "4620": {
       "title": "Pascal's Travels",
-      "level": 9
+      "level": 10
     },
     "4621": {
       "title": "Overflowing Bookshelf",
@@ -20252,7 +20252,7 @@
     },
     "6233": {
       "title": "Face The Right Way",
-      "level": 14
+      "level": 15
     },
     "6234": {
       "title": "Cow Traffic",
@@ -40632,7 +40632,7 @@
     },
     "11690": {
       "title": "LCM(1, 2, ..., n)",
-      "level": 12
+      "level": 13
     },
     "11691": {
       "title": "LCM(i, j)",
@@ -45452,7 +45452,7 @@
     },
     "12922": {
       "title": "블록 퍼즐",
-      "level": 18
+      "level": 19
     },
     "12923": {
       "title": "별 모으기",
@@ -47376,7 +47376,7 @@
     },
     "13415": {
       "title": "정렬 게임",
-      "level": 14
+      "level": 15
     },
     "13416": {
       "title": "주식 투자",
@@ -53980,7 +53980,7 @@
     },
     "15099": {
       "title": "Honey Heist",
-      "level": 11
+      "level": 12
     },
     "15100": {
       "title": "Orderly Class",
@@ -55164,7 +55164,7 @@
     },
     "15397": {
       "title": "Looping Playlist",
-      "level": 18
+      "level": 17
     },
     "15398": {
       "title": "Binary Transformations",
@@ -66288,7 +66288,7 @@
     },
     "18210": {
       "title": "Fast Forwarding",
-      "level": 9
+      "level": 10
     },
     "18211": {
       "title": "Estimating the Flood Risk",
@@ -70724,7 +70724,7 @@
     },
     "19323": {
       "title": "Dogs",
-      "level": 26
+      "level": 27
     },
     "19324": {
       "title": "Three Arrays",
@@ -89344,7 +89344,7 @@
     },
     "24034": {
       "title": "선형대수학",
-      "level": 22
+      "level": 23
     },
     "24035": {
       "title": "Impartial Offerings",
@@ -95544,7 +95544,7 @@
     },
     "25632": {
       "title": "소수 부르기 게임",
-      "level": 7
+      "level": 8
     },
     "25633": {
       "title": "도미노 넘어뜨리기",
@@ -97988,7 +97988,7 @@
     },
     "26249": {
       "title": "Long Nim",
-      "level": 0
+      "level": 21
     },
     "26250": {
       "title": "Guess Table",
@@ -98016,7 +98016,7 @@
     },
     "26256": {
       "title": "Möbius",
-      "level": 0
+      "level": 22
     },
     "26257": {
       "title": "std::shared_ptr",
@@ -101116,7 +101116,7 @@
     },
     "27048": {
       "title": "Romeo Meets Juliet",
-      "level": 6
+      "level": 5
     },
     "27049": {
       "title": "ISBN",
@@ -102952,7 +102952,7 @@
     },
     "27520": {
       "title": "경찰서",
-      "level": 24
+      "level": 23
     },
     "27521": {
       "title": "공약수 (More Huge)",
@@ -103812,7 +103812,7 @@
     },
     "27735": {
       "title": "송유관 II",
-      "level": 0
+      "level": 24
     },
     "27736": {
       "title": "찬반투표",
@@ -104000,7 +104000,7 @@
     },
     "27782": {
       "title": "Bacterial Tactics",
-      "level": 20
+      "level": 19
     },
     "27783": {
       "title": "New Elements: Part 1",
@@ -104424,7 +104424,7 @@
     },
     "27915": {
       "title": "금광",
-      "level": 13
+      "level": 12
     },
     "27916": {
       "title": "아파트 단지",
