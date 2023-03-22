@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-21 19:12:57.904391",
+  "last_updated": "2023-03-22 19:12:51.058894",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5460,7 +5460,7 @@
     },
     "2387": {
       "title": "Howl",
-      "level": 4
+      "level": 3
     },
     "2388": {
       "title": "블록 쌓기",
@@ -31304,7 +31304,7 @@
     },
     "9276": {
       "title": "채소 보호",
-      "level": 18
+      "level": 19
     },
     "9277": {
       "title": "꽃병",
@@ -36192,7 +36192,7 @@
     },
     "10547": {
       "title": "STUDENTSKO",
-      "level": 12
+      "level": 13
     },
     "10548": {
       "title": "BOB",
@@ -36508,7 +36508,7 @@
     },
     "10638": {
       "title": "Point Distance",
-      "level": 21
+      "level": 22
     },
     "10639": {
       "title": "Revenge of Minimum Cost Flow",
@@ -36588,7 +36588,7 @@
     },
     "10658": {
       "title": "Learning by Example",
-      "level": 14
+      "level": 15
     },
     "10659": {
       "title": "Dictionary",
@@ -37852,7 +37852,7 @@
     },
     "10977": {
       "title": "음식 조합 세기",
-      "level": 16
+      "level": 17
     },
     "10978": {
       "title": "기숙사 재배정",
@@ -47092,7 +47092,7 @@
     },
     "13344": {
       "title": "Chess Tournament",
-      "level": 15
+      "level": 16
     },
     "13345": {
       "title": "Completing the Square",
@@ -58024,7 +58024,7 @@
     },
     "16124": {
       "title": "나는 행복합니다",
-      "level": 23
+      "level": 22
     },
     "16125": {
       "title": "영점사격",
@@ -69212,7 +69212,7 @@
     },
     "18945": {
       "title": "조작된 ㄱ 폭탄 게임",
-      "level": 27
+      "level": 28
     },
     "18946": {
       "title": "Ciphertext",
@@ -69996,7 +69996,7 @@
     },
     "19141": {
       "title": "Subspace",
-      "level": 0
+      "level": 23
     },
     "19142": {
       "title": "Intervals",
@@ -72724,7 +72724,7 @@
     },
     "19828": {
       "title": "Berland University",
-      "level": 15
+      "level": 14
     },
     "19829": {
       "title": "The Pleasant Walk",
@@ -93404,7 +93404,7 @@
     },
     "25078": {
       "title": "Software Package Manager",
-      "level": 20
+      "level": 21
     },
     "25079": {
       "title": "Sushi Dinner",
@@ -103120,7 +103120,7 @@
     },
     "27562": {
       "title": "Air Cownditioning II",
-      "level": 8
+      "level": 9
     },
     "27563": {
       "title": "Moo Operations",
@@ -103292,7 +103292,7 @@
     },
     "27605": {
       "title": "기지 간소화",
-      "level": 21
+      "level": 22
     },
     "27606": {
       "title": "회의실 2",
@@ -104388,7 +104388,7 @@
     },
     "27879": {
       "title": "누적 합과 쿼리",
-      "level": 11
+      "level": 12
     },
     "27899": {
       "title": "먹었습니다!!",
