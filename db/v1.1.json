@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-22 19:12:51.058894",
+  "last_updated": "2023-03-23 19:13:25.064142",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -11592,7 +11592,7 @@
     },
     "3964": {
       "title": "팩토리얼과 거듭제곱",
-      "level": 14
+      "level": 13
     },
     "3965": {
       "title": "Genetic Fraud",
@@ -19192,7 +19192,7 @@
     },
     "5959": {
       "title": "Crop Circles",
-      "level": 4
+      "level": 5
     },
     "5960": {
       "title": "Cowlphabet",
@@ -30872,7 +30872,7 @@
     },
     "9160": {
       "title": "The Brave Sir Robin’s cAsE cOrReCtOr",
-      "level": 5
+      "level": 4
     },
     "9161": {
       "title": "Sir Bedavere’s Bogus Division Solutions",
@@ -43780,7 +43780,7 @@
     },
     "12503": {
       "title": "FreeCell Statistics (Small)",
-      "level": 6
+      "level": 7
     },
     "12504": {
       "title": "FreeCell Statistics (Large)",
@@ -53340,7 +53340,7 @@
     },
     "14939": {
       "title": "불 끄기",
-      "level": 17
+      "level": 16
     },
     "14940": {
       "title": "쉬운 최단거리",
@@ -55084,7 +55084,7 @@
     },
     "15377": {
       "title": "Bounce Bounce Bounce",
-      "level": 0
+      "level": 15
     },
     "15378": {
       "title": "Paasa Numbers",
@@ -61112,7 +61112,7 @@
     },
     "16896": {
       "title": "더일곱이 게임",
-      "level": 16
+      "level": 17
     },
     "16897": {
       "title": "아인타 게임",
@@ -61264,7 +61264,7 @@
     },
     "16934": {
       "title": "게임 닉네임",
-      "level": 13
+      "level": 14
     },
     "16935": {
       "title": "배열 돌리기 3",
@@ -67076,7 +67076,7 @@
     },
     "18409": {
       "title": "母音を数える (Counting Vowels)",
-      "level": 2
+      "level": 1
     },
     "18410": {
       "title": "マージ (Merge)",
@@ -70688,7 +70688,7 @@
     },
     "19314": {
       "title": "Swap",
-      "level": 0
+      "level": 21
     },
     "19315": {
       "title": "Conic Section",
@@ -71328,7 +71328,7 @@
     },
     "19474": {
       "title": "Values on a Tree",
-      "level": 16
+      "level": 18
     },
     "19475": {
       "title": "Dreissig",
@@ -75452,7 +75452,7 @@
     },
     "20520": {
       "title": "Оборона крепости",
-      "level": 16
+      "level": 15
     },
     "20521": {
       "title": "Экспериментальная робототехника",
@@ -76000,7 +76000,7 @@
     },
     "20657": {
       "title": "가챠를 돌려 동료를 늘리고 최강의 PS 군단을 만들자.",
-      "level": 29
+      "level": 28
     },
     "20658": {
       "title": "파이썬은 너무 느려",
@@ -92640,7 +92640,7 @@
     },
     "24886": {
       "title": "SKH 문자열",
-      "level": 15
+      "level": 16
     },
     "24887": {
       "title": "최대한의 휴식",
@@ -100856,7 +100856,7 @@
     },
     "26983": {
       "title": "DNA Assembly",
-      "level": 8
+      "level": 9
     },
     "26984": {
       "title": "Cow Phrasebook",
@@ -104424,11 +104424,11 @@
     },
     "27915": {
       "title": "금광",
-      "level": 12
+      "level": 13
     },
     "27916": {
       "title": "아파트 단지",
-      "level": 15
+      "level": 16
     },
     "27917": {
       "title": "보석 감정",
