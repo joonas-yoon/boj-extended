@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-23 19:13:25.064142",
+  "last_updated": "2023-03-24 19:12:47.662103",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3832,7 +3832,7 @@
     },
     "1970": {
       "title": "건배",
-      "level": 17
+      "level": 16
     },
     "1971": {
       "title": "High Spies",
@@ -3892,7 +3892,7 @@
     },
     "1986": {
       "title": "체스",
-      "level": 9
+      "level": 10
     },
     "1987": {
       "title": "알파벳",
@@ -7616,7 +7616,7 @@
     },
     "2932": {
       "title": "표 회전",
-      "level": 9
+      "level": 8
     },
     "2933": {
       "title": "미네랄",
@@ -34208,7 +34208,7 @@
     },
     "10050": {
       "title": "블록",
-      "level": 25
+      "level": 26
     },
     "10051": {
       "title": "Buffed Buffet",
@@ -42460,7 +42460,7 @@
     },
     "12169": {
       "title": "Infinite House of Pancakes (Large)",
-      "level": 11
+      "level": 10
     },
     "12170": {
       "title": "Dijkstra (Small)",
@@ -44640,7 +44640,7 @@
     },
     "12718": {
       "title": "Crop Triangles (Large)",
-      "level": 10
+      "level": 12
     },
     "12719": {
       "title": "Number Sets (Small)",
@@ -48712,7 +48712,7 @@
     },
     "13750": {
       "title": "Zigzag",
-      "level": 9
+      "level": 10
     },
     "13751": {
       "title": "Barbells",
@@ -58256,7 +58256,7 @@
     },
     "16182": {
       "title": "Dumae",
-      "level": 21
+      "level": 20
     },
     "16183": {
       "title": "Electronic Circuit",
@@ -58552,7 +58552,7 @@
     },
     "16256": {
       "title": "Painting the Wall",
-      "level": 9
+      "level": 10
     },
     "16257": {
       "title": "Magic Artifact",
@@ -73676,39 +73676,39 @@
     },
     "20067": {
       "title": "Nowruz 1",
-      "level": 12
+      "level": 11
     },
     "20068": {
       "title": "Nowruz 2",
-      "level": 19
+      "level": 0
     },
     "20069": {
       "title": "Nowruz 3",
-      "level": 19
+      "level": 0
     },
     "20070": {
       "title": "Nowruz 4",
-      "level": 20
+      "level": 0
     },
     "20071": {
       "title": "Nowruz 5",
-      "level": 20
+      "level": 0
     },
     "20072": {
       "title": "Nowruz 6",
-      "level": 20
+      "level": 0
     },
     "20073": {
       "title": "Nowruz 7",
-      "level": 21
+      "level": 0
     },
     "20074": {
       "title": "Nowruz 8",
-      "level": 23
+      "level": 0
     },
     "20075": {
       "title": "Nowruz 9",
-      "level": 24
+      "level": 0
     },
     "20076": {
       "title": "Nowruz 10",
@@ -76320,7 +76320,7 @@
     },
     "20737": {
       "title": "Sanic",
-      "level": 4
+      "level": 5
     },
     "20738": {
       "title": "Tram",
@@ -90604,7 +90604,7 @@
     },
     "24377": {
       "title": "ИГРА",
-      "level": 4
+      "level": 5
     },
     "24378": {
       "title": "КАСТИНГ",
@@ -90936,7 +90936,7 @@
     },
     "24460": {
       "title": "특별상이라도 받고 싶어",
-      "level": 7
+      "level": 8
     },
     "24461": {
       "title": "그래프의 줄기",
@@ -103104,7 +103104,7 @@
     },
     "27558": {
       "title": "Find and Replace",
-      "level": 16
+      "level": 17
     },
     "27559": {
       "title": "Following Directions",
