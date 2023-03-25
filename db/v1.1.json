@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-24 19:12:47.662103",
+  "last_updated": "2023-03-25 19:12:55.178624",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8700,7 +8700,7 @@
     },
     "3208": {
       "title": "gus",
-      "level": 4
+      "level": 5
     },
     "3209": {
       "title": "gumbi",
@@ -8868,7 +8868,7 @@
     },
     "3253": {
       "title": "TRAM",
-      "level": 8
+      "level": 10
     },
     "3254": {
       "title": "김밥 21개",
@@ -16484,7 +16484,7 @@
     },
     "5205": {
       "title": "School Colors",
-      "level": 5
+      "level": 4
     },
     "5206": {
       "title": "Lunch",
@@ -16908,7 +16908,7 @@
     },
     "5371": {
       "title": "Annoying Mosquitos",
-      "level": 5
+      "level": 4
     },
     "5372": {
       "title": "나쁜 과학자",
@@ -17780,7 +17780,7 @@
     },
     "5603": {
       "title": "問題2",
-      "level": 5
+      "level": 4
     },
     "5604": {
       "title": "問題3",
@@ -19192,7 +19192,7 @@
     },
     "5959": {
       "title": "Crop Circles",
-      "level": 5
+      "level": 4
     },
     "5960": {
       "title": "Cowlphabet",
@@ -20788,7 +20788,7 @@
     },
     "6370": {
       "title": "Bode Plot",
-      "level": 13
+      "level": 14
     },
     "6371": {
       "title": "Follow My Logic",
@@ -20800,7 +20800,7 @@
     },
     "6373": {
       "title": "Round and Round We Go",
-      "level": 9
+      "level": 8
     },
     "6374": {
       "title": "To the Max",
@@ -33600,7 +33600,7 @@
     },
     "9881": {
       "title": "Ski Course Design",
-      "level": 5
+      "level": 6
     },
     "9882": {
       "title": "Balanced Teams",
@@ -35492,7 +35492,7 @@
     },
     "10372": {
       "title": "Alarm Clock",
-      "level": 4
+      "level": 5
     },
     "10373": {
       "title": "Buffcraft",
@@ -39336,7 +39336,7 @@
     },
     "11366": {
       "title": "Tons of Orcs, no Fibbin’",
-      "level": 8
+      "level": 7
     },
     "11367": {
       "title": "Report Card Time",
@@ -39772,7 +39772,7 @@
     },
     "11475": {
       "title": "Journey to the “The World’s Start”",
-      "level": 19
+      "level": 18
     },
     "11476": {
       "title": "Kingdom Trip",
@@ -41716,7 +41716,7 @@
     },
     "11977": {
       "title": "Angry Cows (Bronze)",
-      "level": 8
+      "level": 9
     },
     "11978": {
       "title": "Mowing the Field (Bronze)",
@@ -44640,7 +44640,7 @@
     },
     "12718": {
       "title": "Crop Triangles (Large)",
-      "level": 12
+      "level": 11
     },
     "12719": {
       "title": "Number Sets (Small)",
@@ -45888,7 +45888,7 @@
     },
     "13031": {
       "title": "쉽게 행복한 나무",
-      "level": 17
+      "level": 16
     },
     "13032": {
       "title": "PS 테러리스트",
@@ -46620,7 +46620,7 @@
     },
     "13226": {
       "title": "Divisors Again",
-      "level": 6
+      "level": 7
     },
     "13227": {
       "title": "TicTacToe",
@@ -49800,7 +49800,7 @@
     },
     "14041": {
       "title": "Arrival Time",
-      "level": 3
+      "level": 4
     },
     "14042": {
       "title": "Tandem Bicycle",
@@ -52720,7 +52720,7 @@
     },
     "14783": {
       "title": "Eenie Meenie Miney Moe",
-      "level": 8
+      "level": 7
     },
     "14784": {
       "title": "Bedtime Reading, II",
@@ -54396,7 +54396,7 @@
     },
     "15203": {
       "title": "Police Station",
-      "level": 16
+      "level": 17
     },
     "15204": {
       "title": "Pyramid",
@@ -55808,7 +55808,7 @@
     },
     "15558": {
       "title": "점프 게임",
-      "level": 10
+      "level": 11
     },
     "15559": {
       "title": "내 선물을 받아줘",
@@ -61444,7 +61444,7 @@
     },
     "16981": {
       "title": "Exhibition",
-      "level": 15
+      "level": 16
     },
     "16982": {
       "title": "Growing Vegetables is Fun 3",
@@ -63880,7 +63880,7 @@
     },
     "17601": {
       "title": "Disrupting Defense",
-      "level": 14
+      "level": 15
     },
     "17602": {
       "title": "Explosion",
@@ -63964,7 +63964,7 @@
     },
     "17622": {
       "title": "타일 교체",
-      "level": 12
+      "level": 13
     },
     "17623": {
       "title": "괄호",
@@ -65580,7 +65580,7 @@
     },
     "18033": {
       "title": "Eggfruit Cake",
-      "level": 10
+      "level": 11
     },
     "18034": {
       "title": "Fabricating Sculptures",
@@ -78596,7 +78596,7 @@
     },
     "21306": {
       "title": "Three Triangles",
-      "level": 0
+      "level": 17
     },
     "21307": {
       "title": "ICPC Standings",
@@ -79948,7 +79948,7 @@
     },
     "21644": {
       "title": "The Firm Knapsack Problem",
-      "level": 20
+      "level": 21
     },
     "21645": {
       "title": "Ролевая игра",
@@ -89148,7 +89148,7 @@
     },
     "23985": {
       "title": "Cave Escape",
-      "level": 0
+      "level": 17
     },
     "23986": {
       "title": "Big Buttons",
@@ -95004,7 +95004,7 @@
     },
     "25495": {
       "title": "에어팟",
-      "level": 4
+      "level": 3
     },
     "25496": {
       "title": "장신구 명장 임스",
@@ -95128,7 +95128,7 @@
     },
     "25528": {
       "title": "Leave No One Behind",
-      "level": 9
+      "level": 8
     },
     "25529": {
       "title": "Training Schedule for ICPC",
@@ -97680,7 +97680,7 @@
     },
     "26171": {
       "title": "An Interactive Problem",
-      "level": 4
+      "level": 5
     },
     "26172": {
       "title": "Brothers in Arms",
@@ -103652,7 +103652,7 @@
     },
     "27695": {
       "title": "Knee problems (Hard)",
-      "level": 0
+      "level": 16
     },
     "27696": {
       "title": "Quite the cheater!",
@@ -103808,7 +103808,7 @@
     },
     "27734": {
       "title": "끝말잇기",
-      "level": 21
+      "level": 20
     },
     "27735": {
       "title": "송유관 II",
@@ -104252,7 +104252,7 @@
     },
     "27845": {
       "title": "Piling Papers",
-      "level": 0
+      "level": 20
     },
     "27846": {
       "title": "Bakery",
