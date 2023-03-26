@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-25 19:12:55.178624",
+  "last_updated": "2023-03-26 19:12:30.817253",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4292,7 +4292,7 @@
     },
     "2089": {
       "title": "-2진수",
-      "level": 8
+      "level": 9
     },
     "2090": {
       "title": "조화평균",
@@ -5176,7 +5176,7 @@
     },
     "2313": {
       "title": "보석 구매하기",
-      "level": 10
+      "level": 11
     },
     "2314": {
       "title": "이세계 게임",
@@ -15908,7 +15908,7 @@
     },
     "5061": {
       "title": "Amphiphilic Carbon Molecules",
-      "level": 0
+      "level": 20
     },
     "5062": {
       "title": "Different Digits",
@@ -18808,7 +18808,7 @@
     },
     "5863": {
       "title": "Crazy Fences",
-      "level": 18
+      "level": 19
     },
     "5864": {
       "title": "Wifi Setup",
@@ -20252,7 +20252,7 @@
     },
     "6233": {
       "title": "Face The Right Way",
-      "level": 15
+      "level": 14
     },
     "6234": {
       "title": "Cow Traffic",
@@ -20408,7 +20408,7 @@
     },
     "6275": {
       "title": "Islands and Bridges",
-      "level": 0
+      "level": 18
     },
     "6276": {
       "title": "Treasure of the Chimp Island",
@@ -24656,11 +24656,11 @@
     },
     "7535": {
       "title": "A Bug’s Life",
-      "level": 13
+      "level": 14
     },
     "7536": {
       "title": "Jamie's Contact Groups",
-      "level": 0
+      "level": 21
     },
     "7537": {
       "title": "Acid Text",
@@ -33584,7 +33584,7 @@
     },
     "9877": {
       "title": "Ski Course Rating",
-      "level": 21
+      "level": 20
     },
     "9878": {
       "title": "Bessie Slows Down",
@@ -37464,7 +37464,7 @@
     },
     "10879": {
       "title": "Speak your mind!",
-      "level": 12
+      "level": 13
     },
     "10880": {
       "title": "내가 어디를 거쳐갔더라?",
@@ -53340,7 +53340,7 @@
     },
     "14939": {
       "title": "불 끄기",
-      "level": 16
+      "level": 17
     },
     "14940": {
       "title": "쉬운 최단거리",
@@ -56652,7 +56652,7 @@
     },
     "15772": {
       "title": "Segmentation",
-      "level": 12
+      "level": 13
     },
     "15773": {
       "title": "Touch The Sky",
@@ -61844,7 +61844,7 @@
     },
     "17089": {
       "title": "세 친구",
-      "level": 10
+      "level": 11
     },
     "17090": {
       "title": "미로 탈출하기",
@@ -65788,7 +65788,7 @@
     },
     "18085": {
       "title": "Firetrucks Are Red",
-      "level": 13
+      "level": 14
     },
     "18086": {
       "title": "Gnoll Hypothesis",
@@ -69508,7 +69508,7 @@
     },
     "19019": {
       "title": "Convolution",
-      "level": 23
+      "level": 24
     },
     "19020": {
       "title": "Decomposition",
@@ -82184,7 +82184,7 @@
     },
     "22219": {
       "title": "Rectangles",
-      "level": 0
+      "level": 12
     },
     "22220": {
       "title": "Car Park",
@@ -89004,7 +89004,7 @@
     },
     "23949": {
       "title": "Shifts",
-      "level": 20
+      "level": 21
     },
     "23950": {
       "title": "H-index",
@@ -102904,7 +102904,7 @@
     },
     "27508": {
       "title": "던전",
-      "level": 18
+      "level": 19
     },
     "27509": {
       "title": "외곽 순환 도로 2",
@@ -104389,6 +104389,42 @@
     "27879": {
       "title": "누적 합과 쿼리",
       "level": 12
+    },
+    "27889": {
+      "title": "특별한 학교 이름",
+      "level": 1
+    },
+    "27890": {
+      "title": "특별한 작은 분수",
+      "level": 2
+    },
+    "27891": {
+      "title": "특별한 학교 이름 암호화",
+      "level": 4
+    },
+    "27892": {
+      "title": "특별한 큰 분수",
+      "level": 11
+    },
+    "27893": {
+      "title": "특별한 드롭킥",
+      "level": 13
+    },
+    "27894": {
+      "title": "특별한 숙제 순서 바꾸기",
+      "level": 17
+    },
+    "27895": {
+      "title": "특별한 학생증",
+      "level": 14
+    },
+    "27896": {
+      "title": "특별한 서빙",
+      "level": 12
+    },
+    "27897": {
+      "title": "특별한 화재 경보",
+      "level": 16
     },
     "27899": {
       "title": "먹었습니다!!",
