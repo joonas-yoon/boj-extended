@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-26 19:12:30.817253",
+  "last_updated": "2023-03-27 19:13:20.430481",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -13444,7 +13444,7 @@
     },
     "4429": {
       "title": "Poker Hands",
-      "level": 10
+      "level": 11
     },
     "4430": {
       "title": "Is Bigger Smarter?",
@@ -15628,7 +15628,7 @@
     },
     "4991": {
       "title": "로봇 청소기",
-      "level": 14
+      "level": 15
     },
     "4992": {
       "title": "Hanafuda Shuffle",
@@ -20124,7 +20124,7 @@
     },
     "6197": {
       "title": "Roadblocks",
-      "level": 16
+      "level": 15
     },
     "6198": {
       "title": "옥상 정원 꾸미기",
@@ -23600,7 +23600,7 @@
     },
     "7144": {
       "title": "데이터 만들기 5",
-      "level": 17
+      "level": 18
     },
     "7145": {
       "title": "데이터 만들기 6",
@@ -29444,7 +29444,7 @@
     },
     "8785": {
       "title": "Dlaczego oni śpiewają?",
-      "level": 16
+      "level": 17
     },
     "8786": {
       "title": "Dalsze kłopoty z ogrodem",
@@ -36988,7 +36988,7 @@
     },
     "10759": {
       "title": "팰린드롬 경로 3",
-      "level": 18
+      "level": 19
     },
     "10760": {
       "title": "Trapped in the Haybales",
@@ -38328,7 +38328,7 @@
     },
     "11096": {
       "title": "UnDetected",
-      "level": 18
+      "level": 17
     },
     "11097": {
       "title": "도시 계획",
@@ -40504,7 +40504,7 @@
     },
     "11658": {
       "title": "구간 합 구하기 3",
-      "level": 16
+      "level": 17
     },
     "11659": {
       "title": "구간 합 구하기 4",
@@ -51920,7 +51920,7 @@
     },
     "14571": {
       "title": "모래시계",
-      "level": 17
+      "level": 18
     },
     "14572": {
       "title": "스터디 그룹",
@@ -58384,7 +58384,7 @@
     },
     "16214": {
       "title": "N과 M",
-      "level": 21
+      "level": 20
     },
     "16215": {
       "title": "Build a Wall!",
@@ -63268,7 +63268,7 @@
     },
     "17448": {
       "title": "성냥팔이 소년",
-      "level": 17
+      "level": 18
     },
     "17449": {
       "title": "순위 계산",
@@ -64736,7 +64736,7 @@
     },
     "17822": {
       "title": "원판 돌리기",
-      "level": 13
+      "level": 14
     },
     "17823": {
       "title": "수열과 쿼리 33",
@@ -68336,7 +68336,7 @@
     },
     "18725": {
       "title": "Lighthouses",
-      "level": 17
+      "level": 18
     },
     "18726": {
       "title": "Sum of Palindromes",
@@ -78504,7 +78504,7 @@
     },
     "21283": {
       "title": "Cherimoyor",
-      "level": 0
+      "level": 13
     },
     "21284": {
       "title": "Rätblocket",
@@ -86472,7 +86472,7 @@
     },
     "23315": {
       "title": "GIANT MIN COST BIPARTITE MATCHING",
-      "level": 23
+      "level": 22
     },
     "23316": {
       "title": "팀 배틀",
@@ -93208,7 +93208,7 @@
     },
     "25029": {
       "title": "Joyful KMP",
-      "level": 22
+      "level": 23
     },
     "25030": {
       "title": "Polynomial Quine",
@@ -97732,7 +97732,7 @@
     },
     "26184": {
       "title": "Kebab Pizza",
-      "level": 19
+      "level": 20
     },
     "26185": {
       "title": "Last Guess",
@@ -104469,6 +104469,46 @@
     "27917": {
       "title": "보석 감정",
       "level": 17
+    },
+    "27918": {
+      "title": "탁구 경기",
+      "level": 2
+    },
+    "27919": {
+      "title": "UDPC 파티",
+      "level": 6
+    },
+    "27920": {
+      "title": "카드 뒤집기",
+      "level": 8
+    },
+    "27921": {
+      "title": "동전 퍼즐",
+      "level": 10
+    },
+    "27922": {
+      "title": "현대모비스 입사 프로젝트",
+      "level": 8
+    },
+    "27923": {
+      "title": "햄버거최대 몇개드실수있나요?",
+      "level": 12
+    },
+    "27924": {
+      "title": "윤이는 엄청난 것을 훔쳐갔습니다",
+      "level": 13
+    },
+    "27925": {
+      "title": "인덕션",
+      "level": 13
+    },
+    "27926": {
+      "title": "Quartet",
+      "level": 15
+    },
+    "27927": {
+      "title": "벚꽃 엔딩",
+      "level": 16
     }
   }
 }
