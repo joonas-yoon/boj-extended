@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-27 19:13:20.430481",
+  "last_updated": "2023-03-30 19:12:18.821536",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2668,7 +2668,7 @@
     },
     "1672": {
       "title": "DNA 해독",
-      "level": 4
+      "level": 5
     },
     "1673": {
       "title": "치킨 쿠폰",
@@ -3884,7 +3884,7 @@
     },
     "1983": {
       "title": "숫자 박스",
-      "level": 14
+      "level": 15
     },
     "1985": {
       "title": "디지털 친구",
@@ -4912,7 +4912,7 @@
     },
     "2246": {
       "title": "콘도 선정",
-      "level": 6
+      "level": 5
     },
     "2247": {
       "title": "실질적 약수",
@@ -4984,7 +4984,7 @@
     },
     "2264": {
       "title": "대칭 그림",
-      "level": 12
+      "level": 0
     },
     "2265": {
       "title": "거짓말쟁이",
@@ -5820,7 +5820,7 @@
     },
     "2479": {
       "title": "경로 찾기",
-      "level": 12
+      "level": 13
     },
     "2480": {
       "title": "주사위 세개",
@@ -12288,7 +12288,7 @@
     },
     "4140": {
       "title": "Party Location",
-      "level": 14
+      "level": 17
     },
     "4141": {
       "title": "Numbersrebmun",
@@ -13264,7 +13264,7 @@
     },
     "4384": {
       "title": "공평하게 팀 나누기",
-      "level": 16
+      "level": 15
     },
     "4385": {
       "title": "Interpreter",
@@ -14496,7 +14496,7 @@
     },
     "4697": {
       "title": "Fifty Coats of Gray",
-      "level": 5
+      "level": 4
     },
     "4698": {
       "title": "부품 테스트",
@@ -17984,7 +17984,7 @@
     },
     "5654": {
       "title": "In-circles Again",
-      "level": 12
+      "level": 13
     },
     "5655": {
       "title": "평점",
@@ -18428,7 +18428,7 @@
     },
     "5768": {
       "title": "Divide and Conquer",
-      "level": 5
+      "level": 4
     },
     "5769": {
       "title": "Make a Guess",
@@ -21148,7 +21148,7 @@
     },
     "6474": {
       "title": "Palindromes",
-      "level": 5
+      "level": 6
     },
     "6475": {
       "title": "M*A*S*H",
@@ -23920,7 +23920,7 @@
     },
     "7347": {
       "title": "플립과 시프트",
-      "level": 8
+      "level": 9
     },
     "7348": {
       "title": "테이블 옮기기",
@@ -24428,7 +24428,7 @@
     },
     "7477": {
       "title": "Highways",
-      "level": 4
+      "level": 5
     },
     "7478": {
       "title": "Invariant Polynomials",
@@ -29888,7 +29888,7 @@
     },
     "8896": {
       "title": "가위 바위 보",
-      "level": 7
+      "level": 6
     },
     "8897": {
       "title": "Slicing Tree",
@@ -33376,7 +33376,7 @@
     },
     "9825": {
       "title": "MODSUM",
-      "level": 10
+      "level": 11
     },
     "9826": {
       "title": "Pancake",
@@ -33572,7 +33572,7 @@
     },
     "9874": {
       "title": "Wormholes",
-      "level": 14
+      "level": 13
     },
     "9875": {
       "title": "Cow Curling",
@@ -35536,7 +35536,7 @@
     },
     "10383": {
       "title": "The Cost of Moving",
-      "level": 4
+      "level": 5
     },
     "10384": {
       "title": "팬그램",
@@ -36296,7 +36296,7 @@
     },
     "10573": {
       "title": "증가하는 수",
-      "level": 12
+      "level": 13
     },
     "10574": {
       "title": "Ranked Choice",
@@ -37756,7 +37756,7 @@
     },
     "10953": {
       "title": "A+B - 6",
-      "level": 4
+      "level": 3
     },
     "10954": {
       "title": "테트리스 2",
@@ -40376,7 +40376,7 @@
     },
     "11626": {
       "title": "Physical Music",
-      "level": 15
+      "level": 16
     },
     "11627": {
       "title": "Godzilla",
@@ -41032,7 +41032,7 @@
     },
     "11790": {
       "title": "Primorial vs LCM",
-      "level": 19
+      "level": 20
     },
     "11791": {
       "title": "Automatic Scholarship Calculation",
@@ -45952,7 +45952,7 @@
     },
     "13047": {
       "title": "Chaos",
-      "level": 6
+      "level": 7
     },
     "13048": {
       "title": "New Adventure of Marty and Doc",
@@ -53340,7 +53340,7 @@
     },
     "14939": {
       "title": "불 끄기",
-      "level": 17
+      "level": 16
     },
     "14940": {
       "title": "쉬운 최단거리",
@@ -60916,7 +60916,7 @@
     },
     "16847": {
       "title": "Teenage Mutant",
-      "level": 4
+      "level": 5
     },
     "16848": {
       "title": "Fairness",
@@ -61136,7 +61136,7 @@
     },
     "16902": {
       "title": "mex",
-      "level": 18
+      "level": 19
     },
     "16903": {
       "title": "수열과 쿼리 20",
@@ -62260,7 +62260,7 @@
     },
     "17196": {
       "title": "Cow Steeplechase II",
-      "level": 20
+      "level": 21
     },
     "17197": {
       "title": "Fence Planning",
@@ -63344,7 +63344,7 @@
     },
     "17467": {
       "title": "N! mod P (2)",
-      "level": 26
+      "level": 24
     },
     "17468": {
       "title": "N! mod P (3)",
@@ -66044,7 +66044,7 @@
     },
     "18149": {
       "title": "Length of Bundle Rope",
-      "level": 11
+      "level": 12
     },
     "18150": {
       "title": "Largest Quadrilateral",
@@ -68524,7 +68524,7 @@
     },
     "18772": {
       "title": "Delightful (Easy)",
-      "level": 23
+      "level": 22
     },
     "18773": {
       "title": "Delightful (Hard)",
@@ -70688,7 +70688,7 @@
     },
     "19314": {
       "title": "Swap",
-      "level": 21
+      "level": 22
     },
     "19315": {
       "title": "Conic Section",
@@ -70704,7 +70704,7 @@
     },
     "19318": {
       "title": "Binary String",
-      "level": 0
+      "level": 14
     },
     "19319": {
       "title": "Pattern Matching",
@@ -73348,7 +73348,7 @@
     },
     "19984": {
       "title": "Черепахи в пруду",
-      "level": 0
+      "level": 10
     },
     "19985": {
       "title": "Починка забора",
@@ -77280,7 +77280,7 @@
     },
     "20977": {
       "title": "JOI ソート (JOI Sort)",
-      "level": 5
+      "level": 4
     },
     "20978": {
       "title": "共通要素 (Common Elements)",
@@ -77468,7 +77468,7 @@
     },
     "21024": {
       "title": "Jumping Stones",
-      "level": 0
+      "level": 19
     },
     "21025": {
       "title": "Healthy Lifestyle",
@@ -85520,7 +85520,7 @@
     },
     "23077": {
       "title": "Festival",
-      "level": 15
+      "level": 16
     },
     "23078": {
       "title": "Star Trappers",
@@ -91500,7 +91500,7 @@
     },
     "24601": {
       "title": "Dorm Room Divide",
-      "level": 14
+      "level": 15
     },
     "24602": {
       "title": "Tree Hopping",
@@ -91672,7 +91672,7 @@
     },
     "24644": {
       "title": "Grand Center",
-      "level": 0
+      "level": 23
     },
     "24645": {
       "title": "Halfway There",
@@ -92764,7 +92764,7 @@
     },
     "24918": {
       "title": "균형 발전",
-      "level": 25
+      "level": 26
     },
     "24919": {
       "title": "Inversions Organize",
@@ -93748,7 +93748,7 @@
     },
     "25165": {
       "title": "영리한 아리의 포탈 타기",
-      "level": 3
+      "level": 4
     },
     "25166": {
       "title": "배고픈 아리의 샌드위치 구매하기",
@@ -94448,7 +94448,7 @@
     },
     "25346": {
       "title": "다오와 트리플 멕스 게임",
-      "level": 12
+      "level": 11
     },
     "25347": {
       "title": "공 꺼내기 게임",
@@ -94996,7 +94996,7 @@
     },
     "25493": {
       "title": "까다로운 형제",
-      "level": 21
+      "level": 20
     },
     "25494": {
       "title": "단순한 문제 (Small)",
@@ -95748,7 +95748,7 @@
     },
     "25685": {
       "title": "좋은 노드 집합 찾기",
-      "level": 14
+      "level": 15
     },
     "25686": {
       "title": "1차원",
@@ -96292,7 +96292,7 @@
     },
     "25821": {
       "title": "Palindromic Primes",
-      "level": 18
+      "level": 19
     },
     "25822": {
       "title": "2000문제 푼 임스",
@@ -96408,7 +96408,7 @@
     },
     "25850": {
       "title": "A Game Called Mind",
-      "level": 4
+      "level": 3
     },
     "25851": {
       "title": "Unique Values",
@@ -97720,7 +97720,7 @@
     },
     "26181": {
       "title": "High-quality Tree",
-      "level": 17
+      "level": 18
     },
     "26182": {
       "title": "Interview Question",
@@ -97736,11 +97736,11 @@
     },
     "26185": {
       "title": "Last Guess",
-      "level": 21
+      "level": 22
     },
     "26186": {
       "title": "Bandits",
-      "level": 24
+      "level": 23
     },
     "26187": {
       "title": "Combination Locks",
@@ -98968,7 +98968,7 @@
     },
     "26501": {
       "title": "C3PO",
-      "level": 6
+      "level": 7
     },
     "26502": {
       "title": "Decoder",
@@ -99448,7 +99448,7 @@
     },
     "26621": {
       "title": "Grzyby po deszczu 2",
-      "level": 0
+      "level": 27
     },
     "26622": {
       "title": "CNF-SAT",
@@ -102460,7 +102460,7 @@
     },
     "27397": {
       "title": "문자열 변환과 쿼리 2",
-      "level": 13
+      "level": 12
     },
     "27398": {
       "title": "Devil's Share",
@@ -102636,7 +102636,7 @@
     },
     "27441": {
       "title": "영화감독 숌 3",
-      "level": 15
+      "level": 16
     },
     "27442": {
       "title": "문자열 변환과 쿼리 3",
@@ -103092,7 +103092,7 @@
     },
     "27555": {
       "title": "Find and Replace",
-      "level": 19
+      "level": 20
     },
     "27556": {
       "title": "Lights Off",
@@ -103424,19 +103424,19 @@
     },
     "27638": {
       "title": "Qizz Quzz (Easy)",
-      "level": 0
+      "level": 9
     },
     "27639": {
       "title": "Qizz Quzz (Hard)",
-      "level": 0
+      "level": 10
     },
     "27640": {
       "title": "Brain fold (Easy)",
-      "level": 0
+      "level": 7
     },
     "27641": {
       "title": "Brain fold (Hard)",
-      "level": 0
+      "level": 11
     },
     "27642": {
       "title": "Flipping and cutting (Easy)",
@@ -103660,7 +103660,7 @@
     },
     "27697": {
       "title": "Fair coin toss",
-      "level": 0
+      "level": 13
     },
     "27698": {
       "title": "Gems in the maze",
