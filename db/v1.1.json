@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-30 19:12:18.821536",
+  "last_updated": "2023-03-31 19:12:38.179132",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -9508,7 +9508,7 @@
     },
     "3425": {
       "title": "고스택",
-      "level": 12
+      "level": 13
     },
     "3426": {
       "title": "Ardenia",
@@ -13264,7 +13264,7 @@
     },
     "4384": {
       "title": "공평하게 팀 나누기",
-      "level": 15
+      "level": 16
     },
     "4385": {
       "title": "Interpreter",
@@ -29888,7 +29888,7 @@
     },
     "8896": {
       "title": "가위 바위 보",
-      "level": 6
+      "level": 7
     },
     "8897": {
       "title": "Slicing Tree",
@@ -47800,7 +47800,7 @@
     },
     "13522": {
       "title": "Compiler",
-      "level": 6
+      "level": 9
     },
     "13523": {
       "title": "The Darkness",
@@ -63344,7 +63344,7 @@
     },
     "17467": {
       "title": "N! mod P (2)",
-      "level": 24
+      "level": 21
     },
     "17468": {
       "title": "N! mod P (3)",
@@ -72780,7 +72780,7 @@
     },
     "19842": {
       "title": "Restoring the Sequence",
-      "level": 4
+      "level": 5
     },
     "19843": {
       "title": "수면 패턴",
@@ -76344,7 +76344,7 @@
     },
     "20743": {
       "title": "Bus Numbers",
-      "level": 4
+      "level": 5
     },
     "20744": {
       "title": "Cucumber Conundrum",
@@ -81348,7 +81348,7 @@
     },
     "22007": {
       "title": "Zeros",
-      "level": 9
+      "level": 8
     },
     "22008": {
       "title": "Luna Likes Love",
@@ -86868,7 +86868,7 @@
     },
     "23415": {
       "title": "Boxes on a Shelf",
-      "level": 8
+      "level": 9
     },
     "23416": {
       "title": "Two Slicers",
@@ -92820,7 +92820,7 @@
     },
     "24932": {
       "title": "Problematic Polygons",
-      "level": 0
+      "level": 19
     },
     "24933": {
       "title": "Quadratic Dissonance",
@@ -94376,7 +94376,7 @@
     },
     "25328": {
       "title": "문자열 집합 조합하기",
-      "level": 9
+      "level": 8
     },
     "25329": {
       "title": "학생별 통화 요금 계산",
@@ -94712,7 +94712,7 @@
     },
     "25415": {
       "title": "삼각형들",
-      "level": 22
+      "level": 21
     },
     "25416": {
       "title": "빠른 숫자 탐색",
@@ -96292,7 +96292,7 @@
     },
     "25821": {
       "title": "Palindromic Primes",
-      "level": 19
+      "level": 18
     },
     "25822": {
       "title": "2000문제 푼 임스",
