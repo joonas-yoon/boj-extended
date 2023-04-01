@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-03-31 19:12:38.179132",
+  "last_updated": "2023-04-01 19:12:19.329329",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3864,7 +3864,7 @@
     },
     "1978": {
       "title": "소수 찾기",
-      "level": 6
+      "level": 4
     },
     "1979": {
       "title": "극적인 곱셈",
@@ -6228,7 +6228,7 @@
     },
     "2581": {
       "title": "소수",
-      "level": 6
+      "level": 4
     },
     "2582": {
       "title": "동전 뒤집기 2",
@@ -7580,7 +7580,7 @@
     },
     "2923": {
       "title": "숫자 게임",
-      "level": 14
+      "level": 15
     },
     "2924": {
       "title": "천재",
@@ -11900,7 +11900,7 @@
     },
     "4041": {
       "title": "Pro-Test Voting",
-      "level": 0
+      "level": 13
     },
     "4042": {
       "title": "Vampires!",
@@ -12324,7 +12324,7 @@
     },
     "4149": {
       "title": "큰 수 소인수분해",
-      "level": 21
+      "level": 20
     },
     "4150": {
       "title": "피보나치 수",
@@ -30872,7 +30872,7 @@
     },
     "9160": {
       "title": "The Brave Sir Robin’s cAsE cOrReCtOr",
-      "level": 4
+      "level": 5
     },
     "9161": {
       "title": "Sir Bedavere’s Bogus Division Solutions",
@@ -33092,7 +33092,7 @@
     },
     "9737": {
       "title": "Area Between Outer Hull and Inner Hull",
-      "level": 0
+      "level": 17
     },
     "9738": {
       "title": "Sharkovski’s Ordering",
@@ -67040,7 +67040,7 @@
     },
     "18400": {
       "title": "DISPER",
-      "level": 5
+      "level": 6
     },
     "18401": {
       "title": "DISH",
@@ -76240,7 +76240,7 @@
     },
     "20717": {
       "title": "Modular Reverse Engineering",
-      "level": 0
+      "level": 9
     },
     "20718": {
       "title": "Paris Escape",
@@ -79868,7 +79868,7 @@
     },
     "21624": {
       "title": "Fence",
-      "level": 0
+      "level": 16
     },
     "21625": {
       "title": "Flag with Stars",
@@ -86520,7 +86520,7 @@
     },
     "23327": {
       "title": "리그전 오브 레전드",
-      "level": 13
+      "level": 12
     },
     "23328": {
       "title": "마을 구하기",
@@ -88876,7 +88876,7 @@
     },
     "23917": {
       "title": "ATM Queue",
-      "level": 9
+      "level": 8
     },
     "23918": {
       "title": "Metal Harvest",
@@ -95520,7 +95520,7 @@
     },
     "25626": {
       "title": "Castle Nim",
-      "level": 0
+      "level": 27
     },
     "25627": {
       "title": "칼자국",
@@ -101088,7 +101088,7 @@
     },
     "27041": {
       "title": "Leapcow",
-      "level": 6
+      "level": 5
     },
     "27042": {
       "title": "Bonbons",
@@ -103268,7 +103268,7 @@
     },
     "27599": {
       "title": "Parmigiana With Seafood",
-      "level": 0
+      "level": 21
     },
     "27600": {
       "title": "Controllers",
