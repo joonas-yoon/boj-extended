@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-02 19:12:02.899212",
+  "last_updated": "2023-04-03 19:12:38.417490",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -20312,7 +20312,7 @@
     },
     "6251": {
       "title": "Leaking Dike",
-      "level": 0
+      "level": 3
     },
     "6252": {
       "title": "Fire Evacuation Plan",
@@ -20320,11 +20320,11 @@
     },
     "6253": {
       "title": "Forgetful Waiter",
-      "level": 0
+      "level": 18
     },
     "6254": {
       "title": "Computerizing a Stockroom",
-      "level": 0
+      "level": 12
     },
     "6255": {
       "title": "Harvesting a Farm",
@@ -23888,7 +23888,7 @@
     },
     "7339": {
       "title": "An Old Stone Game",
-      "level": 12
+      "level": 13
     },
     "7340": {
       "title": "Magazine Delivery",
@@ -26892,7 +26892,7 @@
     },
     "8145": {
       "title": "Megalopolis",
-      "level": 18
+      "level": 19
     },
     "8146": {
       "title": "Tetris Attack",
@@ -28460,7 +28460,7 @@
     },
     "8538": {
       "title": "Bałagan i Stonki",
-      "level": 5
+      "level": 6
     },
     "8539": {
       "title": "LinkNet",
@@ -28784,7 +28784,7 @@
     },
     "8620": {
       "title": "Hurtownia",
-      "level": 5
+      "level": 6
     },
     "8621": {
       "title": "Magazyny",
@@ -34064,7 +34064,7 @@
     },
     "10014": {
       "title": "Traveling Saga Problem",
-      "level": 25
+      "level": 24
     },
     "10015": {
       "title": "Śnieżyca",
@@ -40868,7 +40868,7 @@
     },
     "11749": {
       "title": "형제 게임",
-      "level": 17
+      "level": 18
     },
     "11750": {
       "title": "Wall Clocks",
@@ -57248,7 +57248,7 @@
     },
     "15925": {
       "title": "욱제는 정치쟁이야!!",
-      "level": 10
+      "level": 9
     },
     "15926": {
       "title": "현욱은 괄호왕이야!!",
@@ -57632,7 +57632,7 @@
     },
     "16026": {
       "title": "Cloud computing",
-      "level": 16
+      "level": 17
     },
     "16027": {
       "title": "Global warming",
@@ -74340,7 +74340,7 @@
     },
     "20234": {
       "title": "Corrupted Sort",
-      "level": 17
+      "level": 16
     },
     "20235": {
       "title": "Display",
@@ -74724,7 +74724,7 @@
     },
     "20330": {
       "title": "Bidirectional Code",
-      "level": 17
+      "level": 16
     },
     "20331": {
       "title": "Corrupt Judge",
@@ -76240,7 +76240,7 @@
     },
     "20717": {
       "title": "Modular Reverse Engineering",
-      "level": 9
+      "level": 11
     },
     "20718": {
       "title": "Paris Escape",
@@ -85108,7 +85108,7 @@
     },
     "22974": {
       "title": "2D 큐브",
-      "level": 18
+      "level": 17
     },
     "22975": {
       "title": "도시 계획",
@@ -94124,7 +94124,7 @@
     },
     "25259": {
       "title": "Art Collections",
-      "level": 17
+      "level": 18
     },
     "25260": {
       "title": "Event Hopping",
@@ -96292,7 +96292,7 @@
     },
     "25821": {
       "title": "Palindromic Primes",
-      "level": 18
+      "level": 17
     },
     "25822": {
       "title": "2000문제 푼 임스",
@@ -102748,7 +102748,7 @@
     },
     "27469": {
       "title": "퀸 움직이기",
-      "level": 16
+      "level": 17
     },
     "27470": {
       "title": "멋진 부분집합",
@@ -104380,7 +104380,7 @@
     },
     "27877": {
       "title": "제곱수 덱 2",
-      "level": 21
+      "level": 20
     },
     "27878": {
       "title": "순열 사이클과 쿼리",
@@ -104389,6 +104389,42 @@
     "27879": {
       "title": "누적 합과 쿼리",
       "level": 12
+    },
+    "27880": {
+      "title": "Gahui and Soongsil University station",
+      "level": 2
+    },
+    "27881": {
+      "title": "Gahui and ILGAM lake",
+      "level": 12
+    },
+    "27882": {
+      "title": "가희와 지하철역 저장 시스템 2",
+      "level": 17
+    },
+    "27883": {
+      "title": "가희와 노선 건설 놀이",
+      "level": 9
+    },
+    "27884": {
+      "title": "가희와 서울 지하철 3호선",
+      "level": 10
+    },
+    "27885": {
+      "title": "가희와 열리지 않는 건널목",
+      "level": 5
+    },
+    "27886": {
+      "title": "가희와 서울 지하철 1호선",
+      "level": 18
+    },
+    "27887": {
+      "title": "가희와 코드",
+      "level": 17
+    },
+    "27888": {
+      "title": "가희와 지하철역 저장 시스템 1",
+      "level": 14
     },
     "27889": {
       "title": "특별한 학교 이름",
@@ -104509,6 +104545,42 @@
     "27927": {
       "title": "벚꽃 엔딩",
       "level": 16
+    },
+    "27930": {
+      "title": "당신은 운명을 믿나요?",
+      "level": 5
+    },
+    "27931": {
+      "title": "Parity Constraint Closest Pair (Easy)",
+      "level": 8
+    },
+    "27932": {
+      "title": "어깨동무",
+      "level": 9
+    },
+    "27933": {
+      "title": "대회 이름 정하기",
+      "level": 17
+    },
+    "27934": {
+      "title": "마계안암",
+      "level": 19
+    },
+    "27935": {
+      "title": "고연전/연고전 기차놀이",
+      "level": 18
+    },
+    "27936": {
+      "title": "연고전/고연전",
+      "level": 21
+    },
+    "27937": {
+      "title": "간단한 쿼리 문제",
+      "level": 22
+    },
+    "27938": {
+      "title": "트리 위의 세 사람",
+      "level": 0
     }
   }
 }
