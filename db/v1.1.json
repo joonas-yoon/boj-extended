@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-03 19:12:38.417490",
+  "last_updated": "2023-04-04 19:12:26.131548",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -500,7 +500,7 @@
     },
     "1124": {
       "title": "언더프라임",
-      "level": 9
+      "level": 10
     },
     "1125": {
       "title": "바닥 장식",
@@ -3476,7 +3476,7 @@
     },
     "1876": {
       "title": "튕기는 볼링공",
-      "level": 7
+      "level": 8
     },
     "1877": {
       "title": "끔찍한 수열",
@@ -12012,7 +12012,7 @@
     },
     "4069": {
       "title": "Hie with the Pie",
-      "level": 13
+      "level": 12
     },
     "4070": {
       "title": "Mahershalalhashbaz, Nebuchadnezzar, and Billy Bob Benjamin Go to the Regionals",
@@ -26300,7 +26300,7 @@
     },
     "7996": {
       "title": "Maximal Orders of Permutations",
-      "level": 0
+      "level": 18
     },
     "7997": {
       "title": "Sequences without Stammers",
@@ -48644,7 +48644,7 @@
     },
     "13733": {
       "title": "Square Deal",
-      "level": 9
+      "level": 8
     },
     "13734": {
       "title": "Buggy Robot",
@@ -51280,7 +51280,7 @@
     },
     "14411": {
       "title": "합집합",
-      "level": 13
+      "level": 12
     },
     "14412": {
       "title": "Ronald",
@@ -57352,7 +57352,7 @@
     },
     "15954": {
       "title": "인형들",
-      "level": 10
+      "level": 11
     },
     "15955": {
       "title": "부스터",
@@ -81368,7 +81368,7 @@
     },
     "22014": {
       "title": "Double Move",
-      "level": 0
+      "level": 23
     },
     "22015": {
       "title": "金平糖 (Konpeito)",
@@ -100404,11 +100404,11 @@
     },
     "26869": {
       "title": "Greatest Common Divisor",
-      "level": 0
+      "level": 17
     },
     "26870": {
       "title": "Hidden Digits",
-      "level": 0
+      "level": 23
     },
     "26871": {
       "title": "IQ Game",
@@ -104560,7 +104560,7 @@
     },
     "27933": {
       "title": "대회 이름 정하기",
-      "level": 17
+      "level": 18
     },
     "27934": {
       "title": "마계안암",
@@ -104568,7 +104568,7 @@
     },
     "27935": {
       "title": "고연전/연고전 기차놀이",
-      "level": 18
+      "level": 17
     },
     "27936": {
       "title": "연고전/고연전",
@@ -104580,7 +104580,7 @@
     },
     "27938": {
       "title": "트리 위의 세 사람",
-      "level": 0
+      "level": 24
     }
   }
 }
