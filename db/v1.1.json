@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-04 19:12:26.131548",
+  "last_updated": "2023-04-05 19:14:01.215635",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4028,7 +4028,7 @@
     },
     "2021": {
       "title": "최소 환승 경로",
-      "level": 15
+      "level": 14
     },
     "2022": {
       "title": "사다리",
@@ -6644,7 +6644,7 @@
     },
     "2685": {
       "title": "님비합",
-      "level": 9
+      "level": 8
     },
     "2686": {
       "title": "팩스",
@@ -12276,7 +12276,7 @@
     },
     "4137": {
       "title": "487-3279",
-      "level": 6
+      "level": 7
     },
     "4138": {
       "title": "Paper Route",
@@ -21556,7 +21556,7 @@
     },
     "6576": {
       "title": "쿼드 트리",
-      "level": 9
+      "level": 10
     },
     "6577": {
       "title": "From Dusk till Dawn (or Vladimir the Vampire)",
@@ -24456,7 +24456,7 @@
     },
     "7484": {
       "title": "Bowling",
-      "level": 7
+      "level": 8
     },
     "7485": {
       "title": "Exam",
@@ -35184,7 +35184,7 @@
     },
     "10295": {
       "title": "Hiking",
-      "level": 11
+      "level": 12
     },
     "10296": {
       "title": "IceBucketChallenge",
@@ -55331,7 +55331,7 @@
       "level": 0
     },
     "15439": {
-      "title": "Vera and Outfits",
+      "title": "베라의 패션",
       "level": 2
     },
     "15440": {
@@ -57352,7 +57352,7 @@
     },
     "15954": {
       "title": "인형들",
-      "level": 11
+      "level": 10
     },
     "15955": {
       "title": "부스터",
@@ -75956,7 +75956,7 @@
     },
     "20646": {
       "title": "Square Pasture",
-      "level": 0
+      "level": 19
     },
     "20647": {
       "title": "Cowntagion",
@@ -79072,7 +79072,7 @@
     },
     "21425": {
       "title": "Лабиринт",
-      "level": 10
+      "level": 11
     },
     "21426": {
       "title": "Число",
@@ -82996,7 +82996,7 @@
     },
     "22445": {
       "title": "Fast Division",
-      "level": 14
+      "level": 15
     },
     "22446": {
       "title": "順位付け",
@@ -88688,7 +88688,7 @@
     },
     "23870": {
       "title": "Paired Up",
-      "level": 24
+      "level": 25
     },
     "23871": {
       "title": "HILO",
@@ -91040,7 +91040,7 @@
     },
     "24486": {
       "title": "Counting Haybales",
-      "level": 24
+      "level": 26
     },
     "24487": {
       "title": "Multiple Choice Test",
@@ -100412,7 +100412,7 @@
     },
     "26871": {
       "title": "IQ Game",
-      "level": 0
+      "level": 20
     },
     "26872": {
       "title": "Joking?",
@@ -101456,7 +101456,7 @@
     },
     "27134": {
       "title": "Subset Sums",
-      "level": 11
+      "level": 10
     },
     "27135": {
       "title": "Traveling Cows",
@@ -103488,7 +103488,7 @@
     },
     "27654": {
       "title": "시험",
-      "level": 16
+      "level": 17
     },
     "27655": {
       "title": "점프",
@@ -104380,7 +104380,7 @@
     },
     "27877": {
       "title": "제곱수 덱 2",
-      "level": 20
+      "level": 21
     },
     "27878": {
       "title": "순열 사이클과 쿼리",
