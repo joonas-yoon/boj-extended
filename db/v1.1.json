@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-05 19:14:01.215635",
+  "last_updated": "2023-04-07 19:12:18.820224",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1140,7 +1140,7 @@
     },
     "1285": {
       "title": "동전 뒤집기",
-      "level": 14
+      "level": 15
     },
     "1286": {
       "title": "부분 직사각형",
@@ -2928,7 +2928,7 @@
     },
     "1738": {
       "title": "골목길",
-      "level": 15
+      "level": 14
     },
     "1739": {
       "title": "도로 정비하기",
@@ -13376,7 +13376,7 @@
     },
     "4412": {
       "title": "Doublets",
-      "level": 13
+      "level": 12
     },
     "4413": {
       "title": "CDVII",
@@ -14108,7 +14108,7 @@
     },
     "4600": {
       "title": "정글의 법칙",
-      "level": 9
+      "level": 10
     },
     "4601": {
       "title": "Bulletin Board",
@@ -16720,7 +16720,7 @@
     },
     "5264": {
       "title": "spiral123",
-      "level": 15
+      "level": 17
     },
     "5265": {
       "title": "Cipher",
@@ -16908,7 +16908,7 @@
     },
     "5371": {
       "title": "Annoying Mosquitos",
-      "level": 4
+      "level": 5
     },
     "5372": {
       "title": "나쁜 과학자",
@@ -19852,7 +19852,7 @@
     },
     "6126": {
       "title": "Cow Cash",
-      "level": 9
+      "level": 10
     },
     "6127": {
       "title": "Super Paintball",
@@ -23404,7 +23404,7 @@
     },
     "7052": {
       "title": "Two sawmills",
-      "level": 16
+      "level": 15
     },
     "7053": {
       "title": "시프트 레지스터",
@@ -24220,7 +24220,7 @@
     },
     "7425": {
       "title": "Flip Game",
-      "level": 8
+      "level": 9
     },
     "7426": {
       "title": "Buffer Manager",
@@ -25148,7 +25148,7 @@
     },
     "7659": {
       "title": "Rubik 2^3",
-      "level": 19
+      "level": 18
     },
     "7660": {
       "title": "Apocalyptic Alignment",
@@ -27196,7 +27196,7 @@
     },
     "8221": {
       "title": "Letters",
-      "level": 16
+      "level": 17
     },
     "8222": {
       "title": "Distance",
@@ -31604,7 +31604,7 @@
     },
     "9351": {
       "title": "Casino",
-      "level": 10
+      "level": 8
     },
     "9352": {
       "title": "Fundraised",
@@ -33812,7 +33812,7 @@
     },
     "9942": {
       "title": "하노이의 네 탑",
-      "level": 14
+      "level": 13
     },
     "9943": {
       "title": "Light Switches",
@@ -39080,7 +39080,7 @@
     },
     "11284": {
       "title": "초성 중성 종성",
-      "level": 4
+      "level": 5
     },
     "11285": {
       "title": "초성 중성 종성 2",
@@ -41852,7 +41852,7 @@
     },
     "12011": {
       "title": "Splitting the Field",
-      "level": 15
+      "level": 16
     },
     "12012": {
       "title": "Closing the Farm (Gold)",
@@ -58460,7 +58460,7 @@
     },
     "16233": {
       "title": "수학 문제",
-      "level": 15
+      "level": 16
     },
     "16234": {
       "title": "인구 이동",
@@ -60916,7 +60916,7 @@
     },
     "16847": {
       "title": "Teenage Mutant",
-      "level": 5
+      "level": 4
     },
     "16848": {
       "title": "Fairness",
@@ -64884,7 +64884,7 @@
     },
     "17859": {
       "title": "Remainder Reminder",
-      "level": 13
+      "level": 14
     },
     "17860": {
       "title": "Square Rooms",
@@ -68188,7 +68188,7 @@
     },
     "18688": {
       "title": "Military Service",
-      "level": 0
+      "level": 6
     },
     "18689": {
       "title": "Baklawa",
@@ -68200,7 +68200,7 @@
     },
     "18691": {
       "title": "Pokemon Buddy",
-      "level": 0
+      "level": 2
     },
     "18692": {
       "title": "Shika Bika",
@@ -73340,7 +73340,7 @@
     },
     "19982": {
       "title": "Генератор паролей",
-      "level": 5
+      "level": 4
     },
     "19983": {
       "title": "Уборка снега",
@@ -73784,7 +73784,7 @@
     },
     "20094": {
       "title": "Sudoku 1",
-      "level": 5
+      "level": 4
     },
     "20095": {
       "title": "Sudoku 2",
@@ -75420,7 +75420,7 @@
     },
     "20512": {
       "title": "Призы",
-      "level": 4
+      "level": 5
     },
     "20513": {
       "title": "Космическое поселение",
@@ -78128,7 +78128,7 @@
     },
     "21189": {
       "title": "On Average They're Purple",
-      "level": 11
+      "level": 12
     },
     "21190": {
       "title": "Full Depth Morning Show",
@@ -78736,7 +78736,7 @@
     },
     "21341": {
       "title": "Endgame",
-      "level": 20
+      "level": 19
     },
     "21342": {
       "title": "Flight Collision",
@@ -79928,7 +79928,7 @@
     },
     "21639": {
       "title": "Cooking",
-      "level": 28
+      "level": 26
     },
     "21640": {
       "title": "Hard Work",
@@ -80500,7 +80500,7 @@
     },
     "21786": {
       "title": "Food Court",
-      "level": 22
+      "level": 23
     },
     "21787": {
       "title": "Escape Route",
@@ -86820,7 +86820,7 @@
     },
     "23403": {
       "title": "Logičari",
-      "level": 17
+      "level": 18
     },
     "23404": {
       "title": "Set",
@@ -87932,7 +87932,7 @@
     },
     "23681": {
       "title": "Intersect With Other Balls",
-      "level": 0
+      "level": 17
     },
     "23682": {
       "title": "$J$ The Attacker Has",
@@ -98984,7 +98984,7 @@
     },
     "26505": {
       "title": "O Fortuna",
-      "level": 4
+      "level": 5
     },
     "26506": {
       "title": "Pilot Rating",
@@ -99616,7 +99616,7 @@
     },
     "26665": {
       "title": "Iloczyny Fibonacciego",
-      "level": 0
+      "level": 26
     },
     "26666": {
       "title": "Terytoria",
@@ -101828,7 +101828,7 @@
     },
     "27227": {
       "title": "Дивизионы",
-      "level": 3
+      "level": 4
     },
     "27228": {
       "title": "Пары, свободные от квадратов",
@@ -103088,7 +103088,7 @@
     },
     "27554": {
       "title": "Subtree Activation",
-      "level": 19
+      "level": 20
     },
     "27555": {
       "title": "Find and Replace",
@@ -104108,7 +104108,7 @@
     },
     "27809": {
       "title": "Overrandomized",
-      "level": 0
+      "level": 8
     },
     "27810": {
       "title": "Oversized Pancake Choppers",
@@ -104581,6 +104581,10 @@
     "27938": {
       "title": "트리 위의 세 사람",
       "level": 24
+    },
+    "27958": {
+      "title": "사격 연습",
+      "level": 12
     }
   }
 }
