@@ -31,7 +31,7 @@
         .map((e) => e.textContent)
         .join('\n');
       const input = '12 3'; // TODO: 입력값 받아오기
-      buttonClick(input, sourceCodeText);
+      await buttonClick(input, sourceCodeText);
     });
     return button;
   }
