@@ -22,7 +22,7 @@
     const dynamicTextarea = document.querySelector('.CodeMirror textarea');
     dynamicTextarea.value = staticTextarea.value;
     button.textContent = '컴파일';
-    await button.addEventListener('click', (evt) => {
+    button.addEventListener('click', async (evt) => {
       evt.preventDefault();
       const codeLines = document.querySelectorAll(
         '.CodeMirror-code .CodeMirror-line[role="presentation"]'
