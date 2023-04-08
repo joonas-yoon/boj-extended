@@ -136,9 +136,7 @@
       ' '
     );
 
-    await TIO.run(code, input, lang).then((n) => (result = n));
-
-    return result;
+    return await TIO.run(code, input, lang);
   }
 
   function createCompileDropdown() {
