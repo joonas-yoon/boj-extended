@@ -42,7 +42,7 @@
     {
       "matches": ["https://www.acmicpc.net/submit/*"],
       "all_frames": true,
-      "js": ["js/features/compile.js"]
+      "js": ["js/third/TIO.js", "js/features/compile.js"]
     }
   ],
   "options_ui": {
@@ -54,8 +54,7 @@
       "resources": [
         "css/status.css",
         "css/user.css",
-        "js/features/status/rte.js",
-        "js/third/pako.js"
+        "js/features/status/rte.js"
       ],
       "matches": ["<all_urls>"]
     }
