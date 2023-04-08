@@ -42,7 +42,11 @@
     {
       "matches": ["https://www.acmicpc.net/submit/*"],
       "all_frames": true,
-      "js": ["js/third/TIO.js", "js/features/compile.js"]
+      "js": [
+        "js/third/pako.js",
+        "js/third/tio-api.js",
+        "js/features/compile.js"
+      ]
     }
   ],
   "options_ui": {
