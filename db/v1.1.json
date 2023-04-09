@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-08 19:11:47.945727",
+  "last_updated": "2023-04-09 19:12:04.784907",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -22572,7 +22572,7 @@
     },
     "6831": {
       "title": "Pennies in the Ring",
-      "level": 7
+      "level": 8
     },
     "6832": {
       "title": "Maze",
@@ -38872,7 +38872,7 @@
     },
     "11232": {
       "title": "Shuffles",
-      "level": 11
+      "level": 12
     },
     "11233": {
       "title": "Stained Carpet",
@@ -43680,7 +43680,7 @@
     },
     "12478": {
       "title": "Dire Straights (Large)",
-      "level": 16
+      "level": 15
     },
     "12479": {
       "title": "Perpetual Motion (Small)",
@@ -54608,7 +54608,7 @@
     },
     "15256": {
       "title": "Triple Jump",
-      "level": 4
+      "level": 5
     },
     "15257": {
       "title": "Basketball",
@@ -56604,7 +56604,7 @@
     },
     "15760": {
       "title": "Out of Sorts",
-      "level": 14
+      "level": 15
     },
     "15761": {
       "title": "Lemonade Line",
@@ -81284,7 +81284,7 @@
     },
     "21984": {
       "title": "나무 징검다리",
-      "level": 17
+      "level": 18
     },
     "21985": {
       "title": "ASCII Automata Art",
@@ -87560,7 +87560,7 @@
     },
     "23588": {
       "title": "Guess Two Strings",
-      "level": 0
+      "level": 17
     },
     "23589": {
       "title": "Beautiful Tables",
@@ -88068,7 +88068,7 @@
     },
     "23715": {
       "title": "Mikhail Tikhomirov",
-      "level": 0
+      "level": 25
     },
     "23716": {
       "title": "Transform the String",
@@ -91448,7 +91448,7 @@
     },
     "24588": {
       "title": "Lone Rook",
-      "level": 17
+      "level": 18
     },
     "24589": {
       "title": "Stream Lag",
@@ -97716,7 +97716,7 @@
     },
     "26180": {
       "title": "Going in Circles",
-      "level": 18
+      "level": 19
     },
     "26181": {
       "title": "High-quality Tree",
@@ -104384,7 +104384,7 @@
     },
     "27878": {
       "title": "순열 사이클과 쿼리",
-      "level": 12
+      "level": 13
     },
     "27879": {
       "title": "누적 합과 쿼리",
@@ -104604,7 +104604,7 @@
     },
     "27944": {
       "title": "가지 이모지",
-      "level": 14
+      "level": 15
     },
     "27945": {
       "title": "슬슬 가지를 먹지 않으면 죽는다",
@@ -104640,7 +104640,7 @@
     },
     "27953": {
       "title": "공룡 게임",
-      "level": 15
+      "level": 16
     },
     "27954": {
       "title": "낱말 퍼즐",
