@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-09 19:12:04.784907",
+  "last_updated": "2023-04-10 19:12:37.198314",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1252,7 +1252,7 @@
     },
     "1314": {
       "title": "동굴 탐험",
-      "level": 19
+      "level": 18
     },
     "1315": {
       "title": "RPG",
@@ -1860,7 +1860,7 @@
     },
     "1470": {
       "title": "올림픽 게임",
-      "level": 13
+      "level": 14
     },
     "1471": {
       "title": "사탕 돌리기",
@@ -4032,7 +4032,7 @@
     },
     "2022": {
       "title": "사다리",
-      "level": 11
+      "level": 12
     },
     "2023": {
       "title": "신기한 소수",
@@ -14832,7 +14832,7 @@
     },
     "4788": {
       "title": "Double Dealing",
-      "level": 15
+      "level": 14
     },
     "4789": {
       "title": "The End of the World",
@@ -24164,7 +24164,7 @@
     },
     "7411": {
       "title": "Decoding Task",
-      "level": 4
+      "level": 5
     },
     "7412": {
       "title": "Evacuation Plan",
@@ -32116,7 +32116,7 @@
     },
     "9491": {
       "title": "Politics",
-      "level": 8
+      "level": 7
     },
     "9492": {
       "title": "Perfect Shuffle",
@@ -34432,7 +34432,7 @@
     },
     "10106": {
       "title": "The Geneva Confection",
-      "level": 8
+      "level": 9
     },
     "10107": {
       "title": "Tinted Glass Window",
@@ -34788,7 +34788,7 @@
     },
     "10196": {
       "title": "Minion Walk",
-      "level": 10
+      "level": 11
     },
     "10197": {
       "title": "Word Ladder",
@@ -40136,7 +40136,7 @@
     },
     "11566": {
       "title": "킥",
-      "level": 7
+      "level": 8
     },
     "11567": {
       "title": "선진이의 겨울 왕국",
@@ -40632,7 +40632,7 @@
     },
     "11690": {
       "title": "LCM(1, 2, ..., n)",
-      "level": 13
+      "level": 12
     },
     "11691": {
       "title": "LCM(i, j)",
@@ -48168,7 +48168,7 @@
     },
     "13614": {
       "title": "Ecologia",
-      "level": 16
+      "level": 17
     },
     "13615": {
       "title": "Teletransporte",
@@ -50564,7 +50564,7 @@
     },
     "14232": {
       "title": "보석 도둑",
-      "level": 11
+      "level": 10
     },
     "14233": {
       "title": "악덕 사장",
@@ -51996,7 +51996,7 @@
     },
     "14591": {
       "title": "KUBC League (Large)",
-      "level": 20
+      "level": 19
     },
     "14592": {
       "title": "2017 아주대학교 프로그래밍 경시대회 (Small)",
@@ -61100,7 +61100,7 @@
     },
     "16893": {
       "title": "소수 제곱 게임",
-      "level": 19
+      "level": 20
     },
     "16894": {
       "title": "약수 게임",
@@ -62072,7 +62072,7 @@
     },
     "17147": {
       "title": "LJEPOTICA",
-      "level": 17
+      "level": 18
     },
     "17148": {
       "title": "SEGWAY",
@@ -67344,7 +67344,7 @@
     },
     "18476": {
       "title": "Interactive Vertex",
-      "level": 22
+      "level": 23
     },
     "18477": {
       "title": "Jiry Matchings",
@@ -72024,7 +72024,7 @@
     },
     "19649": {
       "title": "미담 전하기",
-      "level": 19
+      "level": 18
     },
     "19650": {
       "title": "개미여행",
@@ -78668,7 +78668,7 @@
     },
     "21324": {
       "title": "Mars Message",
-      "level": 4
+      "level": 5
     },
     "21325": {
       "title": "Free food",
@@ -79868,7 +79868,7 @@
     },
     "21624": {
       "title": "Fence",
-      "level": 16
+      "level": 17
     },
     "21625": {
       "title": "Flag with Stars",
@@ -87912,7 +87912,7 @@
     },
     "23676": {
       "title": "Doesn't Contain Loops or Multiple Edges",
-      "level": 0
+      "level": 11
     },
     "23677": {
       "title": "Equal Adjacent Elements",
@@ -88288,7 +88288,7 @@
     },
     "23770": {
       "title": "Dyson Circle",
-      "level": 15
+      "level": 16
     },
     "23771": {
       "title": "Exchange Students",
@@ -93168,7 +93168,7 @@
     },
     "25019": {
       "title": "날다람쥐",
-      "level": 21
+      "level": 20
     },
     "25020": {
       "title": "코딩 테스트",
@@ -95572,7 +95572,7 @@
     },
     "25639": {
       "title": "수열과 최대 상승 쿼리",
-      "level": 20
+      "level": 19
     },
     "25640": {
       "title": "MBTI",
@@ -98652,7 +98652,7 @@
     },
     "26420": {
       "title": "Image Labeler",
-      "level": 0
+      "level": 6
     },
     "26421": {
       "title": "Maximum Gain",
@@ -100316,7 +100316,7 @@
     },
     "26847": {
       "title": "Nim z utrudnieniem",
-      "level": 0
+      "level": 21
     },
     "26848": {
       "title": "Park wodny",
@@ -103800,7 +103800,7 @@
     },
     "27732": {
       "title": "숲 속의 과학자",
-      "level": 16
+      "level": 17
     },
     "27733": {
       "title": "송유관 I",
