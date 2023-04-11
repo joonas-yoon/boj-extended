@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-10 19:12:37.198314",
+  "last_updated": "2023-04-11 19:12:40.248755",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -16828,7 +16828,7 @@
     },
     "5351": {
       "title": "Coin Row",
-      "level": 9
+      "level": 8
     },
     "5352": {
       "title": "Coin Collection",
@@ -20428,7 +20428,7 @@
     },
     "6280": {
       "title": "Xavier is Learning to Count",
-      "level": 24
+      "level": 25
     },
     "6281": {
       "title": "Winmine.exe",
@@ -21888,7 +21888,7 @@
     },
     "6659": {
       "title": "All Friends",
-      "level": 0
+      "level": 19
     },
     "6660": {
       "title": "Board Game",
@@ -24168,7 +24168,7 @@
     },
     "7412": {
       "title": "Evacuation Plan",
-      "level": 0
+      "level": 18
     },
     "7413": {
       "title": "Folding",
@@ -31548,7 +31548,7 @@
     },
     "9337": {
       "title": "Flood-It",
-      "level": 12
+      "level": 11
     },
     "9338": {
       "title": "Chemicals Monitoring",
@@ -41852,7 +41852,7 @@
     },
     "12011": {
       "title": "Splitting the Field",
-      "level": 16
+      "level": 15
     },
     "12012": {
       "title": "Closing the Farm (Gold)",
@@ -42392,7 +42392,7 @@
     },
     "12152": {
       "title": "Less Money, More Problems (Large)",
-      "level": 12
+      "level": 13
     },
     "12153": {
       "title": "Counter Culture (Small)",
@@ -52012,7 +52012,7 @@
     },
     "14595": {
       "title": "동방 프로젝트 (Large)",
-      "level": 13
+      "level": 12
     },
     "14596": {
       "title": "Quilting (Small)",
@@ -56800,7 +56800,7 @@
     },
     "15809": {
       "title": "전국시대",
-      "level": 13
+      "level": 12
     },
     "15810": {
       "title": "풍선 공장",
@@ -61408,7 +61408,7 @@
     },
     "16972": {
       "title": "814 - 1",
-      "level": 5
+      "level": 4
     },
     "16973": {
       "title": "직사각형 탈출",
@@ -62392,7 +62392,7 @@
     },
     "17229": {
       "title": "아싸 너!",
-      "level": 20
+      "level": 21
     },
     "17230": {
       "title": "문제집 만들기",
@@ -77540,7 +77540,7 @@
     },
     "21042": {
       "title": "Triangle of Safety",
-      "level": 13
+      "level": 14
     },
     "21043": {
       "title": "Domino Line",
@@ -93192,7 +93192,7 @@
     },
     "25025": {
       "title": "다항식 계산",
-      "level": 15
+      "level": 16
     },
     "25026": {
       "title": "구간들",
@@ -98720,7 +98720,7 @@
     },
     "26437": {
       "title": "Magical Well Of Lilies",
-      "level": 0
+      "level": 11
     },
     "26438": {
       "title": "Electricity",
@@ -102840,7 +102840,7 @@
     },
     "27492": {
       "title": "XOR, Tree, and Queries",
-      "level": 20
+      "level": 19
     },
     "27493": {
       "title": "키르히호프의 법칙 2",
@@ -104612,7 +104612,7 @@
     },
     "27946": {
       "title": "SCP-504",
-      "level": 18
+      "level": 19
     },
     "27947": {
       "title": "가지 밭 게임",
