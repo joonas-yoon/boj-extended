@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-11 19:12:40.248755",
+  "last_updated": "2023-04-12 19:12:42.494993",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1308,7 +1308,7 @@
     },
     "1329": {
       "title": "증가 수열",
-      "level": 15
+      "level": 16
     },
     "1330": {
       "title": "두 수 비교하기",
@@ -10156,7 +10156,7 @@
     },
     "3589": {
       "title": "Christmas Gifts",
-      "level": 22
+      "level": 21
     },
     "3590": {
       "title": "i18n",
@@ -12332,7 +12332,7 @@
     },
     "4151": {
       "title": "Compound Words",
-      "level": 13
+      "level": 12
     },
     "4152": {
       "title": "New Horizons",
@@ -13168,7 +13168,7 @@
     },
     "4360": {
       "title": "A Star not a Tree?",
-      "level": 18
+      "level": 19
     },
     "4361": {
       "title": "Adventures in Moving - Part IV",
@@ -17512,7 +17512,7 @@
     },
     "5536": {
       "title": "물고기의 서식 범위",
-      "level": 13
+      "level": 14
     },
     "5537": {
       "title": "お土産購入計画 (Gifts)",
@@ -20564,7 +20564,7 @@
     },
     "6314": {
       "title": "There’s treasure everywhere!",
-      "level": 9
+      "level": 10
     },
     "6315": {
       "title": "Video Surveillance",
@@ -27584,7 +27584,7 @@
     },
     "8318": {
       "title": "Blindfold Nim",
-      "level": 0
+      "level": 21
     },
     "8319": {
       "title": "Termites 2",
@@ -27740,7 +27740,7 @@
     },
     "8357": {
       "title": "Cliquers Strike Back",
-      "level": 0
+      "level": 25
     },
     "8358": {
       "title": "Safe",
@@ -29608,7 +29608,7 @@
     },
     "8826": {
       "title": "Spacer",
-      "level": 4
+      "level": 3
     },
     "8827": {
       "title": "Bukmacherzy",
@@ -56888,7 +56888,7 @@
     },
     "15831": {
       "title": "준표의 조약돌",
-      "level": 12
+      "level": 13
     },
     "15832": {
       "title": "Aku Negaraku",
@@ -61664,7 +61664,7 @@
     },
     "17036": {
       "title": "Sleepy Cow Herding (Silver)",
-      "level": 15
+      "level": 16
     },
     "17037": {
       "title": "Painting the Barn (Silver)",
@@ -78100,7 +78100,7 @@
     },
     "21182": {
       "title": "Weird Flecks, But OK",
-      "level": 20
+      "level": 21
     },
     "21183": {
       "title": "Code Names",
@@ -78288,7 +78288,7 @@
     },
     "21229": {
       "title": "Stone Game",
-      "level": 0
+      "level": 20
     },
     "21230": {
       "title": "Modern Art 3",
@@ -98660,7 +98660,7 @@
     },
     "26422": {
       "title": "Touchbar Typing",
-      "level": 0
+      "level": 16
     },
     "26423": {
       "title": "Suspects and Witnesses",
@@ -99708,7 +99708,7 @@
     },
     "26689": {
       "title": "Skierowany graf acykliczny",
-      "level": 0
+      "level": 15
     },
     "26690": {
       "title": "Programowanie współbieżne",
@@ -104636,7 +104636,7 @@
     },
     "27952": {
       "title": "보디빌딩",
-      "level": 8
+      "level": 7
     },
     "27953": {
       "title": "공룡 게임",
