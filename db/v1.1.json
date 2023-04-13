@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-12 19:12:42.494993",
+  "last_updated": "2023-04-13 19:12:43.960997",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -568,7 +568,7 @@
     },
     "1141": {
       "title": "접두사",
-      "level": 9
+      "level": 10
     },
     "1142": {
       "title": "피자",
@@ -2072,7 +2072,7 @@
     },
     "1523": {
       "title": "종점",
-      "level": 18
+      "level": 17
     },
     "1524": {
       "title": "세준세비",
@@ -4636,7 +4636,7 @@
     },
     "2176": {
       "title": "합리적인 이동경로",
-      "level": 15
+      "level": 14
     },
     "2177": {
       "title": "급료 계산",
@@ -6768,7 +6768,7 @@
     },
     "2716": {
       "title": "원숭이 매달기",
-      "level": 10
+      "level": 9
     },
     "2717": {
       "title": "Model Rocket Height",
@@ -17044,7 +17044,7 @@
     },
     "5405": {
       "title": "프랙탈 거리",
-      "level": 15
+      "level": 13
     },
     "5406": {
       "title": "No Smoking, Please",
@@ -17848,7 +17848,7 @@
     },
     "5620": {
       "title": "가장 가까운 두 점의 거리",
-      "level": 0
+      "level": 16
     },
     "5621": {
       "title": "問題 5",
@@ -20556,7 +20556,7 @@
     },
     "6312": {
       "title": "Triangles",
-      "level": 18
+      "level": 0
     },
     "6313": {
       "title": "Instant Complexity",
@@ -21312,7 +21312,7 @@
     },
     "6515": {
       "title": "Frequent values",
-      "level": 20
+      "level": 19
     },
     "6516": {
       "title": "Grocery store",
@@ -21896,7 +21896,7 @@
     },
     "6661": {
       "title": "Crane",
-      "level": 0
+      "level": 17
     },
     "6662": {
       "title": "Divisors",
@@ -26648,7 +26648,7 @@
     },
     "8083": {
       "title": "Rectangles",
-      "level": 20
+      "level": 0
     },
     "8084": {
       "title": "The Number of Symmetrical Choices",
@@ -34748,7 +34748,7 @@
     },
     "10186": {
       "title": "Rummikub",
-      "level": 8
+      "level": 7
     },
     "10187": {
       "title": "Golden",
@@ -42468,7 +42468,7 @@
     },
     "12171": {
       "title": "Dijkstra (Large)",
-      "level": 16
+      "level": 15
     },
     "12172": {
       "title": "N-오미노 판 채우기 (Small)",
@@ -49072,7 +49072,7 @@
     },
     "13840": {
       "title": "Autocorrelation Function",
-      "level": 19
+      "level": 18
     },
     "13841": {
       "title": "It Prefokery Pio",
@@ -49640,7 +49640,7 @@
     },
     "13983": {
       "title": "Tournament Wins",
-      "level": 17
+      "level": 16
     },
     "13984": {
       "title": "Contest Score",
@@ -53692,7 +53692,7 @@
     },
     "15027": {
       "title": "Alien Sunset",
-      "level": 14
+      "level": 0
     },
     "15028": {
       "title": "Breaking Biscuits",
@@ -53876,7 +53876,7 @@
     },
     "15073": {
       "title": "Red Rover",
-      "level": 12
+      "level": 10
     },
     "15074": {
       "title": "Removal Game",
@@ -56288,7 +56288,7 @@
     },
     "15680": {
       "title": "연세대학교",
-      "level": 2
+      "level": 1
     },
     "15681": {
       "title": "트리와 쿼리",
@@ -56444,7 +56444,7 @@
     },
     "15719": {
       "title": "중복된 숫자",
-      "level": 5
+      "level": 6
     },
     "15720": {
       "title": "카우버거",
@@ -57360,7 +57360,7 @@
     },
     "15956": {
       "title": "숏코딩",
-      "level": 21
+      "level": 20
     },
     "15957": {
       "title": "음악 추천",
@@ -59468,7 +59468,7 @@
     },
     "16485": {
       "title": "작도하자! - ②",
-      "level": 3
+      "level": 4
     },
     "16486": {
       "title": "운동장 한 바퀴",
@@ -61264,7 +61264,7 @@
     },
     "16934": {
       "title": "게임 닉네임",
-      "level": 14
+      "level": 13
     },
     "16935": {
       "title": "배열 돌리기 3",
@@ -73288,7 +73288,7 @@
     },
     "19969": {
       "title": "Сборка компьютеров",
-      "level": 4
+      "level": 5
     },
     "19970": {
       "title": "Куб",
@@ -73804,7 +73804,7 @@
     },
     "20099": {
       "title": "Sudoku 6",
-      "level": 12
+      "level": 13
     },
     "20100": {
       "title": "Sudoku 7",
@@ -87912,7 +87912,7 @@
     },
     "23676": {
       "title": "Doesn't Contain Loops or Multiple Edges",
-      "level": 11
+      "level": 12
     },
     "23677": {
       "title": "Equal Adjacent Elements",
@@ -95572,7 +95572,7 @@
     },
     "25639": {
       "title": "수열과 최대 상승 쿼리",
-      "level": 19
+      "level": 20
     },
     "25640": {
       "title": "MBTI",
@@ -104628,7 +104628,7 @@
     },
     "27950": {
       "title": "가지농장 수확하기",
-      "level": 23
+      "level": 22
     },
     "27951": {
       "title": "옷걸이",
