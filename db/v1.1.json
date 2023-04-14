@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-13 19:12:43.960997",
+  "last_updated": "2023-04-14 19:13:03.700862",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2604,7 +2604,7 @@
     },
     "1656": {
       "title": "덜컹덜컹",
-      "level": 12
+      "level": 13
     },
     "1657": {
       "title": "두부장수 장홍준",
@@ -4648,7 +4648,7 @@
     },
     "2179": {
       "title": "비슷한 단어",
-      "level": 12
+      "level": 11
     },
     "2180": {
       "title": "소방서의 고민",
@@ -10552,7 +10552,7 @@
     },
     "3688": {
       "title": "래프팅 디자인",
-      "level": 0
+      "level": 14
     },
     "3689": {
       "title": "셔플",
@@ -13408,7 +13408,7 @@
     },
     "4420": {
       "title": "Chocolate Chip Cookies",
-      "level": 13
+      "level": 14
     },
     "4421": {
       "title": "Hippity Hopscotch",
@@ -14600,7 +14600,7 @@
     },
     "4723": {
       "title": "Parlay Wagering",
-      "level": 0
+      "level": 9
     },
     "4724": {
       "title": "Extended Manhattan Distance",
@@ -15640,7 +15640,7 @@
     },
     "4994": {
       "title": "배수 찾기",
-      "level": 15
+      "level": 14
     },
     "4995": {
       "title": "원과 점",
@@ -18852,7 +18852,7 @@
     },
     "5874": {
       "title": "소를 찾아라",
-      "level": 7
+      "level": 8
     },
     "5875": {
       "title": "오타",
@@ -44312,7 +44312,7 @@
     },
     "12636": {
       "title": "Watering Plants (Large)",
-      "level": 0
+      "level": 20
     },
     "12637": {
       "title": "All Your Base (Small)",
@@ -44656,7 +44656,7 @@
     },
     "12722": {
       "title": "Mousetrap (Large)",
-      "level": 17
+      "level": 16
     },
     "12723": {
       "title": "Minimum Scalar Product (Small)",
@@ -52440,7 +52440,7 @@
     },
     "14712": {
       "title": "넴모넴모 (Easy)",
-      "level": 10
+      "level": 11
     },
     "14713": {
       "title": "앵무새",
@@ -54448,7 +54448,7 @@
     },
     "15216": {
       "title": "Another Brick in the Wall",
-      "level": 4
+      "level": 5
     },
     "15217": {
       "title": "Zoning",
@@ -72344,7 +72344,7 @@
     },
     "19733": {
       "title": "Difficult Problems",
-      "level": 5
+      "level": 6
     },
     "19734": {
       "title": "Race of robots",
@@ -87932,7 +87932,7 @@
     },
     "23681": {
       "title": "Intersect With Other Balls",
-      "level": 17
+      "level": 19
     },
     "23682": {
       "title": "$J$ The Attacker Has",
@@ -87940,7 +87940,7 @@
     },
     "23683": {
       "title": "$K$ Integers",
-      "level": 0
+      "level": 15
     },
     "23684": {
       "title": "Labeled Connected Graphs",
@@ -87952,7 +87952,7 @@
     },
     "23686": {
       "title": "Number Of Vertices",
-      "level": 0
+      "level": 15
     },
     "23687": {
       "title": "Kaučuk",
@@ -88216,7 +88216,7 @@
     },
     "23752": {
       "title": "카드 잘 섞기",
-      "level": 17
+      "level": 18
     },
     "23753": {
       "title": "연결 요소와 쿼리",
@@ -101660,7 +101660,7 @@
     },
     "27185": {
       "title": "The Tree",
-      "level": 14
+      "level": 15
     },
     "27186": {
       "title": "Just like pickle",
