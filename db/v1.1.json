@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-14 19:13:03.700862",
+  "last_updated": "2023-04-15 19:12:31.439137",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2888,7 +2888,7 @@
     },
     "1728": {
       "title": "구슬 굴리기",
-      "level": 16
+      "level": 17
     },
     "1729": {
       "title": "이차원 배열의 합",
@@ -4044,7 +4044,7 @@
     },
     "2025": {
       "title": "나이트투어",
-      "level": 28
+      "level": 27
     },
     "2026": {
       "title": "소풍",
@@ -5192,7 +5192,7 @@
     },
     "2317": {
       "title": "결혼식",
-      "level": 11
+      "level": 12
     },
     "2318": {
       "title": "상사 찾기",
@@ -9508,7 +9508,7 @@
     },
     "3425": {
       "title": "고스택",
-      "level": 13
+      "level": 12
     },
     "3426": {
       "title": "Ardenia",
@@ -31340,7 +31340,7 @@
     },
     "9285": {
       "title": "Watering - 1",
-      "level": 5
+      "level": 4
     },
     "9286": {
       "title": "Gradabase",
@@ -32696,7 +32696,7 @@
     },
     "9637": {
       "title": "The Stones Game",
-      "level": 0
+      "level": 11
     },
     "9638": {
       "title": "Super Ants",
@@ -33940,7 +33940,7 @@
     },
     "9982": {
       "title": "Frogger's For Dinner",
-      "level": 5
+      "level": 6
     },
     "9983": {
       "title": "더 푸르게",
@@ -40804,7 +40804,7 @@
     },
     "11733": {
       "title": "Watering - 9",
-      "level": 17
+      "level": 18
     },
     "11734": {
       "title": "Watering - 10",
@@ -46400,7 +46400,7 @@
     },
     "13171": {
       "title": "A",
-      "level": 7
+      "level": 8
     },
     "13172": {
       "title": "Σ",
@@ -49784,7 +49784,7 @@
     },
     "14037": {
       "title": "Eggscavation",
-      "level": 18
+      "level": 19
     },
     "14038": {
       "title": "Tournament Selection",
@@ -62104,7 +62104,7 @@
     },
     "17155": {
       "title": "Directing Rainfall",
-      "level": 27
+      "level": 26
     },
     "17156": {
       "title": "First of Her Name",
@@ -69876,7 +69876,7 @@
     },
     "19111": {
       "title": "Two Paths",
-      "level": 14
+      "level": 15
     },
     "19112": {
       "title": "Master Zhu and Magic Numbers",
@@ -70576,7 +70576,7 @@
     },
     "19286": {
       "title": "Piecewise Linearity",
-      "level": 16
+      "level": 17
     },
     "19287": {
       "title": "Sketch",
@@ -73800,7 +73800,7 @@
     },
     "20098": {
       "title": "Sudoku 5",
-      "level": 10
+      "level": 11
     },
     "20099": {
       "title": "Sudoku 6",
@@ -79368,7 +79368,7 @@
     },
     "21499": {
       "title": "Автоматические друзья",
-      "level": 15
+      "level": 11
     },
     "21500": {
       "title": "Памятник",
@@ -92700,7 +92700,7 @@
     },
     "24902": {
       "title": "Fewest Moves Challenge",
-      "level": 28
+      "level": 29
     },
     "24903": {
       "title": "$\\textbf{multiple}\\text{ edges}$",
@@ -99836,7 +99836,7 @@
     },
     "26723": {
       "title": "Miny",
-      "level": 0
+      "level": 25
     },
     "26724": {
       "title": "Płótno",
@@ -99852,7 +99852,7 @@
     },
     "26727": {
       "title": "Chodzenie po linie",
-      "level": 0
+      "level": 27
     },
     "26728": {
       "title": "Nawiasowe podziały",
@@ -100848,7 +100848,7 @@
     },
     "26981": {
       "title": "Backward Digit Sums",
-      "level": 9
+      "level": 10
     },
     "26982": {
       "title": "Stall Reservations",
@@ -104504,7 +104504,7 @@
     },
     "27917": {
       "title": "보석 감정",
-      "level": 17
+      "level": 16
     },
     "27918": {
       "title": "탁구 경기",
@@ -104656,7 +104656,7 @@
     },
     "27957": {
       "title": "성벽 쌓기",
-      "level": 27
+      "level": 28
     },
     "27958": {
       "title": "사격 연습",
