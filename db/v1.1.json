@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-15 19:12:31.439137",
+  "last_updated": "2023-04-16 19:12:29.836342",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2304,7 +2304,7 @@
     },
     "1581": {
       "title": "락스타 락동호",
-      "level": 11
+      "level": 12
     },
     "1582": {
       "title": "아티스트 이동호",
@@ -8920,7 +8920,7 @@
     },
     "3266": {
       "title": "문자열의 확장과 거리",
-      "level": 13
+      "level": 12
     },
     "3267": {
       "title": "TWO",
@@ -23628,7 +23628,7 @@
     },
     "7151": {
       "title": "3D Printer",
-      "level": 19
+      "level": 20
     },
     "7152": {
       "title": "Flooding Fields",
@@ -24440,7 +24440,7 @@
     },
     "7480": {
       "title": "Key Insertion",
-      "level": 20
+      "level": 22
     },
     "7481": {
       "title": "ATM놀이",
@@ -53136,7 +53136,7 @@
     },
     "14887": {
       "title": "짝수 부분 문자열",
-      "level": 0
+      "level": 22
     },
     "14888": {
       "title": "연산자 끼워넣기",
@@ -60532,7 +60532,7 @@
     },
     "16751": {
       "title": "Kocka",
-      "level": 6
+      "level": 9
     },
     "16752": {
       "title": "Deblo",
@@ -62104,7 +62104,7 @@
     },
     "17155": {
       "title": "Directing Rainfall",
-      "level": 26
+      "level": 27
     },
     "17156": {
       "title": "First of Her Name",
@@ -64020,7 +64020,7 @@
     },
     "17636": {
       "title": "가로등",
-      "level": 23
+      "level": 24
     },
     "17637": {
       "title": "Count Squares",
@@ -79100,7 +79100,7 @@
     },
     "21432": {
       "title": "Нефть",
-      "level": 4
+      "level": 5
     },
     "21433": {
       "title": "Перестановки",
@@ -84828,7 +84828,7 @@
     },
     "22904": {
       "title": "오렌지 수",
-      "level": 17
+      "level": 18
     },
     "22905": {
       "title": "오렌지 리프의 특별 훈련",
@@ -86740,7 +86740,7 @@
     },
     "23383": {
       "title": "Implementation Irregularities",
-      "level": 9
+      "level": 10
     },
     "23384": {
       "title": "Jail or Joyride",
@@ -86752,7 +86752,7 @@
     },
     "23386": {
       "title": "Lopsided Lineup",
-      "level": 17
+      "level": 18
     },
     "23387": {
       "title": "Alocação de Prêmios",
@@ -94148,7 +94148,7 @@
     },
     "25267": {
       "title": "Permutation",
-      "level": 21
+      "level": 20
     },
     "25268": {
       "title": "Name Generation",
@@ -99184,7 +99184,7 @@
     },
     "26555": {
       "title": "Checkpoint",
-      "level": 0
+      "level": 12
     },
     "26556": {
       "title": "Bags",
@@ -104560,7 +104560,7 @@
     },
     "27933": {
       "title": "대회 이름 정하기",
-      "level": 18
+      "level": 17
     },
     "27934": {
       "title": "마계안암",
@@ -104661,6 +104661,42 @@
     "27958": {
       "title": "사격 연습",
       "level": 12
+    },
+    "27959": {
+      "title": "초코바",
+      "level": 1
+    },
+    "27960": {
+      "title": "사격 내기",
+      "level": 3
+    },
+    "27961": {
+      "title": "고양이는 많을수록 좋다",
+      "level": 5
+    },
+    "27962": {
+      "title": "오렌지먹은지오랜지",
+      "level": 5
+    },
+    "27963": {
+      "title": "합금 주화",
+      "level": 5
+    },
+    "27964": {
+      "title": "콰트로치즈피자",
+      "level": 6
+    },
+    "27965": {
+      "title": "N결수",
+      "level": 7
+    },
+    "27966": {
+      "title": "△",
+      "level": 8
+    },
+    "27967": {
+      "title": "고추장 괄호 문자열",
+      "level": 9
     }
   }
 }
