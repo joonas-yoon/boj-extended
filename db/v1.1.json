@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-16 19:12:29.836342",
+  "last_updated": "2023-04-17 19:11:36.138801",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4216,7 +4216,7 @@
     },
     "2069": {
       "title": "보이는 산맥",
-      "level": 15
+      "level": 14
     },
     "2070": {
       "title": "목걸이 수열",
@@ -19084,7 +19084,7 @@
     },
     "5932": {
       "title": "Cow Photographs",
-      "level": 18
+      "level": 17
     },
     "5933": {
       "title": "Buying Feed",
@@ -22652,7 +22652,7 @@
     },
     "6851": {
       "title": "Snowflakes",
-      "level": 7
+      "level": 8
     },
     "6852": {
       "title": "Bowling for Numbers++",
@@ -25628,7 +25628,7 @@
     },
     "7807": {
       "title": "Playing With Domino",
-      "level": 0
+      "level": 16
     },
     "7808": {
       "title": "Email from The Professor",
@@ -38476,7 +38476,7 @@
     },
     "11133": {
       "title": "Nurikabe",
-      "level": 11
+      "level": 12
     },
     "11134": {
       "title": "쿠키애호가",
@@ -40128,7 +40128,7 @@
     },
     "11564": {
       "title": "점프왕 최준민",
-      "level": 6
+      "level": 7
     },
     "11565": {
       "title": "바이너리 게임",
@@ -44836,7 +44836,7 @@
     },
     "12768": {
       "title": "Clock Breaking",
-      "level": 20
+      "level": 19
     },
     "12769": {
       "title": "영원한 젊음",
@@ -50904,7 +50904,7 @@
     },
     "14317": {
       "title": "Sherlock and Watson Gym Secrets (Large)",
-      "level": 17
+      "level": 15
     },
     "14318": {
       "title": "Watson and Intervals (Small)",
@@ -74192,7 +74192,7 @@
     },
     "20197": {
       "title": "3D Histogram",
-      "level": 24
+      "level": 22
     },
     "20198": {
       "title": "Papričice",
@@ -98968,7 +98968,7 @@
     },
     "26501": {
       "title": "C3PO",
-      "level": 7
+      "level": 6
     },
     "26502": {
       "title": "Decoder",
@@ -102788,7 +102788,7 @@
     },
     "27479": {
       "title": "Dog Snacks",
-      "level": 19
+      "level": 18
     },
     "27480": {
       "title": "Even Harder",
@@ -104316,7 +104316,7 @@
     },
     "27861": {
       "title": "Linked Triangles",
-      "level": 22
+      "level": 23
     },
     "27862": {
       "title": "You You See What?",
@@ -104688,7 +104688,7 @@
     },
     "27965": {
       "title": "N결수",
-      "level": 7
+      "level": 9
     },
     "27966": {
       "title": "△",
