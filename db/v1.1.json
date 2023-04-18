@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-17 19:11:36.138801",
+  "last_updated": "2023-04-18 19:13:17.914803",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8372,7 +8372,7 @@
     },
     "3126": {
       "title": "반역의 원철이",
-      "level": 10
+      "level": 11
     },
     "3127": {
       "title": "JEZERO",
@@ -8636,7 +8636,7 @@
     },
     "3192": {
       "title": "매직 스퀘어",
-      "level": 0
+      "level": 13
     },
     "3193": {
       "title": "공",
@@ -19192,7 +19192,7 @@
     },
     "5959": {
       "title": "Crop Circles",
-      "level": 4
+      "level": 5
     },
     "5960": {
       "title": "Cowlphabet",
@@ -27200,7 +27200,7 @@
     },
     "8222": {
       "title": "Distance",
-      "level": 20
+      "level": 21
     },
     "8223": {
       "title": "Rendezvous",
@@ -33084,7 +33084,7 @@
     },
     "9735": {
       "title": "삼차 방정식 풀기",
-      "level": 17
+      "level": 18
     },
     "9736": {
       "title": "정이면체군",
@@ -36720,7 +36720,7 @@
     },
     "10691": {
       "title": "Fegla",
-      "level": 0
+      "level": 11
     },
     "10692": {
       "title": "Hamzawy",
@@ -38800,7 +38800,7 @@
     },
     "11214": {
       "title": "Absurdistan Roads III",
-      "level": 13
+      "level": 14
     },
     "11215": {
       "title": "Xortris",
@@ -39304,7 +39304,7 @@
     },
     "11340": {
       "title": "Making the Grade?",
-      "level": 4
+      "level": 5
     },
     "11341": {
       "title": "Eakspay igpay atinlay?",
@@ -40220,7 +40220,7 @@
     },
     "11587": {
       "title": "MARKO",
-      "level": 4
+      "level": 5
     },
     "11588": {
       "title": "GEPPETTO",
@@ -45064,7 +45064,7 @@
     },
     "12825": {
       "title": "Next Permutation",
-      "level": 15
+      "level": 18
     },
     "12826": {
       "title": "Game",
@@ -57940,7 +57940,7 @@
     },
     "16103": {
       "title": "Drawn and Quartered",
-      "level": 4
+      "level": 5
     },
     "16104": {
       "title": "Extending Rock-Paper-Scissors",
@@ -58244,7 +58244,7 @@
     },
     "16179": {
       "title": "Palapa Number",
-      "level": 6
+      "level": 7
     },
     "16180": {
       "title": "New House",
@@ -61408,7 +61408,7 @@
     },
     "16972": {
       "title": "814 - 1",
-      "level": 4
+      "level": 5
     },
     "16973": {
       "title": "직사각형 탈출",
@@ -63620,7 +63620,7 @@
     },
     "17536": {
       "title": "Hour for a Run",
-      "level": 4
+      "level": 5
     },
     "17537": {
       "title": "Interplanetary",
@@ -67580,7 +67580,7 @@
     },
     "18536": {
       "title": "Tritwise Mex",
-      "level": 25
+      "level": 24
     },
     "18537": {
       "title": "Associativity Degree",
@@ -69876,7 +69876,7 @@
     },
     "19111": {
       "title": "Two Paths",
-      "level": 15
+      "level": 14
     },
     "19112": {
       "title": "Master Zhu and Magic Numbers",
@@ -74192,7 +74192,7 @@
     },
     "20197": {
       "title": "3D Histogram",
-      "level": 22
+      "level": 24
     },
     "20198": {
       "title": "Papričice",
@@ -103488,7 +103488,7 @@
     },
     "27654": {
       "title": "시험",
-      "level": 17
+      "level": 16
     },
     "27655": {
       "title": "점프",
@@ -103512,7 +103512,7 @@
     },
     "27660": {
       "title": "Queue skipping (Hard)",
-      "level": 4
+      "level": 5
     },
     "27661": {
       "title": "Counting swaps (Easy)",
@@ -104448,7 +104448,7 @@
     },
     "27894": {
       "title": "특별한 숙제 순서 바꾸기",
-      "level": 17
+      "level": 18
     },
     "27895": {
       "title": "특별한 학생증",
@@ -104688,7 +104688,7 @@
     },
     "27965": {
       "title": "N결수",
-      "level": 9
+      "level": 8
     },
     "27966": {
       "title": "△",
@@ -104697,6 +104697,42 @@
     "27967": {
       "title": "고추장 괄호 문자열",
       "level": 9
+    },
+    "27968": {
+      "title": "사사의 사차원 사탕 봉지",
+      "level": 9
+    },
+    "27969": {
+      "title": "I LOVE JavaScript",
+      "level": 8
+    },
+    "27970": {
+      "title": "OX",
+      "level": 10
+    },
+    "27971": {
+      "title": "강아지는 많을수록 좋다",
+      "level": 10
+    },
+    "27972": {
+      "title": "악보는 거들 뿐",
+      "level": 10
+    },
+    "27973": {
+      "title": "지연 평가",
+      "level": 10
+    },
+    "27974": {
+      "title": "트리와 쿼리 21",
+      "level": 0
+    },
+    "27975": {
+      "title": "트리와 쿼리 22",
+      "level": 0
+    },
+    "27976": {
+      "title": "트리와 쿼리 23",
+      "level": 0
     }
   }
 }
