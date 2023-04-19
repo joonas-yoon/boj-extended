@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-18 19:13:17.914803",
+  "last_updated": "2023-04-19 19:12:59.512370",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4980,7 +4980,7 @@
     },
     "2263": {
       "title": "트리의 순회",
-      "level": 14
+      "level": 15
     },
     "2264": {
       "title": "대칭 그림",
@@ -6632,7 +6632,7 @@
     },
     "2682": {
       "title": "최대 사이클 1",
-      "level": 13
+      "level": 14
     },
     "2683": {
       "title": "황금 천장",
@@ -16484,7 +16484,7 @@
     },
     "5205": {
       "title": "School Colors",
-      "level": 4
+      "level": 5
     },
     "5206": {
       "title": "Lunch",
@@ -16884,7 +16884,7 @@
     },
     "5365": {
       "title": "Decoder",
-      "level": 4
+      "level": 3
     },
     "5366": {
       "title": "Total Count",
@@ -21960,7 +21960,7 @@
     },
     "6677": {
       "title": "Japan Plotter Driver",
-      "level": 14
+      "level": 15
     },
     "6678": {
       "title": "Bridge Hands",
@@ -25764,7 +25764,7 @@
     },
     "7857": {
       "title": "Simple prefix compression",
-      "level": 4
+      "level": 5
     },
     "7858": {
       "title": "Tetris Alphabet",
@@ -32424,7 +32424,7 @@
     },
     "9568": {
       "title": "Line of Sight",
-      "level": 15
+      "level": 16
     },
     "9569": {
       "title": "No Change",
@@ -48392,7 +48392,7 @@
     },
     "13670": {
       "title": "Alarme Despertador",
-      "level": 4
+      "level": 3
     },
     "13671": {
       "title": "Troca de Cartas",
@@ -60996,7 +60996,7 @@
     },
     "16867": {
       "title": "Difference",
-      "level": 9
+      "level": 10
     },
     "16868": {
       "title": "Pear-wise Voting",
@@ -61344,7 +61344,7 @@
     },
     "16954": {
       "title": "움직이는 미로 탈출",
-      "level": 13
+      "level": 12
     },
     "16955": {
       "title": "오목, 이길 수 있을까?",
@@ -73948,7 +73948,7 @@
     },
     "20135": {
       "title": "연세 마스크 공장",
-      "level": 22
+      "level": 21
     },
     "20136": {
       "title": "멀티탭 스케줄링 2",
@@ -77540,7 +77540,7 @@
     },
     "21042": {
       "title": "Triangle of Safety",
-      "level": 14
+      "level": 15
     },
     "21043": {
       "title": "Domino Line",
@@ -77928,7 +77928,7 @@
     },
     "21139": {
       "title": "Exam Manipulation",
-      "level": 9
+      "level": 10
     },
     "21140": {
       "title": "Exciting Tournament",
@@ -80660,7 +80660,7 @@
     },
     "21827": {
       "title": "Bread First Search",
-      "level": 20
+      "level": 21
     },
     "21828": {
       "title": "Loop Town",
@@ -81744,7 +81744,7 @@
     },
     "22108": {
       "title": "Игра",
-      "level": 4
+      "level": 5
     },
     "22109": {
       "title": "Таймер",
@@ -86712,7 +86712,7 @@
     },
     "23376": {
       "title": "BnPC",
-      "level": 14
+      "level": 15
     },
     "23377": {
       "title": "Cangaroo",
@@ -95640,11 +95640,11 @@
     },
     "25656": {
       "title": "Maximum Range",
-      "level": 0
+      "level": 21
     },
     "25657": {
       "title": "Add One",
-      "level": 0
+      "level": 21
     },
     "25658": {
       "title": "Be Careful",
@@ -104724,7 +104724,7 @@
     },
     "27974": {
       "title": "트리와 쿼리 21",
-      "level": 0
+      "level": 26
     },
     "27975": {
       "title": "트리와 쿼리 22",
