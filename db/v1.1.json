@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-19 19:12:59.512370",
+  "last_updated": "2023-04-20 19:13:12.784980",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -340,7 +340,7 @@
     },
     "1084": {
       "title": "방 번호 2",
-      "level": 18
+      "level": 19
     },
     "1085": {
       "title": "직사각형에서 탈출",
@@ -440,7 +440,7 @@
     },
     "1109": {
       "title": "섬",
-      "level": 17
+      "level": 18
     },
     "1110": {
       "title": "더하기 사이클",
@@ -4648,7 +4648,7 @@
     },
     "2179": {
       "title": "비슷한 단어",
-      "level": 11
+      "level": 12
     },
     "2180": {
       "title": "소방서의 고민",
@@ -5128,7 +5128,7 @@
     },
     "2300": {
       "title": "기지국",
-      "level": 13
+      "level": 14
     },
     "2301": {
       "title": "마법 구슬",
@@ -21180,7 +21180,7 @@
     },
     "6482": {
       "title": "Evaluating Simple C Expressions",
-      "level": 14
+      "level": 13
     },
     "6483": {
       "title": "The Finite State Text-Processing Machine",
@@ -25256,7 +25256,7 @@
     },
     "7686": {
       "title": "Dropping tests",
-      "level": 15
+      "level": 16
     },
     "7687": {
       "title": "지구 직육면체설",
@@ -26000,7 +26000,7 @@
     },
     "7916": {
       "title": "Cross Spider",
-      "level": 17
+      "level": 16
     },
     "7917": {
       "title": "Potrójne drzewa",
@@ -26160,7 +26160,7 @@
     },
     "7956": {
       "title": "Liczby piwne",
-      "level": 8
+      "level": 9
     },
     "7957": {
       "title": "Cash Dispenser",
@@ -29184,7 +29184,7 @@
     },
     "8720": {
       "title": "Manipulacja rankingu",
-      "level": 4
+      "level": 5
     },
     "8721": {
       "title": "Wykreślanka",
@@ -32996,7 +32996,7 @@
     },
     "9712": {
       "title": "Prefix Free Subsets",
-      "level": 0
+      "level": 15
     },
     "9713": {
       "title": "Sum of Odd Sequence",
@@ -37884,7 +37884,7 @@
     },
     "10985": {
       "title": "사냥꾼",
-      "level": 13
+      "level": 14
     },
     "10986": {
       "title": "나머지 합",
@@ -40880,11 +40880,11 @@
     },
     "11752": {
       "title": "Deadlock Detection",
-      "level": 17
+      "level": 18
     },
     "11753": {
       "title": "알파카 문장",
-      "level": 19
+      "level": 20
     },
     "11754": {
       "title": "Rotating Cutter Bits",
@@ -45888,7 +45888,7 @@
     },
     "13031": {
       "title": "쉽게 행복한 나무",
-      "level": 16
+      "level": 17
     },
     "13032": {
       "title": "PS 테러리스트",
@@ -51884,7 +51884,7 @@
     },
     "14562": {
       "title": "태권왕",
-      "level": 9
+      "level": 10
     },
     "14563": {
       "title": "완전수",
@@ -56700,7 +56700,7 @@
     },
     "15784": {
       "title": "질투진서",
-      "level": 4
+      "level": 3
     },
     "15785": {
       "title": "낙하산",
@@ -71292,7 +71292,7 @@
     },
     "19465": {
       "title": "Sequence",
-      "level": 15
+      "level": 16
     },
     "19466": {
       "title": "Colored Graphs",
@@ -78072,7 +78072,7 @@
     },
     "21175": {
       "title": "Painted Corridors",
-      "level": 18
+      "level": 19
     },
     "21176": {
       "title": "Smoothie Stand",
@@ -78084,7 +78084,7 @@
     },
     "21178": {
       "title": "Basic Basis",
-      "level": 18
+      "level": 19
     },
     "21179": {
       "title": "Derangement Rotations",
@@ -79148,7 +79148,7 @@
     },
     "21444": {
       "title": "Космические захватчики",
-      "level": 4
+      "level": 5
     },
     "21445": {
       "title": "Пробежки по Манхэттену",
@@ -79488,7 +79488,7 @@
     },
     "21529": {
       "title": "Кастинг",
-      "level": 4
+      "level": 5
     },
     "21530": {
       "title": "Города",
@@ -104576,7 +104576,7 @@
     },
     "27937": {
       "title": "간단한 쿼리 문제",
-      "level": 22
+      "level": 23
     },
     "27938": {
       "title": "트리 위의 세 사람",
@@ -104604,7 +104604,7 @@
     },
     "27944": {
       "title": "가지 이모지",
-      "level": 15
+      "level": 16
     },
     "27945": {
       "title": "슬슬 가지를 먹지 않으면 죽는다",
