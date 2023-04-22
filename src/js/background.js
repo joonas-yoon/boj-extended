@@ -62,6 +62,20 @@ class _Config {
   }
 }
 
+// eslint-disable-next-line valid-jsdoc
+/**
+ * fetch problem title, level from solved.ac api
+ * @see {@link https://solvedac.github.io/unofficial-documentation/#/operations/getProblemByIdArray}
+ * @param {string[]} pids - list of problem id (up to 100)
+ * @param { ({ problemId, titleKo, level }) => void } callback
+ */
+function fetchProblemsFromSolvedAc(pids, callback) {
+  const query = encodeURIComponent(pids.join(','));
+  fetch(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`)
+    .then((res) => res.json())
+    .then(callback);
+}
+
 const Config = new _Config(); // as singleton
 
 const Problems = {
@@ -125,6 +139,9 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
       break;
     case 'config.remove':
       Config.remove(message.data.key, sendResponse);
+      break;
+    case 'solved.ac.problems':
+      fetchProblemsFromSolvedAc(message.data.value, sendResponse);
       break;
     default:
       break;
