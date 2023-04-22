@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-21 19:12:27.073687",
+  "last_updated": "2023-04-22 19:12:08.004157",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1132,7 +1132,7 @@
     },
     "1283": {
       "title": "단축키 지정",
-      "level": 10
+      "level": 9
     },
     "1284": {
       "title": "집 주소",
@@ -11684,7 +11684,7 @@
     },
     "3987": {
       "title": "보이저 1호",
-      "level": 9
+      "level": 10
     },
     "3988": {
       "title": "수 고르기",
@@ -21136,7 +21136,7 @@
     },
     "6469": {
       "title": "Uniform Generator",
-      "level": 4
+      "level": 5
     },
     "6470": {
       "title": "Excuses, Excuses!",
@@ -23672,7 +23672,7 @@
     },
     "7162": {
       "title": "House construction",
-      "level": 0
+      "level": 18
     },
     "7286": {
       "title": "Ancient Keyboard",
@@ -30080,7 +30080,7 @@
     },
     "8944": {
       "title": "이진 검색 트리 2",
-      "level": 17
+      "level": 16
     },
     "8945": {
       "title": "Meteor",
@@ -32792,7 +32792,7 @@
     },
     "9661": {
       "title": "돌 게임 7",
-      "level": 13
+      "level": 14
     },
     "9662": {
       "title": "돌 게임 8",
@@ -36004,7 +36004,7 @@
     },
     "10500": {
       "title": "Maze movement",
-      "level": 15
+      "level": 16
     },
     "10501": {
       "title": "Ragged Right",
@@ -38052,7 +38052,7 @@
     },
     "11027": {
       "title": "교환",
-      "level": 0
+      "level": 20
     },
     "11028": {
       "title": "UỐN VUÔNG",
@@ -50688,7 +50688,7 @@
     },
     "14263": {
       "title": "카드 놓기",
-      "level": 17
+      "level": 16
     },
     "14264": {
       "title": "정육각형과 삼각형",
@@ -61344,7 +61344,7 @@
     },
     "16954": {
       "title": "움직이는 미로 탈출",
-      "level": 12
+      "level": 13
     },
     "16955": {
       "title": "오목, 이길 수 있을까?",
@@ -66472,7 +66472,7 @@
     },
     "18256": {
       "title": "Interleaved Periodic String",
-      "level": 4
+      "level": 5
     },
     "18257": {
       "title": "Find The Number",
@@ -67160,7 +67160,7 @@
     },
     "18430": {
       "title": "무기 공학",
-      "level": 11
+      "level": 12
     },
     "18431": {
       "title": "Just Long Neckties",
@@ -94236,7 +94236,7 @@
     },
     "25289": {
       "title": "가장 긴 등차 부분 수열",
-      "level": 11
+      "level": 12
     },
     "25290": {
       "title": "Spiraling Into Control",
@@ -102648,7 +102648,7 @@
     },
     "27444": {
       "title": "팝스타뮤직게이트",
-      "level": 7
+      "level": 8
     },
     "27445": {
       "title": "Gorani Command",
@@ -103148,7 +103148,7 @@
     },
     "27569": {
       "title": "Champernowne Count",
-      "level": 7
+      "level": 8
     },
     "27570": {
       "title": "Chocolate Chip Fabrication",
