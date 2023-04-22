@@ -127,6 +127,26 @@ function extendUserPage() {
     }
   });
 
+  function fetchProblems(problemIds) {
+    return new Promise((resolve, reject) => {
+      chrome.runtime.sendMessage(
+        {
+          action: 'solved.ac.problems',
+          data: {
+            value: problemIds,
+          },
+        },
+        (response) => {
+          console.groupCollapsed('solved.ac.fetch.problems');
+          console.log('api request:', problemIds);
+          console.log('api response:', response);
+          console.groupEnd();
+          resolve(response);
+        }
+      );
+    });
+  }
+
   function setProblemAttributes(problemTags) {
     const getProblemCache = (problemId) =>
       LocalCache.get(`problem:${problemId}`);
@@ -135,31 +155,19 @@ function extendUserPage() {
     const isProblemCached = (problemId) =>
       getProblemCache(problemId) !== undefined;
 
-    const fetchProblems = async (tags) => {
-      const listToMap = (list) =>
-        [{ id: '' }]
-          .concat(list)
-          .reduce((p, c) => ({ ...(p || {}), [c.id]: c }));
+    const listToMap = (list) => new Map(list.map((obj) => [obj.id, obj]));
+
+    const addProblemDetailsToElements = async (tags) => {
       for (let i = 0; i <= Math.ceil(tags.length / 100); ++i) {
         const batch = tags.slice(i * 100, (i + 1) * 100) || [];
         if (batch.length === 0) break;
         const pids = batch.map(({ id }) => id);
-        const query = encodeURIComponent(pids.join(','));
-        const arr = await fetch(
-          `https://solved.ac/api/v3/problem/lookup?problemIds=${query}`
-        )
-          .then((res) => res.json())
-          .then((res) =>
-            res.map(({ problemId, titleKo, level }) => ({
-              id: problemId,
-              title: titleKo,
-              level,
-            }))
-          )
-          .catch((err) => {
-            console.error(err);
-            return [];
-          });
+        const details = await fetchProblems(pids);
+        const arr = details.map(({ problemId, titleKo, level }) => ({
+          id: problemId,
+          title: titleKo,
+          level,
+        }));
 
         const infoByPid = listToMap(arr);
         batch.forEach(({ element: e, id }) => {
@@ -193,7 +201,7 @@ function extendUserPage() {
       });
 
     const notCachedTags = pids.filter(({ id }) => !isProblemCached(id));
-    fetchProblems(notCachedTags);
+    addProblemDetailsToElements(notCachedTags);
   }
 
   // sync with configs

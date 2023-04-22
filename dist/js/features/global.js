@@ -153,31 +153,27 @@ function extendGlobal() {
       );
       if (classes.length < 1) return;
       const type = classes[0];
-      const inputText = input.innerText;
       const td = input.closest('td');
+      if (!td) return;
       // replace text by user's format
       Config.load(type, (format) => {
         if (!format) {
-          if (td) td.setAttribute('class', 'result');
+          td.setAttribute('class', 'result');
           input.style.display = '';
           output.style.display = 'none';
         } else {
-          if (td) td.setAttribute('class', 'result has-fake');
+          td.setAttribute('class', 'result has-fake');
           input.style.display = 'none';
           output.style.display = '';
-          const outputText1 = input.innerText.replaceAll(
+          const outputText = input.textContent.replaceAll(
             resultPattern[type],
             ''
           );
-          format = format.replace(
+          const replacedText = format.replace(
             /<span (.+)?>(.*)<\/span>/gi,
-            '<span $1>$2 ' + outputText1 + '</span>'
+            '<span $1>$2 ' + outputText + '</span>'
           );
-          const outputText2 = input.innerText.replaceAll(
-            resultPattern[type],
-            format
-          );
-          outputAsHtml(output, format);
+          outputAsHtml(output, replacedText);
         }
       });
       // display latest percentage when it is not accept
