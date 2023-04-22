@@ -1,3 +1,9 @@
+## 1.9.4.1
+
+**Fixes**
+
+- solved.ac API 접근 방법 수정 [(#148)](https://github.com/joonas-yoon/boj-extended/issues/148)
+
 ## 1.9.4
 
 **Changes**
