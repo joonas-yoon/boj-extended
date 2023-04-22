@@ -76,7 +76,8 @@
   ],
   "host_permissions": [
     "https://www.acmicpc.net/?",
-    "https://www.acmicpc.net/*"
+    "https://www.acmicpc.net/*",
+    "https://solved.ac/api/v3/*"
   ],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
