@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-23 19:12:14.828688",
+  "last_updated": "2023-04-24 19:12:33.025494",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3884,7 +3884,7 @@
     },
     "1983": {
       "title": "숫자 박스",
-      "level": 15
+      "level": 14
     },
     "1985": {
       "title": "디지털 친구",
@@ -17848,7 +17848,7 @@
     },
     "5620": {
       "title": "가장 가까운 두 점의 거리",
-      "level": 16
+      "level": 17
     },
     "5621": {
       "title": "問題 5",
@@ -21284,7 +21284,7 @@
     },
     "6508": {
       "title": "A Game with Marbles",
-      "level": 4
+      "level": 5
     },
     "6509": {
       "title": "Help Bob",
@@ -21476,7 +21476,7 @@
     },
     "6556": {
       "title": "Paths on a Grid",
-      "level": 7
+      "level": 8
     },
     "6557": {
       "title": "Hall of Fountains",
@@ -45032,7 +45032,7 @@
     },
     "12817": {
       "title": "버스 노선",
-      "level": 15
+      "level": 16
     },
     "12818": {
       "title": "Investigation",
@@ -81916,7 +81916,7 @@
     },
     "22151": {
       "title": "Игра",
-      "level": 4
+      "level": 5
     },
     "22152": {
       "title": "Часы",
@@ -93220,7 +93220,7 @@
     },
     "25032": {
       "title": "Young Zebra",
-      "level": 17
+      "level": 18
     },
     "25033": {
       "title": "finitefunc",
@@ -104628,7 +104628,7 @@
     },
     "27950": {
       "title": "가지농장 수확하기",
-      "level": 22
+      "level": 23
     },
     "27951": {
       "title": "옷걸이",
