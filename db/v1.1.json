@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-24 19:12:33.025494",
+  "last_updated": "2023-04-26 19:12:49.189327",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8684,7 +8684,7 @@
     },
     "3204": {
       "title": "커플 깨기",
-      "level": 20
+      "level": 19
     },
     "3205": {
       "title": "fusnote",
@@ -9392,7 +9392,7 @@
     },
     "3391": {
       "title": "나이트",
-      "level": 18
+      "level": 19
     },
     "3392": {
       "title": "화성 지도",
@@ -16648,7 +16648,7 @@
     },
     "5246": {
       "title": "Checkerboard Rows",
-      "level": 4
+      "level": 3
     },
     "5247": {
       "title": "Mining Maps",
@@ -19376,7 +19376,7 @@
     },
     "6005": {
       "title": "Cow Pinball",
-      "level": 9
+      "level": 10
     },
     "6006": {
       "title": "Dizzy Cows",
@@ -28804,7 +28804,7 @@
     },
     "8625": {
       "title": "Minimalna liczba",
-      "level": 6
+      "level": 7
     },
     "8626": {
       "title": "Statki kosmiczne",
@@ -32296,7 +32296,7 @@
     },
     "9536": {
       "title": "여우는 어떻게 울지?",
-      "level": 7
+      "level": 8
     },
     "9537": {
       "title": "잘생긴 GCD",
@@ -33848,7 +33848,7 @@
     },
     "9951": {
       "title": "Word Extraction",
-      "level": 7
+      "level": 8
     },
     "9952": {
       "title": "Bree's pantry",
@@ -41460,7 +41460,7 @@
     },
     "11912": {
       "title": "격자 보존하기",
-      "level": 14
+      "level": 13
     },
     "11913": {
       "title": "Min-cost GCD",
@@ -46312,7 +46312,7 @@
     },
     "13149": {
       "title": "Knapsack in a Globalized World",
-      "level": 18
+      "level": 19
     },
     "13150": {
       "title": "Matrix Cypher",
@@ -52100,7 +52100,7 @@
     },
     "14617": {
       "title": "제3회 IUPC",
-      "level": 0
+      "level": 15
     },
     "14618": {
       "title": "총깡 총깡",
@@ -52752,7 +52752,7 @@
     },
     "14791": {
       "title": "Tidy Numbers (Large)",
-      "level": 9
+      "level": 10
     },
     "14792": {
       "title": "Bathroom Stalls (Small1)",
@@ -57212,7 +57212,7 @@
     },
     "15916": {
       "title": "가희는 그래플러야!!",
-      "level": 11
+      "level": 10
     },
     "15917": {
       "title": "노솔브 방지문제야!!",
@@ -58108,7 +58108,7 @@
     },
     "16145": {
       "title": "Tide Pods",
-      "level": 4
+      "level": 5
     },
     "16146": {
       "title": "Blowin’ in the Wind",
@@ -60812,7 +60812,7 @@
     },
     "16821": {
       "title": "Low Range-Sum Matrix",
-      "level": 12
+      "level": 13
     },
     "16822": {
       "title": "Tiny Room",
@@ -61868,7 +61868,7 @@
     },
     "17095": {
       "title": "Min-Max Subsequence",
-      "level": 8
+      "level": 7
     },
     "17096": {
       "title": "Tourist",
@@ -64004,7 +64004,7 @@
     },
     "17632": {
       "title": "Colouring a rectangle",
-      "level": 0
+      "level": 23
     },
     "17633": {
       "title": "제곱수의 합 (More Huge)",
@@ -79168,7 +79168,7 @@
     },
     "21449": {
       "title": "Красивая таблица результатов",
-      "level": 6
+      "level": 5
     },
     "21450": {
       "title": "Место у прохода, пожалуйста",
@@ -88832,7 +88832,7 @@
     },
     "23906": {
       "title": "Stable Wall",
-      "level": 12
+      "level": 13
     },
     "23907": {
       "title": "Perfect Subarray",
@@ -93996,7 +93996,7 @@
     },
     "25227": {
       "title": "Cram",
-      "level": 18
+      "level": 19
     },
     "25228": {
       "title": "Double Sort",
@@ -94116,7 +94116,7 @@
     },
     "25257": {
       "title": "Monty's Hall",
-      "level": 11
+      "level": 12
     },
     "25258": {
       "title": "Natural Navigation",
@@ -104564,7 +104564,7 @@
     },
     "27934": {
       "title": "마계안암",
-      "level": 19
+      "level": 18
     },
     "27935": {
       "title": "고연전/연고전 기차놀이",
