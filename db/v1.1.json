@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-26 19:12:49.189327",
+  "last_updated": "2023-04-27 19:12:44.640823",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1216,7 +1216,7 @@
     },
     "1304": {
       "title": "지역",
-      "level": 12
+      "level": 13
     },
     "1305": {
       "title": "광고",
@@ -7740,7 +7740,7 @@
     },
     "2963": {
       "title": "무한 이진 트리 탐색",
-      "level": 12
+      "level": 13
     },
     "2964": {
       "title": "벽과 못",
@@ -10332,7 +10332,7 @@
     },
     "3633": {
       "title": "Expectation",
-      "level": 15
+      "level": 14
     },
     "3634": {
       "title": "Flip and Turn",
@@ -39776,7 +39776,7 @@
     },
     "11476": {
       "title": "Kingdom Trip",
-      "level": 26
+      "level": 25
     },
     "11477": {
       "title": "Lucky Chances",
@@ -44252,7 +44252,7 @@
     },
     "12621": {
       "title": "EZ-Sokoban (Small)",
-      "level": 13
+      "level": 14
     },
     "12622": {
       "title": "EZ-Sokoban (Large)",
@@ -58400,7 +58400,7 @@
     },
     "16218": {
       "title": "힘 겨루기",
-      "level": 6
+      "level": 5
     },
     "16219": {
       "title": "정렬하기",
@@ -59520,7 +59520,7 @@
     },
     "16498": {
       "title": "작은 벌점",
-      "level": 10
+      "level": 11
     },
     "16499": {
       "title": "동일한 단어 그룹화하기",
@@ -62088,7 +62088,7 @@
     },
     "17151": {
       "title": "Beautiful Bridges",
-      "level": 22
+      "level": 21
     },
     "17152": {
       "title": "Checks Post Facto",
@@ -73340,7 +73340,7 @@
     },
     "19982": {
       "title": "Генератор паролей",
-      "level": 4
+      "level": 5
     },
     "19983": {
       "title": "Уборка снега",
@@ -75924,7 +75924,7 @@
     },
     "20638": {
       "title": "Universal and Existential Quantifiers",
-      "level": 15
+      "level": 14
     },
     "20639": {
       "title": "Cactus",
@@ -97792,7 +97792,7 @@
     },
     "26200": {
       "title": "Sokoban",
-      "level": 18
+      "level": 0
     },
     "26201": {
       "title": "Finding Maximal Non-Trivial Monotones",
@@ -98420,7 +98420,7 @@
     },
     "26361": {
       "title": "XO",
-      "level": 6
+      "level": 5
     },
     "26362": {
       "title": "Adria",
