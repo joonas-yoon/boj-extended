@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-27 19:12:44.640823",
+  "last_updated": "2023-04-28 19:12:36.550209",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -10332,7 +10332,7 @@
     },
     "3633": {
       "title": "Expectation",
-      "level": 14
+      "level": 15
     },
     "3634": {
       "title": "Flip and Turn",
@@ -26272,7 +26272,7 @@
     },
     "7987": {
       "title": "Spies",
-      "level": 21
+      "level": 20
     },
     "7989": {
       "title": "The Bridge",
@@ -30292,7 +30292,7 @@
     },
     "8997": {
       "title": "The K-League",
-      "level": 13
+      "level": 15
     },
     "8998": {
       "title": "A Lazy Worker",
@@ -42080,7 +42080,7 @@
     },
     "12074": {
       "title": "Googol String (Small)",
-      "level": 4
+      "level": 5
     },
     "12075": {
       "title": "Googol String (Large)",
@@ -53940,7 +53940,7 @@
     },
     "15089": {
       "title": "Is-A? Has-A? Who Knowz-A?",
-      "level": 16
+      "level": 15
     },
     "15090": {
       "title": "Keeping On Track",
@@ -59080,7 +59080,7 @@
     },
     "16388": {
       "title": "Is-A? Has-A? Who Knowz-A?",
-      "level": 16
+      "level": 15
     },
     "16389": {
       "title": "Atlantis",
@@ -64176,7 +64176,7 @@
     },
     "17675": {
       "title": "램프",
-      "level": 21
+      "level": 22
     },
     "17676": {
       "title": "시간을 달리는 비타로",
@@ -68092,7 +68092,7 @@
     },
     "18664": {
       "title": "Minimums on the Edges",
-      "level": 22
+      "level": 21
     },
     "18665": {
       "title": "IQ Test",
@@ -72556,7 +72556,7 @@
     },
     "19786": {
       "title": "Ставка",
-      "level": 4
+      "level": 3
     },
     "19787": {
       "title": "Взлом шифра",
@@ -73208,7 +73208,7 @@
     },
     "19949": {
       "title": "영재의 시험",
-      "level": 8
+      "level": 9
     },
     "19950": {
       "title": "3차원 막대기 연결하기",
@@ -87232,7 +87232,7 @@
     },
     "23506": {
       "title": "Coins",
-      "level": 11
+      "level": 13
     },
     "23507": {
       "title": "Marbles",
@@ -97580,7 +97580,7 @@
     },
     "26146": {
       "title": "즉흥 여행 (Easy)",
-      "level": 15
+      "level": 16
     },
     "26147": {
       "title": "Wordle 찍기",
@@ -102984,7 +102984,7 @@
     },
     "27528": {
       "title": "Azber is playing at Biou's house",
-      "level": 14
+      "level": 15
     },
     "27529": {
       "title": "양 가두기",
@@ -104753,6 +104753,46 @@
     "27981": {
       "title": "압도적 XOR 수",
       "level": 12
+    },
+    "27982": {
+      "title": "큐브 더미",
+      "level": 4
+    },
+    "27983": {
+      "title": "리본 (Easy)",
+      "level": 3
+    },
+    "27984": {
+      "title": "조커",
+      "level": 15
+    },
+    "27985": {
+      "title": "멘토링 매칭",
+      "level": 20
+    },
+    "27986": {
+      "title": "평범한 구성적 문제",
+      "level": 8
+    },
+    "27987": {
+      "title": "치팅 방지",
+      "level": 0
+    },
+    "27988": {
+      "title": "리본 (Hard)",
+      "level": 12
+    },
+    "27989": {
+      "title": "가장 큰 증가하는 부분 수열 2",
+      "level": 16
+    },
+    "27990": {
+      "title": "가지 볶음 (Easy)",
+      "level": 0
+    },
+    "27991": {
+      "title": "고장난 프린터",
+      "level": 0
     }
   }
 }
