@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-28 19:12:36.550209",
+  "last_updated": "2023-04-29 19:12:20.888883",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2940,7 +2940,7 @@
     },
     "1741": {
       "title": "반 나누기",
-      "level": 18
+      "level": 19
     },
     "1742": {
       "title": "레이싱결과",
@@ -5480,7 +5480,7 @@
     },
     "2393": {
       "title": "Rook",
-      "level": 2
+      "level": 0
     },
     "2394": {
       "title": "드라이브 투어",
@@ -14976,7 +14976,7 @@
     },
     "4824": {
       "title": "Post Office",
-      "level": 4
+      "level": 5
     },
     "4825": {
       "title": "Aronson",
@@ -23428,7 +23428,7 @@
     },
     "7058": {
       "title": "Royal guards",
-      "level": 19
+      "level": 18
     },
     "7060": {
       "title": "Printed Circuit",
@@ -26276,7 +26276,7 @@
     },
     "7989": {
       "title": "The Bridge",
-      "level": 12
+      "level": 13
     },
     "7990": {
       "title": "Gates",
@@ -32796,7 +32796,7 @@
     },
     "9662": {
       "title": "돌 게임 8",
-      "level": 19
+      "level": 20
     },
     "9663": {
       "title": "N-Queen",
@@ -47580,7 +47580,7 @@
     },
     "13466": {
       "title": "Endless Turning",
-      "level": 22
+      "level": 21
     },
     "13467": {
       "title": "Manhattan Positioning System",
@@ -50688,7 +50688,7 @@
     },
     "14263": {
       "title": "카드 놓기",
-      "level": 16
+      "level": 17
     },
     "14264": {
       "title": "정육각형과 삼각형",
@@ -66684,7 +66684,7 @@
     },
     "18309": {
       "title": "Extreme Temperatures",
-      "level": 4
+      "level": 3
     },
     "18310": {
       "title": "안테나",
@@ -83288,7 +83288,7 @@
     },
     "22518": {
       "title": "Scribbling witch",
-      "level": 24
+      "level": 25
     },
     "22519": {
       "title": "Shadow Witch",
@@ -84920,7 +84920,7 @@
     },
     "22927": {
       "title": "Mountainous Palindromic Subarray",
-      "level": 14
+      "level": 13
     },
     "22928": {
       "title": "Permutation CFG",
@@ -89724,7 +89724,7 @@
     },
     "24131": {
       "title": "宣伝 (Advertisement)",
-      "level": 16
+      "level": 17
     },
     "24132": {
       "title": "コンテスト (Contest)",
@@ -90348,7 +90348,7 @@
     },
     "24313": {
       "title": "알고리즘 수업 - 점근적 표기 1",
-      "level": 7
+      "level": 6
     },
     "24314": {
       "title": "알고리즘 수업 - 점근적 표기 2",
@@ -94668,7 +94668,7 @@
     },
     "25401": {
       "title": "카드 바꾸기",
-      "level": 10
+      "level": 11
     },
     "25402": {
       "title": "트리와 쿼리",
@@ -95548,7 +95548,7 @@
     },
     "25633": {
       "title": "도미노 넘어뜨리기",
-      "level": 10
+      "level": 11
     },
     "25634": {
       "title": "전구 상태 뒤집기",
@@ -101324,7 +101324,7 @@
     },
     "27101": {
       "title": "Metric Matrices",
-      "level": 4
+      "level": 3
     },
     "27102": {
       "title": "Gift Giving",
@@ -104764,7 +104764,7 @@
     },
     "27984": {
       "title": "조커",
-      "level": 15
+      "level": 14
     },
     "27985": {
       "title": "멘토링 매칭",
@@ -104776,11 +104776,11 @@
     },
     "27987": {
       "title": "치팅 방지",
-      "level": 0
+      "level": 14
     },
     "27988": {
       "title": "리본 (Hard)",
-      "level": 12
+      "level": 11
     },
     "27989": {
       "title": "가장 큰 증가하는 부분 수열 2",
@@ -104792,6 +104792,14 @@
     },
     "27991": {
       "title": "고장난 프린터",
+      "level": 17
+    },
+    "27992": {
+      "title": "Two Currencies",
+      "level": 0
+    },
+    "27993": {
+      "title": "Festivals in JOI Kingdom 2",
       "level": 0
     }
   }
