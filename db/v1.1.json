@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-29 19:12:20.888883",
+  "last_updated": "2023-04-30 19:12:20.899630",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -92,7 +92,7 @@
     },
     "1022": {
       "title": "소용돌이 예쁘게 출력하기",
-      "level": 12
+      "level": 13
     },
     "1023": {
       "title": "괄호 문자열",
@@ -7220,7 +7220,7 @@
     },
     "2833": {
       "title": "나이트",
-      "level": 21
+      "level": 22
     },
     "2834": {
       "title": "박스 정렬",
@@ -8012,7 +8012,7 @@
     },
     "3031": {
       "title": "리그",
-      "level": 15
+      "level": 16
     },
     "3032": {
       "title": "승리",
@@ -8260,7 +8260,7 @@
     },
     "3098": {
       "title": "소셜네트워크",
-      "level": 8
+      "level": 9
     },
     "3099": {
       "title": "도트 매트릭스 프린터",
@@ -43151,7 +43151,7 @@
       "level": 22
     },
     "12346": {
-      "title": "Captain Hammer (Small)",
+      "title": "Proprietary Problem",
       "level": 0
     },
     "12347": {
@@ -47312,7 +47312,7 @@
     },
     "13399": {
       "title": "Rearranging a Sequence",
-      "level": 7
+      "level": 6
     },
     "13400": {
       "title": "Quality of Check Digits",
@@ -48112,7 +48112,7 @@
     },
     "13600": {
       "title": "Fatorial",
-      "level": 9
+      "level": 10
     },
     "13601": {
       "title": "Guardiões Curiosos",
@@ -57064,7 +57064,7 @@
     },
     "15876": {
       "title": "Binary Counting",
-      "level": 7
+      "level": 6
     },
     "15877": {
       "title": "Apples and Bananas",
@@ -57232,7 +57232,7 @@
     },
     "15921": {
       "title": "수찬은 마린보이야!!",
-      "level": 2
+      "level": 3
     },
     "15922": {
       "title": "아우으 우아으이야!!",
@@ -82024,7 +82024,7 @@
     },
     "22178": {
       "title": "Граница",
-      "level": 4
+      "level": 5
     },
     "22179": {
       "title": "Загранпаспорт",
@@ -90964,7 +90964,7 @@
     },
     "24467": {
       "title": "혼자 하는 윷놀이",
-      "level": 9
+      "level": 10
     },
     "24468": {
       "title": "충돌의 수",
@@ -94804,7 +94804,7 @@
     },
     "25438": {
       "title": "메기 농장",
-      "level": 22
+      "level": 23
     },
     "25439": {
       "title": "죄수들의 도전",
@@ -101324,7 +101324,7 @@
     },
     "27101": {
       "title": "Metric Matrices",
-      "level": 3
+      "level": 4
     },
     "27102": {
       "title": "Gift Giving",
@@ -104466,6 +104466,38 @@
       "title": "먹었습니다!!",
       "level": 0
     },
+    "27900": {
+      "title": "4차 산업 혁명 2",
+      "level": 0
+    },
+    "27901": {
+      "title": "사면수와 삼현수",
+      "level": 0
+    },
+    "27902": {
+      "title": "CVE: Life is Way Too Short",
+      "level": 0
+    },
+    "27903": {
+      "title": "인생",
+      "level": 2
+    },
+    "27904": {
+      "title": "키파-틱택토",
+      "level": 0
+    },
+    "27905": {
+      "title": "Bækj00n Online RPG",
+      "level": 0
+    },
+    "27906": {
+      "title": "모자 퍼즐",
+      "level": 0
+    },
+    "27907": {
+      "title": "The primes contain arbitrarily long arithmetic progressions",
+      "level": 6
+    },
     "27908": {
       "title": "Kalendar",
       "level": 4
@@ -104764,7 +104796,7 @@
     },
     "27984": {
       "title": "조커",
-      "level": 14
+      "level": 13
     },
     "27985": {
       "title": "멘토링 매칭",
@@ -104800,6 +104832,70 @@
     },
     "27993": {
       "title": "Festivals in JOI Kingdom 2",
+      "level": 0
+    },
+    "27994": {
+      "title": "Passport",
+      "level": 0
+    },
+    "27995": {
+      "title": "Belt Conveyor",
+      "level": 0
+    },
+    "27996": {
+      "title": "Council",
+      "level": 0
+    },
+    "27997": {
+      "title": "Mizuyokan 2",
+      "level": 0
+    },
+    "27998": {
+      "title": "Chorus",
+      "level": 0
+    },
+    "27999": {
+      "title": "Cookies",
+      "level": 0
+    },
+    "28004": {
+      "title": "LaLa and Magic Circle (LiLi Version)",
+      "level": 0
+    },
+    "28005": {
+      "title": "LaLa and Magic Circle (LaLa Version)",
+      "level": 0
+    },
+    "28006": {
+      "title": "LaLa and Lamp",
+      "level": 18
+    },
+    "28007": {
+      "title": "LaLa and Magic Stone",
+      "level": 0
+    },
+    "28008": {
+      "title": "LaLa and Monster Hunting (Part 1)",
+      "level": 0
+    },
+    "28009": {
+      "title": "LaLa and Monster Hunting (Part 2)",
+      "level": 24
+    },
+    "28010": {
+      "title": "LaLa and Divination Magic",
+      "level": 23
+    },
+    "28011": {
+      "title": "LaLa and Harvesting",
+      "level": 27
+    },
+    "28012": {
+      "title": "LaLa and Spirit Summoning",
+      "level": 0
+    },
+    "28013": {
+      "title": "LaLa and Magical Beast Summoning",
       "level": 0
     }
   }
