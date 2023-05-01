@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-04-30 19:12:20.899630",
+  "last_updated": "2023-05-01 19:13:14.242383",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5480,7 +5480,7 @@
     },
     "2393": {
       "title": "Rook",
-      "level": 0
+      "level": 1
     },
     "2394": {
       "title": "드라이브 투어",
@@ -9300,7 +9300,7 @@
     },
     "3366": {
       "title": "수열 줄이기",
-      "level": 14
+      "level": 15
     },
     "3367": {
       "title": "Bitwise Expressions",
@@ -13444,7 +13444,7 @@
     },
     "4429": {
       "title": "Poker Hands",
-      "level": 11
+      "level": 12
     },
     "4430": {
       "title": "Is Bigger Smarter?",
@@ -17512,7 +17512,7 @@
     },
     "5536": {
       "title": "물고기의 서식 범위",
-      "level": 14
+      "level": 13
     },
     "5537": {
       "title": "お土産購入計画 (Gifts)",
@@ -19876,7 +19876,7 @@
     },
     "6132": {
       "title": "전화선",
-      "level": 18
+      "level": 17
     },
     "6133": {
       "title": "Random Walk",
@@ -26892,7 +26892,7 @@
     },
     "8145": {
       "title": "Megalopolis",
-      "level": 19
+      "level": 18
     },
     "8146": {
       "title": "Tetris Attack",
@@ -28492,7 +28492,7 @@
     },
     "8546": {
       "title": "Szyfr",
-      "level": 5
+      "level": 6
     },
     "8547": {
       "title": "Patyki",
@@ -44268,7 +44268,7 @@
     },
     "12625": {
       "title": "Football Team (Small)",
-      "level": 0
+      "level": 23
     },
     "12626": {
       "title": "Football Team (Large)",
@@ -47572,7 +47572,7 @@
     },
     "13464": {
       "title": "Bridge Automation",
-      "level": 14
+      "level": 15
     },
     "13465": {
       "title": "Charles in Charge",
@@ -47600,7 +47600,7 @@
     },
     "13471": {
       "title": "Safe Racing",
-      "level": 18
+      "level": 19
     },
     "13472": {
       "title": "Sticky Situation",
@@ -67108,7 +67108,7 @@
     },
     "18417": {
       "title": "ポスター (Poster)",
-      "level": 7
+      "level": 6
     },
     "18418": {
       "title": "いちご (Strawberry)",
@@ -72232,7 +72232,7 @@
     },
     "19701": {
       "title": "소 운전한다.",
-      "level": 14
+      "level": 15
     },
     "19702": {
       "title": "친구",
@@ -79168,7 +79168,7 @@
     },
     "21449": {
       "title": "Красивая таблица результатов",
-      "level": 5
+      "level": 6
     },
     "21450": {
       "title": "Место у прохода, пожалуйста",
@@ -79760,7 +79760,7 @@
     },
     "21597": {
       "title": "You Be the Judge!",
-      "level": 6
+      "level": 7
     },
     "21598": {
       "title": "SciComLove",
@@ -80908,7 +80908,7 @@
     },
     "21890": {
       "title": "File names",
-      "level": 5
+      "level": 6
     },
     "21891": {
       "title": "Neatness",
@@ -85456,7 +85456,7 @@
     },
     "23061": {
       "title": "백남이의 여행 준비",
-      "level": 12
+      "level": 13
     },
     "23062": {
       "title": "백남이의 여행 준비의 준비",
@@ -85552,7 +85552,7 @@
     },
     "23085": {
       "title": "판치기",
-      "level": 11
+      "level": 12
     },
     "23086": {
       "title": "두 반으로 나누기",
@@ -88292,11 +88292,11 @@
     },
     "23771": {
       "title": "Exchange Students",
-      "level": 19
+      "level": 18
     },
     "23772": {
       "title": "Flatland Olympics",
-      "level": 16
+      "level": 17
     },
     "23773": {
       "title": "Glossary Arrangement",
@@ -88592,7 +88592,7 @@
     },
     "23846": {
       "title": "징검다리 건너기",
-      "level": 14
+      "level": 15
     },
     "23847": {
       "title": "INU 막대기",
@@ -90964,7 +90964,7 @@
     },
     "24467": {
       "title": "혼자 하는 윷놀이",
-      "level": 10
+      "level": 9
     },
     "24468": {
       "title": "충돌의 수",
@@ -93652,7 +93652,7 @@
     },
     "25140": {
       "title": "KLIZA",
-      "level": 15
+      "level": 16
     },
     "25141": {
       "title": "ŠIFRAT",
@@ -101252,7 +101252,7 @@
     },
     "27083": {
       "title": "BUY LOW, BUY LOWER",
-      "level": 11
+      "level": 12
     },
     "27084": {
       "title": "카드 뽑기",
@@ -104480,11 +104480,11 @@
     },
     "27903": {
       "title": "인생",
-      "level": 2
+      "level": 0
     },
     "27904": {
       "title": "키파-틱택토",
-      "level": 0
+      "level": 26
     },
     "27905": {
       "title": "Bækj00n Online RPG",
@@ -104492,7 +104492,7 @@
     },
     "27906": {
       "title": "모자 퍼즐",
-      "level": 0
+      "level": 21
     },
     "27907": {
       "title": "The primes contain arbitrarily long arithmetic progressions",
@@ -104764,7 +104764,7 @@
     },
     "27976": {
       "title": "트리와 쿼리 23",
-      "level": 0
+      "level": 27
     },
     "27977": {
       "title": "킥보드로 등교하기",
@@ -104820,7 +104820,7 @@
     },
     "27990": {
       "title": "가지 볶음 (Easy)",
-      "level": 0
+      "level": 17
     },
     "27991": {
       "title": "고장난 프린터",
@@ -104858,6 +104858,14 @@
       "title": "Cookies",
       "level": 0
     },
+    "28000": {
+      "title": "Tourism",
+      "level": 0
+    },
+    "28001": {
+      "title": "The Last Battle",
+      "level": 0
+    },
     "28004": {
       "title": "LaLa and Magic Circle (LiLi Version)",
       "level": 0
@@ -104876,7 +104884,7 @@
     },
     "28008": {
       "title": "LaLa and Monster Hunting (Part 1)",
-      "level": 0
+      "level": 21
     },
     "28009": {
       "title": "LaLa and Monster Hunting (Part 2)",
