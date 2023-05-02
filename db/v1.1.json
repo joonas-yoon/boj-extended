@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-01 19:13:14.242383",
+  "last_updated": "2023-05-02 19:14:39.489752",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4912,7 +4912,7 @@
     },
     "2246": {
       "title": "콘도 선정",
-      "level": 5
+      "level": 6
     },
     "2247": {
       "title": "실질적 약수",
@@ -8128,7 +8128,7 @@
     },
     "3060": {
       "title": "욕심쟁이 돼지",
-      "level": 5
+      "level": 6
     },
     "3061": {
       "title": "사다리",
@@ -32796,7 +32796,7 @@
     },
     "9662": {
       "title": "돌 게임 8",
-      "level": 20
+      "level": 19
     },
     "9663": {
       "title": "N-Queen",
@@ -46520,7 +46520,7 @@
     },
     "13201": {
       "title": "즉흥 여행",
-      "level": 17
+      "level": 16
     },
     "13202": {
       "title": "피자 배치",
@@ -50520,7 +50520,7 @@
     },
     "14221": {
       "title": "편의점",
-      "level": 13
+      "level": 12
     },
     "14222": {
       "title": "배열과 연산",
@@ -61264,7 +61264,7 @@
     },
     "16934": {
       "title": "게임 닉네임",
-      "level": 13
+      "level": 14
     },
     "16935": {
       "title": "배열 돌리기 3",
@@ -77068,7 +77068,7 @@
     },
     "20924": {
       "title": "트리의 기둥과 가지",
-      "level": 12
+      "level": 11
     },
     "20925": {
       "title": "메이플스토리",
@@ -86628,7 +86628,7 @@
     },
     "23355": {
       "title": "공사",
-      "level": 17
+      "level": 18
     },
     "23356": {
       "title": "Gets and Puts (Easy)",
@@ -91984,7 +91984,7 @@
     },
     "24722": {
       "title": "Usmjeravanje",
-      "level": 0
+      "level": 23
     },
     "24723": {
       "title": "녹색거탑",
@@ -104808,11 +104808,11 @@
     },
     "27987": {
       "title": "치팅 방지",
-      "level": 14
+      "level": 15
     },
     "27988": {
       "title": "리본 (Hard)",
-      "level": 11
+      "level": 12
     },
     "27989": {
       "title": "가장 큰 증가하는 부분 수열 2",
@@ -104866,6 +104866,14 @@
       "title": "The Last Battle",
       "level": 0
     },
+    "28002": {
+      "title": "Security Guard",
+      "level": 0
+    },
+    "28003": {
+      "title": "Bitaro’s Travel",
+      "level": 0
+    },
     "28004": {
       "title": "LaLa and Magic Circle (LiLi Version)",
       "level": 0
@@ -104884,7 +104892,7 @@
     },
     "28008": {
       "title": "LaLa and Monster Hunting (Part 1)",
-      "level": 21
+      "level": 20
     },
     "28009": {
       "title": "LaLa and Monster Hunting (Part 2)",
