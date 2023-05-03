@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-02 19:14:39.489752",
+  "last_updated": "2023-05-03 19:13:18.440961",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -260,7 +260,7 @@
     },
     "1064": {
       "title": "평행사변형",
-      "level": 6
+      "level": 7
     },
     "1065": {
       "title": "한수",
@@ -624,7 +624,7 @@
     },
     "1155": {
       "title": "변형 하노이",
-      "level": 16
+      "level": 17
     },
     "1156": {
       "title": "장난감",
@@ -34072,7 +34072,7 @@
     },
     "10016": {
       "title": "Świetliki",
-      "level": 18
+      "level": 19
     },
     "10017": {
       "title": "Tester wioseł",
@@ -47180,7 +47180,7 @@
     },
     "13366": {
       "title": "Math Contest",
-      "level": 5
+      "level": 6
     },
     "13367": {
       "title": "Weeping Fig",
@@ -74232,7 +74232,7 @@
     },
     "20207": {
       "title": "달력",
-      "level": 10
+      "level": 11
     },
     "20208": {
       "title": "진우의 민트초코우유",
@@ -74416,7 +74416,7 @@
     },
     "20253": {
       "title": "In The Name Of Confusion",
-      "level": 12
+      "level": 13
     },
     "20254": {
       "title": "Site Score",
@@ -75852,7 +75852,7 @@
     },
     "20620": {
       "title": "Partition Number",
-      "level": 0
+      "level": 23
     },
     "20621": {
       "title": "Stirling Number",
@@ -85712,7 +85712,7 @@
     },
     "23125": {
       "title": "Joke",
-      "level": 22
+      "level": 23
     },
     "23126": {
       "title": "K-onstruction",
@@ -103076,7 +103076,7 @@
     },
     "27551": {
       "title": "Vrsta",
-      "level": 0
+      "level": 18
     },
     "27552": {
       "title": "Tractor Paths",
@@ -104492,7 +104492,7 @@
     },
     "27906": {
       "title": "모자 퍼즐",
-      "level": 21
+      "level": 22
     },
     "27907": {
       "title": "The primes contain arbitrarily long arithmetic progressions",
@@ -104828,7 +104828,7 @@
     },
     "27992": {
       "title": "Two Currencies",
-      "level": 0
+      "level": 20
     },
     "27993": {
       "title": "Festivals in JOI Kingdom 2",
@@ -104836,7 +104836,7 @@
     },
     "27994": {
       "title": "Passport",
-      "level": 0
+      "level": 23
     },
     "27995": {
       "title": "Belt Conveyor",
@@ -104844,7 +104844,7 @@
     },
     "27996": {
       "title": "Council",
-      "level": 0
+      "level": 19
     },
     "27997": {
       "title": "Mizuyokan 2",
@@ -104912,6 +104912,14 @@
     },
     "28013": {
       "title": "LaLa and Magical Beast Summoning",
+      "level": 0
+    },
+    "28021": {
+      "title": "Rocket Launching",
+      "level": 0
+    },
+    "28022": {
+      "title": "Teleporter",
       "level": 0
     }
   }
