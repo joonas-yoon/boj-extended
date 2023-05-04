@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-03 19:13:18.440961",
+  "last_updated": "2023-05-04 19:12:58.386643",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1844,7 +1844,7 @@
     },
     "1466": {
       "title": "그림 고치기",
-      "level": 13
+      "level": 14
     },
     "1467": {
       "title": "수 지우기",
@@ -7240,7 +7240,7 @@
     },
     "2838": {
       "title": "비숍 낙서",
-      "level": 0
+      "level": 18
     },
     "2839": {
       "title": "설탕 배달",
@@ -10500,7 +10500,7 @@
     },
     "3675": {
       "title": "Mountain Road",
-      "level": 0
+      "level": 18
     },
     "3676": {
       "title": "Moving to Nuremberg",
@@ -11936,7 +11936,7 @@
     },
     "4050": {
       "title": "Trip the Lights Fantastic",
-      "level": 0
+      "level": 14
     },
     "4051": {
       "title": "Windows",
@@ -13056,7 +13056,7 @@
     },
     "4332": {
       "title": "Persistent Numbers",
-      "level": 10
+      "level": 11
     },
     "4333": {
       "title": "Major Scales",
@@ -33572,7 +33572,7 @@
     },
     "9874": {
       "title": "Wormholes",
-      "level": 13
+      "level": 14
     },
     "9875": {
       "title": "Cow Curling",
@@ -36080,7 +36080,7 @@
     },
     "10519": {
       "title": "Biking Duck",
-      "level": 21
+      "level": 20
     },
     "10520": {
       "title": "Cent Savings",
@@ -42480,7 +42480,7 @@
     },
     "12174": {
       "title": "#include <Google I/O.h>",
-      "level": 5
+      "level": 4
     },
     "12175": {
       "title": "Dreary Design (Small)",
@@ -58024,7 +58024,7 @@
     },
     "16124": {
       "title": "나는 행복합니다",
-      "level": 22
+      "level": 23
     },
     "16125": {
       "title": "영점사격",
@@ -60420,7 +60420,7 @@
     },
     "16723": {
       "title": "원영이는 ZOAC과 영원하고 싶다",
-      "level": 9
+      "level": 10
     },
     "16724": {
       "title": "피리 부는 사나이",
@@ -62560,7 +62560,7 @@
     },
     "17271": {
       "title": "리그 오브 레전설 (Small)",
-      "level": 10
+      "level": 9
     },
     "17272": {
       "title": "리그 오브 레전설 (Large)",
@@ -81276,7 +81276,7 @@
     },
     "21982": {
       "title": "상자 빌리기",
-      "level": 15
+      "level": 16
     },
     "21983": {
       "title": "Basalt Breakdown",
@@ -104888,7 +104888,7 @@
     },
     "28007": {
       "title": "LaLa and Magic Stone",
-      "level": 0
+      "level": 22
     },
     "28008": {
       "title": "LaLa and Monster Hunting (Part 1)",
