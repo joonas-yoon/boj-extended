@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-04 19:12:58.386643",
+  "last_updated": "2023-05-05 19:13:20.862570",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -608,7 +608,7 @@
     },
     "1151": {
       "title": "그림자",
-      "level": 17
+      "level": 18
     },
     "1152": {
       "title": "단어의 개수",
@@ -8360,7 +8360,7 @@
     },
     "3123": {
       "title": "배추",
-      "level": 15
+      "level": 14
     },
     "3124": {
       "title": "공원 산책",
@@ -10736,7 +10736,7 @@
     },
     "3734": {
       "title": "RSA 인수 분해",
-      "level": 17
+      "level": 16
     },
     "3735": {
       "title": "Hard-working Student",
@@ -15260,7 +15260,7 @@
     },
     "4899": {
       "title": "Tobo or not Tobo",
-      "level": 13
+      "level": 14
     },
     "4900": {
       "title": "7 더하기",
@@ -25568,7 +25568,7 @@
     },
     "7792": {
       "title": "Superstitious Skylab Tower",
-      "level": 0
+      "level": 20
     },
     "7793": {
       "title": "Panda Land 5: Panda Programming Language",
@@ -25588,7 +25588,7 @@
     },
     "7797": {
       "title": "In Queries",
-      "level": 13
+      "level": 14
     },
     "7798": {
       "title": "Hotel",
@@ -27128,7 +27128,7 @@
     },
     "8204": {
       "title": "Lightning Conductor",
-      "level": 20
+      "level": 21
     },
     "8205": {
       "title": "Shift",
@@ -28200,7 +28200,7 @@
     },
     "8472": {
       "title": "Vacation",
-      "level": 23
+      "level": 22
     },
     "8473": {
       "title": "Monopoly",
@@ -35456,7 +35456,7 @@
     },
     "10363": {
       "title": "Circle and Marble",
-      "level": 18
+      "level": 19
     },
     "10364": {
       "title": "Group of Strangers",
@@ -38440,7 +38440,7 @@
     },
     "11124": {
       "title": "Rubiks Cube",
-      "level": 0
+      "level": 21
     },
     "11125": {
       "title": "Marble Madness",
@@ -45384,7 +45384,7 @@
     },
     "12905": {
       "title": "거짓말쟁이",
-      "level": 0
+      "level": 13
     },
     "12906": {
       "title": "새로운 하노이 탑",
@@ -45592,7 +45592,7 @@
     },
     "12957": {
       "title": "보행의 개수",
-      "level": 0
+      "level": 18
     },
     "12958": {
       "title": "단순 사이클의 개수",
@@ -46756,7 +46756,7 @@
     },
     "13260": {
       "title": "문자열 자르기",
-      "level": 15
+      "level": 14
     },
     "13261": {
       "title": "탈옥",
@@ -46828,7 +46828,7 @@
     },
     "13278": {
       "title": "피보나치 합의 개수",
-      "level": 21
+      "level": 22
     },
     "13279": {
       "title": "곱의 합 쿼리",
@@ -49676,7 +49676,7 @@
     },
     "13992": {
       "title": "Delight for a Cat",
-      "level": 26
+      "level": 25
     },
     "13993": {
       "title": "Expect to Wait",
@@ -52420,7 +52420,7 @@
     },
     "14707": {
       "title": "그림 그리기",
-      "level": 22
+      "level": 21
     },
     "14708": {
       "title": "정육면체를 사랑하는 사람",
@@ -57340,7 +57340,7 @@
     },
     "15948": {
       "title": "간단한 문제",
-      "level": 19
+      "level": 20
     },
     "15949": {
       "title": "Piet",
@@ -64000,7 +64000,7 @@
     },
     "17631": {
       "title": "Awesome Arrowland Adventure",
-      "level": 13
+      "level": 14
     },
     "17632": {
       "title": "Colouring a rectangle",
@@ -75204,7 +75204,7 @@
     },
     "20458": {
       "title": "Автоматизированное управление доставкой",
-      "level": 5
+      "level": 6
     },
     "20459": {
       "title": "Большой линейный коллайдер",
@@ -82444,7 +82444,7 @@
     },
     "22288": {
       "title": "Rainbow Road Race",
-      "level": 15
+      "level": 16
     },
     "22289": {
       "title": "큰 수 곱셈 (3)",
@@ -95644,7 +95644,7 @@
     },
     "25657": {
       "title": "Add One",
-      "level": 21
+      "level": 20
     },
     "25658": {
       "title": "Be Careful",
@@ -96512,7 +96512,7 @@
     },
     "25876": {
       "title": "First Last Sorting",
-      "level": 11
+      "level": 12
     },
     "25877": {
       "title": "Team Shirts/Jerseys",
@@ -97016,7 +97016,7 @@
     },
     "26002": {
       "title": "Kiosk Construction",
-      "level": 13
+      "level": 14
     },
     "26003": {
       "title": "Lowest Latency",
@@ -98224,7 +98224,7 @@
     },
     "26312": {
       "title": "Heximal",
-      "level": 11
+      "level": 12
     },
     "26313": {
       "title": "Invitation",
@@ -103104,7 +103104,7 @@
     },
     "27558": {
       "title": "Find and Replace",
-      "level": 17
+      "level": 18
     },
     "27559": {
       "title": "Following Directions",
@@ -104860,7 +104860,7 @@
     },
     "28000": {
       "title": "Tourism",
-      "level": 0
+      "level": 23
     },
     "28001": {
       "title": "The Last Battle",
@@ -104872,7 +104872,7 @@
     },
     "28003": {
       "title": "Bitaro’s Travel",
-      "level": 0
+      "level": 19
     },
     "28004": {
       "title": "LaLa and Magic Circle (LiLi Version)",
@@ -104920,6 +104920,62 @@
     },
     "28022": {
       "title": "Teleporter",
+      "level": 0
+    },
+    "28023": {
+      "title": "Smartphone",
+      "level": 0
+    },
+    "28024": {
+      "title": "White Light",
+      "level": 0
+    },
+    "28025": {
+      "title": "Pareidolia",
+      "level": 0
+    },
+    "28026": {
+      "title": "Good Bitstrings",
+      "level": 0
+    },
+    "28027": {
+      "title": "Triples of Cows",
+      "level": 0
+    },
+    "28028": {
+      "title": "Custodial Cleanup",
+      "level": 17
+    },
+    "28029": {
+      "title": "Pareidolia",
+      "level": 0
+    },
+    "28030": {
+      "title": "Tree Merging",
+      "level": 0
+    },
+    "28031": {
+      "title": "Milk Sum",
+      "level": 12
+    },
+    "28032": {
+      "title": "Field Day",
+      "level": 15
+    },
+    "28033": {
+      "title": "Pareidolia",
+      "level": 0
+    },
+    "28034": {
+      "title": "FEB",
+      "level": 0
+    },
+    "28035": {
+      "title": "Moo Language",
+      "level": 0
+    },
+    "28036": {
+      "title": "Rotate and Shift",
       "level": 0
     }
   }
