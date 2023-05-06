@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-05 19:13:20.862570",
+  "last_updated": "2023-05-06 19:13:04.968761",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -588,7 +588,7 @@
     },
     "1146": {
       "title": "지그재그 서기",
-      "level": 16
+      "level": 17
     },
     "1147": {
       "title": "BOJ 소풍",
@@ -11776,7 +11776,7 @@
     },
     "4010": {
       "title": "신호",
-      "level": 22
+      "level": 23
     },
     "4011": {
       "title": "기름 파기",
@@ -27128,7 +27128,7 @@
     },
     "8204": {
       "title": "Lightning Conductor",
-      "level": 21
+      "level": 20
     },
     "8205": {
       "title": "Shift",
@@ -32428,7 +32428,7 @@
     },
     "9569": {
       "title": "No Change",
-      "level": 17
+      "level": 18
     },
     "9570": {
       "title": "Farmer John has no Large Brown Cow",
@@ -32548,7 +32548,7 @@
     },
     "9600": {
       "title": "The Last Ant",
-      "level": 9
+      "level": 10
     },
     "9601": {
       "title": "Count the Regions",
@@ -40588,7 +40588,7 @@
     },
     "11679": {
       "title": "Canvas Painting",
-      "level": 12
+      "level": 14
     },
     "11680": {
       "title": "Dice Cup",
@@ -40596,7 +40596,7 @@
     },
     "11681": {
       "title": "Wooden Signs",
-      "level": 20
+      "level": 17
     },
     "11682": {
       "title": "Landscaping",
@@ -51864,7 +51864,7 @@
     },
     "14557": {
       "title": "Memory",
-      "level": 7
+      "level": 8
     },
     "14558": {
       "title": "Too Many Traps",
@@ -61264,7 +61264,7 @@
     },
     "16934": {
       "title": "게임 닉네임",
-      "level": 14
+      "level": 13
     },
     "16935": {
       "title": "배열 돌리기 3",
@@ -63492,7 +63492,7 @@
     },
     "17504": {
       "title": "제리와 톰 2",
-      "level": 7
+      "level": 6
     },
     "17505": {
       "title": "링고와 순열",
@@ -73768,7 +73768,7 @@
     },
     "20090": {
       "title": "Aliens",
-      "level": 24
+      "level": 25
     },
     "20091": {
       "title": "Mountains",
@@ -76852,7 +76852,7 @@
     },
     "20870": {
       "title": "Teleportgång",
-      "level": 16
+      "level": 17
     },
     "20871": {
       "title": "Vilse i tidtabellen",
@@ -80516,7 +80516,7 @@
     },
     "21790": {
       "title": "Ancient Machine",
-      "level": 24
+      "level": 23
     },
     "21791": {
       "title": "Bodyguard",
@@ -88948,7 +88948,7 @@
     },
     "23935": {
       "title": "Wiggle Walk",
-      "level": 0
+      "level": 10
     },
     "23936": {
       "title": "Circuit Board",
@@ -94280,7 +94280,7 @@
     },
     "25304": {
       "title": "영수증",
-      "level": 1
+      "level": 2
     },
     "25305": {
       "title": "커트라인",
@@ -98644,7 +98644,7 @@
     },
     "26418": {
       "title": "Ants on a Stick",
-      "level": 0
+      "level": 16
     },
     "26419": {
       "title": "Palindromic Deletions",
@@ -102324,15 +102324,15 @@
     },
     "27351": {
       "title": "Gardening",
-      "level": 0
+      "level": 23
     },
     "27352": {
       "title": "Present",
-      "level": 0
+      "level": 27
     },
     "27353": {
       "title": "Speedrun",
-      "level": 0
+      "level": 20
     },
     "27354": {
       "title": "NoM",
@@ -104504,7 +104504,7 @@
     },
     "27909": {
       "title": "Diskurs",
-      "level": 18
+      "level": 17
     },
     "27910": {
       "title": "Logaritam",
@@ -104776,7 +104776,7 @@
     },
     "27979": {
       "title": "볼링장 아르바이트",
-      "level": 13
+      "level": 12
     },
     "27980": {
       "title": "문자열 게임",
@@ -104914,6 +104914,34 @@
       "title": "LaLa and Magical Beast Summoning",
       "level": 0
     },
+    "28014": {
+      "title": "첨탑 밀어서 부수기",
+      "level": 3
+    },
+    "28015": {
+      "title": "영역 색칠",
+      "level": 7
+    },
+    "28016": {
+      "title": "경품 추첨",
+      "level": 13
+    },
+    "28017": {
+      "title": "게임을 클리어하자",
+      "level": 11
+    },
+    "28018": {
+      "title": "시간이 겹칠까?",
+      "level": 11
+    },
+    "28019": {
+      "title": "산지니의 여행계획",
+      "level": 16
+    },
+    "28020": {
+      "title": "Attention",
+      "level": 17
+    },
     "28021": {
       "title": "Rocket Launching",
       "level": 0
@@ -104932,39 +104960,39 @@
     },
     "28025": {
       "title": "Pareidolia",
-      "level": 0
+      "level": 23
     },
     "28026": {
       "title": "Good Bitstrings",
-      "level": 0
+      "level": 23
     },
     "28027": {
       "title": "Triples of Cows",
-      "level": 0
+      "level": 25
     },
     "28028": {
       "title": "Custodial Cleanup",
-      "level": 17
+      "level": 19
     },
     "28029": {
       "title": "Pareidolia",
-      "level": 0
+      "level": 13
     },
     "28030": {
       "title": "Tree Merging",
-      "level": 0
+      "level": 17
     },
     "28031": {
       "title": "Milk Sum",
-      "level": 12
+      "level": 15
     },
     "28032": {
       "title": "Field Day",
-      "level": 15
+      "level": 17
     },
     "28033": {
       "title": "Pareidolia",
-      "level": 0
+      "level": 14
     },
     "28034": {
       "title": "FEB",
@@ -104976,6 +105004,70 @@
     },
     "28036": {
       "title": "Rotate and Shift",
+      "level": 0
+    },
+    "28037": {
+      "title": "3차원 좌표변환",
+      "level": 12
+    },
+    "28038": {
+      "title": "2차원 좌표변환",
+      "level": 9
+    },
+    "28039": {
+      "title": "카드 게임 2",
+      "level": 18
+    },
+    "28040": {
+      "title": "Asking for Money",
+      "level": 0
+    },
+    "28041": {
+      "title": "Board Game",
+      "level": 0
+    },
+    "28042": {
+      "title": "City Folding",
+      "level": 0
+    },
+    "28043": {
+      "title": "Daily Trips",
+      "level": 0
+    },
+    "28044": {
+      "title": "Empty Squares",
+      "level": 0
+    },
+    "28045": {
+      "title": "Favorite Tree",
+      "level": 0
+    },
+    "28046": {
+      "title": "Gravitational Wave Detector",
+      "level": 0
+    },
+    "28047": {
+      "title": "Horse Race",
+      "level": 0
+    },
+    "28048": {
+      "title": "Italian Calzone & Pasta Corner",
+      "level": 0
+    },
+    "28049": {
+      "title": "Joining a Marathon",
+      "level": 0
+    },
+    "28050": {
+      "title": "Kind Baker",
+      "level": 0
+    },
+    "28051": {
+      "title": "Lazy Printing",
+      "level": 0
+    },
+    "28052": {
+      "title": "Maze in Bolt",
       "level": 0
     }
   }
