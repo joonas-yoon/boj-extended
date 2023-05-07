@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-06 19:13:04.968761",
+  "last_updated": "2023-05-07 19:13:05.677968",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -8912,7 +8912,7 @@
     },
     "3264": {
       "title": "ONE",
-      "level": 10
+      "level": 11
     },
     "3265": {
       "title": "수열로 수열 구하기",
@@ -12516,7 +12516,7 @@
     },
     "4197": {
       "title": "Logo",
-      "level": 5
+      "level": 6
     },
     "4198": {
       "title": "열차정렬",
@@ -17784,7 +17784,7 @@
     },
     "5604": {
       "title": "問題3",
-      "level": 7
+      "level": 8
     },
     "5605": {
       "title": "問題4",
@@ -20068,7 +20068,7 @@
     },
     "6183": {
       "title": "Word Power",
-      "level": 12
+      "level": 11
     },
     "6184": {
       "title": "Cow Cars",
@@ -32796,7 +32796,7 @@
     },
     "9662": {
       "title": "돌 게임 8",
-      "level": 19
+      "level": 20
     },
     "9663": {
       "title": "N-Queen",
@@ -37116,7 +37116,7 @@
     },
     "10791": {
       "title": "Qanat",
-      "level": 22
+      "level": 23
     },
     "10792": {
       "title": "Ship Traffic",
@@ -40600,7 +40600,7 @@
     },
     "11682": {
       "title": "Landscaping",
-      "level": 20
+      "level": 21
     },
     "11683": {
       "title": "Game of Cards",
@@ -40608,7 +40608,7 @@
     },
     "11684": {
       "title": "Sheldon Numbers",
-      "level": 9
+      "level": 10
     },
     "11685": {
       "title": "Text Processor",
@@ -48248,7 +48248,7 @@
     },
     "13634": {
       "title": "Países em Guerra",
-      "level": 0
+      "level": 11
     },
     "13635": {
       "title": "Concurso de Contos",
@@ -57944,7 +57944,7 @@
     },
     "16104": {
       "title": "Extending Rock-Paper-Scissors",
-      "level": 5
+      "level": 6
     },
     "16105": {
       "title": "Fair Share",
@@ -58400,7 +58400,7 @@
     },
     "16218": {
       "title": "힘 겨루기",
-      "level": 5
+      "level": 6
     },
     "16219": {
       "title": "정렬하기",
@@ -62124,7 +62124,7 @@
     },
     "17160": {
       "title": "Traffic Blights",
-      "level": 27
+      "level": 28
     },
     "17161": {
       "title": "편집 거리 (Hard)",
@@ -102208,7 +102208,7 @@
     },
     "27322": {
       "title": "한별이의 퍼펙트 수열과 쿼리 교실",
-      "level": 22
+      "level": 23
     },
     "27323": {
       "title": "직사각형",
@@ -102324,7 +102324,7 @@
     },
     "27351": {
       "title": "Gardening",
-      "level": 23
+      "level": 21
     },
     "27352": {
       "title": "Present",
@@ -103076,7 +103076,7 @@
     },
     "27551": {
       "title": "Vrsta",
-      "level": 18
+      "level": 19
     },
     "27552": {
       "title": "Tractor Paths",
@@ -104456,7 +104456,7 @@
     },
     "27896": {
       "title": "특별한 서빙",
-      "level": 12
+      "level": 11
     },
     "27897": {
       "title": "특별한 화재 경보",
@@ -104504,7 +104504,7 @@
     },
     "27909": {
       "title": "Diskurs",
-      "level": 17
+      "level": 18
     },
     "27910": {
       "title": "Logaritam",
@@ -104828,7 +104828,7 @@
     },
     "27992": {
       "title": "Two Currencies",
-      "level": 20
+      "level": 21
     },
     "27993": {
       "title": "Festivals in JOI Kingdom 2",
@@ -104844,7 +104844,7 @@
     },
     "27996": {
       "title": "Council",
-      "level": 19
+      "level": 20
     },
     "27997": {
       "title": "Mizuyokan 2",
@@ -104920,11 +104920,11 @@
     },
     "28015": {
       "title": "영역 색칠",
-      "level": 7
+      "level": 8
     },
     "28016": {
       "title": "경품 추첨",
-      "level": 13
+      "level": 14
     },
     "28017": {
       "title": "게임을 클리어하자",
@@ -104936,7 +104936,7 @@
     },
     "28019": {
       "title": "산지니의 여행계획",
-      "level": 16
+      "level": 15
     },
     "28020": {
       "title": "Attention",
@@ -104960,7 +104960,7 @@
     },
     "28025": {
       "title": "Pareidolia",
-      "level": 23
+      "level": 24
     },
     "28026": {
       "title": "Good Bitstrings",
@@ -104980,7 +104980,7 @@
     },
     "28030": {
       "title": "Tree Merging",
-      "level": 17
+      "level": 19
     },
     "28031": {
       "title": "Milk Sum",
@@ -104988,7 +104988,7 @@
     },
     "28032": {
       "title": "Field Day",
-      "level": 17
+      "level": 18
     },
     "28033": {
       "title": "Pareidolia",
