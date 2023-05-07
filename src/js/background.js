@@ -64,16 +64,41 @@ class _Config {
 
 // eslint-disable-next-line valid-jsdoc
 /**
- * fetch problem title, level from solved.ac api
+ * fetch problem title, level via solved.ac api
  * @see {@link https://solvedac.github.io/unofficial-documentation/#/operations/getProblemByIdArray}
  * @param {string[]} pids - list of problem id (up to 100)
  * @param { ({ problemId, titleKo, level }) => void } callback
  */
 function fetchProblemsFromSolvedAc(pids, callback) {
   const query = encodeURIComponent(pids.join(','));
+  console.log(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`);
   fetch(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`)
+    .then((res) => {
+      console.log('fetchProblemsFromSolvedAc', res);
+      return res;
+    })
     .then((res) => res.json())
-    .then(callback);
+    .then(callback)
+    .catch(() => callback(null));
+}
+
+// eslint-disable-next-line valid-jsdoc
+/**
+ * fetch user profile via solved.ac api
+ * @see {@link https://solvedac.github.io/unofficial-documentation/#/operations/getUser}
+ * @param {string} handle - boj nickname
+ * @param { ({ handle, tier, level }) => void } callback
+ */
+function fetchUserFromSolvedAc(handle, callback) {
+  console.log(`https://solved.ac/api/v3/user/show?handle=${handle}`);
+  fetch(`https://solved.ac/api/v3/user/show?handle=${handle}`)
+    .then((res) => {
+      console.log('fetchUserFromSolvedAc', res);
+      return res;
+    })
+    .then((res) => res.json())
+    .then(callback)
+    .catch(() => callback(null));
 }
 
 const Config = new _Config(); // as singleton
@@ -142,6 +167,9 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
       break;
     case 'solved.ac.problems':
       fetchProblemsFromSolvedAc(message.data.value, sendResponse);
+      break;
+    case 'solved.ac.user':
+      fetchUserFromSolvedAc(message.data.value, sendResponse);
       break;
     default:
       break;
