@@ -106,7 +106,11 @@
   const oUserTier = document.getElementsByClassName('option-user-tier');
   for (let i = 0; i < oUserTier.length; ++i) {
     oUserTier[i].addEventListener('change', (evt) => {
-      console.log('[save] option-user-tier', Constants.CONFIG_SHOW_USER_TIER, !!parseInt(evt.target.value));
+      console.log(
+        '[save] option-user-tier',
+        Constants.CONFIG_SHOW_USER_TIER,
+        !!parseInt(evt.target.value)
+      );
       Config.save(
         Constants.CONFIG_SHOW_USER_TIER,
         !!parseInt(evt.target.value)
@@ -115,7 +119,11 @@
   }
 
   Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
-    console.log('[load] option-user-tier', Constants.CONFIG_SHOW_USER_TIER, showUserTier);
+    console.log(
+      '[load] option-user-tier',
+      Constants.CONFIG_SHOW_USER_TIER,
+      showUserTier
+    );
     // default as true
     oUserTier[showUserTier !== false ? 0 : 1].checked = true;
   });
@@ -313,5 +321,14 @@
     oFontFormURL.value = rules['url'] || '';
     oFontFormFamily.value = rules['family'] || '';
     enableFontStyleSetting(rules['enabled'] || false);
+  });
+
+  // global:cache-clear
+  const btnCacheClear = document.getElementById('cache-clear');
+  btnCacheClear.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    // TODO: request to background task
+    localStorage.removeItem('CacheStorage');
+    return false;
   });
 })();
