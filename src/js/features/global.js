@@ -298,16 +298,34 @@ function extendGlobal() {
   function extendUserBadge() {
     if (!isLoggedIn()) return;
 
+    const fetchUserSolvedAc = (handle) => {
+      return new Promise((resolve, reject) => {
+        console.log('request solved.ac.fetch.user', handle);
+        chrome.runtime.sendMessage(
+          {
+            action: 'solved.ac.user',
+            data: {
+              value: handle,
+            },
+          },
+          (response) => {
+            console.groupCollapsed('solved.ac.fetch.user');
+            console.log('api request:', handle);
+            console.log('api response:', response);
+            console.groupEnd();
+            resolve(response);
+          }
+        );
+      });
+    };
+
     const getTier = async (handle) => {
       const cacheKey = `user:${handle}`;
-      const cacheValue = LocalCache.get(cacheKey);
+      // keep user data as local cache in 1 hour
+      const cacheValue = LocalCache.get(cacheKey, { expired: 1000 * 3600 * 1 });
       if (cacheValue === null) return 0;
       if (cacheValue !== undefined) return cacheValue.tier;
-      const info = await fetch(
-        `https://solved.ac/api/v3/user/show?handle=${handle}`
-      )
-        .then((res) => res.json())
-        .catch(() => null);
+      const info = await fetchUserSolvedAc(handle);
       LocalCache.add(cacheKey, info);
       console.log('cache updated', cacheKey, info);
       return info === null ? 0 : info.tier;
@@ -316,7 +334,7 @@ function extendGlobal() {
     Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
       // default as true
       if (showUserTier === false) return;
-      const userTags = document.querySelectorAll('a[href^="/user/"');
+      const userTags = document.querySelectorAll('a[href^="/user/"]');
       userTags.forEach(async (tag) => {
         const tier = await getTier(tag.innerText);
         tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;

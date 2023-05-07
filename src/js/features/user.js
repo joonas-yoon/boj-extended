@@ -173,11 +173,12 @@ function extendUserPage() {
         batch.forEach(({ element: e, id }) => {
           e.setAttribute('data-problem-id', id);
           try {
-            const { level, title } = infoByPid[id];
+            const { level, title } = infoByPid.get(Number(id));
             e.setAttribute('data-tier', level);
             e.setAttribute('data-problem-title', title);
             saveProblemCache(id, infoByPid[id]);
-          } catch {
+          } catch (err) {
+            console.log(`'data-problem-id': ${id}`, err);
             e.setAttribute('data-tier', 0);
             e.setAttribute('data-problem-title', '(가져오기 실패)');
           }
