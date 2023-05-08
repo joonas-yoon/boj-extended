@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-07 19:13:05.677968",
+  "last_updated": "2023-05-08 19:14:22.240718",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -6580,7 +6580,7 @@
     },
     "2669": {
       "title": "직사각형 네개의 합집합의 면적 구하기",
-      "level": 5
+      "level": 6
     },
     "2670": {
       "title": "연속부분최대곱",
@@ -33156,7 +33156,7 @@
     },
     "9763": {
       "title": "마을의 친밀도",
-      "level": 10
+      "level": 11
     },
     "9764": {
       "title": "서로 다른 자연수의 합",
@@ -40596,7 +40596,7 @@
     },
     "11681": {
       "title": "Wooden Signs",
-      "level": 17
+      "level": 16
     },
     "11682": {
       "title": "Landscaping",
@@ -42816,7 +42816,7 @@
     },
     "12258": {
       "title": "Proper Shuffle (Small)",
-      "level": 0
+      "level": 18
     },
     "12259": {
       "title": "Magic Trick (Small)",
@@ -53740,7 +53740,7 @@
     },
     "15039": {
       "title": "Acordes intergaláticos",
-      "level": 19
+      "level": 18
     },
     "15040": {
       "title": "Brincadeira",
@@ -56360,7 +56360,7 @@
     },
     "15698": {
       "title": "Uncrossed Knight’s Tour",
-      "level": 29
+      "level": 30
     },
     "15699": {
       "title": "Wireless is the New Fiber",
@@ -64404,7 +64404,7 @@
     },
     "17736": {
       "title": "JOIOJI",
-      "level": 17
+      "level": 16
     },
     "17737": {
       "title": "Scarecrows",
@@ -74724,7 +74724,7 @@
     },
     "20330": {
       "title": "Bidirectional Code",
-      "level": 16
+      "level": 17
     },
     "20331": {
       "title": "Corrupt Judge",
@@ -76168,7 +76168,7 @@
     },
     "20699": {
       "title": "Almost Balanced Tree",
-      "level": 16
+      "level": 17
     },
     "20700": {
       "title": "Brain-teaser",
@@ -82192,7 +82192,7 @@
     },
     "22221": {
       "title": "Table 1",
-      "level": 4
+      "level": 5
     },
     "22222": {
       "title": "지애 상수",
@@ -94668,7 +94668,7 @@
     },
     "25401": {
       "title": "카드 바꾸기",
-      "level": 11
+      "level": 10
     },
     "25402": {
       "title": "트리와 쿼리",
@@ -98164,7 +98164,7 @@
     },
     "26297": {
       "title": "Egzotična Elegancija",
-      "level": 0
+      "level": 21
     },
     "26298": {
       "title": "Famozni Faraon",
@@ -102324,7 +102324,7 @@
     },
     "27351": {
       "title": "Gardening",
-      "level": 21
+      "level": 22
     },
     "27352": {
       "title": "Present",
@@ -104848,7 +104848,7 @@
     },
     "27997": {
       "title": "Mizuyokan 2",
-      "level": 0
+      "level": 23
     },
     "27998": {
       "title": "Chorus",
