@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-08 19:14:22.240718",
+  "last_updated": "2023-05-09 19:13:11.132026",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4132,7 +4132,7 @@
     },
     "2047": {
       "title": "미로",
-      "level": 13
+      "level": 15
     },
     "2049": {
       "title": "가장 먼 두 점",
@@ -11628,7 +11628,7 @@
     },
     "3973": {
       "title": "Time To Live",
-      "level": 13
+      "level": 14
     },
     "3974": {
       "title": "Absurd prices",
@@ -17932,7 +17932,7 @@
     },
     "5641": {
       "title": "겉보기에 쌍둥이 소수",
-      "level": 11
+      "level": 12
     },
     "5642": {
       "title": "퀸 게임",
@@ -25148,7 +25148,7 @@
     },
     "7659": {
       "title": "Rubik 2^3",
-      "level": 18
+      "level": 19
     },
     "7660": {
       "title": "Apocalyptic Alignment",
@@ -29612,7 +29612,7 @@
     },
     "8827": {
       "title": "Bukmacherzy",
-      "level": 5
+      "level": 6
     },
     "8828": {
       "title": "Ciastka",
@@ -31260,7 +31260,7 @@
     },
     "9265": {
       "title": "Count",
-      "level": 8
+      "level": 9
     },
     "9266": {
       "title": "체스 게임",
@@ -33156,7 +33156,7 @@
     },
     "9763": {
       "title": "마을의 친밀도",
-      "level": 11
+      "level": 10
     },
     "9764": {
       "title": "서로 다른 자연수의 합",
@@ -33476,7 +33476,7 @@
     },
     "9850": {
       "title": "Cipher",
-      "level": 4
+      "level": 5
     },
     "9851": {
       "title": "Hole",
@@ -35548,7 +35548,7 @@
     },
     "10386": {
       "title": "\\(\\text{Con}+\\cfrac{\\text{tin}}{\\text{ued}+\\cfrac{\\text{Frac}}{\\text{tions}}}\\)",
-      "level": 15
+      "level": 14
     },
     "10387": {
       "title": "A Cure for the Common Code",
@@ -43484,7 +43484,7 @@
     },
     "12429": {
       "title": "생존자 (Small)",
-      "level": 11
+      "level": 12
     },
     "12430": {
       "title": "생존자 (Large)",
@@ -43596,7 +43596,7 @@
     },
     "12457": {
       "title": "ビット数 (Small)",
-      "level": 10
+      "level": 9
     },
     "12458": {
       "title": "ビット数 (Large)",
@@ -50456,7 +50456,7 @@
     },
     "14205": {
       "title": "함수",
-      "level": 19
+      "level": 21
     },
     "14206": {
       "title": "선데이 코딩",
@@ -51544,7 +51544,7 @@
     },
     "14477": {
       "title": "Assembly Required",
-      "level": 18
+      "level": 17
     },
     "14478": {
       "title": "Bulbs",
@@ -55828,7 +55828,7 @@
     },
     "15563": {
       "title": "Äventyr 1",
-      "level": 11
+      "level": 10
     },
     "15564": {
       "title": "Äventyr 2",
@@ -64984,7 +64984,7 @@
     },
     "17884": {
       "title": "Lost Lineup",
-      "level": 4
+      "level": 3
     },
     "17885": {
       "title": "Bus Planning",
@@ -66808,7 +66808,7 @@
     },
     "18340": {
       "title": "Plan B",
-      "level": 17
+      "level": 18
     },
     "18341": {
       "title": "The Assembly Code",
@@ -72072,7 +72072,7 @@
     },
     "19661": {
       "title": "Arcade",
-      "level": 15
+      "level": 16
     },
     "19662": {
       "title": "Aesthetic",
@@ -76020,7 +76020,7 @@
     },
     "20662": {
       "title": "Hop",
-      "level": 22
+      "level": 21
     },
     "20663": {
       "title": "Janjetina",
@@ -80868,7 +80868,7 @@
     },
     "21880": {
       "title": "The Game",
-      "level": 4
+      "level": 5
     },
     "21881": {
       "title": "Innome",
@@ -86648,7 +86648,7 @@
     },
     "23360": {
       "title": "QuackQuack (Easy)",
-      "level": 17
+      "level": 16
     },
     "23361": {
       "title": "QuackQuack (Hard)",
@@ -88792,7 +88792,7 @@
     },
     "23896": {
       "title": "Plates",
-      "level": 14
+      "level": 13
     },
     "23897": {
       "title": "Workout",
@@ -93888,7 +93888,7 @@
     },
     "25200": {
       "title": "곰곰이와 자판기",
-      "level": 15
+      "level": 16
     },
     "25201": {
       "title": "보드 뒤집기 게임",
@@ -95548,7 +95548,7 @@
     },
     "25633": {
       "title": "도미노 넘어뜨리기",
-      "level": 11
+      "level": 10
     },
     "25634": {
       "title": "전구 상태 뒤집기",
@@ -96156,7 +96156,7 @@
     },
     "25787": {
       "title": "Square Fishing Net",
-      "level": 5
+      "level": 6
     },
     "25788": {
       "title": "Aqualin",
@@ -102328,7 +102328,7 @@
     },
     "27352": {
       "title": "Present",
-      "level": 27
+      "level": 26
     },
     "27353": {
       "title": "Speedrun",
@@ -103824,7 +103824,7 @@
     },
     "27738": {
       "title": "연산자 파티",
-      "level": 11
+      "level": 10
     },
     "27739": {
       "title": "수열 재배열",
@@ -104252,7 +104252,7 @@
     },
     "27845": {
       "title": "Piling Papers",
-      "level": 20
+      "level": 21
     },
     "27846": {
       "title": "Bakery",
@@ -104648,7 +104648,7 @@
     },
     "27947": {
       "title": "가지 밭 게임",
-      "level": 18
+      "level": 17
     },
     "27948": {
       "title": "가지 자르기",
@@ -104996,7 +104996,7 @@
     },
     "28034": {
       "title": "FEB",
-      "level": 0
+      "level": 12
     },
     "28035": {
       "title": "Moo Language",
@@ -105004,7 +105004,7 @@
     },
     "28036": {
       "title": "Rotate and Shift",
-      "level": 0
+      "level": 14
     },
     "28037": {
       "title": "3차원 좌표변환",
@@ -105020,7 +105020,7 @@
     },
     "28040": {
       "title": "Asking for Money",
-      "level": 0
+      "level": 15
     },
     "28041": {
       "title": "Board Game",
@@ -105028,15 +105028,15 @@
     },
     "28042": {
       "title": "City Folding",
-      "level": 0
+      "level": 14
     },
     "28043": {
       "title": "Daily Trips",
-      "level": 0
+      "level": 5
     },
     "28044": {
       "title": "Empty Squares",
-      "level": 0
+      "level": 14
     },
     "28045": {
       "title": "Favorite Tree",
@@ -105048,11 +105048,11 @@
     },
     "28047": {
       "title": "Horse Race",
-      "level": 0
+      "level": 19
     },
     "28048": {
       "title": "Italian Calzone & Pasta Corner",
-      "level": 0
+      "level": 12
     },
     "28049": {
       "title": "Joining a Marathon",
@@ -105068,7 +105068,7 @@
     },
     "28052": {
       "title": "Maze in Bolt",
-      "level": 0
+      "level": 13
     }
   }
 }
