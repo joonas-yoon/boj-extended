@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-09 19:13:11.132026",
+  "last_updated": "2023-05-10 19:18:19.627392",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5252,7 +5252,7 @@
     },
     "2332": {
       "title": "전화번호",
-      "level": 11
+      "level": 12
     },
     "2333": {
       "title": "생존과 탈출",
@@ -27736,7 +27736,7 @@
     },
     "8356": {
       "title": "Chessboard",
-      "level": 0
+      "level": 21
     },
     "8357": {
       "title": "Cliquers Strike Back",
@@ -32160,7 +32160,7 @@
     },
     "9502": {
       "title": "Bones’s Battery",
-      "level": 15
+      "level": 16
     },
     "9503": {
       "title": "Crusher’s Code",
@@ -33984,7 +33984,7 @@
     },
     "9993": {
       "title": "Mirror Field",
-      "level": 10
+      "level": 11
     },
     "9994": {
       "title": "Secret Code",
@@ -34644,7 +34644,7 @@
     },
     "10160": {
       "title": "암호",
-      "level": 15
+      "level": 14
     },
     "10161": {
       "title": "톨게이트",
@@ -34748,7 +34748,7 @@
     },
     "10186": {
       "title": "Rummikub",
-      "level": 7
+      "level": 8
     },
     "10187": {
       "title": "Golden",
@@ -46336,7 +46336,7 @@
     },
     "13155": {
       "title": "Common Knowledge",
-      "level": 4
+      "level": 5
     },
     "13156": {
       "title": "Selling CPUs",
@@ -55860,7 +55860,7 @@
     },
     "15571": {
       "title": "블록 3",
-      "level": 15
+      "level": 14
     },
     "15572": {
       "title": "블록 4",
@@ -64712,7 +64712,7 @@
     },
     "17816": {
       "title": "Beer Vision",
-      "level": 12
+      "level": 13
     },
     "17817": {
       "title": "Trol",
@@ -76128,7 +76128,7 @@
     },
     "20689": {
       "title": "Forbidden Card",
-      "level": 20
+      "level": 21
     },
     "20690": {
       "title": "Exchange Bottleneck",
@@ -79360,7 +79360,7 @@
     },
     "21497": {
       "title": "Укладка плитки",
-      "level": 18
+      "level": 17
     },
     "21498": {
       "title": "Магические порталы",
@@ -82328,7 +82328,7 @@
     },
     "22259": {
       "title": "Fraud",
-      "level": 12
+      "level": 13
     },
     "22260": {
       "title": "Archaeologist",
@@ -92028,7 +92028,7 @@
     },
     "24733": {
       "title": "이것도 XOR해 보시지",
-      "level": 18
+      "level": 19
     },
     "24734": {
       "title": "Eerie Shadows",
@@ -96744,7 +96744,7 @@
     },
     "25934": {
       "title": "Brownies vs. Candies vs. Cookies",
-      "level": 4
+      "level": 5
     },
     "25935": {
       "title": "Lemonade Stand",
@@ -98168,7 +98168,7 @@
     },
     "26298": {
       "title": "Famozni Faraon",
-      "level": 0
+      "level": 21
     },
     "26299": {
       "title": "Glomazna Gužva",
@@ -99584,7 +99584,7 @@
     },
     "26657": {
       "title": "진단 0 : 1",
-      "level": 17
+      "level": 18
     },
     "26658": {
       "title": "소떡소떡",
@@ -104996,7 +104996,7 @@
     },
     "28034": {
       "title": "FEB",
-      "level": 12
+      "level": 9
     },
     "28035": {
       "title": "Moo Language",
@@ -105004,7 +105004,7 @@
     },
     "28036": {
       "title": "Rotate and Shift",
-      "level": 14
+      "level": 11
     },
     "28037": {
       "title": "3차원 좌표변환",
@@ -105064,7 +105064,7 @@
     },
     "28051": {
       "title": "Lazy Printing",
-      "level": 0
+      "level": 18
     },
     "28052": {
       "title": "Maze in Bolt",
