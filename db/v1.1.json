@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-10 19:18:19.627392",
+  "last_updated": "2023-05-11 19:12:29.720922",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3508,7 +3508,7 @@
     },
     "1885": {
       "title": "비부분수열",
-      "level": 12
+      "level": 13
     },
     "1886": {
       "title": "프리즌 브레이크",
@@ -4216,7 +4216,7 @@
     },
     "2069": {
       "title": "보이는 산맥",
-      "level": 14
+      "level": 13
     },
     "2070": {
       "title": "목걸이 수열",
@@ -5820,7 +5820,7 @@
     },
     "2479": {
       "title": "경로 찾기",
-      "level": 13
+      "level": 12
     },
     "2480": {
       "title": "주사위 세개",
@@ -19788,7 +19788,7 @@
     },
     "6109": {
       "title": "Dairy Queen",
-      "level": 10
+      "level": 11
     },
     "6110": {
       "title": "Watering - 2",
@@ -28988,7 +28988,7 @@
     },
     "8671": {
       "title": "Długa taśma",
-      "level": 4
+      "level": 5
     },
     "8672": {
       "title": "Drabina",
@@ -32140,7 +32140,7 @@
     },
     "9497": {
       "title": "피라미드 수열",
-      "level": 17
+      "level": 18
     },
     "9498": {
       "title": "시험 성적",
@@ -43488,7 +43488,7 @@
     },
     "12430": {
       "title": "생존자 (Large)",
-      "level": 16
+      "level": 17
     },
     "12431": {
       "title": "장터판 (Small)",
@@ -43596,7 +43596,7 @@
     },
     "12457": {
       "title": "ビット数 (Small)",
-      "level": 9
+      "level": 8
     },
     "12458": {
       "title": "ビット数 (Large)",
@@ -45704,7 +45704,7 @@
     },
     "12985": {
       "title": "비밀 회선",
-      "level": 9
+      "level": 14
     },
     "12986": {
       "title": "화려한 마을2",
@@ -92788,7 +92788,7 @@
     },
     "24924": {
       "title": "Card Divisibility",
-      "level": 5
+      "level": 6
     },
     "24925": {
       "title": "Clumsy Cardinals",
@@ -100980,7 +100980,7 @@
     },
     "27014": {
       "title": "Cube Stacking",
-      "level": 0
+      "level": 14
     },
     "27015": {
       "title": "Turning in Homework",
@@ -104456,7 +104456,7 @@
     },
     "27896": {
       "title": "특별한 서빙",
-      "level": 11
+      "level": 12
     },
     "27897": {
       "title": "특별한 화재 경보",
@@ -104884,7 +104884,7 @@
     },
     "28006": {
       "title": "LaLa and Lamp",
-      "level": 18
+      "level": 19
     },
     "28007": {
       "title": "LaLa and Magic Stone",
@@ -104988,7 +104988,7 @@
     },
     "28032": {
       "title": "Field Day",
-      "level": 18
+      "level": 19
     },
     "28033": {
       "title": "Pareidolia",
@@ -104996,7 +104996,7 @@
     },
     "28034": {
       "title": "FEB",
-      "level": 9
+      "level": 10
     },
     "28035": {
       "title": "Moo Language",
@@ -105036,7 +105036,7 @@
     },
     "28044": {
       "title": "Empty Squares",
-      "level": 14
+      "level": 13
     },
     "28045": {
       "title": "Favorite Tree",
@@ -105048,7 +105048,7 @@
     },
     "28047": {
       "title": "Horse Race",
-      "level": 19
+      "level": 18
     },
     "28048": {
       "title": "Italian Calzone & Pasta Corner",
@@ -105068,7 +105068,7 @@
     },
     "28052": {
       "title": "Maze in Bolt",
-      "level": 13
+      "level": 14
     }
   }
 }
