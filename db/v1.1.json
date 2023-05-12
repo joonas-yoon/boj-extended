@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-11 19:12:29.720922",
+  "last_updated": "2023-05-12 19:13:47.538120",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -596,7 +596,7 @@
     },
     "1148": {
       "title": "단어 만들기",
-      "level": 11
+      "level": 12
     },
     "1149": {
       "title": "RGB거리",
@@ -680,7 +680,7 @@
     },
     "1169": {
       "title": "정사각형 진열",
-      "level": 15
+      "level": 16
     },
     "1170": {
       "title": "선인장의 개수",
@@ -3948,7 +3948,7 @@
     },
     "2000": {
       "title": "책장제작",
-      "level": 0
+      "level": 20
     },
     "2001": {
       "title": "보석 줍기",
@@ -4624,7 +4624,7 @@
     },
     "2173": {
       "title": "양파깡 만들기",
-      "level": 13
+      "level": 14
     },
     "2174": {
       "title": "로봇 시뮬레이션",
@@ -7492,7 +7492,7 @@
     },
     "2901": {
       "title": "CHUCK",
-      "level": 0
+      "level": 22
     },
     "2902": {
       "title": "KMP는 왜 KMP일까?",
@@ -10988,7 +10988,7 @@
     },
     "3800": {
       "title": "Art Gallery",
-      "level": 0
+      "level": 22
     },
     "3801": {
       "title": "Game",
@@ -18432,7 +18432,7 @@
     },
     "5769": {
       "title": "Make a Guess",
-      "level": 0
+      "level": 10
     },
     "5770": {
       "title": "Dice",
@@ -24328,7 +24328,7 @@
     },
     "7452": {
       "title": "Buy or Build",
-      "level": 0
+      "level": 15
     },
     "7453": {
       "title": "합이 0인 네 정수",
@@ -24584,7 +24584,7 @@
     },
     "7516": {
       "title": "알렉산드리아의 디오판토스",
-      "level": 14
+      "level": 15
     },
     "7517": {
       "title": "Tudoku",
@@ -28952,7 +28952,7 @@
     },
     "8662": {
       "title": "Szuflady",
-      "level": 6
+      "level": 7
     },
     "8663": {
       "title": "Konik polny",
@@ -28960,7 +28960,7 @@
     },
     "8664": {
       "title": "Kwadrat",
-      "level": 5
+      "level": 6
     },
     "8665": {
       "title": "Odległość",
@@ -33108,7 +33108,7 @@
     },
     "9741": {
       "title": "Interior Lattice Points",
-      "level": 0
+      "level": 13
     },
     "9742": {
       "title": "순열",
@@ -36772,7 +36772,7 @@
     },
     "10704": {
       "title": "KRATKI",
-      "level": 15
+      "level": 16
     },
     "10705": {
       "title": "NEO",
@@ -38272,7 +38272,7 @@
     },
     "11082": {
       "title": "소수를 분수로",
-      "level": 10
+      "level": 11
     },
     "11083": {
       "title": "Resistance Is (Not) Futile!",
@@ -45704,7 +45704,7 @@
     },
     "12985": {
       "title": "비밀 회선",
-      "level": 14
+      "level": 16
     },
     "12986": {
       "title": "화려한 마을2",
@@ -69968,7 +69968,7 @@
     },
     "19134": {
       "title": "$2x + 2$",
-      "level": 16
+      "level": 17
     },
     "19135": {
       "title": "Escape Sequences",
@@ -72896,7 +72896,7 @@
     },
     "19871": {
       "title": "Превышение скорости",
-      "level": 0
+      "level": 12
     },
     "19872": {
       "title": "Борьба с рутиной",
@@ -78556,7 +78556,7 @@
     },
     "21296": {
       "title": "팩토리얼",
-      "level": 28
+      "level": 26
     },
     "21297": {
       "title": "댓글, 구독, 크리에이터와의 교류",
@@ -80880,7 +80880,7 @@
     },
     "21883": {
       "title": "Game of Wizards",
-      "level": 23
+      "level": 24
     },
     "21884": {
       "title": "Boolean Expression",
@@ -88692,7 +88692,7 @@
     },
     "23871": {
       "title": "HILO",
-      "level": 20
+      "level": 21
     },
     "23872": {
       "title": "Paired Up",
@@ -88708,7 +88708,7 @@
     },
     "23875": {
       "title": "Closest Cow Wins",
-      "level": 19
+      "level": 18
     },
     "23876": {
       "title": "Connecting Two Barns",
@@ -92820,7 +92820,7 @@
     },
     "24932": {
       "title": "Problematic Polygons",
-      "level": 19
+      "level": 18
     },
     "24933": {
       "title": "Quadratic Dissonance",
@@ -94280,7 +94280,7 @@
     },
     "25304": {
       "title": "영수증",
-      "level": 2
+      "level": 1
     },
     "25305": {
       "title": "커트라인",
@@ -101672,7 +101672,7 @@
     },
     "27188": {
       "title": "The Length of the Sequence",
-      "level": 11
+      "level": 12
     },
     "27189": {
       "title": "Pines",
@@ -104968,11 +104968,11 @@
     },
     "28027": {
       "title": "Triples of Cows",
-      "level": 25
+      "level": 26
     },
     "28028": {
       "title": "Custodial Cleanup",
-      "level": 19
+      "level": 18
     },
     "28029": {
       "title": "Pareidolia",
@@ -104992,7 +104992,7 @@
     },
     "28033": {
       "title": "Pareidolia",
-      "level": 14
+      "level": 16
     },
     "28034": {
       "title": "FEB",
@@ -105004,7 +105004,7 @@
     },
     "28036": {
       "title": "Rotate and Shift",
-      "level": 11
+      "level": 10
     },
     "28037": {
       "title": "3차원 좌표변환",
@@ -105052,7 +105052,7 @@
     },
     "28048": {
       "title": "Italian Calzone & Pasta Corner",
-      "level": 12
+      "level": 13
     },
     "28049": {
       "title": "Joining a Marathon",
