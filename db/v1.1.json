@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-12 19:13:47.538120",
+  "last_updated": "2023-05-14 19:13:02.837151",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2824,7 +2824,7 @@
     },
     "1711": {
       "title": "직각삼각형",
-      "level": 10
+      "level": 11
     },
     "1712": {
       "title": "손익분기점",
@@ -4188,7 +4188,7 @@
     },
     "2062": {
       "title": "곱하기 게임",
-      "level": 13
+      "level": 14
     },
     "2063": {
       "title": "철사 연결",
@@ -7936,7 +7936,7 @@
     },
     "3012": {
       "title": "올바른 괄호 문자열",
-      "level": 19
+      "level": 18
     },
     "3013": {
       "title": "부분 수열의 중앙값",
@@ -10280,7 +10280,7 @@
     },
     "3620": {
       "title": "Feng Shui",
-      "level": 0
+      "level": 21
     },
     "3621": {
       "title": "족보",
@@ -15796,7 +15796,7 @@
     },
     "5033": {
       "title": "Money Matters",
-      "level": 10
+      "level": 11
     },
     "5034": {
       "title": "Allergy Test",
@@ -22212,7 +22212,7 @@
     },
     "6740": {
       "title": "Rotating Scoreboard",
-      "level": 0
+      "level": 23
     },
     "6741": {
       "title": "ACM Underground",
@@ -23200,7 +23200,7 @@
     },
     "6995": {
       "title": "Hand Detection",
-      "level": 4
+      "level": 5
     },
     "6996": {
       "title": "애너그램",
@@ -31340,7 +31340,7 @@
     },
     "9285": {
       "title": "Watering - 1",
-      "level": 4
+      "level": 5
     },
     "9286": {
       "title": "Gradabase",
@@ -38720,7 +38720,7 @@
     },
     "11194": {
       "title": "Car Game",
-      "level": 11
+      "level": 12
     },
     "11195": {
       "title": "Peragrams",
@@ -40604,7 +40604,7 @@
     },
     "11683": {
       "title": "Game of Cards",
-      "level": 18
+      "level": 19
     },
     "11684": {
       "title": "Sheldon Numbers",
@@ -44796,7 +44796,7 @@
     },
     "12758": {
       "title": "천상용섬",
-      "level": 16
+      "level": 15
     },
     "12759": {
       "title": "틱! 택! 토!",
@@ -45704,7 +45704,7 @@
     },
     "12985": {
       "title": "비밀 회선",
-      "level": 16
+      "level": 14
     },
     "12986": {
       "title": "화려한 마을2",
@@ -52012,7 +52012,7 @@
     },
     "14595": {
       "title": "동방 프로젝트 (Large)",
-      "level": 12
+      "level": 13
     },
     "14596": {
       "title": "Quilting (Small)",
@@ -54640,7 +54640,7 @@
     },
     "15264": {
       "title": "Gambling Guide",
-      "level": 20
+      "level": 21
     },
     "15265": {
       "title": "Hidden Hierarchy",
@@ -58272,7 +58272,7 @@
     },
     "16186": {
       "title": "Fractions",
-      "level": 11
+      "level": 12
     },
     "16187": {
       "title": "Game on Plane",
@@ -58384,7 +58384,7 @@
     },
     "16214": {
       "title": "N과 M",
-      "level": 20
+      "level": 21
     },
     "16215": {
       "title": "Build a Wall!",
@@ -58568,7 +58568,7 @@
     },
     "16260": {
       "title": "Very Important Persons",
-      "level": 5
+      "level": 6
     },
     "16261": {
       "title": "Least Common Multiple",
@@ -78740,7 +78740,7 @@
     },
     "21342": {
       "title": "Flight Collision",
-      "level": 17
+      "level": 18
     },
     "21343": {
       "title": "Great Expectations",
@@ -78752,7 +78752,7 @@
     },
     "21345": {
       "title": "Island Tour",
-      "level": 18
+      "level": 19
     },
     "21346": {
       "title": "Joint Excavation",
@@ -82632,7 +82632,7 @@
     },
     "22354": {
       "title": "돌 가져가기",
-      "level": 18
+      "level": 19
     },
     "22355": {
       "title": "말뚝",
@@ -83928,7 +83928,7 @@
     },
     "22678": {
       "title": "Do It",
-      "level": 0
+      "level": 21
     },
     "22679": {
       "title": "Robot Communication",
@@ -84296,7 +84296,7 @@
     },
     "22770": {
       "title": "Ellipse Intersection",
-      "level": 16
+      "level": 17
     },
     "22771": {
       "title": "Garbage Collection",
@@ -94148,7 +94148,7 @@
     },
     "25267": {
       "title": "Permutation",
-      "level": 20
+      "level": 21
     },
     "25268": {
       "title": "Name Generation",
@@ -95548,7 +95548,7 @@
     },
     "25633": {
       "title": "도미노 넘어뜨리기",
-      "level": 10
+      "level": 11
     },
     "25634": {
       "title": "전구 상태 뒤집기",
@@ -95988,7 +95988,7 @@
     },
     "25745": {
       "title": "Computation - Task 1",
-      "level": 5
+      "level": 6
     },
     "25746": {
       "title": "Computation - Task 2",
@@ -95996,7 +95996,7 @@
     },
     "25747": {
       "title": "Computation - Task 3",
-      "level": 13
+      "level": 14
     },
     "25748": {
       "title": "Computation - Task 4",
@@ -104852,7 +104852,7 @@
     },
     "27998": {
       "title": "Chorus",
-      "level": 0
+      "level": 26
     },
     "27999": {
       "title": "Cookies",
@@ -104876,19 +104876,19 @@
     },
     "28004": {
       "title": "LaLa and Magic Circle (LiLi Version)",
-      "level": 0
+      "level": 25
     },
     "28005": {
       "title": "LaLa and Magic Circle (LaLa Version)",
-      "level": 0
+      "level": 29
     },
     "28006": {
       "title": "LaLa and Lamp",
-      "level": 19
+      "level": 18
     },
     "28007": {
       "title": "LaLa and Magic Stone",
-      "level": 22
+      "level": 21
     },
     "28008": {
       "title": "LaLa and Monster Hunting (Part 1)",
@@ -104900,19 +104900,19 @@
     },
     "28010": {
       "title": "LaLa and Divination Magic",
-      "level": 23
+      "level": 22
     },
     "28011": {
       "title": "LaLa and Harvesting",
-      "level": 27
+      "level": 26
     },
     "28012": {
       "title": "LaLa and Spirit Summoning",
-      "level": 0
+      "level": 28
     },
     "28013": {
       "title": "LaLa and Magical Beast Summoning",
-      "level": 0
+      "level": 25
     },
     "28014": {
       "title": "첨탑 밀어서 부수기",
@@ -104980,7 +104980,7 @@
     },
     "28030": {
       "title": "Tree Merging",
-      "level": 19
+      "level": 20
     },
     "28031": {
       "title": "Milk Sum",
@@ -105060,7 +105060,7 @@
     },
     "28050": {
       "title": "Kind Baker",
-      "level": 0
+      "level": 17
     },
     "28051": {
       "title": "Lazy Printing",
