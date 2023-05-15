@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-14 19:13:02.837151",
+  "last_updated": "2023-05-15 19:13:01.461653",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4300,7 +4300,7 @@
     },
     "2091": {
       "title": "동전",
-      "level": 14
+      "level": 13
     },
     "2092": {
       "title": "집합의 개수",
@@ -10280,7 +10280,7 @@
     },
     "3620": {
       "title": "Feng Shui",
-      "level": 21
+      "level": 22
     },
     "3621": {
       "title": "족보",
@@ -15640,7 +15640,7 @@
     },
     "4994": {
       "title": "배수 찾기",
-      "level": 14
+      "level": 13
     },
     "4995": {
       "title": "원과 점",
@@ -25280,7 +25280,7 @@
     },
     "7692": {
       "title": "Election",
-      "level": 0
+      "level": 4
     },
     "7693": {
       "title": "Nash Equilibrium",
@@ -33968,7 +33968,7 @@
     },
     "9989": {
       "title": "Cow Decathlon",
-      "level": 17
+      "level": 18
     },
     "9990": {
       "title": "Airplane Boarding",
@@ -35744,7 +35744,7 @@
     },
     "10435": {
       "title": "만칼라",
-      "level": 18
+      "level": 17
     },
     "10436": {
       "title": "무한 유리수 트리",
@@ -39000,7 +39000,7 @@
     },
     "11264": {
       "title": "Logical Functions: AND-OR",
-      "level": 4
+      "level": 5
     },
     "11265": {
       "title": "끝나지 않는 파티",
@@ -40048,7 +40048,7 @@
     },
     "11544": {
       "title": "D as in Daedalus",
-      "level": 4
+      "level": 5
     },
     "11545": {
       "title": "Exposing corruption",
@@ -48952,7 +48952,7 @@
     },
     "13810": {
       "title": "Futon",
-      "level": 14
+      "level": 15
     },
     "13811": {
       "title": "Safe Area",
@@ -49728,7 +49728,7 @@
     },
     "14006": {
       "title": "Large Ping Pong Tournament",
-      "level": 7
+      "level": 8
     },
     "14007": {
       "title": "Small Weird Measurements",
@@ -50804,7 +50804,7 @@
     },
     "14292": {
       "title": "Beautiful Numbers (Small)",
-      "level": 8
+      "level": 7
     },
     "14293": {
       "title": "Beautiful Numbers (Large)",
@@ -61996,7 +61996,7 @@
     },
     "17128": {
       "title": "소가 정보섬에 올라온 이유",
-      "level": 8
+      "level": 9
     },
     "17129": {
       "title": "윌리암슨수액빨이딱따구리가 정보섬에 올라온 이유",
@@ -65716,7 +65716,7 @@
     },
     "18067": {
       "title": "Accurate Movement",
-      "level": 4
+      "level": 5
     },
     "18068": {
       "title": "Bad Treap",
@@ -73212,7 +73212,7 @@
     },
     "19950": {
       "title": "3차원 막대기 연결하기",
-      "level": 11
+      "level": 12
     },
     "19951": {
       "title": "태상이의 훈련소 생활",
@@ -84696,7 +84696,7 @@
     },
     "22870": {
       "title": "산책 (large)",
-      "level": 17
+      "level": 16
     },
     "22871": {
       "title": "징검다리 건너기 (large)",
@@ -89956,7 +89956,7 @@
     },
     "24200": {
       "title": "Plocka Äpplen",
-      "level": 11
+      "level": 10
     },
     "24201": {
       "title": "Tankeläsning",
@@ -90128,7 +90128,7 @@
     },
     "24258": {
       "title": "Sum and product",
-      "level": 27
+      "level": 25
     },
     "24259": {
       "title": "Monopoly",
@@ -91064,7 +91064,7 @@
     },
     "24492": {
       "title": "Cow Frisbee",
-      "level": 13
+      "level": 14
     },
     "24493": {
       "title": "Cereal 2",
@@ -93976,7 +93976,7 @@
     },
     "25222": {
       "title": "Bi-ing Lottery Treekets",
-      "level": 0
+      "level": 22
     },
     "25223": {
       "title": "Phone Plans",
@@ -96124,7 +96124,7 @@
     },
     "25779": {
       "title": "Which Number",
-      "level": 15
+      "level": 16
     },
     "25780": {
       "title": "Maximum Satisfaction",
@@ -100472,7 +100472,7 @@
     },
     "26886": {
       "title": "Plocka Äpplen",
-      "level": 11
+      "level": 10
     },
     "26887": {
       "title": "Skridskor",
@@ -100852,7 +100852,7 @@
     },
     "26982": {
       "title": "Stall Reservations",
-      "level": 0
+      "level": 11
     },
     "26983": {
       "title": "DNA Assembly",
@@ -100940,7 +100940,7 @@
     },
     "27004": {
       "title": "Waves",
-      "level": 0
+      "level": 18
     },
     "27005": {
       "title": "Navigating the City",
@@ -100948,11 +100948,11 @@
     },
     "27006": {
       "title": "Space Elevator",
-      "level": 0
+      "level": 13
     },
     "27007": {
       "title": "Yogurt factory",
-      "level": 0
+      "level": 9
     },
     "27008": {
       "title": "Checking an Alibi",
@@ -101468,7 +101468,7 @@
     },
     "27137": {
       "title": "Square Designs",
-      "level": 6
+      "level": 5
     },
     "27138": {
       "title": "Runaround Numbers",
@@ -102380,7 +102380,7 @@
     },
     "27377": {
       "title": "읽씹 멈춰!",
-      "level": 12
+      "level": 13
     },
     "27378": {
       "title": "아 또 XOR이야?",
@@ -102632,7 +102632,7 @@
     },
     "27440": {
       "title": "1로 만들기 3",
-      "level": 13
+      "level": 12
     },
     "27441": {
       "title": "영화감독 숌 3",
@@ -104788,7 +104788,7 @@
     },
     "27982": {
       "title": "큐브 더미",
-      "level": 4
+      "level": 5
     },
     "27983": {
       "title": "리본 (Easy)",
@@ -105069,6 +105069,38 @@
     "28052": {
       "title": "Maze in Bolt",
       "level": 14
+    },
+    "28053": {
+      "title": "Simple Game",
+      "level": 9
+    },
+    "28054": {
+      "title": "Clique Partition",
+      "level": 15
+    },
+    "28055": {
+      "title": "Monochrome Tree",
+      "level": 13
+    },
+    "28056": {
+      "title": "Merging Branches",
+      "level": 19
+    },
+    "28057": {
+      "title": "Binary Sequence and Queries",
+      "level": 22
+    },
+    "28058": {
+      "title": "Tsunami",
+      "level": 0
+    },
+    "28059": {
+      "title": "Remix",
+      "level": 21
+    },
+    "28060": {
+      "title": "Good Night",
+      "level": 0
     }
   }
 }
