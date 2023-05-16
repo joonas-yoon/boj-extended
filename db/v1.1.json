@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-15 19:13:01.461653",
+  "last_updated": "2023-05-16 19:13:05.661220",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7104,7 +7104,7 @@
     },
     "2804": {
       "title": "크로스워드 만들기",
-      "level": 4
+      "level": 5
     },
     "2805": {
       "title": "나무 자르기",
@@ -8216,7 +8216,7 @@
     },
     "3087": {
       "title": "상근일",
-      "level": 11
+      "level": 12
     },
     "3088": {
       "title": "화분 부수기",
@@ -20312,7 +20312,7 @@
     },
     "6251": {
       "title": "Leaking Dike",
-      "level": 3
+      "level": 4
     },
     "6252": {
       "title": "Fire Evacuation Plan",
@@ -20848,7 +20848,7 @@
     },
     "6386": {
       "title": "Cog-Wheels",
-      "level": 0
+      "level": 13
     },
     "6388": {
       "title": "Enigma",
@@ -25280,7 +25280,7 @@
     },
     "7692": {
       "title": "Election",
-      "level": 4
+      "level": 5
     },
     "7693": {
       "title": "Nash Equilibrium",
@@ -29800,7 +29800,7 @@
     },
     "8874": {
       "title": "웜뱃",
-      "level": 25
+      "level": 26
     },
     "8875": {
       "title": "장난감 정리 로봇",
@@ -30760,7 +30760,7 @@
     },
     "9130": {
       "title": "Herbert",
-      "level": 0
+      "level": 11
     },
     "9131": {
       "title": "Oh, Those Achin' Feet",
@@ -33812,7 +33812,7 @@
     },
     "9942": {
       "title": "하노이의 네 탑",
-      "level": 13
+      "level": 14
     },
     "9943": {
       "title": "Light Switches",
@@ -46484,7 +46484,7 @@
     },
     "13192": {
       "title": "Router 1",
-      "level": 4
+      "level": 5
     },
     "13193": {
       "title": "Router 2",
@@ -58604,7 +58604,7 @@
     },
     "16269": {
       "title": "Nice Report",
-      "level": 0
+      "level": 19
     },
     "16270": {
       "title": "Small Numbers",
@@ -64216,7 +64216,7 @@
     },
     "17685": {
       "title": "Worst Reporter 3",
-      "level": 19
+      "level": 18
     },
     "17686": {
       "title": "Airline Route Map",
@@ -65144,7 +65144,7 @@
     },
     "17924": {
       "title": "Cooking Water",
-      "level": 4
+      "level": 3
     },
     "17925": {
       "title": "Problem Classification",
@@ -72476,7 +72476,7 @@
     },
     "19766": {
       "title": "Доставка футболок",
-      "level": 4
+      "level": 5
     },
     "19767": {
       "title": "Деление",
@@ -77460,7 +77460,7 @@
     },
     "21022": {
       "title": "Three Points for a Win",
-      "level": 4
+      "level": 3
     },
     "21023": {
       "title": "Door of the Ancient",
@@ -89600,7 +89600,7 @@
     },
     "24099": {
       "title": "解読 (Deciphering)",
-      "level": 16
+      "level": 15
     },
     "24100": {
       "title": "報告 (Report)",
@@ -89764,7 +89764,7 @@
     },
     "24141": {
       "title": "インフルエンザ (Flu)",
-      "level": 16
+      "level": 13
     },
     "24142": {
       "title": "ナイルドットコム (Nile.Com)",
@@ -89860,7 +89860,7 @@
     },
     "24176": {
       "title": "出前配達",
-      "level": 5
+      "level": 6
     },
     "24177": {
       "title": "引っ越し",
@@ -93980,7 +93980,7 @@
     },
     "25223": {
       "title": "Phone Plans",
-      "level": 0
+      "level": 24
     },
     "25224": {
       "title": "Good Game",
@@ -96856,7 +96856,7 @@
     },
     "25962": {
       "title": "선우의 셋리스트",
-      "level": 16
+      "level": 15
     },
     "25963": {
       "title": "계단 만들기 (Small)",
@@ -102532,7 +102532,7 @@
     },
     "27415": {
       "title": "Password",
-      "level": 0
+      "level": 12
     },
     "27416": {
       "title": "Hasty Santa Claus",
@@ -104996,7 +104996,7 @@
     },
     "28034": {
       "title": "FEB",
-      "level": 10
+      "level": 11
     },
     "28035": {
       "title": "Moo Language",
@@ -105004,7 +105004,7 @@
     },
     "28036": {
       "title": "Rotate and Shift",
-      "level": 10
+      "level": 14
     },
     "28037": {
       "title": "3차원 좌표변환",
@@ -105040,7 +105040,7 @@
     },
     "28045": {
       "title": "Favorite Tree",
-      "level": 0
+      "level": 19
     },
     "28046": {
       "title": "Gravitational Wave Detector",
@@ -105088,11 +105088,11 @@
     },
     "28057": {
       "title": "Binary Sequence and Queries",
-      "level": 22
+      "level": 21
     },
     "28058": {
       "title": "Tsunami",
-      "level": 0
+      "level": 22
     },
     "28059": {
       "title": "Remix",
