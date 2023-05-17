@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-16 19:13:05.661220",
+  "last_updated": "2023-05-17 19:13:13.796393",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -13640,7 +13640,7 @@
     },
     "4483": {
       "title": "“Robot Roll Call – Cambot...Servo...Gypsy...Croooow”",
-      "level": 4
+      "level": 5
     },
     "4484": {
       "title": "Cave Crisis",
@@ -15704,7 +15704,7 @@
     },
     "5010": {
       "title": "수화물",
-      "level": 17
+      "level": 18
     },
     "5011": {
       "title": "Robots on a grid",
@@ -18272,7 +18272,7 @@
     },
     "5729": {
       "title": "수축하는 다각형",
-      "level": 15
+      "level": 14
     },
     "5730": {
       "title": "Acquapia",
@@ -21068,7 +21068,7 @@
     },
     "6449": {
       "title": "Frame Stacking",
-      "level": 0
+      "level": 17
     },
     "6450": {
       "title": "Channel Allocation",
@@ -24528,7 +24528,7 @@
     },
     "7502": {
       "title": "Game on Chessboard",
-      "level": 0
+      "level": 26
     },
     "7503": {
       "title": "Dart Challenge",
@@ -24956,7 +24956,7 @@
     },
     "7610": {
       "title": "Synchronization",
-      "level": 24
+      "level": 25
     },
     "7611": {
       "title": "Watching",
@@ -25296,7 +25296,7 @@
     },
     "7696": {
       "title": "반복하지 않는 수",
-      "level": 7
+      "level": 8
     },
     "7697": {
       "title": "Planet Hunting",
@@ -34196,7 +34196,7 @@
     },
     "10047": {
       "title": "バームクーヘン (Baumkuchen)",
-      "level": 17
+      "level": 16
     },
     "10048": {
       "title": "フクロモモンガ (Sugar Glider)",
@@ -34644,7 +34644,7 @@
     },
     "10160": {
       "title": "암호",
-      "level": 14
+      "level": 15
     },
     "10161": {
       "title": "톨게이트",
@@ -46000,7 +46000,7 @@
     },
     "13059": {
       "title": "Tourists",
-      "level": 17
+      "level": 16
     },
     "13060": {
       "title": "Whiteboard",
@@ -62192,7 +62192,7 @@
     },
     "17177": {
       "title": "내접사각형 만들기",
-      "level": 4
+      "level": 5
     },
     "17178": {
       "title": "줄서기",
@@ -62508,7 +62508,7 @@
     },
     "17258": {
       "title": "인기가 넘쳐흘러",
-      "level": 17
+      "level": 16
     },
     "17259": {
       "title": "선물이 넘쳐흘러",
@@ -62560,7 +62560,7 @@
     },
     "17271": {
       "title": "리그 오브 레전설 (Small)",
-      "level": 9
+      "level": 10
     },
     "17272": {
       "title": "리그 오브 레전설 (Large)",
@@ -69588,7 +69588,7 @@
     },
     "19039": {
       "title": "Knights",
-      "level": 0
+      "level": 26
     },
     "19040": {
       "title": "Labeled Points",
@@ -80480,7 +80480,7 @@
     },
     "21781": {
       "title": "Aerobatics - 3",
-      "level": 0
+      "level": 19
     },
     "21782": {
       "title": "Aerobatics - 4",
@@ -80488,7 +80488,7 @@
     },
     "21783": {
       "title": "Aerobatics - 5",
-      "level": 0
+      "level": 20
     },
     "21784": {
       "title": "Aerobatics - 6",
@@ -89836,7 +89836,7 @@
     },
     "24165": {
       "title": "直線 (Lines)",
-      "level": 22
+      "level": 20
     },
     "24171": {
       "title": "복소수",
@@ -101468,7 +101468,7 @@
     },
     "27137": {
       "title": "Square Designs",
-      "level": 5
+      "level": 6
     },
     "27138": {
       "title": "Runaround Numbers",
@@ -104984,7 +104984,7 @@
     },
     "28031": {
       "title": "Milk Sum",
-      "level": 15
+      "level": 14
     },
     "28032": {
       "title": "Field Day",
