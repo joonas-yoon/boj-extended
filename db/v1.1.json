@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-17 19:13:13.796393",
+  "last_updated": "2023-05-18 19:13:11.421871",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1308,7 +1308,7 @@
     },
     "1329": {
       "title": "증가 수열",
-      "level": 16
+      "level": 15
     },
     "1330": {
       "title": "두 수 비교하기",
@@ -5828,7 +5828,7 @@
     },
     "2481": {
       "title": "해밍 경로",
-      "level": 15
+      "level": 14
     },
     "2482": {
       "title": "색상환",
@@ -19120,7 +19120,7 @@
     },
     "5941": {
       "title": "Cow Calisthenics",
-      "level": 18
+      "level": 19
     },
     "5942": {
       "title": "Big Macs Around the World",
@@ -19324,7 +19324,7 @@
     },
     "5992": {
       "title": "The Leisurely Stroll",
-      "level": 9
+      "level": 10
     },
     "5993": {
       "title": "Invasion of the Milkweed",
@@ -20080,7 +20080,7 @@
     },
     "6186": {
       "title": "Best Grass",
-      "level": 6
+      "level": 7
     },
     "6187": {
       "title": "Going to the Movies",
@@ -25688,7 +25688,7 @@
     },
     "7831": {
       "title": "Fire Drill",
-      "level": 17
+      "level": 16
     },
     "7839": {
       "title": "Pizza schedule",
@@ -45540,7 +45540,7 @@
     },
     "12944": {
       "title": "재미있는 숫자 놀이",
-      "level": 15
+      "level": 14
     },
     "12945": {
       "title": "재미있는 박스 정리",
@@ -49696,7 +49696,7 @@
     },
     "13998": {
       "title": "Jenga Boom",
-      "level": 19
+      "level": 20
     },
     "13999": {
       "title": "Kids Designing Kids",
@@ -78164,7 +78164,7 @@
     },
     "21198": {
       "title": "Arithmetic Decoding",
-      "level": 6
+      "level": 7
     },
     "21199": {
       "title": "Paper Snowflakes",
@@ -79604,7 +79604,7 @@
     },
     "21558": {
       "title": "전쟁 준비하기",
-      "level": 10
+      "level": 11
     },
     "21559": {
       "title": "암호 찾기",
@@ -80480,15 +80480,15 @@
     },
     "21781": {
       "title": "Aerobatics - 3",
-      "level": 19
+      "level": 0
     },
     "21782": {
       "title": "Aerobatics - 4",
-      "level": 0
+      "level": 22
     },
     "21783": {
       "title": "Aerobatics - 5",
-      "level": 20
+      "level": 0
     },
     "21784": {
       "title": "Aerobatics - 6",
@@ -85192,7 +85192,7 @@
     },
     "22995": {
       "title": "증가하는 부분 수열의 개수 K",
-      "level": 14
+      "level": 15
     },
     "22996": {
       "title": "유니온 파인드 복원",
@@ -89660,7 +89660,7 @@
     },
     "24115": {
       "title": "地域 (Regions)",
-      "level": 22
+      "level": 20
     },
     "24116": {
       "title": "本選会場 (Finals)",
@@ -89696,7 +89696,7 @@
     },
     "24124": {
       "title": "高速道路 (Highway)",
-      "level": 22
+      "level": 21
     },
     "24125": {
       "title": "湖 (Lake)",
@@ -90784,7 +90784,7 @@
     },
     "24422": {
       "title": "投票 (Voting)",
-      "level": 8
+      "level": 9
     },
     "24423": {
       "title": "いちご 2 (Strawberry 2)",
@@ -94004,7 +94004,7 @@
     },
     "25229": {
       "title": "GCD Harmony",
-      "level": 17
+      "level": 18
     },
     "25230": {
       "title": "Leaderboard Effect",
@@ -94012,7 +94012,7 @@
     },
     "25231": {
       "title": "Rafting Trip",
-      "level": 17
+      "level": 18
     },
     "25232": {
       "title": "Ranked Choice Spoiling",
@@ -100868,7 +100868,7 @@
     },
     "26986": {
       "title": "Corral the Cows",
-      "level": 0
+      "level": 17
     },
     "26987": {
       "title": "The Cow Prom",
@@ -103084,7 +103084,7 @@
     },
     "27553": {
       "title": "Mana Collection",
-      "level": 23
+      "level": 22
     },
     "27554": {
       "title": "Subtree Activation",
@@ -104788,7 +104788,7 @@
     },
     "27982": {
       "title": "큐브 더미",
-      "level": 5
+      "level": 4
     },
     "27983": {
       "title": "리본 (Easy)",
@@ -104980,7 +104980,7 @@
     },
     "28030": {
       "title": "Tree Merging",
-      "level": 20
+      "level": 21
     },
     "28031": {
       "title": "Milk Sum",
