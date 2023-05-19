@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-18 19:13:11.421871",
+  "last_updated": "2023-05-19 19:12:37.181060",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5404,7 +5404,7 @@
     },
     "2373": {
       "title": "Fibonacci Game",
-      "level": 20
+      "level": 19
     },
     "2374": {
       "title": "같은 수로 만들기",
@@ -6744,7 +6744,7 @@
     },
     "2710": {
       "title": "삼각형 정원",
-      "level": 15
+      "level": 16
     },
     "2711": {
       "title": "오타맨 고창영",
@@ -7776,11 +7776,11 @@
     },
     "2972": {
       "title": "KOLEKCIJA",
-      "level": 11
+      "level": 21
     },
     "2973": {
       "title": "TAMNICA",
-      "level": 17
+      "level": 18
     },
     "2974": {
       "title": "자기곱",
@@ -7888,7 +7888,7 @@
     },
     "3000": {
       "title": "직각 삼각형",
-      "level": 10
+      "level": 11
     },
     "3001": {
       "title": "이상한 문제",
@@ -9060,7 +9060,7 @@
     },
     "3303": {
       "title": "Printed Circuit Board",
-      "level": 27
+      "level": 26
     },
     "3304": {
       "title": "Sailing Race",
@@ -10128,7 +10128,7 @@
     },
     "3582": {
       "title": "Ants",
-      "level": 21
+      "level": 18
     },
     "3583": {
       "title": "Building for UN",
@@ -23344,7 +23344,7 @@
     },
     "7037": {
       "title": "Walk the Talk",
-      "level": 0
+      "level": 13
     },
     "7038": {
       "title": "Cow Patterns",
@@ -31748,7 +31748,7 @@
     },
     "9387": {
       "title": "Gholam’s Simple Game",
-      "level": 4
+      "level": 5
     },
     "9388": {
       "title": "Arbiter Login",
@@ -41944,11 +41944,11 @@
     },
     "12040": {
       "title": "Password Security (Small1)",
-      "level": 7
+      "level": 8
     },
     "12041": {
       "title": "Password Security (Small2)",
-      "level": 15
+      "level": 16
     },
     "12042": {
       "title": "Lazy Spelling Bee (Small)",
@@ -66464,7 +66464,7 @@
     },
     "18254": {
       "title": "쿼리와 쿼리",
-      "level": 25
+      "level": 26
     },
     "18255": {
       "title": "Visible Lattice",
@@ -72092,7 +72092,7 @@
     },
     "19666": {
       "title": "Cryptography",
-      "level": 17
+      "level": 16
     },
     "19667": {
       "title": "Fuel Station",
@@ -75964,7 +75964,7 @@
     },
     "20648": {
       "title": "Rectangular Pasture",
-      "level": 16
+      "level": 17
     },
     "20649": {
       "title": "Stuck in a Rut",
@@ -89604,7 +89604,7 @@
     },
     "24100": {
       "title": "報告 (Report)",
-      "level": 22
+      "level": 20
     },
     "24101": {
       "title": "UFO の飛行場 (UFO) 1",
@@ -89644,7 +89644,7 @@
     },
     "24111": {
       "title": "戦国時代 (Sengoku)",
-      "level": 17
+      "level": 15
     },
     "24112": {
       "title": "階段 (Stairs)",
@@ -89700,11 +89700,11 @@
     },
     "24125": {
       "title": "湖 (Lake)",
-      "level": 18
+      "level": 19
     },
     "24126": {
       "title": "プラグ (Plugs)",
-      "level": 20
+      "level": 19
     },
     "24127": {
       "title": "数列 (Sequence)",
@@ -94668,7 +94668,7 @@
     },
     "25401": {
       "title": "카드 바꾸기",
-      "level": 10
+      "level": 11
     },
     "25402": {
       "title": "트리와 쿼리",
@@ -100896,15 +100896,15 @@
     },
     "26993": {
       "title": "Knights of Ni",
-      "level": 0
+      "level": 11
     },
     "26994": {
       "title": "Cleaning Shifts",
-      "level": 0
+      "level": 17
     },
     "26995": {
       "title": "Scales",
-      "level": 0
+      "level": 16
     },
     "26996": {
       "title": "Alignment of the Planets",
@@ -100972,7 +100972,7 @@
     },
     "27012": {
       "title": "Feed Accounting",
-      "level": 0
+      "level": 9
     },
     "27013": {
       "title": "Watchcow",
@@ -101124,7 +101124,7 @@
     },
     "27050": {
       "title": "Millenium Leapcow",
-      "level": 0
+      "level": 17
     },
     "27051": {
       "title": "Optimal Milking",
@@ -103084,7 +103084,7 @@
     },
     "27553": {
       "title": "Mana Collection",
-      "level": 22
+      "level": 23
     },
     "27554": {
       "title": "Subtree Activation",
@@ -104968,7 +104968,7 @@
     },
     "28027": {
       "title": "Triples of Cows",
-      "level": 26
+      "level": 25
     },
     "28028": {
       "title": "Custodial Cleanup",
@@ -105101,6 +105101,14 @@
     "28060": {
       "title": "Good Night",
       "level": 0
+    },
+    "28123": {
+      "title": "삶, 우주, 그리고 모든 것에 관한 궁극적인 질문의 해답",
+      "level": 20
+    },
+    "28124": {
+      "title": "할래 갈래",
+      "level": 21
     }
   }
 }
