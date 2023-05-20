@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-19 19:12:37.181060",
+  "last_updated": "2023-05-20 19:11:59.876035",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -208,7 +208,7 @@
     },
     "1051": {
       "title": "숫자 정사각형",
-      "level": 7
+      "level": 8
     },
     "1052": {
       "title": "물병",
@@ -12536,7 +12536,7 @@
     },
     "4202": {
       "title": "Balance",
-      "level": 15
+      "level": 17
     },
     "4203": {
       "title": "Asteroid Rangers",
@@ -12652,7 +12652,7 @@
     },
     "4231": {
       "title": "Exchange Rates",
-      "level": 11
+      "level": 10
     },
     "4232": {
       "title": "Conformity",
@@ -17412,7 +17412,7 @@
     },
     "5501": {
       "title": "Depot",
-      "level": 8
+      "level": 10
     },
     "5502": {
       "title": "팰린드롬",
@@ -17956,7 +17956,7 @@
     },
     "5647": {
       "title": "연속 합",
-      "level": 19
+      "level": 20
     },
     "5648": {
       "title": "역원소 정렬",
@@ -19496,7 +19496,7 @@
     },
     "6035": {
       "title": "StarCowraft",
-      "level": 21
+      "level": 22
     },
     "6036": {
       "title": "The Rock Game",
@@ -49532,7 +49532,7 @@
     },
     "13956": {
       "title": "Lost Logic",
-      "level": 23
+      "level": 22
     },
     "13957": {
       "title": "Within Arm's Reach",
@@ -52076,7 +52076,7 @@
     },
     "14611": {
       "title": "월요병",
-      "level": 17
+      "level": 18
     },
     "14612": {
       "title": "김식당",
@@ -65388,7 +65388,7 @@
     },
     "17985": {
       "title": "Fence Bowling",
-      "level": 0
+      "level": 16
     },
     "17986": {
       "title": "Great GDP",
@@ -77392,7 +77392,7 @@
     },
     "21005": {
       "title": "Civilizations",
-      "level": 22
+      "level": 23
     },
     "21006": {
       "title": "We apologize for any inconvenience",
@@ -84988,7 +84988,7 @@
     },
     "22944": {
       "title": "죽음의 비",
-      "level": 12
+      "level": 13
     },
     "22945": {
       "title": "팀 빌딩",
@@ -88188,7 +88188,7 @@
     },
     "23745": {
       "title": "내가 몇 등이었지??",
-      "level": 23
+      "level": 22
     },
     "23746": {
       "title": "문자열 압축 해제",
@@ -90260,7 +90260,7 @@
     },
     "24291": {
       "title": "QUEUE",
-      "level": 6
+      "level": 9
     },
     "24292": {
       "title": "РАЗДЕЛЯЙ и ВЛАДЕЙ",
@@ -93672,7 +93672,7 @@
     },
     "25145": {
       "title": "Joško",
-      "level": 13
+      "level": 14
     },
     "25146": {
       "title": "KHL",
@@ -94028,7 +94028,7 @@
     },
     "25235": {
       "title": "Transparency",
-      "level": 17
+      "level": 19
     },
     "25236": {
       "title": "Triangular Logs",
@@ -98420,7 +98420,7 @@
     },
     "26361": {
       "title": "XO",
-      "level": 5
+      "level": 6
     },
     "26362": {
       "title": "Adria",
@@ -100336,7 +100336,7 @@
     },
     "26852": {
       "title": "Energy Generation",
-      "level": 0
+      "level": 24
     },
     "26853": {
       "title": "Uniform Maker",
@@ -100892,7 +100892,7 @@
     },
     "26992": {
       "title": "The Water Bowls",
-      "level": 11
+      "level": 10
     },
     "26993": {
       "title": "Knights of Ni",
@@ -101132,7 +101132,7 @@
     },
     "27052": {
       "title": "Bale Figures",
-      "level": 0
+      "level": 10
     },
     "27053": {
       "title": "Jumping Cows",
@@ -101144,7 +101144,7 @@
     },
     "27055": {
       "title": "Bovine Math Geniuses",
-      "level": 0
+      "level": 7
     },
     "27056": {
       "title": "TwoFour",
@@ -101244,7 +101244,7 @@
     },
     "27081": {
       "title": "Dessert",
-      "level": 13
+      "level": 14
     },
     "27082": {
       "title": "Extra Krunch",
@@ -104456,7 +104456,7 @@
     },
     "27896": {
       "title": "특별한 서빙",
-      "level": 12
+      "level": 11
     },
     "27897": {
       "title": "특별한 화재 경보",
@@ -105102,9 +105102,113 @@
       "title": "Good Night",
       "level": 0
     },
+    "28097": {
+      "title": "모범생 포닉스",
+      "level": 2
+    },
+    "28098": {
+      "title": "폭발 속에서 살아남기",
+      "level": 17
+    },
+    "28099": {
+      "title": "이상한 배열",
+      "level": 14
+    },
+    "28100": {
+      "title": "보물 사냥",
+      "level": 0
+    },
+    "28101": {
+      "title": "지구평면설",
+      "level": 16
+    },
+    "28102": {
+      "title": "단순한 그래프와 이상한 쿼리",
+      "level": 15
+    },
+    "28103": {
+      "title": "대회 상품 정하기",
+      "level": 10
+    },
+    "28104": {
+      "title": "삼각형 모험",
+      "level": 17
+    },
+    "28105": {
+      "title": "분탕",
+      "level": 0
+    },
+    "28106": {
+      "title": "나무 타기",
+      "level": 13
+    },
+    "28107": {
+      "title": "회전초밥",
+      "level": 9
+    },
+    "28108": {
+      "title": "라이벌",
+      "level": 19
+    },
+    "28109": {
+      "title": "약속 장소 2",
+      "level": 11
+    },
+    "28110": {
+      "title": "마지막 문제",
+      "level": 7
+    },
+    "28111": {
+      "title": "평범한 그래프와 이상한 쿼리",
+      "level": 0
+    },
+    "28112": {
+      "title": "나무 타기 (Hard)",
+      "level": 18
+    },
+    "28113": {
+      "title": "정보섬의 대중교통",
+      "level": 1
+    },
+    "28114": {
+      "title": "팀명 정하기",
+      "level": 3
+    },
+    "28115": {
+      "title": "등차수열의 합",
+      "level": 4
+    },
+    "28116": {
+      "title": "선택 정렬의 이동 거리",
+      "level": 8
+    },
+    "28117": {
+      "title": "prlong longf",
+      "level": 9
+    },
+    "28118": {
+      "title": "안전한 건설 계획",
+      "level": 12
+    },
+    "28119": {
+      "title": "Traveling SCCC President",
+      "level": 13
+    },
+    "28120": {
+      "title": "SCCC 신입 부원 모집하기",
+      "level": 16
+    },
+    "28121": {
+      "title": "산책과 쿼리",
+      "level": 15
+    },
+    "28122": {
+      "title": "아이템",
+      "level": 18
+    },
     "28123": {
       "title": "삶, 우주, 그리고 모든 것에 관한 궁극적인 질문의 해답",
-      "level": 20
+      "level": 19
     },
     "28124": {
       "title": "할래 갈래",
