@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-20 19:11:59.876035",
+  "last_updated": "2023-05-21 19:12:15.987506",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2904,7 +2904,7 @@
     },
     "1732": {
       "title": "레이저",
-      "level": 0
+      "level": 14
     },
     "1733": {
       "title": "등번호",
@@ -17848,7 +17848,7 @@
     },
     "5620": {
       "title": "가장 가까운 두 점의 거리",
-      "level": 17
+      "level": 18
     },
     "5621": {
       "title": "問題 5",
@@ -24228,7 +24228,7 @@
     },
     "7427": {
       "title": "Triathlon",
-      "level": 0
+      "level": 22
     },
     "7428": {
       "title": "Domino Puzzle",
@@ -24656,7 +24656,7 @@
     },
     "7535": {
       "title": "A Bug’s Life",
-      "level": 14
+      "level": 13
     },
     "7536": {
       "title": "Jamie's Contact Groups",
@@ -49660,7 +49660,7 @@
     },
     "13988": {
       "title": "비무장 지대",
-      "level": 24
+      "level": 23
     },
     "13989": {
       "title": "Abbreviation",
@@ -75648,7 +75648,7 @@
     },
     "20569": {
       "title": "Social Dancers",
-      "level": 6
+      "level": 7
     },
     "20570": {
       "title": "Permutations on the Road: Alice",
@@ -79600,7 +79600,7 @@
     },
     "21557": {
       "title": "불꽃놀이",
-      "level": 6
+      "level": 7
     },
     "21558": {
       "title": "전쟁 준비하기",
@@ -91456,7 +91456,7 @@
     },
     "24590": {
       "title": "Circle Bounce",
-      "level": 17
+      "level": 18
     },
     "24591": {
       "title": "Shortest Missing Subsequences",
@@ -91468,7 +91468,7 @@
     },
     "24593": {
       "title": "Archery Accuracy",
-      "level": 19
+      "level": 20
     },
     "24594": {
       "title": "Problem Set Construction",
@@ -93964,15 +93964,15 @@
     },
     "25219": {
       "title": "Alternating Heights",
-      "level": 0
+      "level": 15
     },
     "25220": {
       "title": "Rainy Markets",
-      "level": 22
+      "level": 20
     },
     "25221": {
       "title": "Double Attendance",
-      "level": 0
+      "level": 21
     },
     "25222": {
       "title": "Bi-ing Lottery Treekets",
@@ -93988,7 +93988,7 @@
     },
     "25225": {
       "title": "Contact Tracing",
-      "level": 15
+      "level": 16
     },
     "25226": {
       "title": "Cookie Cutter",
@@ -94008,7 +94008,7 @@
     },
     "25230": {
       "title": "Leaderboard Effect",
-      "level": 21
+      "level": 22
     },
     "25231": {
       "title": "Rafting Trip",
@@ -99496,7 +99496,7 @@
     },
     "26634": {
       "title": "PIN",
-      "level": 0
+      "level": 10
     },
     "26635": {
       "title": "Poddrzewo",
@@ -101096,7 +101096,7 @@
     },
     "27043": {
       "title": "Cow Exhibition",
-      "level": 0
+      "level": 13
     },
     "27044": {
       "title": "Milking Grid",
@@ -101112,7 +101112,7 @@
     },
     "27047": {
       "title": "Cow Laundry",
-      "level": 0
+      "level": 9
     },
     "27048": {
       "title": "Romeo Meets Juliet",
@@ -104920,7 +104920,7 @@
     },
     "28015": {
       "title": "영역 색칠",
-      "level": 8
+      "level": 9
     },
     "28016": {
       "title": "경품 추첨",
@@ -105024,7 +105024,7 @@
     },
     "28041": {
       "title": "Board Game",
-      "level": 0
+      "level": 22
     },
     "28042": {
       "title": "City Folding",
@@ -105060,7 +105060,7 @@
     },
     "28050": {
       "title": "Kind Baker",
-      "level": 17
+      "level": 18
     },
     "28051": {
       "title": "Lazy Printing",
@@ -105102,6 +105102,106 @@
       "title": "Good Night",
       "level": 0
     },
+    "28061": {
+      "title": "레몬 따기",
+      "level": 3
+    },
+    "28062": {
+      "title": "준석이의 사탕 사기",
+      "level": 4
+    },
+    "28063": {
+      "title": "동전 복사",
+      "level": 5
+    },
+    "28064": {
+      "title": "이민희진",
+      "level": 6
+    },
+    "28065": {
+      "title": "SW 수열 구하기",
+      "level": 7
+    },
+    "28066": {
+      "title": "타노스는 요세푸스가 밉다",
+      "level": 8
+    },
+    "28067": {
+      "title": "기하가 너무 좋아",
+      "level": 12
+    },
+    "28068": {
+      "title": "I Am Knowledge",
+      "level": 16
+    },
+    "28069": {
+      "title": "김밥천국의 계단",
+      "level": 11
+    },
+    "28070": {
+      "title": "유니의 편지 쓰기",
+      "level": 11
+    },
+    "28071": {
+      "title": "승형이의 사탕 사기",
+      "level": 13
+    },
+    "28072": {
+      "title": "$K$512에서 피자 먹기",
+      "level": 14
+    },
+    "28073": {
+      "title": "PSAT 특별과정",
+      "level": 16
+    },
+    "28074": {
+      "title": "모비스",
+      "level": 2
+    },
+    "28075": {
+      "title": "스파이",
+      "level": 8
+    },
+    "28076": {
+      "title": "멀티탭 충분하다",
+      "level": 0
+    },
+    "28077": {
+      "title": "사탕 팔찌",
+      "level": 21
+    },
+    "28078": {
+      "title": "중력 큐",
+      "level": 9
+    },
+    "28079": {
+      "title": "배 옮기기",
+      "level": 0
+    },
+    "28080": {
+      "title": "인경호의 나무",
+      "level": 18
+    },
+    "28081": {
+      "title": "직사각형 피자",
+      "level": 10
+    },
+    "28082": {
+      "title": "기계오리 연구",
+      "level": 15
+    },
+    "28083": {
+      "title": "마왕의 성",
+      "level": 16
+    },
+    "28084": {
+      "title": "스파이 (Hard)",
+      "level": 0
+    },
+    "28085": {
+      "title": "배 옮기기 (Hard)",
+      "level": 0
+    },
     "28097": {
       "title": "모범생 포닉스",
       "level": 2
@@ -105112,7 +105212,7 @@
     },
     "28099": {
       "title": "이상한 배열",
-      "level": 14
+      "level": 13
     },
     "28100": {
       "title": "보물 사냥",
@@ -105128,11 +105228,11 @@
     },
     "28103": {
       "title": "대회 상품 정하기",
-      "level": 10
+      "level": 9
     },
     "28104": {
       "title": "삼각형 모험",
-      "level": 17
+      "level": 15
     },
     "28105": {
       "title": "분탕",
@@ -105140,15 +105240,15 @@
     },
     "28106": {
       "title": "나무 타기",
-      "level": 13
+      "level": 12
     },
     "28107": {
       "title": "회전초밥",
-      "level": 9
+      "level": 10
     },
     "28108": {
       "title": "라이벌",
-      "level": 19
+      "level": 17
     },
     "28109": {
       "title": "약속 장소 2",
@@ -105164,7 +105264,7 @@
     },
     "28112": {
       "title": "나무 타기 (Hard)",
-      "level": 18
+      "level": 19
     },
     "28113": {
       "title": "정보섬의 대중교통",
@@ -105196,11 +105296,11 @@
     },
     "28120": {
       "title": "SCCC 신입 부원 모집하기",
-      "level": 16
+      "level": 15
     },
     "28121": {
       "title": "산책과 쿼리",
-      "level": 15
+      "level": 16
     },
     "28122": {
       "title": "아이템",
@@ -105208,7 +105308,7 @@
     },
     "28123": {
       "title": "삶, 우주, 그리고 모든 것에 관한 궁극적인 질문의 해답",
-      "level": 19
+      "level": 20
     },
     "28124": {
       "title": "할래 갈래",
