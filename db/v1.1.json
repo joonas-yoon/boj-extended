@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-22 19:13:04.236743",
+  "last_updated": "2023-05-23 19:14:09.624576",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -968,7 +968,7 @@
     },
     "1242": {
       "title": "소풍",
-      "level": 14
+      "level": 15
     },
     "1243": {
       "title": "팰린드롬",
@@ -4072,7 +4072,7 @@
     },
     "2032": {
       "title": "피라미드",
-      "level": 17
+      "level": 18
     },
     "2033": {
       "title": "반올림",
@@ -47340,7 +47340,7 @@
     },
     "13406": {
       "title": "Animal Companion in Maze",
-      "level": 21
+      "level": 22
     },
     "13407": {
       "title": "Skinny Polygon",
@@ -51304,7 +51304,7 @@
     },
     "14417": {
       "title": "팰린드롬과 쿼리 2",
-      "level": 19
+      "level": 20
     },
     "14418": {
       "title": "Three Square",
@@ -51884,7 +51884,7 @@
     },
     "14562": {
       "title": "태권왕",
-      "level": 10
+      "level": 9
     },
     "14563": {
       "title": "완전수",
@@ -53320,7 +53320,7 @@
     },
     "14934": {
       "title": "변치 않는 수",
-      "level": 14
+      "level": 15
     },
     "14935": {
       "title": "FA",
@@ -55336,7 +55336,7 @@
     },
     "15440": {
       "title": "Vera And LCS",
-      "level": 15
+      "level": 16
     },
     "15441": {
       "title": "Vera and Mean Sorting",
@@ -62656,7 +62656,7 @@
     },
     "17295": {
       "title": "엔드게임 스포일러",
-      "level": 1
+      "level": 0
     },
     "17296": {
       "title": "But can you do it in 0.5x A presses?",
@@ -68184,7 +68184,7 @@
     },
     "18687": {
       "title": "Gotta Catch 'Em All",
-      "level": 0
+      "level": 18
     },
     "18688": {
       "title": "Military Service",
@@ -84476,7 +84476,7 @@
     },
     "22815": {
       "title": "Exploring Caves",
-      "level": 0
+      "level": 4
     },
     "22816": {
       "title": "Pile Up!",
@@ -85280,7 +85280,7 @@
     },
     "23017": {
       "title": "Palindromic Crossword",
-      "level": 16
+      "level": 15
     },
     "23018": {
       "title": "Increasing Sequence Card Game",
@@ -86360,7 +86360,7 @@
     },
     "23287": {
       "title": "제곱수",
-      "level": 19
+      "level": 18
     },
     "23288": {
       "title": "주사위 굴리기 2",
@@ -89836,7 +89836,7 @@
     },
     "24165": {
       "title": "直線 (Lines)",
-      "level": 20
+      "level": 19
     },
     "24171": {
       "title": "복소수",
@@ -100316,7 +100316,7 @@
     },
     "26847": {
       "title": "Nim z utrudnieniem",
-      "level": 21
+      "level": 22
     },
     "26848": {
       "title": "Park wodny",
@@ -102632,7 +102632,7 @@
     },
     "27440": {
       "title": "1로 만들기 3",
-      "level": 12
+      "level": 13
     },
     "27441": {
       "title": "영화감독 숌 3",
@@ -103456,7 +103456,7 @@
     },
     "27646": {
       "title": "Judicious cuts (Easy)",
-      "level": 6
+      "level": 5
     },
     "27647": {
       "title": "Judicious cuts (Hard)",
@@ -104236,7 +104236,7 @@
     },
     "27841": {
       "title": "Problem Setting",
-      "level": 21
+      "level": 22
     },
     "27842": {
       "title": "Watching Cowflix",
@@ -105088,7 +105088,7 @@
     },
     "28057": {
       "title": "Binary Sequence and Queries",
-      "level": 21
+      "level": 22
     },
     "28058": {
       "title": "Tsunami",
@@ -105296,11 +105296,11 @@
     },
     "28120": {
       "title": "SCCC 신입 부원 모집하기",
-      "level": 15
+      "level": 16
     },
     "28121": {
       "title": "산책과 쿼리",
-      "level": 16
+      "level": 17
     },
     "28122": {
       "title": "아이템",
