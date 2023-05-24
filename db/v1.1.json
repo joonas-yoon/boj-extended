@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-23 19:14:09.624576",
+  "last_updated": "2023-05-24 19:13:06.213371",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -18500,7 +18500,7 @@
     },
     "5786": {
       "title": "I hate SPAM, but some people love it",
-      "level": 12
+      "level": 11
     },
     "5787": {
       "title": "Noise Effect",
@@ -22680,7 +22680,7 @@
     },
     "6858": {
       "title": "It’s tough being a teen!",
-      "level": 11
+      "level": 10
     },
     "6859": {
       "title": "CCC Othello",
@@ -23100,7 +23100,7 @@
     },
     "6970": {
       "title": "Sentences",
-      "level": 5
+      "level": 6
     },
     "6971": {
       "title": "Nasty Numbers",
@@ -23352,7 +23352,7 @@
     },
     "7039": {
       "title": "Barn Expansion",
-      "level": 0
+      "level": 17
     },
     "7040": {
       "title": "밥 먹기",
@@ -23424,7 +23424,7 @@
     },
     "7057": {
       "title": "A highway and the seven dwarfs",
-      "level": 21
+      "level": 22
     },
     "7058": {
       "title": "Royal guards",
@@ -25568,7 +25568,7 @@
     },
     "7792": {
       "title": "Superstitious Skylab Tower",
-      "level": 20
+      "level": 19
     },
     "7793": {
       "title": "Panda Land 5: Panda Programming Language",
@@ -26668,7 +26668,7 @@
     },
     "8088": {
       "title": "Airports",
-      "level": 14
+      "level": 13
     },
     "8089": {
       "title": "Addon",
@@ -29684,7 +29684,7 @@
     },
     "8845": {
       "title": "Gra",
-      "level": 0
+      "level": 18
     },
     "8846": {
       "title": "Wymiana żarówki",
@@ -33548,7 +33548,7 @@
     },
     "9868": {
       "title": "The Bessie Shuffle",
-      "level": 18
+      "level": 19
     },
     "9869": {
       "title": "Milk Scheduling",
@@ -39944,7 +39944,7 @@
     },
     "11518": {
       "title": "Morse",
-      "level": 5
+      "level": 6
     },
     "11519": {
       "title": "Hounded by Indecision",
@@ -45064,7 +45064,7 @@
     },
     "12825": {
       "title": "Next Permutation",
-      "level": 18
+      "level": 17
     },
     "12826": {
       "title": "Game",
@@ -48228,7 +48228,7 @@
     },
     "13629": {
       "title": "Lines of Containers",
-      "level": 16
+      "level": 14
     },
     "13630": {
       "title": "Buses",
@@ -53320,7 +53320,7 @@
     },
     "14934": {
       "title": "변치 않는 수",
-      "level": 15
+      "level": 16
     },
     "14935": {
       "title": "FA",
@@ -54100,7 +54100,7 @@
     },
     "15129": {
       "title": "Law 11",
-      "level": 4
+      "level": 5
     },
     "15130": {
       "title": "Arithmetic Sequences",
@@ -99496,7 +99496,7 @@
     },
     "26634": {
       "title": "PIN",
-      "level": 10
+      "level": 11
     },
     "26635": {
       "title": "Poddrzewo",
@@ -103168,7 +103168,7 @@
     },
     "27574": {
       "title": "Digits of Unity",
-      "level": 0
+      "level": 21
     },
     "27575": {
       "title": "Distinct Parity Excess",
@@ -103456,7 +103456,7 @@
     },
     "27646": {
       "title": "Judicious cuts (Easy)",
-      "level": 5
+      "level": 4
     },
     "27647": {
       "title": "Judicious cuts (Hard)",
@@ -105256,7 +105256,7 @@
     },
     "28110": {
       "title": "마지막 문제",
-      "level": 6
+      "level": 7
     },
     "28111": {
       "title": "평범한 그래프와 이상한 쿼리",
@@ -105264,7 +105264,7 @@
     },
     "28112": {
       "title": "나무 타기 (Hard)",
-      "level": 19
+      "level": 18
     },
     "28113": {
       "title": "정보섬의 대중교통",
