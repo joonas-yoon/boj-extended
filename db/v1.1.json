@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-24 19:13:06.213371",
+  "last_updated": "2023-05-25 19:12:32.814297",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5404,7 +5404,7 @@
     },
     "2373": {
       "title": "Fibonacci Game",
-      "level": 20
+      "level": 19
     },
     "2374": {
       "title": "같은 수로 만들기",
@@ -12364,7 +12364,7 @@
     },
     "4159": {
       "title": "알래스카",
-      "level": 8
+      "level": 7
     },
     "4160": {
       "title": "이혼",
@@ -19720,7 +19720,7 @@
     },
     "6092": {
       "title": "Strange Towers of Hanoi",
-      "level": 6
+      "level": 7
     },
     "6093": {
       "title": "Competition",
@@ -23612,7 +23612,7 @@
     },
     "7147": {
       "title": "데이터 만들기 8",
-      "level": 17
+      "level": 16
     },
     "7148": {
       "title": "Winter Roads",
@@ -24228,7 +24228,7 @@
     },
     "7427": {
       "title": "Triathlon",
-      "level": 22
+      "level": 23
     },
     "7428": {
       "title": "Domino Puzzle",
@@ -24528,7 +24528,7 @@
     },
     "7502": {
       "title": "Game on Chessboard",
-      "level": 26
+      "level": 0
     },
     "7503": {
       "title": "Dart Challenge",
@@ -31652,7 +31652,7 @@
     },
     "9363": {
       "title": "큰 나눗셈",
-      "level": 12
+      "level": 13
     },
     "9364": {
       "title": "Calculator",
@@ -35336,7 +35336,7 @@
     },
     "10333": {
       "title": "Space Golf",
-      "level": 16
+      "level": 17
     },
     "10334": {
       "title": "Automotive Navigation",
@@ -45888,7 +45888,7 @@
     },
     "13031": {
       "title": "쉽게 행복한 나무",
-      "level": 17
+      "level": 16
     },
     "13032": {
       "title": "PS 테러리스트",
@@ -53320,7 +53320,7 @@
     },
     "14934": {
       "title": "변치 않는 수",
-      "level": 16
+      "level": 17
     },
     "14935": {
       "title": "FA",
@@ -62684,7 +62684,7 @@
     },
     "17302": {
       "title": "흰색으로 만들기",
-      "level": 15
+      "level": 16
     },
     "17303": {
       "title": "슈퍼브 다트",
@@ -67520,7 +67520,7 @@
     },
     "18521": {
       "title": "Jeopardy",
-      "level": 15
+      "level": 16
     },
     "18522": {
       "title": "Slippers",
@@ -69588,7 +69588,7 @@
     },
     "19039": {
       "title": "Knights",
-      "level": 26
+      "level": 0
     },
     "19040": {
       "title": "Labeled Points",
@@ -70032,7 +70032,7 @@
     },
     "19150": {
       "title": "Galois",
-      "level": 21
+      "level": 22
     },
     "19151": {
       "title": "Harary",
@@ -82472,7 +82472,7 @@
     },
     "22295": {
       "title": "twOBoOgEr",
-      "level": 14
+      "level": 15
     },
     "22296": {
       "title": "cubic",
@@ -85540,7 +85540,7 @@
     },
     "23082": {
       "title": "균형 삼진법",
-      "level": 9
+      "level": 10
     },
     "23083": {
       "title": "꿀벌 승연이",
@@ -96856,7 +96856,7 @@
     },
     "25962": {
       "title": "선우의 셋리스트",
-      "level": 15
+      "level": 16
     },
     "25963": {
       "title": "계단 만들기 (Small)",
@@ -99496,7 +99496,7 @@
     },
     "26634": {
       "title": "PIN",
-      "level": 11
+      "level": 10
     },
     "26635": {
       "title": "Poddrzewo",
@@ -100316,7 +100316,7 @@
     },
     "26847": {
       "title": "Nim z utrudnieniem",
-      "level": 22
+      "level": 21
     },
     "26848": {
       "title": "Park wodny",
