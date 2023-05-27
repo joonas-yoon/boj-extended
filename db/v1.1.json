@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-25 19:12:32.814297",
+  "last_updated": "2023-05-27 19:12:14.231808",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4132,7 +4132,7 @@
     },
     "2047": {
       "title": "미로",
-      "level": 15
+      "level": 17
     },
     "2049": {
       "title": "가장 먼 두 점",
@@ -16700,7 +16700,7 @@
     },
     "5259": {
       "title": "pawns",
-      "level": 16
+      "level": 17
     },
     "5260": {
       "title": "puzzle",
@@ -19284,7 +19284,7 @@
     },
     "5982": {
       "title": "Forgotten Password",
-      "level": 15
+      "level": 14
     },
     "5983": {
       "title": "Learning Languages",
@@ -19992,7 +19992,7 @@
     },
     "6164": {
       "title": "Hotel",
-      "level": 20
+      "level": 21
     },
     "6165": {
       "title": "Game of Lines",
@@ -20012,7 +20012,7 @@
     },
     "6169": {
       "title": "Long Distance Racing",
-      "level": 5
+      "level": 6
     },
     "6170": {
       "title": "World Cup Noise",
@@ -20068,7 +20068,7 @@
     },
     "6183": {
       "title": "Word Power",
-      "level": 11
+      "level": 12
     },
     "6184": {
       "title": "Cow Cars",
@@ -24048,7 +24048,7 @@
     },
     "7382": {
       "title": "Investment",
-      "level": 0
+      "level": 13
     },
     "7383": {
       "title": "Pipes",
@@ -31340,7 +31340,7 @@
     },
     "9285": {
       "title": "Watering - 1",
-      "level": 5
+      "level": 4
     },
     "9286": {
       "title": "Gradabase",
@@ -41208,7 +41208,7 @@
     },
     "11834": {
       "title": "홀짝",
-      "level": 13
+      "level": 14
     },
     "11835": {
       "title": "Skyline",
@@ -54696,7 +54696,7 @@
     },
     "15278": {
       "title": "Decisions, Decisions",
-      "level": 11
+      "level": 12
     },
     "15279": {
       "title": "Heart Rate",
@@ -55732,7 +55732,7 @@
     },
     "15539": {
       "title": "Non-redundant Drive",
-      "level": 22
+      "level": 23
     },
     "15540": {
       "title": "Calling Extraterrestrial Intelligence Again",
@@ -63776,7 +63776,7 @@
     },
     "17575": {
       "title": "Kings",
-      "level": 21
+      "level": 22
     },
     "17576": {
       "title": "Last Word",
@@ -73768,7 +73768,7 @@
     },
     "20090": {
       "title": "Aliens",
-      "level": 25
+      "level": 24
     },
     "20091": {
       "title": "Mountains",
@@ -82456,7 +82456,7 @@
     },
     "22291": {
       "title": "squarePrime",
-      "level": 6
+      "level": 7
     },
     "22292": {
       "title": "shortestpathcube",
@@ -82472,7 +82472,7 @@
     },
     "22295": {
       "title": "twOBoOgEr",
-      "level": 15
+      "level": 14
     },
     "22296": {
       "title": "cubic",
@@ -87480,7 +87480,7 @@
     },
     "23568": {
       "title": "Find the House",
-      "level": 7
+      "level": 6
     },
     "23569": {
       "title": "Friendship Graphs",
@@ -87488,7 +87488,7 @@
     },
     "23570": {
       "title": "Grid Triangle",
-      "level": 18
+      "level": 17
     },
     "23571": {
       "title": "John’s Gift",
@@ -89636,7 +89636,7 @@
     },
     "24109": {
       "title": "オリエンテーリング (Orienteering)",
-      "level": 20
+      "level": 19
     },
     "24110": {
       "title": "JOI ポスター (JOI Poster)",
@@ -89788,7 +89788,7 @@
     },
     "24147": {
       "title": "夜警 (Nightman)",
-      "level": 21
+      "level": 19
     },
     "24148": {
       "title": "最古の遺跡 2 (Ruins)",
@@ -89796,7 +89796,7 @@
     },
     "24149": {
       "title": "台風 (Typhoon)",
-      "level": 20
+      "level": 18
     },
     "24155": {
       "title": "得点 (Score)",
@@ -100384,7 +100384,7 @@
     },
     "26864": {
       "title": "Bricks in the Wall",
-      "level": 16
+      "level": 17
     },
     "26865": {
       "title": "Computer Network",
@@ -100396,7 +100396,7 @@
     },
     "26867": {
       "title": "Easily Distinguishable Triangles",
-      "level": 0
+      "level": 15
     },
     "26868": {
       "title": "Focusing on Costs",
@@ -100420,15 +100420,15 @@
     },
     "26873": {
       "title": "K-Shaped Figures",
-      "level": 0
+      "level": 15
     },
     "26874": {
       "title": "Limited Swaps",
-      "level": 0
+      "level": 10
     },
     "26875": {
       "title": "Mex and Cards",
-      "level": 0
+      "level": 18
     },
     "26876": {
       "title": "New Time",
@@ -102548,19 +102548,19 @@
     },
     "27419": {
       "title": "Move One Coin",
-      "level": 0
+      "level": 20
     },
     "27420": {
       "title": "Incredibly Cute Penguin Chicks",
-      "level": 0
+      "level": 21
     },
     "27421": {
       "title": "Make a Loop",
-      "level": 0
+      "level": 22
     },
     "27422": {
       "title": "Remodeling the Dungeon",
-      "level": 0
+      "level": 18
     },
     "27423": {
       "title": "Cake Decoration",
@@ -103456,7 +103456,7 @@
     },
     "27646": {
       "title": "Judicious cuts (Easy)",
-      "level": 4
+      "level": 5
     },
     "27647": {
       "title": "Judicious cuts (Hard)",
@@ -104536,7 +104536,7 @@
     },
     "27917": {
       "title": "보석 감정",
-      "level": 16
+      "level": 17
     },
     "27918": {
       "title": "탁구 경기",
@@ -105016,7 +105016,7 @@
     },
     "28039": {
       "title": "카드 게임 2",
-      "level": 18
+      "level": 19
     },
     "28040": {
       "title": "Asking for Money",
@@ -105248,7 +105248,7 @@
     },
     "28108": {
       "title": "라이벌",
-      "level": 17
+      "level": 16
     },
     "28109": {
       "title": "약속 장소 2",
@@ -105276,7 +105276,7 @@
     },
     "28115": {
       "title": "등차수열의 합",
-      "level": 4
+      "level": 5
     },
     "28116": {
       "title": "선택 정렬의 이동 거리",
