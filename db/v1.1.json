@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-27 19:12:14.231808",
+  "last_updated": "2023-05-28 19:12:36.101338",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -5404,7 +5404,7 @@
     },
     "2373": {
       "title": "Fibonacci Game",
-      "level": 19
+      "level": 20
     },
     "2374": {
       "title": "같은 수로 만들기",
@@ -12032,7 +12032,7 @@
     },
     "4074": {
       "title": "약어",
-      "level": 0
+      "level": 12
     },
     "4075": {
       "title": "Countdown",
@@ -28416,7 +28416,7 @@
     },
     "8527": {
       "title": "Divers",
-      "level": 0
+      "level": 24
     },
     "8528": {
       "title": "Plan zajęć",
@@ -31020,7 +31020,7 @@
     },
     "9203": {
       "title": "호텔 예약",
-      "level": 13
+      "level": 14
     },
     "9204": {
       "title": "체스",
@@ -35392,7 +35392,7 @@
     },
     "10347": {
       "title": "Reverse Rot",
-      "level": 4
+      "level": 5
     },
     "10348": {
       "title": "Shrine Maintenance",
@@ -37172,7 +37172,7 @@
     },
     "10805": {
       "title": "L 모양의 종이 자르기",
-      "level": 17
+      "level": 16
     },
     "10806": {
       "title": "공중도시",
@@ -40604,7 +40604,7 @@
     },
     "11683": {
       "title": "Game of Cards",
-      "level": 19
+      "level": 18
     },
     "11684": {
       "title": "Sheldon Numbers",
@@ -49564,7 +49564,7 @@
     },
     "13964": {
       "title": "Pascal's Hyper-Pyramids",
-      "level": 14
+      "level": 15
     },
     "13965": {
       "title": "The White Rabbit Pocket Watch",
@@ -62156,7 +62156,7 @@
     },
     "17168": {
       "title": "Water Knows The Answers",
-      "level": 21
+      "level": 22
     },
     "17169": {
       "title": "Eat Economically",
@@ -63464,7 +63464,7 @@
     },
     "17497": {
       "title": "계산기",
-      "level": 14
+      "level": 13
     },
     "17498": {
       "title": "폴짝 게임",
@@ -77300,7 +77300,7 @@
     },
     "20982": {
       "title": "安全点検 (Safety Inspection)",
-      "level": 19
+      "level": 18
     },
     "20983": {
       "title": "スパイ 2 (Spy 2)",
@@ -87616,7 +87616,7 @@
     },
     "23602": {
       "title": "Drone With a Camera",
-      "level": 16
+      "level": 17
     },
     "23603": {
       "title": "Fibonaccis’ vouchers",
@@ -91984,7 +91984,7 @@
     },
     "24722": {
       "title": "Usmjeravanje",
-      "level": 23
+      "level": 0
     },
     "24723": {
       "title": "녹색거탑",
@@ -94704,7 +94704,7 @@
     },
     "25412": {
       "title": "Measures",
-      "level": 21
+      "level": 22
     },
     "25414": {
       "title": "구간 나누기",
@@ -95448,7 +95448,7 @@
     },
     "25608": {
       "title": "장난감 섞기",
-      "level": 16
+      "level": 15
     },
     "25609": {
       "title": "MST",
@@ -100392,7 +100392,7 @@
     },
     "26866": {
       "title": "Dice Grid",
-      "level": 0
+      "level": 13
     },
     "26867": {
       "title": "Easily Distinguishable Triangles",
@@ -100404,7 +100404,7 @@
     },
     "26869": {
       "title": "Greatest Common Divisor",
-      "level": 17
+      "level": 18
     },
     "26870": {
       "title": "Hidden Digits",
@@ -102572,7 +102572,7 @@
     },
     "27425": {
       "title": "Traveling Salesperson in an Island",
-      "level": 0
+      "level": 22
     },
     "27426": {
       "title": "New Year Festival",
@@ -103288,7 +103288,7 @@
     },
     "27604": {
       "title": "Vittorio Plays with LEGO Bricks",
-      "level": 0
+      "level": 16
     },
     "27605": {
       "title": "기지 간소화",
@@ -105100,7 +105100,7 @@
     },
     "28060": {
       "title": "Good Night",
-      "level": 0
+      "level": 26
     },
     "28061": {
       "title": "레몬 따기",
@@ -105201,6 +105201,38 @@
     "28085": {
       "title": "배 옮기기 (Hard)",
       "level": 29
+    },
+    "28086": {
+      "title": "미소녀 컴퓨터 파루빗토 쨩",
+      "level": 5
+    },
+    "28087": {
+      "title": "고인물의 졸업 계획",
+      "level": 12
+    },
+    "28088": {
+      "title": "응애(EASY)",
+      "level": 7
+    },
+    "28089": {
+      "title": "응애(HARD)",
+      "level": 18
+    },
+    "28090": {
+      "title": "특별한 한붓그리기",
+      "level": 19
+    },
+    "28091": {
+      "title": "사각형 분할",
+      "level": 0
+    },
+    "28092": {
+      "title": "우선순위와 쿼리",
+      "level": 14
+    },
+    "28093": {
+      "title": "비밀의 채팅방",
+      "level": 0
     },
     "28097": {
       "title": "모범생 포닉스",
@@ -105313,6 +105345,74 @@
     "28124": {
       "title": "할래 갈래",
       "level": 21
+    },
+    "28125": {
+      "title": "2023 아주머학교 프로그래딩 정시머힌",
+      "level": 7
+    },
+    "28126": {
+      "title": "Space-A",
+      "level": 9
+    },
+    "28127": {
+      "title": "숫자탑과 쿼리",
+      "level": 11
+    },
+    "28128": {
+      "title": "현대모비스 특별상의 주인공은?",
+      "level": 13
+    },
+    "28129": {
+      "title": "2022 APC가 어려웠다고요?",
+      "level": 14
+    },
+    "28130": {
+      "title": "슈넬치킨 랑데부",
+      "level": 14
+    },
+    "28131": {
+      "title": "K-지폐",
+      "level": 14
+    },
+    "28132": {
+      "title": "기벡을 안배운다고?",
+      "level": 15
+    },
+    "28133": {
+      "title": "개미억장와르르맨션",
+      "level": 19
+    },
+    "28134": {
+      "title": "너의 집에 가까워졌어 너의 이름을 크게 불러봐도 너는 너무 멀어",
+      "level": 20
+    },
+    "28135": {
+      "title": "Since 1973",
+      "level": 2
+    },
+    "28136": {
+      "title": "원, 탁!",
+      "level": 6
+    },
+    "28137": {
+      "title": "뭐라고? 안들려",
+      "level": 13
+    },
+    "28138": {
+      "title": "재밌는 나머지 연산",
+      "level": 7
+    },
+    "28139": {
+      "title": "평균 구하기",
+      "level": 12
+    },
+    "28140": {
+      "title": "빨강~ 빨강~ 파랑! 파랑! 달콤한 솜사탕!",
+      "level": 11
+    },
+    "28141": {
+      "title": "Easy Interactive Problem",
+      "level": 17
     }
   }
 }
