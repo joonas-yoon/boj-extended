@@ -1,6 +1,4 @@
-# BOJ-extended <img align="right" src="src/icons/icon48.png"/>
-
-# OSS-Project (BOJ-Extended)
+# OSS-Project (BOJ-Extended) <img align="right" src="src/icons/icon48.png"/>
 2023 JBNU Open-Source Software Project
 
 ---
