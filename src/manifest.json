@@ -36,6 +36,7 @@
         "js/features/search.js",
         "js/features/setting.js",
         "js/features/global.js",
+        "js/features/defence.js",
         "js/main.js"
       ]
     }
