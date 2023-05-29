@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-28 19:12:36.101338",
+  "last_updated": "2023-05-29 19:12:56.017734",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3204,7 +3204,7 @@
     },
     "1808": {
       "title": "숌작업",
-      "level": 12
+      "level": 13
     },
     "1809": {
       "title": "Moo",
@@ -7684,7 +7684,7 @@
     },
     "2949": {
       "title": "45도",
-      "level": 7
+      "level": 8
     },
     "2950": {
       "title": "SLIKAR",
@@ -12120,7 +12120,7 @@
     },
     "4096": {
       "title": "팰린드로미터",
-      "level": 6
+      "level": 7
     },
     "4097": {
       "title": "수익",
@@ -17480,7 +17480,7 @@
     },
     "5528": {
       "title": "달려라 IOI 열차",
-      "level": 15
+      "level": 16
     },
     "5529": {
       "title": "저택",
@@ -17964,7 +17964,7 @@
     },
     "5649": {
       "title": "Line of Best Fit",
-      "level": 13
+      "level": 14
     },
     "5650": {
       "title": "Software Licenses",
@@ -19924,7 +19924,7 @@
     },
     "6144": {
       "title": "Charm Bracelet",
-      "level": 10
+      "level": 11
     },
     "6145": {
       "title": "Watering - 4",
@@ -41960,7 +41960,7 @@
     },
     "12044": {
       "title": "Robot Rock Band (Small)",
-      "level": 4
+      "level": 5
     },
     "12045": {
       "title": "Robot Rock Band (Large)",
@@ -59856,7 +59856,7 @@
     },
     "16582": {
       "title": "Future Generation",
-      "level": 18
+      "level": 19
     },
     "16583": {
       "title": "Boomerangs",
@@ -59864,7 +59864,7 @@
     },
     "16584": {
       "title": "Binary String",
-      "level": 13
+      "level": 12
     },
     "16585": {
       "title": "Tour de BINUS",
@@ -61024,7 +61024,7 @@
     },
     "16874": {
       "title": "Tours de Sales Force",
-      "level": 23
+      "level": 22
     },
     "16875": {
       "title": "Watch Where You Step",
@@ -76492,7 +76492,7 @@
     },
     "20780": {
       "title": "Evil Problemsetters",
-      "level": 18
+      "level": 19
     },
     "20781": {
       "title": "Fewest Moves Count",
@@ -93776,7 +93776,7 @@
     },
     "25172": {
       "title": "꼼꼼한 쿠기의 졸업여행",
-      "level": 16
+      "level": 17
     },
     "25173": {
       "title": "용감한 아리의 동굴 대탈출",
@@ -101724,11 +101724,11 @@
     },
     "27201": {
       "title": "One-dimensional Game",
-      "level": 0
+      "level": 23
     },
     "27202": {
       "title": "Soviet Kindergarden",
-      "level": 0
+      "level": 21
     },
     "27203": {
       "title": "Pyramid Construction",
@@ -102564,7 +102564,7 @@
     },
     "27423": {
       "title": "Cake Decoration",
-      "level": 0
+      "level": 23
     },
     "27424": {
       "title": "Quiz Contest",
@@ -104596,7 +104596,7 @@
     },
     "27934": {
       "title": "마계안암",
-      "level": 18
+      "level": 19
     },
     "27935": {
       "title": "고연전/연고전 기차놀이",
@@ -104652,7 +104652,7 @@
     },
     "27948": {
       "title": "가지 자르기",
-      "level": 21
+      "level": 20
     },
     "27949": {
       "title": "가지 볶음",
@@ -104980,7 +104980,7 @@
     },
     "28030": {
       "title": "Tree Merging",
-      "level": 21
+      "level": 22
     },
     "28031": {
       "title": "Milk Sum",
@@ -104992,11 +104992,11 @@
     },
     "28033": {
       "title": "Pareidolia",
-      "level": 16
+      "level": 17
     },
     "28034": {
       "title": "FEB",
-      "level": 11
+      "level": 12
     },
     "28035": {
       "title": "Moo Language",
@@ -105204,7 +105204,7 @@
     },
     "28086": {
       "title": "미소녀 컴퓨터 파루빗토 쨩",
-      "level": 5
+      "level": 6
     },
     "28087": {
       "title": "고인물의 졸업 계획",
@@ -105224,7 +105224,7 @@
     },
     "28091": {
       "title": "사각형 분할",
-      "level": 0
+      "level": 21
     },
     "28092": {
       "title": "우선순위와 쿼리",
@@ -105232,7 +105232,7 @@
     },
     "28093": {
       "title": "비밀의 채팅방",
-      "level": 0
+      "level": 23
     },
     "28097": {
       "title": "모범생 포닉스",
@@ -105360,7 +105360,7 @@
     },
     "28128": {
       "title": "현대모비스 특별상의 주인공은?",
-      "level": 13
+      "level": 14
     },
     "28129": {
       "title": "2022 APC가 어려웠다고요?",
@@ -105372,7 +105372,7 @@
     },
     "28131": {
       "title": "K-지폐",
-      "level": 14
+      "level": 15
     },
     "28132": {
       "title": "기벡을 안배운다고?",
@@ -105388,7 +105388,7 @@
     },
     "28135": {
       "title": "Since 1973",
-      "level": 2
+      "level": 3
     },
     "28136": {
       "title": "원, 탁!",
