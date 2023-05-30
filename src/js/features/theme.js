@@ -15,7 +15,7 @@ function extendTheme() {
   // initialize button
   const themeButton = document.createElement('a');
   themeButton.innerHTML = '';
-  for (let i = 1; i <= 3; ++i) {
+  for (let i = 1; i <= 4; ++i) {
     themeButton.innerHTML += `<div class="loading-bar bar-${i}"></div>`;
   }
   themeButton.addEventListener('click', (evt) => {
