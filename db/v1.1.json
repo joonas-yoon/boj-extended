@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-30 19:12:38.849106",
+  "last_updated": "2023-05-31 19:12:42.103594",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -14512,7 +14512,7 @@
     },
     "4701": {
       "title": "Party Games",
-      "level": 18
+      "level": 13
     },
     "4702": {
       "title": "Funhouse",
@@ -25636,7 +25636,7 @@
     },
     "7809": {
       "title": "The Adventure in Panda Land Part I: Panda Number",
-      "level": 0
+      "level": 16
     },
     "7810": {
       "title": "Jakarta Traffic Jam",
@@ -29684,7 +29684,7 @@
     },
     "8845": {
       "title": "Gra",
-      "level": 18
+      "level": 19
     },
     "8846": {
       "title": "Wymiana żarówki",
@@ -44620,7 +44620,7 @@
     },
     "12713": {
       "title": "Ugly Numbers (Small)",
-      "level": 8
+      "level": 9
     },
     "12714": {
       "title": "Ugly Numbers (Large)",
@@ -46812,7 +46812,7 @@
     },
     "13274": {
       "title": "수열",
-      "level": 11
+      "level": 10
     },
     "13275": {
       "title": "가장 긴 팰린드롬 부분 문자열",
@@ -52624,7 +52624,7 @@
     },
     "14759": {
       "title": "Party Games",
-      "level": 13
+      "level": 11
     },
     "14760": {
       "title": "Reverse Nonogram",
@@ -59220,7 +59220,7 @@
     },
     "16423": {
       "title": "To Tell the Truth",
-      "level": 5
+      "level": 6
     },
     "16424": {
       "title": "Repeating Goldbachs",
@@ -61992,7 +61992,7 @@
     },
     "17127": {
       "title": "벚꽃이 정보섬에 피어난 이유",
-      "level": 5
+      "level": 6
     },
     "17128": {
       "title": "소가 정보섬에 올라온 이유",
@@ -89448,7 +89448,7 @@
     },
     "24060": {
       "title": "알고리즘 수업 - 병합 정렬 1",
-      "level": 7
+      "level": 8
     },
     "24061": {
       "title": "알고리즘 수업 - 병합 정렬 2",
@@ -95820,7 +95820,7 @@
     },
     "25703": {
       "title": "포인터 공부",
-      "level": 2
+      "level": 3
     },
     "25704": {
       "title": "출석 이벤트",
@@ -100812,7 +100812,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 16
+      "level": 17
     },
     "26973": {
       "title": "Circular Barn",
@@ -105028,7 +105028,7 @@
     },
     "28042": {
       "title": "City Folding",
-      "level": 14
+      "level": 13
     },
     "28043": {
       "title": "Daily Trips",
@@ -105368,7 +105368,7 @@
     },
     "28130": {
       "title": "슈넬치킨 랑데부",
-      "level": 14
+      "level": 15
     },
     "28131": {
       "title": "K-지폐",
@@ -105420,11 +105420,11 @@
     },
     "28143": {
       "title": "k번째 이진십진수",
-      "level": 0
+      "level": 18
     },
     "28144": {
       "title": "Allergen Testing",
-      "level": 0
+      "level": 15
     },
     "28145": {
       "title": "A Tree and Two Edges",
@@ -105456,7 +105456,7 @@
     },
     "28152": {
       "title": "Power of Divisors",
-      "level": 15
+      "level": 14
     },
     "28153": {
       "title": "Repetitive String Invention",
@@ -105472,6 +105472,10 @@
     },
     "28156": {
       "title": "Who Watches the Watchmen?",
+      "level": 0
+    },
+    "28157": {
+      "title": "Lucky Stars Management",
       "level": 0
     }
   }
