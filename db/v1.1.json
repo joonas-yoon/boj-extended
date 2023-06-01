@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-05-31 19:12:42.103594",
+  "last_updated": "2023-06-01 19:12:59.331654",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7936,7 +7936,7 @@
     },
     "3012": {
       "title": "올바른 괄호 문자열",
-      "level": 18
+      "level": 19
     },
     "3013": {
       "title": "부분 수열의 중앙값",
@@ -9212,7 +9212,7 @@
     },
     "3344": {
       "title": "N-Queen",
-      "level": 18
+      "level": 19
     },
     "3345": {
       "title": "괄호",
@@ -21576,7 +21576,7 @@
     },
     "6581": {
       "title": "HTML",
-      "level": 10
+      "level": 11
     },
     "6582": {
       "title": "Artificial Intelligence?",
@@ -24296,7 +24296,7 @@
     },
     "7444": {
       "title": "Parliament",
-      "level": 13
+      "level": 14
     },
     "7445": {
       "title": "Defragment",
@@ -27124,7 +27124,7 @@
     },
     "8203": {
       "title": "Lollipop",
-      "level": 19
+      "level": 18
     },
     "8204": {
       "title": "Lightning Conductor",
@@ -33092,7 +33092,7 @@
     },
     "9737": {
       "title": "Area Between Outer Hull and Inner Hull",
-      "level": 17
+      "level": 18
     },
     "9738": {
       "title": "Sharkovski’s Ordering",
@@ -34356,7 +34356,7 @@
     },
     "10087": {
       "title": "Orbit",
-      "level": 18
+      "level": 19
     },
     "10088": {
       "title": "XOR",
@@ -53656,7 +53656,7 @@
     },
     "15018": {
       "title": "Compass Card Sales",
-      "level": 19
+      "level": 20
     },
     "15019": {
       "title": "Distinctive Character",
@@ -58460,7 +58460,7 @@
     },
     "16233": {
       "title": "수학 문제",
-      "level": 16
+      "level": 15
     },
     "16234": {
       "title": "인구 이동",
@@ -78688,7 +78688,7 @@
     },
     "21329": {
       "title": "Candy",
-      "level": 0
+      "level": 16
     },
     "21330": {
       "title": "Solitaire chess",
@@ -80268,7 +80268,7 @@
     },
     "21728": {
       "title": "트리와 2개의 지름",
-      "level": 0
+      "level": 29
     },
     "21729": {
       "title": "Inversion Statistics",
@@ -85540,7 +85540,7 @@
     },
     "23082": {
       "title": "균형 삼진법",
-      "level": 10
+      "level": 9
     },
     "23083": {
       "title": "꿀벌 승연이",
@@ -93756,7 +93756,7 @@
     },
     "25167": {
       "title": "이상한 아리의 채점",
-      "level": 7
+      "level": 8
     },
     "25168": {
       "title": "게으른 아리를 위한 접종 계획",
@@ -99392,7 +99392,7 @@
     },
     "26607": {
       "title": "시로코와 은행털기",
-      "level": 12
+      "level": 13
     },
     "26608": {
       "title": "캠핑하기",
@@ -100812,7 +100812,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 17
+      "level": 16
     },
     "26973": {
       "title": "Circular Barn",
@@ -104960,7 +104960,7 @@
     },
     "28025": {
       "title": "Pareidolia",
-      "level": 24
+      "level": 23
     },
     "28026": {
       "title": "Good Bitstrings",
@@ -105080,7 +105080,7 @@
     },
     "28055": {
       "title": "Monochrome Tree",
-      "level": 13
+      "level": 14
     },
     "28056": {
       "title": "Merging Branches",
@@ -105248,7 +105248,7 @@
     },
     "28100": {
       "title": "보물 사냥",
-      "level": 22
+      "level": 21
     },
     "28101": {
       "title": "지구평면설",
@@ -105476,6 +105476,86 @@
     },
     "28157": {
       "title": "Lucky Stars Management",
+      "level": 0
+    },
+    "28158": {
+      "title": "Pibonacci 2",
+      "level": 0
+    },
+    "28159": {
+      "title": "K번째 행운 수",
+      "level": 0
+    },
+    "28160": {
+      "title": "행운 수 구하기",
+      "level": 0
+    },
+    "28161": {
+      "title": "괄호 문자열 표기법 (Large)",
+      "level": 0
+    },
+    "28162": {
+      "title": "One, Two, Three",
+      "level": 0
+    },
+    "28163": {
+      "title": "Beautiful Sequence",
+      "level": 0
+    },
+    "28164": {
+      "title": "Optimal Quadratic Function",
+      "level": 0
+    },
+    "28165": {
+      "title": "Cooperation Game",
+      "level": 0
+    },
+    "28166": {
+      "title": "TreeScript",
+      "level": 0
+    },
+    "28167": {
+      "title": "Big Picture",
+      "level": 0
+    },
+    "28168": {
+      "title": "Painting Grid",
+      "level": 0
+    },
+    "28169": {
+      "title": "Shortest Path Query",
+      "level": 0
+    },
+    "28170": {
+      "title": "Goose, Goose, DUCK?",
+      "level": 0
+    },
+    "28171": {
+      "title": "Sum of Numbers",
+      "level": 0
+    },
+    "28172": {
+      "title": "Paddle Star",
+      "level": 0
+    },
+    "28173": {
+      "title": "Another Goose Goose Duck Problem",
+      "level": 0
+    },
+    "28174": {
+      "title": "Range Closest Pair of Points Query",
+      "level": 0
+    },
+    "28175": {
+      "title": "Dice Game",
+      "level": 0
+    },
+    "28176": {
+      "title": "Maximum GCD",
+      "level": 0
+    },
+    "28177": {
+      "title": "Permutation Compression",
       "level": 0
     }
   }
