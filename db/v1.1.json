@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-01 19:12:59.331654",
+  "last_updated": "2023-06-02 19:12:29.938105",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -2148,7 +2148,7 @@
     },
     "1542": {
       "title": "체스 연습",
-      "level": 19
+      "level": 20
     },
     "1543": {
       "title": "문서 검색",
@@ -4108,7 +4108,7 @@
     },
     "2041": {
       "title": "숫자채우기",
-      "level": 21
+      "level": 20
     },
     "2042": {
       "title": "구간 합 구하기",
@@ -8424,7 +8424,7 @@
     },
     "3139": {
       "title": "VANDAL",
-      "level": 7
+      "level": 8
     },
     "3140": {
       "title": "GULIVER",
@@ -9228,7 +9228,7 @@
     },
     "3348": {
       "title": "Fireworks in RightAngleles",
-      "level": 21
+      "level": 19
     },
     "3349": {
       "title": "Melody",
@@ -10100,7 +10100,7 @@
     },
     "3575": {
       "title": "Enchanted Mirror",
-      "level": 0
+      "level": 5
     },
     "3576": {
       "title": "Fenwick Tree",
@@ -10184,7 +10184,7 @@
     },
     "3596": {
       "title": "크로스와 크로스",
-      "level": 18
+      "level": 19
     },
     "3597": {
       "title": "Domestic Networks",
@@ -36252,7 +36252,7 @@
     },
     "10562": {
       "title": "나이트",
-      "level": 21
+      "level": 20
     },
     "10563": {
       "title": "정수 게임",
@@ -40324,7 +40324,7 @@
     },
     "11613": {
       "title": "ASCII Addition",
-      "level": 10
+      "level": 11
     },
     "11614": {
       "title": "Book Borders",
@@ -44948,7 +44948,7 @@
     },
     "12796": {
       "title": "나의 행렬곱셈 답사기",
-      "level": 10
+      "level": 11
     },
     "12797": {
       "title": "연금술",
@@ -47840,7 +47840,7 @@
     },
     "13532": {
       "title": "악마의 수열",
-      "level": 15
+      "level": 16
     },
     "13533": {
       "title": "꽃 구매하기",
@@ -49636,7 +49636,7 @@
     },
     "13982": {
       "title": "Shopping",
-      "level": 18
+      "level": 19
     },
     "13983": {
       "title": "Tournament Wins",
@@ -64404,7 +64404,7 @@
     },
     "17736": {
       "title": "JOIOJI",
-      "level": 16
+      "level": 15
     },
     "17737": {
       "title": "Scarecrows",
@@ -66596,7 +66596,7 @@
     },
     "18287": {
       "title": "체스판 이동",
-      "level": 19
+      "level": 18
     },
     "18288": {
       "title": "팀 연습",
@@ -72224,7 +72224,7 @@
     },
     "19699": {
       "title": "소-난다!",
-      "level": 9
+      "level": 10
     },
     "19700": {
       "title": "수업",
@@ -73212,7 +73212,7 @@
     },
     "19950": {
       "title": "3차원 막대기 연결하기",
-      "level": 12
+      "level": 11
     },
     "19951": {
       "title": "태상이의 훈련소 생활",
@@ -74700,7 +74700,7 @@
     },
     "20324": {
       "title": "Izvanredna Isplata",
-      "level": 8
+      "level": 9
     },
     "20325": {
       "title": "Jači Jovsi",
@@ -77904,7 +77904,7 @@
     },
     "21133": {
       "title": "N-Queen 2",
-      "level": 18
+      "level": 19
     },
     "21134": {
       "title": "Ant Typing",
@@ -78476,7 +78476,7 @@
     },
     "21276": {
       "title": "계보 복원가 호석",
-      "level": 13
+      "level": 14
     },
     "21277": {
       "title": "짠돌이 호석",
@@ -80492,7 +80492,7 @@
     },
     "21784": {
       "title": "Aerobatics - 6",
-      "level": 0
+      "level": 22
     },
     "21785": {
       "title": "IOI Fever",
@@ -84372,7 +84372,7 @@
     },
     "22789": {
       "title": "Ski Slopes",
-      "level": 0
+      "level": 22
     },
     "22790": {
       "title": "Inside Information",
@@ -95792,7 +95792,7 @@
     },
     "25696": {
       "title": "Smaller LCA",
-      "level": 28
+      "level": 26
     },
     "25697": {
       "title": "Noodle",
@@ -104760,7 +104760,7 @@
     },
     "27975": {
       "title": "트리와 쿼리 22",
-      "level": 0
+      "level": 27
     },
     "27976": {
       "title": "트리와 쿼리 23",
@@ -104972,7 +104972,7 @@
     },
     "28028": {
       "title": "Custodial Cleanup",
-      "level": 18
+      "level": 19
     },
     "28029": {
       "title": "Pareidolia",
@@ -105004,7 +105004,7 @@
     },
     "28036": {
       "title": "Rotate and Shift",
-      "level": 14
+      "level": 15
     },
     "28037": {
       "title": "3차원 좌표변환",
@@ -105428,7 +105428,7 @@
     },
     "28145": {
       "title": "A Tree and Two Edges",
-      "level": 0
+      "level": 20
     },
     "28146": {
       "title": "Broken Minimum Spanning Tree",
@@ -105436,7 +105436,7 @@
     },
     "28147": {
       "title": "Fail Fast",
-      "level": 0
+      "level": 25
     },
     "28148": {
       "title": "First Last",
@@ -105460,7 +105460,7 @@
     },
     "28153": {
       "title": "Repetitive String Invention",
-      "level": 0
+      "level": 19
     },
     "28154": {
       "title": "Space Alignment",
@@ -105480,11 +105480,11 @@
     },
     "28158": {
       "title": "Pibonacci 2",
-      "level": 0
+      "level": 20
     },
     "28159": {
       "title": "K번째 행운 수",
-      "level": 0
+      "level": 20
     },
     "28160": {
       "title": "행운 수 구하기",
@@ -105500,15 +105500,15 @@
     },
     "28163": {
       "title": "Beautiful Sequence",
-      "level": 0
+      "level": 23
     },
     "28164": {
       "title": "Optimal Quadratic Function",
-      "level": 0
+      "level": 28
     },
     "28165": {
       "title": "Cooperation Game",
-      "level": 0
+      "level": 19
     },
     "28166": {
       "title": "TreeScript",
@@ -105520,11 +105520,11 @@
     },
     "28168": {
       "title": "Painting Grid",
-      "level": 0
+      "level": 19
     },
     "28169": {
       "title": "Shortest Path Query",
-      "level": 0
+      "level": 24
     },
     "28170": {
       "title": "Goose, Goose, DUCK?",
@@ -105540,7 +105540,7 @@
     },
     "28173": {
       "title": "Another Goose Goose Duck Problem",
-      "level": 0
+      "level": 5
     },
     "28174": {
       "title": "Range Closest Pair of Points Query",
@@ -105552,7 +105552,7 @@
     },
     "28176": {
       "title": "Maximum GCD",
-      "level": 0
+      "level": 15
     },
     "28177": {
       "title": "Permutation Compression",
