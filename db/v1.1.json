@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-02 19:12:29.938105",
+  "last_updated": "2023-06-04 19:12:10.395948",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -84,7 +84,7 @@
     },
     "1020": {
       "title": "디지털 카운터",
-      "level": 18
+      "level": 19
     },
     "1021": {
       "title": "회전하는 큐",
@@ -1936,7 +1936,7 @@
     },
     "1489": {
       "title": "대결",
-      "level": 16
+      "level": 15
     },
     "1490": {
       "title": "자리수로 나누기",
@@ -3424,7 +3424,7 @@
     },
     "1863": {
       "title": "스카이라인 쉬운거",
-      "level": 11
+      "level": 12
     },
     "1864": {
       "title": "문어 숫자",
@@ -5592,7 +5592,7 @@
     },
     "2422": {
       "title": "한윤정이 이탈리아에 가서 아이스크림을 사먹는데",
-      "level": 6
+      "level": 7
     },
     "2423": {
       "title": "전구를 켜라",
@@ -6612,7 +6612,7 @@
     },
     "2677": {
       "title": "에드삭 만들기",
-      "level": 7
+      "level": 8
     },
     "2678": {
       "title": "에드삭 데이터 디코딩하기",
@@ -10100,7 +10100,7 @@
     },
     "3575": {
       "title": "Enchanted Mirror",
-      "level": 5
+      "level": 4
     },
     "3576": {
       "title": "Fenwick Tree",
@@ -12148,7 +12148,7 @@
     },
     "4105": {
       "title": "유클리드",
-      "level": 9
+      "level": 10
     },
     "4106": {
       "title": "Museum Guards",
@@ -25584,7 +25584,7 @@
     },
     "7796": {
       "title": "Indomie",
-      "level": 13
+      "level": 15
     },
     "7797": {
       "title": "In Queries",
@@ -26864,7 +26864,7 @@
     },
     "8137": {
       "title": "Sophie",
-      "level": 18
+      "level": 19
     },
     "8138": {
       "title": "Tourist Attractions",
@@ -31304,7 +31304,7 @@
     },
     "9276": {
       "title": "채소 보호",
-      "level": 19
+      "level": 20
     },
     "9277": {
       "title": "꽃병",
@@ -31356,7 +31356,7 @@
     },
     "9289": {
       "title": "Morse Code",
-      "level": 6
+      "level": 5
     },
     "9290": {
       "title": "틱택토 이기기",
@@ -32184,7 +32184,7 @@
     },
     "9508": {
       "title": "Holodeck Hacking",
-      "level": 20
+      "level": 21
     },
     "9509": {
       "title": "Interstellar Trade",
@@ -32440,7 +32440,7 @@
     },
     "9572": {
       "title": "Pogo-Cow",
-      "level": 16
+      "level": 17
     },
     "9573": {
       "title": "Combination Lock",
@@ -34932,7 +34932,7 @@
     },
     "10232": {
       "title": "Saveit",
-      "level": 24
+      "level": 25
     },
     "10233": {
       "title": "Tax Rate Changed",
@@ -36952,7 +36952,7 @@
     },
     "10749": {
       "title": "Superbull",
-      "level": 14
+      "level": 15
     },
     "10750": {
       "title": "Censoring",
@@ -45804,7 +45804,7 @@
     },
     "13010": {
       "title": "h(n)",
-      "level": 15
+      "level": 14
     },
     "13011": {
       "title": "사탕의 밀도",
@@ -50328,7 +50328,7 @@
     },
     "14173": {
       "title": "Square Pasture",
-      "level": 2
+      "level": 3
     },
     "14174": {
       "title": "Block Game",
@@ -50588,7 +50588,7 @@
     },
     "14238": {
       "title": "출근 기록",
-      "level": 13
+      "level": 14
     },
     "14239": {
       "title": "게임",
@@ -51208,7 +51208,7 @@
     },
     "14393": {
       "title": "Whitespace",
-      "level": 19
+      "level": 20
     },
     "14394": {
       "title": "9-퍼즐",
@@ -53584,7 +53584,7 @@
     },
     "15000": {
       "title": "CAPS",
-      "level": 2
+      "level": 1
     },
     "15001": {
       "title": "Frog Leaps",
@@ -56392,7 +56392,7 @@
     },
     "15706": {
       "title": "블록 게임",
-      "level": 0
+      "level": 18
     },
     "15707": {
       "title": "exceed or not",
@@ -58584,7 +58584,7 @@
     },
     "16264": {
       "title": "Array Study",
-      "level": 21
+      "level": 22
     },
     "16265": {
       "title": "Spreadsheets",
@@ -62152,7 +62152,7 @@
     },
     "17167": {
       "title": "A Plus Equals B",
-      "level": 18
+      "level": 19
     },
     "17168": {
       "title": "Water Knows The Answers",
@@ -62684,7 +62684,7 @@
     },
     "17302": {
       "title": "흰색으로 만들기",
-      "level": 16
+      "level": 15
     },
     "17303": {
       "title": "슈퍼브 다트",
@@ -71428,7 +71428,7 @@
     },
     "19499": {
       "title": "K-transform",
-      "level": 24
+      "level": 23
     },
     "19500": {
       "title": "Suffix Array for Thue-Morse",
@@ -73760,7 +73760,7 @@
     },
     "20088": {
       "title": "Paint By Numbers",
-      "level": 20
+      "level": 19
     },
     "20089": {
       "title": "Unscrambling a Messy Bug",
@@ -78224,11 +78224,11 @@
     },
     "21213": {
       "title": "Mentors",
-      "level": 21
+      "level": 20
     },
     "21214": {
       "title": "Decoration",
-      "level": 20
+      "level": 19
     },
     "21215": {
       "title": "Figurines",
@@ -78248,7 +78248,7 @@
     },
     "21219": {
       "title": "Restaurants",
-      "level": 21
+      "level": 20
     },
     "21220": {
       "title": "Fantasmagorie",
@@ -85552,7 +85552,7 @@
     },
     "23085": {
       "title": "판치기",
-      "level": 12
+      "level": 11
     },
     "23086": {
       "title": "두 반으로 나누기",
@@ -88272,11 +88272,11 @@
     },
     "23766": {
       "title": "간단한 트리 문제",
-      "level": 23
+      "level": 24
     },
     "23767": {
       "title": "Access Denied",
-      "level": 9
+      "level": 10
     },
     "23768": {
       "title": "Boredom Buster",
@@ -89088,7 +89088,7 @@
     },
     "23970": {
       "title": "알고리즘 수업 - 버블 정렬 3",
-      "level": 11
+      "level": 12
     },
     "23971": {
       "title": "ZOAC 4",
@@ -89424,7 +89424,7 @@
     },
     "24054": {
       "title": "알고리즘 수업 - 삽입 정렬 4",
-      "level": 16
+      "level": 17
     },
     "24055": {
       "title": "알고리즘 수업 - 삽입 정렬 5",
@@ -89644,7 +89644,7 @@
     },
     "24111": {
       "title": "戦国時代 (Sengoku)",
-      "level": 15
+      "level": 16
     },
     "24112": {
       "title": "階段 (Stairs)",
@@ -89676,7 +89676,7 @@
     },
     "24119": {
       "title": "シムロード (SimRoad) 2",
-      "level": 19
+      "level": 20
     },
     "24120": {
       "title": "シムロード (SimRoad) 3",
@@ -90268,7 +90268,7 @@
     },
     "24293": {
       "title": "ВСЕКИ ТРЕТИ",
-      "level": 8
+      "level": 7
     },
     "24294": {
       "title": "ГРАДИНА",
@@ -93408,7 +93408,7 @@
     },
     "25079": {
       "title": "Sushi Dinner",
-      "level": 0
+      "level": 20
     },
     "25080": {
       "title": "Homeric Epics",
@@ -95344,7 +95344,7 @@
     },
     "25582": {
       "title": "pqbd",
-      "level": 18
+      "level": 17
     },
     "25583": {
       "title": "첨탑 부수기",
@@ -96312,7 +96312,7 @@
     },
     "25826": {
       "title": "2차원 배열 다중 업데이트 단일 합",
-      "level": 12
+      "level": 13
     },
     "25827": {
       "title": "시간 구간 다중 업데이트 다중 합",
@@ -100812,7 +100812,7 @@
     },
     "26972": {
       "title": "Barn Tree",
-      "level": 16
+      "level": 17
     },
     "26973": {
       "title": "Circular Barn",
@@ -100916,7 +100916,7 @@
     },
     "26998": {
       "title": "City Skyline",
-      "level": 12
+      "level": 13
     },
     "26999": {
       "title": "Satellite Photographs",
@@ -101756,7 +101756,7 @@
     },
     "27209": {
       "title": "Airport",
-      "level": 0
+      "level": 19
     },
     "27210": {
       "title": "신을 모시는 사당",
@@ -102976,7 +102976,7 @@
     },
     "27526": {
       "title": "슬라이딩 퍼즐 마스터",
-      "level": 23
+      "level": 22
     },
     "27527": {
       "title": "배너 걸기",
@@ -102988,7 +102988,7 @@
     },
     "27529": {
       "title": "양 가두기",
-      "level": 16
+      "level": 17
     },
     "27530": {
       "title": "UFO in the Sinchon",
@@ -104196,7 +104196,7 @@
     },
     "27831": {
       "title": "K Equal Digits",
-      "level": 0
+      "level": 22
     },
     "27832": {
       "title": "Large party",
@@ -104448,7 +104448,7 @@
     },
     "27894": {
       "title": "특별한 숙제 순서 바꾸기",
-      "level": 18
+      "level": 17
     },
     "27895": {
       "title": "특별한 학생증",
@@ -104764,7 +104764,7 @@
     },
     "27976": {
       "title": "트리와 쿼리 23",
-      "level": 27
+      "level": 26
     },
     "27977": {
       "title": "킥보드로 등교하기",
@@ -105432,7 +105432,7 @@
     },
     "28146": {
       "title": "Broken Minimum Spanning Tree",
-      "level": 0
+      "level": 16
     },
     "28147": {
       "title": "Fail Fast",
@@ -105444,11 +105444,11 @@
     },
     "28149": {
       "title": "Four Square",
-      "level": 0
+      "level": 10
     },
     "28150": {
       "title": "Frequent Flier",
-      "level": 0
+      "level": 16
     },
     "28151": {
       "title": "Game Show Elimination",
@@ -105468,11 +105468,11 @@
     },
     "28155": {
       "title": "Splitting Pairs",
-      "level": 0
+      "level": 16
     },
     "28156": {
       "title": "Who Watches the Watchmen?",
-      "level": 0
+      "level": 23
     },
     "28157": {
       "title": "Lucky Stars Management",
@@ -105512,11 +105512,11 @@
     },
     "28166": {
       "title": "TreeScript",
-      "level": 0
+      "level": 15
     },
     "28167": {
       "title": "Big Picture",
-      "level": 0
+      "level": 17
     },
     "28168": {
       "title": "Painting Grid",
@@ -105556,6 +105556,46 @@
     },
     "28177": {
       "title": "Permutation Compression",
+      "level": 0
+    },
+    "28178": {
+      "title": "Greedy Bipartite Matching",
+      "level": 0
+    },
+    "28179": {
+      "title": "Banshee",
+      "level": 0
+    },
+    "28180": {
+      "title": "Courses",
+      "level": 0
+    },
+    "28181": {
+      "title": "Two Missing Numbers",
+      "level": 0
+    },
+    "28182": {
+      "title": "Elimination Race",
+      "level": 0
+    },
+    "28183": {
+      "title": "Forever Young",
+      "level": 0
+    },
+    "28184": {
+      "title": "Good and Lucky Matrices",
+      "level": 0
+    },
+    "28185": {
+      "title": "Shared Memory Switch",
+      "level": 0
+    },
+    "28186": {
+      "title": "Endless Road",
+      "level": 0
+    },
+    "28187": {
+      "title": "Sets May Be Good",
       "level": 0
     }
   }
