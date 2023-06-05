@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-04 19:12:10.395948",
+  "last_updated": "2023-06-05 19:12:46.911400",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4108,7 +4108,7 @@
     },
     "2041": {
       "title": "숫자채우기",
-      "level": 20
+      "level": 21
     },
     "2042": {
       "title": "구간 합 구하기",
@@ -4368,7 +4368,7 @@
     },
     "2108": {
       "title": "통계학",
-      "level": 9
+      "level": 8
     },
     "2109": {
       "title": "순회강연",
@@ -17412,7 +17412,7 @@
     },
     "5501": {
       "title": "Depot",
-      "level": 10
+      "level": 11
     },
     "5502": {
       "title": "팰린드롬",
@@ -21652,7 +21652,7 @@
     },
     "6600": {
       "title": "원의 둘레",
-      "level": 8
+      "level": 9
     },
     "6601": {
       "title": "Knight Moves",
@@ -33320,7 +33320,7 @@
     },
     "9805": {
       "title": "Pyramids",
-      "level": 8
+      "level": 9
     },
     "9806": {
       "title": "The King",
@@ -36740,7 +36740,7 @@
     },
     "10696": {
       "title": "Prof. Ossama",
-      "level": 7
+      "level": 8
     },
     "10697": {
       "title": "Nicole",
@@ -40060,7 +40060,7 @@
     },
     "11547": {
       "title": "Galactic taxes",
-      "level": 18
+      "level": 17
     },
     "11548": {
       "title": "Height map",
@@ -41648,7 +41648,7 @@
     },
     "11960": {
       "title": "Max Flow",
-      "level": 19
+      "level": 18
     },
     "11961": {
       "title": "High Card Low Card (Platinum)",
@@ -43432,7 +43432,7 @@
     },
     "12416": {
       "title": "가로수 (Large)",
-      "level": 16
+      "level": 15
     },
     "12417": {
       "title": "일조량 (Small)",
@@ -47840,7 +47840,7 @@
     },
     "13532": {
       "title": "악마의 수열",
-      "level": 16
+      "level": 15
     },
     "13533": {
       "title": "꽃 구매하기",
@@ -55320,7 +55320,7 @@
     },
     "15436": {
       "title": "Wizard of Odds",
-      "level": 6
+      "level": 7
     },
     "15437": {
       "title": "Treasure Hunt",
@@ -56912,7 +56912,7 @@
     },
     "15837": {
       "title": "Sum of Subrectangle Areas",
-      "level": 8
+      "level": 9
     },
     "15838": {
       "title": "Wak Sani Satay",
@@ -62644,7 +62644,7 @@
     },
     "17292": {
       "title": "바둑이 포커",
-      "level": 11
+      "level": 10
     },
     "17293": {
       "title": "맥주 99병",
@@ -64704,7 +64704,7 @@
     },
     "17814": {
       "title": "Screamers in the Storm",
-      "level": 0
+      "level": 12
     },
     "17815": {
       "title": "Sixpack",
@@ -72224,7 +72224,7 @@
     },
     "19699": {
       "title": "소-난다!",
-      "level": 10
+      "level": 9
     },
     "19700": {
       "title": "수업",
@@ -86524,7 +86524,7 @@
     },
     "23328": {
       "title": "마을 구하기",
-      "level": 15
+      "level": 14
     },
     "23329": {
       "title": "구슬 발사기",
@@ -94212,7 +94212,7 @@
     },
     "25283": {
       "title": "Fireworks",
-      "level": 21
+      "level": 22
     },
     "25284": {
       "title": "Sjön Sjön Cleanup",
@@ -94700,7 +94700,7 @@
     },
     "25409": {
       "title": "Homework",
-      "level": 17
+      "level": 18
     },
     "25412": {
       "title": "Measures",
@@ -102284,7 +102284,7 @@
     },
     "27341": {
       "title": "Dirigent",
-      "level": 0
+      "level": 14
     },
     "27342": {
       "title": "Baltazar",
@@ -102548,7 +102548,7 @@
     },
     "27419": {
       "title": "Move One Coin",
-      "level": 20
+      "level": 19
     },
     "27420": {
       "title": "Incredibly Cute Penguin Chicks",
@@ -103064,7 +103064,7 @@
     },
     "27548": {
       "title": "Zrinka",
-      "level": 0
+      "level": 18
     },
     "27549": {
       "title": "Bojanje",
@@ -105000,7 +105000,7 @@
     },
     "28035": {
       "title": "Moo Language",
-      "level": 0
+      "level": 8
     },
     "28036": {
       "title": "Rotate and Shift",
@@ -105464,7 +105464,7 @@
     },
     "28154": {
       "title": "Space Alignment",
-      "level": 0
+      "level": 10
     },
     "28155": {
       "title": "Splitting Pairs",
@@ -105480,7 +105480,7 @@
     },
     "28158": {
       "title": "Pibonacci 2",
-      "level": 20
+      "level": 22
     },
     "28159": {
       "title": "K번째 행운 수",
@@ -105556,7 +105556,7 @@
     },
     "28177": {
       "title": "Permutation Compression",
-      "level": 0
+      "level": 18
     },
     "28178": {
       "title": "Greedy Bipartite Matching",
@@ -105596,6 +105596,110 @@
     },
     "28187": {
       "title": "Sets May Be Good",
+      "level": 0
+    },
+    "28188": {
+      "title": "Text Editor",
+      "level": 0
+    },
+    "28189": {
+      "title": "LCSLCSLCS",
+      "level": 0
+    },
+    "28190": {
+      "title": "The Best Problem of 2021",
+      "level": 0
+    },
+    "28191": {
+      "title": "Random Interactive Convex Hull Bot",
+      "level": 0
+    },
+    "28192": {
+      "title": "Record Parity",
+      "level": 0
+    },
+    "28193": {
+      "title": "XOR Determinant",
+      "level": 19
+    },
+    "28194": {
+      "title": "Egor Has a Problem",
+      "level": 12
+    },
+    "28195": {
+      "title": "Is This FFT?",
+      "level": 0
+    },
+    "28196": {
+      "title": "MIT",
+      "level": 0
+    },
+    "28197": {
+      "title": "Exact Subsequences",
+      "level": 24
+    },
+    "28198": {
+      "title": "SPPPSPSS.",
+      "level": 0
+    },
+    "28199": {
+      "title": "Kth Lex Min Min Min Subpalindromes",
+      "level": 21
+    },
+    "28200": {
+      "title": "4",
+      "level": 23
+    },
+    "28201": {
+      "title": "5",
+      "level": 0
+    },
+    "28202": {
+      "title": "Classical A+B Problem",
+      "level": 8
+    },
+    "28203": {
+      "title": "Classical Counting Problem",
+      "level": 0
+    },
+    "28204": {
+      "title": "Classical Data Structure Problem",
+      "level": 0
+    },
+    "28205": {
+      "title": "Classical DP Problem",
+      "level": 0
+    },
+    "28206": {
+      "title": "Classical FFT Problem",
+      "level": 0
+    },
+    "28207": {
+      "title": "Classical Geometry Problem",
+      "level": 21
+    },
+    "28208": {
+      "title": "Classical Graph Theory Problem",
+      "level": 0
+    },
+    "28209": {
+      "title": "Classical Maximization Problem",
+      "level": 21
+    },
+    "28210": {
+      "title": "Classical Minimization Problem",
+      "level": 0
+    },
+    "28211": {
+      "title": "Classical Scheduling Problem",
+      "level": 0
+    },
+    "28212": {
+      "title": "Classical Summation Problem",
+      "level": 23
+    },
+    "28213": {
+      "title": "거리와 쿼리",
       "level": 0
     }
   }
