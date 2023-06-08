@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-07 19:13:43.856916",
+  "last_updated": "2023-06-08 19:14:02.443851",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4252,7 +4252,7 @@
     },
     "2079": {
       "title": "팰린드롬",
-      "level": 14
+      "level": 15
     },
     "2080": {
       "title": "겹치는 선분",
@@ -9016,7 +9016,7 @@
     },
     "3292": {
       "title": "CARDS",
-      "level": 11
+      "level": 12
     },
     "3293": {
       "title": "MONKEY",
@@ -10336,7 +10336,7 @@
     },
     "3634": {
       "title": "Flip and Turn",
-      "level": 7
+      "level": 8
     },
     "3635": {
       "title": "Godfather",
@@ -16548,7 +16548,7 @@
     },
     "5221": {
       "title": "Pythogorean Triples",
-      "level": 6
+      "level": 7
     },
     "5222": {
       "title": "Vigenère Cipher",
@@ -22676,7 +22676,7 @@
     },
     "6857": {
       "title": "Cell-Phone Messaging",
-      "level": 5
+      "level": 4
     },
     "6858": {
       "title": "It’s tough being a teen!",
@@ -22728,7 +22728,7 @@
     },
     "6871": {
       "title": "The Cell Sell",
-      "level": 2
+      "level": 0
     },
     "6872": {
       "title": "RSA Numbers",
@@ -24064,7 +24064,7 @@
     },
     "7386": {
       "title": "Ancient Cipher",
-      "level": 5
+      "level": 6
     },
     "7387": {
       "title": "Box",
@@ -31340,7 +31340,7 @@
     },
     "9285": {
       "title": "Watering - 1",
-      "level": 4
+      "level": 5
     },
     "9286": {
       "title": "Gradabase",
@@ -31864,7 +31864,7 @@
     },
     "9428": {
       "title": "Effective Infection Time",
-      "level": 3
+      "level": 4
     },
     "9429": {
       "title": "Outpost Navigation",
@@ -36292,7 +36292,7 @@
     },
     "10572": {
       "title": "Gold Leaf",
-      "level": 0
+      "level": 10
     },
     "10573": {
       "title": "증가하는 수",
@@ -36300,7 +36300,7 @@
     },
     "10574": {
       "title": "Ranked Choice",
-      "level": 0
+      "level": 11
     },
     "10575": {
       "title": "Top 25",
@@ -36308,7 +36308,7 @@
     },
     "10576": {
       "title": "Wrench",
-      "level": 0
+      "level": 16
     },
     "10589": {
       "title": "마법의 체스판",
@@ -37160,7 +37160,7 @@
     },
     "10802": {
       "title": "369 게임",
-      "level": 19
+      "level": 20
     },
     "10803": {
       "title": "정사각형 만들기",
@@ -38612,7 +38612,7 @@
     },
     "11167": {
       "title": "C.S.I.: P15",
-      "level": 0
+      "level": 13
     },
     "11168": {
       "title": "Abandon Ship",
@@ -38688,7 +38688,7 @@
     },
     "11186": {
       "title": "Spam Filter",
-      "level": 0
+      "level": 15
     },
     "11187": {
       "title": "Birds on a Wire",
@@ -38748,7 +38748,7 @@
     },
     "11201": {
       "title": "FreeCell",
-      "level": 0
+      "level": 11
     },
     "11202": {
       "title": "Flag Quiz",
@@ -38760,7 +38760,7 @@
     },
     "11204": {
       "title": "Absurdistan Roads II",
-      "level": 0
+      "level": 16
     },
     "11205": {
       "title": "Cow Crane",
@@ -45315,7 +45315,7 @@
       "level": 11
     },
     "12888": {
-      "title": "완전 이진 트리 도로 네트워크",
+      "title": "포화 이진 트리 도로 네트워크",
       "level": 12
     },
     "12889": {
@@ -47140,7 +47140,7 @@
     },
     "13356": {
       "title": "Card Hand Sorting",
-      "level": 14
+      "level": 13
     },
     "13357": {
       "title": "Daydreaming Stockbroker",
@@ -51788,7 +51788,7 @@
     },
     "14538": {
       "title": "Connectivity Potential",
-      "level": 13
+      "level": 0
     },
     "14539": {
       "title": "Grid Pattern",
@@ -53500,7 +53500,7 @@
     },
     "14979": {
       "title": "Chessboard Dancing",
-      "level": 8
+      "level": 9
     },
     "14980": {
       "title": "Equinox Roller Coaster",
@@ -58584,7 +58584,7 @@
     },
     "16264": {
       "title": "Array Study",
-      "level": 22
+      "level": 21
     },
     "16265": {
       "title": "Spreadsheets",
@@ -68600,7 +68600,7 @@
     },
     "18791": {
       "title": "N의 배수 (2)",
-      "level": 23
+      "level": 24
     },
     "18792": {
       "title": "N의 배수 (3)",
@@ -73544,7 +73544,7 @@
     },
     "20034": {
       "title": "Steel Slicing 2",
-      "level": 23
+      "level": 24
     },
     "20035": {
       "title": "이동하기 5",
@@ -79368,7 +79368,7 @@
     },
     "21499": {
       "title": "Автоматические друзья",
-      "level": 11
+      "level": 12
     },
     "21500": {
       "title": "Памятник",
@@ -79780,7 +79780,7 @@
     },
     "21602": {
       "title": "Array and Easy Queries",
-      "level": 0
+      "level": 24
     },
     "21603": {
       "title": "K 2K 게임",
@@ -84524,7 +84524,7 @@
     },
     "22827": {
       "title": "Cyber Guardian",
-      "level": 0
+      "level": 10
     },
     "22828": {
       "title": "Strange Key",
@@ -89816,7 +89816,7 @@
     },
     "24159": {
       "title": "フェルマー方程式 (Fermat)",
-      "level": 11
+      "level": 10
     },
     "24161": {
       "title": "アナグラム (Anagram)",
@@ -91048,7 +91048,7 @@
     },
     "24488": {
       "title": "Drought",
-      "level": 18
+      "level": 19
     },
     "24489": {
       "title": "Farm Updates",
@@ -94792,7 +94792,7 @@
     },
     "25435": {
       "title": "Hoax Spreading",
-      "level": 0
+      "level": 13
     },
     "25436": {
       "title": "Team Contest",
@@ -99164,7 +99164,7 @@
     },
     "26550": {
       "title": "Ornaments",
-      "level": 0
+      "level": 3
     },
     "26551": {
       "title": "Family",
@@ -100828,7 +100828,7 @@
     },
     "26976": {
       "title": "Feeding the Cows",
-      "level": 12
+      "level": 13
     },
     "26977": {
       "title": "Reverse Engineering",
@@ -105464,7 +105464,7 @@
     },
     "28154": {
       "title": "Space Alignment",
-      "level": 10
+      "level": 9
     },
     "28155": {
       "title": "Splitting Pairs",
@@ -105492,7 +105492,7 @@
     },
     "28161": {
       "title": "괄호 문자열 표기법 (Large)",
-      "level": 0
+      "level": 24
     },
     "28162": {
       "title": "One, Two, Three",
@@ -105528,7 +105528,7 @@
     },
     "28170": {
       "title": "Goose, Goose, DUCK?",
-      "level": 0
+      "level": 20
     },
     "28171": {
       "title": "Sum of Numbers",
@@ -105664,7 +105664,7 @@
     },
     "28204": {
       "title": "Classical Data Structure Problem",
-      "level": 0
+      "level": 24
     },
     "28205": {
       "title": "Classical DP Problem",
