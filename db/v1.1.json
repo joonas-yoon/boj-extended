@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-09 19:12:50.175454",
+  "last_updated": "2023-06-10 19:12:36.269693",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -160,7 +160,7 @@
     },
     "1039": {
       "title": "교환",
-      "level": 13
+      "level": 14
     },
     "1040": {
       "title": "정수",
@@ -27628,7 +27628,7 @@
     },
     "8329": {
       "title": "Circular Game",
-      "level": 0
+      "level": 26
     },
     "8330": {
       "title": "순열",
@@ -33324,7 +33324,7 @@
     },
     "9806": {
       "title": "The King",
-      "level": 4
+      "level": 3
     },
     "9813": {
       "title": "Computing",
@@ -34884,7 +34884,7 @@
     },
     "10220": {
       "title": "Self Representing Seq",
-      "level": 17
+      "level": 18
     },
     "10221": {
       "title": "Test Data Analysis",
@@ -35364,7 +35364,7 @@
     },
     "10340": {
       "title": "L∞ Jumps",
-      "level": 26
+      "level": 27
     },
     "10341": {
       "title": "(More) Multiplication",
@@ -41212,7 +41212,7 @@
     },
     "11835": {
       "title": "Skyline",
-      "level": 15
+      "level": 16
     },
     "11836": {
       "title": "Collider",
@@ -45704,7 +45704,7 @@
     },
     "12985": {
       "title": "비밀 회선",
-      "level": 14
+      "level": 15
     },
     "12986": {
       "title": "화려한 마을2",
@@ -47828,7 +47828,7 @@
     },
     "13529": {
       "title": "Jack and the Beanbag",
-      "level": 0
+      "level": 13
     },
     "13530": {
       "title": "Compensation",
@@ -48476,11 +48476,11 @@
     },
     "13691": {
       "title": "Curso Universitário",
-      "level": 0
+      "level": 13
     },
     "13692": {
       "title": "Redução de Pena",
-      "level": 0
+      "level": 13
     },
     "13693": {
       "title": "Cubos Coloridos",
@@ -48720,7 +48720,7 @@
     },
     "13752": {
       "title": "히스토그램",
-      "level": 3
+      "level": 2
     },
     "13753": {
       "title": "Project Panoptes",
@@ -49240,7 +49240,7 @@
     },
     "13882": {
       "title": "Tight-Fit Sudoku",
-      "level": 0
+      "level": 11
     },
     "13883": {
       "title": "Magical Mystery Knight’s Tour",
@@ -49388,7 +49388,7 @@
     },
     "13920": {
       "title": "Orchard Division",
-      "level": 0
+      "level": 14
     },
     "13921": {
       "title": "It’s Raining, Man",
@@ -49396,7 +49396,7 @@
     },
     "13922": {
       "title": "Suspicious Samples",
-      "level": 0
+      "level": 12
     },
     "13923": {
       "title": "오버워치 월드컵",
@@ -49552,7 +49552,7 @@
     },
     "13961": {
       "title": "Passwords",
-      "level": 22
+      "level": 20
     },
     "13962": {
       "title": "Performance Review",
@@ -49572,7 +49572,7 @@
     },
     "13966": {
       "title": "Risky Lottery",
-      "level": 0
+      "level": 16
     },
     "13967": {
       "title": "Balls and Needles",
@@ -49768,11 +49768,11 @@
     },
     "14033": {
       "title": "Artskjid",
-      "level": 0
+      "level": 15
     },
     "14034": {
       "title": "Solar Flight",
-      "level": 0
+      "level": 20
     },
     "14035": {
       "title": "Cars on Ice",
@@ -49780,7 +49780,7 @@
     },
     "14036": {
       "title": "Timpanist",
-      "level": 0
+      "level": 15
     },
     "14037": {
       "title": "Eggscavation",
@@ -49816,7 +49816,7 @@
     },
     "14045": {
       "title": "Combining Riceballs",
-      "level": 0
+      "level": 15
     },
     "14046": {
       "title": "Circle of Life",
@@ -49824,7 +49824,7 @@
     },
     "14047": {
       "title": "Stupendous Bowties",
-      "level": 0
+      "level": 13
     },
     "14048": {
       "title": "Through A Maze Darkly",
@@ -49848,11 +49848,11 @@
     },
     "14053": {
       "title": "O Canada",
-      "level": 0
+      "level": 12
     },
     "14054": {
       "title": "Zombie Apocalypse",
-      "level": 0
+      "level": 15
     },
     "14055": {
       "title": "Pirates",
@@ -50884,11 +50884,11 @@
     },
     "14312": {
       "title": "Soldiers (Small)",
-      "level": 0
+      "level": 15
     },
     "14313": {
       "title": "Soldiers (Large)",
-      "level": 0
+      "level": 20
     },
     "14314": {
       "title": "Sherlock and Parentheses (Small)",
@@ -50908,11 +50908,11 @@
     },
     "14318": {
       "title": "Watson and Intervals (Small)",
-      "level": 12
+      "level": 11
     },
     "14319": {
       "title": "Watson and Intervals (Large)",
-      "level": 0
+      "level": 15
     },
     "14320": {
       "title": "Sherlock and Permutation Sorting (Small)",
@@ -50920,7 +50920,7 @@
     },
     "14321": {
       "title": "Sherlock and Permutation Sorting (Large)",
-      "level": 0
+      "level": 19
     },
     "14322": {
       "title": "Country Leader (Small)",
@@ -50948,11 +50948,11 @@
     },
     "14328": {
       "title": "Clash Royale (Small)",
-      "level": 0
+      "level": 11
     },
     "14329": {
       "title": "Clash Royale (Large)",
-      "level": 0
+      "level": 15
     },
     "14330": {
       "title": "Interleaved Output: Part 1",
@@ -51072,11 +51072,11 @@
     },
     "14359": {
       "title": "The Gardener of Seville (Small)",
-      "level": 0
+      "level": 10
     },
     "14360": {
       "title": "The Gardener of Seville (Large)",
-      "level": 21
+      "level": 19
     },
     "14361": {
       "title": "Freeform Factory (Small)",
@@ -51088,11 +51088,11 @@
     },
     "14363": {
       "title": "Senate Evacuation (Small)",
-      "level": 0
+      "level": 8
     },
     "14364": {
       "title": "Senate Evacuation (Large)",
-      "level": 11
+      "level": 10
     },
     "14365": {
       "title": "Slides! (Small)",
@@ -52616,7 +52616,7 @@
     },
     "14757": {
       "title": "Dueling Philosophers",
-      "level": 0
+      "level": 13
     },
     "14758": {
       "title": "Paint Me",
@@ -52644,7 +52644,7 @@
     },
     "14764": {
       "title": "Delivering Goods",
-      "level": 0
+      "level": 19
     },
     "14765": {
       "title": "Studying For Exams",
@@ -52668,7 +52668,7 @@
     },
     "14770": {
       "title": "Stack Construction",
-      "level": 0
+      "level": 16
     },
     "14771": {
       "title": "Advertising Revenue",
@@ -53368,7 +53368,7 @@
     },
     "14946": {
       "title": "누가 크리스마스 소리를 내었는가",
-      "level": 18
+      "level": 19
     },
     "14947": {
       "title": "상자 배달",
@@ -53496,7 +53496,7 @@
     },
     "14978": {
       "title": "Pond Cascade",
-      "level": 0
+      "level": 10
     },
     "14979": {
       "title": "Chessboard Dancing",
@@ -53872,7 +53872,7 @@
     },
     "15072": {
       "title": "Lost in Translation",
-      "level": 0
+      "level": 13
     },
     "15073": {
       "title": "Red Rover",
@@ -53880,23 +53880,23 @@
     },
     "15074": {
       "title": "Removal Game",
-      "level": 0
+      "level": 16
     },
     "15075": {
       "title": "That’s One Hanoi-ed Teacher",
-      "level": 0
+      "level": 15
     },
     "15076": {
       "title": "Vin Diagrams",
-      "level": 0
+      "level": 16
     },
     "15077": {
       "title": "Waif Until Dark",
-      "level": 0
+      "level": 19
     },
     "15078": {
       "title": "Yes, Yes, It’s Nonograms",
-      "level": 0
+      "level": 17
     },
     "15079": {
       "title": "Arggggggh!",
@@ -53944,7 +53944,7 @@
     },
     "15090": {
       "title": "Keeping On Track",
-      "level": 0
+      "level": 11
     },
     "15091": {
       "title": "A Question of Ingestion",
@@ -54444,7 +54444,7 @@
     },
     "15215": {
       "title": "Ironman",
-      "level": 0
+      "level": 11
     },
     "15216": {
       "title": "Another Brick in the Wall",
@@ -54468,7 +54468,7 @@
     },
     "15221": {
       "title": "Racetrack",
-      "level": 0
+      "level": 15
     },
     "15222": {
       "title": "nnnnn",
@@ -54500,11 +54500,11 @@
     },
     "15229": {
       "title": "Restaurant Bribes",
-      "level": 0
+      "level": 15
     },
     "15230": {
       "title": "Wolf",
-      "level": 0
+      "level": 13
     },
     "15231": {
       "title": "Lights Out",
@@ -54676,7 +54676,7 @@
     },
     "15273": {
       "title": "Open-Pit Mining",
-      "level": 0
+      "level": 18
     },
     "15274": {
       "title": "Multiplication Game",
@@ -54684,7 +54684,7 @@
     },
     "15275": {
       "title": "Polyline Simplification",
-      "level": 0
+      "level": 15
     },
     "15276": {
       "title": "Palindromic Password",
@@ -54764,7 +54764,7 @@
     },
     "15297": {
       "title": "Capsules",
-      "level": 0
+      "level": 11
     },
     "15298": {
       "title": "Pavers",
@@ -64916,7 +64916,7 @@
     },
     "17867": {
       "title": "Circle Garden",
-      "level": 0
+      "level": 19
     },
     "17868": {
       "title": "Origami Fold",
@@ -84812,7 +84812,7 @@
     },
     "22900": {
       "title": "나의 라임 오렌지 나무",
-      "level": 19
+      "level": 18
     },
     "22901": {
       "title": "ko_orange",
@@ -97020,7 +97020,7 @@
     },
     "26003": {
       "title": "Lowest Latency",
-      "level": 18
+      "level": 17
     },
     "26004": {
       "title": "HI-ARC",
@@ -98820,7 +98820,7 @@
     },
     "26462": {
       "title": "1-Player Concentration",
-      "level": 0
+      "level": 8
     },
     "26463": {
       "title": "Track Train Trail",
@@ -101748,11 +101748,11 @@
     },
     "27207": {
       "title": "JOIG Tour",
-      "level": 0
+      "level": 16
     },
     "27208": {
       "title": "Melons",
-      "level": 14
+      "level": 15
     },
     "27209": {
       "title": "Airport",
@@ -104544,7 +104544,7 @@
     },
     "27919": {
       "title": "UDPC 파티",
-      "level": 6
+      "level": 7
     },
     "27920": {
       "title": "카드 뒤집기",
@@ -105704,7 +105704,7 @@
     },
     "28221": {
       "title": "Cyberland",
-      "level": 17
+      "level": 19
     },
     "28222": {
       "title": "Sequence",
@@ -105732,7 +105732,7 @@
     },
     "28229": {
       "title": "Ammunition Storage",
-      "level": 0
+      "level": 19
     },
     "28230": {
       "title": "Laboratory Report",
@@ -105748,11 +105748,19 @@
     },
     "28233": {
       "title": "Magic with Cards",
-      "level": 0
+      "level": 10
     },
     "28234": {
       "title": "Iranian Hazfi Cup",
       "level": 0
+    },
+    "28246": {
+      "title": "돌 가져가기 게임",
+      "level": 23
+    },
+    "28247": {
+      "title": "Nerd Sniping",
+      "level": 17
     }
   }
 }
