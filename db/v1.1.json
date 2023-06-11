@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-10 19:12:36.269693",
+  "last_updated": "2023-06-11 19:12:02.579957",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4456,7 +4456,7 @@
     },
     "2130": {
       "title": "수조",
-      "level": 16
+      "level": 17
     },
     "2131": {
       "title": "로봇 명령",
@@ -12412,7 +12412,7 @@
     },
     "4171": {
       "title": "Meltdown",
-      "level": 0
+      "level": 13
     },
     "4172": {
       "title": "sqrt log sin",
@@ -22092,7 +22092,7 @@
     },
     "6710": {
       "title": "Spiderman’s workout",
-      "level": 0
+      "level": 12
     },
     "6711": {
       "title": "Subway planning",
@@ -29552,7 +29552,7 @@
     },
     "8812": {
       "title": "Jaś Robaczek",
-      "level": 18
+      "level": 17
     },
     "8813": {
       "title": "Proste separujące",
@@ -36928,7 +36928,7 @@
     },
     "10743": {
       "title": "POLICE",
-      "level": 0
+      "level": 23
     },
     "10744": {
       "title": "Cow Hopscotch",
@@ -38792,7 +38792,7 @@
     },
     "11212": {
       "title": "Proteins",
-      "level": 0
+      "level": 16
     },
     "11213": {
       "title": "Black Friday",
@@ -40024,7 +40024,7 @@
     },
     "11538": {
       "title": "Pyro Tubes",
-      "level": 6
+      "level": 7
     },
     "11539": {
       "title": "Word Clouds Revisited",
@@ -40428,7 +40428,7 @@
     },
     "11639": {
       "title": "Amazing Race",
-      "level": 0
+      "level": 17
     },
     "11640": {
       "title": "Scaling Recipes",
@@ -46540,7 +46540,7 @@
     },
     "13206": {
       "title": "Professor KCM",
-      "level": 13
+      "level": 12
     },
     "13207": {
       "title": "Torres del Paine",
@@ -50620,7 +50620,7 @@
     },
     "14246": {
       "title": "K보다 큰 구간",
-      "level": 8
+      "level": 9
     },
     "14247": {
       "title": "나무 자르기",
@@ -61748,7 +61748,7 @@
     },
     "17057": {
       "title": "Alice in the Digital World",
-      "level": 0
+      "level": 6
     },
     "17058": {
       "title": "Reservoir",
@@ -73136,7 +73136,7 @@
     },
     "19931": {
       "title": "Finding Routers",
-      "level": 19
+      "level": 18
     },
     "19932": {
       "title": "Painting Squares",
@@ -76760,7 +76760,7 @@
     },
     "20847": {
       "title": "Födelsedagsmemorisering",
-      "level": 0
+      "level": 5
     },
     "20848": {
       "title": "Jätten",
@@ -78656,7 +78656,7 @@
     },
     "21321": {
       "title": "클레이 사격 게임",
-      "level": 15
+      "level": 16
     },
     "21322": {
       "title": "격자 돌리기",
@@ -86660,7 +86660,7 @@
     },
     "23363": {
       "title": "HQ0-9+-INCOMPUTABLE?!",
-      "level": 18
+      "level": 0
     },
     "23364": {
       "title": "Almost Always",
@@ -87288,7 +87288,7 @@
     },
     "23520": {
       "title": "Same Songs",
-      "level": 0
+      "level": 9
     },
     "23521": {
       "title": "Inelastic Balls",
@@ -89664,7 +89664,7 @@
     },
     "24116": {
       "title": "本選会場 (Finals)",
-      "level": 15
+      "level": 13
     },
     "24117": {
       "title": "かくれんぼ (Hide-and-seek)",
@@ -91312,7 +91312,7 @@
     },
     "24554": {
       "title": "불협화음",
-      "level": 23
+      "level": 24
     },
     "24555": {
       "title": "1’s For All",
@@ -96632,7 +96632,7 @@
     },
     "25906": {
       "title": "수렵의 시간이다!",
-      "level": 11
+      "level": 10
     },
     "25907": {
       "title": "양과 늑대",
@@ -103020,7 +103020,7 @@
     },
     "27537": {
       "title": "Advertisement 2",
-      "level": 14
+      "level": 15
     },
     "27538": {
       "title": "Maze",
@@ -104944,7 +104944,7 @@
     },
     "28021": {
       "title": "Rocket Launching",
-      "level": 0
+      "level": 14
     },
     "28022": {
       "title": "Teleporter",
@@ -105044,7 +105044,7 @@
     },
     "28046": {
       "title": "Gravitational Wave Detector",
-      "level": 0
+      "level": 23
     },
     "28047": {
       "title": "Horse Race",
@@ -105424,7 +105424,7 @@
     },
     "28144": {
       "title": "Allergen Testing",
-      "level": 15
+      "level": 16
     },
     "28145": {
       "title": "A Tree and Two Edges",
@@ -105760,7 +105760,7 @@
     },
     "28247": {
       "title": "Nerd Sniping",
-      "level": 17
+      "level": 24
     }
   }
 }
