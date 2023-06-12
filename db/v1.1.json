@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-11 19:12:02.579957",
+  "last_updated": "2023-06-12 19:12:10.767941",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -11028,7 +11028,7 @@
     },
     "3810": {
       "title": "Sentry Robots",
-      "level": 0
+      "level": 19
     },
     "3811": {
       "title": "How do spiders walk on water?",
@@ -13744,7 +13744,7 @@
     },
     "4509": {
       "title": "Coffin Tiles",
-      "level": 7
+      "level": 8
     },
     "4510": {
       "title": "Thinking Inside the Box",
@@ -25188,7 +25188,7 @@
     },
     "7669": {
       "title": "Go",
-      "level": 10
+      "level": 11
     },
     "7670": {
       "title": "Game Dice",
@@ -27628,7 +27628,7 @@
     },
     "8329": {
       "title": "Circular Game",
-      "level": 26
+      "level": 25
     },
     "8330": {
       "title": "순열",
@@ -29056,7 +29056,7 @@
     },
     "8688": {
       "title": "Wycinek",
-      "level": 0
+      "level": 14
     },
     "8689": {
       "title": "Gra",
@@ -29080,7 +29080,7 @@
     },
     "8694": {
       "title": "Szklanki",
-      "level": 0
+      "level": 18
     },
     "8695": {
       "title": "Pociąg",
@@ -31864,7 +31864,7 @@
     },
     "9428": {
       "title": "Effective Infection Time",
-      "level": 4
+      "level": 3
     },
     "9429": {
       "title": "Outpost Navigation",
@@ -43396,11 +43396,11 @@
     },
     "12407": {
       "title": "Quake Live (Small1)",
-      "level": 7
+      "level": 8
     },
     "12408": {
       "title": "Quake Live (Small2)",
-      "level": 7
+      "level": 8
     },
     "12409": {
       "title": "Shoot the Target (Small1)",
@@ -59832,7 +59832,7 @@
     },
     "16576": {
       "title": "Icy Land",
-      "level": 14
+      "level": 15
     },
     "16577": {
       "title": "Artilleries and Defensive Walls",
@@ -61008,7 +61008,7 @@
     },
     "16870": {
       "title": "The Punctilious Cruciverbalist",
-      "level": 11
+      "level": 13
     },
     "16871": {
       "title": "A Random Problem",
@@ -73128,7 +73128,7 @@
     },
     "19929": {
       "title": "Handcrafted Gift",
-      "level": 15
+      "level": 16
     },
     "19930": {
       "title": "Jelly Flavours",
@@ -78004,7 +78004,7 @@
     },
     "21158": {
       "title": "Scholar's Lawn",
-      "level": 0
+      "level": 18
     },
     "21159": {
       "title": "Simply Sudoku",
@@ -80472,7 +80472,7 @@
     },
     "21779": {
       "title": "Aerobatics - 1",
-      "level": 17
+      "level": 16
     },
     "21780": {
       "title": "Aerobatics - 2",
@@ -84296,7 +84296,7 @@
     },
     "22770": {
       "title": "Ellipse Intersection",
-      "level": 17
+      "level": 16
     },
     "22771": {
       "title": "Garbage Collection",
@@ -84820,7 +84820,7 @@
     },
     "22902": {
       "title": "오렌지 섬 여행하기",
-      "level": 19
+      "level": 20
     },
     "22903": {
       "title": "오렌지 농장 시뮬레이션",
@@ -84840,7 +84840,7 @@
     },
     "22907": {
       "title": "오렌지 키우기",
-      "level": 19
+      "level": 20
     },
     "22908": {
       "title": "브루와 오렌지 나누기",
@@ -95372,7 +95372,7 @@
     },
     "25589": {
       "title": "푸앙이와 코인",
-      "level": 17
+      "level": 16
     },
     "25590": {
       "title": "마트료시카 박스 III",
@@ -97792,7 +97792,7 @@
     },
     "26200": {
       "title": "Sokoban",
-      "level": 0
+      "level": 16
     },
     "26201": {
       "title": "Finding Maximal Non-Trivial Monotones",
@@ -97992,7 +97992,7 @@
     },
     "26250": {
       "title": "Guess Table",
-      "level": 0
+      "level": 16
     },
     "26251": {
       "title": "Restrooms",
@@ -100140,7 +100140,7 @@
     },
     "26802": {
       "title": "Les Bitérables",
-      "level": 0
+      "level": 21
     },
     "26803": {
       "title": "Surowa zima",
@@ -100268,7 +100268,7 @@
     },
     "26834": {
       "title": "Pionek",
-      "level": 0
+      "level": 19
     },
     "26835": {
       "title": "Plan metra",
@@ -105572,7 +105572,7 @@
     },
     "28181": {
       "title": "Two Missing Numbers",
-      "level": 0
+      "level": 27
     },
     "28182": {
       "title": "Elimination Race",
@@ -105760,7 +105760,7 @@
     },
     "28247": {
       "title": "Nerd Sniping",
-      "level": 24
+      "level": 0
     }
   }
 }
