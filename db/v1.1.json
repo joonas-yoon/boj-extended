@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-12 19:12:10.767941",
+  "last_updated": "2023-06-13 19:12:49.322495",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -3324,7 +3324,7 @@
     },
     "1838": {
       "title": "버블 정렬",
-      "level": 14
+      "level": 15
     },
     "1839": {
       "title": "트리 모델 만들기",
@@ -9324,7 +9324,7 @@
     },
     "3372": {
       "title": "보드 점프",
-      "level": 10
+      "level": 9
     },
     "3373": {
       "title": "Cards",
@@ -20088,7 +20088,7 @@
     },
     "6188": {
       "title": "Clear Cold Water",
-      "level": 10
+      "level": 9
     },
     "6189": {
       "title": "Munching",
@@ -20576,7 +20576,7 @@
     },
     "6317": {
       "title": "Always on the run",
-      "level": 12
+      "level": 11
     },
     "6318": {
       "title": "Box of Bricks",
@@ -52612,7 +52612,7 @@
     },
     "14756": {
       "title": "Telescope",
-      "level": 20
+      "level": 21
     },
     "14757": {
       "title": "Dueling Philosophers",
@@ -70060,7 +70060,7 @@
     },
     "19157": {
       "title": "Even Path",
-      "level": 11
+      "level": 12
     },
     "19158": {
       "title": "Find String in a Grid",
@@ -73140,7 +73140,7 @@
     },
     "19932": {
       "title": "Painting Squares",
-      "level": 23
+      "level": 22
     },
     "19933": {
       "title": "Comparing Plants",
@@ -84152,7 +84152,7 @@
     },
     "22734": {
       "title": "The Closest Circle",
-      "level": 21
+      "level": 20
     },
     "22735": {
       "title": "Sort that Queue",
@@ -84492,7 +84492,7 @@
     },
     "22819": {
       "title": "Enclosing Circles",
-      "level": 0
+      "level": 24
     },
     "22820": {
       "title": "Get a Rectangular Field",
@@ -88024,7 +88024,7 @@
     },
     "23704": {
       "title": "Basirovich Maxim",
-      "level": 0
+      "level": 28
     },
     "23705": {
       "title": "CTAHKEB** ANDREW",
@@ -91056,7 +91056,7 @@
     },
     "24490": {
       "title": "Tests for Haybales",
-      "level": 20
+      "level": 21
     },
     "24491": {
       "title": "Searching for Soulmates",
@@ -91892,7 +91892,7 @@
     },
     "24699": {
       "title": "Yellow Blue Bus",
-      "level": 0
+      "level": 28
     },
     "24700": {
       "title": "Permutation Matrix",
@@ -93008,7 +93008,7 @@
     },
     "24979": {
       "title": "COW Operations",
-      "level": 15
+      "level": 14
     },
     "24980": {
       "title": "Photoshoot",
@@ -100908,7 +100908,7 @@
     },
     "26996": {
       "title": "Alignment of the Planets",
-      "level": 6
+      "level": 5
     },
     "26997": {
       "title": "Finding Bovine Roots",
@@ -102844,7 +102844,7 @@
     },
     "27493": {
       "title": "키르히호프의 법칙 2",
-      "level": 17
+      "level": 0
     },
     "27494": {
       "title": "2023년은 검은 토끼의 해",
