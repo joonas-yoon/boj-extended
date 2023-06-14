@@ -280,7 +280,7 @@ function extendProblemPage() {
       const createButton = (text, marginRight = "5px") => {
         const button = document.createElement("button");
         button.textContent = text;
-        button.classList.add('btn-primary');
+        button.classList.add("btn-primary");
         button.style.marginRight = marginRight;
         button.addEventListener("click", handleButtonClick);
         return button;
@@ -300,33 +300,34 @@ function extendProblemPage() {
       let elapsedTime = 0;
       let timerInterval = null;
 
-    const updateTimeDisplay = () => {
-                const time = new Date(elapsedTime);
-                const hours = time.getUTCHours();
-                const minutes = time.getUTCMinutes();
-                const seconds = time.getUTCSeconds();
+      const updateTimeDisplay = () => {
+        const time = new Date(elapsedTime);
+        const hours = time.getUTCHours();
+        const minutes = time.getUTCMinutes();
+        const seconds = time.getUTCSeconds();
 
-                timeDisplay.textContent = `${hours
-                  .toString()
-                  .padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds
-                  .toString()
-                  .padStart(2, "0")}`;
-              };
+        timeDisplay.textContent = `${hours
+          .toString()
+          .padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds
+          .toString()
+          .padStart(2, "0")}`;
+      };
 
       const handleStartButtonClick = () => {
         startButton.disabled = true;
         pauseButton.disabled = false;
         startTimestamp = Date.now() - elapsedTime;
         timerInterval = setInterval(() => {
-          elapsedTime = Date.now() - startTimestamp;
+        elapsedTime = Date.now() - startTimestamp;
           updateTimeDisplay();
-    
 
-        // 스톱워치 시작 시 로컬 스토리지에 상태 저장
-        localStorage.setItem("stopwatchStartflag", "true");
-        localStorage.setItem("stopwatchStartTimestamp", startTimestamp);
-        localStorage.setItem("stopwatchElapsedTime", elapsedTime);
-      }, 1000);
+          const stopwatchData = {
+            startTimestamp,
+            elapsedTime,
+            isPaused: false,
+          };
+          localStorage.setItem(pid, JSON.stringify(stopwatchData));
+        }, 1000);
       };
 
       const handlePauseButtonClick = () => {
@@ -334,9 +335,14 @@ function extendProblemPage() {
         pauseButton.disabled = true;
         clearInterval(timerInterval);
         updateTimeDisplay();
-        localStorage.setItem("stopwatchPausedflag", "true");
-        localStorage.setItem("stopwatchStartflag", "false");
-        localStorage.setItem("stopwatchElapsedTime", elapsedTime);
+
+        // 스톱워치 일시 정지 시 로컬 스토리지의 상태 업데이트
+        const stopwatchData = {
+          startTimestamp,
+          elapsedTime,
+          isPaused: true,
+        };
+        localStorage.setItem(pid, JSON.stringify(stopwatchData));
       };
 
       const handleResetButtonClick = () => {
@@ -345,37 +351,35 @@ function extendProblemPage() {
         clearInterval(timerInterval);
         elapsedTime = 0;
         updateTimeDisplay();
-
-        // 스톱워치 리셋 시 로컬 스토리지의 상태 초기화
-        localStorage.clear();
+          
+        localStorage.removeItem(pid);
       };
 
       startButton.addEventListener("click", handleStartButtonClick);
       pauseButton.addEventListener("click", handlePauseButtonClick);
       resetButton.addEventListener("click", handleResetButtonClick);
 
-      // 이전에 저장된 상태를 확인하여 복원
-      const storedStartTimestamp = localStorage.getItem("stopwatchStartTimestamp");
-      const storedElapsedTime = localStorage.getItem("stopwatchElapsedTime");
-      const storedStartflag = localStorage.getItem("stopwatchStartflag");
-      const storedPausedflag = localStorage.getItem("stopwatchPausedflag");
-      if (storedStartflag === "true") {
-        startTimestamp = parseInt(storedStartTimestamp);
-        elapsedTime = parseInt(storedElapsedTime);
+      
+    const storedData = localStorage.getItem(pid);
+    if (storedData) {
+      const { startTimestamp: storedStartTimestamp, elapsedTime: storedElapsedTime, isPaused: storedIsPaused } =
+        JSON.parse(storedData);
+      elapsedTime = parseInt(storedElapsedTime);
+      startTimestamp = parseInt(storedStartTimestamp);
+
+      if (!storedIsPaused) {
+        elapsedTime = Date.now() - startTimestamp;
         handleStartButtonClick();
-      }
-      else if (storedPausedflag === "true") {
-        elapsedTime = parseInt(storedElapsedTime);
+      } else {
         handlePauseButtonClick();
       }
-      else{
-          elapsedTime = 0; // 초기값 설정
-          updateTimeDisplay(); // 초기값에 대한 표시 업데이트
-      }
-      
-      return stopwatchWrapper;
+    } else {
+      elapsedTime = 0; // 초기값 설정
+      updateTimeDisplay(); // 초기값에 대한 표시 업데이트
     }
 
+      return stopwatchWrapper;
+    }
 
     function createStopwatchInDropdown() {
       const li = Utils.createElement("li", {
@@ -418,4 +422,3 @@ function extendProblemPage() {
 
 
 }
-
