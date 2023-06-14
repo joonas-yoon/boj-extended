@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-13 19:12:49.322495",
+  "last_updated": "2023-06-14 19:13:49.471570",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -1308,7 +1308,7 @@
     },
     "1329": {
       "title": "증가 수열",
-      "level": 15
+      "level": 14
     },
     "1330": {
       "title": "두 수 비교하기",
@@ -8448,7 +8448,7 @@
     },
     "3145": {
       "title": "지리지도",
-      "level": 15
+      "level": 16
     },
     "3146": {
       "title": "SLIKA",
@@ -8784,7 +8784,7 @@
     },
     "3230": {
       "title": "금메달, 은메달, 동메달은 누가?",
-      "level": 5
+      "level": 6
     },
     "3231": {
       "title": "카드놀이",
@@ -19436,7 +19436,7 @@
     },
     "6020": {
       "title": "Cheese Towers",
-      "level": 11
+      "level": 12
     },
     "6021": {
       "title": "DNA Sequencing",
@@ -29148,7 +29148,7 @@
     },
     "8711": {
       "title": "Odchudzanie",
-      "level": 4
+      "level": 5
     },
     "8712": {
       "title": "Wężyk",
@@ -44860,7 +44860,7 @@
     },
     "12774": {
       "title": "Spin Doctor",
-      "level": 25
+      "level": 26
     },
     "12775": {
       "title": "String Theory",
@@ -45436,7 +45436,7 @@
     },
     "12918": {
       "title": "정리정돈",
-      "level": 21
+      "level": 22
     },
     "12919": {
       "title": "A와 B 2",
@@ -47100,7 +47100,7 @@
     },
     "13346": {
       "title": "Hamming Ellipses",
-      "level": 12
+      "level": 11
     },
     "13347": {
       "title": "Lost In The Woods",
@@ -72640,7 +72640,7 @@
     },
     "19807": {
       "title": "Fermat's Last Theorem",
-      "level": 0
+      "level": 16
     },
     "19808": {
       "title": "Guess the Path",
@@ -88880,7 +88880,7 @@
     },
     "23918": {
       "title": "Metal Harvest",
-      "level": 7
+      "level": 8
     },
     "23919": {
       "title": "Painters' Duel",
@@ -92772,7 +92772,7 @@
     },
     "24920": {
       "title": "Ingredient Optimization",
-      "level": 11
+      "level": 12
     },
     "24921": {
       "title": "Interesting Outing",
@@ -105488,7 +105488,7 @@
     },
     "28160": {
       "title": "행운 수 구하기",
-      "level": 0
+      "level": 21
     },
     "28161": {
       "title": "괄호 문자열 표기법 (Large)",
@@ -105720,7 +105720,7 @@
     },
     "28226": {
       "title": "Simplification",
-      "level": 16
+      "level": 17
     },
     "28227": {
       "title": "Dominoes",
