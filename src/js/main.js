@@ -24,6 +24,8 @@
     extendVs();
   } else if (isSettingPage(url)) {
     extendSettingPage();
+  } else if (url.startsWith('/workbook/view/')) {
+    extendWorkbookPage();
   }
 
   extendGlobal();
