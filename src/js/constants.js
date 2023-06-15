@@ -28,7 +28,9 @@ const Constants = {
     light: '밝은 테마',
     dark: '어두운 테마',
     rigel: 'Rigel',
+<<<<<<< HEAD
     test: 'test',
-    test2: 'test2'
+=======
+>>>>>>> parent of aad5ae2b (theme-test add)
   },
 };

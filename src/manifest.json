@@ -15,7 +15,6 @@
         "css/theme-dark.css",
         "css/theme-rigel.css",
         "css/theme-test.css"
-      ],
       "run_at": "document_start",
       "js": [
         "js/constants.js",
@@ -41,6 +40,7 @@
         "js/features/search.js",
         "js/features/setting.js",
         "js/features/global.js",
+        "js/features/workbook.js",
         "js/features/defence.js",
         "js/main.js"
       ]
