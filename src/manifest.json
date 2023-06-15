@@ -42,6 +42,7 @@
         "js/features/setting.js",
         "js/features/global.js",
         "js/features/defence.js",
+        "js/features/workbook.js",
         "js/main.js"
       ]
     }
