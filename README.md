@@ -27,6 +27,7 @@
 |[황예찬](https://github.com/yechaaae)| css/theme.css 수정_추가 |
 
 ---
+##  수정 내용
 
 ###  Problem.js ([김규형](https://github.com/UNGGU0704))
 |기능|설명|
