@@ -1,6 +1,6 @@
 function getRowCount() {
-    const targetTable = document.querySelector('.table.table-striped.table-bordered'); // 다른 표의 선택자를 지정
-    const rowCount = targetTable.rows.length;
+    let targetTable = document.querySelector('.table.table-striped.table-bordered'); // 다른 표의 선택자를 지정
+    let rowCount = targetTable.rows.length;
     return rowCount;
 }
 
@@ -44,7 +44,7 @@ function checkWA(index) {
 
 function convertToHyperlink(cell) {
     const text = cell.textContent;
-    const url = 'acmicpc.net/problem/' + text; // 원하는 URL을 입력하세요
+    const url = '/problem/' + text; // 원하는 URL을 입력하세요
   
     const link = document.createElement('a');
     link.href = url;
@@ -60,18 +60,18 @@ function extendWorkbookPage() {
     // 표 생성 함수
     function createTable() {
 
-        const columnCount = getRowCount();
+        let columnCount = getRowCount();
         // 표 요소 생성
-        const table = document.createElement('table');
+        let table = document.createElement('table');
         table.className = 'scoreboard-table'
     
         //행 생성
-        const row = document.createElement('tr');
+        let row = document.createElement('tr');
 
         //열 생성
-        for (const i = 1; i < columnCount; i++) {      
-            const cell = document.createElement('td');
-            const num = problemNum(i-1);
+        for (let i = 1; i < columnCount; i++) {      
+            let cell = document.createElement('td');
+            let num = problemNum(i-1);
             cell.textContent = num;
             convertToHyperlink(cell);
             cell.style.borderCollapse = 'collapse';
@@ -88,7 +88,6 @@ function extendWorkbookPage() {
     
         // 표에 행 추가
         table.appendChild(row);
-        table.style.backgroundColor = 'white';
         table.style.width = '100%';
         table.style.maxWidth = '100%';
         table.style.height = '50px';

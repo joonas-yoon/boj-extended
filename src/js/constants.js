@@ -29,6 +29,5 @@ const Constants = {
     dark: '어두운 테마',
     rigel: 'Rigel',
     test: 'test',
-    test2: 'test2'
   },
 };
