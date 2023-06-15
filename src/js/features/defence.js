@@ -183,7 +183,7 @@ function extendRandomDefence() {
           justify-content: space-between;
           align-items: center;
           padding: 5px 20px;
-          background-color: #333;
+          background-color: #202020;
           color: #fff;
         }
   
