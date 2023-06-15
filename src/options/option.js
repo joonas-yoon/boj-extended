@@ -106,11 +106,7 @@
   const oUserTier = document.getElementsByClassName('option-user-tier');
   for (let i = 0; i < oUserTier.length; ++i) {
     oUserTier[i].addEventListener('change', (evt) => {
-      console.log(
-        '[save] option-user-tier',
-        Constants.CONFIG_SHOW_USER_TIER,
-        !!parseInt(evt.target.value)
-      );
+      console.log('[save] option-user-tier', Constants.CONFIG_SHOW_USER_TIER, !!parseInt(evt.target.value));
       Config.save(
         Constants.CONFIG_SHOW_USER_TIER,
         !!parseInt(evt.target.value)
@@ -119,11 +115,7 @@
   }
 
   Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
-    console.log(
-      '[load] option-user-tier',
-      Constants.CONFIG_SHOW_USER_TIER,
-      showUserTier
-    );
+    console.log('[load] option-user-tier', Constants.CONFIG_SHOW_USER_TIER, showUserTier);
     // default as true
     oUserTier[showUserTier !== false ? 0 : 1].checked = true;
   });
