@@ -13,6 +13,7 @@ function extendProblemPage() {
     .getElementsByClassName('row')[0];
   const progress = progressTimer(); // eslint-disable-line no-undef
   container.insertBefore(progress.element(), container.firstChild);
+    
 
 
   const dropdown = createTimerDropdown();
@@ -267,60 +268,72 @@ function extendProblemPage() {
       stopwatchWrapper.classList.add("stopwatch-wrapper");
 
       const timeDisplay = document.createElement("span");
-      timeDisplay.classList.add("time-display");
+      timeDisplay.classList.add("countdown");
       timeDisplay.textContent = "00:00:00";
-
-      const buttonWrapper = document.createElement("div");
-      buttonWrapper.classList.add("button-wrapper");
+      timeDisplay.style.fontSize = "32px";
+      timeDisplay.style.fontWeight = "bold";
+      timeDisplay.style.color = "#333";
+     
+        const buttonWrapper = document.createElement("div");
+        buttonWrapper.classList.add("button-wrapper");
+        buttonWrapper.style.display = "flex";
+        buttonWrapper.style.flexDirection = "column";
+        buttonWrapper.style.gap = "50px";
 
       const handleButtonClick = (event) => {
         event.stopPropagation();
       };
 
-      const createButton = (text, marginRight = "5px") => {
-        const button = document.createElement("button");
-        button.textContent = text;
-        button.classList.add("btn-primary");
-        button.style.marginRight = marginRight;
-        button.addEventListener("click", handleButtonClick);
-        return button;
-      };
+        const createButton = (text) => {
+          const button = document.createElement("button");
+          button.textContent = text;
+          button.classList.add("btn-primary");
+          button.style.width = "100%"; // Make buttons expand to full width
+          button.addEventListener("click", handleButtonClick);
+          return button;
+        };
 
-      const startButton = createButton("시작");
-      const pauseButton = createButton("일시 정지");
-      const resetButton = createButton("리셋", "0px");
+
+        const startButton = createButton("시작");
+        startButton.style.marginBottom = "10px";
+
+        const pauseButton = createButton("일시 정지");
+        pauseButton.style.marginBottom = "10px";
+
+        const resetButton = createButton("리셋");
 
       stopwatchWrapper.appendChild(startButton);
       stopwatchWrapper.appendChild(pauseButton);
       stopwatchWrapper.appendChild(resetButton);
-      stopwatchWrapper.appendChild(timeDisplay);
+   //   stopwatchWrapper.appendChild(timeDisplay);
       stopwatchWrapper.appendChild(buttonWrapper);
 
       let startTimestamp = null;
       let elapsedTime = 0;
       let timerInterval = null;
 
-      const updateTimeDisplay = () => {
-        const time = new Date(elapsedTime);
-        const hours = time.getUTCHours();
-        const minutes = time.getUTCMinutes();
-        const seconds = time.getUTCSeconds();
+        const updateTimeDisplay = () => {
+          const time = new Date(elapsedTime);
+          const hours = time.getUTCHours();
+          const minutes = time.getUTCMinutes();
+          const seconds = time.getUTCSeconds();
 
-        timeDisplay.textContent = `${hours
-          .toString()
-          .padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds
-          .toString()
-          .padStart(2, "0")}`;
-      };
+          timeDisplay.textContent = `${hours.toString().padStart(2, "0")}:${minutes
+            .toString()
+            .padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
+        };
+
 
       const handleStartButtonClick = () => {
         startButton.disabled = true;
         pauseButton.disabled = false;
         startTimestamp = Date.now() - elapsedTime;
+        
+        updateTimeDisplay();
+        container.insertBefore(timeDisplay, container.firstChild);
         timerInterval = setInterval(() => {
         elapsedTime = Date.now() - startTimestamp;
           updateTimeDisplay();
-
           const stopwatchData = {
             startTimestamp,
             elapsedTime,
@@ -372,6 +385,7 @@ function extendProblemPage() {
         handleStartButtonClick();
       } else {
         handlePauseButtonClick();
+        container.insertBefore(timeDisplay, container.firstChild);
       }
     } else {
       elapsedTime = 0; // 초기값 설정
