@@ -1124,8 +1124,7 @@ html[theme='test'] a[href^='/problem'].problem-link-style-box.result-ac:hover {
   color: #00dba8;
 }
 
-html[theme='test']
-  a[href^='/problem'].problem-link-style-box.result-pac:hover {
+html[theme='test'] a[href^='/problem'].problem-link-style-box.result-pac:hover {
   background-color: transparent;
   border-color: #f1b936;
   color: #f1b936;
