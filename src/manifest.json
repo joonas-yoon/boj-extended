@@ -10,7 +10,7 @@
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
-      "css": ["css/common.css", "css/theme-dark.css", "css/theme-rigel.css", "css/theme-test.css"],
+      "css": ["css/common.css", "css/theme-dark.css", "css/theme-rigel.css", "css/theme-test.css", "css/theme-test2.css"],
       "run_at": "document_start",
       "js": [
         "js/constants.js",
@@ -36,6 +36,7 @@
         "js/features/search.js",
         "js/features/setting.js",
         "js/features/global.js",
+        "js/features/workbook.js",
         "js/main.js"
       ]
     }

@@ -1,0 +1,33 @@
+/* scoreboard.css */
+.scoreboard-table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+#scoreboard-table th,
+#scoreboard-table td {
+    padding: 10px;
+    text-align: center;
+}
+/* 
+#scoreboard-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+#scoreboard-table td {
+    background-color: #f0f0f0;
+}
+
+#scoreboard-table tr:nth-child(2n) td {
+    background-color: #e0e0e0;
+}
+
+#scoreboard-table tr:first-child td {
+    border-top: 2px solid #333;
+}
+
+#scoreboard-table tr:last-child td {
+    border-bottom: 2px solid #333;
+} */
