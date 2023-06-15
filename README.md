@@ -26,6 +26,8 @@
 |[정예성](https://github.com/jys-jeong)| features/defence.js 추가 |
 |[황예찬](https://github.com/yechaaae)| css/theme.css 수정_추가 |
 
+---
+
 ###  Problem.js ([김규형](https://github.com/UNGGU0704))
 |기능|설명|
 |----|----|
