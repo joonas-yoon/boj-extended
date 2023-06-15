@@ -10,12 +10,16 @@
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
+<<<<<<< HEAD
       "css": [
         "css/common.css",
         "css/theme-dark.css",
         "css/theme-rigel.css",
         "css/theme-test.css"
       ],
+=======
+      "css": ["css/common.css", "css/theme-dark.css", "css/theme-rigel.css"],
+>>>>>>> parent of aad5ae2b (theme-test add)
       "run_at": "document_start",
       "js": [
         "js/constants.js",
