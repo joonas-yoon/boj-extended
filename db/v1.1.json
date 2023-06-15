@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-14 19:13:49.471570",
+  "last_updated": "2023-06-15 19:12:28.638039",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4116,7 +4116,7 @@
     },
     "2043": {
       "title": "수 묶기",
-      "level": 0
+      "level": 19
     },
     "2044": {
       "title": "windows",
@@ -8972,7 +8972,7 @@
     },
     "3281": {
       "title": "T9",
-      "level": 5
+      "level": 6
     },
     "3282": {
       "title": "ROOMS",
@@ -9144,7 +9144,7 @@
     },
     "3326": {
       "title": "Knights",
-      "level": 16
+      "level": 17
     },
     "3327": {
       "title": "Fence",
@@ -9400,7 +9400,7 @@
     },
     "3394": {
       "title": "Honeycomb Problem",
-      "level": 13
+      "level": 12
     },
     "3395": {
       "title": "Time Zones",
@@ -13264,7 +13264,7 @@
     },
     "4384": {
       "title": "공평하게 팀 나누기",
-      "level": 16
+      "level": 15
     },
     "4385": {
       "title": "Interpreter",
@@ -19772,7 +19772,7 @@
     },
     "6105": {
       "title": "Look Up",
-      "level": 9
+      "level": 10
     },
     "6106": {
       "title": "Payback",
@@ -45736,7 +45736,7 @@
     },
     "12993": {
       "title": "이동3",
-      "level": 9
+      "level": 8
     },
     "12994": {
       "title": "이동3-2",
@@ -50656,7 +50656,7 @@
     },
     "14255": {
       "title": "멋진 배열",
-      "level": 0
+      "level": 18
     },
     "14256": {
       "title": "SSR",
@@ -53736,7 +53736,7 @@
     },
     "15038": {
       "title": "Lounge Lizards",
-      "level": 16
+      "level": 17
     },
     "15039": {
       "title": "Acordes intergaláticos",
@@ -55188,7 +55188,7 @@
     },
     "15403": {
       "title": "Escape Room",
-      "level": 16
+      "level": 15
     },
     "15404": {
       "title": "Divide and Conquer",
@@ -61088,7 +61088,7 @@
     },
     "16890": {
       "title": "창업",
-      "level": 14
+      "level": 15
     },
     "16891": {
       "title": "탄성 충돌",
@@ -63488,7 +63488,7 @@
     },
     "17503": {
       "title": "맥주 축제",
-      "level": 9
+      "level": 10
     },
     "17504": {
       "title": "제리와 톰 2",
@@ -70716,7 +70716,7 @@
     },
     "19321": {
       "title": "Longest Increasing Subsequence",
-      "level": 12
+      "level": 13
     },
     "19322": {
       "title": "Median",
@@ -86012,7 +86012,7 @@
     },
     "23200": {
       "title": "Quests",
-      "level": 22
+      "level": 21
     },
     "23201": {
       "title": "’S No Problem",
@@ -88924,7 +88924,7 @@
     },
     "23929": {
       "title": "Training",
-      "level": 7
+      "level": 8
     },
     "23930": {
       "title": "Parcels",
@@ -90644,7 +90644,7 @@
     },
     "24387": {
       "title": "ИЗЛОЖЕНИЕ НА ПЧЕЛЕН МЕД",
-      "level": 4
+      "level": 3
     },
     "24388": {
       "title": "РАМКА",
@@ -92392,7 +92392,7 @@
     },
     "24824": {
       "title": "Perfect Skyline",
-      "level": 0
+      "level": 16
     },
     "24825": {
       "title": "Annoyed Coworkers",
@@ -92404,7 +92404,7 @@
     },
     "24827": {
       "title": "Jack The Lumberjack",
-      "level": 12
+      "level": 10
     },
     "24828": {
       "title": "Random Digital Exponentiation",
@@ -93964,7 +93964,7 @@
     },
     "25219": {
       "title": "Alternating Heights",
-      "level": 15
+      "level": 16
     },
     "25220": {
       "title": "Rainy Markets",
@@ -97868,7 +97868,7 @@
     },
     "26219": {
       "title": "별꽃의 세레나데 (Hard)",
-      "level": 17
+      "level": 18
     },
     "26220": {
       "title": "겨울 숲의 썰매 트랙",
@@ -100268,7 +100268,7 @@
     },
     "26834": {
       "title": "Pionek",
-      "level": 19
+      "level": 20
     },
     "26835": {
       "title": "Plan metra",
@@ -105484,11 +105484,11 @@
     },
     "28159": {
       "title": "K번째 행운 수",
-      "level": 20
+      "level": 21
     },
     "28160": {
       "title": "행운 수 구하기",
-      "level": 21
+      "level": 22
     },
     "28161": {
       "title": "괄호 문자열 표기법 (Large)",
@@ -105720,7 +105720,7 @@
     },
     "28226": {
       "title": "Simplification",
-      "level": 17
+      "level": 16
     },
     "28227": {
       "title": "Dominoes",
