@@ -1,6 +1,6 @@
 function getRowCount() {
-    var targetTable = document.querySelector('.table.table-striped.table-bordered'); // 다른 표의 선택자를 지정
-    var rowCount = targetTable.rows.length;
+    const targetTable = document.querySelector('.table.table-striped.table-bordered'); // 다른 표의 선택자를 지정
+    const rowCount = targetTable.rows.length;
     return rowCount;
 }
 
@@ -42,44 +42,63 @@ function checkWA(index) {
     return false;
 }
 
+function convertToHyperlink(cell) {
+    const text = cell.textContent;
+    const url = 'acmicpc.net/problem/' + text; // 원하는 URL을 입력하세요
+  
+    const link = document.createElement('a');
+    link.href = url;
+    link.textContent = text;
+  
+    cell.innerHTML = '';
+    cell.appendChild(link);
+}
+
 function extendWorkbookPage() {
     
     // Utils.loadCSS('css/scoreboard.css');
     // 표 생성 함수
     function createTable() {
 
-        var columnCount = getRowCount();
+        const columnCount = getRowCount();
         // 표 요소 생성
-        var table = document.createElement('table');
+        const table = document.createElement('table');
         table.className = 'scoreboard-table'
     
         //행 생성
-        var row = document.createElement('tr');
+        const row = document.createElement('tr');
 
         //열 생성
-        for (var i = 1; i < columnCount; i++) {      
-            var cell = document.createElement('td');
-            var num = problemNum(i-1);
-            cell.textContent = num + '번';
+        for (const i = 1; i < columnCount; i++) {      
+            const cell = document.createElement('td');
+            const num = problemNum(i-1);
+            cell.textContent = num;
+            convertToHyperlink(cell);
+            cell.style.borderCollapse = 'collapse';
+            cell.style.border = '1px solid black';
 
             if(checkAC(i-1))
                 cell.style.backgroundColor="green";
 
             if(checkWA(i-1))
-                cell.style.backgroundColor="red";
+                cell.style.backgroundColor= "red";
 
             row.appendChild(cell);
         }
     
         // 표에 행 추가
         table.appendChild(row);
-    
+        table.style.backgroundColor = 'white';
+        table.style.width = '100%';
+        table.style.maxWidth = '100%';
+        table.style.height = '50px';
+        
         // 원하는 위치에 표 추가
-        var targetElement = document.querySelector('.page-header'); // 원하는 위치의 선택자를 지정
+        const targetElement = document.querySelector('.page-header'); // 원하는 위치의 선택자를 지정
         targetElement.appendChild(table);        
     }
-    
+
     // 표 생성 함수 호출
-    createTable();
+        createTable();
 }
 
