@@ -30,18 +30,30 @@ function extendRandomDefence() {
             <div class="checkbox-row">
               <label for="difficulty">Difficulty:</label>
               <div class="checkbox-group">
-                <input type="checkbox" id="b" value="Bronze">
-                <label for="bronze">Bronze</label>
-                <input type="checkbox" id="s" value="Silver">
-                <label for="silver">Silver</label>
-                <input type="checkbox" id="g" value="Gold">
-                <label for="gold">Gold</label>
-                <input type="checkbox" id="p" value="Platinum">
-                <label for="platinum">Platinum</label>
-                <input type="checkbox" id="d" value="Diamond">
-                <label for="diamond">Diamond</label>
-                <input type="checkbox" id="r" value="Ruby">
-                <label for="ruby">Ruby</label>
+                  <div>
+                    <input type="checkbox" id="b" value="Bronze">
+                    <label for="bronze">Bronze</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="s" value="Silver">
+                    <label for="silver">Silver</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="g" value="Gold">
+                    <label for="gold">Gold</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="p" value="Platinum">
+                    <label for="platinum">Platinum</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="d" value="Diamond">
+                    <label for="diamond">Diamond</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="r" value="Ruby">
+                    <label for="ruby">Ruby</label>
+                  </div>
               </div>
             </div>
             <div class="checkbox-row">
@@ -88,7 +100,11 @@ function extendRandomDefence() {
           border-radius: 8px;
           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
-  
+
+        .dropdown-row{
+          color: black;
+        }
+
         .close {
           color: #aaa;
           float: right;
@@ -115,21 +131,31 @@ function extendRandomDefence() {
           margin-bottom: 10px;
         }
   
-        .checkbox-row {
-          display: flex;
-          align-items: center;
-          margin-bottom: 10px;
-        }
-  
         label {
           font-weight: bold;
           display: block;
           margin-right: 10px;
         }
   
+        .checkbox-row {
+          display: flex;
+          margin-bottom: 10px;
+        }
+        
         .checkbox-group {
           display: flex;
-          gap: 10px;
+          flex-wrap: wrap;
+          gap: 2px;
+          align-items: center;
+        }
+        
+        .checkbox-group label {
+          display: inline-block;
+          margin-top: 2px;
+        }
+        
+        .checkbox-group input[type="checkbox"] {
+          margin-right: 5px;
         }
         .generate-btn{
           color: black;
