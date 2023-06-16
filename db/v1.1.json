@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-15 19:12:28.638039",
+  "last_updated": "2023-06-16 19:12:23.194514",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -4912,7 +4912,7 @@
     },
     "2246": {
       "title": "콘도 선정",
-      "level": 6
+      "level": 5
     },
     "2247": {
       "title": "실질적 약수",
@@ -7800,7 +7800,7 @@
     },
     "2978": {
       "title": "A=S",
-      "level": 16
+      "level": 17
     },
     "2979": {
       "title": "트럭 주차",
@@ -19556,7 +19556,7 @@
     },
     "6051": {
       "title": "시간 여행",
-      "level": 13
+      "level": 14
     },
     "6052": {
       "title": "Cow Pals",
@@ -36004,7 +36004,7 @@
     },
     "10500": {
       "title": "Maze movement",
-      "level": 16
+      "level": 17
     },
     "10501": {
       "title": "Ragged Right",
@@ -36252,7 +36252,7 @@
     },
     "10562": {
       "title": "나이트",
-      "level": 20
+      "level": 21
     },
     "10563": {
       "title": "정수 게임",
@@ -45884,7 +45884,7 @@
     },
     "13030": {
       "title": "홍준이와 트리",
-      "level": 18
+      "level": 19
     },
     "13031": {
       "title": "쉽게 행복한 나무",
@@ -46520,7 +46520,7 @@
     },
     "13201": {
       "title": "즉흥 여행",
-      "level": 16
+      "level": 17
     },
     "13202": {
       "title": "피자 배치",
@@ -47944,7 +47944,7 @@
     },
     "13558": {
       "title": "등차수열의 개수",
-      "level": 13
+      "level": 14
     },
     "13559": {
       "title": "Bridge Park",
@@ -59984,7 +59984,7 @@
     },
     "16614": {
       "title": "Collecting Stars",
-      "level": 0
+      "level": 10
     },
     "16615": {
       "title": "Dropping Blocks",
@@ -62088,7 +62088,7 @@
     },
     "17151": {
       "title": "Beautiful Bridges",
-      "level": 21
+      "level": 20
     },
     "17152": {
       "title": "Checks Post Facto",
@@ -62636,7 +62636,7 @@
     },
     "17290": {
       "title": "Crazy_aRcade_Good",
-      "level": 5
+      "level": 6
     },
     "17291": {
       "title": "새끼치기",
@@ -67396,7 +67396,7 @@
     },
     "18489": {
       "title": "String Algorithm",
-      "level": 21
+      "level": 22
     },
     "18490": {
       "title": "StalinSort Algorithm",
@@ -72284,7 +72284,7 @@
     },
     "19718": {
       "title": "King's Inspection",
-      "level": 5
+      "level": 6
     },
     "19719": {
       "title": "Cash Gap",
@@ -73780,7 +73780,7 @@
     },
     "20093": {
       "title": "Coins",
-      "level": 18
+      "level": 17
     },
     "20094": {
       "title": "Sudoku 1",
@@ -76352,7 +76352,7 @@
     },
     "20745": {
       "title": "Distributing Seats",
-      "level": 0
+      "level": 11
     },
     "20746": {
       "title": "Entering the Time",
@@ -78648,7 +78648,7 @@
     },
     "21319": {
       "title": "챔피언 (Easy)",
-      "level": 14
+      "level": 15
     },
     "21320": {
       "title": "순간이동 여행",
@@ -82836,7 +82836,7 @@
     },
     "22405": {
       "title": "みさわさんの根付き木",
-      "level": 12
+      "level": 13
     },
     "22406": {
       "title": "インビジブル",
@@ -99008,7 +99008,7 @@
     },
     "26511": {
       "title": "Complexity",
-      "level": 7
+      "level": 6
     },
     "26512": {
       "title": "Complimentary",
@@ -99520,7 +99520,7 @@
     },
     "26640": {
       "title": "Palindrom",
-      "level": 16
+      "level": 18
     },
     "26642": {
       "title": "Ryki",
@@ -99732,7 +99732,7 @@
     },
     "26695": {
       "title": "Oranżada",
-      "level": 8
+      "level": 9
     },
     "26696": {
       "title": "Pandemia",
