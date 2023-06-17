@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-16 19:12:23.194514",
+  "last_updated": "2023-06-17 19:13:19.051293",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -10804,7 +10804,7 @@
     },
     "3751": {
       "title": "행운의 수",
-      "level": 14
+      "level": 13
     },
     "3752": {
       "title": "최대공약수 행렬식",
@@ -12596,7 +12596,7 @@
     },
     "4217": {
       "title": "신성 문자",
-      "level": 15
+      "level": 14
     },
     "4218": {
       "title": "칩 설계",
@@ -15664,7 +15664,7 @@
     },
     "5000": {
       "title": "빵 정렬",
-      "level": 19
+      "level": 18
     },
     "5001": {
       "title": "Cookie Selection",
@@ -22092,7 +22092,7 @@
     },
     "6710": {
       "title": "Spiderman’s workout",
-      "level": 12
+      "level": 11
     },
     "6711": {
       "title": "Subway planning",
@@ -25460,7 +25460,7 @@
     },
     "7765": {
       "title": "Supersquare",
-      "level": 20
+      "level": 19
     },
     "7766": {
       "title": "Pseudographical recognizer",
@@ -29052,7 +29052,7 @@
     },
     "8687": {
       "title": "Pasy Ruchu",
-      "level": 10
+      "level": 12
     },
     "8688": {
       "title": "Wycinek",
@@ -46708,7 +46708,7 @@
     },
     "13248": {
       "title": "수업 거절",
-      "level": 14
+      "level": 13
     },
     "13249": {
       "title": "공의 충돌",
@@ -64544,7 +64544,7 @@
     },
     "17774": {
       "title": "Kangaroo",
-      "level": 20
+      "level": 21
     },
     "17775": {
       "title": "Sokoban",
@@ -75816,7 +75816,7 @@
     },
     "20611": {
       "title": "King of Hot Pot",
-      "level": 0
+      "level": 26
     },
     "20612": {
       "title": "String Distance",
@@ -86016,7 +86016,7 @@
     },
     "23201": {
       "title": "’S No Problem",
-      "level": 21
+      "level": 20
     },
     "23202": {
       "title": "Space Walls",
@@ -93972,7 +93972,7 @@
     },
     "25221": {
       "title": "Double Attendance",
-      "level": 21
+      "level": 22
     },
     "25222": {
       "title": "Bi-ing Lottery Treekets",
@@ -93984,7 +93984,7 @@
     },
     "25224": {
       "title": "Good Game",
-      "level": 23
+      "level": 24
     },
     "25225": {
       "title": "Contact Tracing",
@@ -105612,7 +105612,7 @@
     },
     "28191": {
       "title": "Random Interactive Convex Hull Bot",
-      "level": 0
+      "level": 22
     },
     "28192": {
       "title": "Record Parity",
