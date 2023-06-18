@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "last_updated": "2023-06-17 19:13:19.051293",
+  "last_updated": "2023-06-18 19:12:26.811950",
   "problems": {
     "1000": {
       "title": "A+B",
@@ -7780,7 +7780,7 @@
     },
     "2973": {
       "title": "TAMNICA",
-      "level": 18
+      "level": 19
     },
     "2974": {
       "title": "자기곱",
@@ -8744,7 +8744,7 @@
     },
     "3219": {
       "title": "novci",
-      "level": 17
+      "level": 18
     },
     "3220": {
       "title": "mars",
@@ -14780,7 +14780,7 @@
     },
     "4774": {
       "title": "Financial Management",
-      "level": 7
+      "level": 8
     },
     "4775": {
       "title": "Spelling Be",
@@ -14832,7 +14832,7 @@
     },
     "4788": {
       "title": "Double Dealing",
-      "level": 14
+      "level": 15
     },
     "4789": {
       "title": "The End of the World",
@@ -16980,7 +16980,7 @@
     },
     "5389": {
       "title": "제곱근 작도",
-      "level": 9
+      "level": 10
     },
     "5390": {
       "title": "Gene Shuffle",
@@ -17952,7 +17952,7 @@
     },
     "5646": {
       "title": "트리 경로",
-      "level": 17
+      "level": 21
     },
     "5647": {
       "title": "연속 합",
@@ -18696,7 +18696,7 @@
     },
     "5835": {
       "title": "Hill Walk",
-      "level": 0
+      "level": 19
     },
     "5836": {
       "title": "Necklace",
@@ -23600,7 +23600,7 @@
     },
     "7144": {
       "title": "데이터 만들기 5",
-      "level": 18
+      "level": 17
     },
     "7145": {
       "title": "데이터 만들기 6",
@@ -37104,7 +37104,7 @@
     },
     "10788": {
       "title": "Evolution in Parallel",
-      "level": 23
+      "level": 22
     },
     "10789": {
       "title": "가상 키보드 입력",
@@ -46024,7 +46024,7 @@
     },
     "13065": {
       "title": "Robot",
-      "level": 16
+      "level": 23
     },
     "13066": {
       "title": "Laser Game",
@@ -46284,7 +46284,7 @@
     },
     "13142": {
       "title": "Jolly Jelly Jiffy",
-      "level": 23
+      "level": 22
     },
     "13143": {
       "title": "King of Chairs",
@@ -48680,7 +48680,7 @@
     },
     "13742": {
       "title": "Base Sums",
-      "level": 24
+      "level": 25
     },
     "13743": {
       "title": "Enclosure",
@@ -56204,7 +56204,7 @@
     },
     "15659": {
       "title": "연산자 끼워넣기 (3)",
-      "level": 13
+      "level": 12
     },
     "15660": {
       "title": "테트로미노 (2)",
@@ -60496,7 +60496,7 @@
     },
     "16742": {
       "title": "Shortest Common Non-Subsequence",
-      "level": 17
+      "level": 18
     },
     "16743": {
       "title": "Eulerian Flight Tour",
@@ -64600,7 +64600,7 @@
     },
     "17788": {
       "title": "Gluttonous Goop",
-      "level": 15
+      "level": 16
     },
     "17789": {
       "title": "Historic Exhibition",
@@ -67552,7 +67552,7 @@
     },
     "18529": {
       "title": "Hopscotch 50",
-      "level": 11
+      "level": 12
     },
     "18530": {
       "title": "ICPC Camp",
@@ -76172,7 +76172,7 @@
     },
     "20700": {
       "title": "Brain-teaser",
-      "level": 0
+      "level": 13
     },
     "20701": {
       "title": "Color the Tree",
@@ -79420,7 +79420,7 @@
     },
     "21512": {
       "title": "Кондиционеры",
-      "level": 11
+      "level": 10
     },
     "21513": {
       "title": "Конфеты",
@@ -79832,7 +79832,7 @@
     },
     "21615": {
       "title": "Arranging Books",
-      "level": 13
+      "level": 14
     },
     "21616": {
       "title": "Modern Art",
@@ -81156,7 +81156,7 @@
     },
     "21952": {
       "title": "Hidden Sequence",
-      "level": 0
+      "level": 18
     },
     "21953": {
       "title": "Balanced Tree",
@@ -86028,7 +86028,7 @@
     },
     "23204": {
       "title": "Trailing Digits",
-      "level": 18
+      "level": 17
     },
     "23205": {
       "title": "What’s Our Vector, Victor?",
@@ -88708,7 +88708,7 @@
     },
     "23875": {
       "title": "Closest Cow Wins",
-      "level": 18
+      "level": 19
     },
     "23876": {
       "title": "Connecting Two Barns",
@@ -98768,7 +98768,7 @@
     },
     "26449": {
       "title": "Harvest",
-      "level": 0
+      "level": 8
     },
     "26450": {
       "title": "Parse the Syntax Tree",
@@ -102572,11 +102572,11 @@
     },
     "27425": {
       "title": "Traveling Salesperson in an Island",
-      "level": 22
+      "level": 23
     },
     "27426": {
       "title": "New Year Festival",
-      "level": 0
+      "level": 22
     },
     "27427": {
       "title": "Lazy",
@@ -105464,7 +105464,7 @@
     },
     "28154": {
       "title": "Space Alignment",
-      "level": 9
+      "level": 10
     },
     "28155": {
       "title": "Splitting Pairs",
@@ -105484,11 +105484,11 @@
     },
     "28159": {
       "title": "K번째 행운 수",
-      "level": 21
+      "level": 20
     },
     "28160": {
       "title": "행운 수 구하기",
-      "level": 22
+      "level": 21
     },
     "28161": {
       "title": "괄호 문자열 표기법 (Large)",
@@ -105496,7 +105496,7 @@
     },
     "28162": {
       "title": "One, Two, Three",
-      "level": 0
+      "level": 26
     },
     "28163": {
       "title": "Beautiful Sequence",
@@ -105753,6 +105753,50 @@
     "28234": {
       "title": "Iranian Hazfi Cup",
       "level": 0
+    },
+    "28235": {
+      "title": "코드마스터 2023",
+      "level": 1
+    },
+    "28236": {
+      "title": "점심시간 레이스",
+      "level": 4
+    },
+    "28237": {
+      "title": "수학 선생님의 고민(Easy)",
+      "level": 4
+    },
+    "28238": {
+      "title": "정보 선생님의 야망",
+      "level": 6
+    },
+    "28239": {
+      "title": "배고파(Easy)",
+      "level": 5
+    },
+    "28240": {
+      "title": "S리그",
+      "level": 15
+    },
+    "28241": {
+      "title": "교실 불 끄기",
+      "level": 15
+    },
+    "28242": {
+      "title": "수학 선생님의 고민(Hard)",
+      "level": 10
+    },
+    "28243": {
+      "title": "조별 수업",
+      "level": 18
+    },
+    "28244": {
+      "title": "사람이 먼저 되라",
+      "level": 22
+    },
+    "28245": {
+      "title": "배고파(Hard)",
+      "level": 9
     },
     "28246": {
       "title": "돌 가져가기 게임",
