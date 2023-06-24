@@ -27,8 +27,15 @@ def sleep_rand(min_ms, max_ms):
 
 
 def get_problems_count():
-    res = requests.get(f'{API_HOST}/site/stats').json()
-    return res['problemCount']
+    for err_try in range(5):
+        try:
+            logger.info(f"try get_problems_count... {err_try + 1}")
+            res = requests.get(f'{API_HOST}/site/stats')
+            logger.info(f"status={res.status_code} text={res.text}")
+            return res.json()['problemCount']
+        except Exception as err:
+            logger.error(err)
+    return 0
 
 
 def get_problem_details(ids):
