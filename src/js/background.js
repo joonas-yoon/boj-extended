@@ -86,14 +86,14 @@ function fetchProblemsFromSolvedAc(pids, callback) {
 /**
  * fetch user profile via solved.ac api
  * @see {@link https://solvedac.github.io/unofficial-documentation/#/operations/getUser}
- * @param {string} handle - boj nickname
- * @param { ({ handle, tier, level }) => void } callback
+ * @param {string} handles - [nickname1, nickname2, ...] that its length is up to 100
+ * @param { ([{ handle, tier, level }]) => void } callback
  */
-function fetchUserFromSolvedAc(handle, callback) {
-  console.log(`https://solved.ac/api/v3/user/show?handle=${handle}`);
-  fetch(`https://solved.ac/api/v3/user/show?handle=${handle}`)
+function fetchUsersFromSolvedAc(handles, callback) {
+  console.log(`https://solved.ac/api/v3/user/lookup?handles=${handles}`);
+  fetch(`https://solved.ac/api/v3/user/lookup?handles=${handles}`)
     .then((res) => {
-      console.log('fetchUserFromSolvedAc', res);
+      console.log('fetchUsersFromSolvedAc', res);
       return res;
     })
     .then((res) => res.json())
@@ -168,8 +168,8 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
     case 'solved.ac.problems':
       fetchProblemsFromSolvedAc(message.data.value, sendResponse);
       break;
-    case 'solved.ac.user':
-      fetchUserFromSolvedAc(message.data.value, sendResponse);
+    case 'solved.ac.users':
+      fetchUsersFromSolvedAc(message.data.value, sendResponse);
       break;
     default:
       break;
