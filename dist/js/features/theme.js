@@ -96,6 +96,18 @@ function applyTheme(button, theme) {
     const isDarkMode = !!systemMedia.matches;
     return isDarkMode ? 'dark' : 'light';
   }
+
+  let logo;
+  if (theme == 'dark') {
+    logo = 'https://static.solved.ac/res/logo-whitetext.svg';
+  } else {
+    logo = 'https://static.solved.ac/res/logo-blacktext.svg';
+  }
+
+  const logos = document.getElementsByClassName('solved-ac-logo');
+  for (const logoElement of logos) {
+    logoElement.src = logo;
+  }
 }
 
 function saveTheme(theme, callback) {
