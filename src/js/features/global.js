@@ -353,7 +353,9 @@ function extendGlobal() {
       const handles = [...new Set([...handlesArray])];
       const dict = {};
       for (let i = 0; i <= Math.floor(handles.length / 100); ++i) {
-        const subset = handles.slice(i, i + 100);
+        const offset = i * 100;
+        const subset = handles.slice(offset, offset + 100);
+        if (!subset || subset.length < 1) continue;
         const handlesStr = subset.join(',');
         console.log('req handles', handlesStr);
         const response = await fetchUsersSolvedAc(handlesStr);
