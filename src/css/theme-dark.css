@@ -914,7 +914,7 @@ html[theme='dark'] .CodeMirror {
   --comment: #6272a4;
   --cyan: #8be9fd;
   --green: #50fa7b;
-  --blue: #4B77BE;
+  --blue: #4b77be;
   --orange: #ffb86c;
   --pink: #ff79c6;
   --purple: #bd93f9;
@@ -949,7 +949,7 @@ html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::-moz-selection {
   background: var(--selection);
 }
 html[theme='dark'] .editor-toolbar a.fa-header-x:after {
-  color: var(--foreground)d !important;
+  color: var(--foreground) d !important;
 }
 html[theme='dark'] .editor-toolbar.fullscreen,
 html[theme='dark'] .editor-toolbar.fullscreen::before,

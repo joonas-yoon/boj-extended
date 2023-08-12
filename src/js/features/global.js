@@ -324,7 +324,9 @@ function extendGlobal() {
     const getTier = async (handle) => {
       const cacheKey = `user:${handle}`;
       // keep user data as local cache in 24 hours
-      const cacheValue = LocalCache.get(cacheKey, { expired: 1000 * 3600 * 24 });
+      const cacheValue = LocalCache.get(cacheKey, {
+        expired: 1000 * 3600 * 24,
+      });
       console.log('user.getTier.cacheValue', cacheKey, cacheValue);
       if (cacheValue === null) return 0;
       if (cacheValue !== undefined) return cacheValue.tier;
@@ -332,7 +334,6 @@ function extendGlobal() {
       LocalCache.add(cacheKey, info);
       console.log('cache updated', cacheKey, info);
       return info === null ? 0 : info.tier;
-      return 0;
     };
 
     Config.load(Constants.CONFIG_SHOW_USER_TIER, async (showUserTier) => {
@@ -340,11 +341,11 @@ function extendGlobal() {
       console.log('config.showUserTier', showUserTier);
       if (showUserTier === false) return;
       const userTags = document.querySelectorAll('a[href^="/user/"]');
-      const handleArray = Array.from(userTags).map(e => e.innerText);
+      const handleArray = Array.from(userTags).map((e) => e.innerText);
       const infos = await lookUpUsersInfo(handleArray);
       console.log('infos', infos);
       userTags.forEach((tag) => {
-        const { tier } = infos[tag.innerText] || ({tier: 0});
+        const { tier } = infos[tag.innerText] || { tier: 0 };
         tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;
       });
     });
@@ -359,8 +360,8 @@ function extendGlobal() {
         const handlesStr = subset.join(',');
         console.log('req handles', handlesStr);
         const response = await fetchUsersSolvedAc(handlesStr);
-        for (const {handle, tier, rank} of response) {
-          dict[handle] = {tier, rank};
+        for (const { handle, tier, rank } of response) {
+          dict[handle] = { tier, rank };
         }
       }
       return dict;
