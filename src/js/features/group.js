@@ -16,7 +16,7 @@ function extendGroupListPage() {
         { text: '연습', url: '/group/practice/' },
         { text: '랭킹', url: '/group/ranklist/' },
         { text: '게시판', url: '/group/board/list/' },
-        { text: '파일', url: '/group/files/' },
+        { text: '파일', url: '/group/file/' },
       ];
       colWidths = [40, 16, 5, 8, 10, 5, 5, 6, 5];
     } else {
