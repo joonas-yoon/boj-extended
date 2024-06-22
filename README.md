@@ -61,7 +61,7 @@ Google Chrome의 경우, 웹 스토어에서 최신 버전을 설치할 수 있�
       <details>
          <summary><strong>FireFox 공지사항</strong></summary>
          <ul>
-            <li>FireFox 부가 기능이 <a href="https://blog.mozilla.org/addons/2021/05/27/manifest-v3-update/" target="_blank">Manifest V3를 지원하지 않아</a>, 1.7.5.1 버전까지만 업로드된 상태입니다.<br/>이용하시는 데 참고 부탁드립니다.</li>
+            <li><a href="https://github.com/joonas-yoon/boj-extended/issues/136">이슈#136</a> 스레드를 참고해주시길 바랍니다.</li>
          </ul>
       </details>
    </li>
