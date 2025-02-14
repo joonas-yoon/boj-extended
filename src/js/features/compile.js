@@ -73,7 +73,7 @@ const TIO_LANGUAGES_MAP = {
   SystemVerilog: 'unsupported',
 };
 
-(function extendCompile() {
+function extendCompile() {
   const url = window.location.pathname;
 
   if (!url.startsWith('/submit/')) {
@@ -129,8 +129,13 @@ const TIO_LANGUAGES_MAP = {
     const codeLines = document.querySelectorAll(
       '.CodeMirror-code .CodeMirror-line[role="presentation"]'
     );
-    const sourceCodeText = Array.from(codeLines)
-      .map((e) => e.textContent)
+
+    const unexpectedUnicodes =
+      // eslint-disable-next-line no-control-regex
+      /[\u0000-\u001F\u007F-\u009F\u00A0\u1680\u2000-\u200F\u2028-\u202F\u205F\u3000\uFEFF]+/g;
+
+    const submitCode = Array.from(codeLines)
+      .map((e) => e.textContent.replace(unexpectedUnicodes, ''))
       .join('\n');
 
     // get language to compile
@@ -155,16 +160,10 @@ const TIO_LANGUAGES_MAP = {
       }
     }
 
-    // clean bad characters
-    const unexpectedUnicodes =
-      // eslint-disable-next-line no-control-regex
-      /[\u000d\u0020\u0085\u1680\u2000-\u200a\u2029\u202f\u205f\u3000]+/g;
-    const submitCode = sourceCodeText.replace(unexpectedUnicodes, ' ');
-
     const [stdout, stderr] = await TIO.run(submitCode, '', compileLanguage);
     return {
       stdout,
       stderr,
     };
   }
-})();
+}
