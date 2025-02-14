@@ -22,6 +22,8 @@
     extendSearchPage();
   } else if (url.startsWith('/vs/')) {
     extendVs();
+  } else if (url.startsWith('/submit/')) {
+    extendCompile();
   } else if (isSettingPage(url)) {
     extendSettingPage();
   }

@@ -9,3 +9,4 @@ _metadata
 .vs
 .env
 .venv
+package-lock.json

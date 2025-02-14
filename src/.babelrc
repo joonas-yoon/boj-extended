@@ -8,7 +8,12 @@
           "firefox": "60"
         },
         "modules": false
-      }
+      },
+      ["minify", 
+      { 
+        "builtIns": false 
+        }
+      ]
     ]
   ],
   "plugins": [

@@ -20,7 +20,9 @@
         "js/utils/helpers.js",
         "js/utils/index.js",
         "js/features/theme.js",
-        "js/features/wide.js"
+        "js/features/wide.js",
+        "js/third/pako.js",
+        "js/third/tio.js"
       ]
     },
     {
@@ -36,6 +38,7 @@
         "js/features/search.js",
         "js/features/setting.js",
         "js/features/global.js",
+        "js/features/compile.js",
         "js/main.js"
       ]
     }
