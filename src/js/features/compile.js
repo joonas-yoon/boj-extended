@@ -76,6 +76,7 @@ const TIO_LANGUAGES_MAP = {
 function extendCompile() {
   const url = window.location.pathname;
   const inputs = [];
+  const expectedOutputs = [];
 
   if (!url.startsWith('/submit/')) {
     return;
@@ -99,10 +100,11 @@ function extendCompile() {
 
     // Parse the text
     const doc = parser.parseFromString(html, "text/html");
-    const rawInputs = doc.getElementsByClassName('sampledata');
+    const rawData = doc.getElementsByClassName('sampledata');
 
-    for(let i = 0; i < rawInputs.length; i += 2) {
-      inputs[i / 2] = rawInputs[i].innerText;
+    for(let i = 0; i < rawData.length; i++) {
+      if(i % 2 == 0) inputs[i / 2] = rawData[i].innerText;
+      else expectedOutputs[(i - 1) / 2] = rawData[i].innerText;
     }
 
     const resultPreBox = Utils.createElement('pre', {
@@ -114,30 +116,19 @@ function extendCompile() {
       whenCompileRequested: () => {
         resultPreBox.style.display = 'block';
       },
-      whenCompileDone: ({ stdout, stderr}) => {
-        resultPreBox.innerText += 'stdout:\n' + stdout;
-        resultPreBox.innerText += '\n-----------\nstderr:\n' + stderr + '\n\n';
+      whenCompileDone: ({ stdout, stderr}, index) => {
+        if(index == 0) resultPreBox.innerText = '';
+        resultPreBox.innerText += `테스트케이스 #${index + 1}`;
+        if(expectedOutputs[index].trim() == stdout.trim()) resultPreBox.innerText += ' ✅\n';
+        else resultPreBox.innerText += ' ❌\n';
+
+        resultPreBox.innerText += '예제 출력:\n' + expectedOutputs[index] + '\n';
+        resultPreBox.innerText += '실제 출력:\n' + stdout + '\n\n';
+        if(!stderr.startsWith('\n')) resultPreBox.innerText += '\n-----------\n:\n' + stderr + '\n\n';
       },
     });
 
     submitButton.parentNode.appendChild(compileButton);
-
-    for(let i = 1; i < inputs.length; i++) {
-      const resultPreBox = Utils.createElement('pre', {
-        style: 'display: none',
-      });
-      resultWrapper.appendChild(resultPreBox);
-      formGroup.appendChild(resultWrapper);
-      const compileButton = createCompileButton({
-        whenCompileRequested: () => {
-          resultPreBox.style.display = 'block';
-        },
-        whenCompileDone: ({ stdout, stderr}) => {
-          resultPreBox.innerText += 'stdout:\n' + stdout;
-          resultPreBox.innerText += '\n-----------\nstderr:\n' + stderr + '\n\n';
-        },
-      });
-    }
   });
 
   const submitButton = document.getElementById('submit_button');
@@ -162,7 +153,7 @@ function extendCompile() {
       whenCompileRequested();
       for(let i = 0; i < inputs.length; i++) {
         const { stdout, stderr } = await compile(inputs[i]);
-        whenCompileDone({ stdout, stderr });
+        whenCompileDone({ stdout, stderr }, i);
       }
     });
     return button;
