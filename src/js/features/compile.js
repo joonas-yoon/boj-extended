@@ -75,6 +75,7 @@ const TIO_LANGUAGES_MAP = {
 
 function extendCompile() {
   const url = window.location.pathname;
+  const inputs = [];
 
   if (!url.startsWith('/submit/')) {
     return;
@@ -82,31 +83,72 @@ function extendCompile() {
 
   console.log('Ready to compile');
 
+  fetch(`https://www.acmicpc.net/problem/${window.location.pathname.split('/')[2]}`, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+      'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'
+  }
+  })
+  .then(response => {
+    // When the page is loaded convert it to text
+    return response.text();
+  })
+  .then(html => {
+    // Initialize the DOM parser
+    const parser = new DOMParser();
+
+    // Parse the text
+    const doc = parser.parseFromString(html, "text/html");
+    const rawInputs = doc.getElementsByClassName('sampledata');
+
+    for(let i = 0; i < rawInputs.length; i += 2) {
+      inputs[i / 2] = rawInputs[i].innerText;
+    }
+
+    const resultPreBox = Utils.createElement('pre', {
+      style: 'display: none',
+    });
+    resultWrapper.appendChild(resultPreBox);
+    formGroup.appendChild(resultWrapper);
+    const compileButton = createCompileButton({
+      whenCompileRequested: () => {
+        resultPreBox.style.display = 'block';
+      },
+      whenCompileDone: ({ stdout, stderr}) => {
+        resultPreBox.innerText += 'stdout:\n' + stdout;
+        resultPreBox.innerText += '\n-----------\nstderr:\n' + stderr + '\n\n';
+      },
+    });
+
+    submitButton.parentNode.appendChild(compileButton);
+
+    for(let i = 1; i < inputs.length; i++) {
+      const resultPreBox = Utils.createElement('pre', {
+        style: 'display: none',
+      });
+      resultWrapper.appendChild(resultPreBox);
+      formGroup.appendChild(resultWrapper);
+      const compileButton = createCompileButton({
+        whenCompileRequested: () => {
+          resultPreBox.style.display = 'block';
+        },
+        whenCompileDone: ({ stdout, stderr}) => {
+          resultPreBox.innerText += 'stdout:\n' + stdout;
+          resultPreBox.innerText += '\n-----------\nstderr:\n' + stderr + '\n\n';
+        },
+      });
+    }
+  });
+
   const submitButton = document.getElementById('submit_button');
   const formGroup = submitButton.closest('.form-group');
   const resultWrapper = Utils.createElement('div', {
     class: 'col-md-offset-2 col-md-10',
     style: 'margin-top: 1em',
   });
-  console.log('submitButton', submitButton);
-  console.log('formGroup', formGroup);
-  console.log('resultWrapper', resultWrapper);
-  const resultPreBox = Utils.createElement('pre', {
-    style: 'display: none',
-  });
-  resultWrapper.appendChild(resultPreBox);
-  formGroup.appendChild(resultWrapper);
-  const compileButton = createCompileButton({
-    whenCompileRequested: () => {
-      resultPreBox.style.display = 'block';
-      resultPreBox.innerText = 'Compile...';
-    },
-    whenCompileDone: ({ stdout, stderr }) => {
-      resultPreBox.innerText = 'stdout:\n' + stdout;
-      resultPreBox.innerText += '\n-----------\nstderr:\n' + stderr;
-    },
-  });
-  submitButton.parentNode.appendChild(compileButton);
+  // console.log('submitButton', submitButton);
+  // console.log('formGroup', formGroup);
+  // console.log('resultWrapper', resultWrapper);
 
   function createCompileButton({ whenCompileRequested, whenCompileDone }) {
     const button = Utils.createElement('button', {
@@ -118,13 +160,16 @@ function extendCompile() {
     button.addEventListener('click', async (evt) => {
       evt.preventDefault();
       whenCompileRequested();
-      const { stdout, stderr } = await compile();
-      whenCompileDone({ stdout, stderr });
+      for(let i = 0; i < inputs.length; i++) {
+        const { stdout, stderr } = await compile(inputs[i]);
+        whenCompileDone({ stdout, stderr });
+      }
     });
     return button;
   }
 
-  async function compile() {
+  async function compile(input) {
+
     // get source to compile
     const codeLines = document.querySelectorAll(
       '.CodeMirror-code .CodeMirror-line[role="presentation"]'
@@ -160,7 +205,7 @@ function extendCompile() {
       }
     }
 
-    const [stdout, stderr] = await TIO.run(submitCode, '', compileLanguage);
+    const [stdout, stderr] = await TIO.run(submitCode, input, compileLanguage);
     return {
       stdout,
       stderr,
