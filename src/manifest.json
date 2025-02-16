@@ -1,7 +1,7 @@
 {
   "name": "BOJ Extended",
   "description": "백준 온라인 저지(BOJ)를 확장된 기능과 함께 사용해보세요.",
-  "version": "1.9.5",
+  "version": "1.9.6",
   "manifest_version": 3,
   "background": {
     "service_worker": "js/background.js"
@@ -10,7 +10,12 @@
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
-      "css": ["css/common.css", "css/theme-dark.css", "css/theme-rigel.css"],
+      "css": [
+        "css/common.css",
+        "css/theme-dark.css",
+        "css/theme-rigel.css",
+        "css/toastui-editor-dark.css"
+      ],
       "run_at": "document_start",
       "js": [
         "js/constants.js",
@@ -38,6 +43,12 @@
         "js/features/global.js",
         "js/main.js"
       ]
+    },
+    {
+      "matches": ["https://www.acmicpc.net/submit/*"],
+      "all_frames": true,
+      "run_at": "document_start",
+      "js": ["js/third/pako.js", "js/third/tio.js", "js/features/test.js"]
     }
   ],
   "options_ui": {

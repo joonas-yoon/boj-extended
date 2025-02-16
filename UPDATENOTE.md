@@ -1,3 +1,15 @@
+## 1.9.6
+
+**Features**
+
+- 제출 페이지에서 예제 입출력 테스트 기능 추가 [(#143)](https://github.com/joonas-yoon/boj-extended/issues/143) [(#169)](https://github.com/joonas-yoon/boj-extended/issues/169)
+- - thanks to [@ruk13xa](https://github.com/ruk13xa)
+- - ![image](https://raw.githubusercontent.com/joonas-yoon/boj-extended/refs/heads/dev/docs/images/screenshot-test.png)
+
+**Fixes**
+
+- 다크모드에서 그룹 게시판 글쓰기 색상 버그 수정 [(#168)](https://github.com/joonas-yoon/boj-extended/issues/168)
+
 ## 1.9.5
 
 **Fixes**
