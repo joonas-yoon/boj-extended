@@ -10,7 +10,12 @@
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
-      "css": ["css/common.css", "css/theme-dark.css", "css/theme-rigel.css", "css/toastui-editor-dark.css"],
+      "css": [
+        "css/common.css",
+        "css/theme-dark.css",
+        "css/theme-rigel.css",
+        "css/toastui-editor-dark.css"
+      ],
       "run_at": "document_start",
       "js": [
         "js/constants.js",
@@ -43,11 +48,7 @@
       "matches": ["https://www.acmicpc.net/submit/*"],
       "all_frames": true,
       "run_at": "document_start",
-      "js": [
-        "js/third/pako.js",
-        "js/third/tio.js",
-        "js/features/test.js"
-      ]
+      "js": ["js/third/pako.js", "js/third/tio.js", "js/features/test.js"]
     }
   ],
   "options_ui": {

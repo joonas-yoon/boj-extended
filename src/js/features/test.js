@@ -239,7 +239,8 @@ function extendTest() {
   function createInfoMessage() {
     const div = document.createElement('div');
     div.className = 'alert alert-info';
-    div.innerHTML = '사용되는 <a href="https://tio.run/" target="_blank">테스트 환경</a>은 <a href="https://help.acmicpc.net/language/info" target="_blank">채점 환경</a>과 다르므로 채점 결과를 보장하지 않는 점 유의하시길 바랍니다.</div>';
+    div.innerHTML =
+      '사용되는 <a href="https://tio.run/" target="_blank">테스트 환경</a>은 <a href="https://help.acmicpc.net/language/info" target="_blank">채점 환경</a>과 다르므로 채점 결과를 보장하지 않는 점 유의하시길 바랍니다.</div>';
     return div;
   }
 

@@ -111,7 +111,9 @@ function applyTheme(button, theme) {
   }
 
   // update toastui-editor
-  const toastEditors = document.getElementsByClassName('toastui-editor-defaultUI');
+  const toastEditors = document.getElementsByClassName(
+    'toastui-editor-defaultUI'
+  );
   for (const editor of toastEditors) {
     editor.className = 'toastui-editor-defaultUI';
     if (theme != 'light') {
