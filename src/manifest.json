@@ -20,9 +20,7 @@
         "js/utils/helpers.js",
         "js/utils/index.js",
         "js/features/theme.js",
-        "js/features/wide.js",
-        "js/third/pako.js",
-        "js/third/tio.js"
+        "js/features/wide.js"
       ]
     },
     {
@@ -36,7 +34,6 @@
         "js/features/group.js",
         "js/features/vs.js",
         "js/features/search.js",
-        "js/features/test.js",
         "js/features/setting.js",
         "js/features/global.js",
         "js/main.js"
@@ -45,9 +42,11 @@
     {
       "matches": ["https://www.acmicpc.net/submit/*"],
       "all_frames": true,
+      "run_at": "document_start",
       "js": [
         "js/third/pako.js",
-        "js/third/tio-api.js"
+        "js/third/tio.js",
+        "js/features/test.js"
       ]
     }
   ],
