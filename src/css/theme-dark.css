@@ -551,6 +551,11 @@ html[theme='dark'] .btn-primary {
   background-color: #20649e;
   border-color: #28689e;
 }
+html[theme='dark'] .btn-warning {
+  color: #fff;
+  background-color: #bf8636;
+  border-color: #bf8636;
+}
 html[theme='dark'] .btn-u.btn-u-default {
   background: #3b4b4c;
 }
@@ -1156,4 +1161,14 @@ html[theme='dark'] a[href^='/problem'].problem-link-style-box.result-wa:hover {
   background-color: transparent;
   border-color: #f7573b;
   color: #f7573b;
+}
+
+/* Test */
+html[theme='dark'] #testExampleResults pre.panel-body {
+  background: #222222;
+}
+
+html[theme='dark'] #testExampleResults pre.panel-body.metadata {
+  color: #999999;
+  opacity: 1.0;
 }
