@@ -55,9 +55,10 @@ jobs:
         run: npm install chrome-webstore-upload-cli@2.0.1 -g
 
       - name: Upload Files
-        run: |
-          cd dist && chrome-webstore-upload upload --auto-publish
+        run: npx chrome-webstore-upload-cli@3
+        working-directory: dist
         env:
           EXTENSION_ID: ${{ secrets.EXTENSION_ID }}
           CLIENT_ID: ${{ secrets.CLIENT_ID }}
+          CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
           REFRESH_TOKEN: ${{ secrets.REFRESH_TOKEN }}
