@@ -62,6 +62,45 @@ class _Config {
   }
 }
 
+// eslint-disable-next-line valid-jsdoc
+/**
+ * fetch problem title, level via solved.ac api
+ * @see {@link https://solvedac.github.io/unofficial-documentation/#/operations/getProblemByIdArray}
+ * @param {string[]} pids - list of problem id (up to 100)
+ * @param { ({ problemId, titleKo, level }) => void } callback
+ */
+function fetchProblemsFromSolvedAc(pids, callback) {
+  const query = encodeURIComponent(pids.join(','));
+  console.log(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`);
+  fetch(`https://solved.ac/api/v3/problem/lookup?problemIds=${query}`)
+    .then((res) => {
+      console.log('fetchProblemsFromSolvedAc', res);
+      return res;
+    })
+    .then((res) => res.json())
+    .then(callback)
+    .catch(() => callback(null));
+}
+
+// eslint-disable-next-line valid-jsdoc
+/**
+ * fetch user profile via solved.ac api
+ * @see {@link https://solvedac.github.io/unofficial-documentation/#/operations/getUser}
+ * @param {string} handles - [nickname1, nickname2, ...] that its length is up to 100
+ * @param { ([{ handle, tier, level }]) => void } callback
+ */
+function fetchUsersFromSolvedAc(handles, callback) {
+  console.log(`https://solved.ac/api/v3/user/lookup?handles=${handles}`);
+  fetch(`https://solved.ac/api/v3/user/lookup?handles=${handles}`)
+    .then((res) => {
+      console.log('fetchUsersFromSolvedAc', res);
+      return res;
+    })
+    .then((res) => res.json())
+    .then(callback)
+    .catch(() => callback(null));
+}
+
 const Config = new _Config(); // as singleton
 
 const Problems = {
@@ -125,6 +164,12 @@ chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
       break;
     case 'config.remove':
       Config.remove(message.data.key, sendResponse);
+      break;
+    case 'solved.ac.problems':
+      fetchProblemsFromSolvedAc(message.data.value, sendResponse);
+      break;
+    case 'solved.ac.users':
+      fetchUsersFromSolvedAc(message.data.value, sendResponse);
       break;
     default:
       break;

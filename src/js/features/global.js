@@ -153,31 +153,27 @@ function extendGlobal() {
       );
       if (classes.length < 1) return;
       const type = classes[0];
-      const inputText = input.innerText;
       const td = input.closest('td');
+      if (!td) return;
       // replace text by user's format
       Config.load(type, (format) => {
         if (!format) {
-          if (td) td.setAttribute('class', 'result');
+          td.setAttribute('class', 'result');
           input.style.display = '';
           output.style.display = 'none';
         } else {
-          if (td) td.setAttribute('class', 'result has-fake');
+          td.setAttribute('class', 'result has-fake');
           input.style.display = 'none';
           output.style.display = '';
-          const outputText1 = input.innerText.replaceAll(
+          const outputText = input.textContent.replaceAll(
             resultPattern[type],
             ''
           );
-          format = format.replace(
+          const replacedText = format.replace(
             /<span (.+)?>(.*)<\/span>/gi,
-            '<span $1>$2 ' + outputText1 + '</span>'
+            '<span $1>$2 ' + outputText + '</span>'
           );
-          const outputText2 = input.innerText.replaceAll(
-            resultPattern[type],
-            format
-          );
-          outputAsHtml(output, format);
+          outputAsHtml(output, replacedText);
         }
       });
       // display latest percentage when it is not accept
@@ -302,29 +298,73 @@ function extendGlobal() {
   function extendUserBadge() {
     if (!isLoggedIn()) return;
 
+    // request to background for lookup from external host
+    const fetchUsersSolvedAc = (handles) => {
+      return new Promise((resolve, reject) => {
+        console.log('request solved.ac.fetch.users', handles);
+        chrome.runtime.sendMessage(
+          {
+            action: 'solved.ac.users',
+            data: {
+              value: handles,
+            },
+          },
+          (response) => {
+            console.groupCollapsed('solved.ac.fetch.users');
+            console.log('api request:', handles);
+            console.log('api response:', response);
+            console.groupEnd();
+            resolve(response);
+          }
+        );
+      });
+    };
+
+    // TODO: filter by cache and integrate with lookUpUsersInfo() function
     const getTier = async (handle) => {
       const cacheKey = `user:${handle}`;
-      const cacheValue = LocalCache.get(cacheKey);
+      // keep user data as local cache in 24 hours
+      const cacheValue = LocalCache.get(cacheKey, {
+        expired: 1000 * 3600 * 24,
+      });
+      console.log('user.getTier.cacheValue', cacheKey, cacheValue);
       if (cacheValue === null) return 0;
       if (cacheValue !== undefined) return cacheValue.tier;
-      const info = await fetch(
-        `https://solved.ac/api/v3/user/show?handle=${handle}`
-      )
-        .then((res) => res.json())
-        .catch(() => null);
+      const info = await fetchUserSolvedAc(handle);
       LocalCache.add(cacheKey, info);
       console.log('cache updated', cacheKey, info);
       return info === null ? 0 : info.tier;
     };
 
-    Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+    Config.load(Constants.CONFIG_SHOW_USER_TIER, async (showUserTier) => {
       // default as true
+      console.log('config.showUserTier', showUserTier);
       if (showUserTier === false) return;
-      const userTags = document.querySelectorAll('a[href^="/user/"');
-      userTags.forEach(async (tag) => {
-        const tier = await getTier(tag.innerText);
+      const userTags = document.querySelectorAll('a[href^="/user/"]');
+      const handleArray = Array.from(userTags).map((e) => e.innerText);
+      const infos = await lookUpUsersInfo(handleArray);
+      console.log('infos', infos);
+      userTags.forEach((tag) => {
+        const { tier } = infos[tag.innerText] || { tier: 0 };
         tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;
       });
     });
+
+    async function lookUpUsersInfo(handlesArray) {
+      const handles = [...new Set([...handlesArray])];
+      const dict = {};
+      for (let i = 0; i <= Math.floor(handles.length / 100); ++i) {
+        const offset = i * 100;
+        const subset = handles.slice(offset, offset + 100);
+        if (!subset || subset.length < 1) continue;
+        const handlesStr = subset.join(',');
+        console.log('req handles', handlesStr);
+        const response = await fetchUsersSolvedAc(handlesStr);
+        for (const { handle, tier, rank } of response) {
+          dict[handle] = { tier, rank };
+        }
+      }
+      return dict;
+    }
   }
 }

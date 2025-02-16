@@ -328,3 +328,8 @@
   background-position: 100% 0;
   box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.5);
 }
+
+/* Hide badge on tabs */
+.tab-v2 .solvedac-tier {
+  display: none;
+}

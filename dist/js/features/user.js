@@ -1,1 +1,225 @@
-function ownKeys(a,b){var c=Object.keys(a);if(Object.getOwnPropertySymbols){var d=Object.getOwnPropertySymbols(a);b&&(d=d.filter(function(b){return Object.getOwnPropertyDescriptor(a,b).enumerable})),c.push.apply(c,d)}return c}function _objectSpread(a){for(var b,c=1;c<arguments.length;c++)b=null==arguments[c]?{}:arguments[c],c%2?ownKeys(Object(b),!0).forEach(function(c){_defineProperty(a,c,b[c])}):Object.getOwnPropertyDescriptors?Object.defineProperties(a,Object.getOwnPropertyDescriptors(b)):ownKeys(Object(b)).forEach(function(c){Object.defineProperty(a,c,Object.getOwnPropertyDescriptor(b,c))});return a}function _defineProperty(a,b,c){return b in a?Object.defineProperty(a,b,{value:c,enumerable:!0,configurable:!0,writable:!0}):a[b]=c,a}function extendUserPage(){function a(a,b,c){a.forEach(function(a){c?a.setAttribute(b,!0):a.removeAttribute(b)})}function b(){const{pathname:a}=window.location;return a.replace("/user/","")||""}function c(a){const b=function(a){return LocalCache.get(`problem:${a}`)},c=function(a,b){return LocalCache.add(`problem:${a}`,b)},d=function(a){return b(a)!==void 0},e=function(a){return+a.textContent},f=a.map(function(a){return{element:a,id:e(a)}}).filter(function(a){return!isNaN(a.id)});f.filter(function({id:a}){return d(a)}).forEach(function({element:a,id:c}){a.setAttribute("data-problem-id",c);const{title:d,level:e}=b(c);a.setAttribute("data-tier",e),a.setAttribute("data-problem-title",d)});const g=f.filter(function({id:a}){return!d(a)});(async function(a){const b=function(a){return[{id:""}].concat(a).reduce(function(a,b){return _objectSpread(_objectSpread({},a||{}),{},{[b.id]:b})})};for(let d=0;d<=Math.ceil(a.length/100);++d){const e=a.slice(100*d,100*(d+1))||[];if(0===e.length)break;const f=e.map(function({id:a}){return a}),g=encodeURIComponent(f.join(",")),h=await fetch(`https://solved.ac/api/v3/problem/lookup?problemIds=${g}`).then(function(a){return a.json()}).then(function(a){return a.map(function({problemId:a,titleKo:b,level:c}){return{id:a,title:b,level:c}})}).catch(function(a){return console.error(a),[]}),i=b(h);e.forEach(function({element:a,id:b}){a.setAttribute("data-problem-id",b);try{const{level:d,title:e}=i[b];a.setAttribute("data-tier",d),a.setAttribute("data-problem-title",e),c(b,i[b])}catch(b){a.setAttribute("data-tier",0),a.setAttribute("data-problem-title","(\uAC00\uC838\uC624\uAE30 \uC2E4\uD328)")}})}})(g)}Utils.loadCSS("css/user.css");const d=Array.from(document.getElementsByClassName("problem-list")),e=Utils.createElement("input",{id:"show-pid",type:"checkbox"}),f=Utils.createElement("input",{id:"show-pname",type:"checkbox"}),g=Utils.createElement("input",{id:"show-tier",type:"checkbox"}),h=Utils.createElement("input",{id:"show-tier-color",type:"checkbox"});e.addEventListener("change",function(b){Config.save(Constants.CONFIG_SHOW_PROBLEM_ID,b.target.checked),a(d,"show-id",b.target.checked)}),f.addEventListener("change",function(b){Config.save(Constants.CONFIG_SHOW_PROBLEM_TITLE,b.target.checked),a(d,"show-name",b.target.checked)}),g.addEventListener("change",function(b){Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER,b.target.checked),a(d,"show-tier",b.target.checked)}),h.addEventListener("change",function(b){Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR,b.target.checked),a(d,"show-tier-color",b.target.checked)});const i=Utils.createElement("label",{for:"show-pid",children:document.createTextNode("\uBB38\uC81C \uBC88\uD638")}),j=Utils.createElement("label",{for:"show-pname",children:document.createTextNode("\uBB38\uC81C \uC81C\uBAA9")}),k=Utils.createElement("label",{for:"show-tier",children:document.createTextNode("\uD2F0\uC5B4 \uD45C\uC2DC")}),l=Utils.createElement("label",{for:"show-tier-color",children:document.createTextNode("\uD2F0\uC5B4 \uC0C9\uC0C1 \uD45C\uC2DC")}),m=Utils.createElement("div",{class:"problem-toggles",children:[e,i,f,j,g,k,h,l]});try{const a=document.getElementsByClassName("col-md-9")[0];a.insertBefore(m,a.firstChild),a.insertBefore(createVsForm(b(),getMyUsername()),m)}catch(a){console.error(a)}d.forEach(function(a){const b=Array.from(a.getElementsByTagName("a"));if(b.forEach(function(a){a.href&&a.classList.add("problem-link-style-box")}),c(b),b.length>100){a.classList.add("collpased");const b=Utils.createElement("div",{class:"panel-footer"}),c=Utils.createElement("a",{class:"btn-display-all"});c.innerText="\uBAA8\uB450 \uBCF4\uAE30",c.addEventListener("click",function(c){c.preventDefault(),a.classList.remove("collpased"),b.classList.add("hidden")}),b.appendChild(c),a.closest(".panel").appendChild(b)}}),Config.load(Constants.CONFIG_SHOW_PROBLEM_ID,function(b){e.checked=!1!==b,a(d,"show-id",e.checked)}),Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE,function(b){f.checked=b,a(d,"show-name",f.checked)}),Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER,function(b){g.checked=!1!==b,a(d,"show-tier",g.checked)}),Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR,function(b){h.checked=b,a(d,"show-tier-color",h.checked)})}
+function extendUserPage() {
+  Utils.loadCSS('css/user.css');
+
+  function display(containers, key, visible) {
+    containers.forEach((panel) => {
+      if (visible) {
+        panel.setAttribute(key, true);
+      } else {
+        panel.removeAttribute(key);
+      }
+    });
+  }
+
+  function getCurrentUsername() {
+    const { pathname } = window.location;
+    return pathname.replace('/user/', '') || '';
+  }
+
+  const panels = Array.from(document.getElementsByClassName('problem-list'));
+
+  const checkboxProbId = Utils.createElement('input', {
+    id: 'show-pid',
+    type: 'checkbox',
+  });
+  const checkboxProbTitle = Utils.createElement('input', {
+    id: 'show-pname',
+    type: 'checkbox',
+  });
+  const checkboxProbTier = Utils.createElement('input', {
+    id: 'show-tier',
+    type: 'checkbox',
+  });
+  const checkboxProbTierColor = Utils.createElement('input', {
+    id: 'show-tier-color',
+    type: 'checkbox',
+  });
+
+  checkboxProbId.addEventListener('change', (evt) => {
+    console.log('checkbox show-pid', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_ID, evt.target.checked);
+    display(panels, 'show-id', evt.target.checked);
+  });
+  checkboxProbTitle.addEventListener('change', (evt) => {
+    console.log('checkbox show-pname', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TITLE, evt.target.checked);
+    display(panels, 'show-name', evt.target.checked);
+  });
+  checkboxProbTier.addEventListener('change', (evt) => {
+    console.log('checkbox show-tier', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER, evt.target.checked);
+    display(panels, 'show-tier', evt.target.checked);
+  });
+  checkboxProbTierColor.addEventListener('change', (evt) => {
+    console.log('checkbox show-tier-color', evt);
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, evt.target.checked);
+    display(panels, 'show-tier-color', evt.target.checked);
+  });
+
+  const label1 = Utils.createElement('label', {
+    for: 'show-pid',
+    children: document.createTextNode('문제 번호'),
+  });
+  const label2 = Utils.createElement('label', {
+    for: 'show-pname',
+    children: document.createTextNode('문제 제목'),
+  });
+  const label3 = Utils.createElement('label', {
+    for: 'show-tier',
+    children: document.createTextNode('티어 표시'),
+  });
+  const label4 = Utils.createElement('label', {
+    for: 'show-tier-color',
+    children: document.createTextNode('티어 색상 표시'),
+  });
+
+  const checkboxes = Utils.createElement('div', {
+    class: 'problem-toggles',
+    children: [
+      checkboxProbId,
+      label1,
+      checkboxProbTitle,
+      label2,
+      checkboxProbTier,
+      label3,
+      checkboxProbTierColor,
+      label4,
+    ],
+  });
+
+  try {
+    const wrapper = document.getElementsByClassName('col-md-9')[0];
+    // add checkboxes whether problem's id or name
+    wrapper.insertBefore(checkboxes, wrapper.firstChild);
+    // add vs form
+    wrapper.insertBefore(
+      createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
+      checkboxes
+    );
+  } catch (e) {
+    console.error(e);
+  }
+
+  const MAX_DISPLAY_ITEMS = 100;
+
+  // set data-problem-id
+  panels.forEach((panel) => {
+    const problemTags = Array.from(panel.getElementsByTagName('a'));
+    problemTags.forEach((e) => {
+      if (!e.href) return;
+      e.classList.add('problem-link-style-box');
+    });
+    setProblemAttributes(problemTags);
+
+    // add button to display all
+    if (problemTags.length > MAX_DISPLAY_ITEMS) {
+      panel.classList.add('collpased');
+      const panelFooter = Utils.createElement('div', { class: 'panel-footer' });
+      const showButton = Utils.createElement('a', { class: 'btn-display-all' });
+      showButton.innerText = '모두 보기';
+      showButton.addEventListener('click', (evt) => {
+        evt.preventDefault();
+        panel.classList.remove('collpased');
+        panelFooter.classList.add('hidden');
+      });
+      panelFooter.appendChild(showButton);
+      panel.closest('.panel').appendChild(panelFooter);
+    }
+  });
+
+  function fetchProblems(problemIds) {
+    return new Promise((resolve, reject) => {
+      chrome.runtime.sendMessage(
+        {
+          action: 'solved.ac.problems',
+          data: {
+            value: problemIds,
+          },
+        },
+        (response) => {
+          console.groupCollapsed('solved.ac.fetch.problems');
+          console.log('api request:', problemIds);
+          console.log('api response:', response);
+          console.groupEnd();
+          resolve(response);
+        }
+      );
+    });
+  }
+
+  function setProblemAttributes(problemTags) {
+    const getProblemCache = (problemId) =>
+      LocalCache.get(`problem:${problemId}`);
+    const saveProblemCache = (problemId, data) =>
+      LocalCache.add(`problem:${problemId}`, data);
+    const isProblemCached = (problemId) =>
+      getProblemCache(problemId) !== undefined;
+
+    const listToMap = (list) => new Map(list.map((obj) => [obj.id, obj]));
+
+    const addProblemDetailsToElements = async (tags) => {
+      for (let i = 0; i <= Math.ceil(tags.length / 100); ++i) {
+        const batch = tags.slice(i * 100, (i + 1) * 100) || [];
+        if (batch.length === 0) break;
+        const pids = batch.map(({ id }) => id);
+        const details = await fetchProblems(pids);
+        const arr = details.map(({ problemId, titleKo, level }) => ({
+          id: problemId,
+          title: titleKo,
+          level,
+        }));
+
+        const infoByPid = listToMap(arr);
+        batch.forEach(({ element: e, id }) => {
+          e.setAttribute('data-problem-id', id);
+          try {
+            const { level, title } = infoByPid.get(Number(id));
+            e.setAttribute('data-tier', level);
+            e.setAttribute('data-problem-title', title);
+            saveProblemCache(id, infoByPid[id]);
+          } catch (err) {
+            console.log(`'data-problem-id': ${id}`, err);
+            e.setAttribute('data-tier', 0);
+            e.setAttribute('data-problem-title', '(가져오기 실패)');
+          }
+        });
+      }
+    };
+
+    const getPidfromProblemHref = (tag) => Number(tag.textContent);
+    const pids = problemTags
+      .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
+      .filter((x) => !isNaN(x.id));
+
+    // apply cache first
+    pids
+      .filter(({ id }) => isProblemCached(id))
+      .forEach(({ element: e, id }) => {
+        e.setAttribute('data-problem-id', id);
+        const { title, level } = getProblemCache(id);
+        e.setAttribute('data-tier', level);
+        e.setAttribute('data-problem-title', title);
+      });
+
+    const notCachedTags = pids.filter(({ id }) => !isProblemCached(id));
+    addProblemDetailsToElements(notCachedTags);
+  }
+
+  // sync with configs
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
+    checkboxProbId.checked = !(checked === false);
+    display(panels, 'show-id', checkboxProbId.checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE, (checked) => {
+    checkboxProbTitle.checked = checked;
+    display(panels, 'show-name', checkboxProbTitle.checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (checked) => {
+    checkboxProbTier.checked = !(checked === false);
+    display(panels, 'show-tier', checkboxProbTier.checked);
+  });
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (checked) => {
+    checkboxProbTierColor.checked = checked;
+    display(panels, 'show-tier-color', checkboxProbTierColor.checked);
+  });
+}

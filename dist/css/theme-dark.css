@@ -905,14 +905,32 @@ html[theme='dark'] .CodeMirror {
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
     But override as 'cm-s-paper', 'cm-s-default' to replace (original is 'cm-s-base16-dark')
 */
+:root {
+  --background: #1d1d1d;
+  --background-active: #282a36;
+  --current-line: #44475a;
+  --selection: #44475a;
+  --foreground: #f8f8f2;
+  --comment: #6272a4;
+  --cyan: #8be9fd;
+  --green: #50fa7b;
+  --blue: #4b77be;
+  --orange: #ffb86c;
+  --pink: #ff79c6;
+  --purple: #bd93f9;
+  --red: #ac4142;
+  --yellow: #f1fa8c;
+  --olive: #90a959;
+  --cloudy-blue: #6a9fb5;
+}
 html[theme='dark'] .cm-s-default.CodeMirror,
 html[theme='dark'] .cm-s-paper.CodeMirror {
-  background: #1d1d1d;
-  color: #e0e0e0;
+  background: var(--background);
+  color: var(--foreground);
 }
 html[theme='dark'] .cm-s-default div.CodeMirror-selected,
 html[theme='dark'] .cm-s-paper div.CodeMirror-selected {
-  background: #303030;
+  background: var(--current-line);
 }
 html[theme='dark'] .cm-s-default .CodeMirror-line::selection,
 html[theme='dark'] .cm-s-paper .CodeMirror-line::selection,
@@ -920,7 +938,7 @@ html[theme='dark'] .cm-s-default .CodeMirror-line > span::selection,
 html[theme='dark'] .cm-s-paper .CodeMirror-line > span::selection,
 html[theme='dark'] .cm-s-default .CodeMirror-line > span > span::selection,
 html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::selection {
-  background: rgba(48, 48, 48, 0.99);
+  background: var(--selection);
 }
 html[theme='dark'] .cm-s-default .CodeMirror-line::-moz-selection,
 html[theme='dark'] .cm-s-paper .CodeMirror-line::-moz-selection,
@@ -928,10 +946,10 @@ html[theme='dark'] .cm-s-default .CodeMirror-line > span::-moz-selection,
 html[theme='dark'] .cm-s-paper .CodeMirror-line > span::-moz-selection,
 html[theme='dark'] .cm-s-default .CodeMirror-line > span > span::-moz-selection,
 html[theme='dark'] .cm-s-paper .CodeMirror-line > span > span::-moz-selection {
-  background: rgba(48, 48, 48, 0.99);
+  background: var(--selection);
 }
 html[theme='dark'] .editor-toolbar a.fa-header-x:after {
-  color: #d6dadd !important;
+  color: var(--foreground) d !important;
 }
 html[theme='dark'] .editor-toolbar.fullscreen,
 html[theme='dark'] .editor-toolbar.fullscreen::before,
@@ -992,15 +1010,15 @@ html[theme='dark'] .cm-s-default span.cm-property,
 html[theme='dark'] .cm-s-paper span.cm-property,
 html[theme='dark'] .cm-s-default span.cm-attribute,
 html[theme='dark'] .cm-s-paper span.cm-attribute {
-  color: #90a959;
+  color: var(--olive);
 }
 html[theme='dark'] .cm-s-default span.cm-keyword,
 html[theme='dark'] .cm-s-paper span.cm-keyword {
-  color: #ac4142;
+  color: var(--red);
 }
 html[theme='dark'] .cm-s-default span.cm-string,
 html[theme='dark'] .cm-s-paper span.cm-string {
-  color: #f4bf75;
+  color: var(--orange);
 }
 html[theme='dark'] .cm-s-default span.cm-variable,
 html[theme='dark'] .cm-s-paper span.cm-variable {
@@ -1008,7 +1026,7 @@ html[theme='dark'] .cm-s-paper span.cm-variable {
 }
 html[theme='dark'] .cm-s-default span.cm-variable-2,
 html[theme='dark'] .cm-s-paper span.cm-variable-2 {
-  color: #6a9fb5;
+  color: var(--cloudy-blue);
 }
 html[theme='dark'] .cm-s-default span.cm-def,
 html[theme='dark'] .cm-s-paper span.cm-def {
@@ -1016,11 +1034,15 @@ html[theme='dark'] .cm-s-paper span.cm-def {
 }
 html[theme='dark'] .cm-s-default span.cm-bracket,
 html[theme='dark'] .cm-s-paper span.cm-bracket {
-  color: #e0e0e0;
+  color: var(--foreground);
+}
+html[theme='dark'] .cm-s-default span.cm-builtin,
+html[theme='dark'] .cm-s-paper span.cm-builtin {
+  color: var(--blue);
 }
 html[theme='dark'] .cm-s-default span.cm-tag,
 html[theme='dark'] .cm-s-paper span.cm-tag {
-  color: #ac4142;
+  color: var(--red);
 }
 html[theme='dark'] .cm-s-default span.cm-link,
 html[theme='dark'] .cm-s-paper span.cm-link {
@@ -1033,7 +1055,7 @@ html[theme='dark'] .cm-s-paper span.cm-error {
 }
 html[theme='dark'] .cm-s-default .CodeMirror-activeline-background,
 html[theme='dark'] .cm-s-paper .CodeMirror-activeline-background {
-  background: #202020;
+  background: var(--background-active);
 }
 html[theme='dark'] .cm-s-default .CodeMirror-matchingbracket,
 html[theme='dark'] .cm-s-paper .CodeMirror-matchingbracket {

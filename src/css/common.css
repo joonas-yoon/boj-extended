@@ -378,3 +378,8 @@ a[href^='/problem'].problem-link-style-box.result-wa:hover {
   color: white;
   cursor: pointer;
 }
+
+/* solved.ac */
+.solvedac-tier {
+  filter: none !important;
+}

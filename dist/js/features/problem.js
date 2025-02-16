@@ -1,1 +1,261 @@
-function ownKeys(a,b){var c=Object.keys(a);if(Object.getOwnPropertySymbols){var d=Object.getOwnPropertySymbols(a);b&&(d=d.filter(function(b){return Object.getOwnPropertyDescriptor(a,b).enumerable})),c.push.apply(c,d)}return c}function _objectSpread(a){for(var b,c=1;c<arguments.length;c++)b=null==arguments[c]?{}:arguments[c],c%2?ownKeys(Object(b),!0).forEach(function(c){_defineProperty(a,c,b[c])}):Object.getOwnPropertyDescriptors?Object.defineProperties(a,Object.getOwnPropertyDescriptors(b)):ownKeys(Object(b)).forEach(function(c){Object.defineProperty(a,c,Object.getOwnPropertyDescriptor(b,c))});return a}function _defineProperty(a,b,c){return b in a?Object.defineProperty(a,b,{value:c,enumerable:!0,configurable:!0,writable:!0}):a[b]=c,a}function extendProblemPage(){async function a(){return JSON.parse(await localStorage.getItem(h))}async function b(b){const c=_objectSpread(_objectSpread({},await a()),{},{[f]:{count:b,last_updated:new Date().getTime()}});await localStorage.setItem(h,JSON.stringify(c))}function c(){window.alert("\uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4."),j.stop()}const d=document.getElementsByClassName("problem-menu")[0];if(!d)return;const e=d.querySelector("a[href^=\"/problem\"]"),f=getProblemID(e.href),g="problem-timers",h="problem-boards",i=document.getElementsByClassName("content")[0].getElementsByClassName("row")[0],j=progressTimer();i.insertBefore(j.element(),i.firstChild);const k=function(){const b=Utils.createElement("li",{id:"problem-timer",class:"dropdown"}),d=Utils.createElement("a",{class:"dropdown-toggle",style:"cursor: pointer"});d.innerHTML="\uD0C0\uC774\uBA38<b class=\"caret\"></b>",d.addEventListener("click",function(){b.classList.toggle("open")}),b.appendChild(d);const a=Utils.createElement("form",{class:"dropdown-menu"});a.addEventListener("submit",function(a){a.preventDefault();const b=a.target.getElementsByClassName("btn")[0];if(b.classList.contains("btn-primary")){const c=a.target.elements,d=parseInt(c.h.value)||0,e=parseInt(c.m.value)||0,h=parseInt(c.s.value)||0,i=3600*d+60*e+h;if(60>i)window.alert("\uCD5C\uC18C 1\uBD84 \uC774\uC0C1\uC744 \uC124\uC815\uD574\uC8FC\uC138\uC694.");else{b.innerText="\uC885\uB8CC",b.classList.remove("btn-primary"),b.classList.add("btn-danger");const a=new Date().getTime(),c=a+1e3*i;Config.load(g,function(b){b=b||{},b[f]={startTime:a,endTime:c},Config.save(g,b,function(){j.show(),j.start(a,c)})})}}else b.innerText="\uC2DC\uC791",b.classList.add("btn-primary"),b.classList.remove("btn-danger"),Config.load(g,function(a){a&&(delete a[f],Config.save(g,a,function(){j.hide(),j.stop()}))});return!1}),a.innerHTML="<div style=\"margin-top: 5px;\"><label style=\"width: 30%;\">\uC2DC\uAC04</label><label style=\"width: 33%;\">\uBD84</label><label style=\"width: 33%;\">\uCD08</label></div>",b.appendChild(a);const e=Utils.createElement("span",{class:"timer-seperator"});e.innerText=":";const h=Utils.createElement("input",{type:"number",class:"timer-number",value:"0",name:"h"});a.appendChild(h);const i=h.cloneNode(!0);i.setAttribute("name","m"),a.appendChild(e.cloneNode(!0)),a.appendChild(i);const k=h.cloneNode(!0);k.setAttribute("name","s"),a.appendChild(e.cloneNode(!0)),a.appendChild(k),h.addEventListener("change",function(a){0>a.target.value&&(a.target.value=0,i.value=0,k.value=0)}),i.addEventListener("change",function(a){0>a.target.value?(0<h.value?(h.value=parseInt(h.value)-1,a.target.value=59):a.target.value=0,k.value=0):60<=a.target.value&&(h.value=parseInt(h.value)+1,a.target.value=0)}),k.addEventListener("change",function(a){0>a.target.value?0<i.value?(i.value=parseInt(i.value)-1,a.target.value=59):0<h.value?(h.value=parseInt(h.value)-1,i.value=59,a.target.value=59):a.target.value=0:60<=a.target.value&&(i.value=parseInt(i.value)+1,60<=i.value&&(i.value=0,h.value=parseInt(h.value)+1),a.target.value=0)});const l=Utils.createElement("li",{class:"divider"});a.appendChild(l);const m=document.createElement("button");return Config.load(g,function(a){const b=a?a[f]:void 0;b?(m.setAttribute("class","btn btn-danger btn-block"),m.innerText="\uC885\uB8CC",j.show(),j.start(b.startTime,b.endTime,c)):(m.setAttribute("class","btn btn-primary btn-block"),m.innerText="\uC2DC\uC791",j.hide(),j.stop())}),a.appendChild(m),b}();d.appendChild(k);const l=document.querySelector("ul.problem-menu li a[href^=\"/board/search/\"]");l&&async function(){if(null==f)return;const c=await a(),d=c?c[f]:null,e=new Date().getTime();let g=0;if(d&&e-d.last_updated<=86400000)g=d.count||0;else{const a=await fetch(`https://www.acmicpc.net/board/search/all/problem/${f}`).then(function(a){return a.text()}).then(function(a){return new DOMParser().parseFromString(a,"text/html")}).catch(function(a){return console.error(a),null});if(null!==a){const c=a.querySelectorAll("ul.pagination li").length-2,d=a.querySelectorAll(".table > tbody > tr:not(.success)").length;g=d,1<c&&(g=(c-1)*d+"+"),b(g)}}l.innerText+=" ("+g+")"}()}
+function extendProblemPage() {
+  const menu = document.getElementsByClassName('problem-menu')[0];
+  if (!menu) return;
+  const problemMenuElement = menu.querySelector('a[href^="/problem"]');
+  const pid = getProblemID(problemMenuElement.href);
+
+  // Constants
+  const STORAGE_TIMER = 'problem-timers';
+  const STORAGE_PROBLEM_BOARD = 'problem-boards';
+
+  const container = document
+    .getElementsByClassName('content')[0]
+    .getElementsByClassName('row')[0];
+  const progress = progressTimer(); // eslint-disable-line no-undef
+  container.insertBefore(progress.element(), container.firstChild);
+
+  const dropdown = createTimerDropdown();
+  menu.appendChild(dropdown);
+
+  showQuestionsCount();
+
+  /** ******* end of main code in this function ******* **/
+
+  function showQuestionsCount() {
+    // the number of questions
+    const searchMenu = document.querySelector(
+      'ul.problem-menu li a[href^="/board/search/"]'
+    );
+    if (!searchMenu) return;
+    (async () => {
+      if (pid == null) {
+        console.log('pid is null');
+        return;
+      }
+      const qc = await getQuestionCountInStorage();
+      const qcount = qc ? qc[pid] : null;
+      const currentTime = new Date().getTime();
+      console.group('problem.js');
+      console.log('qcounts', qc);
+      console.log(`qcounts[${pid}]:`, qcount);
+      console.log('currentTime', currentTime);
+      console.groupEnd();
+      const UPDATE_DURATION = 24 * 3600 * 1000; // 24 hours
+      let estimates = 0;
+      if (qcount && currentTime - qcount.last_updated <= UPDATE_DURATION) {
+        // use cache
+        estimates = qcount.count || 0;
+      } else {
+        // or not, parse real document and get from it
+        const qDocument = await getProblemQuestionDoc();
+        estimates = getEstimateQuestions(qDocument);
+        setQuestionCount(estimates);
+      }
+      // update UI
+      searchMenu.innerText += ' (' + estimates + ')';
+    })();
+  }
+
+  async function getProblemQuestionDoc() {
+    return fetch(`https://www.acmicpc.net/board/search/all/problem/${pid}`)
+      .then((res) => res.text())
+      .then((html) => new DOMParser().parseFromString(html, 'text/html'))
+      .catch((err) => {
+        console.error(err);
+        return null;
+      });
+  }
+
+  function getEstimateQuestions(doc) {
+    if (doc === null) return;
+    const pages = doc.querySelectorAll('ul.pagination li').length - 2;
+    const rows = doc.querySelectorAll(
+      '.table > tbody > tr:not(.success)'
+    ).length;
+    // count questions
+    let estimates = rows;
+    if (pages > 1) {
+      estimates = (pages - 1) * rows + '+';
+    }
+    return estimates;
+  }
+
+  async function getQuestionCountInStorage() {
+    return JSON.parse(await localStorage.getItem(STORAGE_PROBLEM_BOARD));
+  }
+
+  async function setQuestionCount(val) {
+    const data = {
+      ...(await getQuestionCountInStorage()),
+      [pid]: {
+        count: val,
+        last_updated: new Date().getTime(),
+      },
+    };
+    await localStorage.setItem(STORAGE_PROBLEM_BOARD, JSON.stringify(data));
+  }
+
+  function stopTimer() {
+    // TODO: 옵션에서 메시지 설정
+    window.alert('종료되었습니다.');
+    // TODO: 기록 남기기
+    progress.stop();
+    // progress.hide();
+  }
+
+  function createTimerDropdown() {
+    const li = Utils.createElement('li', {
+      id: 'problem-timer',
+      class: 'dropdown',
+    });
+
+    const a = Utils.createElement('a', {
+      class: 'dropdown-toggle',
+      style: 'cursor: pointer',
+    });
+    a.innerHTML = '타이머<b class="caret"></b>';
+    a.addEventListener('click', (evt) => {
+      li.classList.toggle('open');
+    });
+    li.appendChild(a);
+
+    const form = Utils.createElement('form', { class: 'dropdown-menu' });
+    form.addEventListener('submit', (evt) => {
+      evt.preventDefault();
+      const button = evt.target.getElementsByClassName('btn')[0];
+      // can be started
+      if (button.classList.contains('btn-primary')) {
+        const inputs = evt.target.elements;
+        const h = parseInt(inputs.h.value) || 0;
+        const m = parseInt(inputs.m.value) || 0;
+        const s = parseInt(inputs.s.value) || 0;
+        const t = h * 3600 + m * 60 + s;
+        if (t < 60) {
+          window.alert('최소 1분 이상을 설정해주세요.');
+        } else {
+          // timer start
+          button.innerText = '종료';
+          button.classList.remove('btn-primary');
+          button.classList.add('btn-danger');
+          // save in storage
+          const startTime = new Date().getTime();
+          const endTime = startTime + t * 1000;
+          Config.load(STORAGE_TIMER, (list) => {
+            list = list || {};
+            list[pid] = { startTime: startTime, endTime: endTime };
+            Config.save(STORAGE_TIMER, list, (result) => {
+              progress.show();
+              progress.start(startTime, endTime);
+              console.log('list updated', result);
+            });
+          });
+        }
+      } else {
+        // timer stop
+        button.innerText = '시작';
+        button.classList.add('btn-primary');
+        button.classList.remove('btn-danger');
+        // sync setting
+        Config.load(STORAGE_TIMER, (list) => {
+          if (!list) return;
+          delete list[pid];
+          Config.save(STORAGE_TIMER, list, (result) => {
+            progress.hide();
+            progress.stop();
+          });
+        });
+      }
+      return false;
+    });
+    form.innerHTML =
+      '<div style="margin-top: 5px;"><label style="width: 30%;">시간</label><label style="width: 33%;">분</label><label style="width: 33%;">초</label></div>';
+    li.appendChild(form);
+
+    const seperator = Utils.createElement('span', { class: 'timer-seperator' });
+    seperator.innerText = ':';
+
+    const inputH = Utils.createElement('input', {
+      type: 'number',
+      class: 'timer-number',
+      value: '0',
+      name: 'h',
+    });
+    form.appendChild(inputH);
+
+    const inputM = inputH.cloneNode(true);
+    inputM.setAttribute('name', 'm');
+    form.appendChild(seperator.cloneNode(true));
+    form.appendChild(inputM);
+
+    const inputS = inputH.cloneNode(true);
+    inputS.setAttribute('name', 's');
+    form.appendChild(seperator.cloneNode(true));
+    form.appendChild(inputS);
+
+    inputH.addEventListener('change', (evt) => {
+      if (evt.target.value < 0) {
+        evt.target.value = 0;
+        inputM.value = 0;
+        inputS.value = 0;
+      }
+    });
+    inputM.addEventListener('change', (evt) => {
+      if (evt.target.value < 0) {
+        if (inputH.value > 0) {
+          inputH.value = parseInt(inputH.value) - 1;
+          evt.target.value = 59;
+        } else {
+          evt.target.value = 0;
+        }
+        inputS.value = 0;
+      } else if (evt.target.value >= 60) {
+        inputH.value = parseInt(inputH.value) + 1;
+        evt.target.value = 0;
+      }
+    });
+    inputS.addEventListener('change', (evt) => {
+      if (evt.target.value < 0) {
+        if (inputM.value > 0) {
+          inputM.value = parseInt(inputM.value) - 1;
+          evt.target.value = 59;
+        } else if (inputH.value > 0) {
+          inputH.value = parseInt(inputH.value) - 1;
+          inputM.value = 59;
+          evt.target.value = 59;
+        } else {
+          evt.target.value = 0;
+        }
+      } else if (evt.target.value >= 60) {
+        inputM.value = parseInt(inputM.value) + 1;
+        if (inputM.value >= 60) {
+          inputM.value = 0;
+          inputH.value = parseInt(inputH.value) + 1;
+        }
+        evt.target.value = 0;
+      }
+    });
+
+    const divider = Utils.createElement('li', { class: 'divider' });
+    form.appendChild(divider);
+
+    const button = document.createElement('button');
+    Config.load(STORAGE_TIMER, (list) => {
+      console.log(list);
+      const info = list ? list[pid] : undefined;
+      if (info) {
+        button.setAttribute('class', 'btn btn-danger btn-block');
+        button.innerText = '종료';
+        progress.show();
+        progress.start(info['startTime'], info['endTime'], stopTimer);
+      } else {
+        button.setAttribute('class', 'btn btn-primary btn-block');
+        button.innerText = '시작';
+        progress.hide();
+        progress.stop();
+      }
+    });
+    form.appendChild(button);
+
+    return li;
+  }
+}
