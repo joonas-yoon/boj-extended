@@ -14,7 +14,7 @@ const TIO_LANGUAGES_MAP = {
   Ruby: 'ruby',
   'Kotlin (JVM)': 'kotlin',
   Swift: 'swift4',
-  Text: 'unsupported',
+  Text: undefined,
   'C#': 'cs-core',
   'node.js': 'javascript-node',
   Go: 'go',
@@ -33,7 +33,7 @@ const TIO_LANGUAGES_MAP = {
   'F#': 'fs-core',
   'Visual Basic': 'vb-core',
   'Objective-C': 'objective-c-gcc',
-  'Objective-C++': 'unsupported',
+  'Objective-C++': undefined,
   'C99 (Clang)': 'c-clang',
   'C++98 (Clang)': 'cpp-clang',
   'C++11 (Clang)': 'cpp-clang',
@@ -47,7 +47,7 @@ const TIO_LANGUAGES_MAP = {
   'C90 (Clang)': 'c-clang',
   'C2x (Clang)': 'c-clang',
   TypeScript: 'typescript',
-  'Assembly (32bit)': 'unsupported',
+  'Assembly (32bit)': undefined,
   'Assembly (64bit)': 'assembly-nasm',
   Bash: 'bash',
   Fortran: 'fortran-gfortran',
@@ -58,7 +58,7 @@ const TIO_LANGUAGES_MAP = {
   'Brainf**k': 'brainfuck',
   Whitespace: 'whitespace',
   Tcl: 'tcl',
-  Rhino: 'unsupported',
+  Rhino: undefined,
   Cobol: 'cobol-gnu',
   Pike: 'pike',
   sed: 'sed-gnu',
@@ -66,11 +66,11 @@ const TIO_LANGUAGES_MAP = {
   bc: 'bc',
   'Algol 68': 'algol68g',
   Befunge: 'befunge',
-  FreeBASIC: 'unsupported',
+  FreeBASIC: undefined,
   Haxe: 'haxe',
   LOLCODE: 'lolcode',
-  아희: 'unsupported',
-  SystemVerilog: 'unsupported',
+  아희: undefined,
+  SystemVerilog: undefined,
 };
 
 function extendTest() {
@@ -257,7 +257,7 @@ function extendTest() {
     } else {
       const selectedLang = userSelectedLangForm.textContent.trim();
       compileLanguage = TIO_LANGUAGES_MAP[selectedLang];
-      if (!compileLanguage || compileLanguage === 'unsupported') {
+      if (!compileLanguage || compileLanguage === undefined) {
         return {
           stdout: '',
           stderr: '지원하지 않는 언어입니다.',
