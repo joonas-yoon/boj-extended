@@ -97,30 +97,6 @@ function extendTest() {
   resultWrapper.appendChild(resultPanels);
   formGroup.appendChild(resultWrapper);
 
-  function createTestResultBox(title) {
-    const head = Utils.createElement('div', {
-      class: 'panel-heading',
-    });
-    head.textContent = title;
-    const body = Utils.createElement('pre', {
-      class: 'panel-body',
-    });
-    body.style.display = 'none';
-    const toggleKey = 'data-collapsed';
-    head.setAttribute(toggleKey, 'false');
-    head.addEventListener('click', (evt) => {
-      evt.preventDefault();
-      if (head.getAttribute(toggleKey) == 'false') {
-        head.setAttribute(toggleKey, 'true');
-        body.style.display = 'block';
-      } else {
-        head.setAttribute(toggleKey, 'false');
-        body.style.display = 'none';
-      }
-    });
-    return { head, body };
-  }
-
   const tcController = {};
   const testButton = Utils.createElement('button', {
     type: 'button',
@@ -139,11 +115,12 @@ function extendTest() {
         .then((testCases) => {
           console.log('testCases', testCases);
           for (const { tc, input, output } of testCases) {
-            const { head, body } = createTestResultBox(`#${tc}`);
+            const { head, body, foot } = createTestResultBox(`#${tc}`);
             // append to document
             resultPanels.appendChild(head);
             resultPanels.appendChild(body);
-            tcController[tc] = { head, body, input, output };
+            resultPanels.appendChild(foot);
+            tcController[tc] = { head, body, foot, input, output };
           }
         })
         .then(runTestAll)
@@ -160,17 +137,54 @@ function extendTest() {
   });
   submitButton.parentNode.appendChild(testButton);
 
+  function createTestResultBox(title) {
+    const head = Utils.createElement('div', {
+      class: 'panel-heading',
+    });
+    head.textContent = title;
+    const body = Utils.createElement('pre', {
+      class: 'panel-body',
+    });
+    const foot = Utils.createElement('pre', {
+      class: 'panel-body metadata',
+    });
+    return { head, body, foot };
+  }
+
   function runTestAll() {
     for (const key of Object.keys(tcController)) {
-      const { head, body, input, output } = tcController[key];
-      body.style.display = 'block';
-      body.innerText = 'Running...';
+      const { head, body, foot, input, output } = tcController[key];
+      // update ui
       head.setAttribute('data-result', '');
+      // set values
+      body.innerText = '';
+      foot.innerText = 'Running...';
       compile(input)
         .then(({ stdout, stderr }) => {
-          const isPassed = output.trim() == stdout.trim();
+          const sameOutput = output.trim() == stdout.trim();
+          const usageDelimIdx = stderr.indexOf('\nReal time:');
+          const metaInfos = stderr.slice(usageDelimIdx).trim().split('\n');
+          const errContent = stderr.slice(0, usageDelimIdx).trim();
+          const isReturnOk = stderr.indexOf('Exit code: 0') !== -1;
+
+          let isPassed = true;
+          // set values
+          if (errContent) {
+            // compile or runtime error
+            body.innerText = errContent;
+            isPassed = false;
+          } else if (!sameOutput) {
+            // run but WA
+            body.innerText = `your answer:\n${stdout}\n\nbut expected:\n${output}`;
+            isPassed = false;
+          } else if (!isReturnOk) {
+            body.innerText = 'Process returned non-zero exit code';
+            isPassed = false;
+          }
+          foot.innerText = metaInfos.join(' / ');
+
+          // update ui
           head.setAttribute('data-result', isPassed ? '✅' : '❌');
-          body.innerText = stderr;
         })
         .catch((error) => console.error(error));
     }
@@ -180,7 +194,7 @@ function extendTest() {
     return new Promise((resolve, reject) => {
       const currentProblemId = window.location.pathname.split('/')[2];
       if (currentProblemId === undefined) {
-        reject(new Error('could not find problem id'));
+        reject(new Error('Could not find problem id'));
         return;
       }
       fetch(`https://www.acmicpc.net/problem/${currentProblemId}`, {

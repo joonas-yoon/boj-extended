@@ -388,11 +388,9 @@ a[href^='/problem'].problem-link-style-box.result-wa:hover {
 #testExampleResults > .alert a[href] {
   text-decoration: underline;
 }
-#testExampleResults .panel.panel-default:empty {
-  display: none;
-}
-#testExampleResults .panel-heading {
-  cursor: pointer;
+#testExampleResults .panel.panel-default:empty,
+#testExampleResults .panel-body:empty {
+  display: none !important;
 }
 #testExampleResults .panel-heading:not(:first-child) {
   border-top-width: 1px;
@@ -408,10 +406,11 @@ a[href^='/problem'].problem-link-style-box.result-wa:hover {
   margin: 0;
   background: none;
 }
-#testExampleResults pre.panel-body > br:first-child {
-  display: none;
-}
 #testExampleResults pre.panel-body::before,
 #testExampleResults pre.panel-body:after {
   content: none;
+}
+#testExampleResults pre.panel-body.metadata {
+  font-style: italic;
+  opacity: 0.65;
 }
