@@ -84,63 +84,89 @@ function extendCompile() {
   const submitButton = document.getElementById('submit_button');
   const formGroup = submitButton.closest('.form-group');
   const resultWrapper = Utils.createElement('div', {
+    id: 'testExampleResults',
     class: 'col-md-offset-2 col-md-10',
     style: 'margin-top: 1em',
   });
   const resultPreBox = Utils.createElement('pre', {
     style: 'display: none',
   });
+  const resultPanels = Utils.createElement('div', {
+    class: 'panel panel-default',
+  });
   resultWrapper.appendChild(resultPreBox);
+  resultWrapper.appendChild(resultPanels);
   formGroup.appendChild(resultWrapper);
 
-  // working code to compile
-  console.log('Ready to compile');
-  fetchExamples().then((testCases) => {
-    console.log('testCases', testCases);
-    const compileButton = createCompileButton({
-      testCaseSamples: testCases,
-      whenCompileRequested: () => {
-        resultPreBox.style.display = 'block';
-        resultPreBox.innerText = '';
-      },
-      whenCompileDone: ({ tc, isPassed, stderr }) => {
-        resultPreBox.innerText += `테스트케이스 #${tc}`;
-        if (isPassed) {
-          resultPreBox.innerText += ' ✅\n';
-        } else {
-          resultPreBox.innerText += ' ❌\n';
-        }
-        resultPreBox.innerText += stderr + '\n---------------------------\n\n';
-      },
+  function createTestResultBox(title) {
+    const head = Utils.createElement('div', {
+      class: 'panel-heading',
     });
-    submitButton.parentNode.appendChild(compileButton);
-  });
-
-  function createCompileButton({
-    testCaseSamples,
-    whenCompileRequested,
-    whenCompileDone,
-  }) {
-    const button = Utils.createElement('button', {
-      type: 'button',
-      class: 'btn',
-      style: 'margin-left: 5px',
+    head.textContent = title;
+    const body = Utils.createElement('pre', {
+      class: 'panel-body',
     });
-    button.textContent = '컴파일 (beta)';
-    button.addEventListener('click', async (evt) => {
+    body.style.display = 'none';
+    const toggleKey = 'data-collapsed';
+    head.setAttribute(toggleKey, 'false');
+    head.addEventListener('click', (evt) => {
       evt.preventDefault();
-      whenCompileRequested();
-      for (let i = 0; i < testCaseSamples.length; i++) {
-        const { tc, input, output: answer } = testCaseSamples[i];
-        compile(input)
-          .then(({ stdout, stderr }) => {
-            const isPassed = answer.trim() == stdout.trim();
-            whenCompileDone({ tc, isPassed, stderr });
-          })
-          .catch((error) => console.error(error));
+      if (head.getAttribute(toggleKey) == 'false') {
+        head.setAttribute(toggleKey, 'true');
+        body.style.display = 'block';
+      } else {
+        head.setAttribute(toggleKey, 'false');
+        body.style.display = 'none';
       }
     });
-    return button;
+    return { head, body };
+  }
+
+  const tcController = {};
+  const testButton = Utils.createElement('button', {
+    type: 'button',
+    class: 'btn btn-warning',
+    style: 'margin-left: 1rem',
+  });
+  testButton.textContent = '테스트 (beta)';
+  testButton.addEventListener('click', async (evt) => {
+    evt.preventDefault();
+    console.log('Ready to compile');
+    // initialize and fetch problem examples
+    if (resultPanels.childElementCount === 0) {
+      fetchExamples()
+        .then((testCases) => {
+          console.log('testCases', testCases);
+          for (const { tc, input, output } of testCases) {
+            const { head, body } = createTestResultBox(`#${tc}`);
+            // append to document
+            resultPanels.appendChild(head);
+            resultPanels.appendChild(body);
+            tcController[tc] = { head, body, input, output };
+          }
+        })
+        .then(runTestAll);
+    } else {
+      // ui is ready
+      runTestAll();
+    }
+  });
+  submitButton.parentNode.appendChild(testButton);
+
+  function runTestAll() {
+    for (const key of Object.keys(tcController)) {
+      const { head, body, input, output } = tcController[key];
+      body.style.display = 'block';
+      body.innerText = 'Running...';
+      head.setAttribute('data-result', '');
+      compile(input)
+        .then(({ stdout, stderr }) => {
+          const isPassed = output.trim() == stdout.trim();
+          head.setAttribute('data-result', isPassed ? '✅' : '❌');
+          body.innerText = stderr;
+        })
+        .catch((error) => console.error(error));
+    }
   }
 
   function fetchExamples() {
