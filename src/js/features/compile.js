@@ -88,13 +88,9 @@ function extendCompile() {
     class: 'col-md-offset-2 col-md-10',
     style: 'margin-top: 1em',
   });
-  const resultPreBox = Utils.createElement('pre', {
-    style: 'display: none',
-  });
   const resultPanels = Utils.createElement('div', {
     class: 'panel panel-default',
   });
-  resultWrapper.appendChild(resultPreBox);
   resultWrapper.appendChild(resultPanels);
   formGroup.appendChild(resultWrapper);
 
@@ -131,7 +127,7 @@ function extendCompile() {
   testButton.textContent = '테스트 (beta)';
   testButton.addEventListener('click', async (evt) => {
     evt.preventDefault();
-    console.log('Ready to compile');
+    console.log('Click to compile and test');
     // initialize and fetch problem examples
     if (resultPanels.childElementCount === 0) {
       fetchExamples()
@@ -145,7 +141,13 @@ function extendCompile() {
             tcController[tc] = { head, body, input, output };
           }
         })
-        .then(runTestAll);
+        .then(runTestAll)
+        .catch(({ message }) => {
+          const element = document.createElement('pre');
+          element.textContent = message;
+          resultWrapper.innerHTML = '';
+          resultWrapper.appendChild(element);
+        });
     } else {
       // ui is ready
       runTestAll();
@@ -197,7 +199,11 @@ function extendCompile() {
             }
           }
 
-          resolve(testCases);
+          if (!testCases || testCases.length === 0) {
+            reject(new Error('No example to test'));
+          } else {
+            resolve(testCases);
+          }
 
           function parseTestSampleById(id) {
             const pre = doc.getElementById(id);
