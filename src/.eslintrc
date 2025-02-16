@@ -1,7 +1,12 @@
 {
   "extends": ["eslint:recommended", "google", "prettier"],
   "plugins": ["prettier"],
-  "ignorePatterns": ["**/node_modules/*", "**/build/*", "*.min.js"],
+  "ignorePatterns": [
+    "**/node_modules/*",
+    "**/build/*",
+    "**/*.min.js",
+    "**/third/*"
+  ],
   "rules": {
     "semi": ["error", "always"],
     "require-jsdoc": ["off"],

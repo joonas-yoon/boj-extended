@@ -383,3 +383,34 @@ a[href^='/problem'].problem-link-style-box.result-wa:hover {
 .solvedac-tier {
   filter: none !important;
 }
+
+/* compile and test results */
+#testExampleResults > .alert a[href] {
+  text-decoration: underline;
+}
+#testExampleResults .panel.panel-default:empty,
+#testExampleResults .panel-body:empty {
+  display: none !important;
+}
+#testExampleResults .panel-heading:not(:first-child) {
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+#testExampleResults .panel-heading:after {
+  content: attr(data-result);
+  margin-left: 5px;
+}
+#testExampleResults pre.panel-body {
+  border: none;
+  outline: none;
+  margin: 0;
+  background: none;
+}
+#testExampleResults pre.panel-body::before,
+#testExampleResults pre.panel-body:after {
+  content: none;
+}
+#testExampleResults pre.panel-body.metadata {
+  font-style: italic;
+  opacity: 0.65;
+}

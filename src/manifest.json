@@ -38,6 +38,16 @@
         "js/features/global.js",
         "js/main.js"
       ]
+    },
+    {
+      "matches": ["https://www.acmicpc.net/submit/*"],
+      "all_frames": true,
+      "run_at": "document_start",
+      "js": [
+        "js/third/pako.js",
+        "js/third/tio.js",
+        "js/features/test.js"
+      ]
     }
   ],
   "options_ui": {
