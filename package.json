@@ -1,6 +1,6 @@
 {
   "name": "boj-extended",
-  "version": "1.9.3",
+  "version": "1.9.6",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/plugin-transform-arrow-functions": "^7.16.7",
     "@babel/plugin-transform-runtime": "^7.16.0",
     "@babel/preset-env": "^7.16.8",
