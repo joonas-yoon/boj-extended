@@ -4,7 +4,7 @@
 
 - 제출 페이지에서 예제 입출력 테스트 기능 추가 [(#143)](https://github.com/joonas-yoon/boj-extended/issues/143) [(#169)](https://github.com/joonas-yoon/boj-extended/issues/169)
 - - thanks to [@ruk13xa](https://github.com/ruk13xa)
-- - ![image](https://gist.github.com/user-attachments/assets/a7015218-5fae-44aa-bb12-445b9025abe6)
+- - ![image](https://raw.githubusercontent.com/joonas-yoon/boj-extended/refs/heads/dev/docs/images/screenshot-test.png)
 
 **Fixes**
 
