@@ -75,73 +75,52 @@ const TIO_LANGUAGES_MAP = {
 
 function extendCompile() {
   const url = window.location.pathname;
-  const inputs = [];
-  const expectedOutputs = [];
 
   if (!url.startsWith('/submit/')) {
     return;
   }
 
-  console.log('Ready to compile');
-
-  fetch(`https://www.acmicpc.net/problem/${window.location.pathname.split('/')[2]}`, {
-    headers: {
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
-      'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'
-  }
-  })
-  .then(response => {
-    // When the page is loaded convert it to text
-    return response.text();
-  })
-  .then(html => {
-    // Initialize the DOM parser
-    const parser = new DOMParser();
-
-    // Parse the text
-    const doc = parser.parseFromString(html, "text/html");
-    const rawData = doc.getElementsByClassName('sampledata');
-
-    for(let i = 0; i < rawData.length; i++) {
-      if(i % 2 == 0) inputs[i / 2] = rawData[i].innerText;
-      else expectedOutputs[(i - 1) / 2] = rawData[i].innerText;
-    }
-
-    const resultPreBox = Utils.createElement('pre', {
-      style: 'display: none',
-    });
-    resultWrapper.appendChild(resultPreBox);
-    formGroup.appendChild(resultWrapper);
-    const compileButton = createCompileButton({
-      whenCompileRequested: () => {
-        resultPreBox.style.display = 'block';
-      },
-      whenCompileDone: ({ stdout, stderr}, index) => {
-        if(index == 0) resultPreBox.innerText = '';
-        resultPreBox.innerText += `테스트케이스 #${index + 1}`;
-        if(expectedOutputs[index].trim() == stdout.trim()) resultPreBox.innerText += ' ✅\n';
-        else resultPreBox.innerText += ' ❌\n';
-
-        resultPreBox.innerText += '예제 출력:\n' + expectedOutputs[index] + '\n';
-        resultPreBox.innerText += '실제 출력:\n' + stdout + '\n\n';
-        if(!stderr.startsWith('\n')) resultPreBox.innerText += '\n-----------\n:\n' + stderr + '\n\n';
-      },
-    });
-
-    submitButton.parentNode.appendChild(compileButton);
-  });
-
+  // prepare button and result
   const submitButton = document.getElementById('submit_button');
   const formGroup = submitButton.closest('.form-group');
   const resultWrapper = Utils.createElement('div', {
     class: 'col-md-offset-2 col-md-10',
     style: 'margin-top: 1em',
   });
-  // console.log('submitButton', submitButton);
-  // console.log('formGroup', formGroup);
-  // console.log('resultWrapper', resultWrapper);
+  const resultPreBox = Utils.createElement('pre', {
+    style: 'display: none',
+  });
+  resultWrapper.appendChild(resultPreBox);
+  formGroup.appendChild(resultWrapper);
 
-  function createCompileButton({ whenCompileRequested, whenCompileDone }) {
+  // working code to compile
+  console.log('Ready to compile');
+  fetchExamples().then((testCases) => {
+    console.log('testCases', testCases);
+    const compileButton = createCompileButton({
+      testCaseSamples: testCases,
+      whenCompileRequested: () => {
+        resultPreBox.style.display = 'block';
+        resultPreBox.innerText = '';
+      },
+      whenCompileDone: ({ tc, isPassed, stderr }) => {
+        resultPreBox.innerText += `테스트케이스 #${tc}`;
+        if (isPassed) {
+          resultPreBox.innerText += ' ✅\n';
+        } else {
+          resultPreBox.innerText += ' ❌\n';
+        }
+        resultPreBox.innerText += stderr + '\n---------------------------\n\n';
+      },
+    });
+    submitButton.parentNode.appendChild(compileButton);
+  });
+
+  function createCompileButton({
+    testCaseSamples,
+    whenCompileRequested,
+    whenCompileDone,
+  }) {
     const button = Utils.createElement('button', {
       type: 'button',
       class: 'btn',
@@ -151,16 +130,62 @@ function extendCompile() {
     button.addEventListener('click', async (evt) => {
       evt.preventDefault();
       whenCompileRequested();
-      for(let i = 0; i < inputs.length; i++) {
-        const { stdout, stderr } = await compile(inputs[i]);
-        whenCompileDone({ stdout, stderr }, i);
+      for (let i = 0; i < testCaseSamples.length; i++) {
+        const { tc, input, output: answer } = testCaseSamples[i];
+        compile(input)
+          .then(({ stdout, stderr }) => {
+            const isPassed = answer.trim() == stdout.trim();
+            whenCompileDone({ tc, isPassed, stderr });
+          })
+          .catch((error) => console.error(error));
       }
     });
     return button;
   }
 
-  async function compile(input) {
+  function fetchExamples() {
+    return new Promise((resolve, reject) => {
+      const currentProblemId = window.location.pathname.split('/')[2];
+      if (currentProblemId === undefined) {
+        reject(new Error('could not find problem id'));
+        return;
+      }
+      fetch(`https://www.acmicpc.net/problem/${currentProblemId}`, {
+        headers: {
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+          'Accept-Language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7',
+        },
+      })
+        .then((response) => response.text())
+        .then((html) => {
+          const parser = new DOMParser();
+          const doc = parser.parseFromString(html, 'text/html');
+          const MAX_TC_COUNT = 5;
+          const testCases = [];
+          for (let tc = 1; tc <= MAX_TC_COUNT; ++tc) {
+            const input = parseTestSampleById('sample-input-' + tc);
+            const output = parseTestSampleById('sample-output-' + tc);
+            if (input || output) {
+              testCases.push({ tc, input, output });
+            }
+          }
 
+          resolve(testCases);
+
+          function parseTestSampleById(id) {
+            const pre = doc.getElementById(id);
+            if (pre) {
+              return pre.innerText;
+            }
+            return undefined;
+          }
+        })
+        .catch(resolve);
+    });
+  }
+
+  async function compile(input) {
     // get source to compile
     const codeLines = document.querySelectorAll(
       '.CodeMirror-code .CodeMirror-line[role="presentation"]'
