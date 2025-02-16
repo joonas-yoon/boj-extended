@@ -385,6 +385,9 @@ a[href^='/problem'].problem-link-style-box.result-wa:hover {
 }
 
 /* compile and test results */
+#testExampleResults > .alert a[href] {
+  text-decoration: underline;
+}
 #testExampleResults .panel.panel-default:empty {
   display: none;
 }
