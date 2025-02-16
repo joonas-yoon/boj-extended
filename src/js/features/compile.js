@@ -137,9 +137,26 @@ function extendCompile() {
     class: 'col-md-offset-2 col-md-10',
     style: 'margin-top: 1em',
   });
-  // console.log('submitButton', submitButton);
-  // console.log('formGroup', formGroup);
-  // console.log('resultWrapper', resultWrapper);
+  
+  console.log('submitButton', submitButton);
+  console.log('formGroup', formGroup);
+  console.log('resultWrapper', resultWrapper);
+  const resultPreBox = Utils.createElement('pre', {
+    style: 'display: none',
+  });
+  resultWrapper.appendChild(resultPreBox);
+  formGroup.appendChild(resultWrapper);
+  const compileButton = createCompileButton({
+    whenCompileRequested: () => {
+      resultPreBox.style.display = 'block';
+      resultPreBox.innerText = 'Compile...';
+    },
+    whenCompileDone: ({ stdout, stderr }) => {
+      resultPreBox.innerText = 'stdout:\n' + stdout;
+      resultPreBox.innerText += '\n-----------\nstderr:\n' + stderr;
+    },
+  });
+  submitButton.parentNode.appendChild(compileButton);
 
   function createCompileButton({ whenCompileRequested, whenCompileDone }) {
     const button = Utils.createElement('button', {
@@ -160,18 +177,12 @@ function extendCompile() {
   }
 
   async function compile(input) {
-
     // get source to compile
     const codeLines = document.querySelectorAll(
       '.CodeMirror-code .CodeMirror-line[role="presentation"]'
     );
-
-    const unexpectedUnicodes =
-      // eslint-disable-next-line no-control-regex
-      /[\u0000-\u001F\u007F-\u009F\u00A0\u1680\u2000-\u200F\u2028-\u202F\u205F\u3000\uFEFF]+/g;
-
-    const submitCode = Array.from(codeLines)
-      .map((e) => e.textContent.replace(unexpectedUnicodes, ''))
+    const sourceCodeText = Array.from(codeLines)
+      .map((e) => e.textContent)
       .join('\n');
 
     // get language to compile
