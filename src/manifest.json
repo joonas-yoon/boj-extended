@@ -10,7 +10,7 @@
     {
       "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
       "all_frames": true,
-      "css": ["css/common.css", "css/theme-dark.css", "css/theme-rigel.css"],
+      "css": ["css/common.css", "css/theme-dark.css", "css/theme-rigel.css", "css/toastui-editor-dark.css"],
       "run_at": "document_start",
       "js": [
         "js/constants.js",

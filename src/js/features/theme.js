@@ -97,16 +97,26 @@ function applyTheme(button, theme) {
     return isDarkMode ? 'dark' : 'light';
   }
 
-  let logo;
-  if (theme == 'dark') {
-    logo = 'https://static.solved.ac/res/logo-whitetext.svg';
-  } else {
-    logo = 'https://static.solved.ac/res/logo-blacktext.svg';
+  function getLogoSvg(theme) {
+    if (theme == 'dark') {
+      return 'https://static.solved.ac/res/logo-whitetext.svg';
+    } else {
+      return 'https://static.solved.ac/res/logo-blacktext.svg';
+    }
   }
 
   const logos = document.getElementsByClassName('solved-ac-logo');
   for (const logoElement of logos) {
-    logoElement.src = logo;
+    logoElement.src = getLogoSvg(theme);
+  }
+
+  // update toastui-editor
+  const toastEditors = document.getElementsByClassName('toastui-editor-defaultUI');
+  for (const editor of toastEditors) {
+    editor.className = 'toastui-editor-defaultUI';
+    if (theme != 'light') {
+      editor.className += ' toastui-editor-dark';
+    }
   }
 }
 
