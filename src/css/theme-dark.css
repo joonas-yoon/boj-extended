@@ -1170,5 +1170,5 @@ html[theme='dark'] #testExampleResults pre.panel-body {
 
 html[theme='dark'] #testExampleResults pre.panel-body.metadata {
   color: #999999;
-  opacity: 1.0;
+  opacity: 1;
 }
