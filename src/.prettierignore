@@ -1,3 +1,5 @@
 .*
-**/*.min.js
+**/node_modules/*
 **/build/*
+**/*.min.js
+**/third/*
