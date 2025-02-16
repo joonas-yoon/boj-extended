@@ -73,7 +73,7 @@ const TIO_LANGUAGES_MAP = {
   SystemVerilog: 'unsupported',
 };
 
-function extendCompile() {
+function extendTest() {
   const url = window.location.pathname;
 
   if (!url.startsWith('/submit/')) {

@@ -36,9 +36,9 @@
         "js/features/group.js",
         "js/features/vs.js",
         "js/features/search.js",
+        "js/features/test.js",
         "js/features/setting.js",
         "js/features/global.js",
-        "js/features/compile.js",
         "js/main.js"
       ]
     },
@@ -47,8 +47,7 @@
       "all_frames": true,
       "js": [
         "js/third/pako.js",
-        "js/third/tio-api.js",
-        "js/features/compile.js"
+        "js/third/tio-api.js"
       ]
     }
   ],

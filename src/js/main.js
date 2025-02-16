@@ -23,7 +23,7 @@
   } else if (url.startsWith('/vs/')) {
     extendVs();
   } else if (url.startsWith('/submit/')) {
-    extendCompile();
+    extendTest();
   } else if (isSettingPage(url)) {
     extendSettingPage();
   }
