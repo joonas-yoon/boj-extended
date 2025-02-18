@@ -19,7 +19,7 @@
 |                        **그룹**                        |                       **빠른 검색**                       |
 | [![Groups](docs/images/screenshot-group-list.png)][9]  | [![Quick Search](docs/images/screenshot-search.png)][10]  |
 |                    **예제 테스트**                     |                                                           |
-| [![Testing](docs/images/screenshot-group-list.png)][11]|                                                           |
+|   [![Testing](docs/images/screenshot-test.png)][11]   |                                                           |
 
 ## 설치 및 사용
 
