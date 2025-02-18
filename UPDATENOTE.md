@@ -16,6 +16,7 @@
 
 - 다크모드에서 유저 티어가 잘못 표시되는 버그 수정 [(#153)](https://github.com/joonas-yoon/boj-extended/issues/153)
 - 다크모드에서 사이트 로고가 잘못 표시되는 버그 수정 [(#161)](https://github.com/joonas-yoon/boj-extended/issues/161)
+- - thanks to [@star0202](https://github.com/star0202)
 - 그룹에서 "파일" 하이퍼링크 수정 [(#159)](https://github.com/joonas-yoon/boj-extended/issues/159)
 - 올바르지 않은 위치에 유저 티어가 표시되는 현상 수정 [(#155)](https://github.com/joonas-yoon/boj-extended/issues/155)
 - 유저 조회를 위한 solved.ac API 엔드포인트 변경 [(#162)](https://github.com/joonas-yoon/boj-extended/issues/162)
