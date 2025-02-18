@@ -18,6 +18,8 @@
 |   [![Option](docs/images/screenshot-option.png)][7]    |    [![Quick Search](docs/images/screenshot-vs.png)][8]    |
 |                        **그룹**                        |                       **빠른 검색**                       |
 | [![Groups](docs/images/screenshot-group-list.png)][9]  | [![Quick Search](docs/images/screenshot-search.png)][10]  |
+|                    **예제 테스트**                     |                                                           |
+|   [![Testing](docs/images/screenshot-test.png)][11]   |                                                           |
 
 ## 설치 및 사용
 
@@ -91,3 +93,4 @@ Pull request를 작성하실 예정이라면, [기여 가이드라인](CONTRIBUT
 [8]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-vs.png
 [9]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-group-list.png
 [10]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-search.png
+[11]: https://raw.githubusercontent.com/joonas-yoon/boj-extended/main/docs/images/screenshot-test.png
