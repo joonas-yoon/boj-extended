@@ -87,123 +87,131 @@ function extendUserPage() {
     ],
   });
 
-  try {
-    const wrapper = document.getElementsByClassName('col-md-9')[0];
-    // add checkboxes whether problem's id or name
-    wrapper.insertBefore(checkboxes, wrapper.firstChild);
-    // add vs form
-    wrapper.insertBefore(
-      createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
-      checkboxes
-    );
-  } catch (e) {
-    console.error(e);
-  }
-
-  const MAX_DISPLAY_ITEMS = 100;
-
-  // set data-problem-id
-  panels.forEach((panel) => {
-    const problemTags = Array.from(panel.getElementsByTagName('a'));
-    problemTags.forEach((e) => {
-      if (!e.href) return;
-      e.classList.add('problem-link-style-box');
-    });
-    setProblemAttributes(problemTags);
-
-    // add button to display all
-    if (problemTags.length > MAX_DISPLAY_ITEMS) {
-      panel.classList.add('collpased');
-      const panelFooter = Utils.createElement('div', { class: 'panel-footer' });
-      const showButton = Utils.createElement('a', { class: 'btn-display-all' });
-      showButton.innerText = '모두 보기';
-      showButton.addEventListener('click', (evt) => {
-        evt.preventDefault();
-        panel.classList.remove('collpased');
-        panelFooter.classList.add('hidden');
-      });
-      panelFooter.appendChild(showButton);
-      panel.closest('.panel').appendChild(panelFooter);
-    }
-  });
-
-  function fetchProblems(problemIds) {
-    return new Promise((resolve, reject) => {
-      chrome.runtime.sendMessage(
-        {
-          action: 'solved.ac.problems',
-          data: {
-            value: problemIds,
-          },
-        },
-        (response) => {
-          console.groupCollapsed('solved.ac.fetch.problems');
-          console.log('api request:', problemIds);
-          console.log('api response:', response);
-          console.groupEnd();
-          resolve(response);
-        }
+  setTimeout(() => {
+    try {
+      const wrapper = document.getElementsByClassName('col-md-9')[0];
+      // add checkboxes whether problem's id or name
+      wrapper.insertBefore(checkboxes, wrapper.firstChild);
+      // add vs form
+      wrapper.insertBefore(
+        createVsForm(getCurrentUsername(), getMyUsername()), // eslint-disable-line no-undef
+        checkboxes
       );
-    });
-  }
+    } catch (e) {
+      console.error(e);
+    }
+  }, 0);
 
-  function setProblemAttributes(problemTags) {
-    const getProblemCache = (problemId) =>
-      LocalCache.get(`problem:${problemId}`);
-    const saveProblemCache = (problemId, data) =>
-      LocalCache.add(`problem:${problemId}`, data);
-    const isProblemCached = (problemId) =>
-      getProblemCache(problemId) !== undefined;
+  setTimeout(() => {
+    const MAX_DISPLAY_ITEMS = 100;
 
-    const listToMap = (list) => new Map(list.map((obj) => [obj.id, obj]));
-
-    const addProblemDetailsToElements = async (tags) => {
-      for (let i = 0; i <= Math.ceil(tags.length / 100); ++i) {
-        const batch = tags.slice(i * 100, (i + 1) * 100) || [];
-        if (batch.length === 0) break;
-        const pids = batch.map(({ id }) => id);
-        const details = await fetchProblems(pids);
-        const arr = details.map(({ problemId, titleKo, level }) => ({
-          id: problemId,
-          title: titleKo,
-          level,
-        }));
-
-        const infoByPid = listToMap(arr);
-        batch.forEach(({ element: e, id }) => {
-          e.setAttribute('data-problem-id', id);
-          try {
-            const { level, title } = infoByPid.get(Number(id));
-            e.setAttribute('data-tier', level);
-            e.setAttribute('data-problem-title', title);
-            saveProblemCache(id, infoByPid[id]);
-          } catch (err) {
-            console.log(`'data-problem-id': ${id}`, err);
-            e.setAttribute('data-tier', 0);
-            e.setAttribute('data-problem-title', '(가져오기 실패)');
-          }
-        });
-      }
-    };
-
-    const getPidfromProblemHref = (tag) => Number(tag.textContent);
-    const pids = problemTags
-      .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
-      .filter((x) => !isNaN(x.id));
-
-    // apply cache first
-    pids
-      .filter(({ id }) => isProblemCached(id))
-      .forEach(({ element: e, id }) => {
-        e.setAttribute('data-problem-id', id);
-        const { title, level } = getProblemCache(id);
-        e.setAttribute('data-tier', level);
-        e.setAttribute('data-problem-title', title);
+    // set data-problem-id
+    panels.forEach((panel) => {
+      const problemTags = Array.from(panel.getElementsByTagName('a'));
+      problemTags.forEach((e) => {
+        if (!e.href) return;
+        e.classList.add('problem-link-style-box');
       });
+      setProblemAttributes(problemTags);
 
-    const notCachedTags = pids.filter(({ id }) => !isProblemCached(id));
-    addProblemDetailsToElements(notCachedTags);
-  }
+      // add button to display all
+      if (problemTags.length > MAX_DISPLAY_ITEMS) {
+        panel.classList.add('collpased');
+        const panelFooter = Utils.createElement('div', {
+          class: 'panel-footer',
+        });
+        const showButton = Utils.createElement('a', {
+          class: 'btn-display-all',
+        });
+        showButton.innerText = '모두 보기';
+        showButton.addEventListener('click', (evt) => {
+          evt.preventDefault();
+          panel.classList.remove('collpased');
+          panelFooter.classList.add('hidden');
+        });
+        panelFooter.appendChild(showButton);
+        panel.closest('.panel').appendChild(panelFooter);
+      }
+    });
+
+    function fetchProblems(problemIds) {
+      return new Promise((resolve, reject) => {
+        chrome.runtime.sendMessage(
+          {
+            action: 'solved.ac.problems',
+            data: {
+              value: problemIds,
+            },
+          },
+          (response) => {
+            console.groupCollapsed('solved.ac.fetch.problems');
+            console.log('api request:', problemIds);
+            console.log('api response:', response);
+            console.groupEnd();
+            resolve(response);
+          }
+        );
+      });
+    }
+
+    function setProblemAttributes(problemTags) {
+      const getProblemCache = (problemId) =>
+        LocalCache.get(`problem:${problemId}`);
+      const saveProblemCache = (problemId, data) =>
+        LocalCache.add(`problem:${problemId}`, data);
+      const isProblemCached = (problemId) =>
+        getProblemCache(problemId) !== undefined;
+
+      const listToMap = (list) => new Map(list.map((obj) => [obj.id, obj]));
+
+      const addProblemDetailsToElements = async (tags) => {
+        for (let i = 0; i <= Math.ceil(tags.length / 100); ++i) {
+          const batch = tags.slice(i * 100, (i + 1) * 100) || [];
+          if (batch.length === 0) break;
+          const pids = batch.map(({ id }) => id);
+          const details = await fetchProblems(pids);
+          const arr = details.map(({ problemId, titleKo, level }) => ({
+            id: problemId,
+            title: titleKo,
+            level,
+          }));
+
+          const infoByPid = listToMap(arr);
+          batch.forEach(({ element: e, id }) => {
+            e.setAttribute('data-problem-id', id);
+            try {
+              const { level, title } = infoByPid.get(Number(id));
+              e.setAttribute('data-tier', level);
+              e.setAttribute('data-problem-title', title);
+              saveProblemCache(id, infoByPid[id]);
+            } catch (err) {
+              console.log(`'data-problem-id': ${id}`, err);
+              e.setAttribute('data-tier', 0);
+              e.setAttribute('data-problem-title', '(가져오기 실패)');
+            }
+          });
+        }
+      };
+
+      const getPidfromProblemHref = (tag) => Number(tag.textContent);
+      const pids = problemTags
+        .map((tag) => ({ element: tag, id: getPidfromProblemHref(tag) }))
+        .filter((x) => !isNaN(x.id));
+
+      // apply cache first
+      pids
+        .filter(({ id }) => isProblemCached(id))
+        .forEach(({ element: e, id }) => {
+          e.setAttribute('data-problem-id', id);
+          const { title, level } = getProblemCache(id);
+          e.setAttribute('data-tier', level);
+          e.setAttribute('data-problem-title', title);
+        });
+
+      const notCachedTags = pids.filter(({ id }) => !isProblemCached(id));
+      addProblemDetailsToElements(notCachedTags);
+    }
+  }, 10);
 
   // sync with configs
   Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
