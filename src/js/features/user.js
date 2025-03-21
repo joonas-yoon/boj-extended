@@ -180,10 +180,11 @@ function extendUserPage() {
           batch.forEach(({ element: e, id }) => {
             e.setAttribute('data-problem-id', id);
             try {
-              const { level, title } = infoByPid.get(Number(id));
+              const problemInfo = infoByPid.get(Number(id));
+              const { level, title } = problemInfo;
               e.setAttribute('data-tier', level);
               e.setAttribute('data-problem-title', title);
-              saveProblemCache(id, infoByPid[id]);
+              saveProblemCache(id, problemInfo);
             } catch (err) {
               console.log(`'data-problem-id': ${id}`, err);
               e.setAttribute('data-tier', 0);
