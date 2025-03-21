@@ -17,7 +17,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: ${{ contains(github.event.head_commit.message, 'version:') }}
+    if: ${{ contains(github.event.head_commit.message, 'version:') || contains(github.event.head_commit.message, '[build]') }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -32,6 +32,12 @@ jobs:
           npm ci
           ls -al
           npm run build
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: ./dist
 
   deploy:
     needs: build
