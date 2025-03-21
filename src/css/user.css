@@ -3,7 +3,7 @@
   margin-right: 10px;
 }
 
-.problem-list a {
+.problem-list[data-ready='true'] a {
   position: relative;
   display: inline-block;
   background-color: rgb(239, 239, 239);
@@ -24,7 +24,7 @@
   transition: background-color 240ms ease-out;
 }
 
-.problem-list a:hover {
+.problem-list[data-ready='true'] a:hover {
   text-decoration: none;
   font-weight: normal;
   transition: none;

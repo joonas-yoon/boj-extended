@@ -2,6 +2,7 @@ function extendUserPage() {
   Utils.loadCSS('css/user.css');
 
   function display(containers, key, visible) {
+    readyPanels();
     containers.forEach((panel) => {
       if (visible) {
         panel.setAttribute(key, true);
@@ -18,6 +19,10 @@ function extendUserPage() {
 
   const panels = Array.from(document.getElementsByClassName('problem-list'));
 
+  const checkboxTurnOff = Utils.createElement('input', {
+    id: 'turn-off-all',
+    type: 'checkbox',
+  });
   const checkboxProbId = Utils.createElement('input', {
     id: 'show-pid',
     type: 'checkbox',
@@ -35,40 +40,94 @@ function extendUserPage() {
     type: 'checkbox',
   });
 
+  const updateCheckboxTurnOff = (checked) => {
+    const isEnabledDecorations = !checked;
+    Config.save(Constants.CONFIG_SHOW_USER_DECO, isEnabledDecorations);
+    if (!isEnabledDecorations) {
+      setTimeout(() => window.location.reload(), 500);
+    }
+  };
+
+  const checkAllCheckboxOff = () => {
+    // if all checkboxes are off, turn off all
+    if (
+      checkboxProbId.checked ||
+      checkboxProbTitle.checked ||
+      checkboxProbTier.checked ||
+      checkboxProbTierColor.checked
+    ) {
+      return;
+    }
+    checkboxTurnOff.checked = true;
+    updateCheckboxTurnOff(true);
+  };
+
+  checkboxTurnOff.addEventListener('change', (evt) => {
+    console.log('checkbox turn-off-all', evt);
+    updateCheckboxTurnOff(evt.target.checked);
+  });
   checkboxProbId.addEventListener('change', (evt) => {
     console.log('checkbox show-pid', evt);
-    Config.save(Constants.CONFIG_SHOW_PROBLEM_ID, evt.target.checked);
-    display(panels, 'show-id', evt.target.checked);
+    const checked = evt.target.checked;
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_ID, checked);
+    if (checked) {
+      checkboxTurnOff.checked = false;
+      updateCheckboxTurnOff(false);
+    }
+    display(panels, 'show-id', checked);
+    checkAllCheckboxOff();
   });
   checkboxProbTitle.addEventListener('change', (evt) => {
     console.log('checkbox show-pname', evt);
-    Config.save(Constants.CONFIG_SHOW_PROBLEM_TITLE, evt.target.checked);
-    display(panels, 'show-name', evt.target.checked);
+    const checked = evt.target.checked;
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TITLE, checked);
+    if (checked) {
+      checkboxTurnOff.checked = false;
+      updateCheckboxTurnOff(false);
+    }
+    display(panels, 'show-name', checked);
+    checkAllCheckboxOff();
   });
   checkboxProbTier.addEventListener('change', (evt) => {
     console.log('checkbox show-tier', evt);
-    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER, evt.target.checked);
-    display(panels, 'show-tier', evt.target.checked);
+    const checked = evt.target.checked;
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER, checked);
+    if (checked) {
+      checkboxTurnOff.checked = false;
+      updateCheckboxTurnOff(false);
+    }
+    display(panels, 'show-tier', checked);
+    checkAllCheckboxOff();
   });
   checkboxProbTierColor.addEventListener('change', (evt) => {
     console.log('checkbox show-tier-color', evt);
-    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, evt.target.checked);
-    display(panels, 'show-tier-color', evt.target.checked);
+    const checked = evt.target.checked;
+    Config.save(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, checked);
+    if (checked) {
+      checkboxTurnOff.checked = false;
+      updateCheckboxTurnOff(false);
+    }
+    display(panels, 'show-tier-color', checked);
+    checkAllCheckboxOff();
   });
 
-  const label1 = Utils.createElement('label', {
+  const labelTurnOff = Utils.createElement('label', {
+    for: 'turn-off-all',
+    children: document.createTextNode('전부 끄기'),
+  });
+  const labelPId = Utils.createElement('label', {
     for: 'show-pid',
     children: document.createTextNode('문제 번호'),
   });
-  const label2 = Utils.createElement('label', {
+  const labelPTitle = Utils.createElement('label', {
     for: 'show-pname',
     children: document.createTextNode('문제 제목'),
   });
-  const label3 = Utils.createElement('label', {
+  const labelPTier = Utils.createElement('label', {
     for: 'show-tier',
     children: document.createTextNode('티어 표시'),
   });
-  const label4 = Utils.createElement('label', {
+  const labelPColor = Utils.createElement('label', {
     for: 'show-tier-color',
     children: document.createTextNode('티어 색상 표시'),
   });
@@ -76,17 +135,20 @@ function extendUserPage() {
   const checkboxes = Utils.createElement('div', {
     class: 'problem-toggles',
     children: [
+      checkboxTurnOff,
+      labelTurnOff,
       checkboxProbId,
-      label1,
+      labelPId,
       checkboxProbTitle,
-      label2,
+      labelPTitle,
       checkboxProbTier,
-      label3,
+      labelPTier,
       checkboxProbTierColor,
-      label4,
+      labelPColor,
     ],
   });
 
+  // Create VS form
   setTimeout(() => {
     try {
       const wrapper = document.getElementsByClassName('col-md-9')[0];
@@ -102,11 +164,20 @@ function extendUserPage() {
     }
   }, 0);
 
-  setTimeout(() => {
+  function readyPanels() {
     const MAX_DISPLAY_ITEMS = 100;
+
+    const isDataReady = panels
+      .map((panel) => panel.getAttribute('data-ready'))
+      .some(Boolean);
+
+    console.log('isDataReady', isDataReady);
+    if (isDataReady) return;
 
     // set data-problem-id
     panels.forEach((panel) => {
+      panel.setAttribute('data-ready', true);
+
       const problemTags = Array.from(panel.getElementsByTagName('a'));
       problemTags.forEach((e) => {
         if (!e.href) return;
@@ -210,25 +281,41 @@ function extendUserPage() {
         });
 
       const notCachedTags = pids.filter(({ id }) => !isProblemCached(id));
+      console.log('notCachedTags', notCachedTags);
       addProblemDetailsToElements(notCachedTags);
     }
-  }, 10);
+  }
 
   // sync with configs
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
-    checkboxProbId.checked = !(checked === false);
-    display(panels, 'show-id', checkboxProbId.checked);
-  });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE, (checked) => {
-    checkboxProbTitle.checked = checked;
-    display(panels, 'show-name', checkboxProbTitle.checked);
-  });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (checked) => {
-    checkboxProbTier.checked = !(checked === false);
-    display(panels, 'show-tier', checkboxProbTier.checked);
-  });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (checked) => {
-    checkboxProbTierColor.checked = checked;
-    display(panels, 'show-tier-color', checkboxProbTierColor.checked);
+  Config.load(Constants.CONFIG_SHOW_USER_DECO, (isActivated) => {
+    const _isActivated = Utils.defaultAsFalse(isActivated); // default as false
+    checkboxTurnOff.checked = !_isActivated;
+    console.info(
+      'All features for problem beautify are',
+      _isActivated ? 'activated' : 'turned off'
+    );
+    if (!_isActivated) {
+      return;
+    }
+
+    readyPanels();
+
+    // apply others when it is enabled only
+    Config.load(Constants.CONFIG_SHOW_PROBLEM_ID, (checked) => {
+      checkboxProbId.checked = Utils.defaultAsTrue(checked);
+      display(panels, 'show-id', checkboxProbId.checked);
+    });
+    Config.load(Constants.CONFIG_SHOW_PROBLEM_TITLE, (checked) => {
+      checkboxProbTitle.checked = Utils.defaultAsFalse(checked);
+      display(panels, 'show-name', checkboxProbTitle.checked);
+    });
+    Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (checked) => {
+      checkboxProbTier.checked = Utils.defaultAsTrue(checked);
+      display(panels, 'show-tier', checkboxProbTier.checked);
+    });
+    Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (checked) => {
+      checkboxProbTierColor.checked = Utils.defaultAsFalse(checked);
+      display(panels, 'show-tier-color', checkboxProbTierColor.checked);
+    });
   });
 }
