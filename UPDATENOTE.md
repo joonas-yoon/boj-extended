@@ -1,3 +1,18 @@
+## 1.9.7
+
+**Features**
+
+- 내가 작성한 글 검색 버튼 추가 [(#172)](https://github.com/joonas-yoon/boj-extended/issues/172)
+- - ![image](https://private-user-images.githubusercontent.com/9527681/426570199-644b3253-d1ca-46e2-b178-de6722ac2686.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMxMDksIm5iZiI6MTc0MjkxMjgwOSwicGF0aCI6Ii85NTI3NjgxLzQyNjU3MDE5OS02NDRiMzI1My1kMWNhLTQ2ZTItYjE3OC1kZTY3MjJhYzI2ODYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMjVUMTQyNjQ5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjcwNTA0ODE5N2ExMjBiMDVhODMxMzVmNzg5ODIzOWZiM2FiM2U5N2IzZjlmYjliMjg4ZGFkYzIxY2Q3YmNjNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.MH7HMUCUEOih3N1kqXE22HJz8SCV6JlNolgY5UqEM9c)
+- 유저 페이지에서 문제 관련 기능 비활성화 체크박스 추가  [(#173)](https://github.com/joonas-yoon/boj-extended/issues/173)
+- - ![image](https://private-user-images.githubusercontent.com/9527681/425361125-6ca9fa1a-d72d-4c3f-937a-a6f5da6393b8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMxOTMsIm5iZiI6MTc0MjkxMjg5MywicGF0aCI6Ii85NTI3NjgxLzQyNTM2MTEyNS02Y2E5ZmExYS1kNzJkLTRjM2YtOTM3YS1hNmY1ZGE2MzkzYjguZ2lmP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMjVUMTQyODEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWNmZTk4ZWRmYzM5MjY3MzVkMjVhMzk1MDVmNTQyMGM4MTkyZWM5MzdhNWYxZmI1Y2YxODhkYzQ4OGIzZTczNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.-kLoaG9DCMMtMT5cOZzcZjE9F0M-hRA57RxAbSzCpjo)
+
+**Fixes**
+
+- 문제 정보 불러올 때 캐싱이 적용되지 않는 버그 수정
+- 예제 채점 시 stdout과 stderr가 모두 출력되었을 경우의 아이콘 변경 [(#174)](https://github.com/joonas-yoon/boj-extended/issues/174)
+- - ![image](https://github.com/user-attachments/assets/e1275f62-aed2-4562-b222-f6d16a12ffd4)
+
 ## 1.9.6
 
 **Features**
