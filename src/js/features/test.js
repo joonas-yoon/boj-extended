@@ -167,24 +167,38 @@ function extendTest() {
           const errContent = stderr.slice(0, usageDelimIdx).trim();
           const isReturnOk = stderr.indexOf('Exit code: 0') !== -1;
 
-          let isPassed = true;
+          let isPassed = 'Pass';
           // set values
-          if (errContent) {
+          if (stdout && errContent) {
+            // code works but warnings
+            body.innerText = `stdout:\n${stdout}\n\nstderr:\n${errContent}`;
+            isPassed = sameOutput ? 'Warning' : 'Fail';
+          } else if (errContent) {
             // compile or runtime error
-            body.innerText = errContent;
-            isPassed = false;
+            body.innerText = `stderr:\n${errContent}`;
+            isPassed = 'Fail';
           } else if (!sameOutput) {
             // run but WA
             body.innerText = `your answer:\n${stdout}\n\nbut expected:\n${output}`;
-            isPassed = false;
+            isPassed = 'Fail';
           } else if (!isReturnOk) {
             body.innerText = 'Process returned non-zero exit code';
-            isPassed = false;
+            isPassed = 'Fail';
           }
           foot.innerText = metaInfos.join(' / ');
 
+          // set result emoji
+          let resultEmoji;
+          if (isPassed === 'Pass') {
+            resultEmoji = '✅';
+          } else if (isPassed === 'Warning') {
+            resultEmoji = '⚠️';
+          } else {
+            resultEmoji = '❌';
+          }
+
           // update ui
-          head.setAttribute('data-result', isPassed ? '✅' : '❌');
+          head.setAttribute('data-result', resultEmoji);
         })
         .catch((error) => console.error(error));
     }

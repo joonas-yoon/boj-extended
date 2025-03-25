@@ -41,6 +41,26 @@ function extendGlobal() {
       'result-del': '채점 불가',
     };
 
+    function keepRecentHistoryOnly() {
+      const stored = localStorage.getItem(Constants.STORAGE_STATUS_HISTORY);
+      if (!stored) return;
+      const obj = JSON.parse(stored);
+      const keys = Object.keys(obj);
+      if (keys.length > 100) {
+        console.info('old history was removed');
+        const recentEntries = keys
+          .sort()
+          .slice(-100)
+          .map((k) => ({ [k]: obj[k] }))
+          .reduce((p, c) => ({ ...p, ...c }), {});
+        // save to localStorage
+        localStorage.setItem(
+          Constants.STORAGE_STATUS_HISTORY,
+          JSON.stringify(recentEntries)
+        );
+      }
+    }
+
     Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
       // load history from localStorage
       showHistory = showHistory !== false; // true or null (default)
@@ -49,6 +69,7 @@ function extendGlobal() {
         window.bojextStatusHistories = JSON.parse(
           localStorage.getItem(Constants.STORAGE_STATUS_HISTORY) || '{}'
         );
+        keepRecentHistoryOnly();
       }
       console.log('load', window.bojextStatusHistories);
       Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {

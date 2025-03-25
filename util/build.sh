@@ -14,6 +14,8 @@ fi
 # copy to dist
 cp -r src/* dist
 mv dist/options/build/* dist/options/
+cp -r dist/js/build/* dist/js/
+rm -rf dist/js/build/
 rmdir dist/options/build/
 cp LICENSE dist
 # clean up

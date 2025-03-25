@@ -37,3 +37,4 @@ class CacheStorage {
 }
 
 const LocalCache = new CacheStorage();
+console.debug('LocalCache', LocalCache);
