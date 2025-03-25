@@ -98,4 +98,6 @@ const Utils = {
       );
     }
   },
+  defaultAsTrue: (value) => !(value === false),
+  defaultAsFalse: (value) => value === true,
 };

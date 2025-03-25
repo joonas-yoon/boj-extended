@@ -1,6 +1,6 @@
 {
   "name": "boj-extended",
-  "version": "1.9.6",
+  "version": "1.9.7",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -41,7 +41,6 @@
     "prettier": "^2.5.1"
   },
   "dependencies": {
-    "@babel/runtime": "^7.0.0-beta.55",
     "core-js": "^3.40.0",
     "regenerator-runtime": "^0.14.1"
   }

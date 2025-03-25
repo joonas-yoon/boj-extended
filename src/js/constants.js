@@ -6,6 +6,7 @@ const Constants = {
   CONFIG_SHOW_STATUS_PTITLE: 'show-status-ptitle',
   CONFIG_SHOW_FAKE_RESULT: 'show-fake-result',
   CONFIG_SHOW_USER_TIER: 'show-user-tier',
+  CONFIG_SHOW_USER_DECO: 'show-user-decorations',
   CONFIG_SHOW_PROBLEM_ID: 'show-pid',
   CONFIG_SHOW_PROBLEM_TITLE: 'show-pname',
   CONFIG_SHOW_PROBLEM_TIER: 'show-problem-tier',
