@@ -19,11 +19,13 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up node 14.x
-      uses: actions/setup-node@v1
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Install Node.js
+      uses: actions/setup-node@v4
       with:
-        node-version: '14.x'
+        node-version: 18
 
     - name: Install dependencies and Lint
       run: |
