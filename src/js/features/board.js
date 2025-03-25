@@ -8,6 +8,9 @@ function extendBoardPage() {
     return;
   }
 
+  // display my button
+  setTimeout(displayMyButton, 0);
+
   // pre-update to rows
   const titles = document.querySelectorAll('a[href].problem_title');
   titles.forEach((e) => {
@@ -23,7 +26,7 @@ function extendBoardPage() {
 
   // load and apply to display pid/pname
   Config.load('show-status-pid', (showPid) => {
-    setTimeout(() => displayProblem(titles, !!showPid, 10), 10);
+    setTimeout(() => displayProblem(titles, !!showPid, 10), 0);
   });
 
   function displayProblem(titles, showPid, maxLength) {
@@ -36,5 +39,37 @@ function extendBoardPage() {
           text.length > maxLength ? text.substr(0, maxLength - 3) + '…' : text;
       }
     });
+  }
+
+  function displayMyButton() {
+    const username = getMyUsername();
+    if (!username) {
+      // not logged in
+      return;
+    }
+    const container = document.querySelector('.container.content ul.nav');
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    const link = createMyButtonLink(username);
+    a.href = link;
+    a.textContent = '내가 작성한 글';
+    if (link == pathname) {
+      li.className = 'active';
+    }
+    li.appendChild(a);
+    container.appendChild(li);
+  }
+
+  function createMyButtonLink(username) {
+    const paths = pathname.split('/');
+    const getBoardName = (name) => {
+      // legacy board links
+      if (name == '0') return 'all';
+      else if (name == '1') return 'notice';
+      else if (name == '2') return 'free';
+      else if (name == '3') return 'question';
+      else return name;
+    };
+    return `/board/search/${getBoardName(paths[3])}/author/${username}`;
   }
 }
