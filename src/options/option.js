@@ -46,13 +46,13 @@
     });
   }
 
-  Config.load(Constants.CONFIG_THEME, (theme) => {
+  const onLoadTheme = (theme) => {
     for (let i = 0; i < oTheme.length; ++i) {
       oTheme[i].checked = oTheme[i].value == theme;
     }
     const themeApplied = applyTheme(null, theme);
     enableCheckboxImageFilter(themeApplied !== 'light');
-  });
+  };
 
   // wide
   const oWide = document.getElementsByClassName('option-wide');
@@ -64,10 +64,11 @@
     });
   }
 
-  Config.load(Constants.WIDE, (wide) => {
+  // wide
+  const onLoadWide = (wide) => {
     oWide[wide ? 1 : 0].checked = true;
     applyWide(null, wide);
-  });
+  };
 
   // status:pid
   // status:ptitle
@@ -84,12 +85,12 @@
       Boolean(oStatusTitle.checked)
     );
   });
-  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (isChecked) => {
-    oStatusPid.checked = !(isChecked === false); // default is true
-  });
-  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (isChecked) => {
+  const onLoadShowStatusPid = (isChecked) => {
+    oStatusPid.checked = Utils.defaultAsTrue(isChecked);
+  };
+  const onLoadShowStatusPtitle = (isChecked) => {
     oStatusTitle.checked = Boolean(isChecked);
-  });
+  };
 
   // status:history
   const oStatusHistory = document.getElementsByClassName(
@@ -104,9 +105,9 @@
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
+  const onLoadShowStatusHistory = (showHistory) => {
     oStatusHistory[Utils.defaultAsTrue(showHistory) ? 0 : 1].checked = true;
-  });
+  };
 
   // group:link
   const oGroupLink = document.getElementsByClassName('option-group-link');
@@ -119,19 +120,14 @@
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_GROUP_LINK, (showGroupLink) => {
+  const onLoadShowGroupLink = (showGroupLink) => {
     oGroupLink[showGroupLink ? 0 : 1].checked = true;
-  });
+  };
 
   // global:user-tier
   const oUserTier = document.getElementsByClassName('option-user-tier');
   for (let i = 0; i < oUserTier.length; ++i) {
     oUserTier[i].addEventListener('change', (evt) => {
-      console.log(
-        '[save] option-user-tier',
-        Constants.CONFIG_SHOW_USER_TIER,
-        !!parseInt(evt.target.value)
-      );
       Config.save(
         Constants.CONFIG_SHOW_USER_TIER,
         !!parseInt(evt.target.value)
@@ -139,14 +135,14 @@
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+  const onLoadShowUserTier = (showUserTier) => {
     console.log(
       '[load] option-user-tier',
       Constants.CONFIG_SHOW_USER_TIER,
       showUserTier
     );
     oUserTier[Utils.defaultAsTrue(showUserTier) ? 0 : 1].checked = true;
-  });
+  };
 
   // user:problem-tier
   const oProblemTier = document.getElementById('option-problem-tier');
@@ -172,19 +168,23 @@
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
     oProblemTierColor.checked = show;
-  });
+  };
 
   // status:fake-text
   const oFakeText = document.getElementsByClassName('msg-code');
+  const bindLoadFakeTextEvent = (textInput) => (format) => {
+    if (format) {
+      textInput.value = format;
+      document.getElementById(
+        textInput.getAttribute('data-preview')
+      ).innerHTML = reformat(format);
+    }
+  };
   for (let i = 0; i < oFakeText.length; ++i) {
-    Config.load(oFakeText[i].getAttribute('name') + '-code', (format) => {
-      if (format) {
-        oFakeText[i].value = format;
-        document.getElementById(
-          oFakeText[i].getAttribute('data-preview')
-        ).innerHTML = reformat(format);
-      }
-    });
+    Config.load(
+      oFakeText[i].getAttribute('name') + '-code',
+      bindLoadFakeTextEvent(oFakeText[i])
+    );
 
     oFakeText[i].addEventListener('input', onReformatChanged);
     oFakeText[i].addEventListener('keyup', onReformatChanged);
@@ -203,7 +203,7 @@
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
+  const onLoadShowFakeResult = (showFakeResult) => {
     console.log('CONFIG_SHOW_FAKE_RESULT', showFakeResult);
     oFakeTextActive[Utils.defaultAsTrue(showFakeResult) ? 0 : 1].checked = true;
   });
@@ -335,11 +335,83 @@
     Config.save(Constants.CONFIG_FONT_STYLE, JSON.stringify(rules));
   }
 
-  Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+  const onLoadFontStyle = (rulesStr) => {
     const rules = JSON.parse(rulesStr || '{}');
     console.log('font rules', rules);
     oFontFormURL.value = rules['url'] || '';
     oFontFormFamily.value = rules['family'] || '';
     enableFontStyleSetting(rules['enabled'] || false);
+  };
+
+  // load config from local storage
+  Config.load(Constants.CONFIG_THEME, onLoadTheme);
+  Config.load(Constants.CONFIG_WIDE, onLoadWide);
+  Config.load(Constants.CONFIG_SHOW_STATUS_PID, onLoadShowStatusPid);
+  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, onLoadShowStatusPtitle);
+  Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, onLoadShowStatusHistory);
+  Config.load(Constants.CONFIG_SHOW_GROUP_LINK, onLoadShowGroupLink);
+  Config.load(Constants.CONFIG_SHOW_USER_TIER, onLoadShowUserTier);
+  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, onLoadShowProblemTier);
+  Config.load(
+    Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR,
+    onLoadShowProblemTierColor
+  );
+  Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, onLoadShowFakeResult);
+  Config.load(Constants.CONFIG_FONT_STYLE, onLoadFontStyle);
+
+  const FIELDS_EXCLUDES = ['CONFIG_PREFIX', 'CONFIG_LOCATION_HISTORY'];
+  const FIELDS_PUBLIC = Object.keys(Constants).filter((key) => {
+    return key.startsWith('CONFIG_') && FIELDS_EXCLUDES.indexOf(key) === -1;
+  });
+
+  // export settings
+  const buttonExport = document.getElementById('btnExport');
+  buttonExport.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    console.log('export settings');
+    Promise.all(
+      FIELDS_PUBLIC.map((key) => Config.loadAsync(Constants[key]))
+    ).then((values) => {
+      let isValid = Boolean(values);
+      isValid &= FIELDS_PUBLIC.length === values.length;
+      if (!isValid) {
+        window.alert('내보내기에 실패했습니다.');
+        console.error('export.keys', FIELDS_PUBLIC);
+        console.error('export.values', values);
+        return;
+      }
+      const keyValueZipObject = Array.from({ length: FIELDS_PUBLIC.length })
+        .map((_, i) => ({
+          key: FIELDS_PUBLIC[i],
+          value: values[i],
+        }))
+        .filter((item) => item.key !== null && item.value !== null)
+        .reduce(
+          (acc, cur) => ({
+            ...acc,
+            [cur.key]: cur.value,
+          }),
+          {}
+        );
+      const exportData = JSON.stringify(keyValueZipObject, null, 2);
+      console.log('exportData', exportData);
+      // save to local file to user pc
+      const blob = new Blob([exportData], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'boj-extended-settings.json';
+      a.style.display = 'none';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+  });
+
+  // import settings
+  const buttonImport = document.getElementById('btnImport');
+  buttonImport.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    console.log('import settings');
   });
 })();
