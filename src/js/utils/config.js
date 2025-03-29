@@ -49,6 +49,14 @@ class ConfigModel {
     );
   }
 
+  async loadAsync(key) {
+    return new Promise((resolve) => {
+      this.load(key, (value) => {
+        resolve(value);
+      });
+    });
+  }
+
   remove(key, callback) {
     if (chrome.runtime.lastError) {
       console.warn(chrome.runtime.lastError.message);
