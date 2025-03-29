@@ -1,12 +1,15 @@
-const Config = {
-  storageKeyPrefix: Constants.CONFIG_PREFIX,
+class ConfigModel {
+  constructor() {
+    this.storageKeyPrefix = Constants.CONFIG_PREFIX;
+    console.log(this);
+  }
 
-  getKey: function (key) {
+  getKey(key) {
     return this.storageKeyPrefix + key;
-  },
+  }
 
   // can be bufferred
-  save: function (key, value, callback) {
+  save(key, value, callback) {
     if (chrome.runtime.lastError) {
       console.warn(chrome.runtime.lastError.message);
       setTimeout(this.save.bind(null, key, value, callback), 100);
@@ -24,9 +27,9 @@ const Config = {
     );
     // Duplicate for HA (High Availability)
     window.localStorage.setItem(this.getKey(key), value);
-  },
+  }
 
-  load: function (key, callback) {
+  load(key, callback) {
     if (chrome.runtime.lastError) {
       console.warn(chrome.runtime.lastError.message);
       setTimeout(this.load.bind(null, key, callback), 100);
@@ -44,12 +47,12 @@ const Config = {
         window.localStorage.setItem(this.getKey(key), value);
       }
     );
-  },
+  }
 
-  remove: function (key, callback) {
+  remove(key, callback) {
     if (chrome.runtime.lastError) {
       console.warn(chrome.runtime.lastError.message);
-      setTimeout(this.save.remove(null, key, callback), 100);
+      setTimeout(this.remove.bind(null, key, callback), 100);
       return;
     }
     chrome.runtime.sendMessage(
@@ -62,14 +65,17 @@ const Config = {
       callback
     );
     window.localStorage.removeItem(this.getKey(key));
-  },
+  }
 
-  getProblems: function (callback) {
+  getProblems(callback) {
     chrome.runtime.sendMessage(
       {
         action: 'config.load.problems',
       },
       callback
     );
-  },
-};
+  }
+}
+
+// global variable
+const Config = new ConfigModel();
