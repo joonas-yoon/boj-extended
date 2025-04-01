@@ -15,7 +15,7 @@
     "@babel/plugin-proposal-class-properties",
     "@babel/plugin-transform-arrow-functions"
   ],
-  "ignore": ["**/build/*", "**/*.min.js"],
+  "ignore": ["**/build/*", "**/*.min.js", "**/third/*"],
   "env": {
     "production": {
       "comments": false,
