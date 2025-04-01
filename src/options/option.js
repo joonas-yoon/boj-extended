@@ -163,10 +163,11 @@
       Boolean(oProblemTierColor.checked)
     );
   });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (show) => {
+
+  const onLoadShowProblemTier = (show) => {
     oProblemTier.checked = !Utils.defaultAsTrue(show);
-  });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
+  };
+  const onLoadShowProblemTierColor = (show) => {
     oProblemTierColor.checked = show;
   };
 
@@ -206,7 +207,7 @@
   const onLoadShowFakeResult = (showFakeResult) => {
     console.log('CONFIG_SHOW_FAKE_RESULT', showFakeResult);
     oFakeTextActive[Utils.defaultAsTrue(showFakeResult) ? 0 : 1].checked = true;
-  });
+  };
 
   // help:reformat
   {
@@ -413,5 +414,30 @@
   buttonImport.addEventListener('click', (evt) => {
     evt.preventDefault();
     console.log('import settings');
+    const fileForm = document.createElement('input');
+    fileForm.setAttribute('type', 'file');
+    fileForm.setAttribute('accept', '.json');
+    fileForm.setAttribute('directory', false);
+    fileForm.click();
+    fileForm.addEventListener('change', (evt) => {
+      const file = evt.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const content = e.target.result;
+          try {
+            const settings = JSON.parse(content);
+            console.log('settings', settings);
+            // Config.saveAll(settings, () => {
+            //   window.location.reload();
+            // });
+          } catch (e) {
+            console.error('Invalid JSON format', e);
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
+    return false;
   });
 })();
