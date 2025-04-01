@@ -2,6 +2,7 @@
 
 **Fixes**
 
+- 옵션 페이지에서 문제 번호 라벨이 정상적으로 표시되지 않던 버그 수정
 - (hotfix) build 최적화 시 제외 파일에 third party 추가 [(#176)](https://github.com/joonas-yoon/boj-extended/issues/176)
 
 ## 1.9.7
