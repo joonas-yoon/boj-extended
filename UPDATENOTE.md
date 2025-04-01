@@ -1,3 +1,9 @@
+## 1.9.7.1
+
+**Fixes**
+
+- (hotfix) build 최적화 시 제외 파일에 third party 추가 [(#176)](https://github.com/joonas-yoon/boj-extended/issues/176)
+
 ## 1.9.7
 
 **Features**
