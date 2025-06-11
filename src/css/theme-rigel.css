@@ -698,6 +698,10 @@ html[theme='rigel'] .tabs-container .nav-tabs > li.active > a:focus {
   border-bottom-color: transparent;
   background-color: #292929;
 }
+html[theme='rigel'] .solvedac-tier-name-0::after,
+html[theme='rigel'] .solvedac-tier-name--1::after {
+  color: #e6e6dc;
+}
 /* end: /contest/board */
 html[theme='rigel'] a.list-group-item.active > .badge,
 html[theme='rigel'] .nav-pills > .active > a > .badge {
