@@ -565,6 +565,10 @@ html[theme='dark'] #contest_scoreboard a {
 html[theme='dark'] #contest_statistics a {
   color: #a0a0a0;
 }
+html[theme='dark'] .solvedac-tier-name-0::after,
+html[theme='dark'] .solvedac-tier-name--1::after {
+  color: #dfdfdf;
+}
 /* start: /user/.+ */
 html[theme='dark'] .tab-v2 .nav-tabs li.active a {
   background: #222;
