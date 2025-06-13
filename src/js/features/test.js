@@ -11,6 +11,8 @@ const TIO_LANGUAGES_MAP = {
   'Java 8 (OpenJDK)': 'java-openjdk',
   'Java 11': 'java-jdk',
   'C++20': 'cpp-gcc',
+  'C++23': 'cpp-gcc',
+  'C++26': 'cpp-gcc',
   Ruby: 'ruby',
   'Kotlin (JVM)': 'kotlin',
   Swift: 'swift4',
