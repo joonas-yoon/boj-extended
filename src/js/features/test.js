@@ -260,6 +260,19 @@ function extendTest() {
     return div;
   }
 
+  function getUserSelectedLanguage() {
+    const userSelectedLanguageForm = document.querySelector(
+      '#language_chosen .chosen-single'
+    );
+
+    if (!userSelectedLanguageForm) {
+      console.error('Cannot found DOM Element #language_chosen');
+      return null;
+    }
+
+    return userSelectedLanguageForm.textContent.trim();
+  }
+
   async function compile(input) {
     // get source to compile
     const codeLines = document.querySelectorAll(
@@ -275,19 +288,15 @@ function extendTest() {
       .join('\n');
 
     // get language to compile
-    const userSelectedLangForm = document
-      .getElementById('language_chosen')
-      .getElementsByClassName('chosen-single')[0];
-    let compileLanguage;
-    if (!userSelectedLangForm) {
-      console.error('Can not found DOM Element #language_chosen');
+    const userSelectedLanguage = getUserSelectedLanguage();
+
+    if (!userSelectedLanguage) {
       return {
         stdout: '',
         stderr: '페이지에 문제가 발생했습니다. 새로고침 후 다시 시도해주세요.',
       };
     } else {
-      const selectedLang = userSelectedLangForm.textContent.trim();
-      compileLanguage = TIO_LANGUAGES_MAP[selectedLang];
+      compileLanguage = TIO_LANGUAGES_MAP[userSelectedLanguage];
       if (!compileLanguage || compileLanguage === undefined) {
         return {
           stdout: '',
