@@ -153,6 +153,18 @@ function extendTest() {
     return { head, body, foot };
   }
 
+  function isStderrContainsWarning(language, stderr) {
+    if (['C#', 'F#', 'Ada', 'Pascal'].includes(language)) {
+      return stderr.includes('warning');
+    }
+
+    if (language === 'Python 3') {
+      return stderr.includes('Warning');
+    }
+
+    return stderr !== '';
+  }
+
   function runTestAll() {
     for (const key of Object.keys(tcController)) {
       const { head, body, foot, input, output } = tcController[key];
@@ -161,6 +173,7 @@ function extendTest() {
       // set values
       body.innerText = '';
       foot.innerText = 'Running...';
+      const userSelectedLanguage = getUserSelectedLanguage();
       compile(input)
         .then(({ stdout, stderr }) => {
           const sameOutput = output.trim() == stdout.trim();
@@ -174,7 +187,14 @@ function extendTest() {
           if (stdout && errContent) {
             // code works but warnings
             body.innerText = `stdout:\n${stdout}\n\nstderr:\n${errContent}`;
-            isPassed = sameOutput ? 'Warning' : 'Fail';
+
+            if (!sameOutput) {
+              isPassed = 'Fail';
+            } else if (
+              isStderrContainsWarning(userSelectedLanguage, errContent)
+            ) {
+              isPassed = 'Warning';
+            }
           } else if (errContent) {
             // compile or runtime error
             body.innerText = `stderr:\n${errContent}`;
