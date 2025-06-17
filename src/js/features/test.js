@@ -185,10 +185,10 @@ function extendTest() {
           let isPassed = 'Pass';
           // set values
           if (stdout && errContent) {
-            // code works but warnings
+            // code produces output, but it may contain warnings or errors
             body.innerText = `stdout:\n${stdout}\n\nstderr:\n${errContent}`;
 
-            if (!sameOutput) {
+            if (!sameOutput || !isReturnOk) {
               isPassed = 'Fail';
             } else if (
               isStderrContainsWarning(userSelectedLanguage, errContent)
