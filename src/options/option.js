@@ -64,7 +64,7 @@
     });
   }
 
-  Config.load('wide', (wide) => {
+  Config.load(Constants.WIDE, (wide) => {
     oWide[wide ? 1 : 0].checked = true;
     applyWide(null, wide);
   });
