@@ -14,6 +14,7 @@ const Constants = {
   CONFIG_FONT_STYLE: 'font-style',
   CONFIG_THEME: 'theme',
   CONFIG_THEME_IMAGE_FILTER: 'theme-image-filter',
+  CONFIG_WIDE: 'wide',
   CONFIG_LOCATION_HISTORY: 'location-history',
   CONFIG_LOCATION_EXPIRE_MS: 4 * 1000 * 3600,
   STORAGE_PREFIX: 'boj-extended-local-',

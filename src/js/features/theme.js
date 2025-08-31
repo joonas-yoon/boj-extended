@@ -3,6 +3,9 @@
     Config.load(Constants.CONFIG_THEME, (theme) => {
       applyTheme(null, theme);
     });
+    Config.load(Constants.CONFIG_THEME_IMAGE_FILTER, (enable) => {
+      applyImageFilter(enable);
+    });
   });
 })();
 
@@ -120,9 +123,31 @@ function applyTheme(button, theme) {
       editor.className += ' toastui-editor-dark';
     }
   }
+
+  return theme;
 }
 
 function saveTheme(theme, callback) {
   const defaultCallback = () => {};
   Config.save(Constants.CONFIG_THEME, theme, callback || defaultCallback);
+}
+
+function applyImageFilter(enable) {
+  console.log('apply image filter (requested):', enable);
+
+  if (enable) {
+    document.body.setAttribute('image-filter', 'true');
+  } else {
+    document.body.removeAttribute('image-filter');
+  }
+}
+
+function saveImageFilter(enable, callback) {
+  console.log('save image filter:', enable);
+  const defaultCallback = () => {};
+  Config.save(
+    Constants.CONFIG_THEME_IMAGE_FILTER,
+    enable,
+    callback || defaultCallback
+  );
 }
