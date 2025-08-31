@@ -8,6 +8,7 @@ function extendGlobal() {
   extendProblemColor();
   extendLastViewPopup();
   extendUserBadge();
+  extendImageFilterToggleButton();
 
   async function extendProblemColor() {
     const problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -387,5 +388,42 @@ function extendGlobal() {
       }
       return dict;
     }
+  }
+
+  function extendImageFilterToggleButton() {
+    Config.load(Constants.CONFIG_THEME, (theme) => {
+      // 밝은 테마일 경우 토글 버튼 생성 생략.
+      if (theme === 'light') {
+        return;
+      }
+
+      document.querySelectorAll('#problem-body img').forEach((imageElement) => {
+        // 이미지 너비에 따라 이미지의 왼쪽 혹은 오른쪽에는 버튼 배치가 힘들 수 있으므로, 컨테이너 내부 축을 수직으로 해서 버튼이 이미지의 아래에 생성되도록 설정.
+        const container = document.createElement('div');
+        container.style.display = 'flex';
+        container.style.flexDirection = 'column';
+        container.style.alignItems = 'center';
+
+        // 토글 버튼 생성, 클릭시 document.body에 있는 image-filter 속성값을 토글.
+        const toggleButton = document.createElement('button');
+        toggleButton.textContent = 'Prevent Image Filter';
+        toggleButton.style.background = 'gray';
+        toggleButton.style.color = 'black';
+        toggleButton.addEventListener('click', () => {
+          const isImageFilterActivated =
+            document.body.getAttribute('image-filter') === 'true';
+
+          document.body.setAttribute(
+            'image-filter',
+            (!isImageFilterActivated).toString()
+          );
+        });
+
+        // 이미지 노드의 부모 노드가 이미지 대신 컨테이너를 자식으로 가지도록 하고, 컨테이너 내부에는 이미지와 버튼을 삽입.
+        imageElement.parentNode.replaceChild(container, imageElement);
+        container.appendChild(imageElement);
+        container.appendChild(toggleButton);
+      });
+    });
   }
 }
