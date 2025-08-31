@@ -819,21 +819,27 @@ html[theme='dark'] #problem-timer .dropdown-menu input.timer-number {
   background-color: #3f3f3f;
   border-color: #6a6a6a;
 }
-html[theme='dark'] .panel img,
-html[theme='dark'] .redactor-modal,
-html[theme='dark'] .redactor-dropdown,
-html[theme='dark'] .redactor-styles figure,
-html[theme='dark'] .redactor-box.redactor-styles-on,
-html[theme='dark'] #logo-header,
-html[theme='dark'] #problem-body img:not(.level_badge) {
+html[theme='dark'] body[image-filter='true'] .panel img,
+html[theme='dark'] body[image-filter='true'] .redactor-modal,
+html[theme='dark'] body[image-filter='true'] .redactor-dropdown,
+html[theme='dark'] body[image-filter='true'] .redactor-styles figure,
+html[theme='dark'] body[image-filter='true'] .redactor-box.redactor-styles-on,
+html[theme='dark'] body[image-filter='true'] #logo-header,
+html[theme='dark']
+  body[image-filter='true']
+  #problem-body
+  img:not(.level_badge) {
   filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
   -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%)
     contrast(72.5%);
   -moz-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
-  transition: 0.2s ease-out;
+  transition: none;
 }
-html[theme='dark'] .panel img:hover,
-html[theme='dark'] #problem-body img:not(.level_badge):hover {
+html[theme='dark'] body[image-filter='true'] .panel img:hover,
+html[theme='dark']
+  body[image-filter='true']
+  #problem-body
+  img:not(.level_badge):hover {
   filter: none;
   transition: 0.3s;
 }

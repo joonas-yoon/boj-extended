@@ -855,21 +855,27 @@ html[theme='rigel'] #problem-timer .dropdown-menu input.timer-number {
   background-color: #3f3f3f;
   border-color: #6a6a6a;
 }
-html[theme='rigel'] .panel img,
-html[theme='rigel'] .redactor-modal,
-html[theme='rigel'] .redactor-dropdown,
-html[theme='rigel'] .redactor-styles figure,
-html[theme='rigel'] .redactor-box.redactor-styles-on,
-html[theme='rigel'] #logo-header,
-html[theme='rigel'] #problem-body img:not(.level_badge) {
+html[theme='rigel'] body[image-filter='true'] .panel img,
+html[theme='rigel'] body[image-filter='true'] .redactor-modal,
+html[theme='rigel'] body[image-filter='true'] .redactor-dropdown,
+html[theme='rigel'] body[image-filter='true'] .redactor-styles figure,
+html[theme='rigel'] body[image-filter='true'] .redactor-box.redactor-styles-on,
+html[theme='rigel'] body[image-filter='true'] #logo-header,
+html[theme='rigel']
+  body[image-filter='true']
+  #problem-body
+  img:not(.level_badge) {
   filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
   -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%)
     contrast(72.5%);
   -moz-filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
-  transition: 0.2s ease-out;
+  transition: none;
 }
-html[theme='rigel'] .panel img:hover,
-html[theme='rigel'] #problem-body img:not(.level_badge):hover {
+html[theme='rigel'] body[image-filter='true'] .panel img:hover,
+html[theme='rigel']
+  body[image-filter='true']
+  #problem-body
+  img:not(.level_badge):hover {
   filter: none;
   transition: 0.3s;
 }
