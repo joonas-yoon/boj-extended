@@ -15,12 +15,33 @@
     }
   );
 
+  // theme (image-filter)
+  const oImageFilter = document.getElementsByClassName(
+    'option-image-filter'
+  )[0];
+  oImageFilter.addEventListener('change', (evt) => {
+    const enable = evt.target.checked !== false; // default as true
+    applyImageFilter(enable);
+    saveImageFilter(enable, (result) => {
+      console.log('image-filter saved', result);
+    });
+  });
+  const enableCheckboxImageFilter = (enable) =>
+    (oImageFilter.disabled = !enable);
+
+  Config.load(Constants.CONFIG_THEME_IMAGE_FILTER, (value) => {
+    const enable = value !== false; // default as true
+    oImageFilter.checked = enable;
+    applyImageFilter(enable);
+  });
+
   // theme
   const oTheme = document.getElementsByClassName('option-theme');
   for (let i = 0; i < oTheme.length; ++i) {
     oTheme[i].addEventListener('change', (evt) => {
       Config.save(Constants.CONFIG_THEME, evt.target.value, (result) => {
-        applyTheme(null, result);
+        const themeApplied = applyTheme(null, result);
+        enableCheckboxImageFilter(themeApplied !== 'light');
       });
     });
   }
@@ -29,9 +50,11 @@
     for (let i = 0; i < oTheme.length; ++i) {
       oTheme[i].checked = oTheme[i].value == theme;
     }
-    applyTheme(null, theme);
+    const themeApplied = applyTheme(null, theme);
+    enableCheckboxImageFilter(themeApplied !== 'light');
   });
 
+  // wide
   const oWide = document.getElementsByClassName('option-wide');
   for (let i = 0; i < oWide.length; ++i) {
     oWide[i].addEventListener('change', (evt) => {
@@ -41,8 +64,7 @@
     });
   }
 
-  // wide
-  Config.load('wide', (wide) => {
+  Config.load(Constants.WIDE, (wide) => {
     oWide[wide ? 1 : 0].checked = true;
     applyWide(null, wide);
   });
