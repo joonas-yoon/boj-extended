@@ -410,13 +410,7 @@ function extendGlobal() {
         toggleButton.style.background = 'gray';
         toggleButton.style.color = 'black';
         toggleButton.addEventListener('click', () => {
-          const isImageFilterActivated =
-            document.body.getAttribute('image-filter') === 'true';
-
-          document.body.setAttribute(
-            'image-filter',
-            (!isImageFilterActivated).toString()
-          );
+          imageElement.classList.toggle('prevent-img-filter');
         });
 
         // 이미지 노드의 부모 노드가 이미지 대신 컨테이너를 자식으로 가지도록 하고, 컨테이너 내부에는 이미지와 버튼을 삽입.
