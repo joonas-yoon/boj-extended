@@ -864,7 +864,7 @@ html[theme='rigel'] body[image-filter='true'] #logo-header,
 html[theme='rigel']
   body[image-filter='true']
   #problem-body
-  img:not(.level_badge) {
+  img:not(.level_badge):not(.prevent-img-filter) {
   filter: invert(100%) hue-rotate(180deg) brightness(120%) contrast(72.5%);
   -webkit-filter: invert(100%) hue-rotate(180deg) brightness(120%)
     contrast(72.5%);
