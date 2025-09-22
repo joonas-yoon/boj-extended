@@ -14,7 +14,7 @@
   const getProblemName = (pid) => {
     try {
       const dbJson = JSON.parse(PROBLEM_DB[Constants.BG_DB_PROBLEMS]);
-      return dbJson['problems'][pid];
+      return dbJson['problems'][pid]['title'];
     } catch (error) {
       console.error(error);
       return '<문제 제목을 불러오는 데 실패했습니다>';
