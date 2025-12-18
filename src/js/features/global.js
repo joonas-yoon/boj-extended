@@ -47,12 +47,14 @@ function extendGlobal() {
       const obj = JSON.parse(stored);
       const keys = Object.keys(obj);
       if (keys.length > 100) {
-        console.info('old history was removed');
+        console.info('Removes old history entries');
+        const numberOnly = (str) => Number(str.replace(/[^0-9]/g, ''));
         const recentEntries = keys
-          .sort()
+          .sort((a, b) => (numberOnly(a) < numberOnly(b) ? -1 : 1))
           .slice(-100)
           .map((k) => ({ [k]: obj[k] }))
           .reduce((p, c) => ({ ...p, ...c }), {});
+        console.info('keep recent history entries', recentEntries);
         // save to localStorage
         localStorage.setItem(
           Constants.STORAGE_STATUS_HISTORY,
@@ -219,6 +221,7 @@ function extendGlobal() {
       );
       const needsUpdate = histories[id] != percent;
       histories[id] = Math.max(histories[id] || 0, percent);
+      console.log(id, percent, { histories });
       if (needsUpdate) {
         localStorage.setItem(
           Constants.STORAGE_STATUS_HISTORY,
