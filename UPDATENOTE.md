@@ -1,3 +1,14 @@
+## 1.9.9
+
+**Features**
+
+- 테이블 컬럼 헤더를 클릭하여 오름차순/내림차순 정렬하는 기능 추가 [(#194)](https://github.com/joonas-yoon/boj-extended/issues/194)
+
+**Fixes**
+
+- 제출 현황 페이지에서 채점 퍼센트가 정상적으로 표시되지 않던 버그 수정 [(#152)](https://github.com/joonas-yoon/boj-extended/issues/152) [(#195)](https://github.com/joonas-yoon/boj-extended/issues/195) [(#196)](https://github.com/joonas-yoon/boj-extended/issues/196)
+- 옵션 페이지에서 문제 타이머에 문제 제목이 정상적으로 표시되지 않던 버그 수정 [(#192)](https://github.com/joonas-yoon/boj-extended/issues/192)
+
 ## 1.9.8
 
 **Features**

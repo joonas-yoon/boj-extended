@@ -8,6 +8,7 @@ function extendGlobal() {
   extendProblemColor();
   extendLastViewPopup();
   extendUserBadge();
+  extendTableSorting();
 
   async function extendProblemColor() {
     const problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -47,12 +48,14 @@ function extendGlobal() {
       const obj = JSON.parse(stored);
       const keys = Object.keys(obj);
       if (keys.length > 100) {
-        console.info('old history was removed');
+        console.info('Removes old history entries');
+        const numberOnly = (str) => Number(str.replace(/[^0-9]/g, ''));
         const recentEntries = keys
-          .sort()
+          .sort((a, b) => (numberOnly(a) < numberOnly(b) ? -1 : 1))
           .slice(-100)
           .map((k) => ({ [k]: obj[k] }))
           .reduce((p, c) => ({ ...p, ...c }), {});
+        console.info('keep recent history entries', recentEntries);
         // save to localStorage
         localStorage.setItem(
           Constants.STORAGE_STATUS_HISTORY,
@@ -63,7 +66,7 @@ function extendGlobal() {
 
     Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
       // load history from localStorage
-      showHistory = showHistory !== false; // true or null (default)
+      showHistory = Utils.defaultAsTrue(showHistory);
       console.log('showHistory', showHistory);
       if (showHistory) {
         window.bojextStatusHistories = JSON.parse(
@@ -76,7 +79,7 @@ function extendGlobal() {
         console.log('showFakeResult (default: true)', showFakeResult);
         const formattingIfHasFake = (element, fakeText) => {
           // true or null (default)
-          if (showFakeResult !== false) {
+          if (Utils.defaultAsTrue(showFakeResult)) {
             formatting(element, fakeText);
           }
         };
@@ -219,6 +222,7 @@ function extendGlobal() {
       );
       const needsUpdate = histories[id] != percent;
       histories[id] = Math.max(histories[id] || 0, percent);
+      console.log(id, percent, { histories });
       if (needsUpdate) {
         localStorage.setItem(
           Constants.STORAGE_STATUS_HISTORY,
@@ -358,9 +362,8 @@ function extendGlobal() {
     };
 
     Config.load(Constants.CONFIG_SHOW_USER_TIER, async (showUserTier) => {
-      // default as true
-      console.log('config.showUserTier', showUserTier);
-      if (showUserTier === false) return;
+      if (!Utils.defaultAsTrue(showUserTier)) return;
+      console.log('config.showUserTier applied');
       const userTags = document.querySelectorAll('a[href^="/user/"]');
       const handleArray = Array.from(userTags).map((e) => e.innerText);
       const infos = await lookUpUsersInfo(handleArray);
@@ -387,5 +390,57 @@ function extendGlobal() {
       }
       return dict;
     }
+  }
+
+  function extendTableSorting() {
+    // find all table and make header to clickable for sorting
+    const tables = document.querySelectorAll('table');
+    tables.forEach((table) => {
+      const headers = table.querySelectorAll('th');
+      headers.forEach((header, index) => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+          sortTableByColumn(table, index);
+        });
+      });
+    });
+  }
+
+  function sortTableByColumn(table, columnIndex) {
+    const tbody = table.tBodies[0];
+    if (!tbody) return;
+
+    // Get rows as array
+    const rows = Array.from(tbody.rows);
+
+    // Detect sort direction (toggle)
+    const ths = table.querySelectorAll('th');
+    const th = ths[columnIndex];
+    const asc = !th.classList.contains('sorted-asc');
+
+    // Remove sort classes and arrows from all headers
+    ths.forEach((header) => {
+      header.classList.remove('sorted-asc', 'sorted-desc');
+    });
+
+    // Add class and arrow to sorted header
+    th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
+
+    // Sort rows
+    rows.sort((a, b) => {
+      const aText = a.cells[columnIndex].textContent.trim();
+      const bText = b.cells[columnIndex].textContent.trim();
+
+      // Try to compare as numbers, fallback to string
+      const aNum = parseFloat(aText.replace(/,/g, ''));
+      const bNum = parseFloat(bText.replace(/,/g, ''));
+      if (!isNaN(aNum) && !isNaN(bNum)) {
+        return asc ? aNum - bNum : bNum - aNum;
+      }
+      return asc ? aText.localeCompare(bText) : bText.localeCompare(aText);
+    });
+
+    // Re-append sorted rows
+    rows.forEach((row) => tbody.appendChild(row));
   }
 }
