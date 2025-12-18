@@ -8,6 +8,7 @@ function extendGlobal() {
   extendProblemColor();
   extendLastViewPopup();
   extendUserBadge();
+  extendTableSorting();
 
   async function extendProblemColor() {
     const problemInfo = await fetchProblemsByUser(getMyUsername());
@@ -389,5 +390,57 @@ function extendGlobal() {
       }
       return dict;
     }
+  }
+
+  function extendTableSorting() {
+    // find all table and make header to clickable for sorting
+    const tables = document.querySelectorAll('table');
+    tables.forEach((table) => {
+      const headers = table.querySelectorAll('th');
+      headers.forEach((header, index) => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', () => {
+          sortTableByColumn(table, index);
+        });
+      });
+    });
+  }
+
+  function sortTableByColumn(table, columnIndex) {
+    const tbody = table.tBodies[0];
+    if (!tbody) return;
+
+    // Get rows as array
+    const rows = Array.from(tbody.rows);
+
+    // Detect sort direction (toggle)
+    const ths = table.querySelectorAll('th');
+    const th = ths[columnIndex];
+    const asc = !th.classList.contains('sorted-asc');
+
+    // Remove sort classes and arrows from all headers
+    ths.forEach((header) => {
+      header.classList.remove('sorted-asc', 'sorted-desc');
+    });
+
+    // Add class and arrow to sorted header
+    th.classList.add(asc ? 'sorted-asc' : 'sorted-desc');
+
+    // Sort rows
+    rows.sort((a, b) => {
+      const aText = a.cells[columnIndex].textContent.trim();
+      const bText = b.cells[columnIndex].textContent.trim();
+
+      // Try to compare as numbers, fallback to string
+      const aNum = parseFloat(aText.replace(/,/g, ''));
+      const bNum = parseFloat(bText.replace(/,/g, ''));
+      if (!isNaN(aNum) && !isNaN(bNum)) {
+        return asc ? aNum - bNum : bNum - aNum;
+      }
+      return asc ? aText.localeCompare(bText) : bText.localeCompare(aText);
+    });
+
+    // Re-append sorted rows
+    rows.forEach((row) => tbody.appendChild(row));
   }
 }
