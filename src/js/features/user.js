@@ -178,11 +178,10 @@ function extendUserPage() {
     panels.forEach((panel) => {
       panel.setAttribute('data-ready', true);
 
-      const problemTags = Array.from(panel.getElementsByTagName('a'));
-      problemTags.forEach((e) => {
-        if (!e.href) return;
-        e.classList.add('problem-link-style-box');
-      });
+      const problemTags = Array.from(panel.getElementsByTagName('a')).filter(
+        (e) => e.href
+      );
+      problemTags.forEach((e) => e.classList.add('problem-link-style-box'));
       setProblemAttributes(problemTags);
 
       // add button to display all
@@ -281,8 +280,9 @@ function extendUserPage() {
         });
 
       const notCachedTags = pids.filter(({ id }) => !isProblemCached(id));
-      console.log('notCachedTags', notCachedTags);
-      addProblemDetailsToElements(notCachedTags);
+      if (notCachedTags.length > 0) {
+        addProblemDetailsToElements(notCachedTags);
+      }
     }
   }
 
