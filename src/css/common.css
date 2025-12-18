@@ -379,6 +379,14 @@ a[href^='/problem'].problem-link-style-box.result-wa:hover {
   cursor: pointer;
 }
 
+/* table sorting */
+table .sorted-asc:after {
+  content: ' ▲';
+}
+table .sorted-desc:after {
+  content: ' ▼';
+}
+
 /* solved.ac */
 .solvedac-tier {
   filter: none !important;
