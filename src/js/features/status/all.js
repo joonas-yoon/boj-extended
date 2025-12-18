@@ -75,7 +75,7 @@ function createCheckboxForm(dispatchDisplay) {
   );
 
   Config.load(Constants.CONFIG_SHOW_STATUS_PID, (showProbId) => {
-    pidInput.checked = !(showProbId === false); // default as true
+    pidInput.checked = Utils.defaultAsTrue(showProbId);
     dispatchChangeEvent();
   });
 

@@ -20,7 +20,7 @@
     'option-image-filter'
   )[0];
   oImageFilter.addEventListener('change', (evt) => {
-    const enable = evt.target.checked !== false; // default as true
+    const enable = Utils.defaultAsTrue(evt.target.checked);
     applyImageFilter(enable);
     saveImageFilter(enable, (result) => {
       console.log('image-filter saved', result);
@@ -30,7 +30,7 @@
     (oImageFilter.disabled = !enable);
 
   Config.load(Constants.CONFIG_THEME_IMAGE_FILTER, (value) => {
-    const enable = value !== false; // default as true
+    const enable = Utils.defaultAsTrue(value);
     oImageFilter.checked = enable;
     applyImageFilter(enable);
   });
@@ -105,8 +105,7 @@
   }
 
   Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
-    // default is true
-    oStatusHistory[showHistory !== false ? 0 : 1].checked = true;
+    oStatusHistory[Utils.defaultAsTrue(showHistory) ? 0 : 1].checked = true;
   });
 
   // group:link
@@ -146,8 +145,7 @@
       Constants.CONFIG_SHOW_USER_TIER,
       showUserTier
     );
-    // default as true
-    oUserTier[showUserTier !== false ? 0 : 1].checked = true;
+    oUserTier[Utils.defaultAsTrue(showUserTier) ? 0 : 1].checked = true;
   });
 
   // user:problem-tier
@@ -170,7 +168,7 @@
     );
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (show) => {
-    oProblemTier.checked = !(show === false); // default as true
+    oProblemTier.checked = !Utils.defaultAsTrue(show);
   });
   Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
     oProblemTierColor.checked = show;
@@ -207,7 +205,7 @@
 
   Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
     console.log('CONFIG_SHOW_FAKE_RESULT', showFakeResult);
-    oFakeTextActive[showFakeResult !== false ? 0 : 1].checked = true;
+    oFakeTextActive[Utils.defaultAsTrue(showFakeResult) ? 0 : 1].checked = true;
   });
 
   // help:reformat

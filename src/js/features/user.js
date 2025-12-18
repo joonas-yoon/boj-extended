@@ -288,7 +288,7 @@ function extendUserPage() {
 
   // sync with configs
   Config.load(Constants.CONFIG_SHOW_USER_DECO, (isActivated) => {
-    const _isActivated = Utils.defaultAsFalse(isActivated); // default as false
+    const _isActivated = Utils.defaultAsFalse(isActivated);
     checkboxTurnOff.checked = !_isActivated;
     console.info(
       'All features for problem beautify are',

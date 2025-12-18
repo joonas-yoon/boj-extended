@@ -63,7 +63,7 @@ function extendGlobal() {
 
     Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
       // load history from localStorage
-      showHistory = showHistory !== false; // true or null (default)
+      showHistory = Utils.defaultAsTrue(showHistory);
       console.log('showHistory', showHistory);
       if (showHistory) {
         window.bojextStatusHistories = JSON.parse(
@@ -76,7 +76,7 @@ function extendGlobal() {
         console.log('showFakeResult (default: true)', showFakeResult);
         const formattingIfHasFake = (element, fakeText) => {
           // true or null (default)
-          if (showFakeResult !== false) {
+          if (Utils.defaultAsTrue(showFakeResult)) {
             formatting(element, fakeText);
           }
         };
@@ -358,9 +358,8 @@ function extendGlobal() {
     };
 
     Config.load(Constants.CONFIG_SHOW_USER_TIER, async (showUserTier) => {
-      // default as true
-      console.log('config.showUserTier', showUserTier);
-      if (showUserTier === false) return;
+      if (!Utils.defaultAsTrue(showUserTier)) return;
+      console.log('config.showUserTier applied');
       const userTags = document.querySelectorAll('a[href^="/user/"]');
       const handleArray = Array.from(userTags).map((e) => e.innerText);
       const infos = await lookUpUsersInfo(handleArray);
