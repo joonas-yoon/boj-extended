@@ -11,6 +11,8 @@ const TIO_LANGUAGES_MAP = {
   'Java 8 (OpenJDK)': 'java-openjdk',
   'Java 11': 'java-jdk',
   'C++20': 'cpp-gcc',
+  'C++23': 'cpp-gcc',
+  'C++26': 'cpp-gcc',
   Ruby: 'ruby',
   'Kotlin (JVM)': 'kotlin',
   Swift: 'swift4',
@@ -151,6 +153,18 @@ function extendTest() {
     return { head, body, foot };
   }
 
+  function isStderrContainsWarning(language, stderr) {
+    if (['C#', 'F#', 'Ada', 'Pascal'].includes(language)) {
+      return stderr.includes('warning');
+    }
+
+    if (language === 'Python 3') {
+      return stderr.includes('Warning');
+    }
+
+    return stderr !== '';
+  }
+
   function runTestAll() {
     for (const key of Object.keys(tcController)) {
       const { head, body, foot, input, output } = tcController[key];
@@ -159,6 +173,7 @@ function extendTest() {
       // set values
       body.innerText = '';
       foot.innerText = 'Running...';
+      const userSelectedLanguage = getUserSelectedLanguage();
       compile(input)
         .then(({ stdout, stderr }) => {
           const sameOutput = output.trim() == stdout.trim();
@@ -170,9 +185,16 @@ function extendTest() {
           let isPassed = 'Pass';
           // set values
           if (stdout && errContent) {
-            // code works but warnings
+            // code produces output, but it may contain warnings or errors
             body.innerText = `stdout:\n${stdout}\n\nstderr:\n${errContent}`;
-            isPassed = sameOutput ? 'Warning' : 'Fail';
+
+            if (!sameOutput || !isReturnOk) {
+              isPassed = 'Fail';
+            } else if (
+              isStderrContainsWarning(userSelectedLanguage, errContent)
+            ) {
+              isPassed = 'Warning';
+            }
           } else if (errContent) {
             // compile or runtime error
             body.innerText = `stderr:\n${errContent}`;
@@ -258,6 +280,19 @@ function extendTest() {
     return div;
   }
 
+  function getUserSelectedLanguage() {
+    const userSelectedLanguageForm = document.querySelector(
+      '#language_chosen .chosen-single'
+    );
+
+    if (!userSelectedLanguageForm) {
+      console.error('Cannot found DOM Element #language_chosen');
+      return null;
+    }
+
+    return userSelectedLanguageForm.textContent.trim();
+  }
+
   async function compile(input) {
     // get source to compile
     const codeLines = document.querySelectorAll(
@@ -273,19 +308,15 @@ function extendTest() {
       .join('\n');
 
     // get language to compile
-    const userSelectedLangForm = document
-      .getElementById('language_chosen')
-      .getElementsByClassName('chosen-single')[0];
-    let compileLanguage;
-    if (!userSelectedLangForm) {
-      console.error('Can not found DOM Element #language_chosen');
+    const userSelectedLanguage = getUserSelectedLanguage();
+
+    if (!userSelectedLanguage) {
       return {
         stdout: '',
         stderr: '페이지에 문제가 발생했습니다. 새로고침 후 다시 시도해주세요.',
       };
     } else {
-      const selectedLang = userSelectedLangForm.textContent.trim();
-      compileLanguage = TIO_LANGUAGES_MAP[selectedLang];
+      compileLanguage = TIO_LANGUAGES_MAP[userSelectedLanguage];
       if (!compileLanguage || compileLanguage === undefined) {
         return {
           stdout: '',
