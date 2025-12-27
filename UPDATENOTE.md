@@ -6,6 +6,11 @@
 - - 옵션 페이지에서 설정 가져오기, 설정 내보내기 버튼을 클릭하여 사용 가능
 - - 예시 파일은 `docs/samples/boj-extended-settings.json` 참고
 
+**Fixes**
+
+- 검색 페이지에서 유저 티어가 정상적으로 표시되지 않는 버그 수정 [(#198)](https://github.com/joonas-yoon/boj-extended/issues/198)
+- 게시글에서 유저 티어가 정상적으로 표시되지 않는 버그 수정 [(#199)](https://github.com/joonas-yoon/boj-extended/issues/199)
+
 ## 1.9.9
 
 **Features**
