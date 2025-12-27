@@ -361,21 +361,35 @@ function extendGlobal() {
       return info === null ? 0 : info.tier;
     };
 
+    const removeDuplicates = (arr) => {
+      return [...new Set(arr)];
+    };
+
     Config.load(Constants.CONFIG_SHOW_USER_TIER, async (showUserTier) => {
       if (!Utils.defaultAsTrue(showUserTier)) return;
       console.log('config.showUserTier applied');
-      const userTags = document.querySelectorAll('a[href^="/user/"]');
-      const handleArray = Array.from(userTags).map((e) => e.innerText);
+      const userTags = Array.from(
+        document.querySelectorAll('a[href^="/user/"]')
+      ).filter((e) => e.textContent.trim() !== '');
+      const getHandleFromElement = (e) =>
+        e.getAttribute('href').replace('/user/', '');
+      const handleArray = removeDuplicates(
+        Array.from(userTags).map(getHandleFromElement)
+      );
       const infos = await lookUpUsersInfo(handleArray);
-      console.log('infos', infos);
+      console.log('look up user handles and tiers', {
+        userTags,
+        handleArray,
+        infos,
+      });
       userTags.forEach((tag) => {
-        const { tier } = infos[tag.innerText] || { tier: 0 };
+        const handle = getHandleFromElement(tag);
+        const { tier } = infos[handle] || { tier: 0 };
         tag.innerHTML = `<img src="https://static.solved.ac/tier_small/${tier}.svg" class="solvedac-tier"/> ${tag.innerHTML}`;
       });
     });
 
-    async function lookUpUsersInfo(handlesArray) {
-      const handles = [...new Set([...handlesArray])];
+    async function lookUpUsersInfo(handles) {
       const dict = {};
       for (let i = 0; i <= Math.floor(handles.length / 100); ++i) {
         const offset = i * 100;
