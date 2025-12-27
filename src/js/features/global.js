@@ -323,6 +323,10 @@ function extendGlobal() {
   function extendUserBadge() {
     if (!isLoggedIn()) return;
 
+    if (window.location.pathname.startsWith('/search')) {
+      return; // skip search page becuase the search results are dynamic
+    }
+
     // request to background for lookup from external host
     const fetchUsersSolvedAc = (handles) => {
       return new Promise((resolve, reject) => {
