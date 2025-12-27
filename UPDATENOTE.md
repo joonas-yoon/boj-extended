@@ -1,3 +1,11 @@
+## 1.10.0
+
+**Features**
+
+- JSON 파일로부터 설정 가져오기/내보내기 기능 추가 [(#166)](https://github.com/joonas-yoon/boj-extended/issues/166)
+- - 옵션 페이지에서 설정 가져오기, 설정 내보내기 버튼을 클릭하여 사용 가능
+- - 예시 파일은 `docs/samples/boj-extended-settings.json` 참고
+
 ## 1.9.9
 
 **Features**
@@ -14,7 +22,6 @@
 **Features**
 
 - 이미지 색상 반전을 옵션 페이지에서 선택할 수 있도록 기능 추가 [(#71)](https://github.com/joonas-yoon/boj-extended/issues/71) [(#188)](https://github.com/joonas-yoon/boj-extended/issues/188) [(#189)](https://github.com/joonas-yoon/boj-extended/issues/189)
-- - ![image](https://private-user-images.githubusercontent.com/9527681/483926759-297812af-effb-4511-9d03-2f0aa8fa794c.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY2MTE5MTcsIm5iZiI6MTc1NjYxMTYxNywicGF0aCI6Ii85NTI3NjgxLzQ4MzkyNjc1OS0yOTc4MTJhZi1lZmZiLTQ1MTEtOWQwMy0yZjBhYThmYTc5NGMucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDgzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA4MzFUMDM0MDE3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTE3NjRiM2E1OTZlNDNkNzdhMDM1YmVhNmI4YmQ2YzI1MzAwNmUyNTkwZDg3YjYzNmJiOTZlZGI1NzY5MTA3YiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.Q2FUYpDul6HEyneYUaHs8G5HWx16pc_IFyBkfMyQR9I) ![image](https://private-user-images.githubusercontent.com/9527681/483926755-482bb4bb-271e-40f9-b322-a8e47ca0c4b9.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY2MTE5MTcsIm5iZiI6MTc1NjYxMTYxNywicGF0aCI6Ii85NTI3NjgxLzQ4MzkyNjc1NS00ODJiYjRiYi0yNzFlLTQwZjktYjMyMi1hOGU0N2NhMGM0YjkucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDgzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTA4MzFUMDM0MDE3WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9Njc4NTIwZTRiODA4NjhmYjVhMmNiMDNmOTdkNmFmODcwYmRlZTE1NjI2ZTU5NGQxMjU1OWNiMzcwYjk4Zjk5NyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.pd6UYvVzCKeFKT93JpzKU7bcjJ1TSr8kW8MYJ3D2Dbo)
 
 ## 1.9.7.1
 
@@ -28,9 +35,7 @@
 **Features**
 
 - 내가 작성한 글 검색 버튼 추가 [(#172)](https://github.com/joonas-yoon/boj-extended/issues/172)
-- - ![image](https://private-user-images.githubusercontent.com/9527681/426570199-644b3253-d1ca-46e2-b178-de6722ac2686.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMxMDksIm5iZiI6MTc0MjkxMjgwOSwicGF0aCI6Ii85NTI3NjgxLzQyNjU3MDE5OS02NDRiMzI1My1kMWNhLTQ2ZTItYjE3OC1kZTY3MjJhYzI2ODYucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMjVUMTQyNjQ5WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjcwNTA0ODE5N2ExMjBiMDVhODMxMzVmNzg5ODIzOWZiM2FiM2U5N2IzZjlmYjliMjg4ZGFkYzIxY2Q3YmNjNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.MH7HMUCUEOih3N1kqXE22HJz8SCV6JlNolgY5UqEM9c)
 - 유저 페이지에서 문제 관련 기능 비활성화 체크박스 추가  [(#173)](https://github.com/joonas-yoon/boj-extended/issues/173)
-- - ![image](https://private-user-images.githubusercontent.com/9527681/425361125-6ca9fa1a-d72d-4c3f-937a-a6f5da6393b8.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDI5MTMxOTMsIm5iZiI6MTc0MjkxMjg5MywicGF0aCI6Ii85NTI3NjgxLzQyNTM2MTEyNS02Y2E5ZmExYS1kNzJkLTRjM2YtOTM3YS1hNmY1ZGE2MzkzYjguZ2lmP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MDMyNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTAzMjVUMTQyODEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YWNmZTk4ZWRmYzM5MjY3MzVkMjVhMzk1MDVmNTQyMGM4MTkyZWM5MzdhNWYxZmI1Y2YxODhkYzQ4OGIzZTczNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.-kLoaG9DCMMtMT5cOZzcZjE9F0M-hRA57RxAbSzCpjo)
 
 **Fixes**
 

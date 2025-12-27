@@ -1,0 +1,21 @@
+{
+  "SHOW_GROUP_LINK": true,
+  "SHOW_STATUS_HISTORY": true,
+  "SHOW_STATUS_PID": true,
+  "SHOW_STATUS_PTITLE": true,
+  "SHOW_FAKE_RESULT": true,
+  "SHOW_USER_TIER": true,
+  "SHOW_USER_DECO": false,
+  "SHOW_PROBLEM_ID": true,
+  "SHOW_PROBLEM_TITLE": false,
+  "SHOW_PROBLEM_TIER": true,
+  "SHOW_PROBLEM_TIER_COLOR": false,
+  "FONT_STYLE": "{\"enabled\":false,\"url\":\"\",\"family\":\"\"}",
+  "THEME": "dark",
+  "THEME_IMAGE_FILTER": false,
+  "WIDE": false,
+  "FAKE_RESULTS": {
+    "result-ac": "<ac>참 잘했어요</ac>",
+    "result-wa": "<wa>맞왜틀</wa>"
+  }
+}
