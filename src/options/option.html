@@ -80,6 +80,15 @@
         background-color: #ec9a00;
       }
 
+      #fake-result-table {
+        width: 100%;
+      }
+
+      #fake-result-table[disabled] {
+        opacity: 0.4;
+        pointer-events: none;
+      }
+
       html[theme='dark'] .problem-list a.problem-example-tag {
         background-color: #3c3c3c;
       }
@@ -591,7 +600,7 @@
                         도움말 보기
                       </button>
                     </p>
-                    <table class="table table-bordered" style="width: 100%">
+                    <table id="fake-result-table" class="table table-bordered" disabled>
                       <thead>
                         <tr>
                           <th>바꾸기 전 결과</th>

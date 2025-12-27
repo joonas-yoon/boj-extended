@@ -191,23 +191,39 @@
     oFakeText[i].addEventListener('keyup', onReformatChanged);
   }
 
+  // input table for fake text
+  const tableFakeResult = document.getElementById('fake-result-table');
+
   // active button
-  const oFakeTextActive = document.getElementsByClassName(
+  const oFakeTextActives = document.getElementsByClassName(
     'option-status-result'
   );
-  for (let i = 0; i < oFakeTextActive.length; ++i) {
-    oFakeTextActive[i].addEventListener('change', (evt) => {
-      Config.save(
-        Constants.CONFIG_SHOW_FAKE_RESULT,
-        !!parseInt(evt.target.value)
-      );
-    });
-  }
+
+  const applyFakeResultTableState = (enabled) => {
+    if (enabled) {
+      tableFakeResult.removeAttribute('disabled');
+    } else {
+      tableFakeResult.setAttribute('disabled', '');
+    }
+  };
 
   const onLoadShowFakeResult = (showFakeResult) => {
     console.log('CONFIG_SHOW_FAKE_RESULT', showFakeResult);
-    oFakeTextActive[Utils.defaultAsTrue(showFakeResult) ? 0 : 1].checked = true;
+    const enabled = Utils.defaultAsTrue(showFakeResult);
+    oFakeTextActives[enabled ? 0 : 1].checked = true;
+    applyFakeResultTableState(enabled);
   };
+
+  const onSelectFakeResultEnabled = (enabled) => {
+    Config.save(Constants.CONFIG_SHOW_FAKE_RESULT, enabled);
+    applyFakeResultTableState(enabled);
+  };
+
+  for (let i = 0; i < oFakeTextActives.length; ++i) {
+    oFakeTextActives[i].addEventListener('change', (evt) =>
+      onSelectFakeResultEnabled(!!parseInt(evt.target.value))
+    );
+  }
 
   // help:reformat
   {
