@@ -46,13 +46,13 @@
     });
   }
 
-  Config.load(Constants.CONFIG_THEME, (theme) => {
+  const onLoadTheme = (theme) => {
     for (let i = 0; i < oTheme.length; ++i) {
       oTheme[i].checked = oTheme[i].value == theme;
     }
     const themeApplied = applyTheme(null, theme);
     enableCheckboxImageFilter(themeApplied !== 'light');
-  });
+  };
 
   // wide
   const oWide = document.getElementsByClassName('option-wide');
@@ -64,32 +64,31 @@
     });
   }
 
-  Config.load(Constants.WIDE, (wide) => {
+  // wide
+  const onLoadWide = (wide) => {
     oWide[wide ? 1 : 0].checked = true;
     applyWide(null, wide);
-  });
+  };
 
   // status:pid
   // status:ptitle
   const oStatusPid = document.getElementById('option-status-pid');
   const oStatusTitle = document.getElementById('option-status-ptitle');
   oStatusPid.addEventListener('change', (evt) => {
-    console.log(evt.target.checked);
-    Config.save(Constants.CONFIG_SHOW_STATUS_PID, Boolean(oStatusPid.checked));
+    Config.save(Constants.CONFIG_SHOW_STATUS_PID, Boolean(evt.target.checked));
   });
   oStatusTitle.addEventListener('change', (evt) => {
-    console.log(evt.target.checked);
     Config.save(
       Constants.CONFIG_SHOW_STATUS_PTITLE,
-      Boolean(oStatusTitle.checked)
+      Boolean(evt.target.checked)
     );
   });
-  Config.load(Constants.CONFIG_SHOW_STATUS_PID, (isChecked) => {
-    oStatusPid.checked = !(isChecked === false); // default is true
-  });
-  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, (isChecked) => {
+  const onLoadShowStatusPid = (isChecked) => {
+    oStatusPid.checked = Utils.defaultAsTrue(isChecked);
+  };
+  const onLoadShowStatusPtitle = (isChecked) => {
     oStatusTitle.checked = Boolean(isChecked);
-  });
+  };
 
   // status:history
   const oStatusHistory = document.getElementsByClassName(
@@ -104,9 +103,9 @@
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, (showHistory) => {
+  const onLoadShowStatusHistory = (showHistory) => {
     oStatusHistory[Utils.defaultAsTrue(showHistory) ? 0 : 1].checked = true;
-  });
+  };
 
   // group:link
   const oGroupLink = document.getElementsByClassName('option-group-link');
@@ -119,19 +118,14 @@
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_GROUP_LINK, (showGroupLink) => {
+  const onLoadShowGroupLink = (showGroupLink) => {
     oGroupLink[showGroupLink ? 0 : 1].checked = true;
-  });
+  };
 
   // global:user-tier
   const oUserTier = document.getElementsByClassName('option-user-tier');
   for (let i = 0; i < oUserTier.length; ++i) {
     oUserTier[i].addEventListener('change', (evt) => {
-      console.log(
-        '[save] option-user-tier',
-        Constants.CONFIG_SHOW_USER_TIER,
-        !!parseInt(evt.target.value)
-      );
       Config.save(
         Constants.CONFIG_SHOW_USER_TIER,
         !!parseInt(evt.target.value)
@@ -139,14 +133,14 @@
     });
   }
 
-  Config.load(Constants.CONFIG_SHOW_USER_TIER, (showUserTier) => {
+  const onLoadShowUserTier = (showUserTier) => {
     console.log(
       '[load] option-user-tier',
       Constants.CONFIG_SHOW_USER_TIER,
       showUserTier
     );
     oUserTier[Utils.defaultAsTrue(showUserTier) ? 0 : 1].checked = true;
-  });
+  };
 
   // user:problem-tier
   const oProblemTier = document.getElementById('option-problem-tier');
@@ -167,46 +161,67 @@
       Boolean(oProblemTierColor.checked)
     );
   });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, (show) => {
+
+  const onLoadShowProblemTier = (show) => {
     oProblemTier.checked = !Utils.defaultAsTrue(show);
-  });
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR, (show) => {
+  };
+  const onLoadShowProblemTierColor = (show) => {
     oProblemTierColor.checked = show;
-  });
+  };
 
   // status:fake-text
   const oFakeText = document.getElementsByClassName('msg-code');
+  const bindLoadFakeTextEvent = (textInput) => (format) => {
+    if (format) {
+      textInput.value = format;
+      document.getElementById(
+        textInput.getAttribute('data-preview')
+      ).innerHTML = reformat(format);
+    }
+  };
   for (let i = 0; i < oFakeText.length; ++i) {
-    Config.load(oFakeText[i].getAttribute('name') + '-code', (format) => {
-      if (format) {
-        oFakeText[i].value = format;
-        document.getElementById(
-          oFakeText[i].getAttribute('data-preview')
-        ).innerHTML = reformat(format);
-      }
-    });
+    Config.load(
+      oFakeText[i].getAttribute('name') + '-code',
+      bindLoadFakeTextEvent(oFakeText[i])
+    );
 
     oFakeText[i].addEventListener('input', onReformatChanged);
     oFakeText[i].addEventListener('keyup', onReformatChanged);
   }
 
+  // input table for fake text
+  const tableFakeResult = document.getElementById('fake-result-table');
+
   // active button
-  const oFakeTextActive = document.getElementsByClassName(
+  const oFakeTextActives = document.getElementsByClassName(
     'option-status-result'
   );
-  for (let i = 0; i < oFakeTextActive.length; ++i) {
-    oFakeTextActive[i].addEventListener('change', (evt) => {
-      Config.save(
-        Constants.CONFIG_SHOW_FAKE_RESULT,
-        !!parseInt(evt.target.value)
-      );
-    });
-  }
 
-  Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, (showFakeResult) => {
+  const applyFakeResultTableState = (enabled) => {
+    if (enabled) {
+      tableFakeResult.removeAttribute('disabled');
+    } else {
+      tableFakeResult.setAttribute('disabled', '');
+    }
+  };
+
+  const onLoadShowFakeResult = (showFakeResult) => {
     console.log('CONFIG_SHOW_FAKE_RESULT', showFakeResult);
-    oFakeTextActive[Utils.defaultAsTrue(showFakeResult) ? 0 : 1].checked = true;
-  });
+    const enabled = Utils.defaultAsTrue(showFakeResult);
+    oFakeTextActives[enabled ? 0 : 1].checked = true;
+    applyFakeResultTableState(enabled);
+  };
+
+  const onSelectFakeResultEnabled = (enabled) => {
+    Config.save(Constants.CONFIG_SHOW_FAKE_RESULT, enabled);
+    applyFakeResultTableState(enabled);
+  };
+
+  for (let i = 0; i < oFakeTextActives.length; ++i) {
+    oFakeTextActives[i].addEventListener('change', (evt) =>
+      onSelectFakeResultEnabled(!!parseInt(evt.target.value))
+    );
+  }
 
   // help:reformat
   {
@@ -335,11 +350,178 @@
     Config.save(Constants.CONFIG_FONT_STYLE, JSON.stringify(rules));
   }
 
-  Config.load(Constants.CONFIG_FONT_STYLE, (rulesStr) => {
+  const onLoadFontStyle = (rulesStr) => {
     const rules = JSON.parse(rulesStr || '{}');
     console.log('font rules', rules);
     oFontFormURL.value = rules['url'] || '';
     oFontFormFamily.value = rules['family'] || '';
     enableFontStyleSetting(rules['enabled'] || false);
+  };
+
+  // load config from local storage
+  const ConfigLoaders = {
+    [Constants.CONFIG_FONT_STYLE]: onLoadFontStyle,
+    [Constants.CONFIG_SHOW_FAKE_RESULT]: onLoadShowFakeResult,
+    [Constants.CONFIG_SHOW_GROUP_LINK]: onLoadShowGroupLink,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR]: onLoadShowProblemTierColor,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER]: onLoadShowProblemTier,
+    [Constants.CONFIG_SHOW_STATUS_HISTORY]: onLoadShowStatusHistory,
+    [Constants.CONFIG_SHOW_STATUS_PID]: onLoadShowStatusPid,
+    [Constants.CONFIG_SHOW_STATUS_PTITLE]: onLoadShowStatusPtitle,
+    [Constants.CONFIG_SHOW_USER_TIER]: onLoadShowUserTier,
+    [Constants.CONFIG_THEME]: onLoadTheme,
+    [Constants.CONFIG_WIDE]: onLoadWide,
+  };
+
+  // load all configs when page loaded
+  Object.keys(ConfigLoaders).forEach((key) => {
+    Config.load(key, ConfigLoaders[key]);
+  });
+
+  const FIELDS_EXCLUDES = ['CONFIG_PREFIX', 'CONFIG_LOCATION_HISTORY'];
+  const FIELDS_PUBLIC = Object.keys(Constants).filter((key) => {
+    return key.startsWith('CONFIG_') && FIELDS_EXCLUDES.indexOf(key) === -1;
+  });
+  const FIELDS_FAKES = 'FAKE_RESULTS';
+
+  // export settings
+  const buttonExport = document.getElementById('btnExport');
+  buttonExport.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    console.log('export settings');
+
+    const exportAndDownloadFile = (exportData, filename) => {
+      const blob = new Blob([exportData], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = filename;
+      a.style.display = 'none';
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    };
+
+    // gather settings
+    Promise.all(FIELDS_PUBLIC.map((key) => Config.loadAsync(Constants[key])))
+      .then((values) => {
+        let isValid = Boolean(values);
+        isValid &= FIELDS_PUBLIC.length === values.length;
+        if (!isValid) {
+          console.error('export.keys', FIELDS_PUBLIC);
+          console.error('export.values', values);
+          throw new Error('Failed to load all config values to export');
+        }
+        return Array.from({ length: FIELDS_PUBLIC.length })
+          .map((_, i) => ({
+            key: FIELDS_PUBLIC[i].replace(/^CONFIG_/, ''),
+            value: values[i],
+          }))
+          .filter((item) => item.key !== null && item.value !== null)
+          .reduce(
+            (acc, cur) => ({
+              ...acc,
+              [cur.key]: cur.value,
+            }),
+            {}
+          );
+      })
+      .then((exportData) => {
+        // append fake result settings
+        const fakeTextElements = Array.from(oFakeText);
+        const fakeResults = fakeTextElements
+          .filter((element) => {
+            const type = element.getAttribute('name') || '';
+            return type.startsWith('result-') && element.value;
+          })
+          .map((element) => ({
+            type: element.getAttribute('name'),
+            value: element.value,
+          }))
+          .reduce((acc, cur) => ({ ...acc, [cur.type]: cur.value }), {});
+        return fakeResults.length === 0
+          ? exportData
+          : {
+              ...exportData,
+              [FIELDS_FAKES]: fakeResults,
+            };
+      })
+      .then((keyValueZipObject) => JSON.stringify(keyValueZipObject, null, 2))
+      .then((exportData) => {
+        exportAndDownloadFile(exportData, 'boj-extended-settings.json');
+      })
+      .catch((err) => {
+        console.error('export failed', err);
+        window.alert('내보내기에 실패했습니다.');
+      });
+  });
+
+  // import settings
+  const buttonImport = document.getElementById('btnImport');
+  buttonImport.addEventListener('click', (evt) => {
+    evt.preventDefault();
+    console.log('import settings');
+    const fileForm = document.createElement('input');
+    fileForm.setAttribute('type', 'file');
+    fileForm.setAttribute('accept', '.json');
+    fileForm.setAttribute('directory', false);
+
+    const importJSON = (settings) => {
+      console.log('settings', settings);
+      const saveTasks = Object.keys(settings)
+        .filter((key) => FIELDS_PUBLIC.indexOf('CONFIG_' + key) !== -1)
+        .map((key) => {
+          const configKey = Constants['CONFIG_' + key];
+          const configValue = settings[key];
+          console.log('import:', configKey, configValue);
+          const response = Config.saveAsync(configKey, configValue);
+          if (ConfigLoaders[configKey]) {
+            ConfigLoaders[configKey](configValue);
+          }
+          return response;
+        });
+
+      const applyFakeResults = (fakeResults) => {
+        Object.keys(fakeResults).forEach((key) => {
+          const target = document.querySelector(`[name="${key}"]`);
+          if (target) {
+            const value = fakeResults[key];
+            target.value = value;
+            onReformatChanged({ target });
+          }
+        });
+      };
+
+      Promise.all(saveTasks).then(() => {
+        // apply fake results
+        try {
+          const fakeResults = settings[FIELDS_FAKES];
+          if (fakeResults) {
+            applyFakeResults(fakeResults);
+          }
+        } catch (e) {
+          console.error('Importing fake results failed', e);
+        }
+        console.log('Import completed.');
+      });
+    };
+
+    fileForm.addEventListener('change', (evt) => {
+      const file = evt.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const content = e.target.result;
+          importJSON(JSON.parse(content));
+        } catch (e) {
+          console.error('Invalid JSON format', e);
+          window.alert('잘못된 파일 형식입니다.');
+        }
+      };
+      reader.readAsText(file);
+    });
+    fileForm.click();
+    return false;
   });
 })();
