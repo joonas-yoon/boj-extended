@@ -83,6 +83,14 @@ class ConfigModel {
     window.localStorage.removeItem(this.getKey(key));
   }
 
+  /** response of callback:
+   * {
+   *   1000: {title: 'A+B', level: 1},
+   *   1001: {title: 'A-B', level: 1},
+   *   1002: {title: '터렛', level: 8},
+   *   ...
+   * }
+   */
   getProblems(callback) {
     chrome.runtime.sendMessage(
       {
