@@ -75,14 +75,12 @@
   const oStatusPid = document.getElementById('option-status-pid');
   const oStatusTitle = document.getElementById('option-status-ptitle');
   oStatusPid.addEventListener('change', (evt) => {
-    console.log(evt.target.checked);
-    Config.save(Constants.CONFIG_SHOW_STATUS_PID, Boolean(oStatusPid.checked));
+    Config.save(Constants.CONFIG_SHOW_STATUS_PID, Boolean(evt.target.checked));
   });
   oStatusTitle.addEventListener('change', (evt) => {
-    console.log(evt.target.checked);
     Config.save(
       Constants.CONFIG_SHOW_STATUS_PTITLE,
-      Boolean(oStatusTitle.checked)
+      Boolean(evt.target.checked)
     );
   });
   const onLoadShowStatusPid = (isChecked) => {
@@ -362,28 +360,17 @@
 
   // load config from local storage
   const ConfigLoaders = {
-    [Constants.CONFIG_THEME]: onLoadTheme,
-    [Constants.CONFIG_WIDE]: onLoadWide,
+    [Constants.CONFIG_FONT_STYLE]: onLoadFontStyle,
+    [Constants.CONFIG_SHOW_FAKE_RESULT]: onLoadShowFakeResult,
+    [Constants.CONFIG_SHOW_GROUP_LINK]: onLoadShowGroupLink,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR]: onLoadShowProblemTierColor,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER]: onLoadShowProblemTier,
+    [Constants.CONFIG_SHOW_STATUS_HISTORY]: onLoadShowStatusHistory,
     [Constants.CONFIG_SHOW_STATUS_PID]: onLoadShowStatusPid,
     [Constants.CONFIG_SHOW_STATUS_PTITLE]: onLoadShowStatusPtitle,
-    [Constants.CONFIG_SHOW_STATUS_HISTORY]: onLoadShowStatusHistory,
-    [Constants.CONFIG_SHOW_GROUP_LINK]: onLoadShowGroupLink,
     [Constants.CONFIG_SHOW_USER_TIER]: onLoadShowUserTier,
-    [Constants.CONFIG_SHOW_PROBLEM_TIER]: onLoadShowProblemTier,
-    [Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR]: onLoadShowProblemTierColor,
-    [Constants.CONFIG_SHOW_FAKE_RESULT]: onLoadShowFakeResult,
-    [Constants.CONFIG_FONT_STYLE]: onLoadFontStyle,
     [Constants.CONFIG_THEME]: onLoadTheme,
     [Constants.CONFIG_WIDE]: onLoadWide,
-    [Constants.CONFIG_SHOW_STATUS_PID]: onLoadShowStatusPid,
-    [Constants.CONFIG_SHOW_STATUS_PTITLE]: onLoadShowStatusPtitle,
-    [Constants.CONFIG_SHOW_STATUS_HISTORY]: onLoadShowStatusHistory,
-    [Constants.CONFIG_SHOW_GROUP_LINK]: onLoadShowGroupLink,
-    [Constants.CONFIG_SHOW_USER_TIER]: onLoadShowUserTier,
-    [Constants.CONFIG_SHOW_PROBLEM_TIER]: onLoadShowProblemTier,
-    [Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR]: onLoadShowProblemTierColor,
-    [Constants.CONFIG_SHOW_FAKE_RESULT]: onLoadShowFakeResult,
-    [Constants.CONFIG_FONT_STYLE]: onLoadFontStyle,
   };
 
   // load all configs when page loaded
@@ -395,49 +382,78 @@
   const FIELDS_PUBLIC = Object.keys(Constants).filter((key) => {
     return key.startsWith('CONFIG_') && FIELDS_EXCLUDES.indexOf(key) === -1;
   });
+  const FIELDS_FAKES = 'FAKE_RESULTS';
 
   // export settings
   const buttonExport = document.getElementById('btnExport');
   buttonExport.addEventListener('click', (evt) => {
     evt.preventDefault();
     console.log('export settings');
-    Promise.all(
-      FIELDS_PUBLIC.map((key) => Config.loadAsync(Constants[key]))
-    ).then((values) => {
-      let isValid = Boolean(values);
-      isValid &= FIELDS_PUBLIC.length === values.length;
-      if (!isValid) {
-        window.alert('내보내기에 실패했습니다.');
-        console.error('export.keys', FIELDS_PUBLIC);
-        console.error('export.values', values);
-        return;
-      }
-      const keyValueZipObject = Array.from({ length: FIELDS_PUBLIC.length })
-        .map((_, i) => ({
-          key: FIELDS_PUBLIC[i].replace(/^CONFIG_/, ''),
-          value: values[i],
-        }))
-        .filter((item) => item.key !== null && item.value !== null)
-        .reduce(
-          (acc, cur) => ({
-            ...acc,
-            [cur.key]: cur.value,
-          }),
-          {}
-        );
-      const exportData = JSON.stringify(keyValueZipObject, null, 2);
-      console.log('exportData', exportData);
-      // save to local file to user pc
+
+    const exportAndDownloadFile = (exportData, filename) => {
       const blob = new Blob([exportData], { type: 'application/json' });
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'boj-extended-settings.json';
+      a.download = filename;
       a.style.display = 'none';
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
-    });
+    };
+
+    // gather settings
+    Promise.all(FIELDS_PUBLIC.map((key) => Config.loadAsync(Constants[key])))
+      .then((values) => {
+        let isValid = Boolean(values);
+        isValid &= FIELDS_PUBLIC.length === values.length;
+        if (!isValid) {
+          console.error('export.keys', FIELDS_PUBLIC);
+          console.error('export.values', values);
+          throw new Error('Failed to load all config values to export');
+        }
+        return Array.from({ length: FIELDS_PUBLIC.length })
+          .map((_, i) => ({
+            key: FIELDS_PUBLIC[i].replace(/^CONFIG_/, ''),
+            value: values[i],
+          }))
+          .filter((item) => item.key !== null && item.value !== null)
+          .reduce(
+            (acc, cur) => ({
+              ...acc,
+              [cur.key]: cur.value,
+            }),
+            {}
+          );
+      })
+      .then((exportData) => {
+        // append fake result settings
+        const fakeTextElements = Array.from(oFakeText);
+        const fakeResults = fakeTextElements
+          .filter((element) => {
+            const type = element.getAttribute('name') || '';
+            return type.startsWith('result-') && element.value;
+          })
+          .map((element) => ({
+            type: element.getAttribute('name'),
+            value: element.value,
+          }))
+          .reduce((acc, cur) => ({ ...acc, [cur.type]: cur.value }), {});
+        return fakeResults.length === 0
+          ? exportData
+          : {
+              ...exportData,
+              [FIELDS_FAKES]: fakeResults,
+            };
+      })
+      .then((keyValueZipObject) => JSON.stringify(keyValueZipObject, null, 2))
+      .then((exportData) => {
+        exportAndDownloadFile(exportData, 'boj-extended-settings.json');
+      })
+      .catch((err) => {
+        console.error('export failed', err);
+        window.alert('내보내기에 실패했습니다.');
+      });
   });
 
   // import settings
@@ -449,39 +465,63 @@
     fileForm.setAttribute('type', 'file');
     fileForm.setAttribute('accept', '.json');
     fileForm.setAttribute('directory', false);
-    fileForm.click();
+
+    const importJSON = (settings) => {
+      console.log('settings', settings);
+      const saveTasks = Object.keys(settings)
+        .filter((key) => FIELDS_PUBLIC.indexOf('CONFIG_' + key) !== -1)
+        .map((key) => {
+          const configKey = Constants['CONFIG_' + key];
+          const configValue = settings[key];
+          console.log('import:', configKey, configValue);
+          const response = Config.saveAsync(configKey, configValue);
+          if (ConfigLoaders[configKey]) {
+            ConfigLoaders[configKey](configValue);
+          }
+          return response;
+        });
+
+      const applyFakeResults = (fakeResults) => {
+        Object.keys(fakeResults).forEach((key) => {
+          const target = document.querySelector(`[name="${key}"]`);
+          if (target) {
+            const value = fakeResults[key];
+            target.value = value;
+            onReformatChanged({ target });
+          }
+        });
+      };
+
+      Promise.all(saveTasks).then(() => {
+        // apply fake results
+        try {
+          const fakeResults = settings[FIELDS_FAKES];
+          if (fakeResults) {
+            applyFakeResults(fakeResults);
+          }
+        } catch (e) {
+          console.error('Importing fake results failed', e);
+        }
+        console.log('Import completed.');
+      });
+    };
+
     fileForm.addEventListener('change', (evt) => {
       const file = evt.target.files[0];
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = (e) => {
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
           const content = e.target.result;
-          try {
-            const settings = JSON.parse(content);
-            console.log('settings', settings);
-            const saveTasks = Object.keys(settings)
-              .filter((key) => FIELDS_PUBLIC.indexOf('CONFIG_' + key) !== -1)
-              .map((key) => {
-                const configKey = Constants['CONFIG_' + key];
-                const configValue = settings[key];
-                console.log('import:', configKey, configValue);
-                const response = Config.saveAsync(configKey, configValue);
-                if (ConfigLoaders[configKey]) {
-                  ConfigLoaders[configKey](configValue);
-                }
-                return response;
-              });
-            Promise.all(saveTasks).then(() => {
-              console.log('Import completed.');
-            });
-          } catch (e) {
-            console.error('Invalid JSON format', e);
-            window.alert('잘못된 파일 형식입니다.');
-          }
-        };
-        reader.readAsText(file);
-      }
+          importJSON(JSON.parse(content));
+        } catch (e) {
+          console.error('Invalid JSON format', e);
+          window.alert('잘못된 파일 형식입니다.');
+        }
+      };
+      reader.readAsText(file);
     });
+    fileForm.click();
     return false;
   });
 })();
