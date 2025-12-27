@@ -29,6 +29,14 @@ class ConfigModel {
     window.localStorage.setItem(this.getKey(key), value);
   }
 
+  async saveAsync(key, value) {
+    return new Promise((resolve) => {
+      this.save(key, value, (result) => {
+        resolve(result);
+      });
+    });
+  }
+
   load(key, callback) {
     if (chrome.runtime.lastError) {
       console.warn(chrome.runtime.lastError.message);

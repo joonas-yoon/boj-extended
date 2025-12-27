@@ -345,20 +345,35 @@
   };
 
   // load config from local storage
-  Config.load(Constants.CONFIG_THEME, onLoadTheme);
-  Config.load(Constants.CONFIG_WIDE, onLoadWide);
-  Config.load(Constants.CONFIG_SHOW_STATUS_PID, onLoadShowStatusPid);
-  Config.load(Constants.CONFIG_SHOW_STATUS_PTITLE, onLoadShowStatusPtitle);
-  Config.load(Constants.CONFIG_SHOW_STATUS_HISTORY, onLoadShowStatusHistory);
-  Config.load(Constants.CONFIG_SHOW_GROUP_LINK, onLoadShowGroupLink);
-  Config.load(Constants.CONFIG_SHOW_USER_TIER, onLoadShowUserTier);
-  Config.load(Constants.CONFIG_SHOW_PROBLEM_TIER, onLoadShowProblemTier);
-  Config.load(
-    Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR,
-    onLoadShowProblemTierColor
-  );
-  Config.load(Constants.CONFIG_SHOW_FAKE_RESULT, onLoadShowFakeResult);
-  Config.load(Constants.CONFIG_FONT_STYLE, onLoadFontStyle);
+  const ConfigLoaders = {
+    [Constants.CONFIG_THEME]: onLoadTheme,
+    [Constants.CONFIG_WIDE]: onLoadWide,
+    [Constants.CONFIG_SHOW_STATUS_PID]: onLoadShowStatusPid,
+    [Constants.CONFIG_SHOW_STATUS_PTITLE]: onLoadShowStatusPtitle,
+    [Constants.CONFIG_SHOW_STATUS_HISTORY]: onLoadShowStatusHistory,
+    [Constants.CONFIG_SHOW_GROUP_LINK]: onLoadShowGroupLink,
+    [Constants.CONFIG_SHOW_USER_TIER]: onLoadShowUserTier,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER]: onLoadShowProblemTier,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR]: onLoadShowProblemTierColor,
+    [Constants.CONFIG_SHOW_FAKE_RESULT]: onLoadShowFakeResult,
+    [Constants.CONFIG_FONT_STYLE]: onLoadFontStyle,
+    [Constants.CONFIG_THEME]: onLoadTheme,
+    [Constants.CONFIG_WIDE]: onLoadWide,
+    [Constants.CONFIG_SHOW_STATUS_PID]: onLoadShowStatusPid,
+    [Constants.CONFIG_SHOW_STATUS_PTITLE]: onLoadShowStatusPtitle,
+    [Constants.CONFIG_SHOW_STATUS_HISTORY]: onLoadShowStatusHistory,
+    [Constants.CONFIG_SHOW_GROUP_LINK]: onLoadShowGroupLink,
+    [Constants.CONFIG_SHOW_USER_TIER]: onLoadShowUserTier,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER]: onLoadShowProblemTier,
+    [Constants.CONFIG_SHOW_PROBLEM_TIER_COLOR]: onLoadShowProblemTierColor,
+    [Constants.CONFIG_SHOW_FAKE_RESULT]: onLoadShowFakeResult,
+    [Constants.CONFIG_FONT_STYLE]: onLoadFontStyle,
+  };
+
+  // load all configs when page loaded
+  Object.keys(ConfigLoaders).forEach((key) => {
+    Config.load(key, ConfigLoaders[key]);
+  });
 
   const FIELDS_EXCLUDES = ['CONFIG_PREFIX', 'CONFIG_LOCATION_HISTORY'];
   const FIELDS_PUBLIC = Object.keys(Constants).filter((key) => {
@@ -383,7 +398,7 @@
       }
       const keyValueZipObject = Array.from({ length: FIELDS_PUBLIC.length })
         .map((_, i) => ({
-          key: FIELDS_PUBLIC[i],
+          key: FIELDS_PUBLIC[i].replace(/^CONFIG_/, ''),
           value: values[i],
         }))
         .filter((item) => item.key !== null && item.value !== null)
@@ -428,11 +443,24 @@
           try {
             const settings = JSON.parse(content);
             console.log('settings', settings);
-            // Config.saveAll(settings, () => {
-            //   window.location.reload();
-            // });
+            const saveTasks = Object.keys(settings)
+              .filter((key) => FIELDS_PUBLIC.indexOf('CONFIG_' + key) !== -1)
+              .map((key) => {
+                const configKey = Constants['CONFIG_' + key];
+                const configValue = settings[key];
+                console.log('import:', configKey, configValue);
+                const response = Config.saveAsync(configKey, configValue);
+                if (ConfigLoaders[configKey]) {
+                  ConfigLoaders[configKey](configValue);
+                }
+                return response;
+              });
+            Promise.all(saveTasks).then(() => {
+              console.log('Import completed.');
+            });
           } catch (e) {
             console.error('Invalid JSON format', e);
+            window.alert('잘못된 파일 형식입니다.');
           }
         };
         reader.readAsText(file);
