@@ -8,7 +8,11 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
+      "matches": [
+        "https://www.acmicpc.net/?",
+        "https://www.acmicpc.net/*",
+        "https://acmicpc.net/*"
+      ],
       "all_frames": true,
       "css": [
         "css/common.css",
@@ -29,7 +33,11 @@
       ]
     },
     {
-      "matches": ["https://www.acmicpc.net/?", "https://www.acmicpc.net/*"],
+      "matches": [
+        "https://www.acmicpc.net/?",
+        "https://www.acmicpc.net/*",
+        "https://acmicpc.net/*"
+      ],
       "all_frames": true,
       "js": [
         "js/features/status/all.js",
@@ -45,7 +53,10 @@
       ]
     },
     {
-      "matches": ["https://www.acmicpc.net/submit/*"],
+      "matches": [
+        "https://www.acmicpc.net/submit/*",
+        "https://acmicpc.net/submit/*"
+      ],
       "all_frames": true,
       "run_at": "document_start",
       "js": ["js/third/pako.js", "js/third/tio.js", "js/features/test.js"]
@@ -88,6 +99,7 @@
   "host_permissions": [
     "https://www.acmicpc.net/?",
     "https://www.acmicpc.net/*",
+    "https://acmicpc.net/*",
     "https://solved.ac/api/v3/*"
   ],
   "content_security_policy": {
