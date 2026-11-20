@@ -168,7 +168,7 @@ function extendVs() {
     }
 
     function fetchProblems(username, response) {
-      fetch('https://www.acmicpc.net/user/' + username)
+      fetch('/user/' + username)
         .catch((error) => {
           console.log(error);
           alert('존재하지 않거나 잘못된 아이디입니다.');
