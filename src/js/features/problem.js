@@ -57,7 +57,7 @@ function extendProblemPage() {
   }
 
   async function getProblemQuestionDoc() {
-    return fetch(`https://www.acmicpc.net/board/search/all/problem/${pid}`)
+    return fetch(`/board/search/all/problem/${pid}`)
       .then((res) => res.text())
       .then((html) => new DOMParser().parseFromString(html, 'text/html'))
       .catch((err) => {
